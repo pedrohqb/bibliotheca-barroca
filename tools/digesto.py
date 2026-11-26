@@ -196,7 +196,7 @@ def paginas(cid, pasta):
             req = urllib.request.Request(SCAN.format(n), headers={'User-Agent': 'BibliothecaBarroca/1.0'})
             open(jpg, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
         im = Image.open(jpg).convert('L'); w, h = im.size
-        x0, x1 = (0, int(w * .93)) if n % 2 == 0 else (int(w * .05), int(w * .99))
+        x0, x1 = (0, int(w * .97)) if n % 2 == 0 else (int(w * .03), w)
         y0, y1 = int(h * .05), int(h * .80); mid = (x0 + x1) // 2; ym = (y0 + y1) // 2
         for nm, box in [('c1a', (x0, y0, mid + 20, ym + 30)), ('c1b', (x0, ym - 30, mid + 20, y1)),
                         ('c2a', (mid - 20, y0, x1, ym + 30)), ('c2b', (mid - 20, ym - 30, x1, y1)),
