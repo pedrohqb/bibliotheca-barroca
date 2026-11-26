@@ -124,5 +124,11 @@
     "formas": ["lex nova", "legem novam", "novamque legem", "lex gratiae"],
     "pt": ["lei nova", "lei da graça"],
     "nota": "\"Lei nova\" e \"lei antiga\" (*lex vetus*); *lex gratiae*, \"lei da graça\"."
+  },
+  {
+    "lema": "concupiscentia",
+    "formas": ["concupiscentia", "concupiscentiae", "concupiscentiam", "concupiscentialis"],
+    "pt": ["concupiscência"],
+    "nota": "\"Concupiscência\": o apetite desordenado que vem do pecado original. O adjetivo *concupiscentialis* vai como \"da concupiscência\" (cap. 10: *concupiscentialis rixae*, \"luta da concupiscência\")."
   }
 ]
