@@ -27,7 +27,7 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 O Codex segue com o modelo e o esforço padrão (`high`). Pendência que seja só a conferência de remissões que o revisor não consegue abrir (INCONCLUSIVO sem objeção de tradução) não deve segurar rodadas: é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
 
-Como aplicar: o `decidir.py` conta INCONCLUSIVO como discordância e só libera a rodada final antes do teto com unanimidade. Por isso, a partir do `t1-d001-s02` os debates usam `--max-rodadas 3` (R1 e R2 de mérito, R2 como teto, R3 final), uma rodada a menos que no Proêmio. No Proêmio, todas as objeções de tradução se resolveram na R2. O `t1-d001-s01` continua com 4 rodadas, porque a R1 já foi congelada assim e o motor não aceita mudar no meio.
+Como aplicar (decisão do Pedro, mantidas as 4 rodadas): o caso de cada debate desta obra traz a seção "Remissões não acessíveis" (`obras/onate-de-contractibus/caso-extra.md`, que o `tools/debate.mjs preparar` junta ao caso desde 2026-11-26): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO, vai numa linha "Remissões não conferidas" e não se busca de novo nas rodadas seguintes.
 
 ## Pontos em aberto para o Pedro
 
@@ -46,4 +46,4 @@ Nenhuma pendente. O glossário inicial (18 termos; o resumo do Proêmio diz 17 p
 
 ## Próximo passo
 
-Depois das 15:10 de 2026-11-26: retomar o debate do `t1-d001-s01` rodando de novo o Codex na R1 (`rodada.py codex "<pasta>" 1`; o Gemini já respondeu). Depois, aplicar, publicar e seguir o lote com `t1-d001-s02` (pp. 4–5).
+Depois das 15:10 de 2026-11-26: abrir um debate **novo** para o `t1-d001-s01` (pasta `2026-11-26-bib-t1-d001-s01-b`), para que o caso traga a instrução sobre remissões; o debate antigo (R1 congelada sem ela, Codex sem resposta, Gemini com resposta) fica abandonado e é citado no resumo. Depois, aplicar, publicar e seguir o lote com `t1-d001-s02` (pp. 4–5).

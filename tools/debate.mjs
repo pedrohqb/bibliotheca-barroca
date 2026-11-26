@@ -23,20 +23,23 @@ if (cmd === 'preparar') {
   fs.mkdirSync(pasta, { recursive: true });
   for (const f of ['caso.md', 'minuta-v1.md']) if (fs.existsSync(path.join(pasta, f))) { console.error(`${f} já existe em ${pasta}: use uma pasta nova`); process.exit(1); }
   const b = o.meta.edicao_base, la = c.la.meta, pt = c.pt.meta;
+  const pag = o.meta.referencia === 'pagina', ref = pag ? 'p.' : 'col.';
+  const extra = path.join(o.dir, 'caso-extra.md'); // instruções de debate próprias da obra (opcional)
   const caso = [
     `# Revisão de tradução: ${o.meta.autor}, ${o.meta.titulo}${la.tomo ? ', tomo ' + la.tomo : ''} — ${la.livro ? la.livro + ', ' : ''}${la.capitulo}`,
     '## Obra e edição de base',
-    `${o.meta.autor}, *${o.meta.titulo}*. ${b.titulo}. ${b.local}: ${b.impressor}, ${b.ano}. Exemplar: ${b.exemplar} (${b.urn}). Colunas ${la.colunas}. Scan: ${la.scan}`,
+    `${o.meta.autor}, *${o.meta.titulo}*. ${b.titulo}. ${b.local}: ${b.impressor}, ${b.ano}. Exemplar: ${b.exemplar}${b.urn ? ` (${b.urn})` : ''}. ${pag ? 'Páginas' : 'Colunas'} ${la.colunas}. Scan: ${la.scan}`,
     `Título do capítulo: *${la.titulo}* — tradução proposta: "${pt.titulo}"`,
     fs.readFileSync(path.join(RAIZ, 'debate', 'caso-criterios.md'), 'utf8').trim(),
+    ...(fs.existsSync(extra) ? [fs.readFileSync(extra, 'utf8').trim()] : []),
     '## Glossário fixado para a obra',
     o.glossario.map(g => `- **${g.lema}** (formas: ${g.formas.join(', ')}) → ${g.pt.join(' / ')}. ${g.nota}`).join('\n'),
     '## Formato da minuta',
-    'Cada trecho começa por "## § n (col. …)" e traz, nesta ordem, **Latim.** (fixo), **Margem.** (notas marginais da impressão, quando há), **Tradução.** e **Nota.** (notas do tradutor, uma por linha). Alterações mexem só em **Tradução.** e **Nota.**.'
+    `Cada trecho começa por "## § n (${ref} …)" e traz, nesta ordem, **Latim.** (fixo), **Margem.** (notas marginais da impressão, quando há), **Tradução.** e **Nota.** (notas do tradutor, uma por linha). Alterações mexem só em **Tradução.** e **Nota.**.`
   ].join('\n\n') + '\n';
   const minuta = [`# ${pt.capitulo}. ${pt.titulo}`, ...c.la.trechos.map((t, i) => {
     const p = c.pt.trechos[i];
-    return [`## § ${t.id.slice(1)} (col. ${t.col})`, `**Latim.** ${t.texto}`,
+    return [`## § ${t.id.slice(1)} (${ref} ${t.col})`, `**Latim.** ${t.texto}`,
       ...t.margem.map(m => `**Margem.** ${m}`), `**Tradução.** ${p.texto}`, ...p.notas.map(n => `**Nota.** ${n}`)].join('\n\n');
   })].join('\n\n') + '\n';
   fs.writeFileSync(path.join(pasta, 'caso.md'), caso);
