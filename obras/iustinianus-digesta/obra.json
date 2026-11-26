@@ -2,7 +2,7 @@
   "id": "iustinianus-digesta",
   "autor": "Iustinianus Augustus",
   "autor_pt": "Justiniano",
-  "titulo": "Digesta",
+  "titulo": "Digesta seu Pandectae",
   "titulo_pt": "Digesto",
   "descricao": "O Digesto ou Pandectas de Justiniano (533): cinquenta livros de excertos dos jurisconsultos romanos, de Quinto Múcio a Modestino, organizados por títulos. Base do direito civil europeu e brasileiro. Latim da edição de Mommsen e Krueger; tradução portuguesa nova, título a título.",
   "referencia": "lei",
@@ -32,5 +32,6 @@
     "Espanhol: Ildefonso L. García del Corral, *Cuerpo del derecho civil romano*, 1ª parte, *Instituta* e *Digesto*, 3 tomos (Barcelona, Jaime Molinas, 1889-1897).",
     "Inglês: Charles Henry Monro, *The Digest of Justinian*, 2 vols., livros 1 a 15 (Cambridge University Press, 1904-1909); Samuel Parsons Scott, *The Civil Law*, vols. II-XI (Cincinnati, Central Trust, 1932).",
     "Cada capítulo indica, no cabeçalho, as traduções efetivamente cotejadas no título. A tradução portuguesa é feita do latim; as demais servem ao cotejo, e as divergências de sentido entre elas vão em nota."
-  ]
+  ],
+  "rotulo_edicao": "533 · ed. Mommsen e Krueger, Berlim, 1889"
 }

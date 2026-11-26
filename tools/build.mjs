@@ -70,7 +70,7 @@ escrever('index.html', pagina({
 <p class="lead">${esc(SITE.descricao)}</p>
 ${obras.map(o => `<section class="obra">
 <div><p class="aut">${esc(o.meta.autor_pt || o.meta.autor)}</p><h2><a href="${o.id}/index.html">${esc(o.meta.titulo)}</a></h2>
-<p class="ui" style="font-size:14px;color:var(--mute)">${esc(o.meta.edicao_base.local_pt || o.meta.edicao_base.local)}, ${esc(o.meta.edicao_base.ano)}</p></div>
+<p class="ui" style="font-size:14px;color:var(--mute)">${o.meta.rotulo_edicao ? esc(o.meta.rotulo_edicao) : `${esc(o.meta.edicao_base.local_pt || o.meta.edicao_base.local)}, ${esc(o.meta.edicao_base.ano)}`}</p></div>
 <div><p>${esc(o.meta.descricao)}</p>
 <ul class="caps">${o.capitulos.slice(-5).reverse().map(c => `<li><a class="ct" href="${o.id}/${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>
 <p class="ui" style="font-size:14px;margin-top:12px">${o.capitulos.length > 5 ? `Últimos capítulos publicados. ` : ''}<a href="${o.id}/index.html">Todos os ${o.capitulos.length} capítulos →</a></p></div>
