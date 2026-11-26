@@ -35,5 +35,7 @@ for k in sorted(idx, key=chave):
     if best is not None:
         if t not in desloc: desloc[t] = best - e['pagina']
         res[k] = {'tomo': t, 'pag_ocr': min(best, len(pages) - 1), 'estimado': est}
+ant = json.load(open(f'{A}/fr-indice.json')) if os.path.exists(f'{A}/fr-indice.json') else {}
+res.update({k: v for k, v in ant.items() if v.get('conferido')})  # posições conferidas à mão prevalecem
 json.dump(res, open(f'{A}/fr-indice.json', 'w'), indent=0)
 print(len(res), 'títulos localizados nos tomos', sorted(tomos))
