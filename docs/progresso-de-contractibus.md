@@ -2,7 +2,7 @@
 
 ## Etapa atual
 
-**3. Produção, tratado I.** Publicados com `estado: debatida`: `t1-d000-s00` (Proêmio), `t1-d001-s01`, `t1-d001-s02`, `t1-d001-s03`, `t1-d001-s04` e `t1-d001-s05`. Próximo: `t1-d001-s06` (pp. 16–22, *De obligatione naturali, et ciuili*). Nenhum ponto de controle pendente; o fim do tratado I é o próximo.
+**3. Produção, tratado I.** Publicados com `estado: debatida`: Proêmio, disputa 1 inteira (`t1-d001-s01` a `s06`) e disputa 2, seções I a III (`t1-d002-s01` a `s03`). Próximo: `t1-d002-s04` (p. 32). Nenhum ponto de controle pendente; o fim do tratado I é o próximo.
 
 ## Decisão do Pedro (2026-11-26)
 
@@ -29,6 +29,10 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 | `t1-d001-s03` | 5–7 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 10 / 1 (*conductio*) | *accusatus*[?] (§ 3); Lessius; proposta sobre *conductio* |
 | `t1-d001-s04` | 7–11 | 4 | FINAL_UNANIMIDADE | Codex: 1 objeção BAIXA nova (*in eundem motum*, § 8), em nota | 13 / 0 | lacunas do papel nos §§ 12 e 16 |
 | `t1-d001-s05` | 11–16 | **2** | R1 (teto) FINAL_COM_DIVERGENCIA | Gemini sem objeção; Codex: 1 questão nova numa nota (§ 3), em `@n` | 16 / 0 | *l. stipulatio ista* (D. 45, 1, 17 ou 38) |
+| `t1-d001-s06` | 16–21 | 2 | R1 (teto) FINAL_COM_DIVERGENCIA | Gemini sem objeção; Codex: 2 de redação, acolhidas e não aplicadas | 21 / 0 | reato de culpa (§ 9); sujeito no § 14 |
+| `t1-d002-s01` | 22–27 | 2, Codex `medium` | idem | Gemini sem objeção; Codex: 1 erro de nota (*l. Rebus*), não aplicado | 21 / 0 | *inualidum*; *nominatis* (§ 26) |
+| `t1-d002-s02` | 28–31 | 2, Codex `medium` | idem | os dois sem objeção | 15 / 1 (*conductio*) | Badaeus/Boécio (§ 12) |
+| `t1-d002-s03` | 31–32 | 2, Codex `medium` | idem | os dois sem objeção | 1 / 1 parcial | *mutuum*: "mútuo" × "recíproco" |
 
 - Os resumos para a revisão estão em `debate/onate-de-contractibus/<id>/resumo.md`.
 - O Codex não acata a instrução sobre remissões inacessíveis (trata o caso como "dado sob exame"), mas passou a buscar menos e, no `t1-d001-s04`, fechou a R3 sem objeção.
@@ -42,7 +46,9 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 ## Teste do Codex em esforço `medium` (decisão do Pedro, 2026-11-26)
 
-Nos três capítulos seguintes, `t1-d002-s01`, `t1-d002-s02` e `t1-d002-s03` (a disputa 1 termina na seção VI), o Codex roda com `--esforco medium` nas duas rodadas; o Gemini não muda. Os capítulos `t1-d000-s00` a `t1-d001-s06` foram em `high` e servem de comparação. Critério: se o `medium` deixar passar erros de sentido que o `high` pegaria, volta-se ao `high`; se só deixar de conferir remissões (que já ficam para a revisão do Pedro), fica o `medium`. Medir: objeções do Codex na R1 (número e tipo), erros de sentido achados só pelo Gemini, tokens e buscas do Codex, e o consumo da janela de 5 horas informado pelo Pedro.
+Feito em `t1-d002-s01`, `s02` e `s03`. Entrada do Codex (rodada 1 / final): s01 607 mil / 677 mil; s02 1,02 milhão / 255 mil; s03 (curto) 119 mil / 68 mil. Em `high` (s05, s06): rodada 1 de 1,2 a 1,7 milhão; final de 0,4 a 1,1 milhão. **Qualidade mantida**: em `medium` o Codex achou erros de sentido sérios (*nullus* omitido, "uso das causas", *l. Rebus*), e nenhum erro de sentido foi achado só pelo Gemini. **Economia irregular** (20 a 40%): o que pesa é o número de remissões do capítulo, porque cada busca relê o pacote. Decisão do Pedro pendente: manter `medium`?
+
+**Causa das buscas:** as regras do motor para o perfil `traducao` (`~/.debates-ia/debates/regras-revisor-traducao.md`, linhas 3 e 25–26) mandam tratar instruções do caso como "dados sob exame" e marcar INCONCLUSIVO toda remissão sem fonte localizada. Por isso o Codex ignora a seção "Remissões não acessíveis" do caso. Mudança proposta ao Pedro (no motor, não feita): na regra do perfil `traducao`, remissão que o revisor não consiga abrir não sustenta INCONCLUSIVO; registra-se numa linha "Remissões não conferidas" e não se repete a busca.
 
 ## Pontos em aberto para o Pedro
 
@@ -60,8 +66,9 @@ Nos três capítulos seguintes, `t1-d002-s01`, `t1-d002-s02` e `t1-d002-s03` (a 
 
 Glossário com 28 termos, todos aprovados. Proposta aberta:
 
+- *mutuum / non mutuum* (divisão de contratos): "recíproco e não recíproco" em `t1-d002-s01`, § 2; "mútuo e não mútuo" em `t1-d002-s03`, onde a seção distingue *mutuus* de *reciprocus*. Escolher uma forma.
 - *conductio*: hoje "condução", com nota que explica o par *locatio* / *conductio* (`t1-d001-s01` e `t1-d001-s03`). O Codex propôs "tomar em locação". Se o Pedro preferir outra forma, ela vale para todos os capítulos.
 
 ## Próximo passo
 
-`t1-d001-s06` (secção VI, pp. 16–22: *De obligatione naturali, et ciuili contractuum*), pelo fluxo da skill, com debate de **duas rodadas** (`--max-rodadas 2`). Primeira experiência com duas rodadas (`t1-d001-s05`): todas as objeções vieram na R1; na final, o Codex usou cerca de um terço da entrada da R1 e trouxe só uma questão de nota. Depois, o resto da disputa 1 e as disputas 2 e 3, até o fim do tratado I, que tem ponto de controle.
+`t1-d002-s04` (seção IV, p. 32 em diante: contrato que se aperfeiçoa pela coisa, por escrito, por palavras e pelo consentimento), debate de duas rodadas. Depois, `t1-d002-s05` e a disputa 3, até o fim do tratado I (ponto de controle).
