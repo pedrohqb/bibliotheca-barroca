@@ -2167,6 +2167,4106 @@
       "colunas": "975-980",
       "paginas": "493-495",
       "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892675"
+    },
+    {
+      "id": "t1-hp-00",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio in Pelagium",
+      "colunas": "s. n.",
+      "paginas": "16-19",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872503"
+    },
+    {
+      "id": "t1-hp1-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber I",
+      "capitulo": "Historia",
+      "titulo": "Historia de haeresi Pelagiana",
+      "colunas": "1-92",
+      "paginas": "20-66",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872508"
+    },
+    {
+      "id": "t1-hp2-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput primum",
+      "titulo": "De libero arbitrio.",
+      "colunas": "91-98",
+      "paginas": "66-69",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888904"
+    },
+    {
+      "id": "t1-hp2-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput secundum",
+      "titulo": "In libertate arbitrij imago Dei, ideo inamissibilis. Quaedam de naturali possibilitate boni.",
+      "colunas": "97-102",
+      "paginas": "69-71",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888920"
+    },
+    {
+      "id": "t1-hp2-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput tertium",
+      "titulo": "De viribus liberi arbitrij quibus omnes motus animi bonos ac malos compesceret suo nutu et moderaretur.",
+      "colunas": "101-104",
+      "paginas": "71-72",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872561"
+    },
+    {
+      "id": "t1-hp2-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput quartum",
+      "titulo": "Indeliberatos animi motus bonos ac malos, salva manente libertate admittunt Pelagiani.",
+      "colunas": "103-106",
+      "paginas": "72-73",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872563"
+    },
+    {
+      "id": "t1-hp2-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput quintum",
+      "titulo": "Idem uberius ex principijs Pelagianorum declaratur de motibus bonis.",
+      "colunas": "107-110",
+      "paginas": "74-75",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872566"
+    },
+    {
+      "id": "t1-hp2-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput sextum",
+      "titulo": "Ad quos effectus se extenderit illa liberi arbitrij possibilitas.",
+      "colunas": "111-112",
+      "paginas": "76-76",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872569"
+    },
+    {
+      "id": "t1-hp2-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput septimum",
+      "titulo": "Quo gratiae adjutorio fultus fuerit Adam. Et primo de gratia habituali.",
+      "colunas": "111-114",
+      "paginas": "76-77",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872570"
+    },
+    {
+      "id": "t1-hp2-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput octavum",
+      "titulo": "De scientia primi hominis.",
+      "colunas": "113-114",
+      "paginas": "77-77",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872572"
+    },
+    {
+      "id": "t1-hp2-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput nonum",
+      "titulo": "An Adamo aliquod actualis gratiae adjutorium datum fuerit.",
+      "colunas": "115-116",
+      "paginas": "78-78",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872574"
+    },
+    {
+      "id": "t1-hp2-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput decimum",
+      "titulo": "De concupiscentijs animi.",
+      "colunas": "115-118",
+      "paginas": "78-79",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872575"
+    },
+    {
+      "id": "t1-hp2-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput undecimum",
+      "titulo": "De libidine membrorum, et conjugio primorum hominum.",
+      "colunas": "117-120",
+      "paginas": "79-80",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872577"
+    },
+    {
+      "id": "t1-hp2-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput duodecimum",
+      "titulo": "De confusione primorum hominum.",
+      "colunas": "119-120",
+      "paginas": "80-80",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872579"
+    },
+    {
+      "id": "t1-hp2-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "De corpore primi hominis.",
+      "colunas": "121-122",
+      "paginas": "81-81",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872581"
+    },
+    {
+      "id": "t1-hp2-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "De caeteris miserijs humanae naturae.",
+      "colunas": "121-122",
+      "paginas": "81-81",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888936"
+    },
+    {
+      "id": "t1-hp2-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber II",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "De alijs nonnullis dogmatibus. Redditur ratio ordinis.",
+      "colunas": "123-124",
+      "paginas": "82-82",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872583"
+    },
+    {
+      "id": "t1-hp3-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput primum",
+      "titulo": "De peccato originali. Variae Scripturarum corruptelae.",
+      "colunas": "125-128",
+      "paginas": "83-84",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888901"
+    },
+    {
+      "id": "t1-hp3-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput secundum",
+      "titulo": "Rationes quibus peccatum originale oppugnant.",
+      "colunas": "127-130",
+      "paginas": "84-85",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872587"
+    },
+    {
+      "id": "t1-hp3-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput tertium",
+      "titulo": "Absurda quae ex Originalis peccati fide a Pelagianis inferuntur.",
+      "colunas": "129-134",
+      "paginas": "85-87",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872589"
+    },
+    {
+      "id": "t1-hp3-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput quartum",
+      "titulo": "Pelagiani praecones et patroni libidinis.",
+      "colunas": "133-134",
+      "paginas": "87-87",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872592"
+    },
+    {
+      "id": "t1-hp3-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput quintum",
+      "titulo": "Libidinem non esse malam varijs argumentis astruunt et Scripturas solvunt.",
+      "colunas": "135-138",
+      "paginas": "88-89",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872594"
+    },
+    {
+      "id": "t1-hp3-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput sextum",
+      "titulo": "Admittunt malas consuetudines; eas esse legem in membris. Caput septimum ad Romanos pervertunt. Multasque calumnias in Catholicos comminiscuntur.",
+      "colunas": "137-140",
+      "paginas": "89-90",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872596"
+    },
+    {
+      "id": "t1-hp3-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput septimum",
+      "titulo": "Bonam esse libidinem multis argumentis probant.",
+      "colunas": "139-144",
+      "paginas": "90-92",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872598"
+    },
+    {
+      "id": "t1-hp3-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput octavum",
+      "titulo": "De bonitate aliarum cupiditatum.",
+      "colunas": "143-144",
+      "paginas": "92-92",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872601"
+    },
+    {
+      "id": "t1-hp3-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput nonum",
+      "titulo": "Indagantur causae cur libidines velut naturaliter bonas commendarent.",
+      "colunas": "143-146",
+      "paginas": "92-93",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872602"
+    },
+    {
+      "id": "t1-hp3-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum",
+      "titulo": "De usu vel fruitione libidinis. Et quid nuptiae.",
+      "colunas": "145-146",
+      "paginas": "93-93",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872604"
+    },
+    {
+      "id": "t1-hp3-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput undecimum",
+      "titulo": "De caeterarum carnalium voluptatum fruitione. Et cujus Philosophicae sectae Iulianus.",
+      "colunas": "147-148",
+      "paginas": "94-94",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872606"
+    },
+    {
+      "id": "t1-hp3-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput duodecimum",
+      "titulo": "De ignorantia parvulorum quid senserint?",
+      "colunas": "147-150",
+      "paginas": "94-95",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/872607"
+    },
+    {
+      "id": "t1-hp3-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "De ignorantia adultorum, invincibili, vincibili.",
+      "colunas": "149-150",
+      "paginas": "95-95",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888967"
+    },
+    {
+      "id": "t1-hp3-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "De morte quid senserint?",
+      "colunas": "151-152",
+      "paginas": "96-96",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888969"
+    },
+    {
+      "id": "t1-hp3-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "De caeteris miserijs humanae naturae.",
+      "colunas": "151-154",
+      "paginas": "96-97",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888971"
+    },
+    {
+      "id": "t1-hp3-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Synopsis de praedictis defectibus.",
+      "colunas": "153-154",
+      "paginas": "97-97",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888974"
+    },
+    {
+      "id": "t1-hp3-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "De statu nascentium. Omne malum ab eo removent.",
+      "colunas": "153-156",
+      "paginas": "97-98",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888976"
+    },
+    {
+      "id": "t1-hp3-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Multis titulis naturam parvulorum ornant, imo felicitatem tribuunt.",
+      "colunas": "155-158",
+      "paginas": "98-99",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888979"
+    },
+    {
+      "id": "t1-hp3-19",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Parvulis sine baptismo morientibus Pelagiani tribuunt vitam aeternam. Quid illa; an beatitudo naturalis? Quid regnum coelorum?",
+      "colunas": "157-164",
+      "paginas": "99-102",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888982"
+    },
+    {
+      "id": "t1-hp3-20",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Argumenta, quod per vitam aeternam, Pelagiani intelligant beatitudinem clarae visionis Dei.",
+      "colunas": "163-168",
+      "paginas": "102-104",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888986"
+    },
+    {
+      "id": "t1-hp3-21",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Vtrum Pelagiani sententiam suam de vita aeterna parvulis non baptizatis danda, tandem mutaverint.",
+      "colunas": "167-170",
+      "paginas": "104-105",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888989"
+    },
+    {
+      "id": "t1-hp3-22",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Iisdem argumentis probari potest, Pelagianos parvulis nascentibus supernaturalem innocentiam dare, quibus aliqui probari putant, eos morientibus sine baptismo vitam aeternam supernaturalem promisisse.",
+      "colunas": "171-174",
+      "paginas": "106-107",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888991"
+    },
+    {
+      "id": "t1-hp3-23",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Solvuntur difficultates ex Augustino motae.",
+      "colunas": "175-180",
+      "paginas": "108-110",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888994"
+    },
+    {
+      "id": "t1-hp3-24",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber III",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "De statu adultorum sine fide moraliter bene viventium, post hanc vitam.",
+      "colunas": "179-182",
+      "paginas": "110-111",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/888998"
+    },
+    {
+      "id": "t1-hp4-00",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "183-184",
+      "paginas": "112-112",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889023"
+    },
+    {
+      "id": "t1-hp4-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput primum",
+      "titulo": "Quid peccatum.",
+      "colunas": "183-188",
+      "paginas": "112-114",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889025"
+    },
+    {
+      "id": "t1-hp4-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput secundum",
+      "titulo": "Nulla peccandi infirmitas in homine.",
+      "colunas": "187-190",
+      "paginas": "114-115",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889027"
+    },
+    {
+      "id": "t1-hp4-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput tertium",
+      "titulo": "Peccandi infirmitas non potest infligi a Deo in poenam praecedentis peccati.",
+      "colunas": "189-190",
+      "paginas": "115-115",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889030"
+    },
+    {
+      "id": "t1-hp4-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput quartum",
+      "titulo": "Malae consuetudines difficultatem bene vivendi afferunt.",
+      "colunas": "189-192",
+      "paginas": "115-116",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889032"
+    },
+    {
+      "id": "t1-hp4-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput quintum",
+      "titulo": "Vnum peccatum non est poena alterius, et quomodo Deus tradat hominem desiderijs suis.",
+      "colunas": "191-196",
+      "paginas": "116-118",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889035"
+    },
+    {
+      "id": "t1-hp4-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput sextum",
+      "titulo": "De virtute et operibus ejus.",
+      "colunas": "195-198",
+      "paginas": "118-119",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889037"
+    },
+    {
+      "id": "t1-hp4-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput septimum",
+      "titulo": "De seminibus virtutum naturalibus.",
+      "colunas": "197-200",
+      "paginas": "119-120",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889040"
+    },
+    {
+      "id": "t1-hp4-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput octavum",
+      "titulo": "De laude naturae et fructibus illorum seminum naturalium in infidelibus.",
+      "colunas": "201-202",
+      "paginas": "121-121",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889042"
+    },
+    {
+      "id": "t1-hp4-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput nonum",
+      "titulo": "Vires naturae ad cognoscendum, diligendum, et colendum Deum.",
+      "colunas": "201-204",
+      "paginas": "121-122",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889044"
+    },
+    {
+      "id": "t1-hp4-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum",
+      "titulo": "Vires naturae ad exercendas omnes virtutes cardinales.",
+      "colunas": "203-206",
+      "paginas": "122-123",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889047"
+    },
+    {
+      "id": "t1-hp4-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput undecimum",
+      "titulo": "Iusta vita, salus, vita aeterna, et regnum Dei per naturae vires.",
+      "colunas": "205-208",
+      "paginas": "123-124",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889049"
+    },
+    {
+      "id": "t1-hp4-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Vires ad poenitendum et redeundum ad justitiam naturalem, et quid illa sit.",
+      "colunas": "207-210",
+      "paginas": "124-125",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889052"
+    },
+    {
+      "id": "t1-hp4-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Vires ad superandas malas consuetudines et impetus passionum.",
+      "colunas": "209-210",
+      "paginas": "125-125",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889054"
+    },
+    {
+      "id": "t1-hp4-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Quod homo possit per naturam liberi arbitrij esse perfectus, et non peccare si velit.",
+      "colunas": "209-216",
+      "paginas": "125-128",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889056"
+    },
+    {
+      "id": "t1-hp4-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Tollunt orationem fidelium pro obtinenda tentationum victoria, et peccatorum venia.",
+      "colunas": "215-218",
+      "paginas": "128-129",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889059"
+    },
+    {
+      "id": "t1-hp4-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Argumenta nonnulla quibus non peccandi possibilitatem asserunt.",
+      "colunas": "217-220",
+      "paginas": "129-130",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889061"
+    },
+    {
+      "id": "t1-hp4-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Discrimen statuunt inter esse, et, posse esse sine peccato.",
+      "colunas": "219-222",
+      "paginas": "130-131",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889063"
+    },
+    {
+      "id": "t1-hp4-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Non peccandi non modo possibilitatem, sed etiam facilitatem asserunt.",
+      "colunas": "223-224",
+      "paginas": "132-132",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889065"
+    },
+    {
+      "id": "t1-hp4-19",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Ἀπάθειαν inducunt. Quid illa sit; et unde hausta. Differentia inter impeccantiam et impeccabilitatem: inter sine peccato esse et ἀναμάρτητον.",
+      "colunas": "225-228",
+      "paginas": "133-134",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889068"
+    },
+    {
+      "id": "t1-hp4-20",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Ecclesia tota ex solis justis et non peccantibus conflatur.",
+      "colunas": "229-230",
+      "paginas": "135-135",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889083"
+    },
+    {
+      "id": "t1-hp4-21",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Perfecti viri in hac vita aequales beatis et Angelis Dei.",
+      "colunas": "229-232",
+      "paginas": "135-136",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889085"
+    },
+    {
+      "id": "t1-hp4-22",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber IV",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Homo per liberum arbitrium fit in hac vita aequalis Deo. De superbia Pelagianorum.",
+      "colunas": "231-234",
+      "paginas": "136-137",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889087"
+    },
+    {
+      "id": "t1-hp5-00",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "233-234",
+      "paginas": "137-137",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889124"
+    },
+    {
+      "id": "t1-hp5-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput primum",
+      "titulo": "Primus Pelagianismi status Ethnicismus: nudam naturam praedicat.",
+      "colunas": "235-238",
+      "paginas": "138-139",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889163"
+    },
+    {
+      "id": "t1-hp5-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput secundum",
+      "titulo": "Secundus Pelagianismi status Semi-Ethnicismus: gratiam naturae extollit.",
+      "colunas": "237-240",
+      "paginas": "139-140",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889168"
+    },
+    {
+      "id": "t1-hp5-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput tertium",
+      "titulo": "Tertius Pelagianismi status Iudaismus: quando inductus.",
+      "colunas": "239-242",
+      "paginas": "140-141",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889172"
+    },
+    {
+      "id": "t1-hp5-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput quartum",
+      "titulo": "Legis laudes et vires. Effectus ejus justitia, vita aeterna et regnum coelorum.",
+      "colunas": "241-244",
+      "paginas": "141-142",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889174"
+    },
+    {
+      "id": "t1-hp5-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput quintum",
+      "titulo": "Legis scopus. De tribus statibus generis humani sub natura, sub lege, et sub gratia.",
+      "colunas": "245-248",
+      "paginas": "143-144",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889179"
+    },
+    {
+      "id": "t1-hp5-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput sextum",
+      "titulo": "In tribus situm est adjutorium gratiae Christi, et primo de remissione peccatorum.",
+      "colunas": "247-250",
+      "paginas": "144-145",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889183"
+    },
+    {
+      "id": "t1-hp5-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput septimum",
+      "titulo": "Remissio peccati proprie gratia per fidem Christi data: et tribus modis juxta Pelagianos gratuita. Pauca de differentia justitiae hominis, factorum, ex lege et justitia fidei seu ex fide.",
+      "colunas": "249-254",
+      "paginas": "145-147",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889205"
+    },
+    {
+      "id": "t1-hp5-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput octavum",
+      "titulo": "De alia Christi gratia, doctrina et exemplo Christi. Quae vires et effectus ejus, et quamdiu a Pelagianis asserta.",
+      "colunas": "253-256",
+      "paginas": "147-148",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889229"
+    },
+    {
+      "id": "t1-hp5-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput nonum",
+      "titulo": "Varijs nominibus gratiam legis et doctrinae praedicant. Vbi de revelatione sapientiae, oculorum apertione, praemij promissione, insidiarum detectione, caelesti illuminatione, suasione, scientia.",
+      "colunas": "257-262",
+      "paginas": "149-151",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889231"
+    },
+    {
+      "id": "t1-hp5-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum",
+      "titulo": "Negant Pelagiani gratiam Dei et adjutorium ad singulos actus dari: quo tacite duo Christianae doctrinae capita convellunt.",
+      "colunas": "261-264",
+      "paginas": "151-152",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889234"
+    },
+    {
+      "id": "t1-hp5-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput undecimum",
+      "titulo": "Quid sit adjutorium possibilitatis, et adjutorium voluntatis et actionis: et quatuor utriusque differentiae.",
+      "colunas": "263-270",
+      "paginas": "152-155",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889237"
+    },
+    {
+      "id": "t1-hp5-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Indagantur causae cur adjutorium voluntatis et actionis abhorreant, solo auxilio possibilitatis contenti. Prima, quia tollitur liberum arbitrium cum tale adjutorium homini non datur.",
+      "colunas": "269-274",
+      "paginas": "155-157",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889239"
+    },
+    {
+      "id": "t1-hp5-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Secunda causa, quia tollitur liberum arbitrium, quando tale adjutorium homini datur.",
+      "colunas": "273-278",
+      "paginas": "157-159",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889241"
+    },
+    {
+      "id": "t1-hp5-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "De simili errore Monachorum Adrumetinorum et a Pelagiano differentia.",
+      "colunas": "277-280",
+      "paginas": "159-160",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889244"
+    },
+    {
+      "id": "t1-hp5-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Tertia, quarta et quinta causa repudiandi talis adjutorij est coactio, necessitas, fatum.",
+      "colunas": "279-282",
+      "paginas": "160-161",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889248"
+    },
+    {
+      "id": "t1-hp5-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Sexta, septima et octava causa, quia securitatem ignavam adfert, laudem, meritum et praemium tollit.",
+      "colunas": "281-284",
+      "paginas": "161-162",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889250"
+    },
+    {
+      "id": "t1-hp5-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Quale sit illud adjutorium quod tot criminationibus Pelagiani accusant.",
+      "colunas": "283-286",
+      "paginas": "162-163",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889252"
+    },
+    {
+      "id": "t1-hp5-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "De adjutorio possibilitatis interno.",
+      "colunas": "285-288",
+      "paginas": "163-164",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889254"
+    },
+    {
+      "id": "t1-hp5-19",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Etjam in voluntate potest dari auxilium possibilitatis. De concursu generali Dei ad omnes naturas.",
+      "colunas": "287-290",
+      "paginas": "164-165",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889257"
+    },
+    {
+      "id": "t1-hp5-20",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum",
+      "titulo": "De concursu generali Dei ad operationes etjam voluntatis.",
+      "colunas": "289-292",
+      "paginas": "165-166",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889259"
+    },
+    {
+      "id": "t1-hp5-21",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Solvitur objectio ex Epistola Divi Hieronymi ad Ctesiphontem petita.",
+      "colunas": "291-296",
+      "paginas": "166-168",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889261"
+    },
+    {
+      "id": "t1-hp5-22",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "De adjutorio justitiae seu gratiae habitualis Pelagianorum. Sententia declaratur ex virtutibus acquisitis, et remissione peccatorum.",
+      "colunas": "295-302",
+      "paginas": "168-171",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889264"
+    },
+    {
+      "id": "t1-hp5-23",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Ostenditur eorum de gratia habituali sententia ex effectibus ejus quasi privativis.",
+      "colunas": "301-304",
+      "paginas": "171-172",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889266"
+    },
+    {
+      "id": "t1-hp5-24",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Eadem latius demonstratur ex effectibus gratiae positivis.",
+      "colunas": "305-310",
+      "paginas": "173-175",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889269"
+    },
+    {
+      "id": "t1-hp5-25",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Eadem uberius astruitur ex effectibus gratiae relativis.",
+      "colunas": "311-314",
+      "paginas": "176-177",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889272"
+    },
+    {
+      "id": "t1-hp5-26",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Expenditur locus Divi Chrysostomi, et Synopsis eorum quae pro asserenda gratia habituali Pelagiani dicunt.",
+      "colunas": "313-316",
+      "paginas": "177-178",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889274"
+    },
+    {
+      "id": "t1-hp5-27",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Solvuntur nonnullae difficultates ex Divo Augustino et Concilio Cathaginensi motae.",
+      "colunas": "317-322",
+      "paginas": "179-181",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889276"
+    },
+    {
+      "id": "t1-hp5-28",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum octavum",
+      "titulo": "De adjutorio possibilitatis gratiarum actualium respectu voluntatis: ubi de motibus ejus indeliberatis.",
+      "colunas": "321-324",
+      "paginas": "181-182",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889278"
+    },
+    {
+      "id": "t1-hp5-29",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput vigesimum nonum",
+      "titulo": "Vtrum ullam veram internam et actualem voluntatis gratiam admiserint Pelagiani ante condemnationem haeresios sub Zozymo Papa.",
+      "colunas": "323-328",
+      "paginas": "182-184",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889280"
+    },
+    {
+      "id": "t1-hp5-30",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber V",
+      "capitulo": "Caput trigesimum",
+      "titulo": "Vtrum Pelagius ante condemnationem sub Zozymo opinionem mutaverit, de gratia respectu voluntatis.",
+      "colunas": "327-330",
+      "paginas": "184-185",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889283"
+    },
+    {
+      "id": "t1-hp6-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput primum",
+      "titulo": "Quartus Pelagianismi status post condemnationem haeresis Pelagianae Semi-Christianismus. De gratia ad perfectionem necessaria.",
+      "colunas": "331-334",
+      "paginas": "186-187",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889311"
+    },
+    {
+      "id": "t1-hp6-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput secundum",
+      "titulo": "Veram internam gratiam confitentur ad assequendam perfectionem necessariam.",
+      "colunas": "333-336",
+      "paginas": "187-188",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889313"
+    },
+    {
+      "id": "t1-hp6-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput tertium",
+      "titulo": "Prima gratiae corruptela quod eam tantum necessariam statuunt, ut facilius obtineatur perfectio et salus.",
+      "colunas": "337-340",
+      "paginas": "189-190",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889315"
+    },
+    {
+      "id": "t1-hp6-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput quartum",
+      "titulo": "Secunda gratiae corruptela meritum humanum. De quo magna contentio post proscriptos Pelagianos.",
+      "colunas": "339-340",
+      "paginas": "190-190",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889318"
+    },
+    {
+      "id": "t1-hp6-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput quintum",
+      "titulo": "Quaenam sint illa merita gratiae: nempe prima boni cupiditas, seu conversio, fides, oratio.",
+      "colunas": "341-344",
+      "paginas": "191-192",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889320"
+    },
+    {
+      "id": "t1-hp6-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput sextum",
+      "titulo": "Christum volunt ex meritis liberi arbitrij factum esse Deum. Haustus ille error ex Origene.",
+      "colunas": "343-348",
+      "paginas": "192-194",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889323"
+    },
+    {
+      "id": "t1-hp6-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput septimum",
+      "titulo": "Transitus ad Praedestinationem. Praemittitur totius haeresis Pelagianae scopus, et generalis ordo dogmatum.",
+      "colunas": "349-354",
+      "paginas": "195-197",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889325"
+    },
+    {
+      "id": "t1-hp6-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput octavum",
+      "titulo": "Oeconomia divinae voluntatis et gratiae erga salutem humanam. De gratuita vocatione et justificatione: et quo sensu vocatio dicatur secundum propositum.",
+      "colunas": "353-356",
+      "paginas": "197-198",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889327"
+    },
+    {
+      "id": "t1-hp6-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput nonum",
+      "titulo": "De duplici electione gratiae et meritorum: Et quomodo illae duae simul consistant.",
+      "colunas": "355-358",
+      "paginas": "198-199",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889330"
+    },
+    {
+      "id": "t1-hp6-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum",
+      "titulo": "Quid praedestinatio Pelagianis. Omnis ex praevisione fidei vel meritorum etjam respectu parvulorum. De vasis irae et misericordiae pauca.",
+      "colunas": "359-362",
+      "paginas": "200-201",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889332"
+    },
+    {
+      "id": "t1-hp6-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput undecimum",
+      "titulo": "Statum purae naturae in Ecclesiam introduxerunt Pelagiani.",
+      "colunas": "361-364",
+      "paginas": "201-202",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889334"
+    },
+    {
+      "id": "t1-hp6-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Praecursores Pelagij et Celestij Rufinus Presbyter, Evagrius Monachus, Palladius, Iovinianus, Priscilianus, Manichaei, Euchitae.",
+      "colunas": "363-366",
+      "paginas": "202-203",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889337"
+    },
+    {
+      "id": "t1-hp6-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Haeresis Pelagianae fons Origines. Proponitur sententia ejus de libero arbitrio et naturali ejus possibilitate.",
+      "colunas": "365-370",
+      "paginas": "203-205",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889339"
+    },
+    {
+      "id": "t1-hp6-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Sententia Origenis de lege naturae et Moysis Pelagiana.",
+      "colunas": "369-372",
+      "paginas": "205-206",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889342"
+    },
+    {
+      "id": "t1-hp6-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "De gratia et merito ejus ipsissimus error Pelagij et Massiliensium ab Origene traditus. De justitiae perfectione, et άπαθείας.",
+      "colunas": "371-374",
+      "paginas": "206-207",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889344"
+    },
+    {
+      "id": "t1-hp6-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Electionem praedestinationem et vocationem secundum propositum prorsus evertit, sicut Pelagiani et Massilienses.",
+      "colunas": "373-376",
+      "paginas": "207-208",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889347"
+    },
+    {
+      "id": "t1-hp6-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Omnes poene corruptelas Scripturarum de peccato originali et gratia, quibus Pelagiani abutuntur, totumque errorem Pelagianum praeformavit Origenes.",
+      "colunas": "375-378",
+      "paginas": "208-209",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889349"
+    },
+    {
+      "id": "t1-hp6-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Prima origo totius haeresis Pelagianae, et omnium gratiae interpolatorum, Philosophia.",
+      "colunas": "377-380",
+      "paginas": "209-210",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889351"
+    },
+    {
+      "id": "t1-hp6-19",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Alia nonnulla dogmata Pelagij in quibus elucet indoles ejus. Transitus ad mores ejus.",
+      "colunas": "379-382",
+      "paginas": "210-211",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889353"
+    },
+    {
+      "id": "t1-hp6-20",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Immanis superbia proprius Pelagij character et omnium discipulorum ejus.",
+      "colunas": "381-384",
+      "paginas": "211-212",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889355"
+    },
+    {
+      "id": "t1-hp6-21",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Novitatis, admirationis, famae, gloriae aculeis ad virtutem stimulant. Eorum turpis adulatio.",
+      "colunas": "383-384",
+      "paginas": "212-212",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889358"
+    },
+    {
+      "id": "t1-hp6-22",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Alia eorum vitia ex eodem fonte, affectatio sanctitatis, jactantia, hypocrisis, venatio divitiarum sub pallio paupertatis, pompa vestium et saecularis fastus.",
+      "colunas": "385-388",
+      "paginas": "213-214",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889360"
+    },
+    {
+      "id": "t1-hp6-23",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Tument scientia saeculari et argutijs dialecticis. Simiae Aristotelis, rationem Scripturarum regulam figunt. Sillogismorum jactant acumina. Ab Ecclesiasticis judicibus provocant ad Peripateticorum scholam. Pruritus scribendi multa volumina, et aliorum velut indoctorum contemptus.",
+      "colunas": "387-390",
+      "paginas": "214-215",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889362"
+    },
+    {
+      "id": "t1-hp6-24",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Ante simulate Sancti, tandem aperte flagitiosi, fallaces in obtrudendo fictos libros, in negando suos, in corrumpendo alienos. Mendaciorum et restrictionum mentalium, Architecti peritissimi.",
+      "colunas": "389-394",
+      "paginas": "215-217",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889365"
+    },
+    {
+      "id": "t1-hp6-25",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VI",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Ambiguis verbis dogmata exprimunt. Sub aliena persona disputant tanquam de quaestionibus praeter fidem. Romanae Ecclesiae reverentiam et in omnibus submissionem simulant.",
+      "colunas": "393-396",
+      "paginas": "217-218",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889367"
+    },
+    {
+      "id": "t1-hp7-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput primum",
+      "titulo": "De praedestinatione parce scripsit Augustinus ante motas ab Adrumetinis Monachis et Massiliensibus difficultates, et quare. Ortus Semi-Pelagianorum et ratio nominis.",
+      "colunas": "395-400",
+      "paginas": "218-220",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889401"
+    },
+    {
+      "id": "t1-hp7-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput secundum",
+      "titulo": "Semi-Pelagiani in plures sectas divisi, etjam statim in initio. Sententia Fausti de viribus naturae et gratia prorsus Pelagiana.",
+      "colunas": "399-402",
+      "paginas": "220-221",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889403"
+    },
+    {
+      "id": "t1-hp7-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput tertium",
+      "titulo": "Non ex Fausto solo et Cassiano judicandum de statu erroris Semi-Pelagiani, sed ex scriptis Prosperi et Hilarij.",
+      "colunas": "401-404",
+      "paginas": "221-222",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889406"
+    },
+    {
+      "id": "t1-hp7-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput quartum",
+      "titulo": "Sententiam Semi-Pelagianorum tenuit ante Massilienses Vitalis, et ipse Augustinus.",
+      "colunas": "403-410",
+      "paginas": "222-225",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889409"
+    },
+    {
+      "id": "t1-hp7-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput quintum",
+      "titulo": "Tota causa erroris Semi-Pelagiani fuit illud propositum divinae vocationis et praedestinationis, quo salvandi a perituris discernuntur secundum Augustinum.",
+      "colunas": "409-412",
+      "paginas": "225-226",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889411"
+    },
+    {
+      "id": "t1-hp7-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput sextum",
+      "titulo": "Idem uberius ostenditur ex Epistola Hilarij.",
+      "colunas": "411-414",
+      "paginas": "226-227",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889414"
+    },
+    {
+      "id": "t1-hp7-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput septimum",
+      "titulo": "Idem ostenditur ex scriptis Fausti.",
+      "colunas": "413-416",
+      "paginas": "227-228",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889416"
+    },
+    {
+      "id": "t1-hp7-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput octavum",
+      "titulo": "Prima ratio abhorrendi popositum praedestinationis, quia est gentilium fatum. Illud duplex, Astrologorum et Stoicorum.",
+      "colunas": "415-418",
+      "paginas": "228-229",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889418"
+    },
+    {
+      "id": "t1-hp7-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput nonum",
+      "titulo": "Causa triplex, antegressio propositi ante omnem hominis voluntatem, immutabilitas et efficacia.",
+      "colunas": "417-420",
+      "paginas": "229-230",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889421"
+    },
+    {
+      "id": "t1-hp7-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum",
+      "titulo": "Secunda ratio abhorrendi illud propositum Dei, quia discretionem afferendo interimit liberum arbitrium tam ad bonum quam ad malum.",
+      "colunas": "419-424",
+      "paginas": "230-232",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889423"
+    },
+    {
+      "id": "t1-hp7-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput undecimum",
+      "titulo": "Tertia ratio horroris, quia disputationem affert et ignaviam. Causa desperationis triplex; ignaviae duplex. Pauca de modo quo sentiebant solam gratiam operari.",
+      "colunas": "423-428",
+      "paginas": "232-234",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889426"
+    },
+    {
+      "id": "t1-hp7-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Quarta abhorrendi ratio, eaque quintuplex, quia praeceptum, exhortationem et correptionem interimit.",
+      "colunas": "427-432",
+      "paginas": "234-236",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889428"
+    },
+    {
+      "id": "t1-hp7-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Quinta ratio, quia extinguit orationem.",
+      "colunas": "431-432",
+      "paginas": "236-236",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889431"
+    },
+    {
+      "id": "t1-hp7-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Sexta et septima ratio, quia introducuntur duae partes humani generis, duae naturae, duae massae cum Manichaeis.",
+      "colunas": "431-434",
+      "paginas": "236-237",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889433"
+    },
+    {
+      "id": "t1-hp7-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Octava propositi divini aversandi ratio, quia Deus non haberet seriam voluntatem ut omnes credant et salvi fiant.",
+      "colunas": "433-434",
+      "paginas": "237-237",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889436"
+    },
+    {
+      "id": "t1-hp7-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Nona ratio aversionis, quod in hujusmodi propositi assertione omnia rejectorum peccata asscribantur Deo.",
+      "colunas": "433-436",
+      "paginas": "237-238",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889439"
+    },
+    {
+      "id": "t1-hp7-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Decima horroris ratio, quia sententia nova est et opinioni Patrum contraria.",
+      "colunas": "435-438",
+      "paginas": "238-239",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889442"
+    },
+    {
+      "id": "t1-hp7-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VII",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Inferuntur tria corollaria, quibus natura illius propositi et gratiae, quam Massilienses horrent, aliqua ex parte declaratur.",
+      "colunas": "437-442",
+      "paginas": "239-241",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889444"
+    },
+    {
+      "id": "t1-hp8-01",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput primum",
+      "titulo": "Alius Pelagianorum, alius Massiliensium scopus. Et generatim in quibus articulis cum Catholicis convenirent.",
+      "colunas": "443-446",
+      "paginas": "242-243",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889464"
+    },
+    {
+      "id": "t1-hp8-02",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput secundum",
+      "titulo": "Incipit declarari quibus modis difficultates dissipaverint. Ac primo unum propositum Dei in duo dividunt, quorum altero generali Deus vult omnes homines salvos fieri, altero non omnes. Illud conditionatum, hoc absolutum.",
+      "colunas": "445-448",
+      "paginas": "243-244",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889467"
+    },
+    {
+      "id": "t1-hp8-03",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput tertium",
+      "titulo": "Beneficia quoque ex illo proposito generali statuunt generalia; et gratiam sufficientem omnibus hominibus communem.",
+      "colunas": "447-450",
+      "paginas": "244-245",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889469"
+    },
+    {
+      "id": "t1-hp8-04",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput quartum",
+      "titulo": "Prima gratia generalis Massiliensium, est doctrina et Euangelij praedicatio: et cur quibusdam subtrahatur a Deo.",
+      "colunas": "449-452",
+      "paginas": "245-246",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889472"
+    },
+    {
+      "id": "t1-hp8-05",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput quintum",
+      "titulo": "Secunda gratia generalis, reliquiae quaedam primae integritatis, seu naturalis possibilitas boni.",
+      "colunas": "453-456",
+      "paginas": "247-248",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889474"
+    },
+    {
+      "id": "t1-hp8-06",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput sextum",
+      "titulo": "Tertia gratia generalis Massiliensium est actualis interna sufficiens ad credendum non ad operandum. Late ex principijs Augustini et Massiliensium astruitur: aliqua de natura ejus.",
+      "colunas": "455-466",
+      "paginas": "248-253",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889476"
+    },
+    {
+      "id": "t1-hp8-07",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput septimum",
+      "titulo": "Eadem internae inspirationis gratia asseritur ex Gennadio et Cassiano. Volunt esse tantum occasionem voluntati ad fidem et conversionem.",
+      "colunas": "465-472",
+      "paginas": "253-256",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889479"
+    },
+    {
+      "id": "t1-hp8-08",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput octavum",
+      "titulo": "Eadem asseritur ex Divi Augustini errore quem ante Episcopatum cum Massiliensibus tenuit.",
+      "colunas": "473-478",
+      "paginas": "257-259",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889481"
+    },
+    {
+      "id": "t1-hp8-09",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput nonum",
+      "titulo": "Massilienses non fuisse ex professo hostes gratiae, neque causam ullam habuisse cur talem gratiam reijcerent: quod per eam omnes eorum difficultates facillime solverentur. Expenditur arrogans vox cujusdam Recentioris.",
+      "colunas": "477-484",
+      "paginas": "259-262",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889484"
+    },
+    {
+      "id": "t1-hp8-10",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum",
+      "titulo": "Redditur causa quadruplex cur non saepius mentionem illius gratiae internae faciant Semi-Pelagiani posteriores.",
+      "colunas": "483-496",
+      "paginas": "262-268",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889488"
+    },
+    {
+      "id": "t1-hp8-11",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput undecimum",
+      "titulo": "Massilienses per illam naturalem possibilitatem, principium salutis ad se revocant, et initium discretionis a se proficisci volunt.",
+      "colunas": "495-500",
+      "paginas": "268-270",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889494"
+    },
+    {
+      "id": "t1-hp8-12",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Tres actus comprehendit illud principium salutis, fidem, desiderium sanitatis et orationem.",
+      "colunas": "499-504",
+      "paginas": "270-272",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889496"
+    },
+    {
+      "id": "t1-hp8-13",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Alij quadruplices actus ad quos hominem sufficere volunt, timor, dolor, diligentia, voluntas bene vivendi. De sententia Cassiani et quid ei semina virtutum inserta naturaliter.",
+      "colunas": "503-506",
+      "paginas": "272-273",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889499"
+    },
+    {
+      "id": "t1-hp8-14",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Massilienses non totam fidem, sed ejus solum initium et perseverantiam in hominis potestate constituunt: et quid sit fidei initium. Nonnulla de perseverantia.",
+      "colunas": "505-510",
+      "paginas": "273-275",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889501"
+    },
+    {
+      "id": "t1-hp8-15",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Inferuntur quatuor corollaria, et declaratur quomodo non sine gratia Dei perseverantiam in fide et justitia ad se revocarent. De loco Apostoli, quod Deus vult omnes homines salvos fieri.",
+      "colunas": "509-516",
+      "paginas": "275-278",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889503"
+    },
+    {
+      "id": "t1-hp8-16",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "An Massilienses velint fidem, orationem, et caeteros actus esse merita gratiae.",
+      "colunas": "515-520",
+      "paginas": "278-280",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889509"
+    },
+    {
+      "id": "t1-hp8-17",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Massilienses multum diminuunt illud meritum gratiae, nec aliud volunt nisi bonum usum liberi arbitrij praecedere gratiam, occasione cujus Deus liberaliter et misericorditer gratiam daret.",
+      "colunas": "521-526",
+      "paginas": "281-283",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889512"
+    },
+    {
+      "id": "t1-hp8-18",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "An agnoverint meritum de condigno an de congruo.",
+      "colunas": "525-528",
+      "paginas": "283-284",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889514"
+    },
+    {
+      "id": "t1-hp8-19",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Veram esse gratiam quam post fidem dari volunt ex Cassiano et praesertim ex Porspero, Hilario, et Augustino late demonstratur.",
+      "colunas": "527-532",
+      "paginas": "284-286",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889516"
+    },
+    {
+      "id": "t1-hp8-20",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Non repugnat libertati talis gratia juxta Massilienses. Et quare Recentiores cardinem difficultatum non videntes, multum in multis hallucinantur.",
+      "colunas": "531-534",
+      "paginas": "286-287",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889525"
+    },
+    {
+      "id": "t1-hp8-21",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Qualis Massiliensium electio et praedestinatio ad vitam aeternam.",
+      "colunas": "535-538",
+      "paginas": "288-289",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889529"
+    },
+    {
+      "id": "t1-hp8-22",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Quomodo nolint definitum esse electorum numerum.",
+      "colunas": "537-540",
+      "paginas": "289-290",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889531"
+    },
+    {
+      "id": "t1-hp8-23",
+      "tomo": "I",
+      "livro": "De haeresi Pelagiana, liber VIII",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "De Praedestinatianis et eorum haeresi. Non esse haeresin, sed calumniam, qua Massilienses S. Augustini doctrinam infamarunt.",
+      "colunas": "541-549",
+      "paginas": "291-295",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/889539"
+    },
+    {
+      "id": "t3-gc1-00",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "1-8",
+      "paginas": "8-11",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893015"
+    },
+    {
+      "id": "t3-gc1-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput primum",
+      "titulo": "Partitio dicendorum et ordo sequentium disputationum.",
+      "colunas": "9-10",
+      "paginas": "12-12",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893017"
+    },
+    {
+      "id": "t3-gc1-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput secundum",
+      "titulo": "Notio liberationis arbitrij. Causa eius efficiens non est naturalis possibilitas liberae voluntatis, sed gratia.",
+      "colunas": "9-14",
+      "paginas": "12-14",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893021"
+    },
+    {
+      "id": "t3-gc1-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput tertium",
+      "titulo": "Nomina diversa gratiae ex hoc effectu tracta.",
+      "colunas": "13-16",
+      "paginas": "14-15",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893024"
+    },
+    {
+      "id": "t3-gc1-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput quartum",
+      "titulo": "Arbitrium per gratiam liberari debet, ut operetur actus, non solum supernaturales, sed etiam moraliter bonos.",
+      "colunas": "15-18",
+      "paginas": "15-16",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893029"
+    },
+    {
+      "id": "t3-gc1-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput quintum",
+      "titulo": "Vtrum aliquid possit arbitrium suis naturalibus vtribus, ad hoc ut gratiam illam adipiscatur. Facienti quod in se est per naturae vires, non datur ex aliqua stabili lege gratia.",
+      "colunas": "17-24",
+      "paginas": "16-19",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893032"
+    },
+    {
+      "id": "t3-gc1-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput sextum",
+      "titulo": "Transitus a natura ad gratiam generaliter dictam. Divisio eius generalis: multiplex genus legis ac doctrinae. Explicatur status causae.",
+      "colunas": "23-26",
+      "paginas": "19-20",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893034"
+    },
+    {
+      "id": "t3-gc1-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput septimum",
+      "titulo": "Gratia divinae legis ac doctrinae arbitrium liberare non potest, ut velit et operetur iustitiam. Causa rei istius datur: et prosertur primus effectus legis dare cognitionem peccati.",
+      "colunas": "27-32",
+      "paginas": "21-23",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893040"
+    },
+    {
+      "id": "t3-gc1-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput octavum",
+      "titulo": "Secundus effectus legis, reddere praecepti observationem difficiliorem sine gratia, propter incrementum concupiscentiae.",
+      "colunas": "33-36",
+      "paginas": "24-25",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893045"
+    },
+    {
+      "id": "t3-gc1-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput nonum",
+      "titulo": "Tertius effectus legis, graviorem ruinam afferre, arctiusque concludere hominem sub peccato.",
+      "colunas": "37-42",
+      "paginas": "26-28",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893047"
+    },
+    {
+      "id": "t3-gc1-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum",
+      "titulo": "Explicatur modus quo lex facit abundare peccatum, et iram operatur.",
+      "colunas": "41-44",
+      "paginas": "28-29",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893051"
+    },
+    {
+      "id": "t3-gc1-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput undecimum",
+      "titulo": "Aperitur mysterium divini consilij, quo legem tulit, quae non nisi praevaricationem et iram operatur.",
+      "colunas": "43-50",
+      "paginas": "29-32",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893053"
+    },
+    {
+      "id": "t3-gc1-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Lex Paedagogus ad gratiam per terrorem: est et gratia testimonium, et quomodo.",
+      "colunas": "49-52",
+      "paginas": "32-33",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893057"
+    },
+    {
+      "id": "t3-gc1-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Quo pacto lex ad hominis iustificationem et legis impletionem a Deo ordinata est.",
+      "colunas": "53-56",
+      "paginas": "34-35",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893062"
+    },
+    {
+      "id": "t3-gc1-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Lex virtus peccati, et iram operatur, et in singulis hominibus etiam Christianis, et in toto populo Dei, qui instar unius hominis eruditur in quatuor statibus, ante legem, sub lege, sub gratia, in pace.",
+      "colunas": "55-60",
+      "paginas": "35-37",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893064"
+    },
+    {
+      "id": "t3-gc1-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Quae fuerit radix talis oeconomiae populi Dei, quantum ad legem et gratiam.",
+      "colunas": "59-64",
+      "paginas": "37-39",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893066"
+    },
+    {
+      "id": "t3-gc1-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Eadem vis cuiuscumque doctrinae, revelationis, scientiae, sapientiae, quae legis, ad liberandam voluntatem. Opus inde proficiscens est opus naturae, non gratiae.",
+      "colunas": "63-68",
+      "paginas": "39-41",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893069"
+    },
+    {
+      "id": "t3-gc1-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Aperitur hallucinatio cuiusdam recentioris, qui cogitationes congruas etiam naturales, illam veram gratiam Christi ad operandum staruit. Quid ab errore Pelagiano discrepet.",
+      "colunas": "67-74",
+      "paginas": "41-44",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893071"
+    },
+    {
+      "id": "t3-gc1-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber I",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Vera et fundamentalis ratio cur nulla doctrina, vel revelatio, vel cogitatio, congrua liberare possit arbitrium: ex termino a quo, et ad quem liberationis petita.",
+      "colunas": "73-78",
+      "paginas": "44-46",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893073"
+    },
+    {
+      "id": "t3-gc2-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput primum",
+      "titulo": "Gratia voluntatis alia sanae, alia aegrotae. Cardo disputationis inter Ecclesiam et pelagianos. De gratia medicinali contra vulnera naturae inflicta.",
+      "colunas": "79-90",
+      "paginas": "47-52",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893098"
+    },
+    {
+      "id": "t3-gc2-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput secundum",
+      "titulo": "Idem ostendizur ex alijs varijs capitibus. Nomina gratiae inde derivata.",
+      "colunas": "89-92",
+      "paginas": "52-53",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893101"
+    },
+    {
+      "id": "t3-gc2-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput tertium",
+      "titulo": "Discrimen gratiae sanitatis et medicinalis a recentiorum notitia valde abstrusum, et quare. Iaciuntur fundamenta discriminis, libertas arbitrij ante peccatum, et captivitas post peccatum.",
+      "colunas": "93-96",
+      "paginas": "54-55",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893103"
+    },
+    {
+      "id": "t3-gc2-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput quartum",
+      "titulo": "Affertur ex Augustino ac declaratur discrimen adiutorij sanae voluntatis et aegrotae, hoc est adiutorij sanitatis et medicinalis, seu adiutorij sine quo non, et quo.",
+      "colunas": "97-102",
+      "paginas": "56-58",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893108"
+    },
+    {
+      "id": "t3-gc2-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput quintum",
+      "titulo": "Inferuntur duo corollaria quibus accuratius declaratur discrimen duplicis istius adiutorij. Reijciuntur lex, scientia revelatio, remissio peccatorum, gratia sufficiens, habitualis, congrua, efficax recentiorum extra limites adiutorij medicinalis Christi.",
+      "colunas": "103-112",
+      "paginas": "59-63",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893117"
+    },
+    {
+      "id": "t3-gc2-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput sextum",
+      "titulo": "Idem discrimen probatur secundo ex effectibus qui ex illo duplici adiutorio in Adamo ante et post lapsum; in Agelorum et hominum salvatione consecuti sunt. Proferuntur tres effectus istius diversitatis.",
+      "colunas": "111-114",
+      "paginas": "63-64",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893128"
+    },
+    {
+      "id": "t3-gc2-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput septimum",
+      "titulo": "Profertur quartus effectus illius diversitatis.",
+      "colunas": "113-116",
+      "paginas": "64-65",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893132"
+    },
+    {
+      "id": "t3-gc2-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput octavum",
+      "titulo": "Profertur quintus effectus eius.",
+      "colunas": "117-122",
+      "paginas": "66-68",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893134"
+    },
+    {
+      "id": "t3-gc2-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput nonum",
+      "titulo": "Idem discrimen eadamque natura gratiae Christi probatur tertio ex differentia adiutorij possibilitatis, quod Pelagiani condiderunt, et voluntatis atque actionis, quod horruerunt.",
+      "colunas": "121-126",
+      "paginas": "68-70",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893137"
+    },
+    {
+      "id": "t3-gc2-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum",
+      "titulo": "Responsio quaedam Neotericorum refellitur.",
+      "colunas": "125-130",
+      "paginas": "70-72",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893139"
+    },
+    {
+      "id": "t3-gc2-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput undecimum",
+      "titulo": "Probatur quarto ex horrore, quo Pelagiani adiutorium voluntatis et actionis aversati sunt.",
+      "colunas": "129-132",
+      "paginas": "72-73",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893141"
+    },
+    {
+      "id": "t3-gc2-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Quinto ex errore Massiliensium, qui licet adiutorium possibilitatis, et sine quo non, defenderent, tamquam gratiae Christi destructores damnati sunt.",
+      "colunas": "131-136",
+      "paginas": "73-75",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893144"
+    },
+    {
+      "id": "t3-gc2-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Ex praecedentibus infertur genuina declaratio multarum phrasium ac doctrinalium decisionum Augustini, Prosperi, Fulgentij, Conciliorum Ecclesiae, et Pontificum.",
+      "colunas": "135-142",
+      "paginas": "75-78",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893146"
+    },
+    {
+      "id": "t3-gc2-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Adiutorium gratiae Christi esse revera tale quale hactenus declaratum est ostenditur diversis alijs modis; et sexto quidem ex eo quod faciat ac donet velle et operari, et omnia merita.",
+      "colunas": "141-148",
+      "paginas": "78-80",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893151"
+    },
+    {
+      "id": "t3-gc2-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Ostenditur tribus argumentis non esse satis quod gratia habitualis aut quaelibet actualis influat in meritum, ad hoc ut istud meritum sit donum Dei, et non meritum liberi arbitrij et humanum ab Augustino damnatum: sed quod debeat esse gratia actualis dans operationem et meritum.",
+      "colunas": "147-152",
+      "paginas": "80-82",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893165"
+    },
+    {
+      "id": "t3-gc2-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Idem ostenditur quarto ex natura gratiae ad singulos actus necessariae, quae ex diversis capitibus ostenditur non esse habitualis, sed actualis inspirans etiam iustis habitualiter velle et operari.",
+      "colunas": "151-158",
+      "paginas": "82-85",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893170"
+    },
+    {
+      "id": "t3-gc2-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Idem ostenditur invicte iuxta doctrinum S. Augustini ex precibus Ecclesiae quae actualem motionem datricem voluntatis et operationis implorant.",
+      "colunas": "157-168",
+      "paginas": "96-101",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893172"
+    },
+    {
+      "id": "t3-gc2-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Eandem doctrinam Romani Pontifices tradunt, et Ecclesia tota profitetur.",
+      "colunas": "167-172",
+      "paginas": "86-88",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893174"
+    },
+    {
+      "id": "t3-gc2-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Eadem actualis gratiae seu motionis necessitas ad singulos actus, ostenditur ex diversis alijs loiis Augustini.",
+      "colunas": "171-176",
+      "paginas": "88-90",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893177"
+    },
+    {
+      "id": "t3-gc2-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Idem ostenditur ex illis August. et Hieronymi locis, ubi ex professo de gratia ad singulos actus necessaria disputatur cum Pelagio: et ex ipsa professione.",
+      "colunas": "175-182",
+      "paginas": "90-93",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893181"
+    },
+    {
+      "id": "t3-gc2-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Concluditur argumentum capitis decimi quinti inchoatum, atque ostenditur non esse gratiam habitualem, vel aliam quamcumque in operandi modo ei similem, illam Christi gratiam quae inspirat ac donat velle agere, opus meritum etc.",
+      "colunas": "183-186",
+      "paginas": "94-95",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893187"
+    },
+    {
+      "id": "t3-gc2-22",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Ostenditur eadem natura gratiae medicinalis Christi, septimo ex orationibus Ecclesiae, quibus ipsa voluntatis determinatio a Deo poscitur.",
+      "colunas": "187-190",
+      "paginas": "102-103",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893190"
+    },
+    {
+      "id": "t3-gc2-23",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Ostenditur octavo ex eo quod post lapsum nihil omnino boni in homine, vel ab homine esse potest, nisi donetur a Deo, etiam ipsa suae voluntatis bonae determinatio: nec in ullo laudari nisi in solo Deo.",
+      "colunas": "189-197",
+      "paginas": "103-106",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893193"
+    },
+    {
+      "id": "t3-gc2-24",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Nono natura gratiae medicinalis generaliter demonstratur exorto proprietatibus ac notis, quibus ab Augustino passim describi solet.",
+      "colunas": "196-203",
+      "paginas": "106-109",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893195"
+    },
+    {
+      "id": "t3-gc2-25",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Decimo eius efficacissima natura declaratur, ex eo quod nulla prorsus effectu caret, sed eum in omnibus quibus datur infallibiliter operatur.",
+      "colunas": "202-207",
+      "paginas": "109-111",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893201"
+    },
+    {
+      "id": "t3-gc2-26",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Declaratur ratio diversitatis phrasium quibus utitur Augustinus, opus bonum olim voluntati tribuendo, nunc gratiae.",
+      "colunas": "208-211",
+      "paginas": "112-113",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893209"
+    },
+    {
+      "id": "t3-gc2-27",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Duobus scrupulis occurritur, quomodo nulla Christi gratia effectu careat: itemque cur Augustinus loquatur de sola gratia efficaci, non sufficiente.",
+      "colunas": "210-213",
+      "paginas": "113-114",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893212"
+    },
+    {
+      "id": "t3-gc2-28",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum octavum",
+      "titulo": "Transitus ad argumentorum solutionem. Solvitur primum, quo discrimen gratiae stantis et lapsae naturae directe tollitur, quantum ad operandi modum.",
+      "colunas": "212-215",
+      "paginas": "114-115",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893214"
+    },
+    {
+      "id": "t3-gc2-29",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput vigesimum nonum",
+      "titulo": "Solvitur secundum quo similiter tollitur istud discrimen, substituendo pro adiutorio medicinali gratiam habitualem, excitationes, protectiones, concursum generalem ordinis supernaturalis.",
+      "colunas": "214-219",
+      "paginas": "115-117",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893216"
+    },
+    {
+      "id": "t3-gc2-30",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput trigesimum",
+      "titulo": "Solvuntur duo loca Augustini ex libro de spiritu et littera, in quorum utroque recentiores obiectionem errantium coeperunt pro solutione Augustini.",
+      "colunas": "218-223",
+      "paginas": "117-119",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893218"
+    },
+    {
+      "id": "t3-gc2-31",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput trigesimum primum",
+      "titulo": "Solvitur alius locus ex libro primo quaestione secunda ad Simplicianum, ubi similiter hallucinati sunt.",
+      "colunas": "224-229",
+      "paginas": "120-122",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893221"
+    },
+    {
+      "id": "t3-gc2-32",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput trigesimum secundum",
+      "titulo": "Solvitur difficultas de vocatione congrua ex eadem quaestione secunda ad Simplicianum.",
+      "colunas": "228-237",
+      "paginas": "122-126",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893223"
+    },
+    {
+      "id": "t3-gc2-33",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput trigesimum tertium",
+      "titulo": "Alia difficultas tollitur ex duobus aequaliter tentatis ex libro duodecimo de Civitate Dei.",
+      "colunas": "236-241",
+      "paginas": "126-128",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893225"
+    },
+    {
+      "id": "t3-gc2-34",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber II",
+      "capitulo": "Caput trigesimum quartum",
+      "titulo": "Explicantur alia quaedam quae ex Augustino proferuntur quod velle, et nolle, consentire ac dissentire sint propriae voluntatis; quod sint nostra; quod habere dona Dei sit accipientis et habentis etc.",
+      "colunas": "242-247",
+      "paginas": "129-131",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893228"
+    },
+    {
+      "id": "t3-gc3-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput primum",
+      "titulo": "Tangitur natura adiutorij sufficientis, et ostenditur nullum dari post lapsum quin simul efficax sit. Hoc enim repugnat multis principijs Augustini et Ecclesiae.",
+      "colunas": "248-253",
+      "paginas": "132-134",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893256"
+    },
+    {
+      "id": "t3-gc3-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput secundum",
+      "titulo": "Adiutorium pure sufficiens ad gratiam: naturae pertinet: lapsorum reparationi inutile et perniciosum, in quo sita sit laesio liberi arbitrij.",
+      "colunas": "254-257",
+      "paginas": "135-136",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893272"
+    },
+    {
+      "id": "t3-gc3-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput tertium",
+      "titulo": "Quam monstrosa sit gratia sufficiens prout a recentioribus explicatur et quare excogitata. Gratiae congruae authores non nisi sufficientem habent, sublatoque peccato Originali naturam liberi arbitrij integram et illaesam inducunt.",
+      "colunas": "258-263",
+      "paginas": "137-139",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893289"
+    },
+    {
+      "id": "t3-gc3-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput quartum",
+      "titulo": "Ex natura gratiae Christi ostenditur, nonnullis dari sufficientem gratiam iuxta sensum Recentiorum, qui conantur directe contrarium eius persuadere, quod Augustinus de lege et gratia sufficiente.",
+      "colunas": "262-267",
+      "paginas": "139-141",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893291"
+    },
+    {
+      "id": "t3-gc3-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput quintum",
+      "titulo": "Iudaeis lex data est, et Christianis plurimis praecepta dantur sine ulla gratia sufficiente aut adiuvante. Probatur hoc multis modis et ostenditur illam gratiam repugnasse scopo legis.",
+      "colunas": "266-275",
+      "paginas": "141-145",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893294"
+    },
+    {
+      "id": "t3-gc3-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput sextum",
+      "titulo": "Quis fuerit status veteris testamenti et hominum sub eo viventium fuse declaratur.",
+      "colunas": "276-283",
+      "paginas": "146-149",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893296"
+    },
+    {
+      "id": "t3-gc3-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput septimum",
+      "titulo": "Non affuisse hominibus sub lege viventibus gratiam sufficientem servandi legem vel ullum praeceptum eius.",
+      "colunas": "284-289",
+      "paginas": "150-152",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893298"
+    },
+    {
+      "id": "t3-gc3-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput octavum",
+      "titulo": "Status veteris testamenti figurativus et Propheticus non afferebat Iudaeis gratiam sufficientem sed potius impedientem. Quanta fuerit in Iudaeis servitus et ignorantia gratiae et authoris eius.",
+      "colunas": "288-295",
+      "paginas": "152-155",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893301"
+    },
+    {
+      "id": "t3-gc3-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput nonum",
+      "titulo": "Status veteris testamenti, ut talis non erat iustitiae et salutis, sed potius peccati et mortis. Paucissimi iusti sub illo testamento, et gratiae sufficiente muniti. Gratia illa sub natura et lege continetur.",
+      "colunas": "294-301",
+      "paginas": "155-158",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893303"
+    },
+    {
+      "id": "t3-gc3-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum",
+      "titulo": "Excaecati et obdurati carent gratia sufficienti, qua videant et moveantur ad bonum.",
+      "colunas": "300-305",
+      "paginas": "158-160",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893305"
+    },
+    {
+      "id": "t3-gc3-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput undecimum",
+      "titulo": "Infideles carent gratia sufficienti ad salutem tam proxima quam remota et omnibus principijs eius.",
+      "colunas": "304-321",
+      "paginas": "160-168",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893308"
+    },
+    {
+      "id": "t3-gc3-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Infideles non habent gratiam sufficientem ordinis naturalis. Gratia sufficiens infidelium a Semi-Pelagianis excogitata.",
+      "colunas": "320-323",
+      "paginas": "168-169",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893311"
+    },
+    {
+      "id": "t3-gc3-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Proponitur duo argumenta pro asserenda gratia sufficiente. Disseritur fuse de possibilitate, et impossibilitate praeceptorum Dei. Esse quandam voluntatis infirmitatem, qua non potest certas tentationes superare, nec adest gratia qua superentur, nec spiritus orationis, quo vires impetrentur.",
+      "colunas": "324-337",
+      "paginas": "170-176",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893314"
+    },
+    {
+      "id": "t3-gc3-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Idem nodus, quomodo talibus praeceptum sit possibile etiam a Scholasticis solvendus est. Augustinus et Apostolus eo constricti, nunquam aliter solverunt, nisi quia gratia est quae negatur peccatori, et iustitia quae punitur.",
+      "colunas": "330-337",
+      "paginas": "177-180",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893317"
+    },
+    {
+      "id": "t3-gc3-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Multis modis praecepta dicuntur possibilia etiam sine gratia sufficiente. Quaenam impossibilitas excuset peccantem, et quae non: ex quibus solvuntur duo argumenta capite decimo tertio proposita.",
+      "colunas": "336-347",
+      "paginas": "180-185",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893319"
+    },
+    {
+      "id": "t3-gc3-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Locus Augustini exponitur ubi dicere videtur, quod Pharaoni non imputabatur quod obduratus obtemperare non poterat.",
+      "colunas": "348-352",
+      "paginas": "186-188",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893398"
+    },
+    {
+      "id": "t3-gc3-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Non frustra dantur praecepta, consilia, exhortationes, correptiones ijs qui gratia sufficiente destituti sunt. Absurdum quod homini post lapsum Deus illam gratiam debeat, et quare.",
+      "colunas": "351-362",
+      "paginas": "188-193",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893402"
+    },
+    {
+      "id": "t3-gc3-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Solvuntur quaedam Scripturae loca quae pro asserenda gratia sufficienti proferuntur, ut Quid debui ultra facere vineae meae etc. et, Si non venissem, et locutus eius fuissem, peccatum non haberent.",
+      "colunas": "361-364",
+      "paginas": "193-194",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893405"
+    },
+    {
+      "id": "t3-gc3-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Quomodo Deus neminem deserit nisi deseratur.",
+      "colunas": "365-368",
+      "paginas": "195-196",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893407"
+    },
+    {
+      "id": "t3-gc3-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Exponitur locus Apostoli: Deus omnes homines vult salvos fieri, et ad agnitionem veritatis venire.",
+      "colunas": "369-380",
+      "paginas": "197-202",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893409"
+    },
+    {
+      "id": "t3-gc3-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber III",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Quomodo Christus sit redemptor omnium, pro omnibus crucifixus et mortuus.",
+      "colunas": "379-392",
+      "paginas": "202-208",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893411"
+    },
+    {
+      "id": "t3-gc4-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput primum",
+      "titulo": "Quid sit medicinale Christi adiutorium secundum substantiam. Esse caelestem suavitatem seu delectationem iuxta mentem S. Augustini, ostenditur primo ex Scripturis quibus ipse utitur, et alijs diversis eius testimonijs.",
+      "colunas": "393-399",
+      "paginas": "209-212",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893431"
+    },
+    {
+      "id": "t3-gc4-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput secundum",
+      "titulo": "Idem ostenditur. Secundo inductione, seu enumeratione cuiusvis generis bonarum operationum voluntatis, ad quas eam praerequirit Augustinus.",
+      "colunas": "398-405",
+      "paginas": "212-215",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893433"
+    },
+    {
+      "id": "t3-gc4-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput tertium",
+      "titulo": "Idem probatur. Tertio ex contrario, hoc est, ex peccatis quae ex simili delectatione terrena, tanquam ex causa proficisci tradit.",
+      "colunas": "404-407",
+      "paginas": "215-216",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893436"
+    },
+    {
+      "id": "t3-gc4-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput quartum",
+      "titulo": "Idem demonstratur. Quarto ex lucta duarum delectationum terrenae ac caelestis, quarum postrema nisi vicerit, peccatur.",
+      "colunas": "406-409",
+      "paginas": "216-217",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893438"
+    },
+    {
+      "id": "t3-gc4-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput quintum",
+      "titulo": "Eadem lucta et victoria caelestis delectationis uberius declaratur, ex libris quos ex professo contra hostes gratiae scripsit.",
+      "colunas": "408-411",
+      "paginas": "217-218",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893455"
+    },
+    {
+      "id": "t3-gc4-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput sextum",
+      "titulo": "Nomen Victricis Delectationis inde tractum, atque impositum gratiae medicinali Christi.",
+      "colunas": "410-413",
+      "paginas": "218-219",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893457"
+    },
+    {
+      "id": "t3-gc4-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput septimum",
+      "titulo": "Delectationis necessitas oritur ex infirmitate voluntatis, qua fit ut nihil boni amplecti possit nisi delectet.",
+      "colunas": "414-421",
+      "paginas": "220-223",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893459"
+    },
+    {
+      "id": "t3-gc4-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput octavum",
+      "titulo": "Quinto ostenditur delectationem esse veram gratiam Christi ex adiutorio perseverantiae in hac vita et impeccabilitatis in caelo. Epilogus probationum praecedentium.",
+      "colunas": "420-429",
+      "paginas": "223-227",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893465"
+    },
+    {
+      "id": "t3-gc4-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput nonum",
+      "titulo": "Necessitas delectationis caelestis ad bene volendum et operandum non ex natura voluntatis, sed ex eius poena proficiscitur.",
+      "colunas": "428-431",
+      "paginas": "227-228",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893471"
+    },
+    {
+      "id": "t3-gc4-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum",
+      "titulo": "Inferuntur corollaria, quibus multa principia sancti Augustini de libero arbitrio, et potestate bene operandi et similibus declarantur.",
+      "colunas": "432-435",
+      "paginas": "229-230",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893475"
+    },
+    {
+      "id": "t3-gc4-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput undecimum",
+      "titulo": "Delectatio ista caelestis, secundum Augustini mentem, est actus vitalis et indeliberatus animae: et quidem amoris ac desiderij, praecedentis consensum, ac delectationem illam, quae et quies animi et gaudium dicitur.",
+      "colunas": "434-443",
+      "paginas": "230-234",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893479"
+    },
+    {
+      "id": "t3-gc4-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput duodecimum",
+      "titulo": "De gratiae divisionibus. Tres divisiones gratiae afferuntur. Quid sit gratia praeveniens.",
+      "colunas": "444-453",
+      "paginas": "235-239",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893490"
+    },
+    {
+      "id": "t3-gc4-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Quid sit gratia consequens seu subsequens.",
+      "colunas": "452-455",
+      "paginas": "239-240",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893842"
+    },
+    {
+      "id": "t3-gc4-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Declaratur uberius natura gratiae praevenientis et consequentis ex Prospero, Fulgentio, et ex Concilijs Arausicano ac Tridentino.",
+      "colunas": "454-459",
+      "paginas": "240-242",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893844"
+    },
+    {
+      "id": "t3-gc4-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Quid sit gratia operans et cooperans, iuxta Augustinum et Fulgentium.",
+      "colunas": "458-463",
+      "paginas": "242-244",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893847"
+    },
+    {
+      "id": "t3-gc4-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Quid sit gratia excitans et adiuvans.",
+      "colunas": "462-469",
+      "paginas": "244-247",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893849"
+    },
+    {
+      "id": "t3-gc4-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Sensus multorum Scholasticorum in explicandis gratiarum divisionibus a sensu Patrum quam diversus sit.",
+      "colunas": "468-471",
+      "paginas": "247-248",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893851"
+    },
+    {
+      "id": "t3-gc4-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Gratia praeveniens, subsequens; operans, cooperans; excitans, adiuvans; generalius quandoque usurpantur a Patribus sensu tamen etiam a Neotericis diverso.",
+      "colunas": "470-475",
+      "paginas": "248-250",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893853"
+    },
+    {
+      "id": "t3-gc4-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IV",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Gratia praeparans voluntatem quid sit, et quomodo secus ab Augustino quam a Scholasticis quibusdam intelligatur.",
+      "colunas": "474-477",
+      "paginas": "250-251",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893856"
+    },
+    {
+      "id": "t3-gc5-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput primum",
+      "titulo": "Transitus ad effectus gratiae medicinalis Christi. Gratia Christi tantummodo ad diligendum cuiusvis praecepti impletione Deum, necessaria est.",
+      "colunas": "476-489",
+      "paginas": "251-257",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893876"
+    },
+    {
+      "id": "t3-gc5-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput secundum",
+      "titulo": "Quomodo sit intelligendum, quod sola gratia qua diffunditur charitas in cordibus nostris, sit gratia qua Deus operatur in nobis velle, et operari, et praeceptorum omnium impletionem. Et quae doctrinae istius radix sit.",
+      "colunas": "488-495",
+      "paginas": "257-260",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893879"
+    },
+    {
+      "id": "t3-gc5-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput tertium",
+      "titulo": "Virtus non est aliud nisi amor Dei. Ostenditur ex diversis principijs.",
+      "colunas": "494-503",
+      "paginas": "260-264",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893881"
+    },
+    {
+      "id": "t3-gc5-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput quartum",
+      "titulo": "Virtutes Cardinales Amor Dei quadruplex.",
+      "colunas": "502-509",
+      "paginas": "264-267",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893885"
+    },
+    {
+      "id": "t3-gc5-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput quintum",
+      "titulo": "Etiam ceterae virtutes quidam affectus sunt dilectionis Dei. Ostenditur hoc de virtute Religionis.",
+      "colunas": "510-511",
+      "paginas": "268-268",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893888"
+    },
+    {
+      "id": "t3-gc5-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput sextum",
+      "titulo": "Idem declaratur in virtutibus Theologicis. Et primo in fide ex diversis Augustini principijs et locis.",
+      "colunas": "510-515",
+      "paginas": "268-270",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893890"
+    },
+    {
+      "id": "t3-gc5-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput septimum",
+      "titulo": "Dilectio ista ex qua nascitur fides, charitas imperfecta est, et quo sensu.",
+      "colunas": "514-519",
+      "paginas": "270-272",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893893"
+    },
+    {
+      "id": "t3-gc5-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput octavum",
+      "titulo": "Idem de spe ostenditur.",
+      "colunas": "520-521",
+      "paginas": "273-273",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893895"
+    },
+    {
+      "id": "t3-gc5-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput nonum",
+      "titulo": "Spes Christiana non oritur ex amore concupiscentiae, sed genuinae Charitatis.",
+      "colunas": "520-527",
+      "paginas": "273-276",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893897"
+    },
+    {
+      "id": "t3-gc5-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum",
+      "titulo": "Charitati gratis diligenti Deum non repugnat respectus mercedis aut retributionis.",
+      "colunas": "526-533",
+      "paginas": "276-279",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893900"
+    },
+    {
+      "id": "t3-gc5-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput undecimum",
+      "titulo": "Quid sit opus fieri Sicvt Oportet, iuxta sancti Augustini, Concilij Arausicani, ac Tridentini phrasin.",
+      "colunas": "532-539",
+      "paginas": "279-282",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893905"
+    },
+    {
+      "id": "t3-gc5-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Ostenditur, Scholasticos Doctores multum hallucinari de operibus quae fiunt, vel non fiunt Sicvt Oportet.",
+      "colunas": "538-543",
+      "paginas": "282-284",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893907"
+    },
+    {
+      "id": "t3-gc5-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Timor gehennae secundum se consideratus licitus, bonus, rectus est.",
+      "colunas": "542-547",
+      "paginas": "284-286",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893910"
+    },
+    {
+      "id": "t3-gc5-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Timor poenae initium sapientiae externum, qui ab ipsa sapientia, id est charitate excluditur.",
+      "colunas": "546-549",
+      "paginas": "286-287",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893912"
+    },
+    {
+      "id": "t3-gc5-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Timor poenae ex gratia quaedam generali, non ex illa proprie et sticte dicta gratia Christi nascitur.",
+      "colunas": "548-553",
+      "paginas": "287-289",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893914"
+    },
+    {
+      "id": "t3-gc5-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Occurritur obiectioni; et ostenditur eandem esse rationem de quolibet timore poenarum etiam gehennae. Nascitur ex amore creaturae et sui.",
+      "colunas": "554-555",
+      "paginas": "290-290",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893916"
+    },
+    {
+      "id": "t3-gc5-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Amplius declaratur, timorem poenae non esse ex Christi gratia, quia facit iustitiam inde natam, ex lege, et justitiam nostram, non ex Deo.",
+      "colunas": "556-559",
+      "paginas": "291-292",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893921"
+    },
+    {
+      "id": "t3-gc5-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Vberius ostenditur ex Augustino, timorem poenae et opus ex isto timore factum non esse ex gratia Christi, sed naturae viribus supposita fide.",
+      "colunas": "558-561",
+      "paginas": "292-293",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893923"
+    },
+    {
+      "id": "t3-gc5-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Ex puro timore poenae non potest ita fugi peccatum, ut nullum aliunde peccatum incurratur.",
+      "colunas": "560-563",
+      "paginas": "293-294",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893925"
+    },
+    {
+      "id": "t3-gc5-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Ne quidem ex timore gehennae.",
+      "colunas": "562-567",
+      "paginas": "294-296",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893927"
+    },
+    {
+      "id": "t3-gc5-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Radix prima istius doctrinae, quia qui nudo timore poenae peccatum fugit invitus et animo repugnanti fugit, ideoque non fugit peccatum sed aliud quidpiam.",
+      "colunas": "566-573",
+      "paginas": "296-299",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893930"
+    },
+    {
+      "id": "t3-gc5-22",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Secunda radix, quia timor poenae non potest mutare voluntatem malam, sed solus amor iustitiae.",
+      "colunas": "572-579",
+      "paginas": "299-302",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893934"
+    },
+    {
+      "id": "t3-gc5-23",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Radix tertia, quia timor poenae ab amore iustitiae disiunctus, nascitur ex amore sui ipsius, quatemus in creatura ultimo requiescit.",
+      "colunas": "580-585",
+      "paginas": "303-305",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893936"
+    },
+    {
+      "id": "t3-gc5-24",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Iustitia ex timore poenae, est iustitia ex lege et nostra, quam Apostolus arbitratus est detrimentum ac stercora.",
+      "colunas": "584-585",
+      "paginas": "305-305",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893938"
+    },
+    {
+      "id": "t3-gc5-25",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Repugnat magnopere Augustino doctrina qua docetur dolorem peccati propter gehennae metum, seu attritione quorundam Scholasticorum excludere posse omnem peccandi voluntatem, et continere propositum bonae vitae seu servandi totam legem Dei, itemque esse dispositionem sufficientem ad iustificationem cum Sacramento obtinendam.",
+      "colunas": "586-591",
+      "paginas": "306-308",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893945"
+    },
+    {
+      "id": "t3-gc5-26",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Concilium Tridentinum isti doctrinae multis locis adversatur.",
+      "colunas": "590-593",
+      "paginas": "308-309",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893947"
+    },
+    {
+      "id": "t3-gc5-27",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber V",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Multi fructus timoris poenae recensentur, ex quibus veritas doctrinae a Concilio Tridentino de timore poenae traditae patescit et confirmatur.",
+      "colunas": "594-599",
+      "paginas": "310-312",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893950"
+    },
+    {
+      "id": "t3-gc6-00",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "598-607",
+      "paginas": "312-316",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893977"
+    },
+    {
+      "id": "t3-gc6-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput primum",
+      "titulo": "De nomine liberi arbitrij et voluntatis.",
+      "colunas": "608-611",
+      "paginas": "317-318",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893984"
+    },
+    {
+      "id": "t3-gc6-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput secundum",
+      "titulo": "Liberum opponitur servo, captivo, dominationi alterius subiecto. Est esse inalligatum, inimpeditum etc.",
+      "colunas": "610-615",
+      "paginas": "318-320",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893989"
+    },
+    {
+      "id": "t3-gc6-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput tertium",
+      "titulo": "Liberum aliquid positivum sonat. Esse dominum, esse sui iuris, esse in potestate nostra, esse gratia sui.",
+      "colunas": "614-619",
+      "paginas": "320-322",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893991"
+    },
+    {
+      "id": "t3-gc6-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput quartum",
+      "titulo": "Quid sit esse in nostra potestate, seu actum habere in potestate, iuxta Augustinum.",
+      "colunas": "618-623",
+      "paginas": "322-324",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893994"
+    },
+    {
+      "id": "t3-gc6-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput quintum",
+      "titulo": "Omnis voluntas quomodo sit in potestate, et libera.",
+      "colunas": "622-629",
+      "paginas": "324-327",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/893998"
+    },
+    {
+      "id": "t3-gc6-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput sextum",
+      "titulo": "Duplex necessitas Augustino, coactios et simplex seu voluntaria. Illa, non haec repugnat libertati.",
+      "colunas": "628-637",
+      "paginas": "327-331",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894000"
+    },
+    {
+      "id": "t3-gc6-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput septimum",
+      "titulo": "Idem istenditur ex libertate Dei.",
+      "colunas": "636-639",
+      "paginas": "331-332",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894002"
+    },
+    {
+      "id": "t3-gc6-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput octavum",
+      "titulo": "Item ex libertate beatorum hominum et Angelorum.",
+      "colunas": "638-647",
+      "paginas": "332-336",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894005"
+    },
+    {
+      "id": "t3-gc6-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput nonum",
+      "titulo": "Ex libertate Christi Domini.",
+      "colunas": "646-649",
+      "paginas": "336-337",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894009"
+    },
+    {
+      "id": "t3-gc6-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum",
+      "titulo": "Idem ostenditur ex voluntate fruente summo bono clare viso, iuxta principia Augustini.",
+      "colunas": "648-653",
+      "paginas": "337-339",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894013"
+    },
+    {
+      "id": "t3-gc6-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput undecimum",
+      "titulo": "Idem probatur iuxta principia propria Scholasticorum.",
+      "colunas": "654-657",
+      "paginas": "340-341",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894016"
+    },
+    {
+      "id": "t3-gc6-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Eandem distinctionem indicarunt ante Augustinum ac ipso vivente multi, Dionysius Areopagita, Clemens, Irenaeus, Tertullianus, Origenes, Hilarius, Epiphanius, Macarius, Basilius, Seleucienses, Eusebius, Chrysostomus, Cyrillus.",
+      "colunas": "658-663",
+      "paginas": "342-344",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894018"
+    },
+    {
+      "id": "t3-gc6-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Post Augustinum idem docuerunt omnes usque ad Scholasticos, et primo sanctus prosper et Fulgentius.",
+      "colunas": "662-667",
+      "paginas": "344-346",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894023"
+    },
+    {
+      "id": "t3-gc6-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Venerabilis Beda.",
+      "colunas": "666-667",
+      "paginas": "346-346",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894035"
+    },
+    {
+      "id": "t3-gc6-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "S. Ioannes Damascenus.",
+      "colunas": "666-673",
+      "paginas": "346-349",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894040"
+    },
+    {
+      "id": "t3-gc6-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "S. Anselmus.",
+      "colunas": "672-675",
+      "paginas": "349-350",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894058"
+    },
+    {
+      "id": "t3-gc6-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "S. Bernardus.",
+      "colunas": "674-683",
+      "paginas": "350-354",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894060"
+    },
+    {
+      "id": "t3-gc6-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Hugo de Sancto Victore.",
+      "colunas": "682-685",
+      "paginas": "354-355",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894062"
+    },
+    {
+      "id": "t3-gc6-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Richardus de Sancto victore.",
+      "colunas": "686-689",
+      "paginas": "356-357",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894064"
+    },
+    {
+      "id": "t3-gc6-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Magister Sententiarum.",
+      "colunas": "688-693",
+      "paginas": "357-359",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894066"
+    },
+    {
+      "id": "t3-gc6-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Alexander de Hales.",
+      "colunas": "692-695",
+      "paginas": "359-360",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894068"
+    },
+    {
+      "id": "t3-gc6-22",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Guilielmus Parisiensis.",
+      "colunas": "694-699",
+      "paginas": "360-362",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894072"
+    },
+    {
+      "id": "t3-gc6-23",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Guilielmus Altissidiorensis.",
+      "colunas": "698-699",
+      "paginas": "362-362",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894076"
+    },
+    {
+      "id": "t3-gc6-24",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Sanctus Thomas.",
+      "colunas": "698-701",
+      "paginas": "362-363",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894080"
+    },
+    {
+      "id": "t3-gc6-25",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Ioannes Scotus.",
+      "colunas": "700-703",
+      "paginas": "363-364",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894084"
+    },
+    {
+      "id": "t3-gc6-26",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Sanctus Bonaventura.",
+      "colunas": "702-705",
+      "paginas": "364-365",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894087"
+    },
+    {
+      "id": "t3-gc6-27",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Henricus a Gandavo.",
+      "colunas": "706-707",
+      "paginas": "366-366",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894094"
+    },
+    {
+      "id": "t3-gc6-28",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum octavum",
+      "titulo": "Richardus de Media villa.",
+      "colunas": "706-709",
+      "paginas": "366-367",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894097"
+    },
+    {
+      "id": "t3-gc6-29",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput vigesimum nonum",
+      "titulo": "Thomas de Argentina.",
+      "colunas": "708-709",
+      "paginas": "367-367",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894100"
+    },
+    {
+      "id": "t3-gc6-30",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum",
+      "titulo": "Dionysius Carthusianns.",
+      "colunas": "710-711",
+      "paginas": "368-368",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894102"
+    },
+    {
+      "id": "t3-gc6-31",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum primum",
+      "titulo": "Marsilius de Inghen.",
+      "colunas": "710-713",
+      "paginas": "368-369",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894104"
+    },
+    {
+      "id": "t3-gc6-32",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum secundum",
+      "titulo": "Nicolaus de Orbellis et Stephanus Brulefer.",
+      "colunas": "712-713",
+      "paginas": "369-369",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894109"
+    },
+    {
+      "id": "t3-gc6-33",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum tertium",
+      "titulo": "Gabriel.",
+      "colunas": "712-713",
+      "paginas": "369-369",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894112"
+    },
+    {
+      "id": "t3-gc6-34",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum quartum",
+      "titulo": "Solvuntur generaliter Scripturae, Patres et Consilia quae requirunt indifferentiam ad utrumlibet.",
+      "colunas": "714-717",
+      "paginas": "370-371",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894116"
+    },
+    {
+      "id": "t3-gc6-35",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum quintum",
+      "titulo": "Actus voluntatis deliberatae necessarius, est in potestate et dominio voluntatis.",
+      "colunas": "716-723",
+      "paginas": "371-374",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894119"
+    },
+    {
+      "id": "t3-gc6-36",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum sextum",
+      "titulo": "Explicantur propositiones ex Bulla Pij quinti: Quod voluntarie fit etjamsi necessitate fiat, libere tamen fit. Et sola violentia repugnat libertati hominis naturali.",
+      "colunas": "724-725",
+      "paginas": "375-375",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894121"
+    },
+    {
+      "id": "t3-gc6-37",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum septimum",
+      "titulo": "Quomodo potentiae rationales se habeant ad opposita, et actus liber possit esse necessarius.",
+      "colunas": "726-729",
+      "paginas": "376-377",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894124"
+    },
+    {
+      "id": "t3-gc6-38",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VI",
+      "capitulo": "Caput trigesimum octavum",
+      "titulo": "Profertur epilogice consensus antiquorum Scholasticorum et Scriptorum usque ad Augustinum.",
+      "colunas": "728-731",
+      "paginas": "377-378",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894128"
+    },
+    {
+      "id": "t3-gc7-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput primum",
+      "titulo": "Brevis recapitulatio praecedentium, et propositio sequentium.",
+      "colunas": "732-735",
+      "paginas": "379-380",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894198"
+    },
+    {
+      "id": "t3-gc7-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput secundum",
+      "titulo": "Est aliquid, praeter nudam facultatem voluntatis, quod actum etiam voluntatis ponit in arbitrij potestate et illud facit velle.",
+      "colunas": "734-737",
+      "paginas": "380-381",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894237"
+    },
+    {
+      "id": "t3-gc7-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput tertium",
+      "titulo": "Delectatio efficit voluntatem et libertatem, hoc est, facit velle et libere velle.",
+      "colunas": "736-743",
+      "paginas": "381-384",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894239"
+    },
+    {
+      "id": "t3-gc7-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput quartum",
+      "titulo": "Libertas Augustino maxime versatur circa finem, et quare.",
+      "colunas": "742-747",
+      "paginas": "384-386",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894241"
+    },
+    {
+      "id": "t3-gc7-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput quintum",
+      "titulo": "Divisiones libertatis, in libertatem a necessitate, a peccato, a miseria. Item in libertatem a peccato, et a iustitia. Quomodo se habeant ad veram arbitrij libertatem.",
+      "colunas": "746-751",
+      "paginas": "386-388",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894244"
+    },
+    {
+      "id": "t3-gc7-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput sextum",
+      "titulo": "Quid sit libertas a peccato in Scripturis celebrata, iuxta Recentiores, et Pelagianos, et Augustinum, secundum terminum a quo.",
+      "colunas": "752-761",
+      "paginas": "389-393",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894249"
+    },
+    {
+      "id": "t3-gc7-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput septimum",
+      "titulo": "Libertas a peccato, secundum terminum ad quem est vera et proprie dicta libertas arbitrij ad opus bonum. Fit per charitatem iustitiae, et delectationem.",
+      "colunas": "760-769",
+      "paginas": "393-397",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894251"
+    },
+    {
+      "id": "t3-gc7-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput octavum",
+      "titulo": "Vberius declaratur natura libertatis. Quid sanitas, quid potestas arbitrij? Vnde nascuntur, ortus, incrementum, fastigium libertatis.",
+      "colunas": "768-773",
+      "paginas": "397-399",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894255"
+    },
+    {
+      "id": "t3-gc7-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput nonum",
+      "titulo": "Quatuor Corollaria ex istis principijs Augustini declarantur, et in primis quomodo arbitrium liberum erit in caelo.",
+      "colunas": "772-777",
+      "paginas": "399-401",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894257"
+    },
+    {
+      "id": "t3-gc7-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput decimum",
+      "titulo": "Triplex liberi arbitrij status, ad bonum, vel malum, et ad utrumque. Vnde haec restrictio ad unum, vel indifferentia contrarietatis nascatur.",
+      "colunas": "776-781",
+      "paginas": "401-403",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894259"
+    },
+    {
+      "id": "t3-gc7-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput undecimum",
+      "titulo": "Error Pelagianus est, requiri ad libertatem, indifferentiam ad bonum et malum: sed potest esse libertas destrcuta ad malum.",
+      "colunas": "780-787",
+      "paginas": "403-406",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894261"
+    },
+    {
+      "id": "t3-gc7-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Libertas arbitrij, quo sensu tribuenda, et neganda peccatoribus.",
+      "colunas": "788-793",
+      "paginas": "407-409",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894264"
+    },
+    {
+      "id": "t3-gc7-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Quomodo se libertas arbitrij habeat ad libertatem seu indifferentiam contrarietatis, et contradictionis.",
+      "colunas": "792-797",
+      "paginas": "409-411",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894266"
+    },
+    {
+      "id": "t3-gc7-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Afferuntur quatuor absurda, quae ex necessitate talis indifferentiae contradictionis sequuntur.",
+      "colunas": "798-805",
+      "paginas": "412-415",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894270"
+    },
+    {
+      "id": "t3-gc7-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Aliae tres absurditates ex ista indifferentia contradictionis consectaneae aperiuntur.",
+      "colunas": "804-809",
+      "paginas": "415-417",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894272"
+    },
+    {
+      "id": "t3-gc7-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VII",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Quomodo se habeat libertas arbitrij ad amplitudinem, eminentiam, independentiam, immensitatem, et similes voluntatis proprietates.",
+      "colunas": "808-813",
+      "paginas": "417-419",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894274"
+    },
+    {
+      "id": "t3-gc8-00",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "814-817",
+      "paginas": "420-421",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894289"
+    },
+    {
+      "id": "t3-gc8-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput primum",
+      "titulo": "Discrimen duarum opinionum de praedeterminatione physica et gratia congrua. In quo S. Augustini sententia cum utraque conveniat.",
+      "colunas": "816-819",
+      "paginas": "421-422",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894291"
+    },
+    {
+      "id": "t3-gc8-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput secundum",
+      "titulo": "Varia discrimina proferuntur inter adiutorium Dei medicinale et praedeterminationem physicam, prout a defensoribus eius traditur.",
+      "colunas": "818-823",
+      "paginas": "422-424",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894293"
+    },
+    {
+      "id": "t3-gc8-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput tertium",
+      "titulo": "Adiutorium Christi determinat, ac praedeterminat etiam physice voluntatem, ut velit et ardentius velit, et ex quo capite istud accidat.",
+      "colunas": "822-825",
+      "paginas": "424-425",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894296"
+    },
+    {
+      "id": "t3-gc8-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput quartum",
+      "titulo": "Conciliatio gratiae Christi quam Augustinus docuit cum libero arbitrio, iuxta principia Scholasticorum.",
+      "colunas": "824-827",
+      "paginas": "425-426",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894298"
+    },
+    {
+      "id": "t3-gc8-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput quintum",
+      "titulo": "Conciliatio genuina gratiae cum libero arbitrio secundum Augustini mentem profertur, et probatur ex querelis Pelagianorum et modo quo ijs Augustinus satisfecit.",
+      "colunas": "826-833",
+      "paginas": "426-429",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894300"
+    },
+    {
+      "id": "t3-gc8-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput sextum",
+      "titulo": "Eadem ex alijs diversis locis Augustini asseritur.",
+      "colunas": "832-837",
+      "paginas": "429-431",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894303"
+    },
+    {
+      "id": "t3-gc8-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput septimum",
+      "titulo": "Eadem ostenditur ex alia querela Pelagianorum.",
+      "colunas": "836-837",
+      "paginas": "431-431",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894305"
+    },
+    {
+      "id": "t3-gc8-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput octavum",
+      "titulo": "Eadem ex libro quem hanc solam ob causam Augustinus scripsit, ad oculum demonstratur.",
+      "colunas": "838-841",
+      "paginas": "432-433",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894308"
+    },
+    {
+      "id": "t3-gc8-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput nonum",
+      "titulo": "Declaratur hoc ipsum ex concordia motuum concupiscentiae, et liberi arbitrij ab Augustino tradita, ex quibus Pelagiani similiter quaerebantur liberum arbitrium extingui.",
+      "colunas": "842-845",
+      "paginas": "434-435",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894310"
+    },
+    {
+      "id": "t3-gc8-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum",
+      "titulo": "Eandem concordiam gratiae et liberi arbitrij ad unguem docuerunt discipuli S. Augustini, et in primis latissime et clarissime S. Prosper.",
+      "colunas": "844-849",
+      "paginas": "435-437",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894312"
+    },
+    {
+      "id": "t3-gc8-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput undecimum",
+      "titulo": "Item S. Cyrillus Alexandrinus, Fulgentius, et Petrus Diaconus.",
+      "colunas": "848-851",
+      "paginas": "437-438",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894315"
+    },
+    {
+      "id": "t3-gc8-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Sanctus Gregorius, Beda, S. Anselmus.",
+      "colunas": "850-853",
+      "paginas": "438-439",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894317"
+    },
+    {
+      "id": "t3-gc8-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Sanctus Bernardus, et amici eius duo Hugo et Richardus de sancto Victore.",
+      "colunas": "852-855",
+      "paginas": "439-440",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894319"
+    },
+    {
+      "id": "t3-gc8-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Magister Sententiarum, Alexander Halensis, Guilielmus Parisiensis.",
+      "colunas": "854-857",
+      "paginas": "440-441",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894323"
+    },
+    {
+      "id": "t3-gc8-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Sanctus Thomas, S. Bouaventura, Scotus.",
+      "colunas": "856-859",
+      "paginas": "441-442",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894325"
+    },
+    {
+      "id": "t3-gc8-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Henricus a Gandavo, Richardus de media Villa, Marsilius.",
+      "colunas": "858-859",
+      "paginas": "442-442",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894327"
+    },
+    {
+      "id": "t3-gc8-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Zozymus Papa, Celestinus, Tridentinum eandem concordiam definierunt.",
+      "colunas": "860-865",
+      "paginas": "443-445",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894329"
+    },
+    {
+      "id": "t3-gc8-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Epilogus probationum praecedentium.",
+      "colunas": "864-867",
+      "paginas": "445-446",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894331"
+    },
+    {
+      "id": "t3-gc8-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Redditur vera ratio principijs Augustini et aliorum Patrum ad amussim consentanea, cur talem concordiam gratiae et liberi arbitrij docuerint, nihilque in tradenda libertate curaverint illam indifferentiam et aequalitatem contrarietatis et contradictionis.",
+      "colunas": "866-869",
+      "paginas": "446-447",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894334"
+    },
+    {
+      "id": "t3-gc8-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Agnovit Augustinus sub gratia et ante gratiam indifferentiam contrarietatis et contradictionis quodam sensu; non tamen tanquam libertatem aut partem eius. Explicatur ista indifferentia conformiter principijs Augustini.",
+      "colunas": "868-877",
+      "paginas": "447-451",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894336"
+    },
+    {
+      "id": "t3-gc8-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber VIII",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Quomodo differat ista concordia gratiae et liberi arbiteij ab opinione Calvini?",
+      "colunas": "878-883",
+      "paginas": "452-454",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894338"
+    },
+    {
+      "id": "t3-gc9-00",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "882-883",
+      "paginas": "456-456",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894366"
+    },
+    {
+      "id": "t3-gc9-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput primum",
+      "titulo": "De nomine praedestinationis. Scripturis et Patribus non est aliud nisi praedefinire, praedecernere, praestituere.",
+      "colunas": "884-887",
+      "paginas": "457-458",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894369"
+    },
+    {
+      "id": "t3-gc9-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput secundum",
+      "titulo": "Inferuntur ex praedictis quatuor Corollaria. Et in primis quod praedestinatio non magis ex ratione sua respiciat et includat medium quam finem, nec magis finem quam medium fuse, quod gloria sit etiam obiectum praedestinationis.",
+      "colunas": "886-895",
+      "paginas": "458-462",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894371"
+    },
+    {
+      "id": "t3-gc9-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput tertium",
+      "titulo": "Praedestinatio Dei respicit non solum bonum, sed etiam malum, non culpae, sed poenae. De duplici praedestinatione, ad vitam et ad mortem.",
+      "colunas": "894-899",
+      "paginas": "462-464",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894374"
+    },
+    {
+      "id": "t3-gc9-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput quartum",
+      "titulo": "Inferuntur aliquot Corollaria. Iterum de praedestinatione in bono, et malo. Alia duplex praedestinatio, gratiae et iustitiae. De praedestinatione simpliciter dicta, et quod respiciat actiones Dei.",
+      "colunas": "898-903",
+      "paginas": "464-466",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894376"
+    },
+    {
+      "id": "t3-gc9-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput quintum",
+      "titulo": "Praedestinatio, dilectio, electio, propositum, praeparatio gratiae, discretio, quid in Scripturis et Augustino differant.",
+      "colunas": "902-905",
+      "paginas": "466-467",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894379"
+    },
+    {
+      "id": "t3-gc9-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput sextum",
+      "titulo": "Praedestinatio, electio, et discretio, alia gratiae, alia meritorum. Quid singulae sint et respiciant Augustinus olim etiam recte de gratia sentiens, nullam agnovit electionem gratiae, et quare. Quid electio iuxta Manichaeos.",
+      "colunas": "904-915",
+      "paginas": "467-472",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894381"
+    },
+    {
+      "id": "t3-gc9-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput septimum",
+      "titulo": "Definitio praedestinationis gratiae seu gratuitae ab Augustino tradita, nonnihil enodatur. Quaenam sint illa beneficia, et illa praescientia, de quibus in ea fit mentio?",
+      "colunas": "914-921",
+      "paginas": "472-475",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894385"
+    },
+    {
+      "id": "t3-gc9-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput octavum",
+      "titulo": "Effectus adaequatus praedestinationis gratuitae est liberatio. Quid illa, et a quibus. Praedestinatio gratiae facta est praeviso peccato non aliter.",
+      "colunas": "920-929",
+      "paginas": "475-479",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894389"
+    },
+    {
+      "id": "t3-gc9-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput nonum",
+      "titulo": "Vnde Phrases istae, Massa, et discretio a massa perditionis, et quid significent apud Augustinum.",
+      "colunas": "928-933",
+      "paginas": "479-481",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894392"
+    },
+    {
+      "id": "t3-gc9-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum",
+      "titulo": "Electio, seu praedestinatio gratiae non habuit in Angelis locum, et quo sensu.",
+      "colunas": "932-939",
+      "paginas": "481-484",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894396"
+    },
+    {
+      "id": "t3-gc9-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput undecimum",
+      "titulo": "Electio gratiae in Angelis, ex alio capite destruitur.",
+      "colunas": "938-941",
+      "paginas": "484-485",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894398"
+    },
+    {
+      "id": "t3-gc9-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Augustinus Angelorum perseverantiam non praedestinatam, sed praescitam tradit, eosque non gratia, sed meritis discretos.",
+      "colunas": "940-943",
+      "paginas": "485-486",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894400"
+    },
+    {
+      "id": "t3-gc9-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Angeli ad gloriam electi sunt, non electione gratiae sed meritorum.",
+      "colunas": "942-945",
+      "paginas": "486-487",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894402"
+    },
+    {
+      "id": "t3-gc9-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Angeli non sunt electi efficaciter ad gloriam, ante praevisionem perseverantiae, seu meritorum absolutam.",
+      "colunas": "946-949",
+      "paginas": "488-489",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894405"
+    },
+    {
+      "id": "t3-gc9-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Homines efficaciter electi sunt, non solum ad merita, sed etiam ad ipsam gloriam, ante praevisionem absolutam meritorum: et cur magis quam Angeli. Tres hallucinantium classes, quia radicem diversitatis non agnoverunt.",
+      "colunas": "948-955",
+      "paginas": "489-492",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894407"
+    },
+    {
+      "id": "t3-gc9-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Breviter perstringuntur quaedam Scripturae, quibus illa doctrina asseritur. Fusius soluitur ex Augustino, quo pacto Scripturae Christianos omnes electos et praedestinatos vocent.",
+      "colunas": "954-963",
+      "paginas": "492-496",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894409"
+    },
+    {
+      "id": "t3-gc9-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Prima probatio istius sententiae ex varijs Augustini locis, quibus generaliter talem voluntatem efficacem electionis ad gloriam, ante meriti praescientiam statuit.",
+      "colunas": "962-965",
+      "paginas": "496-497",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894412"
+    },
+    {
+      "id": "t3-gc9-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Secunda ex voluntate singulari salutis parvulorum.",
+      "colunas": "964-967",
+      "paginas": "497-498",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894414"
+    },
+    {
+      "id": "t3-gc9-19",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput decimum nonum",
+      "titulo": "Tertia ex voluntate illa, quae velut radix est gubernationis mirabilis circa adultos.",
+      "colunas": "966-973",
+      "paginas": "498-501",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894416"
+    },
+    {
+      "id": "t3-gc9-20",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Quarta ex voluntate illa, quae veluti radix, et cardo est gubernationis reproborum.",
+      "colunas": "972-977",
+      "paginas": "501-503",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894418"
+    },
+    {
+      "id": "t3-gc9-21",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Quinta ex vocatione secundum propositum.",
+      "colunas": "978-983",
+      "paginas": "504-506",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894420"
+    },
+    {
+      "id": "t3-gc9-22",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Declaratur hoc propositum antecedere omnem praescientiam absolutam meritorum ex praedefinitionibus multorum effectuum liberorum, ante praescientiam absolutam consensus voluntatis.",
+      "colunas": "982-987",
+      "paginas": "506-508",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894423"
+    },
+    {
+      "id": "t3-gc9-23",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Sexta, ex querelis Massiliensium.",
+      "colunas": "986-989",
+      "paginas": "508-509",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894426"
+    },
+    {
+      "id": "t3-gc9-24",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Solvuntur quaedam argumenta ab Augustino petita.",
+      "colunas": "988-993",
+      "paginas": "509-511",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894428"
+    },
+    {
+      "id": "t3-gc9-25",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "De causa praedestinationis ex parte Angelorum, et hominum, eaque diversa. Cur huic, non illi detur gratia, Quaestio inscrutabilis, origo errorum quibus eius scrutatores lapsi sunt. Quaedam de operibus moraliter bonis, et faciente quod in se est.",
+      "colunas": "992-1005",
+      "paginas": "511-517",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894430"
+    },
+    {
+      "id": "t3-gc9-26",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber IX",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Numerus Praedestinatorum quo pacto certus, praescientia, an praefinitione, tam respectu Angelorum, quam hominum. Aliqui supra numerum.",
+      "colunas": "1004-1011",
+      "paginas": "517-520",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894435"
+    },
+    {
+      "id": "t3-gc10-01",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput primum",
+      "titulo": "Quis ordo reprobationis quorumdam Angelorum negativae et positivae, ante, an post praevisa merita.",
+      "colunas": "1012-1015",
+      "paginas": "521-522",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894461"
+    },
+    {
+      "id": "t3-gc10-02",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput secundum",
+      "titulo": "Quis ordo reprobationis lapserum hominum.",
+      "colunas": "1014-1017",
+      "paginas": "522-523",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894463"
+    },
+    {
+      "id": "t3-gc10-03",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput tertium",
+      "titulo": "Causa reprobationis, secundum considerationem absolutam, est massa damnationis sive peccatum originale, et quo sensu.",
+      "colunas": "1016-1023",
+      "paginas": "523-526",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894467"
+    },
+    {
+      "id": "t3-gc10-04",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput quartum",
+      "titulo": "Causa reprobationis, secundum considerationem comparativam, est voluntas Dei.",
+      "colunas": "1022-1025",
+      "paginas": "526-527",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894469"
+    },
+    {
+      "id": "t3-gc10-05",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput quintum",
+      "titulo": "Effectus reprobationis damnatio, excaecatio, obduratio: non tamen primi peccati, sive Angelici, sive humani permissio.",
+      "colunas": "1024-1027",
+      "paginas": "527-528",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894471"
+    },
+    {
+      "id": "t3-gc10-06",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput sextum",
+      "titulo": "Tria solvuntur argumenta, quibus ista sancti Augustini doctrina de praedestinatione et reprobatione impetitur, quod Deus non videatur esse Salvator omnium hominum: nec Redemptor totius mundi: neque congrue promittere vitam aeternam, sub conditione servandi mandata.",
+      "colunas": "1028-1031",
+      "paginas": "529-530",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894476"
+    },
+    {
+      "id": "t3-gc10-07",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput septimum",
+      "titulo": "Solvitur argumentum quartum, quo dicitur, Deum insidiari saluti eorum qui reprobati sunt.",
+      "colunas": "1032-1035",
+      "paginas": "531-532",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894482"
+    },
+    {
+      "id": "t3-gc10-08",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput octavum",
+      "titulo": "Solvitur quintum argumentum, quo dicitur, hanc sententiam afferre socordiam electis, et reprobis desperationem.",
+      "colunas": "1036-1041",
+      "paginas": "533-535",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894485"
+    },
+    {
+      "id": "t3-gc10-09",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput nonum",
+      "titulo": "Solvitur sextum argumentum, quo urgent istam doctrinam tollere zelum animarum, et inutiles facere praedicationes et correptiones. Et utrum scandalum ac dissolutionem vitae pariat.",
+      "colunas": "1040-1045",
+      "paginas": "535-537",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894487"
+    },
+    {
+      "id": "t3-gc10-10",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum",
+      "titulo": "Solvitur septimum argumentum, quo existimatur ista doctrina, non esse divinae clementiae consentanea, eo quod reprobos non nisi ad damnationem creare, et conservare videatur.",
+      "colunas": "1046-1047",
+      "paginas": "538-538",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894489"
+    },
+    {
+      "id": "t3-gc10-11",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput undecimum",
+      "titulo": "Reprobati non tam propter suam, quam electorum utilitatem nascuntur, et conservantur.",
+      "colunas": "1048-1049",
+      "paginas": "539-539",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894494"
+    },
+    {
+      "id": "t3-gc10-12",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Fructus secundus, ut multis modis doceantur electi. Septem documenta proferuntur.",
+      "colunas": "1050-1053",
+      "paginas": "540-541",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894496"
+    },
+    {
+      "id": "t3-gc10-13",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Fructus secundus, ut multis modis doceantur electi. Septem documenta proferuntur.",
+      "colunas": "1052-1057",
+      "paginas": "541-543",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894498"
+    },
+    {
+      "id": "t3-gc10-14",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Cur tantus numerus reprobatorum prae praedestinatis.",
+      "colunas": "1056-1059",
+      "paginas": "543-544",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894500"
+    },
+    {
+      "id": "t3-gc10-15",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Tertius fructus, exercitium, et profectus, probatio, et eminentia seu manifestatio electorum.",
+      "colunas": "1058-1061",
+      "paginas": "544-545",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894507"
+    },
+    {
+      "id": "t3-gc10-16",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Quo scopo et fructu reprobati misceantur praedestinatis, et iuxta Scripturas, servituti destinati sint.",
+      "colunas": "1060-1063",
+      "paginas": "545-546",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894514"
+    },
+    {
+      "id": "t3-gc10-17",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Quam conveniens, imo posr lapsum necessarius fuerit iste divinae providentiae modus.",
+      "colunas": "1064-1069",
+      "paginas": "547-549",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894517"
+    },
+    {
+      "id": "t3-gc10-18",
+      "tomo": "III",
+      "livro": "De gratia Christi Salvatoris, liber X",
+      "capitulo": "Caput decimum octavum",
+      "titulo": "Ostenditur iniustitia querimoniae contra istam sancti Augustini doctrinam.",
+      "colunas": "1068-1069",
+      "paginas": "549-549",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894519"
+    },
+    {
+      "id": "t3-epi-01",
+      "tomo": "III",
+      "livro": "Epilogus omnium",
+      "capitulo": "Epilogus",
+      "titulo": "Epilogus omnium",
+      "colunas": "1070-1071",
+      "paginas": "550-550",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892770"
+    },
+    {
+      "id": "t3-par-00",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio. In quo causa, et fructus hujus scriptionis; Propositio, et partitio dicendorum",
+      "colunas": "1072-1077",
+      "paginas": "551-553",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894532"
+    },
+    {
+      "id": "t3-par-01",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Caput primum",
+      "titulo": "Quo pacto in oppugnanda electione hominum, seu completa praedestinatione discrepent, aut conveniant.",
+      "colunas": "1076-1089",
+      "paginas": "553-559",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894540"
+    },
+    {
+      "id": "t3-par-02",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Caput secundum",
+      "titulo": "Quomodo in oppugnanda gratia efficaci conveniant, aut differant.",
+      "colunas": "1090-1097",
+      "paginas": "560-563",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894542"
+    },
+    {
+      "id": "t3-par-03",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Caput tertium",
+      "titulo": "Quae sit in gratiam ab utrisque traditam convenientia ac discrepantia.",
+      "colunas": "1098-1128",
+      "paginas": "564-579",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894545"
+    },
+    {
+      "id": "t3-par-04",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Caput quartum",
+      "titulo": "Quid praedestinationi apud utrosque commune; quid proprium.",
+      "colunas": "1127-1132",
+      "paginas": "579-581",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894547"
+    },
+    {
+      "id": "t3-par-05",
+      "tomo": "III",
+      "livro": "Erroris Massiliensium et opinionis quorundam recentiorum parallelon et statera",
+      "capitulo": "Caput quintum",
+      "titulo": "Quibus utrique armis pugna verint; quibus gradibus in illam sententiam lapsi sint.",
+      "colunas": "1133-1144",
+      "paginas": "582-587",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/894549"
     }
   ]
 }
