@@ -130,5 +130,11 @@
     "formas": ["concupiscentia", "concupiscentiae", "concupiscentiam", "concupiscentialis"],
     "pt": ["concupiscência"],
     "nota": "\"Concupiscência\": o apetite desordenado que vem do pecado original. O adjetivo *concupiscentialis* vai como \"da concupiscência\" (cap. 10: *concupiscentialis rixae*, \"luta da concupiscência\")."
+  },
+  {
+    "lema": "sacramentum",
+    "formas": ["Sacramentum", "Sacramenti", "sacramentum", "sacramenti", "sacramento", "sacramenta", "sacramentorum", "sacramentis"],
+    "pt": ["sacramento", "sacramentos"],
+    "nota": "\"Sacramento\" (Livro proemial, cap. 12: *Sacramentum incorporationis*, \"sacramento da incorporação\", o batismo). Distinto de *mysterium* (\"mistério\"), mesmo quando este designa um rito."
   }
 ]
