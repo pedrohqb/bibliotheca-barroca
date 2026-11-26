@@ -180,9 +180,39 @@
     "nota": "\"Razão de voluntário\": o caráter formal pelo qual um ato ou estado é voluntário, condição do pecado em Agostinho (*De vera religione* 14). Do mesmo modo, *ratio peccati*, \"razão de pecado\" (livro I do *De statu naturae lapsae*, cap. 4)."
   },
   {
+    "lema": "nescientia",
+    "formas": ["nescientia", "nescientiam", "nescientiae"],
+    "pt": ["nesciência"],
+    "nota": "\"Nesciência\": o simples não saber, sem vontade de ignorar (*simplex nescientia*, \"simples nesciência\"), que Agostinho distingue da ignorância querida (*De gratia et libero arbitrio* 3,5). Distinto de *ignorantia* (\"ignorância\"). Livro II do *De statu naturae lapsae*, cap. 3."
+  },
+  {
+    "lema": "gratia sufficiens",
+    "formas": ["gratia sufficiente", "gratia sufficiens", "gratiae sufficientis", "gratiam sufficientem"],
+    "pt": ["graça suficiente"],
+    "nota": "\"Graça suficiente\": na escolástica pós-tridentina, o auxílio que dá o poder de agir sem dar o agir, oposto à graça eficaz (*gratia efficax*, \"graça eficaz\"). Jansênio a discute como tese a que Agostinho se opõe (Livro proemial, cap. 16)."
+  },
+  {
+    "lema": "peccatum originale",
+    "formas": ["peccato originali", "peccatum originale", "peccati originalis"],
+    "pt": ["pecado original"],
+    "nota": "\"Pecado original\"."
+  },
+  {
     "lema": "indifferentia",
     "formas": ["indifferentia", "indifferentiae", "indifferentiam"],
     "pt": ["indiferença"],
     "nota": "\"Indiferença\" (ao bem e ao mal, *ad bonum et malum*): a capacidade do arbítrio de inclinar-se a um ou a outro lado, que Adão tinha e que, para Jansênio, se perdeu na queda. *Indifferentia proxima*, \"indiferença próxima\" (livro III do *De statu naturae lapsae*, cap. 2)."
+  },
+  {
+    "lema": "infidelis",
+    "formas": ["infidelis", "infideles", "infidelium", "infidelibus", "infidelem", "infideliter"],
+    "pt": ["infiel", "infiéis", "infielmente"],
+    "nota": "\"Infiel\": quem não tem a fé cristã, sem o sentido de deslealdade. O advérbio *infideliter*, \"infielmente\", isto é, sem fé. *Opera infidelium*, \"obras dos infiéis\", tema do livro IV do *De statu naturae lapsae*."
+  },
+  {
+    "lema": "honestas moralis",
+    "formas": ["honestas moralis", "morali honestate", "moralis honestatis", "moralem honestatem", "honestate", "honestatis"],
+    "pt": ["honestidade moral", "honestidade"],
+    "nota": "\"Honestidade moral\": o *honestum* da ética antiga, o bem digno por si mesmo, critério da moral dos filósofos que Jansênio opõe à referência a Deus como fim (livro IV do *De statu naturae lapsae*). *Bonum honestum*, \"bem honesto\"."
   }
 ]
