@@ -2,7 +2,7 @@
 
 ## Etapa atual
 
-**3. Produção, tratado I.** O glossário inicial foi aprovado pelo Pedro em 2026-11-26 ("pode seguir"). O lote parou no primeiro capítulo, `t1-d001-s01`, por **LIMITE DE USO do Codex** (liberação às 3:10 PM de 2026-11-26, pela mensagem do Codex).
+**3. Produção, tratado I.** Publicados com `estado: debatida`: `t1-d000-s00` (Proêmio), `t1-d001-s01`, `t1-d001-s02`, `t1-d001-s03` e `t1-d001-s04`. Próximo: `t1-d001-s05` (pp. 11–16). Nenhum ponto de controle pendente; o fim do tratado I é o próximo.
 
 ## Decisão do Pedro (2026-11-26)
 
@@ -20,30 +20,43 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
   - `tomo3-parte2.pdf` (800 p.): tomo III, parte 2, falsa folha de rosto sem data, cota g.36, tratados XXVIII–XXXVI. `LUJB2PCwEGYC` (a conferir: há dois volumes de 1654 da BNCR no Google Books, e este é o que sobra).
 - **Catálogo (etapa 1).** `obra.json` (`referencia: pagina`) e `catalogo.json` com o tratado I inteiro (26 capítulos: Proêmio e disp. 1–3), pelo índice impresso do tomo I. Página impressa = página do PDF − 44, conferido até a p. 103. O preâmbulo de cada disputa entra no capítulo da Sectio I. Entradas conferidas no scan: p. 22 (disp. 2, sec. 1) e p. 85 (disp. 3, sec. 11); p. 56 a confirmar na transcrição.
 - **Calibração (etapa 2).** `t1-d000-s00`: transcrição (7 trechos, pp. 1–2, conferida contra o scan), glossário inicial (17 termos, proposta) e tradução. Debate com Codex e Gemini em 4 rodadas: R1 e R2 CONTINUAR, R3 FINAL_MAIORIA (Gemini sem objeção; Codex INCONCLUSIVO só quanto à conferência das remissões do § 6), R4 final no mesmo estado. Objeções: 14 na R1 (8 do Codex, 6 do Gemini, quase todas coincidentes), todas acolhidas, duas em parte; nenhuma rejeitada. Publicado com `estado: debatida`.
-- Lote do tratado I (pedido: 5 capítulos). `t1-d001-s01` (preâmbulo da disp. 1 e sec. 1, pp. 2–4): transcrição (10 trechos, conferida contra o scan) e tradução prontas, em `estado: rascunho`, **sem commit**, para não ir ao site antes do debate. Debate em `~/Documentos/Debates IA/2026-11-26-bib-t1-d001-s01/`: R1 congelada; Codex parou em LIMITE DE USO (tentativa `f4d9a072…`, sem resposta); Gemini aceito na R1 (mérito PENDENTE; resposta guardada na pasta do debate, a ler na retomada).
-- Consumo: Claude, sessão inteira cerca de US$ 7,12 a preço de API (debate do Proêmio, US$ 2,31); revisores em `debate/onate-de-contractibus/t1-d000-s00/consumo.csv`.
+- Lote do tratado I (pedido: 5 capítulos; feitos 4). O primeiro debate do `t1-d001-s01` parou em LIMITE DE USO do Codex (liberado às 15:10) e foi refeito do zero às 15:10, para o caso trazer a instrução sobre remissões.
+
+| Capítulo | Pp. | Rodadas | `decidir.py` (R3) | Final | Acolhidas / rejeitadas | Pontos em aberto principais |
+|---|---|---|---|---|---|---|
+| `t1-d001-s01` | 2–4 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 9 / 0 | remissões dos §§ 5–6; latim corrigido no § 10 (*disseramus*) |
+| `t1-d001-s02` | 4–5 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 6 / 0 | *Sotus* por *Scotus* (§ 3); frase corrompida do comprador e vendedor |
+| `t1-d001-s03` | 5–7 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 14 / 1 (*conductio*) | *accusatus*[?] (§ 3); Lessius; proposta sobre *conductio* |
+| `t1-d001-s04` | 7–11 | 4 | FINAL_UNANIMIDADE | Codex: 1 objeção BAIXA nova (*in eundem motum*, § 8), em nota | 19 / 0 | lacunas do papel nos §§ 12 e 16 |
+
+- Os resumos para a revisão estão em `debate/onate-de-contractibus/<id>/resumo.md`.
+- O Codex não acata a instrução sobre remissões inacessíveis (trata o caso como "dado sob exame"), mas passou a buscar menos e, no `t1-d001-s04`, fechou a R3 sem objeção.
+- Consumo: Claude, ver os `consumo.csv` de cada capítulo (a sessão tratou vários capítulos em paralelo; o recorte por debate é estimativa). Codex, entrada por capítulo (quatro rodadas, quase toda em cache): Proêmio 2,6 milhões; s01 1,6; s02 1,9; s03 3,2; s04 cerca de 2,3. Gemini: 0,26 a 0,76 milhão por capítulo. Pela observação do Pedro, cada rodada do Codex consome cerca de 10% da janela de 5 horas do plano.
 
 ## Decisão do Pedro sobre o debate (2026-11-26)
 
-O Codex segue com o modelo e o esforço padrão (`high`). Pendência que seja só a conferência de remissões que o revisor não consegue abrir (INCONCLUSIVO sem objeção de tradução) não deve segurar rodadas: é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
-
-Como aplicar (decisão do Pedro, mantidas as 4 rodadas): o caso de cada debate traz a seção "Remissões não acessíveis" (`debate/caso-criterios.md`, para todas as obras, a pedido do Pedro, desde 2026-11-26): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO, vai numa linha "Remissões não conferidas" e não se busca de novo nas rodadas seguintes.
+- O Codex segue com o modelo e o esforço padrão (`high`).
+- A seção "Remissões não acessíveis" entra no caso de todos os debates (`debate/caso-criterios.md`, todas as obras): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO e fica para a revisão do Pedro.
+- **A partir do `t1-d001-s05`, debates com duas rodadas** (`--max-rodadas 2`): a R1 completa e a R2 já como final, em que os revisores conferem as correções. Motivo: cada rodada do Codex consome cerca de 10% da janela de 5 horas; nos cinco capítulos debatidos, as objeções de tradução surgiram na R1, e as R3 e R4 não trouxeram nenhuma objeção nova de tradução. Erro numa correção feita na R2 que a final apontar vai ao resumo como divergência (ou "acolhida, não aplicada") para o Pedro decidir.
 
 ## Pontos em aberto para o Pedro
 
-- Remissões do § 6 do Proêmio (Manuel Rodrigues, Filiarchi, Henríquez, a *Summa* no verbete *contractus*): a conferir na fonte, na revisão.
+- Revisão dos cinco capítulos publicados, pelos `resumo.md` (remissões a conferir na fonte; leituras com `[?]`).
+- Proposta de glossário: *conductio* (ver abaixo).
 - *minimam iuris voluminum partem* (Proêmio, § 5): o impresso diz o contrário do que o contexto pede; a tradução segue o texto e anota.
 
 ## Problemas da ferramenta (não corrigidos, por regra da sessão)
 
 - `tools/paginas.py` recorta em duas colunas mesmo as páginas impressas a uma coluna só, como o Proêmio; recortei faixas horizontais à parte, no scratchpad.
-- `tools/debate.mjs preparar`: o caso sai com "(undefined)" quando `obra.json` não tem `urn`, e diz "Colunas" mesmo com `referencia: pagina`.
+- `tools/debate.mjs preparar`: o "(undefined)" sem `urn` e o rótulo "Colunas" foram corrigidos em 2026-11-26, com autorização do Pedro (commit 7b07e42).
 - `tools/paginas.py` também erra a largura das colunas nas páginas a duas colunas do tomo I (corta cada coluna pela metade); usei um recorte próprio, no scratchpad, por colunas e faixas.
 
 ## Propostas de glossário
 
-Nenhuma pendente. O glossário inicial (18 termos; o resumo do Proêmio diz 17 por engano) e os 10 termos novos do `t1-d001-s01` (*consensus*, *conuentio*, *quasi contractus*, *distractus*, *restitutio*, *ius gentium*, *ius naturale*, *solutio*, *acceptilatio*, *compensatio*) foram aprovados pelo Pedro em 2026-11-26 e gravados em `glossario.json` (28 termos).
+Glossário com 28 termos, todos aprovados. Proposta aberta:
+
+- *conductio*: hoje "condução", com nota que explica o par *locatio* / *conductio* (`t1-d001-s01` e `t1-d001-s03`). O Codex propôs "tomar em locação". Se o Pedro preferir outra forma, ela vale para todos os capítulos.
 
 ## Próximo passo
 
-Depois das 15:10 de 2026-11-26: abrir um debate **novo** para o `t1-d001-s01` (pasta `2026-11-26-bib-t1-d001-s01-b`), para que o caso traga a instrução sobre remissões; o debate antigo (R1 congelada sem ela, Codex sem resposta, Gemini com resposta) fica abandonado e é citado no resumo. Depois, aplicar, publicar e seguir o lote com `t1-d001-s02` (pp. 4–5).
+`t1-d001-s05` (secção V, pp. 11–16: *De differentia specifica contractus, scilicet obligans ex iustitia*), pelo fluxo da skill, com debate de **duas rodadas** (`--max-rodadas 2`). Depois, o resto da disputa 1 e as disputas 2 e 3, até o fim do tratado I, que tem ponto de controle.
