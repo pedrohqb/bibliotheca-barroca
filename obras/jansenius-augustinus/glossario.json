@@ -370,5 +370,11 @@
     "formas": ["Massilienses", "Massiliensium", "Massiliensibus"],
     "pt": ["massilienses"],
     "nota": "\"Massilienses\", com minúscula: os monges de Marselha e do sul da Gália que criticaram a doutrina de Agostinho, depois chamados semipelagianos."
+  },
+  {
+    "lema": "similitudo virtutis",
+    "formas": ["similitudo", "similitudines", "similitudinem", "similitudinum"],
+    "pt": ["imitação", "imitações"],
+    "nota": "\"Imitação\" (da virtude): nas obras dos infiéis, o vício que se parece com a virtude sem o ser (*virtutum similitudines*, \"imitações de virtudes\"), na linha de Agostinho e de Pomério (*vitia virtutes imitantia*). Literalmente \"semelhança\"; fora desse sentido técnico, a tradução muda, com nota. *Verisimilitudo* fica \"verossimilhança\"; *simulatio*, \"simulação\"."
   }
 ]
