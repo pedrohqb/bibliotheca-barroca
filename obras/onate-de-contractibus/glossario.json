@@ -1,1 +1,253 @@
-[]
+[
+  {
+    "lema": "contractus",
+    "formas": [
+      "contractus",
+      "contractum",
+      "contractu",
+      "contractui",
+      "contractuum",
+      "contractibus",
+      "contractib."
+    ],
+    "pt": [
+      "contrato"
+    ],
+    "nota": "Sempre \"contrato\". *Contractus large dictus* (que abrange o quase contrato e o distrato) é tratado na disp. 1, sec. 1."
+  },
+  {
+    "lema": "pactum",
+    "formas": [
+      "pactum",
+      "pacti",
+      "pacto",
+      "pacta",
+      "pactis",
+      "pactorum"
+    ],
+    "pt": [
+      "pacto"
+    ],
+    "nota": "Sempre \"pacto\" (*pactum nudum*, \"pacto nu\"; *vestitum*, \"pacto vestido\"). Não confundir com *conventio*."
+  },
+  {
+    "lema": "stipulatio",
+    "formas": [
+      "stipulatio",
+      "stipulationem",
+      "stipulatione",
+      "stipulationibus"
+    ],
+    "pt": [
+      "estipulação"
+    ],
+    "nota": "\"Estipulação\": a promessa solene do direito romano, não a cláusula em sentido moderno."
+  },
+  {
+    "lema": "obligatio",
+    "formas": [
+      "obligatio",
+      "obligationem",
+      "obligatione",
+      "obligationes",
+      "obligationum"
+    ],
+    "pt": [
+      "obrigação",
+      "obrigações"
+    ],
+    "nota": "\"Obrigação\", o vínculo jurídico (e moral). *Obligatio naturalis / civilis*: \"obrigação natural / civil\"."
+  },
+  {
+    "lema": "dominium",
+    "formas": [
+      "dominium",
+      "dominii",
+      "dominio",
+      "dominia",
+      "dominiorum"
+    ],
+    "pt": [
+      "domínio"
+    ],
+    "nota": "\"Domínio\" (propriedade em sentido técnico); *translatio dominii*, \"transferência do domínio\". Não traduzir por \"propriedade\", para manter o termo técnico."
+  },
+  {
+    "lema": "possessio",
+    "formas": [
+      "possessio",
+      "possessionem",
+      "possessione",
+      "possessiones"
+    ],
+    "pt": [
+      "posse",
+      "posses"
+    ],
+    "nota": "\"Posse\", distinta do domínio."
+  },
+  {
+    "lema": "traditio",
+    "formas": [
+      "traditio",
+      "traditionem",
+      "traditione",
+      "traditiones"
+    ],
+    "pt": [
+      "tradição",
+      "tradições"
+    ],
+    "nota": "\"Tradição\", a entrega da coisa que transfere a posse ou o domínio."
+  },
+  {
+    "lema": "evictio",
+    "formas": [
+      "evictio",
+      "euictio",
+      "euictiones",
+      "euictionem"
+    ],
+    "pt": [
+      "evicção",
+      "evicções"
+    ],
+    "nota": "\"Evicção\"."
+  },
+  {
+    "lema": "vindicatio",
+    "formas": [
+      "vindicatio",
+      "vindicationes",
+      "vindicationem"
+    ],
+    "pt": [
+      "reivindicação",
+      "reivindicações"
+    ],
+    "nota": "\"Reivindicação\", a ação do dono para reaver a coisa."
+  },
+  {
+    "lema": "usucapio",
+    "formas": [
+      "usucapio",
+      "vsucapio",
+      "vsucapionum",
+      "vsucapionem",
+      "vsucapione"
+    ],
+    "pt": [
+      "usucapião",
+      "usucapiões"
+    ],
+    "nota": "\"Usucapião\"."
+  },
+  {
+    "lema": "actio",
+    "formas": [
+      "actio",
+      "actionem",
+      "actione",
+      "actiones",
+      "actionum"
+    ],
+    "pt": [
+      "ação",
+      "ações"
+    ],
+    "nota": "\"Ação\" em sentido processual (o meio de pedir em juízo)."
+  },
+  {
+    "lema": "exceptio",
+    "formas": [
+      "exceptio",
+      "exceptionem",
+      "exceptione",
+      "exceptiones"
+    ],
+    "pt": [
+      "exceção",
+      "exceções"
+    ],
+    "nota": "\"Exceção\", a defesa do réu."
+  },
+  {
+    "lema": "iustitia",
+    "formas": [
+      "iustitia",
+      "iustitiae",
+      "iustitiam"
+    ],
+    "pt": [
+      "justiça"
+    ],
+    "nota": "\"Justiça\"; *iustitia commutativa*, \"justiça comutativa\"."
+  },
+  {
+    "lema": "lucrativus",
+    "formas": [
+      "lucratiuis",
+      "lucratiuus",
+      "lucratiuum",
+      "lucratiuorum"
+    ],
+    "pt": [
+      "gratuito",
+      "gratuitos"
+    ],
+    "nota": "\"Gratuito\": o contrato em que uma parte só recebe, sem contraprestação (doação, comodato, mandato). O índice do tomo II diz *contractibus gratuitis*. \"Lucrativo\" sugeriria em português o fim de lucro, o contrário do sentido."
+  },
+  {
+    "lema": "onerosus",
+    "formas": [
+      "onerosis",
+      "onerosus",
+      "onerosum",
+      "onerosorum"
+    ],
+    "pt": [
+      "oneroso",
+      "onerosos"
+    ],
+    "nota": "\"Oneroso\": contrato com prestações de ambas as partes (compra e venda, locação, sociedade)."
+  },
+  {
+    "lema": "disputatio",
+    "formas": [
+      "disputatio",
+      "disputationes",
+      "disputationem"
+    ],
+    "pt": [
+      "disputa",
+      "disputas"
+    ],
+    "nota": "\"Disputa\", a divisão da obra (*Disputatio I*); \"disputar\" para o verbo."
+  },
+  {
+    "lema": "sectio",
+    "formas": [
+      "sectio",
+      "sectiones",
+      "sectionem"
+    ],
+    "pt": [
+      "seção",
+      "seções"
+    ],
+    "nota": "\"Seção\", a divisão da disputa."
+  },
+  {
+    "lema": "Doctores",
+    "formas": [
+      "DD.",
+      "Doctorum",
+      "Doctores",
+      "Doctoribus"
+    ],
+    "pt": [
+      "doutores"
+    ],
+    "nota": "*DD.* e *Doctores*: os autores de autoridade (teólogos e juristas), \"doutores\"."
+  }
+]

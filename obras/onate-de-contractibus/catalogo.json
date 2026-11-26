@@ -1,5 +1,5 @@
 {
- "nota": "Capítulos na ordem da obra. O capítulo é a secção de cada disputa (t<tomo>-d<disputa>-s<secção>); o Proêmio é t1-d000-s00. 'colunas' traz as páginas impressas (a obra.json usa referencia: pagina); 'paginas' são páginas do PDF do volume (tomo I: página impressa + 44, conferido até a p. 103) e cobrem do início da secção ao início da seguinte. Títulos tirados do índice impresso do tomo I, normalizados; acertam-se na transcrição. 'scan' abre a página no Google Books (exemplar da BNCR). Catalogado até agora: tratado I.",
+ "nota": "Capítulos na ordem da obra. O capítulo é a secção de cada disputa (t<tomo>-d<disputa>-s<secção>); o Proêmio é t1-d000-s00. 'colunas' traz as páginas impressas (a obra.json usa referencia: pagina); 'paginas' são páginas do PDF do volume (tomo I: página impressa + 44, conferido até a p. 103) e cobrem do início da secção ao início da seguinte. Títulos tirados do índice impresso do tomo I, normalizados; acertam-se na transcrição. 'scan' abre a página no Google Books (exemplar da BNCR). Catalogado até agora: tratado I. O preâmbulo de cada disputa (antes da Sectio I) entra no capítulo da Sectio I.",
  "volumes": {
   "I": {
    "pdf": "~/bibliotheca-fontes/onate-de-contractibus/tomo1-1646.pdf",
@@ -29,8 +29,8 @@
    "livro": "Tractatus I. De natura, et divisione contractus",
    "capitulo": "Prooemium",
    "titulo": "Prooemium. De partitione operis",
-   "colunas": "1-3",
-   "paginas": "45-47",
+   "colunas": "1-2",
+   "paginas": "45-46",
    "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA1"
   },
   {
@@ -39,9 +39,9 @@
    "livro": "Tractatus I. De natura, et divisione contractus",
    "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio I",
    "titulo": "Divisio contractus large dicti in proprium contractum, et quasi contractum, et distractum",
-   "colunas": "3-4",
-   "paginas": "47-48",
-   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA3"
+   "colunas": "2-4",
+   "paginas": "46-48",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA2"
   },
   {
    "id": "t1-d001-s02",
