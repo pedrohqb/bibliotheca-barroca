@@ -1,0 +1,15 @@
+﻿fonte;rodada_ou_parte;situacao;tentativa;modelo;esforco;chamadas;entrada_total;cache_lido;cache_gravado;saida;raciocinio;buscas;segundos;creditos_codex_estimados;usd_api_estimado
+codex;R1;aceita;58926295;gpt-6.1-sol;high;1;1884146;1756160;;9790;5720;53;328;13,2372;
+gemini;R1;aceita;fa4513db;gemini-4-argon-high;high;1;148760;101062;;25528;20749;12;291;;
+codex;R2;aceita;2e1ef1bb;gpt-6.1-sol;high;1;793467;707968;;6668;3957;27;193;7,7119;
+gemini;R2;aceita;8ea17320;gemini-4-argon-high;high;1;27579;0;;5149;4279;0;61;;
+codex;R3;descartada: LIMITE DE USO do Codex - tente de novo em 3:10 PM;64aa6233;gpt-6.1-sol;high;1;;;;;;2;34;;
+codex;R3;descartada: LIMITE DE USO do Codex - tente de novo em 8:10 PM;0a490915;gpt-6.1-sol;high;1;;;;;;0;7;;
+codex;R3;descartada: LIMITE DE USO do Codex - tente de novo em 8:10 PM;4de9ac5c;gpt-6.1-sol;high;1;;;;;;0;12;;
+codex;R3;aceita;dc99c08a;gpt-6.1-sol;high;1;156742;115456;;2631;1136;3;74;3,0107;
+gemini;R3;aceita;580a07cb;gemini-4-argon-high;high;1;27171;0;;1509;1057;0;25;;
+codex;R4;aceita;3cbd95a9;gpt-6.1-sol;high;1;160797;118528;;3291;1551;3;83;3,2325;
+gemini;R4;aceita;80c876d1;gemini-4-argon-high;high;1;27770;0;;9114;7817;0;69;;
+claude;sessao;;;claude-opus-5-5;;278;33059445;32054811;1004010;161806;;;;;15,0700
+claude;debate;;;claude-opus-5-5;;270;32360684;31406849;953227;158857;;;;;14,4800
+claude;subagentes;;;claude-opus-5-5;;228;25744200;24873957;869749;121067;;;;;11,7500
