@@ -30,10 +30,10 @@ python3 ~/.debates-ia/debates/preparar_rodada.py --perfis   # deve listar traduc
 
 ## 3. Chrome e scans
 
-Os scans são baixados automaticamente pelo Claude in Chrome, no Chrome da VM: a skill abre o visualizador de Paderborn, baixa o PDF do volume, confere e o move para o lugar certo, e lê no índice do visualizador os links de cada capítulo. Para isso, uma vez:
+Os scans são baixados automaticamente pelo Claude in Chrome, no Chromium da VM: a skill abre o visualizador de Paderborn, baixa o PDF do volume, confere e o move para o lugar certo, e lê no índice do visualizador os links de cada capítulo. Para isso, uma vez:
 
-1. Instale o Google Chrome na VM (pacote `.deb` do site do Google) e, nele, a extensão Claude in Chrome, entrando com a mesma conta do Claude Code.
-2. Nas configurações do Chrome, em Downloads, desligue **Perguntar onde salvar cada arquivo** (a caixa de diálogo do sistema trava a automação).
+1. No Chromium da VM (ou no Google Chrome), a extensão Claude in Chrome, com a mesma conta do Claude Code.
+2. Nas configurações do navegador, em Downloads, desligue **Perguntar onde salvar cada arquivo** (a caixa de diálogo do sistema trava a automação).
 3. Abra o Claude Code com a integração do Chrome ligada: `claude --chrome` (ou `/chrome` dentro da sessão, para conectar e conferir).
 
 | Volume | Link | Caminho |

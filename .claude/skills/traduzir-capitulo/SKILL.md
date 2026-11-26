@@ -71,13 +71,13 @@ Ao fim (de cada capítulo, ou do lote), diga em poucas linhas: capítulos public
 
 ## Fontes (download pelo Chrome)
 
-As bibliotecas digitais (Paderborn, em especial) barram download por script com uma verificação de navegador; por isso os scans vêm pelo Claude in Chrome, no Chrome da VM, que passa por essa verificação como um usuário comum. Carregue as ferramentas do Chrome numa única busca (`tabs_context_mcp`, `tabs_create_mcp`, `navigate`, `read_page`, `find`, `computer`, `get_page_text`) e trabalhe numa aba nova.
+As bibliotecas digitais (Paderborn, em especial) barram download por script com uma verificação de navegador; por isso os scans vêm pelo Claude in Chrome, no navegador da VM (Chromium), que passa por essa verificação como um usuário comum. Carregue as ferramentas do Chrome numa única busca (`tabs_context_mcp`, `tabs_create_mcp`, `navigate`, `read_page`, `find`, `computer`, `get_page_text`) e trabalhe numa aba nova.
 
 **Volume inteiro** (quando falta o PDF de `catalogo.json` → `volumes`):
 
-1. Pasta de downloads do Chrome: `xdg-user-dir DOWNLOAD` (em português costuma ser `~/Transferências`). Anote os PDFs que já estão lá.
+1. Pasta de downloads do navegador: `xdg-user-dir DOWNLOAD` (em português costuma ser `~/Transferências`). Anote os PDFs que já estão lá.
 2. Abra o `scan` do volume (link `nbn-resolving.org`, que leva ao visualizador de Paderborn). Se aparecer a verificação "enable JavaScript and cookies", espere alguns segundos e recarregue uma vez.
-3. Ache no visualizador o download do volume inteiro em PDF (ícone ou menu "Download"/"PDF", às vezes com opção "gesamtes Werk"/"complete work") e clique. Não clique em nada que abra caixa de diálogo do sistema; se o Chrome perguntar onde salvar, pare e peça ao Pedro para desligar "Perguntar onde salvar cada arquivo" nas configurações do Chrome.
+3. Ache no visualizador o download do volume inteiro em PDF (ícone ou menu "Download"/"PDF", às vezes com opção "gesamtes Werk"/"complete work") e clique. Não clique em nada que abra caixa de diálogo do sistema; se o Chrome perguntar onde salvar, pare e peça ao Pedro para desligar "Perguntar onde salvar cada arquivo" nas configurações do navegador.
 4. Espere o arquivo novo aparecer na pasta de downloads e parar de crescer (`ls -l` a cada 30 s; volume de algumas centenas de MB demora). Confira com `pdfinfo` (número de páginas compatível com o volume, título do Augustinus) e mova para o caminho de `volumes`.
 
 **PDF de um capítulo**: o link `https://digital.ub.uni-paderborn.de/download/pdf/<id>` baixa direto quando aberto no Chrome; mesmo procedimento de espera e conferência. Use quando o volume não baixar ou para conferir um capítulo.
