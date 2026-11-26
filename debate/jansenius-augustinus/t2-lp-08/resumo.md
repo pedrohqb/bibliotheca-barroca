@@ -31,7 +31,7 @@ Revisores: Codex (gpt-6.1-sol) e Gemini (gemini-4-argon-high), perfil `traducao`
 
 ## Glossário
 
-Nenhuma proposta e nenhuma entrada nova.
+Nenhuma proposta e nenhuma entrada nova. Depois do debate, apliquei as formas de duas entradas que entraram no glossário enquanto este capítulo era debatido: *cupiditas* → "cupidez" (§ 14 "cupidez imoderada", antes "desejo imoderado"; § 16 "cupidez das coisas terrenas" e § 17 "suas cupidezes", antes "cobiça"); *flagitiis et facinoribus* → "torpezas e crimes" (§ 16, antes "crimes e delitos"). Essas mudanças não passaram pelos revisores. Avisos do validador explicados em nota: *disputandi libidine* (§ 15) e *opinionum libidine* (§ 18), que não são o desejo carnal do glossário; *in alterius gratiam* (§ 18), que não é a graça.
 
 ## Transcrição
 
