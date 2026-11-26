@@ -10,6 +10,7 @@ Uso:
   python3 tools/digesto.py latim <id> [--forcar]   grava obras/iustinianus-digesta/la/<id>.md (ex.: d01-01)
   python3 tools/digesto.py apoio <id> [de|es|it|en]  mostra o título nas traduções de apoio (alemão, espanhol, italiano, Scott) e onde estão Hulot e Monro
   python3 tools/digesto.py situacao                títulos produzidos, palavras feitas e por fazer
+  python3 tools/digesto.py paginas <id> <pasta>     baixa as páginas do scan de 1889 que cobrem o título e as recorta em colunas legíveis
 """
 import json, os, re, sys
 
@@ -163,6 +164,37 @@ def apoio(cid, so=None):
         print(f'\n===== inglês, Scott (Cincinnati, 1932), {os.path.basename(arq)} =====\n')
         print(trecho.strip() or '(título não localizado no arquivo de Scott)')
 
+SCAN = 'https://archive.org/download/corpusjuriscivil01krueuoft/page/n{}_w1600.jpg'
+
+
+def paginas(cid, pasta):
+    """Baixa as páginas do scan (do início do título ao início do seguinte) e recorta cada uma em
+    c1a, c1b (coluna esquerda, metades de cima e de baixo), c2a, c2b e pe (rodapé com o aparato)."""
+    import urllib.request
+    from PIL import Image
+    cat = catalogo()['capitulos']
+    i = next(k for k, c in enumerate(cat) if c['id'] == cid)
+    ini = int(cat[i]['paginas']) - 1
+    fim = int(cat[i + 1]['paginas']) - 1 if i + 1 < len(cat) else ini + 3
+    os.makedirs(pasta, exist_ok=True)
+    feitos = []
+    for n in range(ini, max(fim, ini) + 1):
+        jpg = os.path.join(pasta, f'n{n}.jpg')
+        if not os.path.exists(jpg) or os.path.getsize(jpg) < 10000:
+            req = urllib.request.Request(SCAN.format(n), headers={'User-Agent': 'BibliothecaBarroca/1.0'})
+            open(jpg, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+        im = Image.open(jpg).convert('L'); w, h = im.size
+        x0, x1 = (0, int(w * .93)) if n % 2 == 0 else (int(w * .05), int(w * .99))
+        y0, y1 = int(h * .05), int(h * .80); mid = (x0 + x1) // 2; ym = (y0 + y1) // 2
+        for nm, box in [('c1a', (x0, y0, mid + 20, ym + 30)), ('c1b', (x0, ym - 30, mid + 20, y1)),
+                        ('c2a', (mid - 20, y0, x1, ym + 30)), ('c2b', (mid - 20, ym - 30, x1, y1)),
+                        ('pe', (x0, int(h * .77), x1, int(h * .97)))]:
+            f = os.path.join(pasta, f'p{n}-{nm}.png'); im.crop(box).save(f); feitos.append(f)
+    print(f'páginas do scan {ini}..{fim} (leaf); página impressa inicial {cat[i]["colunas"]}')
+    print('\n'.join(feitos))
+    print('O rodapé (pe) também mostra o fim das colunas, quando o texto desce abaixo das metades.')
+
+
 
 def situacao():
     cat = catalogo()['capitulos']
@@ -181,6 +213,8 @@ if __name__ == '__main__':
         latim(a[1], '--forcar' in a)
     elif a[0] == 'apoio' and len(a) in (2, 3):
         apoio(a[1], a[2] if len(a) == 3 else None)
+    elif a[0] == 'paginas' and len(a) == 3:
+        paginas(a[1], a[2])
     elif a[0] == 'situacao':
         situacao()
     else:
