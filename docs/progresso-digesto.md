@@ -47,4 +47,12 @@ O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, ob
 - **Pendente:** cotejo do Hulot em D. 1.2 e D. 1.3 (OCR das páginas em curso); deslocamento do tomo I corrigido para +33.
 - Glossário: acrescentada a forma "ações" a *actio* (mesma versão, plural).
 
-**Próximo passo:** cotejo do Hulot em D. 1.2-1.3; depois D. 1.4 em diante, até o fim do livro I e o ponto de controle.
+## 2026-11-26 — produção em paralelo (livros I a V)
+
+- O Pedro pediu para ir até o fim do Digesto, sem trabalho porco. A produção passou a ser feita por agentes em paralelo, cada um com um bloco de títulos, pelo roteiro `docs/brief-digesto-titulo.md` (latim conferido no scan de 1889; cotejo trecho a trecho com Hulot, Otto-Schilling-Sintenis, Vignali, García del Corral, Monro e Scott; formas fixadas). O coordenador revisa cada entrega, devolve as que tiverem cotejo incompleto, uniformiza termos e publica.
+- Gateway RBSA: o Pedro autorizou o escopo `bibliotheca-digesto` para ler arquivos grandes (2026-11-26).
+- Hulot: OCR por tesseract (instalado pelo Pedro); tomos I, II e V prontos, III-VII em andamento. Livros I a III revistos com o Hulot. O exemplar da BIU Cujas não tem as pp. 117-118 do tomo I (D. 2.4.4.3-10.5 sem o francês): buscar outro exemplar.
+- Uniformizações decididas pelo coordenador: *libertinus* "liberto"; *imperium* "império"; *ius reddere* "declarar o direito"; *lex Iulia repetundarum* "Lei Júlia de repetundas"; *capitis deminutio* "diminuição de cabeça"; *actor* (de coletividade) "agente"; grafia Pomponio, Emílio Macro. Glossário: acrescentados plurais/flexões (ações, estipulações, herdeira, herdeiros).
+- Publicados até agora: livros I a IV completos e D. 5.1-5.2.
+
+**Próximo passo:** seguir livro a livro até o livro L (`python3 tools/digesto.py situacao`).
