@@ -144,7 +144,7 @@ def apoio(cid, so=None):
         _trecho_ocr('espanhol, García del Corral (Barcelona, 1889-1897), bilíngue', _indice('es-indice.json'), chave, ordem)
     if so in (None, 'it'):
         it = _indice('it-indice.json')
-        if any(k.split('.')[0] == str(livro) for k in it):
+        if it:
             _trecho_ocr('italiano, Vignali (Nápoles, 1856-1862), bilíngue', it, chave, ordem)
         else:
             print('\n- italiano, Vignali: volume deste livro ainda não obtido.')

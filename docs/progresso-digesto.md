@@ -34,7 +34,7 @@ O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, ob
 
 ## 2026-11-26 — italiano, OCR e revisão do D. 1.1
 
-- Vignali baixado do Google Books (CAPTCHAs resolvidos pelo Pedro): livros 1-23 e 44-50; faltam os volumes dos livros 24-43, ainda não localizados com visualização integral.
+- Vignali baixado do Google Books (CAPTCHAs resolvidos pelo Pedro): livros 1-23 e 44-50; depois também os vols. 4 e 5 (livros 24-43): italiano completo.
 - O Pedro instalou o tesseract (deu, fra, ita, lat, spa) e o ocrmypdf: OCR completo dos 7 tomos do Hulot em andamento.
 - Página da obra no site passa a listar o texto latino e as traduções cotejadas (`texto_latino` e `traducoes_cotejadas` em `obra.json`, exibidos por `tools/build.mjs`).
 - D. 1.1 revisto contra as seis traduções: *cuius merito* ("em razão dele"), *positiones* ("vertentes"), *affectantes* ("aspirando"), *nefas* ("ímpio"), *servit* ("se submete"), com notas sobre as divergências entre as traduções.
