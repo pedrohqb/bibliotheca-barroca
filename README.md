@@ -12,11 +12,14 @@ obras/<obra>/
   glossario.json       termos técnicos e a versão fixada para a obra
   la/<capitulo>.md     transcrição latina, dividida em trechos
   pt/<capitulo>.md     tradução, com os mesmos trechos
+  catalogo.json        capítulos na ordem de produção, com colunas e páginas do scan
 debate/
-  criterios-revisao.md instruções para os revisores do debate
-  <obra>/<capitulo>/   pacote enviado e registro das rodadas
+  caso-criterios.md    critérios da edição que entram no caso de cada debate
+  <obra>/<capitulo>/   resumo para a revisão, registro e consumo do debate
+docs/producao.md       instalação e uso da produção na VM
 site/                  estilo e scripts do site
-tools/                 validação, geração do site, pacote do debate
+tools/                 validação, site, imagens do scan, catálogo, ponte com o debate
+.claude/skills/        skill traduzir-capitulo, para o Claude Code
 ```
 
 ### Formato dos capítulos
@@ -44,17 +47,22 @@ Só precisa do Node.js 20 ou mais novo; não há dependências.
 node tools/validar.mjs                     # confere alinhamento, cabeçalhos e glossário
 node tools/build.mjs                       # gera o site em _site/
 python3 -m http.server -d _site 8000       # abre em http://localhost:8000
-node tools/pacote-debate.mjs jansenius-augustinus t2-lp-01   # pacote para o debate
+node tools/situacao.mjs jansenius-augustinus                # situação dos capítulos do catálogo
+python3 tools/paginas.py <volume.pdf> /tmp/x --paginas 5-6  # imagens e colunas ampliadas do scan
+python3 tools/catalogo.py <volume.pdf> --filtro "Liber"     # estrutura do volume pelos marcadores
+node tools/debate.mjs preparar|aplicar <obra> <cap> <pasta> # caso e minuta do debate; aplicação do resultado
 ```
+
+Os scripts em Python precisam de poppler-utils, Pillow e pypdf (ver `docs/producao.md`).
 
 ## Fluxo de cada capítulo
 
-1. **Transcrição.** Leitura do scan, normalização conforme [CRITERIOS.md](CRITERIOS.md), divisão em trechos; `transcricao: provisoria`.
-2. **Conferência.** Releitura integral contra a imagem; `transcricao: conferida`.
-3. **Tradução.** Primeira versão e notas; `estado: rascunho`.
-4. **Debate.** `tools/pacote-debate.mjs` monta o pacote; o motor de debate (Claude × Codex × Gemini) roda as rodadas e o registro fica em `debate/<obra>/<capitulo>/`; `estado: debatida`.
-5. **Revisão humana.** Decisão sobre cada objeção, conferência das remissões na fonte; `estado: revisada`.
-6. **Pull request.** O GitHub valida e, depois do merge, publica o site.
+A produção roda na VM do escritório com o Claude Code, pela skill `traduzir-capitulo` (instalação e uso em [docs/producao.md](docs/producao.md)):
+
+1. **Transcrição** das imagens do scan, com conferência linha a linha; `transcricao: provisoria`.
+2. **Tradução**, em português culto, mas legível e atual, com o glossário da obra; `estado: rascunho`.
+3. **Debate** com Codex e Gemini pelo motor `~/.debates-ia` (perfil `traducao`, regra de aceite), registro em `debate/<obra>/<capitulo>/`; `estado: debatida`, publicado com esse selo.
+4. **Revisão humana**, pelo `resumo.md` do debate, com remissões conferidas na fonte; `estado: revisada` e, conferido o latim, `transcricao: conferida`.
 
 ## Publicação
 

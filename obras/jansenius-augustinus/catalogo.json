@@ -1,0 +1,21 @@
+{
+  "nota": "Capítulos na ordem de produção. 'pdf' é o caminho do PDF do volume na máquina que produz; 'paginas' são páginas desse PDF. 'scan' é o link público mostrado no site (PDF do capítulo em Paderborn ou, sem ele, o volume).",
+  "volumes": {
+    "II": {
+      "pdf": "~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf",
+      "urn": "urn:nbn:de:hbz:466:1-13673",
+      "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "t2-lp-01",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput primum",
+      "titulo": "Gratiae Christi veritas omnibus Christianis, ut vita et salus, cordi esse debet.",
+      "colunas": "1-4",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890710"
+    }
+  ]
+}

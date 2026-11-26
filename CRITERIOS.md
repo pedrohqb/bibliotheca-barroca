@@ -23,6 +23,15 @@ O estado de cada capítulo vai no cabeçalho: `transcricao: provisoria` até a c
 
 ## Tradução
 
+**Registro.** Português culto, mas legível e atual: o de um bom ensaio de hoje, não o de um texto do século XIX.
+
+- Nada de arcaísmos, mesóclises ou inversões latinizantes (*conhece-a todo aquele*, *se nos ensina*, *há de ser livrado*); a ordem das palavras é a natural do português.
+- Período latino muito longo pode ser dividido em dois ou mais quando isso não muda o sentido nem a ênfase; a divisão é anotada se a estrutura do argumento depender dela.
+- Vocabulário corrente sempre que existir equivalente exato; a palavra rara só entra quando é termo técnico ou quando a corrente perderia sentido.
+- Termos técnicos (teológicos, filosóficos, jurídicos) com uma forma só ao longo de todo o texto, a do glossário: o mesmo termo latino, no mesmo sentido, tem sempre a mesma tradução, em todos os capítulos. Quando o autor usa a palavra noutro sentido, a tradução muda e o motivo vai em nota.
+
+**Fidelidade.**
+
 - Fidelidade antes da elegância: nada se acrescenta ao texto; explicação vai para nota (`@n`).
 - O glossário (`glossario.json`) fixa a versão dos termos técnicos para a obra inteira, e o validador avisa quando um trecho foge dele.
 - Citações da Escritura: tradução direta do latim citado pelo autor, porque o argumento costuma depender da palavra latina; a divergência com as versões correntes vai em nota.

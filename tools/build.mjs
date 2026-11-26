@@ -43,6 +43,15 @@ const escrever = (rel, html) => { const f = path.join(SAIDA, rel); fs.mkdirSync(
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
+const grupos = caps => {
+  const g = new Map();
+  for (const c of caps) {
+    const k = [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro || c.la.meta.livro].filter(Boolean).join(' · ') || 'Capítulos';
+    if (!g.has(k)) g.set(k, []);
+    g.get(k).push(c);
+  }
+  return [...g];
+};
 const indice = [];
 const obras = lerObras();
 
@@ -54,9 +63,10 @@ escrever('index.html', pagina({
 <p class="lead">${esc(SITE.descricao)}</p>
 ${obras.map(o => `<section class="obra">
 <div><p class="aut">${esc(o.meta.autor_pt || o.meta.autor)}</p><h2><a href="${o.id}/index.html">${esc(o.meta.titulo)}</a></h2>
-<p class="ui" style="font-size:14px;color:var(--mute)">${esc(o.meta.edicao_base.local)}, ${esc(o.meta.edicao_base.ano)}</p></div>
+<p class="ui" style="font-size:14px;color:var(--mute)">${esc(o.meta.edicao_base.local_pt || o.meta.edicao_base.local)}, ${esc(o.meta.edicao_base.ano)}</p></div>
 <div><p>${esc(o.meta.descricao)}</p>
-<ul class="caps">${o.capitulos.map(c => `<li><a class="ct" href="${o.id}/${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul></div>
+<ul class="caps">${o.capitulos.slice(-5).reverse().map(c => `<li><a class="ct" href="${o.id}/${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>
+<p class="ui" style="font-size:14px;margin-top:12px">${o.capitulos.length > 5 ? `Últimos capítulos publicados. ` : ''}<a href="${o.id}/index.html">Todos os ${o.capitulos.length} capítulos →</a></p></div>
 </section>`).join('\n')}
 </main>`
 }));
@@ -77,7 +87,8 @@ for (const o of obras) {
 <dt>Licenças</dt><dd>Transcrição: ${esc(o.meta.licenca.transcricao)}. Tradução: ${esc(o.meta.licenca.traducao)}.</dd>
 </dl>
 <h2>Capítulos</h2>
-<ul class="caps">${o.capitulos.map(c => `<li><a class="ct" href="${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>
+${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
+<ul class="caps">${cs.map(c => `<li><a class="ct" href="${c.id}.html">${esc(nomeCap(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>`).join('\n')}
 </main>`
   }));
 
@@ -111,7 +122,7 @@ for (const o of obras) {
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
-<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}Colunas ${esc(la.meta.colunas)} da edição de ${esc(b.local)}, ${esc(b.ano)}; <a href="${esc(scan)}">ver o scan</a>.</p>
+<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo ? esc(pt.meta.processo) + '. ' : ''}Colunas ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(b.ano)}; <a href="${esc(scan)}">ver o scan</a>.</p>
 </div>
 <div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
 <div class="texto">

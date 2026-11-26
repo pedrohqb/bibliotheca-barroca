@@ -1,0 +1,18 @@
+## Critérios da edição
+
+- A tradução é para leitura ao lado do original: fiel ao latim antes de elegante, sem acréscimos no texto; explicação vai para nota.
+- Registro: português culto, mas legível e atual, como num bom ensaio de hoje. Sem arcaísmos, mesóclises ou inversões latinizantes; ordem natural do português; período latino muito longo pode ser dividido quando isso não muda sentido nem ênfase; vocabulário corrente sempre que houver equivalente exato.
+- Termos técnicos com uma forma só ao longo de todo o texto: o mesmo termo latino, no mesmo sentido, tem sempre a mesma tradução, a do glossário; uso em outro sentido muda a tradução, com nota.
+- O glossário abaixo vale para a obra inteira. Mudar um termo exige motivo e muda todos os capítulos.
+- Citações da Escritura são traduzidas do latim citado pelo autor, porque o argumento costuma depender da palavra latina; divergência com as versões correntes vai em nota.
+- Remissões (Agostinho, concílios, Escritura) são conferidas na fonte; numeração antiga é indicada como tal.
+- Jogos de palavras e ambiguidades do latim são conservados quando possível; quando não, nota.
+- O latim está fixado. Erro de transcrição se aponta com a leitura proposta, para conferência contra o scan; não se corrige na minuta.
+
+## Critério de materialidade
+
+É material o que leva o leitor a entender outra coisa que o latim diz: erro de sentido, termo técnico impreciso, fora do glossário ou vertido de formas diferentes ao longo do texto, remissão errada, nota enganosa, jogo de palavras perdido sem nota. Também é material o desvio do registro pedido que atrapalha a leitura: arcaísmo, construção latinizante, frase que só se entende relendo o latim. Não é material a preferência de estilo que não muda sentido, registro nem clareza.
+
+## O que se pede
+
+Revisão da tradução, trecho a trecho, pelo perfil de regras `traducao`.

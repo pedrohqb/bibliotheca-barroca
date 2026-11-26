@@ -1,0 +1,59 @@
+# Produção na VM do TrueNAS
+
+A produção dos capítulos roda na VM de IA (Debian 13 + XFCE): o Claude Code transcreve e traduz, o Codex e o Gemini revisam pelo motor do debate, e cada capítulo debatido é publicado direto no site.
+
+## 1. Pacotes (uma vez)
+
+```bash
+sudo apt install git gh nodejs npm python3 python3-pil python3-pypdf poppler-utils
+gh auth login                       # conta pedrohqb, HTTPS
+git clone https://github.com/pedrohqb/bibliotheca-barroca ~/bibliotheca-barroca
+cd ~/bibliotheca-barroca
+git config user.name "Pedro Henrique Quitete Barreto"
+git config user.email "<o e-mail da sua conta do GitHub>"
+node tools/validar.mjs              # deve terminar com 0 erro(s)
+```
+
+## 2. Motor do debate 4.4.15-rbsa (uma vez)
+
+A 4.4.15-rbsa traz o perfil `traducao`, usado aqui; as demais funções são as da 4.4.14-rbsa.
+
+```bash
+unzip debates-ia-linux-v4.4.15-rbsa.zip -d /tmp/debates && bash /tmp/debates/debates-ia/instalar.sh
+python3 ~/.debates-ia/debates/preparar_rodada.py --perfis   # deve listar traducao
+```
+
+- **Codex**: já instalado na VM. No `~/.codex/config.toml`, deixe a linha `model = "…"` (sem ela, `MODEL_REQUIRED`).
+- **Gemini (agy)**: `curl -fsSL https://antigravity.google/cli/install.sh | bash`, depois `~/.local/bin/agy` para entrar com a conta Google e, dentro dele, `/config` → desligue **Enable Telemetry**. Use o Claude Code no terminal da sessão XFCE (xrdp): o agy guarda o login no GNOME Keyring, que só fica desbloqueado na sessão gráfica.
+- **Plugin RBSA IA Legal System rbsa.21** no Claude Code da VM: a skill `traduzir-capitulo` conduz o debate pelo protocolo da `rbsa-debate`.
+- Teste: `bash ~/.debates-ia/teste-rapido.sh codex,gemini`.
+
+## 3. Scan dos volumes
+
+Baixe o PDF do volume inteiro na Universitätsbibliothek Paderborn (abra o link no navegador da VM, botão de download do volume) e grave no caminho que o `catalogo.json` espera:
+
+| Volume | Link | Caminho |
+|---|---|---|
+| Tomo II | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf` |
+
+Os tomos I e III entram quando a produção chegar a eles.
+
+## 4. Produzir
+
+```bash
+cd ~/bibliotheca-barroca && claude
+```
+
+E peça: "traduza o próximo capítulo do Augustinus" ou "traduza os próximos 3 capítulos". A skill `traduzir-capitulo` faz, para cada capítulo: imagens do scan → transcrição e conferência → glossário → tradução → validação → debate (Codex e Gemini, perfil `traducao`, até 3 rodadas de mérito e a final) → aplicação do resultado → resumo para a revisão → commit e push. O site se atualiza sozinho em cerca de um minuto.
+
+Para acompanhar: `node tools/situacao.mjs jansenius-augustinus`.
+
+## 5. Revisar
+
+Cada capítulo publicado traz em `debate/jansenius-augustinus/<id>/`:
+
+- `resumo.md`: o roteiro da revisão (objeções acolhidas e rejeitadas, pontos em aberto, propostas de mudança no glossário, leituras duvidosas da transcrição);
+- `registro.md`: o debate inteiro, com as respostas dos revisores e as buscas que fizeram;
+- `consumo.csv`: tokens de cada rodada.
+
+Revisto o capítulo, mude no cabeçalho `estado: debatida` para `revisada` (e, se conferiu o latim contra o scan, `transcricao: provisoria` para `conferida`) e faça o push; o selo do site muda junto.
