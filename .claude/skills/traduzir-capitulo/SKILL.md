@@ -21,7 +21,13 @@ Leia antes, uma vez por sessão: `CRITERIOS.md` (transcrição, registro e fidel
 
 Se o catálogo acabou (saída 3) ou não traz `paginas` do capítulo, complete-o antes (seção Catálogo, no fim).
 
-**Capítulo importado** (`estado: importada`, tradução própria do Pedro trazida de outra edição, como o *De Contractibus*): não transcreva nem traduza. Vá direto à validação (fim do passo 5) e ao debate (passo 6), que aqui é revisão da tradução do Pedro: o latim e a tradução vêm dos arquivos importados, a regra de registro e de uniformidade dos termos é a mesma, e a tradução dele só muda pelo que o debate demonstrar. No resumo (passo 7), separe o que é correção de sentido do que é atualização de registro, para ele decidir com facilidade. Se o revisor apontar erro no latim importado, confira no scan antes de alterar.
+**Capítulo importado** (`estado: importada`: tradução anterior do Pedro trazida de outra edição, como o *De Contractibus*). A tradução importada é ponto de partida, não texto final, e não aparece no site até ser revista. O fluxo:
+
+1. Imagens do scan (passo 2) e **conferência do latim importado** contra elas (como na conferência do passo 3); corrija o que a imagem mostrar e mantenha `transcricao: provisoria` depois de conferido.
+2. Glossário (passo 4).
+3. **Revisão da tradução**, trecho a trecho, com o latim ao lado: corrija erros de sentido e omissões, atualize o registro pelo `CRITERIOS.md` (culto, legível e atual) e aplique o glossário; conserve as boas soluções do Pedro, sem reescrever por gosto. Marque `estado: rascunho` e `processo: Tradução de Pedro H. Q. Barreto, revista com Claude e debatida com Codex e Gemini, para revisão final`.
+4. Validação (fim do passo 5), debate (passo 6), aplicação e publicação (passo 7).
+5. No `resumo.md`, antes das objeções do debate, a lista das mudanças da revisão própria em relação à tradução importada, separando **correções de sentido** (uma linha cada, com o trecho) de **atualizações de registro e de termos** (resumidas por tipo). O `git diff` do commit de importação mostra o texto anterior.
 
 ## 2. Imagens
 

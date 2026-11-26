@@ -54,7 +54,8 @@ const grupos = caps => {
   return [...g];
 };
 const indice = [];
-const obras = lerObras();
+// Capítulo importado ainda não revisto (estado: importada) fica fora do site até passar pela revisão e pelo debate.
+const obras = lerObras().map(o => ({ ...o, capitulos: o.capitulos.filter(c => c.pt?.meta.estado !== 'importada') })).filter(o => o.capitulos.length);
 
 // Acervo
 escrever('index.html', pagina({
