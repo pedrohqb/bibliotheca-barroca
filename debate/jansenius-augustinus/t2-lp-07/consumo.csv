@@ -1,0 +1,15 @@
+﻿fonte;rodada_ou_parte;situacao;tentativa;modelo;esforco;chamadas;entrada_total;cache_lido;cache_gravado;saida;raciocinio;buscas;segundos;creditos_codex_estimados;usd_api_estimado
+codex;R1;aceita;9ed0a119;gpt-6.1-sol;high;1;5107194;4825088;;18576;11710;127;614;30,8120;
+gemini;R1;descartada: STEP_SEQUENCE: passo 86 agent_response ERROR;d74deb72;gemini-4-argon-high;high;1;1141768;889742;;40211;28106;71;853;;
+gemini;R1;descartada: PROCESS_LOST: tentativa sem resultado (processo encerrado an;b4fcf50e;gemini-4-argon-high;high;1;0;0;;0;0;0;30774;;
+gemini;R1;aceita;f4a5941f;gemini-4-argon-high;high;1;1319946;1192146;;34580;26056;75;750;;
+codex;R2;descartada: LIMITE DE USO do Codex - tente de novo em 8:10 PM;c13e69fb;gpt-6.1-sol;high;1;;;;;;0;7;;
+codex;R2;aceita;3451eb70;gpt-6.1-sol;high;1;1045196;931968;;9957;5650;28;253;10,4806;
+gemini;R2;aceita;d88b47ef;gemini-4-argon-high;high;1;107633;67622;;11772;10034;11;134;;
+codex;R3;aceita;280f8ba3;gpt-6.1-sol;high;1;727593;638208;;6637;2684;21;179;7,7240;
+gemini;R3;aceita;2dd9386e;gemini-4-argon-high;high;1;30478;0;;9478;8785;0;75;;
+codex;R4;aceita;8071bf9c;gpt-6.1-sol;high;1;589551;492288;;5607;2104;10;155;7,4956;
+gemini;R4;aceita;c8d70745;gemini-4-argon-high;high;1;31241;0;;3544;2303;0;40;;
+claude;sessao;;;claude-opus-5-5;;349;42985224;41750791;1233641;191189;;;;;18,7800
+claude;debate;;;claude-opus-5-5;;343;42488371;41297364;1190227;189451;;;;;18,3100
+claude;subagentes;;;claude-opus-5-5;;294;34700630;33611178;1088808;146933;;;;;15,1100
