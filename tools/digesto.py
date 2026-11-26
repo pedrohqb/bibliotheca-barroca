@@ -8,7 +8,7 @@ Yves Lassard e Alexandr Koptev (The Roman Law Library, Grenoble), convertida em 
 
 Uso:
   python3 tools/digesto.py latim <id> [--forcar]   grava obras/iustinianus-digesta/la/<id>.md (ex.: d01-01)
-  python3 tools/digesto.py apoio <id> [de|es|it|en]  mostra o título nas traduções de apoio (alemão, espanhol, italiano, Scott) e onde estão Hulot e Monro
+  python3 tools/digesto.py apoio <id> [de|es|it|en|fr]  mostra o título nas traduções de apoio (alemão, espanhol, italiano, Scott) e onde estão Hulot e Monro
   python3 tools/digesto.py situacao                títulos produzidos, palavras feitas e por fazer
   python3 tools/digesto.py paginas <id> <pasta>     baixa as páginas do scan de 1889 que cobrem o título e as recorta em colunas legíveis
 """
@@ -135,8 +135,8 @@ def apoio(cid, so=None):
         pdf = f'{APOIO_DIR}/pdf/hulot-tomo{h["tomo"]}.pdf'
         print(f'- francês, Hulot (Metz, 1803-1805), {HULOT_MONTAGEM[h["tomo"]]}, p. {h["pagina"]} impressa'
               + (f' = p. {h["pagina"] + d} do PDF' if d is not None else ' (deslocamento do PDF ainda não conferido neste tomo)') + f': {pdf}')
-        o = os.path.join(APOIO_DIR, 'ocr', 'hulot', f'{cid}.txt')
-        print(f'  OCR já feito: {o}' if os.path.exists(o) else f'  sem OCR: ler as páginas como imagem e gravar a transcrição em {o}')
+        fr_ok = os.path.exists(os.path.join(APOIO_DIR, 'ocr', 'hulot-pdf', f'hulot-tomo{h["tomo"]}.txt'))
+        print(f'  texto (OCR): python3 tools/digesto.py apoio {cid} fr' if fr_ok else '  OCR deste tomo ainda em andamento')
     if livro in (1, 50):
         print(f'- português, TRF1 (2017), livros 1 e 50 (obra protegida: só consulta): {APOIO}/690706769-Corpus-Iuris-Civilis-Digesto-2ª-edicao-revista-e-ampliada-124312-9928173-pdf.pdf')
     if so in (None, 'de'):
@@ -149,6 +149,18 @@ def apoio(cid, so=None):
             _trecho_ocr('italiano, Vignali (Nápoles, 1856-1862), bilíngue', it, chave, ordem)
         else:
             print('\n- italiano, Vignali: volume deste livro ainda não obtido.')
+    if so in (None, 'fr'):
+        fi = _indice('fr-indice.json'); k = f'{livro}.{tit or 1}'
+        if k in fi:
+            t = fi[k]['tomo']; ini = fi[k]['pag_ocr']
+            ks = sorted(fi, key=lambda x: [int(y) for y in x.split('.')])
+            prox = next((fi[x] for x in ks[ks.index(k) + 1:] if fi[x]['tomo'] == t), None)
+            fim = prox['pag_ocr'] + 1 if prox else ini + 40
+            pags = open(os.path.join(APOIO_DIR, 'ocr', 'hulot-pdf', f'hulot-tomo{t}.txt'), encoding='utf8', errors='replace').read().split('\f')
+            print(f'\n===== francês, Hulot (Metz, 1803-1805), tomo {t}, páginas do OCR {ini}-{fim}{" (posição estimada)" if fi[k].get("estimado") else ""}; ao lado, as notas marginais latinas da edição =====\n')
+            print('\n'.join(f'--- p. OCR {n}\n' + pags[n] for n in range(ini, min(fim + 1, len(pags)))))
+        else:
+            print('\n- francês, Hulot: OCR deste tomo ainda não pronto.')
     if so in (None, 'en'):
         arq = os.path.join(FONTES, 'scott-txt', f'livro-{livro:02d}.txt')
         lv = livro
