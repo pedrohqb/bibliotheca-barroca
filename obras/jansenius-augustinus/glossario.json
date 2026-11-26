@@ -1,0 +1,50 @@
+[
+  {
+    "lema": "gratia",
+    "formas": ["gratia", "gratiae", "gratiam"],
+    "pt": ["graça"],
+    "nota": "Sempre \"graça\". Não confundir com *gratis* (\"em vão\"), embora Jansênio jogue com as duas palavras."
+  },
+  {
+    "lema": "salus",
+    "formas": ["salus", "salute", "salutis", "salutem"],
+    "pt": ["salvação"],
+    "nota": "\"Salvação\". Nos animais (cap. 1, § 1) o sentido é de incolumidade, mas a palavra se mantém para conservar o paralelo com o homem."
+  },
+  {
+    "lema": "Salvator",
+    "formas": ["Salvator", "Salvatorem", "Salvatoris", "salvatorem"],
+    "pt": ["Salvador", "salvador"],
+    "nota": "\"Salvador\", com maiúscula quando é título de Cristo. Glosa do nome *Iesus*."
+  },
+  {
+    "lema": "liberum arbitrium",
+    "formas": ["liberum arbitrium", "liberi arbitrii"],
+    "pt": ["livre-arbítrio"],
+    "nota": "Sempre \"livre-arbítrio\"; *libertas* fica \"liberdade\"."
+  },
+  {
+    "lema": "adjutorium",
+    "formas": ["adjutorii", "adjutorium", "auxilium"],
+    "pt": ["auxílio"],
+    "nota": "*Adjutorium* e *auxilium* vertidos ambos por \"auxílio\"; se o texto os distinguir tecnicamente, rever."
+  },
+  {
+    "lema": "vires naturae",
+    "formas": ["vires", "viribus", "virium"],
+    "pt": ["forças", "força"],
+    "nota": "\"Forças\" (da natureza, do livre-arbítrio). Evitar \"poderes\" ou \"capacidades\"."
+  },
+  {
+    "lema": "redemptio",
+    "formas": ["redemptio", "redemptione"],
+    "pt": ["redenção"],
+    "nota": "\"Redenção\"; *Redemptor*, \"Redentor\"."
+  },
+  {
+    "lema": "damnatio",
+    "formas": ["damnatione", "damnatoque"],
+    "pt": ["condenação", "condenado"],
+    "nota": "\"Condenação\", no sentido teológico (a *massa damnata* agostiniana)."
+  }
+]

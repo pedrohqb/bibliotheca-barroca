@@ -1,0 +1,25 @@
+{
+  "id": "jansenius-augustinus",
+  "autor": "Cornelius Jansenius",
+  "autor_pt": "Cornélio Jansênio",
+  "titulo": "Augustinus",
+  "titulo_pt": "Augustinus",
+  "descricao": "A doutrina de Santo Agostinho sobre a saúde, a doença e a cura da natureza humana contra pelagianos e massilienses. Obra póstuma do bispo de Ypres, origem da controvérsia jansenista.",
+  "edicao_base": {
+    "titulo": "Cornelii Iansenii Episcopi Iprensis Augustinus",
+    "local": "Lovanii",
+    "impressor": "typis Iacobi Zegeri",
+    "ano": 1640,
+    "exemplar": "Universitätsbibliothek Paderborn",
+    "urn": "urn:nbn:de:hbz:466:1-13673",
+    "nota": "Tomo II; colunas numeradas, com as seções A e B à margem."
+  },
+  "idiomas": {
+    "la": "Latim (transcrição normalizada)",
+    "pt": "Português"
+  },
+  "licenca": {
+    "transcricao": "CC0 1.0",
+    "traducao": "CC BY-SA 4.0"
+  }
+}
