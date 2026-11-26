@@ -49,18 +49,40 @@ const escrever = (rel, html) => { const f = path.join(SAIDA, rel); fs.mkdirSync(
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
+// Agrupa pelo livro do catálogo (fonte única do nome); o rótulo é o nome em português mais frequente no grupo, ou o latino.
 const grupos = caps => {
   const g = new Map();
   for (const c of caps) {
-    const k = [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro || c.la.meta.livro].filter(Boolean).join(' · ') || 'Capítulos';
+    const k = `${c.la.meta.tomo || ''}|${c.livroChave ?? c.la.meta.livro ?? ''}`;
     if (!g.has(k)) g.set(k, []);
     g.get(k).push(c);
   }
-  return [...g];
+  return [...g.values()].map(cs => {
+    const nomes = cs.map(c => c.pt?.meta.livro).filter(Boolean);
+    const pt = nomes.sort((a, b) => nomes.filter(x => x === b).length - nomes.filter(x => x === a).length)[0];
+    const tomo = cs[0].la.meta.tomo;
+    return [[tomo && 'Tomo ' + tomo, pt || cs[0].la.meta.livro].filter(Boolean).join(' · ') || 'Capítulos', cs];
+  });
 };
 const indice = [];
 // Capítulo importado ainda não revisto (estado: importada) fica fora do site até passar pela revisão e pelo debate.
-const obras = lerObras().map(o => ({ ...o, capitulos: o.capitulos.filter(c => c.pt?.meta.estado !== 'importada') })).filter(o => o.capitulos.length);
+// No site os capítulos seguem a ordem da obra (tomo e posição no volume, pelo catálogo), não a ordem de produção (campo "ordem").
+const ROMANOS = { I: 1, V: 5, X: 10, L: 50, C: 100 };
+const romano = s => [...String(s || '').toUpperCase()].reduce((t, c, i, a) => t + ((ROMANOS[c] || 0) < (ROMANOS[a[i + 1]] || 0) ? -1 : 1) * (ROMANOS[c] || 0), 0);
+const ordemDaObra = o => {
+  const arq = path.join(o.dir, 'catalogo.json');
+  const cat = fs.existsSync(arq) ? JSON.parse(fs.readFileSync(arq, 'utf8')).capitulos || [] : [];
+  const pos = new Map(cat.map((e, i) => [e.id, [romano(e.tomo), parseInt(e.paginas) || 0, i]]));
+  const livroCat = new Map(cat.map(e => [e.id, e.livro]));
+  for (const c of o.capitulos) c.livroChave = livroCat.get(c.id) || c.la.meta.livro || '';
+  const chave = c => pos.get(c.id) || [romano(c.la.meta.tomo), Infinity, +c.la.meta.ordem || 0];
+  return [...o.capitulos].sort((a, b) => {
+    const x = chave(a), y = chave(b);
+    return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || a.id.localeCompare(b.id);
+  });
+};
+const obras = lerObras().map(o => ({ ...o, capitulos: o.capitulos.filter(c => c.pt?.meta.estado !== 'importada') })).filter(o => o.capitulos.length)
+  .map(o => ({ ...o, capitulos: ordemDaObra(o) }));
 
 // Acervo
 escrever('index.html', pagina({
