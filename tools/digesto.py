@@ -103,7 +103,7 @@ def _faixa(indice, chave, ordem):
     if not ant:
         return None
     ini = max(1, ant['linha'] - (40 if chave in indice else 0))
-    fim = prox['linha'] + 5 if prox else ini + 4000
+    fim = prox['linha'] + 600 if prox else ini + 4000  # margem: nas edições bilíngues o vernáculo de um título pode vir depois do latim do seguinte
     return ant['vol'], ini, fim, chave in indice
 
 
