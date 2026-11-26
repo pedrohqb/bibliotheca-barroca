@@ -34,9 +34,11 @@ Baixe o PDF do volume inteiro na Universitätsbibliothek Paderborn (abra o link 
 
 | Volume | Link | Caminho |
 |---|---|---|
+| Tomo I | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13650 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-1.pdf` |
 | Tomo II | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf` |
+| Tomo III | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13704 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-3.pdf` |
 
-Os tomos I e III entram quando a produção chegar a eles.
+A produção começa pelo tomo II; os tomos I e III só são necessários quando o plano chegar a eles (`docs/plano-augustinus.md`).
 
 ## 4. Produzir
 

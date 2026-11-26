@@ -1,10 +1,20 @@
 {
   "nota": "Capítulos na ordem de produção. 'pdf' é o caminho do PDF do volume na máquina que produz; 'paginas' são páginas desse PDF. 'scan' é o link público mostrado no site (PDF do capítulo em Paderborn ou, sem ele, o volume).",
   "volumes": {
+    "I": {
+      "pdf": "~/bibliotheca-fontes/jansenius-augustinus/tomo-1.pdf",
+      "urn": "urn:nbn:de:hbz:466:1-13650",
+      "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13650"
+    },
     "II": {
       "pdf": "~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf",
       "urn": "urn:nbn:de:hbz:466:1-13673",
       "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673"
+    },
+    "III": {
+      "pdf": "~/bibliotheca-fontes/jansenius-augustinus/tomo-3.pdf",
+      "urn": "urn:nbn:de:hbz:466:1-13704",
+      "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13704"
     }
   },
   "capitulos": [

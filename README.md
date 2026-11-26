@@ -4,6 +4,10 @@ Clássicos latinos de teologia, filosofia e direito, com foco na escolástica ba
 
 Primeira obra: Cornélio Jansênio, *Augustinus* (Lovaina, 1640), a partir do exemplar da Universitätsbibliothek Paderborn.
 
+**Site:** https://pedrohqb.github.io/bibliotheca-barroca/
+
+Plano de tradução do *Augustinus* inteiro, com o prompt de cada sessão: [docs/plano-augustinus.md](docs/plano-augustinus.md).
+
 ## Estrutura
 
 ```
