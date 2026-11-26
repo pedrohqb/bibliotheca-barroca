@@ -19,15 +19,15 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
   - `tomo3-parte1.pdf` (1007 p.): tomo III, Roma, apud Angelum Bernabò, 1654, cota g.35, tratados XXI–XXVII. `m2YktiXcvf0C`.
   - `tomo3-parte2.pdf` (800 p.): tomo III, parte 2, falsa folha de rosto sem data, cota g.36, tratados XXVIII–XXXVI. `LUJB2PCwEGYC` (a conferir: há dois volumes de 1654 da BNCR no Google Books, e este é o que sobra).
 - **Catálogo (etapa 1).** `obra.json` (`referencia: pagina`) e `catalogo.json` com o tratado I inteiro (26 capítulos: Proêmio e disp. 1–3), pelo índice impresso do tomo I. Página impressa = página do PDF − 44, conferido até a p. 103. O preâmbulo de cada disputa entra no capítulo da Sectio I. Entradas conferidas no scan: p. 22 (disp. 2, sec. 1) e p. 85 (disp. 3, sec. 11); p. 56 a confirmar na transcrição.
-- **Calibração (etapa 2).** `t1-d000-s00`: transcrição (7 trechos, pp. 1–2, conferida contra o scan), glossário inicial (17 termos, proposta) e tradução. Debate com Codex e Gemini em 4 rodadas: R1 e R2 CONTINUAR, R3 FINAL_MAIORIA (Gemini sem objeção; Codex INCONCLUSIVO só quanto à conferência das remissões do § 6), R4 final no mesmo estado. Objeções: 14 na R1 (8 do Codex, 6 do Gemini, quase todas coincidentes), todas acolhidas, duas em parte; nenhuma rejeitada. Publicado com `estado: debatida`.
+- **Calibração (etapa 2).** `t1-d000-s00`: transcrição (7 trechos, pp. 1–2, conferida contra o scan), glossário inicial (17 termos, proposta) e tradução. Debate com Codex e Gemini em 4 rodadas: R1 e R2 CONTINUAR, R3 FINAL_MAIORIA (Gemini sem objeção; Codex INCONCLUSIVO só quanto à conferência das remissões do § 6), R4 final no mesmo estado. Objeções: 14 na R1 (8 do Codex, 6 do Gemini, quase todas coincidentes), todas acolhidas, duas em parte; nenhuma rejeitada. Publicado com `estado: debatida`. (Objeções contadas sem repetir as coincidentes dos dois revisores.)
 - Lote do tratado I (pedido: 5 capítulos; feitos 4). O primeiro debate do `t1-d001-s01` parou em LIMITE DE USO do Codex (liberado às 15:10) e foi refeito do zero às 15:10, para o caso trazer a instrução sobre remissões.
 
 | Capítulo | Pp. | Rodadas | `decidir.py` (R3) | Final | Acolhidas / rejeitadas | Pontos em aberto principais |
 |---|---|---|---|---|---|---|
-| `t1-d001-s01` | 2–4 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 9 / 0 | remissões dos §§ 5–6; latim corrigido no § 10 (*disseramus*) |
+| `t1-d001-s01` | 2–4 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 8 / 0 | remissões dos §§ 5–6; latim corrigido no § 10 (*disseramus*) |
 | `t1-d001-s02` | 4–5 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 6 / 0 | *Sotus* por *Scotus* (§ 3); frase corrompida do comprador e vendedor |
-| `t1-d001-s03` | 5–7 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 14 / 1 (*conductio*) | *accusatus*[?] (§ 3); Lessius; proposta sobre *conductio* |
-| `t1-d001-s04` | 7–11 | 4 | FINAL_UNANIMIDADE | Codex: 1 objeção BAIXA nova (*in eundem motum*, § 8), em nota | 19 / 0 | lacunas do papel nos §§ 12 e 16 |
+| `t1-d001-s03` | 5–7 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 10 / 1 (*conductio*) | *accusatus*[?] (§ 3); Lessius; proposta sobre *conductio* |
+| `t1-d001-s04` | 7–11 | 4 | FINAL_UNANIMIDADE | Codex: 1 objeção BAIXA nova (*in eundem motum*, § 8), em nota | 13 / 0 | lacunas do papel nos §§ 12 e 16 |
 
 - Os resumos para a revisão estão em `debate/onate-de-contractibus/<id>/resumo.md`.
 - O Codex não acata a instrução sobre remissões inacessíveis (trata o caso como "dado sob exame"), mas passou a buscar menos e, no `t1-d001-s04`, fechou a R3 sem objeção.
