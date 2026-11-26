@@ -6,7 +6,7 @@ Para cada sessão ou agente que produz títulos de `obras/iustinianus-digesta/`.
 
 - Mexa **só** em `obras/iustinianus-digesta/la/<id>.md` e `pt/<id>.md` dos títulos que lhe foram dados. Não edite `glossario.json`, `catalogo.json`, `tools/`, `docs/`, nem outros títulos.
 - **Não faça commit, pull nem push.** Quem coordena revisa e publica.
-- Arquivos de trabalho (imagens) numa pasta própria em `/tmp/claude-1000/...scratchpad/` ou na que lhe indicarem.
+- Arquivos de trabalho (imagens) numa pasta própria em `~/bibliotheca-fontes/iustinianus-digesta/trabalho/<sua-sigla>/` (o `/tmp` é pequeno e enche); apague as imagens ao terminar.
 
 ## Passos
 
