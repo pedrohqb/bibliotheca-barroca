@@ -86,7 +86,7 @@ def romano(n):
 
 APOIO_DIR = os.path.join(FONTES, 'apoio')
 # Páginas do PDF = página impressa + deslocamento (conferido na imagem); tomos ainda não conferidos: None.
-HULOT_DESLOC = {1: 33}
+HULOT_DESLOC = {1: 33}  # tomo I: +33 até a p. 116; o exemplar não tem as pp. 117-118, e daí em diante é +31
 HULOT_MONTAGEM = {1: 'tomo I, 1803', 2: 'tomo II, 1804', 3: 'tomo III, 1804', 4: 'tomo IV, 1804', 5: 'tomo V, 1805', 6: 'tomo VI, 1805', 7: 'tomo VII, 1805'}
 
 
@@ -132,6 +132,7 @@ def apoio(cid, so=None):
     h = _indice('hulot-indice.json').get(f'{livro}.{tit or 1}')
     if h:
         d = HULOT_DESLOC.get(h['tomo'])
+        if h['tomo'] == 1 and h['pagina'] > 116: d = 31
         pdf = f'{APOIO_DIR}/pdf/hulot-tomo{h["tomo"]}.pdf'
         print(f'- francês, Hulot (Metz, 1803-1805), {HULOT_MONTAGEM[h["tomo"]]}, p. {h["pagina"]} impressa'
               + (f' = p. {h["pagina"] + d} do PDF' if d is not None else ' (deslocamento do PDF ainda não conferido neste tomo)') + f': {pdf}')
