@@ -2,7 +2,7 @@
 
 ## Etapa atual
 
-**3. Produção, tratado I.** Publicados com `estado: debatida`: `t1-d000-s00` (Proêmio), `t1-d001-s01`, `t1-d001-s02`, `t1-d001-s03` e `t1-d001-s04`. Próximo: `t1-d001-s05` (pp. 11–16). Nenhum ponto de controle pendente; o fim do tratado I é o próximo.
+**3. Produção, tratado I.** Publicados com `estado: debatida`: `t1-d000-s00` (Proêmio), `t1-d001-s01`, `t1-d001-s02`, `t1-d001-s03`, `t1-d001-s04` e `t1-d001-s05`. Próximo: `t1-d001-s06` (pp. 16–22, *De obligatione naturali, et ciuili*). Nenhum ponto de controle pendente; o fim do tratado I é o próximo.
 
 ## Decisão do Pedro (2026-11-26)
 
@@ -20,7 +20,7 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
   - `tomo3-parte2.pdf` (800 p.): tomo III, parte 2, falsa folha de rosto sem data, cota g.36, tratados XXVIII–XXXVI. `LUJB2PCwEGYC` (a conferir: há dois volumes de 1654 da BNCR no Google Books, e este é o que sobra).
 - **Catálogo (etapa 1).** `obra.json` (`referencia: pagina`) e `catalogo.json` com o tratado I inteiro (26 capítulos: Proêmio e disp. 1–3), pelo índice impresso do tomo I. Página impressa = página do PDF − 44, conferido até a p. 103. O preâmbulo de cada disputa entra no capítulo da Sectio I. Entradas conferidas no scan: p. 22 (disp. 2, sec. 1) e p. 85 (disp. 3, sec. 11); p. 56 a confirmar na transcrição.
 - **Calibração (etapa 2).** `t1-d000-s00`: transcrição (7 trechos, pp. 1–2, conferida contra o scan), glossário inicial (17 termos, proposta) e tradução. Debate com Codex e Gemini em 4 rodadas: R1 e R2 CONTINUAR, R3 FINAL_MAIORIA (Gemini sem objeção; Codex INCONCLUSIVO só quanto à conferência das remissões do § 6), R4 final no mesmo estado. Objeções: 14 na R1 (8 do Codex, 6 do Gemini, quase todas coincidentes), todas acolhidas, duas em parte; nenhuma rejeitada. Publicado com `estado: debatida`. (Objeções contadas sem repetir as coincidentes dos dois revisores.)
-- Lote do tratado I (pedido: 5 capítulos; feitos 4). O primeiro debate do `t1-d001-s01` parou em LIMITE DE USO do Codex (liberado às 15:10) e foi refeito do zero às 15:10, para o caso trazer a instrução sobre remissões.
+- Lote do tratado I (pedido: 5 capítulos; feitos os 5, o último já com duas rodadas). O primeiro debate do `t1-d001-s01` parou em LIMITE DE USO do Codex (liberado às 15:10) e foi refeito do zero às 15:10, para o caso trazer a instrução sobre remissões.
 
 | Capítulo | Pp. | Rodadas | `decidir.py` (R3) | Final | Acolhidas / rejeitadas | Pontos em aberto principais |
 |---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 | `t1-d001-s02` | 4–5 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 6 / 0 | *Sotus* por *Scotus* (§ 3); frase corrompida do comprador e vendedor |
 | `t1-d001-s03` | 5–7 | 4 | FINAL_MAIORIA | Codex INCONCLUSIVO (remissões) | 10 / 1 (*conductio*) | *accusatus*[?] (§ 3); Lessius; proposta sobre *conductio* |
 | `t1-d001-s04` | 7–11 | 4 | FINAL_UNANIMIDADE | Codex: 1 objeção BAIXA nova (*in eundem motum*, § 8), em nota | 13 / 0 | lacunas do papel nos §§ 12 e 16 |
+| `t1-d001-s05` | 11–16 | **2** | R1 (teto) FINAL_COM_DIVERGENCIA | Gemini sem objeção; Codex: 1 questão nova numa nota (§ 3), em `@n` | 16 / 0 | *l. stipulatio ista* (D. 45, 1, 17 ou 38) |
 
 - Os resumos para a revisão estão em `debate/onate-de-contractibus/<id>/resumo.md`.
 - O Codex não acata a instrução sobre remissões inacessíveis (trata o caso como "dado sob exame"), mas passou a buscar menos e, no `t1-d001-s04`, fechou a R3 sem objeção.
@@ -59,4 +60,4 @@ Glossário com 28 termos, todos aprovados. Proposta aberta:
 
 ## Próximo passo
 
-`t1-d001-s05` (secção V, pp. 11–16: *De differentia specifica contractus, scilicet obligans ex iustitia*), pelo fluxo da skill, com debate de **duas rodadas** (`--max-rodadas 2`). Depois, o resto da disputa 1 e as disputas 2 e 3, até o fim do tratado I, que tem ponto de controle.
+`t1-d001-s06` (secção VI, pp. 16–22: *De obligatione naturali, et ciuili contractuum*), pelo fluxo da skill, com debate de **duas rodadas** (`--max-rodadas 2`). Primeira experiência com duas rodadas (`t1-d001-s05`): todas as objeções vieram na R1; na final, o Codex usou cerca de um terço da entrada da R1 e trouxe só uma questão de nota. Depois, o resto da disputa 1 e as disputas 2 e 3, até o fim do tratado I, que tem ponto de controle.
