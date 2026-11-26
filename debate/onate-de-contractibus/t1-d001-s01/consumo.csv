@@ -1,0 +1,14 @@
+﻿fonte;rodada_ou_parte;situacao;tentativa;modelo;esforco;chamadas;entrada_total;cache_lido;cache_gravado;saida;raciocinio;buscas;segundos;creditos_codex_estimados;usd_api_estimado
+codex;R1;aceita;d6fd4060;gpt-6.1-sol;high;1;807426;696576;;8101;5019;32;216;9,3092;
+gemini;R1;aceita;d8b363c0;gemini-4-argon-high;high;1;230533;174848;;26238;23204;19;362;;
+codex;R2;aceita;daead774;gpt-6.1-sol;high;1;271313;205952;;3961;2312;5;114;4,7732;
+gemini;R2;aceita;dc0580a8;gemini-4-argon-high;high;1;23300;0;;3020;2076;0;37;;
+codex;R3;aceita;48ea55b8;gpt-6.1-sol;high;1;269694;204928;;3700;2023;15;100;4,6756;
+gemini;R3;aceita;54089eca;gemini-4-argon-high;high;1;23547;0;;1388;791;0;24;;
+codex;R4;aceita;397715c2;gpt-6.1-sol;high;1;213477;155136;;3945;2372;4;101;4,2911;
+gemini;R4;aceita;ab9500be;gemini-4-argon-high;high;1;24299;0;;2518;1588;0;29;;
+claude;sessao;;;claude-opus-5-5;;208;59522055;58408415;1113150;188691;;;;;24,3600
+claude;debate;;;claude-opus-5-5;;56;23778801;23306886;471783;74490;;;;;9,9300
+claude;preparo;;;claude-opus-5-5;;10;3769742;3424645;345071;5404;;;;;3,5500
+claude;rodadas;;;claude-opus-5-5;;46;20009059;19882241;126712;69086;;;;;6,3700
+claude;subagentes;;;claude-opus-5-5;;0;0;0;0;0;;;;;0,0000
