@@ -1,0 +1,26 @@
+{
+  "id": "onate-de-contractibus",
+  "autor": "Petrus de Oñate",
+  "autor_pt": "Pedro de Oñate",
+  "titulo": "De contractibus",
+  "titulo_pt": "Dos contratos",
+  "descricao": "Tratado dos contratos em três tomos (contratos em geral, gratuitos e onerosos), pelo direito civil e canônico e pelos teólogos e juristas. Obra do jesuíta de Valladolid, provincial do Paraguai, ponto alto da escolástica barroca sobre a justiça nos contratos.",
+  "referencia": "pagina",
+  "edicao_base": {
+    "titulo": "De contractibus tomi tres",
+    "local": "Romae",
+    "local_pt": "Roma",
+    "impressor": "ex typographia Francisci Caballi (tomos I e II); apud Angelum Bernabò haeredem Manelphii (tomo III)",
+    "ano": 1646,
+    "exemplar": "Biblioteca Nazionale Centrale di Roma (13.12.g.33–36), digitalizado pelo Google Books",
+    "nota": "Tomo I, 1646; tomo II, 1647; tomo III em duas partes, 1654. Fólio paginado, em duas colunas, parágrafos numerados à margem."
+  },
+  "idiomas": {
+    "la": "Latim (transcrição normalizada)",
+    "pt": "Português"
+  },
+  "licenca": {
+    "transcricao": "CC0 1.0",
+    "traducao": "CC BY-SA 4.0"
+  }
+}

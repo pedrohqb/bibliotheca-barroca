@@ -1,0 +1,287 @@
+{
+ "nota": "Capítulos na ordem da obra. O capítulo é a secção de cada disputa (t<tomo>-d<disputa>-s<secção>); o Proêmio é t1-d000-s00. 'colunas' traz as páginas impressas (a obra.json usa referencia: pagina); 'paginas' são páginas do PDF do volume (tomo I: página impressa + 44, conferido até a p. 103) e cobrem do início da secção ao início da seguinte. Títulos tirados do índice impresso do tomo I, normalizados; acertam-se na transcrição. 'scan' abre a página no Google Books (exemplar da BNCR). Catalogado até agora: tratado I.",
+ "volumes": {
+  "I": {
+   "pdf": "~/bibliotheca-fontes/onate-de-contractibus/tomo1-1646.pdf",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC",
+   "ano": 1646
+  },
+  "II": {
+   "pdf": "~/bibliotheca-fontes/onate-de-contractibus/tomo2-1647.pdf",
+   "scan": "https://books.google.com/books?id=OLOLiC84maIC",
+   "ano": 1647
+  },
+  "III-1": {
+   "pdf": "~/bibliotheca-fontes/onate-de-contractibus/tomo3-parte1.pdf",
+   "scan": "https://books.google.com/books?id=m2YktiXcvf0C",
+   "ano": 1654
+  },
+  "III-2": {
+   "pdf": "~/bibliotheca-fontes/onate-de-contractibus/tomo3-parte2.pdf",
+   "scan": "https://books.google.com/books?id=LUJB2PCwEGYC",
+   "ano": 1654
+  }
+ },
+ "capitulos": [
+  {
+   "id": "t1-d000-s00",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Prooemium",
+   "titulo": "Prooemium. De partitione operis",
+   "colunas": "1-3",
+   "paginas": "45-47",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA1"
+  },
+  {
+   "id": "t1-d001-s01",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio I",
+   "titulo": "Divisio contractus large dicti in proprium contractum, et quasi contractum, et distractum",
+   "colunas": "3-4",
+   "paginas": "47-48",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA3"
+  },
+  {
+   "id": "t1-d001-s02",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio II",
+   "titulo": "De etymologia nominis contractus",
+   "colunas": "4-5",
+   "paginas": "48-49",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA4"
+  },
+  {
+   "id": "t1-d001-s03",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio III",
+   "titulo": "Contractus definitio vera, et quidditativa traditur",
+   "colunas": "5-7",
+   "paginas": "49-51",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA5"
+  },
+  {
+   "id": "t1-d001-s04",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio IV",
+   "titulo": "Pactum esse genus in definitione contractus, et quale pactum",
+   "colunas": "7-11",
+   "paginas": "51-55",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA7"
+  },
+  {
+   "id": "t1-d001-s05",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio V",
+   "titulo": "De differentia specifica contractus, scilicet obligans ex iustitia",
+   "colunas": "11-16",
+   "paginas": "55-60",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA11"
+  },
+  {
+   "id": "t1-d001-s06",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio I. De natura, et essentia contractus, Sectio VI",
+   "titulo": "De obligatione naturali, et civili contractuum quid sint, et quae illarum sint de essentia contractus",
+   "colunas": "16-22",
+   "paginas": "60-66",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA16"
+  },
+  {
+   "id": "t1-d002-s01",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio II. De divisionibus variis contractuum, Sectio I",
+   "titulo": "De divisione contractus in nominatum, et innominatum",
+   "colunas": "22-28",
+   "paginas": "66-72",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA22"
+  },
+  {
+   "id": "t1-d002-s02",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio II. De divisionibus variis contractuum, Sectio II",
+   "titulo": "De secunda divisione contractus, in bonae fidei, et stricti iuris",
+   "colunas": "28-31",
+   "paginas": "72-75",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA28"
+  },
+  {
+   "id": "t1-d002-s03",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio II. De divisionibus variis contractuum, Sectio III",
+   "titulo": "Divisio contractus in mutuum, et non mutuum",
+   "colunas": "31-32",
+   "paginas": "75-76",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA31"
+  },
+  {
+   "id": "t1-d002-s04",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio II. De divisionibus variis contractuum, Sectio IV",
+   "titulo": "Divisio contractus qui perficitur re, licet res universalis, et consensu",
+   "colunas": "32-35",
+   "paginas": "76-79",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA32"
+  },
+  {
+   "id": "t1-d002-s05",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio II. De divisionibus variis contractuum, Sectio V",
+   "titulo": "De divisione pacti in nudum, et vestitum",
+   "colunas": "35-41",
+   "paginas": "79-85",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA35"
+  },
+  {
+   "id": "t1-d003-s01",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio I",
+   "titulo": "Quot personae, et voluntates intercedere debeant in contractibus",
+   "colunas": "41-46",
+   "paginas": "85-90",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA41"
+  },
+  {
+   "id": "t1-d003-s02",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio II",
+   "titulo": "Consensus in idem, id est in eandem obligationem requiritur essentialiter ad contractum",
+   "colunas": "46-50",
+   "paginas": "90-94",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA46"
+  },
+  {
+   "id": "t1-d003-s03",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio III",
+   "titulo": "An hae consentientes voluntates debeant esse promissio, et acceptatio, et quid sint, et quomodo a pollicitatione, et stipulatione differant",
+   "colunas": "50-56",
+   "paginas": "94-100",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA50"
+  },
+  {
+   "id": "t1-d003-s04",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio IV",
+   "titulo": "Consensus in contractibus liber esse debet ab inadvertentia, ignorantia, et errore",
+   "colunas": "56-63",
+   "paginas": "100-107",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA56"
+  },
+  {
+   "id": "t1-d003-s05",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio V",
+   "titulo": "Errore in substantia annullatur contractus, et quando error in persona annullet",
+   "colunas": "63-67",
+   "paginas": "107-111",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA63"
+  },
+  {
+   "id": "t1-d003-s06",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio VI",
+   "titulo": "Utrum error in qualitate annullet contractus",
+   "colunas": "67-71",
+   "paginas": "111-115",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA67"
+  },
+  {
+   "id": "t1-d003-s07",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio VII",
+   "titulo": "Utrum dolus in substantia, persona, et qualitate irritet contractus",
+   "colunas": "71-75",
+   "paginas": "115-119",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA71"
+  },
+  {
+   "id": "t1-d003-s08",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio VIII",
+   "titulo": "Utrum dolus in qualitate dans causam contractui, annullet vim iure naturae",
+   "colunas": "75-78",
+   "paginas": "119-122",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA75"
+  },
+  {
+   "id": "t1-d003-s09",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio IX",
+   "titulo": "Utrum hi contractus, qui per dolum in qualitate dante causam contractui fiunt, sint iure civili irriti, vel irritandi",
+   "colunas": "78-81",
+   "paginas": "122-125",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA78"
+  },
+  {
+   "id": "t1-d003-s10",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio X",
+   "titulo": "Quid vis? quid metus? et quomodo causent involuntarium, maxime in contractibus",
+   "colunas": "81-85",
+   "paginas": "125-129",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA81"
+  },
+  {
+   "id": "t1-d003-s11",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio XI",
+   "titulo": "Quis metus sit cadens in constantem virum",
+   "colunas": "85-91",
+   "paginas": "129-135",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA85"
+  },
+  {
+   "id": "t1-d003-s12",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio XII",
+   "titulo": "Utrum contractus metu initi obligent ad restitutionem inferentem metum, et quo iure",
+   "colunas": "91-95",
+   "paginas": "135-139",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA91"
+  },
+  {
+   "id": "t1-d003-s13",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio XIII",
+   "titulo": "Utrum contractus metu initi sint ipso iure nulli, an annullandi",
+   "colunas": "95-99",
+   "paginas": "139-143",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA95"
+  },
+  {
+   "id": "t1-d003-s14",
+   "tomo": "I",
+   "livro": "Tractatus I. De natura, et divisione contractus",
+   "capitulo": "Disputatio III. De libero consensu in contractibus requisito, Sectio XIV",
+   "titulo": "Utrum metus reverentialis, importunae preces, et blanditiae liberum consensum in contractibus vitient, eodem modo, quo metus cadens in constantem virum",
+   "colunas": "99-103",
+   "paginas": "143-147",
+   "scan": "https://books.google.com/books?id=xo-P4-cXqAYC&pg=PA99"
+  }
+ ]
+}

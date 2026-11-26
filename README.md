@@ -9,7 +9,7 @@ Primeira obra: Cornélio Jansênio, *Augustinus* (Lovaina, 1640), a partir do ex
 Planos de produção, com o prompt de cada sessão:
 
 - Jansênio, *Augustinus*: [docs/plano-augustinus.md](docs/plano-augustinus.md)
-- Pedro de Oñate, *De Contractibus* (importação da tradução do Pedro e revisão em debate): [docs/plano-de-contractibus.md](docs/plano-de-contractibus.md)
+- Pedro de Oñate, *De Contractibus* (tradução nova, a partir da edição de Roma): [docs/plano-de-contractibus.md](docs/plano-de-contractibus.md)
 
 ## Estrutura
 
