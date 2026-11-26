@@ -13,7 +13,7 @@ Leia antes, uma vez por sessão: `CRITERIOS.md` (transcrição, registro e fidel
 
 - `git pull --ff-only`, depois `node tools/validar.mjs` sem erro.
 - Motor: `python3 ~/.debates-ia/debates/preparar_rodada.py --versao` mostra 4.4.15-rbsa ou mais nova, e `--perfis` lista `traducao`. Se não, pare e peça a instalação do motor (`docs/producao.md`).
-- O PDF do volume, no caminho de `catalogo.json` → `volumes`, existe. Se não, peça ao Pedro para baixá-lo (`docs/producao.md`).
+- O PDF do volume, no caminho de `catalogo.json` → `volumes`, existe. Se não, baixe-o pelo Chrome (seção Fontes, no fim).
 
 ## 1. Escolher o capítulo
 
@@ -69,11 +69,27 @@ Siga o protocolo da skill `rbsa-debate` do plugin RBSA IA Legal System (motor em
 
 Ao fim (de cada capítulo, ou do lote), diga em poucas linhas: capítulos publicados, rodadas e estado final de cada um, pontos em aberto para o Pedro e o consumo.
 
+## Fontes (download pelo Chrome)
+
+As bibliotecas digitais (Paderborn, em especial) barram download por script com uma verificação de navegador; por isso os scans vêm pelo Claude in Chrome, no Chrome da VM, que passa por essa verificação como um usuário comum. Carregue as ferramentas do Chrome numa única busca (`tabs_context_mcp`, `tabs_create_mcp`, `navigate`, `read_page`, `find`, `computer`, `get_page_text`) e trabalhe numa aba nova.
+
+**Volume inteiro** (quando falta o PDF de `catalogo.json` → `volumes`):
+
+1. Pasta de downloads do Chrome: `xdg-user-dir DOWNLOAD` (em português costuma ser `~/Transferências`). Anote os PDFs que já estão lá.
+2. Abra o `scan` do volume (link `nbn-resolving.org`, que leva ao visualizador de Paderborn). Se aparecer a verificação "enable JavaScript and cookies", espere alguns segundos e recarregue uma vez.
+3. Ache no visualizador o download do volume inteiro em PDF (ícone ou menu "Download"/"PDF", às vezes com opção "gesamtes Werk"/"complete work") e clique. Não clique em nada que abra caixa de diálogo do sistema; se o Chrome perguntar onde salvar, pare e peça ao Pedro para desligar "Perguntar onde salvar cada arquivo" nas configurações do Chrome.
+4. Espere o arquivo novo aparecer na pasta de downloads e parar de crescer (`ls -l` a cada 30 s; volume de algumas centenas de MB demora). Confira com `pdfinfo` (número de páginas compatível com o volume, título do Augustinus) e mova para o caminho de `volumes`.
+
+**PDF de um capítulo**: o link `https://digital.ub.uni-paderborn.de/download/pdf/<id>` baixa direto quando aberto no Chrome; mesmo procedimento de espera e conferência. Use quando o volume não baixar ou para conferir um capítulo.
+
+Três tentativas sem sucesso (verificação que não passa, botão que não aparece, download que não chega): pare e descreva ao Pedro o que a página mostra.
+
 ## Catálogo
 
 `obras/<obra>/catalogo.json` lista os capítulos na ordem de produção, com `id`, `tomo`, `livro`, `capitulo`, `titulo`, `colunas`, `paginas` (páginas do PDF do volume) e `scan`. Para estendê-lo:
 
-1. `python3 tools/catalogo.py <pdf-do-volume> --filtro "<livro>"` lista a estrutura do livro pelos marcadores do PDF (capítulos e, nas bibliotecas alemãs, as entradas "Spalte n-m" com as páginas). Sem marcadores, monte pelo índice de capítulos impresso no volume (leia as páginas do índice com `tools/paginas.py`).
+1. Estrutura e páginas: `python3 tools/catalogo.py <pdf-do-volume> --filtro "<livro>"` lista o livro pelos marcadores do PDF (capítulos e, nas bibliotecas alemãs, as entradas "Spalte n-m" com as páginas). Sem marcadores, monte pelo índice de capítulos impresso no volume (leia as páginas do índice com `tools/paginas.py`).
+   Links de cada capítulo: no Chrome, abra a estrutura (índice) do volume no visualizador de Paderborn e leia com `get_page_text`/`read_page` os links de download de cada capítulo (`/download/pdf/<id>`); eles viram o `scan` do capítulo, que o site mostra.
 2. Ids: `t<tomo em algarismo>-<sigla do livro>-<capítulo com dois dígitos>`; siglas usadas: `lp` (*Liber prooemialis*). Para livro novo, crie sigla curta e anote-a aqui.
-3. `scan`: o PDF do capítulo na biblioteca, se você tiver o link; senão, o `scan` do volume.
+3. `scan`: o PDF do capítulo na biblioteca (passo 1); se não achar, o `scan` do volume.
 4. Confira duas ou três entradas abrindo a página indicada antes de gravar.

@@ -6,12 +6,12 @@ A obra tem três tomos, por volta de 2.300 colunas e algumas centenas de capítu
 
 | Etapa | O que se faz | Termina quando |
 |---|---|---|
-| 0. Preparação | Pré-checagem da VM; catálogo do tomo II inteiro em `catalogo.json` (livros na ordem do volume, com colunas e páginas) | catálogo do tomo II completo e conferido por amostragem |
+| 0. Preparação | Pré-checagem da VM; download do tomo II pelo Chrome; catálogo do tomo II inteiro em `catalogo.json` (livros na ordem do volume, com colunas e páginas) | catálogo do tomo II completo e conferido por amostragem |
 | 1. Calibração | Só o `t2-lp-02`, de ponta a ponta | o Pedro leu o resumo e o registro e disse "pode seguir" |
 | 2. *Liber prooemialis* | Os demais capítulos do livro proemial | último capítulo do livro publicado + ponto de controle |
 | 3. Tomo II | Os demais livros do tomo II, na ordem do volume | idem, a cada livro |
-| 4. Tomo I | Catálogo do tomo I; depois os livros, na ordem | idem, a cada livro |
-| 5. Tomo III | Catálogo do tomo III; depois os livros, na ordem | idem, a cada livro |
+| 4. Tomo I | Download e catálogo do tomo I; depois os livros, na ordem | idem, a cada livro |
+| 5. Tomo III | Download e catálogo do tomo III; depois os livros, na ordem | idem, a cada livro |
 | 6. Fechamento | Auditoria de uniformidade da obra inteira; índice das propostas de glossário ainda abertas | relatório final ao Pedro |
 
 ## Ponto de controle (fim de cada livro)
@@ -22,7 +22,7 @@ A obra tem três tomos, por volta de 2.300 colunas e algumas centenas de capítu
 
 ## Prompt de cada sessão
 
-Abra o Claude Code na pasta do repositório, na sessão XFCE da VM (`cd ~/bibliotheca-barroca && claude`), e cole:
+Abra o Claude Code na pasta do repositório, na sessão XFCE da VM (`cd ~/bibliotheca-barroca && claude --chrome`), e cole:
 
 ```text
 Produção da Bibliotheca Barroca: tradução do Augustinus de Jansênio, obra inteira, em etapas.
@@ -32,7 +32,7 @@ Leia, antes de qualquer outra coisa: CLAUDE.md, CRITERIOS.md, docs/plano-augusti
 1. Situação. Faça a pré-checagem da skill. Rode `node tools/situacao.mjs jansenius-augustinus` e, pelo progresso e pelo plano, diga em três linhas: etapa atual, último capítulo publicado e se há ponto de controle esperando resposta minha. Se houver, e eu não tiver respondido nesta mensagem, pare aqui e mostre o que está pendente.
 
 2. Etapa. Siga a etapa atual do plano:
-   - Preparação: monte ou complete o catálogo do tomo indicado (seção Catálogo da skill), confira três entradas abrindo as páginas indicadas e grave. Depois passe à etapa seguinte na mesma sessão.
+   - Preparação: se faltar o PDF do volume, baixe-o pelo Chrome (seção Fontes da skill); monte ou complete o catálogo do tomo indicado (seção Catálogo), com os links de cada capítulo lidos no visualizador, confira três entradas abrindo as páginas indicadas e grave. Depois passe à etapa seguinte na mesma sessão.
    - Calibração: produza só o t2-lp-02 e pare, com o resumo do debate, para eu ler.
    - Livro em produção: produza o lote desta sessão, capítulo a capítulo, na ordem do catálogo, cada um com o fluxo completo da skill (transcrição com conferência, glossário, tradução, debate com Codex e Gemini, aplicação, resumo, commit e push). Lote: até 5 capítulos ou o que eu disser ao final deste prompt.
    - Fim de livro: faça o ponto de controle do plano e pare.

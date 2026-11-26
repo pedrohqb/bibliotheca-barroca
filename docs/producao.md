@@ -28,9 +28,13 @@ python3 ~/.debates-ia/debates/preparar_rodada.py --perfis   # deve listar traduc
 - **Plugin RBSA IA Legal System rbsa.21** no Claude Code da VM: a skill `traduzir-capitulo` conduz o debate pelo protocolo da `rbsa-debate`.
 - Teste: `bash ~/.debates-ia/teste-rapido.sh codex,gemini`.
 
-## 3. Scan dos volumes
+## 3. Chrome e scans
 
-Baixe o PDF do volume inteiro na Universitätsbibliothek Paderborn (abra o link no navegador da VM, botão de download do volume) e grave no caminho que o `catalogo.json` espera:
+Os scans são baixados automaticamente pelo Claude in Chrome, no Chrome da VM: a skill abre o visualizador de Paderborn, baixa o PDF do volume, confere e o move para o lugar certo, e lê no índice do visualizador os links de cada capítulo. Para isso, uma vez:
+
+1. Instale o Google Chrome na VM (pacote `.deb` do site do Google) e, nele, a extensão Claude in Chrome, entrando com a mesma conta do Claude Code.
+2. Nas configurações do Chrome, em Downloads, desligue **Perguntar onde salvar cada arquivo** (a caixa de diálogo do sistema trava a automação).
+3. Abra o Claude Code com a integração do Chrome ligada: `claude --chrome` (ou `/chrome` dentro da sessão, para conectar e conferir).
 
 | Volume | Link | Caminho |
 |---|---|---|
@@ -38,12 +42,12 @@ Baixe o PDF do volume inteiro na Universitätsbibliothek Paderborn (abra o link 
 | Tomo II | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf` |
 | Tomo III | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13704 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-3.pdf` |
 
-A produção começa pelo tomo II; os tomos I e III só são necessários quando o plano chegar a eles (`docs/plano-augustinus.md`).
+Cada volume é baixado quando a produção chega a ele. Se a automação não passar pela verificação do site, a skill para e avisa; aí basta baixar o PDF à mão pelo mesmo link e gravar no caminho da tabela.
 
 ## 4. Produzir
 
 ```bash
-cd ~/bibliotheca-barroca && claude
+cd ~/bibliotheca-barroca && claude --chrome
 ```
 
 E peça: "traduza o próximo capítulo do Augustinus" ou "traduza os próximos 3 capítulos". A skill `traduzir-capitulo` faz, para cada capítulo: imagens do scan → transcrição e conferência → glossário → tradução → validação → debate (Codex e Gemini, perfil `traducao`, até 3 rodadas de mérito e a final) → aplicação do resultado → resumo para a revisão → commit e push. O site se atualiza sozinho em cerca de um minuto.
