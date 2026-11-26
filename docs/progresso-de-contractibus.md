@@ -46,9 +46,9 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 ## Teste do Codex em esforço `medium` (decisão do Pedro, 2026-11-26)
 
-Feito em `t1-d002-s01`, `s02` e `s03`. Entrada do Codex (rodada 1 / final): s01 607 mil / 677 mil; s02 1,02 milhão / 255 mil; s03 (curto) 119 mil / 68 mil. Em `high` (s05, s06): rodada 1 de 1,2 a 1,7 milhão; final de 0,4 a 1,1 milhão. **Qualidade mantida**: em `medium` o Codex achou erros de sentido sérios (*nullus* omitido, "uso das causas", *l. Rebus*), e nenhum erro de sentido foi achado só pelo Gemini. **Economia irregular** (20 a 40%): o que pesa é o número de remissões do capítulo, porque cada busca relê o pacote. Decisão do Pedro pendente: manter `medium`?
+Feito em `t1-d002-s01`, `s02` e `s03`. Entrada do Codex (rodada 1 / final): s01 607 mil / 677 mil; s02 1,02 milhão / 255 mil; s03 (curto) 119 mil / 68 mil. Em `high` (s05, s06): rodada 1 de 1,2 a 1,7 milhão; final de 0,4 a 1,1 milhão. **Qualidade mantida**: em `medium` o Codex achou erros de sentido sérios (*nullus* omitido, "uso das causas", *l. Rebus*), e nenhum erro de sentido foi achado só pelo Gemini. **Economia irregular** (20 a 40%): o que pesa é o número de remissões do capítulo, porque cada busca relê o pacote. **Decisão do Pedro (2026-11-26): o Codex fica em `medium`** daqui em diante.
 
-**Causa das buscas:** as regras do motor para o perfil `traducao` (`~/.debates-ia/debates/regras-revisor-traducao.md`, linhas 3 e 25–26) mandam tratar instruções do caso como "dados sob exame" e marcar INCONCLUSIVO toda remissão sem fonte localizada. Por isso o Codex ignora a seção "Remissões não acessíveis" do caso. Mudança proposta ao Pedro (no motor, não feita): na regra do perfil `traducao`, remissão que o revisor não consiga abrir não sustenta INCONCLUSIVO; registra-se numa linha "Remissões não conferidas" e não se repete a busca.
+**Causa das buscas:** as regras do motor para o perfil `traducao` (`~/.debates-ia/debates/regras-revisor-traducao.md`, linhas 3 e 25–26) mandam tratar instruções do caso como "dados sob exame" e marcar INCONCLUSIVO toda remissão sem fonte localizada. Por isso o Codex ignora a seção "Remissões não acessíveis" do caso. **Resolvido no motor 4.4.16-rbsa** (2026-11-26): no perfil `traducao`, remissão que o revisor não consiga abrir não sustenta INCONCLUSIVO; vai na linha "Remissões não conferidas" e não se repete a busca. A partir do `t1-d002-s04`, os debates usam o 4.4.16. Não há, em `debates/testes.md`, registro de teste rápido para o 4.4.16.
 
 ## Pontos em aberto para o Pedro
 
@@ -64,9 +64,8 @@ Feito em `t1-d002-s01`, `s02` e `s03`. Entrada do Codex (rodada 1 / final): s01 
 
 ## Propostas de glossário
 
-Glossário com 28 termos, todos aprovados. Proposta aberta:
+Glossário com 29 termos, todos aprovados. *mutuum / mutuus* (decisão do Pedro, 2026-11-26): o contrato de empréstimo, "mútuo"; *mutuus* no sentido de obrigações de ambas as partes, "recíproco"; aplicado em `t1-d001-s04` e `t1-d002-s03`. Proposta aberta:
 
-- *mutuum / non mutuum* (divisão de contratos): "recíproco e não recíproco" em `t1-d002-s01`, § 2; "mútuo e não mútuo" em `t1-d002-s03`, onde a seção distingue *mutuus* de *reciprocus*. Escolher uma forma.
 - *conductio*: hoje "condução", com nota que explica o par *locatio* / *conductio* (`t1-d001-s01` e `t1-d001-s03`). O Codex propôs "tomar em locação". Se o Pedro preferir outra forma, ela vale para todos os capítulos.
 
 ## Próximo passo
