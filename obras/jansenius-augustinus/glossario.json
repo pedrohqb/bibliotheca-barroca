@@ -268,5 +268,11 @@
     "formas": ["juris naturalis", "jus naturae", "juris naturae", "jure naturae", "naturali jure", "naturalis juris"],
     "pt": ["direito natural"],
     "nota": "\"Direito natural\", também para *jus naturae*; distinto de *jus divinum positivum*, \"direito divino positivo\" (o que o Evangelho contém). *Lex naturae*, \"lei da natureza\"; *lex naturalis*, \"lei natural\". *Ignorantia juris… facti*, \"ignorância de direito… de fato\" (livro II do *De statu naturae lapsae*, cap. 5)."
+  },
+  {
+    "lema": "electio",
+    "formas": ["electio", "electionis", "electionem", "electione"],
+    "pt": ["eleição"],
+    "nota": "\"Eleição\" (divina, para a salvação); *vas electionis*, \"vaso de eleição\" (At 9,15). Distinta de *praedestinatio*, \"predestinação\". Livro proemial, caps. 13 e 20."
   }
 ]
