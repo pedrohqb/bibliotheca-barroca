@@ -1,5 +1,5 @@
 {
-  "nota": "Capítulos na ordem de produção. 'pdf' é o caminho do PDF do volume na máquina que produz; 'paginas' são páginas desse PDF. 'scan' é o link público mostrado no site (PDF do capítulo em Paderborn ou, sem ele, o volume).",
+  "nota": "Capítulos na ordem de produção. 'pdf' é o caminho do PDF do volume na máquina que produz; 'paginas' são páginas desse PDF. 'scan' é o link público mostrado no site (PDF do capítulo em Paderborn ou, sem ele, o volume). Tomo II catalogado pelos marcadores do PDF do volume e pela estrutura do visualizador de Paderborn: 'colunas' e 'paginas' cobrem as páginas em que o capítulo aparece (o capítulo pode começar ou terminar no meio delas) e o título vem da estrutura da biblioteca, normalizado; ambos se acertam na transcrição. Siglas dos livros do tomo II: lp (Liber prooemialis), ni (De statu naturae innocentis), nl1-nl4 (De statu naturae lapsae I-IV), np1-np3 (De statu purae naturae I-III); 00 é a Praefatio do livro.",
   "volumes": {
     "I": {
       "pdf": "~/bibliotheca-fontes/jansenius-augustinus/tomo-1.pdf",
@@ -25,7 +25,2148 @@
       "capitulo": "Caput primum",
       "titulo": "Gratiae Christi veritas omnibus Christianis, ut vita et salus, cordi esse debet.",
       "colunas": "1-4",
+      "paginas": "8-9",
       "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890710"
+    },
+    {
+      "id": "t2-lp-02",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput secundum",
+      "titulo": "Ratio scriptionis huius labyrinthus quaestionum, quae de gratia agitantur.",
+      "colunas": "3-6",
+      "paginas": "9-10",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890712"
+    },
+    {
+      "id": "t2-lp-03",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput tertium",
+      "titulo": "Inventio veritatis de divina gratia et concordia dissidentium Scholasticorum difficilis, propter Philosophiam. Mala inde pullulantia.",
+      "colunas": "5-8",
+      "paginas": "10-11",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890715"
+    },
+    {
+      "id": "t2-lp-04",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput quartum",
+      "titulo": "Discrimen inter Philosophiam ac Theologiam. Illi servit ratio, huic memoria: principium eius traditio non scripta, per accidens etiam scripta. Quid Christus et Apostolus, in tradenda Theologia spectarint.",
+      "colunas": "7-10",
+      "paginas": "11-12",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890717"
+    },
+    {
+      "id": "t2-lp-05",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput quintum",
+      "titulo": "Antiqui Patres eum imitati sunt. Discrimen inter disputationes eorum de mysterijs fidei, et Scholasticorum. Lapsus origenis.",
+      "colunas": "11-12",
+      "paginas": "13-13",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890719"
+    },
+    {
+      "id": "t2-lp-06",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput sextum",
+      "titulo": "Quis limes in hac vita indagandi divina mysteria. Quaestionem quomodo quidque verum sit, fere semper obscuram Deus esse voluit: Duplex quomodo articulorum revelatorum, essentiale, et accidentale.",
+      "colunas": "11-16",
+      "paginas": "13-15",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890722"
+    },
+    {
+      "id": "t2-lp-07",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput septimum",
+      "titulo": "Duplex modus penetrandi mysteria Dei, humana ratione et charitate: ille periculosus est, proprius Philosophorum; iste tutus Christianorum.",
+      "colunas": "15-20",
+      "paginas": "15-17",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890726"
+    },
+    {
+      "id": "t2-lp-08",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput octavum",
+      "titulo": "Quaestiones et veritates pure Scholasticae nihil cum cognitione charitatis commune habent propter diversas causas. Praecipitia in quae prorumpunt.",
+      "colunas": "19-22",
+      "paginas": "17-18",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890728"
+    },
+    {
+      "id": "t2-lp-09",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput nonum",
+      "titulo": "Cancelli Theologiae Christianae in Scripturis, Concilijs et Patribus primorum saeculorum, per quos Deus Ecclesiam docuit, positi sunt.",
+      "colunas": "21-26",
+      "paginas": "18-20",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890730"
+    },
+    {
+      "id": "t2-lp-10",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum",
+      "titulo": "Quid moverit auctorem ad indagandam veritatem de gratia et praedest. ex Concilijs et August.",
+      "colunas": "25-26",
+      "paginas": "20-20",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890733"
+    },
+    {
+      "id": "t2-lp-11",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput undecimum",
+      "titulo": "Deus non minus mirabilis in innumerabili varietate mundi incorporei, quam corporei, hoc est, instorum,quam rerum naturalium: quarum ultimae differentiarum et perfectionum fibrae, ideoque et Augustini, latent.",
+      "colunas": "27-28",
+      "paginas": "21-21",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890735"
+    },
+    {
+      "id": "t2-lp-12",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Augustinus quatuor capitales Christianismi veritates contra quatuor potentissimos errores fundavit; unitatem capitis Ecclesiae, unitatem Corporis, unitatem Sacramenti incorporationis, unitatem gratiae; ostenditur de tribus primis.",
+      "colunas": "29-32",
+      "paginas": "22-23",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890738"
+    },
+    {
+      "id": "t2-lp-13",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Item de quarto. Primus Augustinus intelligentiam divinae gratiae et novi Testamenti fide crediti apperuit fidelibus et Ecclesiae.",
+      "colunas": "31-34",
+      "paginas": "23-24",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890740"
+    },
+    {
+      "id": "t2-lp-14",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Augustini doctrina de gratia Dei, Evangelica, Apostolica, Catholica, et irrefragabilis auctoritatis; totius Ecclesiae nomine scripta, silentibus scriptoribus universis.",
+      "colunas": "33-34",
+      "paginas": "24-24",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890746"
+    },
+    {
+      "id": "t2-lp-15",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "A Romanis Pontificibus Innocentio, Zozymo, Celestino, Leone, Hormisda, Felice secundo, et Ioanne secundo magnificentissime approbata et consecrata.",
+      "colunas": "33-36",
+      "paginas": "24-25",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890748"
+    },
+    {
+      "id": "t2-lp-16",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Quanta libertas et procacia quorundam recentiorum, in censenda damnandaque Augustini doctrina, quam tantopere Romana Ecclesia admirata est.",
+      "colunas": "37-40",
+      "paginas": "26-27",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890751"
+    },
+    {
+      "id": "t2-lp-17",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Naturalis et gratuiti luminis abundantia Aug. omnes Scriptores Graecos et Latinos superavit.",
+      "colunas": "39-42",
+      "paginas": "27-28",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890753"
+    },
+    {
+      "id": "t2-lp-18",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Miris elogijs Augustini facunda eruditio, sapienter a Scriptoribus sui temporis et posteris celebrata est.",
+      "colunas": "41-44",
+      "paginas": "28-29",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890755"
+    },
+    {
+      "id": "t2-lp-19",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Vis gratiae magis vitae praxi in Augustino quam stylo ab eo expressa est conversione mirabili, qua Magdalenae, Petro, et praecipue Paulo similis fuit; institutione Religiosorum, qui in quinquaginta quatuor ordines diffusi sunt alijsque multis.",
+      "colunas": "43-46",
+      "paginas": "29-30",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890758"
+    },
+    {
+      "id": "t2-lp-20",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Similitudo Pauli et Augustini mira in indicijs divinae electionis, quae in vita utriusque etiam dissoluta micuerunt.",
+      "colunas": "45-48",
+      "paginas": "30-31",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890760"
+    },
+    {
+      "id": "t2-lp-21",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "In Paulo et Augustino profundus gratiae Christianae sensus, intelligentia, et praedicatio: quorum fons fuit amor Dei, primus gratiae effectus.",
+      "colunas": "47-50",
+      "paginas": "31-32",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890762"
+    },
+    {
+      "id": "t2-lp-22",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Gratiam ac Theologiam posteri ab Augustino didicerunt, etiam sanctus Thomas.",
+      "colunas": "49-52",
+      "paginas": "32-33",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890769"
+    },
+    {
+      "id": "t2-lp-23",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Notitiae verae Theologicae limites in se fixit Augustinus.",
+      "colunas": "51-52",
+      "paginas": "33-33",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890772"
+    },
+    {
+      "id": "t2-lp-24",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Augustinus Pater Patrum, Doctor Doctorum; primus post Scriptores Canonicos; inter omnes vere solidus, subtilis, irrefragabilis, Angelicus, Seraphicus, excellentissimus, et ineffabiliter mirabilis.",
+      "colunas": "53-54",
+      "paginas": "34-34",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890775"
+    },
+    {
+      "id": "t2-lp-25",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Quo animo auctor ad lectionem operum sancti Augustini accesserit; quid spectaverit; quid spectandum sit; et Augustino tribuendum.",
+      "colunas": "55-58",
+      "paginas": "35-36",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890777"
+    },
+    {
+      "id": "t2-lp-26",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "Periculosum est novas semitas in materia de gratia invenire velle praetextu vel difficultatum ab Augustinio relictarum, vel maioris lucis, quae recentioribus accesserit.",
+      "colunas": "57-60",
+      "paginas": "36-37",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890779"
+    },
+    {
+      "id": "t2-lp-27",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Paulus et Augustinus matrix et fons omnium conclusionum, quae de gratia educi possunt.",
+      "colunas": "59-62",
+      "paginas": "37-38",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890781"
+    },
+    {
+      "id": "t2-lp-28",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum octavum",
+      "titulo": "Qualis esse debeat Lector sancti Augustini. Quantum ab Augustini doctrina recentior Theologia distet, tum rebus ipsis tum docendi modo.",
+      "colunas": "61-64",
+      "paginas": "38-39",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890784"
+    },
+    {
+      "id": "t2-lp-29",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput vigesimum nonum",
+      "titulo": "Scopus auctoris mentem Augustini de naturae humanae statu de gratia, de praedestinatione sincere patefacere. Quid spectandum sit ijs qui aliud forte senserint.",
+      "colunas": "63-66",
+      "paginas": "39-40",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890786"
+    },
+    {
+      "id": "t2-lp-30",
+      "tomo": "II",
+      "livro": "Liber prooemialis",
+      "capitulo": "Caput trigesimum",
+      "titulo": "Vtrum vetustas opinionum Scholasticarum, vel multitudo sectatorum Ecclesiam ab earum examine vel censura deterrere debeat, si antiquiori doctrinae sancti Augustini adversentur.",
+      "colunas": "65-70",
+      "paginas": "40-42",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890788"
+    },
+    {
+      "id": "t2-ni-00",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "71-74",
+      "paginas": "43-44",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890815"
+    },
+    {
+      "id": "t2-ni-01",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput primum",
+      "titulo": "De creatione Adami in gratia et sanctitate.",
+      "colunas": "73-80",
+      "paginas": "44-47",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890817"
+    },
+    {
+      "id": "t2-ni-02",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput secundum",
+      "titulo": "Quis status inferioris partis respectu superioris.",
+      "colunas": "79-82",
+      "paginas": "47-48",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890819"
+    },
+    {
+      "id": "t2-ni-03",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput tertium",
+      "titulo": "Vtrum fuerint in homine primo innati et intensi appetitus excellentiae et laudis et superbiae tentationes, ut quidam volunt.",
+      "colunas": "81-88",
+      "paginas": "48-51",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890821"
+    },
+    {
+      "id": "t2-ni-04",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput quartum",
+      "titulo": "Vtrum Adam corpore esset moriturus, si non peccasset. Duplex mortalitas et immortalitas.",
+      "colunas": "89-92",
+      "paginas": "52-53",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890824"
+    },
+    {
+      "id": "t2-ni-05",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput quintum",
+      "titulo": "De ceteris miserijs mortalitatis asseclis, et de quiete omnium sensuum.",
+      "colunas": "93-96",
+      "paginas": "54-55",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890826"
+    },
+    {
+      "id": "t2-ni-06",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput sextum",
+      "titulo": "Adamus liberum habuit arbitrium, quid liberum sibi velit.",
+      "colunas": "95-104",
+      "paginas": "55-59",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890828"
+    },
+    {
+      "id": "t2-ni-07",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput septimum",
+      "titulo": "An Adam per vires liberi arbitrii in creatione datas potuerit iuste vivere.",
+      "colunas": "105-114",
+      "paginas": "60-64",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890830"
+    },
+    {
+      "id": "t2-ni-08",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput octavum",
+      "titulo": "Vtrum per vires liberi arbitrii in iustitia creationis potuerit perseverare.",
+      "colunas": "113-118",
+      "paginas": "64-66",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890832"
+    },
+    {
+      "id": "t2-ni-09",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput nonum",
+      "titulo": "Adferuntur rationes, curtantae fuerint vires liberi arbitrii in statu innocentiae.",
+      "colunas": "119-124",
+      "paginas": "67-69",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890835"
+    },
+    {
+      "id": "t2-ni-10",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum",
+      "titulo": "An indiguerint Adam et Angeli adiutorio gratiae ad iuste vivendum et perseverandum in iustitia.",
+      "colunas": "123-128",
+      "paginas": "69-71",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890837"
+    },
+    {
+      "id": "t2-ni-11",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput undecimum",
+      "titulo": "Vtrum ad singulos actus bonos gratia necessaria fuerit: Et quae radix tantae necessitatis.",
+      "colunas": "127-134",
+      "paginas": "71-74",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890839"
+    },
+    {
+      "id": "t2-ni-12",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Proponitur et differtur difficultas, de concilianda tanta liberi arbitrii potestate cum tanta gratiae necessitate. Quale fuerit illud Adae et Angelorum adiutorium, quantum ad iustitiam, an gratia habitualis, concursus communis etc.",
+      "colunas": "133-140",
+      "paginas": "74-77",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890842"
+    },
+    {
+      "id": "t2-ni-13",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Idem ostenditur uberius ex Augustino.",
+      "colunas": "141-146",
+      "paginas": "78-80",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890844"
+    },
+    {
+      "id": "t2-ni-14",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Quale fuerit istud adiutorium quantum ad operandi modum.",
+      "colunas": "145-152",
+      "paginas": "80-83",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890846"
+    },
+    {
+      "id": "t2-ni-15",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Solvitur difficultas cap. 12. proposita et fusius declaratur adiutorium quo, et sine quo non.",
+      "colunas": "153-158",
+      "paginas": "84-86",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890848"
+    },
+    {
+      "id": "t2-ni-16",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Perseverantia, et merita in statu innocentiae humanae et Angelicae non fuerunt specialia Dei dona.",
+      "colunas": "159-164",
+      "paginas": "87-89",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890851"
+    },
+    {
+      "id": "t2-ni-17",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Soluitur locus Aug. ex lib. de Cor. et grat.",
+      "colunas": "165-170",
+      "paginas": "90-92",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890853"
+    },
+    {
+      "id": "t2-ni-18",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Soluitur alius Augustini locus ex libro duodecimo de Civitate Dei.",
+      "colunas": "169-172",
+      "paginas": "92-93",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890855"
+    },
+    {
+      "id": "t2-ni-19",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Soluitur locus Scripturae; et difficultas ex Bulla sanctissimorum Pontificum Pii quinti, et Gregorii decimi tertii mota: ubi ostenditur, non minus merita status innocentiae esse gratiam et dona Dei, quam merita lapsorum iuxta recentiores.",
+      "colunas": "173-180",
+      "paginas": "94-97",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890857"
+    },
+    {
+      "id": "t2-ni-20",
+      "tomo": "II",
+      "livro": "Liber singularis de statu naturae innocentis",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Declaratur adiutorium status innocentiae non fuisse praedeterminationem physicam: nec merita per eam Adamo et Angelis esse donata.",
+      "colunas": "181-184",
+      "paginas": "98-99",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890860"
+    },
+    {
+      "id": "t2-nl1-01",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput primum",
+      "titulo": "Peccatum originale ex mente Augustini concupiscentia. Quid reatus eius, utrum culpae, an poenae sit? agnovit in eo iniquitatem, mortem animae, immunditiam, aversionem etc.",
+      "colunas": "185-190",
+      "paginas": "100-102",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890879"
+    },
+    {
+      "id": "t2-nl1-02",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput secundum",
+      "titulo": "Soluitur locus difficilis Augustini ex libro sexto contra Iulianum.",
+      "colunas": "191-196",
+      "paginas": "103-105",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890887"
+    },
+    {
+      "id": "t2-nl1-03",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput tertium",
+      "titulo": "Quo pacto reatus sit ex concupiscentia, late ex Aug. Cur ea phrasi tam libenter utatur.",
+      "colunas": "195-204",
+      "paginas": "105-109",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890885"
+    },
+    {
+      "id": "t2-nl1-04",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput quartum",
+      "titulo": "Ratio voluntarii in originalis peccato ex voluntate primi hominis fluit.",
+      "colunas": "205-208",
+      "paginas": "110-111",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890890"
+    },
+    {
+      "id": "t2-nl1-05",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput quintum",
+      "titulo": "Proponitur difficultas de principio traducente peccatum primi hominis in posteros eius.",
+      "colunas": "207-210",
+      "paginas": "111-112",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890893"
+    },
+    {
+      "id": "t2-nl1-06",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput sextum",
+      "titulo": "Carnalis concupiscentia, causa traductionis peccati originalis. Ostenditur hoc revera sensisse Augustinum contra, quam recentiores putant. Primo ex prima radice traductionis magnitudine scilicet peccati totam naturam vitiantis.",
+      "colunas": "209-214",
+      "paginas": "112-114",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890896"
+    },
+    {
+      "id": "t2-nl1-07",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput septimum",
+      "titulo": "Ostenditur secundo ex locis quae speciatim concupiscentiam velut propinquam causam propagationis exprimunt.",
+      "colunas": "213-216",
+      "paginas": "114-115",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890898"
+    },
+    {
+      "id": "t2-nl1-08",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput octavum",
+      "titulo": "Declaratur tertio ex modo quo Aug. tradit peccatum ex parentibus iustis propagari in prolem.",
+      "colunas": "215-218",
+      "paginas": "115-116",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890902"
+    },
+    {
+      "id": "t2-nl1-09",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput nonum",
+      "titulo": "Demonstratur quarto ex causa cur Christi conceptio sine peccato fuerit.",
+      "colunas": "217-220",
+      "paginas": "116-117",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890904"
+    },
+    {
+      "id": "t2-nl1-10",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum",
+      "titulo": "Probatur quinto ex eo, quod istam Aug. mentem agnoverunt, et acerrime oppugnarunt Pelag.",
+      "colunas": "219-222",
+      "paginas": "117-118",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890907"
+    },
+    {
+      "id": "t2-nl1-11",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput undecimum",
+      "titulo": "Astruitur sexto ex eo quod tredecim libri Augustini alioquin funditus evertantur.",
+      "colunas": "221-224",
+      "paginas": "118-119",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890909"
+    },
+    {
+      "id": "t2-nl1-12",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Ecclesiae de Pelag. victoria esset vana, imo fallax, et falsa nisi ista Aug. sententia fuerit vera.",
+      "colunas": "225-228",
+      "paginas": "120-121",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890919"
+    },
+    {
+      "id": "t2-nl1-13",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Omnium antiquorum idem sensus usque ad aetatem Scholasticorum.",
+      "colunas": "229-234",
+      "paginas": "122-124",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890921"
+    },
+    {
+      "id": "t2-nl1-14",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Tanquam veritatem Catholicam, et sententiam Ecclesiae docuit hoc Augustinus.",
+      "colunas": "233-238",
+      "paginas": "124-126",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890923"
+    },
+    {
+      "id": "t2-nl1-15",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Opponitur tantae certitudini fluctuatio Aug. usque ad mortem, et ex ipso August. soluitur.",
+      "colunas": "237-244",
+      "paginas": "126-129",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890925"
+    },
+    {
+      "id": "t2-nl1-16",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Difficultas non debet terrere Theologos Catholicos a tuenda Augustini sententia. Declaratur traductionem peccati fieri iuxta mentem eius non ex pacto, sed ex natura rei.",
+      "colunas": "243-246",
+      "paginas": "129-130",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890928"
+    },
+    {
+      "id": "t2-nl1-17",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Idem ostenditur uberius, et a radicibus.",
+      "colunas": "247-250",
+      "paginas": "131-132",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890930"
+    },
+    {
+      "id": "t2-nl1-18",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Aliquid positivum esse concupiscentiam videtur sentire Augustinus.",
+      "colunas": "249-254",
+      "paginas": "132-134",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890932"
+    },
+    {
+      "id": "t2-nl1-19",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Explicatur modus primus, quo intelligi posset peccatum originis libidine propagari.",
+      "colunas": "255-258",
+      "paginas": "135-136",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890934"
+    },
+    {
+      "id": "t2-nl1-20",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Declaratur secundus modus propagationis peccati originalis per libidinem.",
+      "colunas": "257-264",
+      "paginas": "136-139",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890936"
+    },
+    {
+      "id": "t2-nl1-21",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Excitantur quatuor difficultates; quid qualitatem illam produxerit in Adamo; quid illo in semine; quid semen in carne prolis, quid caro in spiritus eius: et soluitur prima.",
+      "colunas": "265-270",
+      "paginas": "140-142",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890939"
+    },
+    {
+      "id": "t2-nl1-22",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Secundae ac tertia difficultas soluitur.",
+      "colunas": "269-272",
+      "paginas": "142-143",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890941"
+    },
+    {
+      "id": "t2-nl1-23",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber I",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Soluitur quarta difficultas supra proposita. Modus inquinationis animae ex carne peccati.",
+      "colunas": "271-282",
+      "paginas": "143-148",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890943"
+    },
+    {
+      "id": "t2-nl2-01",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput primum",
+      "titulo": "Poenae peccati originalis generatim pertextae.",
+      "colunas": "281-288",
+      "paginas": "148-151",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890962"
+    },
+    {
+      "id": "t2-nl2-02",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput secundum",
+      "titulo": "De Ignorantia. Ignorantia etiam quae necessitatis est, non voluntatis, hoc est, invincibilis non caret peccato: ut dogma fidei ab antiquis traditum.",
+      "colunas": "287-292",
+      "paginas": "151-153",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890965"
+    },
+    {
+      "id": "t2-nl2-03",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput tertium",
+      "titulo": "Idem istendunt varia Augustini loca.",
+      "colunas": "291-300",
+      "paginas": "153-157",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890972"
+    },
+    {
+      "id": "t2-nl2-04",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput quartum",
+      "titulo": "Difficultas de libertate et voluntario ad omne peccatum necessarijs ex Augustino soluitur.",
+      "colunas": "299-304",
+      "paginas": "157-159",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890980"
+    },
+    {
+      "id": "t2-nl2-05",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput quintum",
+      "titulo": "Ignorantia invincibilis iuris divini, naturalis, facti. Quaenam peccatum non excuset.",
+      "colunas": "305-310",
+      "paginas": "160-162",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890982"
+    },
+    {
+      "id": "t2-nl2-06",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput sextum",
+      "titulo": "Indagatur radix arcanae illius doctrinae.",
+      "colunas": "309-316",
+      "paginas": "162-165",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890985"
+    },
+    {
+      "id": "t2-nl2-07",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput septimum",
+      "titulo": "De concupiscentia. Nomina concupiscentiae: qui motus eius et eorum obiecta.",
+      "colunas": "317-324",
+      "paginas": "166-169",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890987"
+    },
+    {
+      "id": "t2-nl2-08",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput octavum",
+      "titulo": "Concupiscentiae divisio in concupiscentiam carnis, oculorum, et superbiam vitae: ex quibus omnia flagitia fluunt, et facinora.",
+      "colunas": "323-328",
+      "paginas": "169-171",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890989"
+    },
+    {
+      "id": "t2-nl2-09",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput nonum",
+      "titulo": "Nulli concupiscentiae licet consentire.",
+      "colunas": "329-336",
+      "paginas": "172-175",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/890991"
+    },
+    {
+      "id": "t2-nl2-10",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum",
+      "titulo": "Voluptatis causa misceri coniugi peccatum est, et quare. Doctrina Scholasticorum quorundam contraria ex Pelagianis manavit.",
+      "colunas": "335-346",
+      "paginas": "175-180",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891002"
+    },
+    {
+      "id": "t2-nl2-11",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput undecimum",
+      "titulo": "Proponuntur argumenta adversus doctrinam de coërcendo consensu concupiscentiam.",
+      "colunas": "345-348",
+      "paginas": "180-181",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891012"
+    },
+    {
+      "id": "t2-nl2-12",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Affectus amoris non potest sine pecato haerere in creatura.",
+      "colunas": "347-352",
+      "paginas": "181-183",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891023"
+    },
+    {
+      "id": "t2-nl2-13",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Ratio petitur ex natura cupiditatis, et peccati sive mortalis, sive venialis.",
+      "colunas": "351-358",
+      "paginas": "183-186",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891025"
+    },
+    {
+      "id": "t2-nl2-14",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Ipsum amare creaturarum haerendo in creatura est peccare etiamsi nullis alijs pravis vestiatur circumstantijs. Declaratur inductione.",
+      "colunas": "357-362",
+      "paginas": "186-188",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891027"
+    },
+    {
+      "id": "t2-nl2-15",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Vtrum creaturae, et voluptates earum appeti, et amari possint moderate.",
+      "colunas": "361-366",
+      "paginas": "188-190",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891030"
+    },
+    {
+      "id": "t2-nl2-16",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Secundus affectus animae est fruitio. Quid sit. Creatura rationalis nulla re creata frui potest secundum doctrinam Catholicam.",
+      "colunas": "365-374",
+      "paginas": "190-194",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891049"
+    },
+    {
+      "id": "t2-nl2-17",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Iusti in peccatis venialibus fruuntur, non utuntur creatura.",
+      "colunas": "373-380",
+      "paginas": "194-197",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891054"
+    },
+    {
+      "id": "t2-nl2-18",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Reliqui affectus animae circa creaturam cuiusdmodi sint, et esse debeant.",
+      "colunas": "379-382",
+      "paginas": "197-198",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891057"
+    },
+    {
+      "id": "t2-nl2-19",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Ratio a priori cur illicitus sit amor cuiusvis creaturae propter ipsam.",
+      "colunas": "381-388",
+      "paginas": "198-201",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891059"
+    },
+    {
+      "id": "t2-nl2-20",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Ratione a posteriori seu ex effectibus idem declaratur. Septem effectibus amoris rerum creatarum adferuntur.",
+      "colunas": "389-400",
+      "paginas": "202-207",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891062"
+    },
+    {
+      "id": "t2-nl2-21",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Proximus qui creatura est quomodo diligendus.",
+      "colunas": "399-402",
+      "paginas": "207-208",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891064"
+    },
+    {
+      "id": "t2-nl2-22",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Doctrina praecedentium capitum applicatur ad motus concupiscentiae.",
+      "colunas": "401-404",
+      "paginas": "208-209",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891066"
+    },
+    {
+      "id": "t2-nl2-23",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Solvuntur Argumenta capite 11. proposita.",
+      "colunas": "403-410",
+      "paginas": "209-212",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891068"
+    },
+    {
+      "id": "t2-nl2-24",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Nullum peccatum nunc committitur nisi concupiscentiae consentiatur.",
+      "colunas": "409-418",
+      "paginas": "212-216",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891070"
+    },
+    {
+      "id": "t2-nl2-25",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber II",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Indagatur et profertur huius doctrina ratio tripartita.",
+      "colunas": "419-428",
+      "paginas": "217-221",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891073"
+    },
+    {
+      "id": "t2-nl3-00",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "429-430",
+      "paginas": "222-222",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891184"
+    },
+    {
+      "id": "t2-nl3-01",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput primum",
+      "titulo": "Liberum arbitrium etiam post lapsum superest in humana natura.",
+      "colunas": "429-432",
+      "paginas": "222-223",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891188"
+    },
+    {
+      "id": "t2-nl3-02",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput secundum",
+      "titulo": "Amissio indifferentiae ad bonum et malum fuit causa calumniarum, quibus Pelagiani Catholicos Manichaeismi, et eversae libertatis arguerunt.",
+      "colunas": "433-436",
+      "paginas": "224-225",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891200"
+    },
+    {
+      "id": "t2-nl3-03",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput tertium",
+      "titulo": "Ostenditur primo, ex captivitate et servitute, quibus August. docet arbitrium esse obstrictum.",
+      "colunas": "437-438",
+      "paginas": "226-226",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891202"
+    },
+    {
+      "id": "t2-nl3-04",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput quartum",
+      "titulo": "Idem declaratur ex dominatu concupiscentiae, et tyrannide diaboli in lib. arb. Quanta illa sit.",
+      "colunas": "437-442",
+      "paginas": "226-228",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891204"
+    },
+    {
+      "id": "t2-nl3-05",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput quintum",
+      "titulo": "Tertio ex amissione illius libertatis, quam Augustinus, Apostolus, et Christus tradunt.",
+      "colunas": "441-446",
+      "paginas": "228-230",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891209"
+    },
+    {
+      "id": "t2-nl3-06",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput sextum",
+      "titulo": "Quarto ostenditur ex quatuor statibus populi Dei, ante legem, sub lege, sub gratia, et in pace quos Augustinus tradit.",
+      "colunas": "445-452",
+      "paginas": "230-233",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891221"
+    },
+    {
+      "id": "t2-nl3-07",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput septimum",
+      "titulo": "Quinto ex natura gratiae liberatricis, ipsaque definitione liberi.",
+      "colunas": "451-459",
+      "paginas": "233-236",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891229"
+    },
+    {
+      "id": "t2-nl3-08",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput octavum",
+      "titulo": "Sexto ex conflictu Iuliani cum Augustino de hac ipsa difficultate. Declaratur doctrinam traditam esse Catholicae fidei.",
+      "colunas": "458-469",
+      "paginas": "236-241",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891236"
+    },
+    {
+      "id": "t2-nl3-09",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput nonum",
+      "titulo": "Perijt non solum libertas ad agendum bonum, sed etiam abstinendi a peccato.",
+      "colunas": "470-476",
+      "paginas": "242-244",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891246"
+    },
+    {
+      "id": "t2-nl3-10",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum",
+      "titulo": "Idem demonstratur ex alijs Aug. scriptis.",
+      "colunas": "473-476",
+      "paginas": "244-244",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891250"
+    },
+    {
+      "id": "t2-nl3-11",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput undecimum",
+      "titulo": "Loco libertatis abstinendi a peccato inducta est peccandi necessitas.",
+      "colunas": "477-480",
+      "paginas": "245-246",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891256"
+    },
+    {
+      "id": "t2-nl3-12",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Idem sensus Augustini asseritur ex alijs scriptis, tam contra Manichaeos, quam contra Pelagianos exaratis.",
+      "colunas": "481-486",
+      "paginas": "247-249",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891264"
+    },
+    {
+      "id": "t2-nl3-13",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Non discrepat haec Augustini doctrina a fide Catholica, iuxta quam ipsemet profitetur, hominem habere liberum arbitrium ad malum et bonum.",
+      "colunas": "485-494",
+      "paginas": "249-253",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891270"
+    },
+    {
+      "id": "t2-nl3-14",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Proponitur ac declaratur, quomodo illa de amissa boni faciendi et a peccato abstinendi libertate peccandique necessitate intelligi debeant.",
+      "colunas": "493-496",
+      "paginas": "253-254",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891273"
+    },
+    {
+      "id": "t2-nl3-15",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Ostenditur non posse unum opus bonum legis fieri ante gratiam ex tribus capitibus, ex vi legis, conflictus cum concupiscentia, et victoriae contra tentationem.",
+      "colunas": "497-506",
+      "paginas": "255-259",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891277"
+    },
+    {
+      "id": "t2-nl3-16",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Ostenditur idem quarto ex motivo quo bonum opus fieri debet, non timore poenae sed amore iustitiae.",
+      "colunas": "505-510",
+      "paginas": "259-261",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891280"
+    },
+    {
+      "id": "t2-nl3-17",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Quinto ex dilectione Dei velut ultimi finis, qui in omni opere moraliter bono dominari debet.",
+      "colunas": "509-514",
+      "paginas": "261-263",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891282"
+    },
+    {
+      "id": "t2-nl3-18",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Sexto ex eo quod omnis amor creaturae, et mundi, et cupiditatis vitiosus sit; qui in omnibus operibus infidelium principatum tenet.",
+      "colunas": "515-518",
+      "paginas": "264-265",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891285"
+    },
+    {
+      "id": "t2-nl3-19",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Non datur medium inter charitatem et culpabilem cupiditatem.",
+      "colunas": "517-524",
+      "paginas": "265-268",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891287"
+    },
+    {
+      "id": "t2-nl3-20",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Detegitur radix trium primarum probationum: et cur nullum peccatum sine peccato vincatur ante fidem.",
+      "colunas": "523-526",
+      "paginas": "268-269",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891289"
+    },
+    {
+      "id": "t2-nl3-21",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Nulla tentatio aut cupiditas sine peccato oppugnatur seu vincitur nisi amore Dei.",
+      "colunas": "525-530",
+      "paginas": "270-270",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891291"
+    },
+    {
+      "id": "t2-nl3-22",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Explicatur doctrina S. Augustini, qua dicimur nihil a nobis habere nisi peccatum.",
+      "colunas": "531-534",
+      "paginas": "271-272",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891294"
+    },
+    {
+      "id": "t2-nl3-23",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber III",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Vindicatur a corruptelis doctrina Canonis Concilii Arausicani qua dicitur: Nemo habet de suo, nisi mendacium et peccatum.",
+      "colunas": "535-542",
+      "paginas": "273-276",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891296"
+    },
+    {
+      "id": "t2-nl4-01",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput primum",
+      "titulo": "Septimo Augustinus ex professo docuit, omne quod non est ex fide esse peccatum.",
+      "colunas": "541-546",
+      "paginas": "276-278",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891566"
+    },
+    {
+      "id": "t2-nl4-02",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput secundum",
+      "titulo": "Primum effugium occluditur, quo dicunt Aug. loqui de peccato late et improprie sumpto.",
+      "colunas": "547-554",
+      "paginas": "279-282",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891571"
+    },
+    {
+      "id": "t2-nl4-03",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput tertium",
+      "titulo": "Secundum effugium claudiur, ostendendo solam absentiam fidei sufficere, ut omnia opera infidelium vera peccata sint.",
+      "colunas": "553-560",
+      "paginas": "282-285",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891573"
+    },
+    {
+      "id": "t2-nl4-04",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput quartum",
+      "titulo": "Augustini rationes ostenduntur iuxta eius principia esse validae.",
+      "colunas": "559-564",
+      "paginas": "285-287",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891578"
+    },
+    {
+      "id": "t2-nl4-05",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput quintum",
+      "titulo": "S. Augustini loca explicantur, quibus asserere videtur opera moraliter bona infidelibus.",
+      "colunas": "563-570",
+      "paginas": "287-290",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891582"
+    },
+    {
+      "id": "t2-nl4-06",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput sextum",
+      "titulo": "Alia nonnulla loca Augustini explicantur.",
+      "colunas": "569-578",
+      "paginas": "290-294",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891584"
+    },
+    {
+      "id": "t2-nl4-07",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput septimum",
+      "titulo": "Eandem doctrinam sic intellectam tradiderunt discipuli sancti Augustini Prosper et Fulgentius.",
+      "colunas": "577-582",
+      "paginas": "294-296",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891587"
+    },
+    {
+      "id": "t2-nl4-08",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput octavum",
+      "titulo": "Vtrum virtutes Philosophorum verae virtutes, an vitia sint, et quare?",
+      "colunas": "581-592",
+      "paginas": "296-301",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891591"
+    },
+    {
+      "id": "t2-nl4-09",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput nonum",
+      "titulo": "Idem omnino docuerunt sanctus Prosper, Hieronymus, Ambrosius.",
+      "colunas": "591-594",
+      "paginas": "301-302",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891595"
+    },
+    {
+      "id": "t2-nl4-10",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum",
+      "titulo": "Ratio praecedentis doctrinae ex natura virtutis, et eius fine petitur.",
+      "colunas": "593-600",
+      "paginas": "302-305",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891600"
+    },
+    {
+      "id": "t2-nl4-11",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput undecimum",
+      "titulo": "Epicuraeorum et Stoicorum virtutes improbantur ex defectu finis, late de virtutibus Rom.",
+      "colunas": "599-608",
+      "paginas": "305-309",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891602"
+    },
+    {
+      "id": "t2-nl4-12",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Vberius declaratur superbiae radix, quae in virtutibus Phylosophicis ac Romanis latuit.",
+      "colunas": "607-614",
+      "paginas": "309-312",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891604"
+    },
+    {
+      "id": "t2-nl4-13",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Declaratur amplius, officium virtutis ut bonum sit non posse esse finem virtutis, nonnullae obiectiunculae solvuntur.",
+      "colunas": "613-616",
+      "paginas": "312-313",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891606"
+    },
+    {
+      "id": "t2-nl4-14",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Finis boni, et omnis officii boni, et virtutis est solus Deus iuxta sanctum Augustinum.",
+      "colunas": "615-618",
+      "paginas": "313-314",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891608"
+    },
+    {
+      "id": "t2-nl4-15",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Ex principijs supra traditis inferuntur septem magni momenti corollaria, quibus doctrina S. Augustini de virtutibus et operibus bonis, et gratia et merito magnopere illustratur.",
+      "colunas": "617-624",
+      "paginas": "314-317",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891611"
+    },
+    {
+      "id": "t2-nl4-16",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Semina virtutum utrum insint naturaliter.",
+      "colunas": "623-628",
+      "paginas": "317-319",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891615"
+    },
+    {
+      "id": "t2-nl4-17",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Nugae, delirium, insania, error, impietas contraria Christianorum sensui, Scripturis et fidei, quod infidelium sit ulla vera virtus vel opera sine peccato iuxta Augustinum, et Concilium Arausicanum.",
+      "colunas": "627-630",
+      "paginas": "319-320",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891622"
+    },
+    {
+      "id": "t2-nl4-18",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Declaratur ex ante dictis a capite decimo quinto huc usque quo sensu doctrina sancti Augustini de amissa boni faciendi et mali cavendi libertate, inductaque peccandi necessitate intelligi debeat.",
+      "colunas": "631-632",
+      "paginas": "321-321",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891624"
+    },
+    {
+      "id": "t2-nl4-19",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Solvitur argumentum primum ex Augustino, et ostenditur quomodo iuxta mentem etiam Scholasticorum libertas arbitrii in peccando, cum peccandi necessitate consistat.",
+      "colunas": "631-634",
+      "paginas": "321-322",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891626"
+    },
+    {
+      "id": "t2-nl4-20",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Declaratur quomodo nunc sit liberum a peccato abstinere iuxta mentem Scholasticorum, etsi hoc negare videatur Augustinus.",
+      "colunas": "635-638",
+      "paginas": "323-324",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891633"
+    },
+    {
+      "id": "t2-nl4-21",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Eadem Augustini loca exponuntur aliter iuxta genuinam eius sententiam.",
+      "colunas": "637-646",
+      "paginas": "324-328",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891636"
+    },
+    {
+      "id": "t2-nl4-22",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Solvitur obiectio de potestate vitandi peccata. Fuse quae peccata et qua libertate vitari possunt, quae non: quaenam ex imbecillitate vitandi peccata esse definant, quae non.",
+      "colunas": "645-654",
+      "paginas": "328-332",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891638"
+    },
+    {
+      "id": "t2-nl4-23",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum tertium",
+      "titulo": "Quomodo secundum Augustinum omnia omnino peccata etiam poenalia vitari possint sine praeiudicio praecedentis doctrinae de necessitate peccandi, et sublata libertate benefaciendi.",
+      "colunas": "653-658",
+      "paginas": "332-334",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891640"
+    },
+    {
+      "id": "t2-nl4-24",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum quartum",
+      "titulo": "Ratio praecepti, cobortationis, obiurgationis, vituperatioris etc. non obstat peccandi necessitati iuxta Scholasticorum sensum, minus iuxta doctrinam Augustini.",
+      "colunas": "657-664",
+      "paginas": "334-337",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891643"
+    },
+    {
+      "id": "t2-nl4-25",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum quintum",
+      "titulo": "Non repugnat Augustini doctrina propositioni damnatae per duos Pontifices; homo peccat etiam damnabiliter in eo quod necessario facit.",
+      "colunas": "663-666",
+      "paginas": "337-338",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891654"
+    },
+    {
+      "id": "t2-nl4-26",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum sextum",
+      "titulo": "De alijs propositionibus in Bulla Pii quinti damnatis, quae supra traditam doctrinam sancti Augustini complecti videntur.",
+      "colunas": "665-670",
+      "paginas": "338-340",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891656"
+    },
+    {
+      "id": "t2-nl4-27",
+      "tomo": "II",
+      "livro": "De statu naturae lapsae, liber IV",
+      "capitulo": "Caput vigesimum septimum",
+      "titulo": "Proferuntur aliae ex Bulla propositiones de operibus infidelium, de potestate arbitrii non nisi ad peccandum, de amore duplici creaturae rationalis et difficultas ex illis nata solvitur.",
+      "colunas": "669-678",
+      "paginas": "340-344",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891659"
+    },
+    {
+      "id": "t2-np1-00",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Praefatio",
+      "titulo": "Praefatio",
+      "colunas": "677-680",
+      "paginas": "344-345",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/891688"
+    },
+    {
+      "id": "t2-np1-01",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput primum",
+      "titulo": "Quid sit status purae naturae iuxta recentiores. Differentia sententiae eorum ab opinione Pelagianorum.",
+      "colunas": "679-682",
+      "paginas": "345-346",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892242"
+    },
+    {
+      "id": "t2-np1-02",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput secundum",
+      "titulo": "Pondus naturale creaturae rationalis in beatitudinem suam poscit ut beari possit. Quatuor status seu modi beandi adferuntur ex Augustino qui omnes repugnant purae naturae.",
+      "colunas": "681-686",
+      "paginas": "346-348",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892245"
+    },
+    {
+      "id": "t2-np1-03",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput tertium",
+      "titulo": "Primum argumentum contra statum purae naturae ex ordine creaturae rationalis ad Deum ut principium et finem, sine cuius omore condi non potest.",
+      "colunas": "687-692",
+      "paginas": "349-351",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892247"
+    },
+    {
+      "id": "t2-np1-04",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput quartum",
+      "titulo": "Ostenditur amorem illum sine quo creatura rationalis condi nequit per veram gratiam inspirari debere: idque primo ex amore veritatis.",
+      "colunas": "693-698",
+      "paginas": "352-354",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892249"
+    },
+    {
+      "id": "t2-np1-05",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput quintum",
+      "titulo": "Secundo ex amore iustitiae.",
+      "colunas": "697-710",
+      "paginas": "354-360",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892252"
+    },
+    {
+      "id": "t2-np1-06",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput sextum",
+      "titulo": "Amor iustitiae ab Augustino praedicatus non est amor virtutis cuiuscumque moralis propter se ut quidam recentior absurde arbitratur.",
+      "colunas": "709-714",
+      "paginas": "360-362",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892254"
+    },
+    {
+      "id": "t2-np1-07",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput septimum",
+      "titulo": "Quid sit illa iustitia quae diligitur et in corde scribitur: cuius amor tantopere ab Augustino laudatur, et sine quo creatura rationalis recta esse et condi nequit.",
+      "colunas": "713-718",
+      "paginas": "362-364",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892256"
+    },
+    {
+      "id": "t2-np1-08",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput octavum",
+      "titulo": "Iustitia illa Deus est; sicut veritas et bonitas, et lex aeterna.",
+      "colunas": "717-722",
+      "paginas": "364-366",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892259"
+    },
+    {
+      "id": "t2-np1-09",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput nonum",
+      "titulo": "Ostenditur consonantia doctrinae Augustini in hac materia de iustitiae et boni operis dilectione, et gratiae necessitate ad hoc praestandum.",
+      "colunas": "723-726",
+      "paginas": "367-368",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892261"
+    },
+    {
+      "id": "t2-np1-10",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum",
+      "titulo": "Refellitur responsio qua putari posset iustitiam etc. diligi posse dilectione naturali: et concluditur secundum argumentum.",
+      "colunas": "727-730",
+      "paginas": "369-370",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892263"
+    },
+    {
+      "id": "t2-np1-11",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput undecimum",
+      "titulo": "Tertio ex amore quo Deus amatur gratis.",
+      "colunas": "731-736",
+      "paginas": "371-373",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892423"
+    },
+    {
+      "id": "t2-np1-12",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Quarto ex sententia Pelagianorum, amorem aliquem Dei esse homini naturalem asserentium.",
+      "colunas": "735-738",
+      "paginas": "373-374",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892431"
+    },
+    {
+      "id": "t2-np1-13",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Quinto ex amore Dei quem Philosophi Gentiles praedicant.",
+      "colunas": "737-742",
+      "paginas": "374-376",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892439"
+    },
+    {
+      "id": "t2-np1-14",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Sexto ex divisione amoris creaturae rationalis in charitatem et cupiditatem.",
+      "colunas": "743-746",
+      "paginas": "377-378",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892448"
+    },
+    {
+      "id": "t2-np1-15",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Prima difficultas explicatur. Vtrum sit amor iste naturalis, et quo sensu.",
+      "colunas": "745-752",
+      "paginas": "378-381",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892454"
+    },
+    {
+      "id": "t2-np1-16",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Ostenditur septem indicijs doctrinam istam sancti Augustini principijs esse consonam; longeque ab eis recedere, qui Deum naturalibus viribus diligi posse arbitrantur.",
+      "colunas": "751-758",
+      "paginas": "381-384",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892459"
+    },
+    {
+      "id": "t2-np1-17",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Secunda difficultas, an amor ille gratiae sit debitus creaturae rationali innocenti et quomodo. Aliqua de debito gratiae sufficientis iuxta Recentiores.",
+      "colunas": "757-762",
+      "paginas": "384-386",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892461"
+    },
+    {
+      "id": "t2-np1-18",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Gratiam dilectionis Dei non posse sine culpa subtrahi creaturae rationali innocenti, et aliquo modo debitam esse quinque argumentis alijs ex Augustino probatur.",
+      "colunas": "761-768",
+      "paginas": "386-389",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892463"
+    },
+    {
+      "id": "t2-np1-19",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Causae deducuntur latius, cur creatura rationalis condi non posset sine bona voluntate et sapientia, vel certe sine diligendi Dei et sapienter vivendi potestate.",
+      "colunas": "767-778",
+      "paginas": "389-394",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892465"
+    },
+    {
+      "id": "t2-np1-20",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber I",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Quomodo bona voluntas in qua condi debet creatura rationalis esset gratia.",
+      "colunas": "777-788",
+      "paginas": "394-399",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892472"
+    },
+    {
+      "id": "t2-np2-01",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput primum",
+      "titulo": "Secundum Argumentum contra statum purae naturae petitur ex fruitione quacumque beatifica summi boni quae omnes creatas vires superat. Ostenditur primo ex dilectione Dei quam includit.",
+      "colunas": "789-792",
+      "paginas": "400-401",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892495"
+    },
+    {
+      "id": "t2-np2-02",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput secundum",
+      "titulo": "Idem probatur ex beatitudine quam Philosophi naturae lumine in Dei contemplatione posuerunt.",
+      "colunas": "791-798",
+      "paginas": "401-404",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892499"
+    },
+    {
+      "id": "t2-np2-03",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput tertium",
+      "titulo": "Tertium Argumentum quia regnum caelorum quod supernaturalis ordinis est non potest a pura natura separari sine iniustitia.",
+      "colunas": "797-804",
+      "paginas": "404-407",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892501"
+    },
+    {
+      "id": "t2-np2-04",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput quartum",
+      "titulo": "Causa istius iustitiae declaratur ex Aug.",
+      "colunas": "805-810",
+      "paginas": "408-410",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892503"
+    },
+    {
+      "id": "t2-np2-05",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput quintum",
+      "titulo": "Quartum Argumentum ex tribus necessarijs ad beatitudinem naturalem non falli, non offendi, non mori; quae pura natura non potest assequi. De gravissimis erroribus purae naturae.",
+      "colunas": "809-814",
+      "paginas": "410-412",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892511"
+    },
+    {
+      "id": "t2-np2-06",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput sextum",
+      "titulo": "De offensionibus ac perturbationibus purae naturae quae naturalem beatitudinem interimunt.",
+      "colunas": "813-816",
+      "paginas": "412-413",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892515"
+    },
+    {
+      "id": "t2-np2-07",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput septimum",
+      "titulo": "De moriendi necessitate in pura natura, quae capitaliter beatitudini naturali est contraria.",
+      "colunas": "817-820",
+      "paginas": "414-415",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892520"
+    },
+    {
+      "id": "t2-np2-08",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput octavum",
+      "titulo": "Ostenditur insania Philosophorum naturalem beatitudinem sibi machinantium in ea quam putabant esse puram naturam. Superbia singularis tantum naturae etiam purae viribus tribuere.",
+      "colunas": "819-824",
+      "paginas": "415-417",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892524"
+    },
+    {
+      "id": "t2-np2-09",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput nonum",
+      "titulo": "Pura natura non potest mereri ut resoluto et resumpto corpore beatitudo naturalis ei ut merces detur.",
+      "colunas": "823-826",
+      "paginas": "417-418",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892530"
+    },
+    {
+      "id": "t2-np2-10",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum",
+      "titulo": "Quintum et sextum argumentum adversus statum purae naturae, ex ratione liberi arbitrii quo careret ad bonum, et necessitatis peccandi in singulis operibus.",
+      "colunas": "825-828",
+      "paginas": "418-419",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892532"
+    },
+    {
+      "id": "t2-np2-11",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput undecimum",
+      "titulo": "Transitus ad argumentum contra statum purae naturae ex parte concupiscentiae: declaratur Iulianum id sensisse de concupiscentia quod Philosophi Gentiles , et Scholastici de illa docent in statu purae naturae.",
+      "colunas": "829-834",
+      "paginas": "420-422",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892535"
+    },
+    {
+      "id": "t2-np2-12",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Iulianus sentit concupiscentiam esse naturaliter bonam, et a Deo creante datam quo sensu.",
+      "colunas": "833-840",
+      "paginas": "422-425",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892541"
+    },
+    {
+      "id": "t2-np2-13",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Iuliani sententia utrimque falsa. Hinc primum argumentum contra statum purae naturae texitur ex parte concupiscentiae, quae nec bona est, nec a Deo inseri potest.",
+      "colunas": "839-844",
+      "paginas": "425-427",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892548"
+    },
+    {
+      "id": "t2-np2-14",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Secundum argumentum ex parte motuum concupiscentiae, qui non sunt aliud nisi peccandi desideria. Soluitur obiecto de bonitate eorum in brutis.",
+      "colunas": "843-852",
+      "paginas": "427-431",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892562"
+    },
+    {
+      "id": "t2-np2-15",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Tertium argumentum, licitum est omnibus concupiscentiae motibus consentire si Deus naturam rationalem cum eis creet.",
+      "colunas": "851-856",
+      "paginas": "431-433",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892565"
+    },
+    {
+      "id": "t2-np2-16",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Argumentum quartum ex concupiscentia contra Matrimonium in pura natura.",
+      "colunas": "857-858",
+      "paginas": "434-434",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892570"
+    },
+    {
+      "id": "t2-np2-17",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Quintum argumentum ex parte pudoris, qui libidinis indivulsus comes est. Vnde nascatur: quanti mali testis.",
+      "colunas": "857-864",
+      "paginas": "434-437",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892572"
+    },
+    {
+      "id": "t2-np2-18",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Inferuntur aliqua corollaria ex praedictis de Concupiscentia. Certitudo illius doctrinae.",
+      "colunas": "863-866",
+      "paginas": "437-438",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892576"
+    },
+    {
+      "id": "t2-np2-19",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Idem pudor in omnibus libidinibus etiam animi, tametsi remissior locum habet.",
+      "colunas": "865-866",
+      "paginas": "438-438",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892591"
+    },
+    {
+      "id": "t2-np2-20",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Afferuntur duae rationes a priori cur concupiscentia cum pura natura dari nequeat. Sextum, et septimum argumentum ex parte concupiscentiae. Obiectio soluitur quod rebellio carnis videatur esse naturalis.",
+      "colunas": "867-872",
+      "paginas": "439-441",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892595"
+    },
+    {
+      "id": "t2-np2-21",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Conflictus Iuliani et Augustini de traductione peccati Originalis, invicte probat concupiscentiam non posse esse purae naturae naturalem. Octavum argumentum ex concupiscentia.",
+      "colunas": "871-876",
+      "paginas": "441-443",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892597"
+    },
+    {
+      "id": "t2-np2-22",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber II",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Ignorantia illa profunda rerum agendarum non potest esse in pura natura.",
+      "colunas": "875-882",
+      "paginas": "443-446",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892600"
+    },
+    {
+      "id": "t2-np3-01",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput primum",
+      "titulo": "Quid de illis et quibusvis etiam aeternae damnationis malis innocentiae irrogandis sentiant quidam.",
+      "colunas": "883-884",
+      "paginas": "447-447",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892618"
+    },
+    {
+      "id": "t2-np3-02",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput secundum",
+      "titulo": "Peccatum non potest non puniri a Deo.",
+      "colunas": "885-890",
+      "paginas": "448-450",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892625"
+    },
+    {
+      "id": "t2-np3-03",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput tertium",
+      "titulo": "Declaratur quaenam sint illae poenae, quae tam arcte cum peccato coherent.",
+      "colunas": "891-896",
+      "paginas": "451-453",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892628"
+    },
+    {
+      "id": "t2-np3-04",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput quartum",
+      "titulo": "Peccator in peccato manens non potest beatus fieri.",
+      "colunas": "895-898",
+      "paginas": "453-454",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892630"
+    },
+    {
+      "id": "t2-np3-05",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput quintum",
+      "titulo": "Horrenda sententia quorundam, qui putant omnes beatos pro sola Dei voluntate citra iniustitiam damnari posse ad aeternas poenas, Augustino est contraria tam ratione poenae damni, quam sensus.",
+      "colunas": "899-902",
+      "paginas": "455-456",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892633"
+    },
+    {
+      "id": "t2-np3-06",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput sextum",
+      "titulo": "Sententia Pelagianorum et Manichaeorum de miserijs purae naturae. Ostenditur ex vi legis aeternae iniustum fore Deum si eas innocenti creaturae imponeret.",
+      "colunas": "901-908",
+      "paginas": "456-459",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892636"
+    },
+    {
+      "id": "t2-np3-07",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput septimum",
+      "titulo": "Idem probatur ex vi divinae providentiae cuius omnipotentia, vel scientia, vel iustitia necessario laeditur.",
+      "colunas": "907-914",
+      "paginas": "459-462",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892638"
+    },
+    {
+      "id": "t2-np3-08",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput octavum",
+      "titulo": "Iustitia Dei funditus evertitur iuxta Augustinum per statum purae naturae.",
+      "colunas": "913-918",
+      "paginas": "462-464",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892641"
+    },
+    {
+      "id": "t2-np3-09",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput nonum",
+      "titulo": "Non procedunt Augustini argumenta ac testimonia ex Hypothesi status gratiae et supernaturalis.",
+      "colunas": "917-920",
+      "paginas": "464-465",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892643"
+    },
+    {
+      "id": "t2-np3-10",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum",
+      "titulo": "Non loquitur Augustinus de poenis formaliter ut sunt correlativum culpae, sed materialiter de quibusvis malis prout affligunt creaturam rationalem.",
+      "colunas": "921-926",
+      "paginas": "466-468",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892646"
+    },
+    {
+      "id": "t2-np3-11",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput undecimum",
+      "titulo": "Nullum qualecumque malum inferri potest a Deo creaturae rationali sine culpa. Luculenta Augustini testimonia.",
+      "colunas": "925-930",
+      "paginas": "468-470",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892648"
+    },
+    {
+      "id": "t2-np3-12",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput duodecimum",
+      "titulo": "Deus miserias purae naturae non permissive tantum inferret creaturae rationali sed positive. Et utrovis modo iniustus.",
+      "colunas": "929-936",
+      "paginas": "470-473",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892650"
+    },
+    {
+      "id": "t2-np3-13",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum tertium",
+      "titulo": "Deo per statum purae naturae asscribitur crudelitas improbata in Manichaeis et Pelagianis.",
+      "colunas": "935-938",
+      "paginas": "473-474",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892653"
+    },
+    {
+      "id": "t2-np3-14",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum quartum",
+      "titulo": "Catholici, Pagani, Haeretici tam Pelagiani quam Manichaei, Marcionitae, Materarii etc. viderunt non posse sine iniustitia tribui Deo miserias creaturae innocentis. Hinc in diversos errores itum, ne Deum laederent.",
+      "colunas": "939-944",
+      "paginas": "475-477",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892655"
+    },
+    {
+      "id": "t2-np3-15",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum quintum",
+      "titulo": "Eodem argumento palpabilium malorum, si purae naturae sint, cogimur ad diversas impietates, ad Blasphemiam in Deum, ad Manichaeismum; cur et quomodo. Epilogus omnium argumentorum.",
+      "colunas": "945-952",
+      "paginas": "478-481",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892658"
+    },
+    {
+      "id": "t2-np3-16",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum sextum",
+      "titulo": "Soluitur difficultas ex Augustini commentario in Psalmum sextuagesimum.",
+      "colunas": "951-956",
+      "paginas": "481-483",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892660"
+    },
+    {
+      "id": "t2-np3-17",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput decimum septimum",
+      "titulo": "Proponitur gravis difficultas ex libro 3. de libero arbitrio, quo ignorantia et difficultas ponuntur esse primordia naturalia: et ostenditur Hypothesin illam longe differre a status purae naturae.",
+      "colunas": "955-960",
+      "paginas": "483-485",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892663"
+    },
+    {
+      "id": "t2-np3-18",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput duodevigesimum",
+      "titulo": "Hypothesis ista non convincit pudorem, ignorantiam, et concupiscentiam esse posse primordia hominis naturalis.",
+      "colunas": "959-962",
+      "paginas": "485-486",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892665"
+    },
+    {
+      "id": "t2-np3-19",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput undevigesimum",
+      "titulo": "Non convincit etiam afflictiones et miserias sine peccato hominibus imponi posse in statu purae naturae, neque maioribus, neque parvulis.",
+      "colunas": "963-968",
+      "paginas": "487-489",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892668"
+    },
+    {
+      "id": "t2-np3-20",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput vigesimum",
+      "titulo": "Ostenditur quomodo Deus non esset culpandus si ignorantia et difficultas essent primordia naturalia, et soluitur difficultas proposita capite decimo septimo.",
+      "colunas": "967-970",
+      "paginas": "489-490",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892670"
+    },
+    {
+      "id": "t2-np3-21",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput vigesimum primum",
+      "titulo": "Diruitur fundamentum Scholasticorum ex absoluto Dei dominio super creaturam petitum.",
+      "colunas": "969-976",
+      "paginas": "490-493",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892673"
+    },
+    {
+      "id": "t2-np3-22",
+      "tomo": "II",
+      "livro": "De statu purae naturae, liber III",
+      "capitulo": "Caput vigesimum secundum",
+      "titulo": "Soluitur difficultas ex Bulla duorum Pontificum.",
+      "colunas": "975-980",
+      "paginas": "493-495",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/892675"
     }
   ]
 }

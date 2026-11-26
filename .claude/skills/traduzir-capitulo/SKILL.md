@@ -90,6 +90,6 @@ Três tentativas sem sucesso (verificação que não passa, botão que não apar
 
 1. Estrutura e páginas: `python3 tools/catalogo.py <pdf-do-volume> --filtro "<livro>"` lista o livro pelos marcadores do PDF (capítulos e, nas bibliotecas alemãs, as entradas "Spalte n-m" com as páginas). Sem marcadores, monte pelo índice de capítulos impresso no volume (leia as páginas do índice com `tools/paginas.py`).
    Links de cada capítulo: no Chrome, abra a estrutura (índice) do volume no visualizador de Paderborn e leia com `get_page_text`/`read_page` os links de download de cada capítulo (`/download/pdf/<id>`); eles viram o `scan` do capítulo, que o site mostra.
-2. Ids: `t<tomo em algarismo>-<sigla do livro>-<capítulo com dois dígitos>`; siglas usadas: `lp` (*Liber prooemialis*). Para livro novo, crie sigla curta e anote-a aqui.
+2. Ids: `t<tomo em algarismo>-<sigla do livro>-<capítulo com dois dígitos>`; siglas usadas: `lp` (*Liber prooemialis*); no tomo II, `ni` (*De statu naturae innocentis*), `nl1`–`nl4` (*De statu naturae lapsae* I–IV), `np1`–`np3` (*De statu purae naturae* I–III); `00` é a *Praefatio* do livro. Para livro novo, crie sigla curta e anote-a aqui.
 3. `scan`: o PDF do capítulo na biblioteca (passo 1); se não achar, o `scan` do volume.
 4. Confira duas ou três entradas abrindo a página indicada antes de gravar.
