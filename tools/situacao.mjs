@@ -17,7 +17,7 @@ const linhas = cat.capitulos.map(k => {
   return { ...k, estado };
 });
 if (flag === '--proximo') {
-  const p = linhas.find(l => l.estado === 'pendente' || l.estado === 'transcrito' || l.estado === 'rascunho');
+  const p = linhas.find(l => ['pendente', 'transcrito', 'rascunho', 'importada'].includes(l.estado));
   if (!p) { console.log('nenhum capítulo pendente no catálogo'); process.exit(3); }
   console.log(JSON.stringify(p));
 } else {

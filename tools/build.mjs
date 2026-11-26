@@ -11,8 +11,9 @@ fs.mkdirSync(path.join(SAIDA, 'assets'), { recursive: true });
 for (const f of ['estilo.css', 'leitor.js', 'busca.js']) fs.copyFileSync(path.join(RAIZ, 'site', f), path.join(SAIDA, 'assets', f));
 
 const FONTES = 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap';
-const ESTADO = { rascunho: 'tradução em rascunho', revisada: 'tradução revista', debatida: 'tradução debatida, aguardando revisão', publicada: 'tradução revista e publicada' };
-const TRANSC = { provisoria: 'transcrição provisória', conferida: 'transcrição conferida com o scan' };
+const ESTADO = { importada: 'tradução própria, aguardando debate', rascunho: 'tradução em rascunho', revisada: 'tradução revista', debatida: 'tradução debatida, aguardando revisão', publicada: 'tradução revista e publicada' };
+const REF = { coluna: 'col.', pagina: 'p.', folio: 'fol.' };
+const TRANSC = { importada: 'transcrição própria, a conferir com o scan', provisoria: 'transcrição provisória', conferida: 'transcrição conferida com o scan' };
 
 const pagina = ({ titulo, raiz, trilha = '', corpo, extra = '', scripts = '' }) => `<!DOCTYPE html>
 <html lang="pt-BR">
@@ -103,7 +104,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
       indice.push({ obra: o.meta.titulo, cap: nomeCap(c), url: `${o.id}/${c.id}.html`, id: t.id, lg: 'la', txt: textoPlano(t.texto) });
       if (p) indice.push({ obra: o.meta.titulo, cap: nomeCap(c), url: `${o.id}/${c.id}.html`, id: t.id, lg: 'pt', txt: textoPlano(p.texto) });
       return `<div class="t${t.paragrafo ? ' par' : ''}" id="${t.id}">
-<div class="gut"><a class="n" href="#${t.id}" title="Copiar o link deste trecho">§ ${num}</a><a class="c" href="${esc(scan)}" title="Abrir o scan (coluna ${esc(t.col)})">col. ${esc(t.col)}</a></div>
+<div class="gut"><a class="n" href="#${t.id}" title="Copiar o link deste trecho">§ ${num}</a>${t.col ? `<a class="c" href="${esc(scan || '#')}" title="Abrir o scan (${REF[o.meta.referencia] || 'col.'} ${esc(t.col)})">${REF[o.meta.referencia] || 'col.'} ${esc(t.col)}</a>` : ''}</div>
 <div class="la" lang="la"><p>${formatar(t.texto, o.glossario)}</p>${t.margem.map(m => `<div class="mg">${formatar(m)}</div>`).join('')}</div>
 <div class="pt">${p ? `<p>${formatar(p.texto)}</p>${p.notas.map(n => `<div class="nt"><b>Nota</b>${formatar(n)}</div>`).join('')}` : '<p class="nt">Tradução ainda não feita.</p>'}</div>
 </div>`;
@@ -122,7 +123,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
-<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo ? esc(pt.meta.processo) + '. ' : ''}Colunas ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(b.ano)}; <a href="${esc(scan)}">ver o scan</a>.</p>
+<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo ? esc(pt.meta.processo) + '. ' : ''}${la.meta.colunas ? `${o.meta.referencia === 'pagina' ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
 </div>
 <div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
 <div class="texto">

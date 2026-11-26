@@ -6,7 +6,10 @@ Primeira obra: Cornélio Jansênio, *Augustinus* (Lovaina, 1640), a partir do ex
 
 **Site:** https://pedrohqb.github.io/bibliotheca-barroca/
 
-Plano de tradução do *Augustinus* inteiro, com o prompt de cada sessão: [docs/plano-augustinus.md](docs/plano-augustinus.md).
+Planos de produção, com o prompt de cada sessão:
+
+- Jansênio, *Augustinus*: [docs/plano-augustinus.md](docs/plano-augustinus.md)
+- Pedro de Oñate, *De Contractibus* (importação da tradução do Pedro e revisão em debate): [docs/plano-de-contractibus.md](docs/plano-de-contractibus.md)
 
 ## Estrutura
 

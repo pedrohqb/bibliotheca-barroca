@@ -17,12 +17,12 @@ for (const o of obras) {
   for (const c of o.capitulos) {
     const la = c.la;
     if (!la) { erros.push(`${o.id}/${c.id}: tradução sem o latim correspondente`); continue; }
-    for (const k of ['capitulo', 'titulo', 'scan']) if (!la.meta[k]) erros.push(`${rel(la.arquivo)}: falta "${k}" no cabeçalho`);
+    for (const k of ['capitulo', 'titulo', ...(o.meta.referencia === 'nenhuma' ? [] : ['scan'])]) if (!la.meta[k]) erros.push(`${rel(la.arquivo)}: falta "${k}" no cabeçalho`);
     const vistos = new Set();
     for (const t of la.trechos) {
       if (vistos.has(t.id)) erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} repetido`);
       vistos.add(t.id);
-      if (!t.col) erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} sem coluna (ex.: "@${t.id} 2A")`);
+      if (!t.col && o.meta.referencia !== 'nenhuma') erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} sem referência ao scan (ex.: "@${t.id} 2A")`);
       if (!t.texto) erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} vazio`);
     }
     const idsLa = la.trechos.map(t => t.id).join(' ');

@@ -5,7 +5,7 @@ A produção dos capítulos roda na VM de IA (Debian 13 + XFCE): o Claude Code t
 ## 1. Pacotes (uma vez)
 
 ```bash
-sudo apt install git gh nodejs npm python3 python3-pil python3-pypdf poppler-utils
+sudo apt install git gh nodejs npm python3 python3-pil python3-pypdf python3-docx poppler-utils python-is-python3
 gh auth login                       # conta pedrohqb, HTTPS
 git clone https://github.com/pedrohqb/bibliotheca-barroca ~/bibliotheca-barroca
 cd ~/bibliotheca-barroca

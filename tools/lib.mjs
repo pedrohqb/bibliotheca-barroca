@@ -24,7 +24,7 @@ export function lerCabecalho(texto, arquivo) {
   return { meta, corpo: texto.slice(m[0].length) };
 }
 
-// Corpo: "@s3 1B" abre o trecho s3 (coluna 1, seção B, só no latim); "@m" nota marginal da impressão;
+// Corpo: "@s3 1B" abre o trecho s3 (referência ao scan: coluna 1, seção B, ou página, conforme obra.json → referencia; só no latim); "@m" nota marginal da impressão;
 // "@n" nota do tradutor; "@p" faz o próximo trecho abrir parágrafo novo. As demais linhas são texto.
 export function lerCapitulo(arquivo) {
   const { meta, corpo } = lerCabecalho(fs.readFileSync(arquivo, 'utf8'), arquivo);
@@ -34,7 +34,7 @@ export function lerCapitulo(arquivo) {
     const l = linha.trim();
     if (!l) return;
     let m;
-    if ((m = l.match(/^@s(\d+)(?:\s+(\d+[A-Z]?))?$/))) {
+    if ((m = l.match(/^@s(\d+)(?:\s+(\S+))?$/))) {
       atual = { id: 's' + m[1], col: m[2] || null, texto: '', margem: [], notas: [], paragrafo: novoParagrafo, linha: n + 1 };
       trechos.push(atual);
       novoParagrafo = false;
