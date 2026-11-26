@@ -249,5 +249,130 @@
       "doutores"
     ],
     "nota": "*DD.* e *Doctores*: os autores de autoridade (teólogos e juristas), \"doutores\"."
+  },
+  {
+    "lema": "consensus",
+    "formas": [
+      "consensus",
+      "consensum",
+      "consensu"
+    ],
+    "pt": [
+      "consentimento"
+    ],
+    "nota": "\"Consentimento\", o acordo das vontades que faz o contrato."
+  },
+  {
+    "lema": "conuentio",
+    "formas": [
+      "conuentio",
+      "conuentionem",
+      "conuentione",
+      "conuentionibus",
+      "conuentiones"
+    ],
+    "pt": [
+      "convenção",
+      "convenções"
+    ],
+    "nota": "\"Convenção\". Gênero mais largo que o contrato; não confundir com *pactum* (\"pacto\")."
+  },
+  {
+    "lema": "quasi contractus",
+    "formas": [
+      "quasi contractus",
+      "quasi contractum",
+      "quasi contractu"
+    ],
+    "pt": [
+      "quase contrato"
+    ],
+    "nota": "\"Quase contrato\": obrigação que nasce como de contrato, sem a vontade de uma das partes (tutela, curatela, gestão de negócios)."
+  },
+  {
+    "lema": "distractus",
+    "formas": [
+      "distractus",
+      "distractum",
+      "distractu",
+      "distractibus"
+    ],
+    "pt": [
+      "distrato",
+      "distratos"
+    ],
+    "nota": "\"Distrato\": convenção que extingue a obrigação (pagamento, aceptilação, compensação). Em Oñate, termo mais largo que o distrato do direito brasileiro."
+  },
+  {
+    "lema": "restitutio",
+    "formas": [
+      "restitutio",
+      "restitutionem",
+      "restitutione"
+    ],
+    "pt": [
+      "restituição"
+    ],
+    "nota": "\"Restituição\", a reparação do dano causado contra a justiça."
+  },
+  {
+    "lema": "ius gentium",
+    "formas": [
+      "iure gentium",
+      "ius gentium"
+    ],
+    "pt": [
+      "direito das gentes"
+    ],
+    "nota": "\"Direito das gentes\"."
+  },
+  {
+    "lema": "ius naturale",
+    "formas": [
+      "iure naturali",
+      "naturale ius",
+      "ius naturale",
+      "iure naturae"
+    ],
+    "pt": [
+      "direito natural"
+    ],
+    "nota": "\"Direito natural\"; *ius naturae* no mesmo sentido."
+  },
+  {
+    "lema": "solutio",
+    "formas": [
+      "solutio",
+      "solutione",
+      "solutionem"
+    ],
+    "pt": [
+      "pagamento"
+    ],
+    "nota": "*Solutio debiti*: \"pagamento\" da dívida, o modo próprio de extinguir a obrigação."
+  },
+  {
+    "lema": "acceptilatio",
+    "formas": [
+      "acceptilatio",
+      "acceptilatione",
+      "acceptilationem"
+    ],
+    "pt": [
+      "aceptilação"
+    ],
+    "nota": "\"Aceptilação\": a quitação solene do direito romano, sem pagamento."
+  },
+  {
+    "lema": "compensatio",
+    "formas": [
+      "compensatio",
+      "compensatione",
+      "compensationem"
+    ],
+    "pt": [
+      "compensação"
+    ],
+    "nota": "\"Compensação\" de dívidas recíprocas."
   }
 ]

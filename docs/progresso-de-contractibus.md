@@ -25,7 +25,6 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 ## Pontos em aberto para o Pedro
 
-- Aprovar os termos novos do glossário (seção "Propostas de glossário") e autorizar a gravação deles em `glossario.json`.
 - Remissões do § 6 do Proêmio (Manuel Rodrigues, Filiarchi, Henríquez, a *Summa* no verbete *contractus*): a conferir na fonte, na revisão.
 - *minimam iuris voluminum partem* (Proêmio, § 5): o impresso diz o contrário do que o contexto pede; a tradução segue o texto e anota.
 
@@ -37,12 +36,7 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 ## Propostas de glossário
 
-O glossário inicial (17 termos) foi aprovado. Termos novos do `t1-d001-s01`, a acrescentar com o aval do Pedro (a gravação em `glossario.json` foi barrada pelo classificador de permissões da sessão; a tradução já os usa de forma uniforme):
-
-- *consensus* → "consentimento"; *conuentio* → "convenção" (gênero mais largo que o contrato; distinto de *pactum*);
-- *quasi contractus* → "quase contrato"; *distractus* → "distrato" (em Oñate, mais largo que no direito brasileiro: pagamento, aceptilação, compensação);
-- *restitutio* → "restituição"; *ius gentium* → "direito das gentes"; *ius naturale* / *ius naturae* → "direito natural";
-- *solutio (debiti)* → "pagamento"; *acceptilatio* → "aceptilação"; *compensatio* → "compensação".
+Nenhuma pendente. O glossário inicial (18 termos; o resumo do Proêmio diz 17 por engano) e os 10 termos novos do `t1-d001-s01` (*consensus*, *conuentio*, *quasi contractus*, *distractus*, *restitutio*, *ius gentium*, *ius naturale*, *solutio*, *acceptilatio*, *compensatio*) foram aprovados pelo Pedro em 2026-11-26 e gravados em `glossario.json` (28 termos).
 
 ## Próximo passo
 
