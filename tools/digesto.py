@@ -128,7 +128,7 @@ def apoio(cid, so=None):
     print(f'{c["ref"]} — {c["titulo"]}\n')
     print('Traduções de apoio (a tradução é feita do latim; estas servem ao cotejo):')
     if livro <= 15:
-        print(f'- inglês, Monro (Cambridge, 1904-1909): {APOIO}/digestofjustinia0{1 if livro <= 7 else 2}monruoft.pdf')
+        print(f'- inglês, Monro (Cambridge, 1904-1909; vol. 1 = livros 1-6, vol. 2 = 7-15): {APOIO}/digestofjustinia0{1 if livro <= 6 else 2}monruoft.pdf')
     h = _indice('hulot-indice.json').get(f'{livro}.{tit or 1}')
     if h:
         d = HULOT_DESLOC.get(h['tomo'])
