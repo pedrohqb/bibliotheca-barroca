@@ -73,4 +73,4 @@ Glossário com 30 termos, todos aprovados. *mutuum / mutuus* (decisão do Pedro,
 
 ## Próximo passo
 
-`t1-d003-s01` (disputa III, preâmbulo e seção I, pp. 40–46: quantas pessoas e vontades intervêm nos contratos), debate de duas rodadas, Codex `medium`. Depois, as seções II a XIV da disputa III, até o fim do tratado I (ponto de controle).
+**Parado em LIMITE DE USO do Codex (2026-11-26; libera às 20h10).** `t1-d003-s01`: latim e português gravados (pt em `rascunho`), R1 feita (Codex 7 e Gemini 9 objeções, todas acolhidas; decisão FINAL_COM_DIVERGENCIA), R2 final preparada em `~/Documentos/Debates IA/2026-11-26-bib-t1-d003-s01`. Para retomar: `python3 $D/rodada.py codex "$P" 2 --esforco medium` (a tentativa perdida por limite não precisa de nada), conferir a R2 do Gemini, exportar, `node tools/debate.mjs aplicar`, resumo, commit. Depois, as seções II a XIV da disputa III, até o fim do tratado I (ponto de controle).
