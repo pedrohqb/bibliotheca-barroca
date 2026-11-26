@@ -136,5 +136,17 @@
     "formas": ["Sacramentum", "Sacramenti", "sacramentum", "sacramenti", "sacramento", "sacramenta", "sacramentorum", "sacramentis"],
     "pt": ["sacramento", "sacramentos"],
     "nota": "\"Sacramento\" (Livro proemial, cap. 12: *Sacramentum incorporationis*, \"sacramento da incorporação\", o batismo). Distinto de *mysterium* (\"mistério\"), mesmo quando este designa um rito."
+  },
+  {
+    "lema": "libertas arbitrii",
+    "formas": ["libertas arbitrii", "libertatis arbitrii", "libertatem arbitrii", "arbitrii libertate", "arbitrii libertas", "arbitrii libertatem"],
+    "pt": ["liberdade do arbítrio"],
+    "nota": "\"Liberdade do arbítrio\", distinto de *liberum arbitrium* (\"livre-arbítrio\"). *Libertas ad bonum / ad malum*: \"liberdade para o bem / para o mal\" (livro III do *De statu naturae lapsae*, cap. 1)."
+  },
+  {
+    "lema": "Pelagiani",
+    "formas": ["Pelagiani", "Pelagianos", "Pelagianis", "Pelagianorum", "Pelagianus"],
+    "pt": ["pelagianos", "pelagiano"],
+    "nota": "\"Pelagianos\", com minúscula, como os demais nomes de seita em português (\"celestianos\", \"maniqueus\", \"semipelagianos\")."
   }
 ]
