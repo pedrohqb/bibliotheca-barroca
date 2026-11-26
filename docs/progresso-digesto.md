@@ -39,4 +39,12 @@ O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, ob
 - Página da obra no site passa a listar o texto latino e as traduções cotejadas (`texto_latino` e `traducoes_cotejadas` em `obra.json`, exibidos por `tools/build.mjs`).
 - D. 1.1 revisto contra as seis traduções: *cuius merito* ("em razão dele"), *positiones* ("vertentes"), *affectantes* ("aspirando"), *nefas* ("ímpio"), *servit* ("se submete"), com notas sobre as divergências entre as traduções.
 
-**Próximo passo:** com o "pode seguir" do Pedro, D. 1.2 (*De origine iuris*, 3.469 palavras) em diante, livro I inteiro até o ponto de controle.
+## 2026-11-26 — D. 1.2 e D. 1.3
+
+- Cartão da obra no site: *Digesta seu Pandectae* · 533 · ed. Mommsen e Krueger, Berlim, 1889 (campo `rotulo_edicao` em `obra.json`).
+- Inscrições seguem a impressão (*Idem*, numerais romanos como impressos); a transcrição digital as normaliza e, em D. 1.3, erra várias (*libro secundo regularum* por *libro I*, *aedilis curulis* por *aedilium curulium*).
+- D. 1.2 (3.402 palavras, 55 trechos) e D. 1.3 (42 trechos): latim conferido contra o scan (p. 2-5 e 5-7), com cerca de 140 correções, entre elas erros de sentido da fonte digital (*constitit*/*consistit*, *contradictio*/*contradicto iudicio*, *admittat*/*amittat*, *poterant*/*poterat*, *utique*/*utrique*, *e litteram*/*R litteram*, *articuli* omitido) e o grego restituído (Demóstenes, Crisipo, Teofrasto). Traduções em rascunho, cotejadas com o alemão, o italiano, o espanhol e o Scott.
+- **Pendente:** cotejo do Hulot em D. 1.2 e D. 1.3 (OCR das páginas em curso); deslocamento do tomo I corrigido para +33.
+- Glossário: acrescentada a forma "ações" a *actio* (mesma versão, plural).
+
+**Próximo passo:** cotejo do Hulot em D. 1.2-1.3; depois D. 1.4 em diante, até o fim do livro I e o ponto de controle.

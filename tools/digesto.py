@@ -85,7 +85,7 @@ def romano(n):
 
 APOIO_DIR = os.path.join(FONTES, 'apoio')
 # Páginas do PDF = página impressa + deslocamento (conferido na imagem); tomos ainda não conferidos: None.
-HULOT_DESLOC = {1: 19}
+HULOT_DESLOC = {1: 33}
 HULOT_MONTAGEM = {1: 'tomo I, 1803', 2: 'tomo II, 1804', 3: 'tomo III, 1804', 4: 'tomo IV, 1804', 5: 'tomo V, 1805', 6: 'tomo VI, 1805', 7: 'tomo VII, 1805'}
 
 
