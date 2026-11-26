@@ -1,0 +1,1777 @@
+{
+  "nota": "Capítulos na ordem de produção (docs/plano-covarrubias.md). O capítulo é cada seção da estrutura de Paderborn (uma por PDF); 00 é o proêmio ou a dedicatória da relectio (os títulos de parte sem texto próprio entram no capítulo seguinte). 'colunas' traz as páginas impressas (obra.json usa referencia: pagina; tomo I: página do PDF = página impressa + 15); 'paginas' são páginas do PDF do volume e cobrem do início da seção ao início da seguinte (o capítulo pode começar ou terminar no meio delas). Títulos da estrutura da biblioteca, normalizados; 'capitulo' (§ n) é provisório e se acerta na transcrição. Siglas do tomo I: pmf, qp, pec, test, ray (c. Raynutius), suc (De successionibus ab intestato), spons, am, sf, num, pre (paratextos do tomo). Paratextos sem paginação impressa (t1-test-00 e t1-pre-*): 'colunas' = 'f' (folhas preliminares).",
+  "volumes": {
+    "I": {
+      "pdf": "~/bibliotheca-fontes/covarrubias-opera/tomo-1.pdf",
+      "urn": "urn:nbn:de:hbz:466:1-96556",
+      "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-96556"
+    },
+    "II": {
+      "pdf": "~/bibliotheca-fontes/covarrubias-opera/tomo-2.pdf",
+      "urn": "urn:nbn:de:hbz:466:1-96570",
+      "scan": "https://nbn-resolving.org/urn:nbn:de:hbz:466:1-96570"
+    }
+  },
+  "capitulos": [
+    {
+      "id": "t1-pmf-00",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "Prooemium",
+      "titulo": "Didacvs Covarrvvias In Reg. Possessor Malae Fidei Vllo Tempore Non Praescribit.",
+      "colunas": "400-401",
+      "paginas": "415-416",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266301"
+    },
+    {
+      "id": "t1-pmf-01",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr Regula, possessor malae fidei, de regul. iur. in 6. Ibique agitur de praescriptionis, & exceptionis definitione.",
+      "colunas": "401-403",
+      "paginas": "416-418",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8249214"
+    },
+    {
+      "id": "t1-pmf-02",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 2",
+      "titulo": "De vsucapionis definitione.",
+      "colunas": "403-404",
+      "paginas": "418-419",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266302"
+    },
+    {
+      "id": "t1-pmf-03",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 3",
+      "titulo": "De possessione in genere.",
+      "colunas": "404-409",
+      "paginas": "419-424",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266304"
+    },
+    {
+      "id": "t1-pmf-04",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 4",
+      "titulo": "De probatione, & praesumptione possessionis.",
+      "colunas": "409-411",
+      "paginas": "424-426",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266306"
+    },
+    {
+      "id": "t1-pmf-05",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 5",
+      "titulo": "De praescriptione aduersus ecclesiam, & siscum.",
+      "colunas": "411-416",
+      "paginas": "426-431",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266308"
+    },
+    {
+      "id": "t1-pmf-06",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 6",
+      "titulo": "De Iurisdictionis praescriptione.",
+      "colunas": "416-420",
+      "paginas": "431-435",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266310"
+    },
+    {
+      "id": "t1-pmf-07",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 7",
+      "titulo": "De praestatione annua, & alijs impositionibus.",
+      "colunas": "420-423",
+      "paginas": "435-438",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266312"
+    },
+    {
+      "id": "t1-pmf-08",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 8",
+      "titulo": "De titulo in praescriptione.",
+      "colunas": "423-425",
+      "paginas": "438-440",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266314"
+    },
+    {
+      "id": "t1-pmf-09",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 9",
+      "titulo": "De bona fide in praescriptione.",
+      "colunas": "425-428",
+      "paginas": "440-443",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266316"
+    },
+    {
+      "id": "t1-pmf-10",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 10",
+      "titulo": "De bona fidei possessore, dubit ante vel errante.",
+      "colunas": "428-433",
+      "paginas": "443-448",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266318"
+    },
+    {
+      "id": "t1-pmf-11",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 11",
+      "titulo": "De bona & mala fide in praescriptione.",
+      "colunas": "433-436",
+      "paginas": "448-451",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266320"
+    },
+    {
+      "id": "t1-pmf-12",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 12",
+      "titulo": "Mala fides an Successori in praescriptione noceat.",
+      "colunas": "436-439",
+      "paginas": "451-454",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266322"
+    },
+    {
+      "id": "t1-pmf-13",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 13",
+      "titulo": "De iure patronatus, & praescribentibus ius praesentandi.",
+      "colunas": "439-443",
+      "paginas": "454-458",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266324"
+    },
+    {
+      "id": "t1-pmf-14",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 14",
+      "titulo": "Mala fides in praescriptionibus an in foro conscientiae excuset.",
+      "colunas": "443-448",
+      "paginas": "458-463",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266326"
+    },
+    {
+      "id": "t1-pmf-15",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 15",
+      "titulo": "De interruptione praescriptionis.",
+      "colunas": "448-450",
+      "paginas": "463-465",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266328"
+    },
+    {
+      "id": "t1-pmf-16",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 16",
+      "titulo": "De praescriptionis iustitia & effectu.",
+      "colunas": "450-453",
+      "paginas": "465-468",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266330"
+    },
+    {
+      "id": "t1-pmf-17",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 17",
+      "titulo": "Per praescriptionem acquiritur Dominium vtile vel directum.",
+      "colunas": "453-455",
+      "paginas": "468-470",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266332"
+    },
+    {
+      "id": "t1-pmf-18",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 18",
+      "titulo": "Praescriptionis ciuilis effectus in foro conscientiae.",
+      "colunas": "455-457",
+      "paginas": "470-472",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266334"
+    },
+    {
+      "id": "t1-pmf-19",
+      "tomo": "I",
+      "livro": "Relectio regulae Possessor malae fidei",
+      "capitulo": "§ 19",
+      "titulo": "De restitutione in integrum aduersus praescriptionem.",
+      "colunas": "457-461",
+      "paginas": "472-476",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266336"
+    },
+    {
+      "id": "t1-qp-00",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "Prooemium",
+      "titulo": "In Constitvtionis Secvndae Ex Rvbrica De Pactis, Lib. VI. Civisqve Initivm, quamuis pactum, inscribitur, non inutilem interpretationem, Ad Lectorem Praefatio.",
+      "colunas": "240-242",
+      "paginas": "255-257",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265750"
+    },
+    {
+      "id": "t1-qp-01",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr capit. quamuis pactum de pactis in 6. tractatur de, Iuramenti, dictionis significatione.",
+      "colunas": "242-246",
+      "paginas": "257-261",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265760"
+    },
+    {
+      "id": "t1-qp-02",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 2",
+      "titulo": "De iuramenti forma.",
+      "colunas": "246-250",
+      "paginas": "261-265",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265761"
+    },
+    {
+      "id": "t1-qp-03",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 3",
+      "titulo": "De iuramenti effectu.",
+      "colunas": "250-252",
+      "paginas": "265-267",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266133"
+    },
+    {
+      "id": "t1-qp-04",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 4",
+      "titulo": "De iuramenti interpretatione, & dispensatione.",
+      "colunas": "252-258",
+      "paginas": "267-273",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266232"
+    },
+    {
+      "id": "t1-qp-05",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 5",
+      "titulo": "Quibus actibus iuramentum apponi possit.",
+      "colunas": "258-262",
+      "paginas": "273-277",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266234"
+    },
+    {
+      "id": "t1-qp-06",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 6",
+      "titulo": "De iuramenti interpretatione.",
+      "colunas": "262-266",
+      "paginas": "277-281",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266236"
+    },
+    {
+      "id": "t1-qp-07",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 7",
+      "titulo": "De iuramenti comitibus.",
+      "colunas": "266-270",
+      "paginas": "281-285",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266238"
+    },
+    {
+      "id": "t1-qp-08",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 8",
+      "titulo": "De Periurio, Blasphemia, & falso.",
+      "colunas": "270-276",
+      "paginas": "285-291",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266240"
+    },
+    {
+      "id": "t1-qp-09",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 9",
+      "titulo": "De virtutibus iuramenti confirmotorij, quoad contractus, caeterosque actus humanos.",
+      "colunas": "276-281",
+      "paginas": "291-296",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266242"
+    },
+    {
+      "id": "t1-qp-10",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 10",
+      "titulo": "De iuramento confirmatorio actuum.",
+      "colunas": "281-285",
+      "paginas": "296-300",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266249"
+    },
+    {
+      "id": "t1-qp-11",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 11",
+      "titulo": "De iuramento quo confirmatur rei dotalis alienatio.",
+      "colunas": "285-290",
+      "paginas": "300-305",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266251"
+    },
+    {
+      "id": "t1-qp-12",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 12",
+      "titulo": "De iuramento confirmatorio contractus a lege prohibiti.",
+      "colunas": "290-294",
+      "paginas": "305-309",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266258"
+    },
+    {
+      "id": "t1-qp-13",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 13",
+      "titulo": "De iuramento confirmatorio pactorum, & stipulationum.",
+      "colunas": "294-300",
+      "paginas": "309-315",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266261"
+    },
+    {
+      "id": "t1-qp-14",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 14",
+      "titulo": "De iuramento confirmatorio in promissione facti alieni.",
+      "colunas": "300-304",
+      "paginas": "315-319",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266263"
+    },
+    {
+      "id": "t1-qp-15",
+      "tomo": "I",
+      "livro": "Relectio c. Quamvis pactum, de pactis, in 6",
+      "capitulo": "§ 15",
+      "titulo": "De pacto & renunciatione successionis.",
+      "colunas": "304-317",
+      "paginas": "319-332",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266265"
+    },
+    {
+      "id": "t1-pec-00",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "Prooemium",
+      "titulo": "Didaci Covarrvvias a Leyva Toletani, In Granatensi Praetorio Regii Consiliarii, Archiepiscopi S. Dominici Designati, In Regvlae, Peccatvm, De Reg. Ivr. In VI. Commentarios Prooemium.",
+      "colunas": "462-463",
+      "paginas": "477-478",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266337"
+    },
+    {
+      "id": "t1-pec-01",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr Regula Peccatum de regul. iur. in 6. a restitutione facienda quomodo quis excusetur.",
+      "colunas": "463-470",
+      "paginas": "478-485",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266338"
+    },
+    {
+      "id": "t1-pec-02",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 2",
+      "titulo": "De restitutionis origine, & vsurarum restitutione.",
+      "colunas": "470-470",
+      "paginas": "485-485",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266339"
+    },
+    {
+      "id": "t1-pec-03",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 3",
+      "titulo": "Regula de illicita acceptatione.",
+      "colunas": "470-472",
+      "paginas": "485-487",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266342"
+    },
+    {
+      "id": "t1-pec-04",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 4",
+      "titulo": "De furti, & rapinae restitutione.",
+      "colunas": "472-475",
+      "paginas": "487-490",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266344"
+    },
+    {
+      "id": "t1-pec-05",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 5",
+      "titulo": "De restitutione dati ob turpem causam.",
+      "colunas": "475-479",
+      "paginas": "490-494",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267058"
+    },
+    {
+      "id": "t1-pec-06",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 6",
+      "titulo": "De restitutione accepti ob id, quod ex officio fuerit debitum",
+      "colunas": "479-482",
+      "paginas": "494-497",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267060"
+    },
+    {
+      "id": "t1-pec-07",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 7",
+      "titulo": "De restitutione acquisiti per lusum illicitum.",
+      "colunas": "482-484",
+      "paginas": "497-499",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267062"
+    },
+    {
+      "id": "t1-pec-08",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 8",
+      "titulo": "De gabella & vectigalis solutione.",
+      "colunas": "484-487",
+      "paginas": "499-502",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267064"
+    },
+    {
+      "id": "t1-pec-09",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 9",
+      "titulo": "De restitutione rei quae periit.",
+      "colunas": "487-489",
+      "paginas": "502-504",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267066"
+    },
+    {
+      "id": "t1-pec-10",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 10",
+      "titulo": "An ex vi iustitiae distributiuae ad restitutionem quis teneatur?",
+      "colunas": "489-493",
+      "paginas": "504-508",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267068"
+    },
+    {
+      "id": "t1-pec-11",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 11",
+      "titulo": "De venatione, & captorem restitutione.",
+      "colunas": "493-499",
+      "paginas": "508-514",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267070"
+    },
+    {
+      "id": "t1-pec-12",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 12",
+      "titulo": "De potestate temporali & spirituali: vbi de belli iustitia & iniustitia.",
+      "colunas": "499-505",
+      "paginas": "514-520",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267072"
+    },
+    {
+      "id": "t1-pec-13",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 13",
+      "titulo": "De bello aduersus infideles.",
+      "colunas": "505-507",
+      "paginas": "520-522",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267074"
+    },
+    {
+      "id": "t1-pec-14",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 14",
+      "titulo": "De captis in bello, & seruitute personarum.",
+      "colunas": "507-512",
+      "paginas": "522-527",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267076"
+    },
+    {
+      "id": "t1-pec-15",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 15",
+      "titulo": "Ex consilio, auxilio, & fauore an quis obligetur.",
+      "colunas": "512-513",
+      "paginas": "527-528",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267078"
+    },
+    {
+      "id": "t1-pec-16",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 16",
+      "titulo": "De restitutione rei bona fide possessae.",
+      "colunas": "513-515",
+      "paginas": "528-530",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267080"
+    },
+    {
+      "id": "t1-pec-17",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 17",
+      "titulo": "De inuenti restitutione.",
+      "colunas": "515-516",
+      "paginas": "530-531",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267082"
+    },
+    {
+      "id": "t1-pec-18",
+      "tomo": "I",
+      "livro": "Relectio regulae Peccatum, de regulis iuris, in 6",
+      "capitulo": "§ 18",
+      "titulo": "De thesauri inuenti iure.",
+      "colunas": "516-518",
+      "paginas": "531-533",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267084"
+    },
+    {
+      "id": "t1-test-00",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "Epistola dedicatoria",
+      "titulo": "Ad Illvstrissimvm, Ac Reverendissimvm Dominvm, D. Fernandvm Valdesivm, Hispalensem Archiepiscopvm, Svmmvm in Caroli Caesaris haereditariis prouinciis de fidei Catholicae negocijs cognitorem, censoremque diligentissimum, Didaci Couarruuias Toletani, Regij Granatensi praetorio Iudicis in Commentarios de Testamenti. Praefatio.",
+      "paginas": "9-10",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250722",
+      "colunas": ""
+    },
+    {
+      "id": "t1-test-01",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 1",
+      "titulo": "De Testamentis, & eorum Reuocatione tractatur.",
+      "colunas": "1-15",
+      "paginas": "16-30",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8248811"
+    },
+    {
+      "id": "t1-test-02",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 2",
+      "titulo": "De mortis causa donatione.",
+      "colunas": "15-22",
+      "paginas": "30-37",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250742"
+    },
+    {
+      "id": "t1-test-03",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 3",
+      "titulo": "De ecclesiasticis rebus, quatenus quis testari possit.",
+      "colunas": "22-27",
+      "paginas": "37-42",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250748"
+    },
+    {
+      "id": "t1-test-04",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 4",
+      "titulo": "De personis, quae testari possunt.",
+      "colunas": "27-30",
+      "paginas": "42-45",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250769"
+    },
+    {
+      "id": "t1-test-05",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 5",
+      "titulo": "De executione vltimarum voluntatum.",
+      "colunas": "30-33",
+      "paginas": "45-48",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8251454"
+    },
+    {
+      "id": "t1-test-06",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 6",
+      "titulo": "De legatis.",
+      "colunas": "33-36",
+      "paginas": "48-51",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256683"
+    },
+    {
+      "id": "t1-test-07",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 7",
+      "titulo": "De executione testamentaria.",
+      "colunas": "36-38",
+      "paginas": "51-53",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256685"
+    },
+    {
+      "id": "t1-test-08",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 8",
+      "titulo": "De clericorum vltima voluntate.",
+      "colunas": "38-43",
+      "paginas": "53-58",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256687"
+    },
+    {
+      "id": "t1-test-09",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 9",
+      "titulo": "De Eleemosynis clericorum.",
+      "colunas": "43-43",
+      "paginas": "58-58",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256697"
+    },
+    {
+      "id": "t1-test-10",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 10",
+      "titulo": "De clericorum peculio.",
+      "colunas": "43-44",
+      "paginas": "58-59",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256698"
+    },
+    {
+      "id": "t1-test-11",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 11",
+      "titulo": "De Solennibus testamenti, & testibus.",
+      "colunas": "44-48",
+      "paginas": "59-63",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256701"
+    },
+    {
+      "id": "t1-test-12",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 12",
+      "titulo": "De testimentis & legatis ad pias causas.",
+      "colunas": "48-52",
+      "paginas": "63-67",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256827"
+    },
+    {
+      "id": "t1-test-13",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 13",
+      "titulo": "De bonis quaesitis per Episcopum vel Clericum.",
+      "colunas": "52-53",
+      "paginas": "67-68",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256829"
+    },
+    {
+      "id": "t1-test-14",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 14",
+      "titulo": "De haeredibus instituendis.",
+      "colunas": "53-57",
+      "paginas": "68-72",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256830"
+    },
+    {
+      "id": "t1-test-15",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 15",
+      "titulo": "De legatorum imputatione in debitum.",
+      "colunas": "57-60",
+      "paginas": "72-75",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256832"
+    },
+    {
+      "id": "t1-test-16",
+      "tomo": "I",
+      "livro": "De testamentis",
+      "capitulo": "§ 16",
+      "titulo": "De legatis praestandis.",
+      "colunas": "60-61",
+      "paginas": "75-76",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256835"
+    },
+    {
+      "id": "t1-ray-01",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr cap. Raynutius. de testam. ibique agitur de Exhaeredatione vel preteritione liberorum.",
+      "colunas": "62-67",
+      "paginas": "77-82",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256836"
+    },
+    {
+      "id": "t1-ray-02",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 2",
+      "titulo": "De haeredibus instituendis.",
+      "colunas": "67-72",
+      "paginas": "82-87",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256838"
+    },
+    {
+      "id": "t1-ray-03",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 3",
+      "titulo": "De vulgari substitutione.",
+      "colunas": "72-73",
+      "paginas": "87-88",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256841"
+    },
+    {
+      "id": "t1-ray-04",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 4",
+      "titulo": "De puppiliari substitutione.",
+      "colunas": "73-77",
+      "paginas": "88-92",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256843"
+    },
+    {
+      "id": "t1-ray-05",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 5",
+      "titulo": "De exemplari substitutione.",
+      "colunas": "77-79",
+      "paginas": "92-94",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256845"
+    },
+    {
+      "id": "t1-ray-06",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 6",
+      "titulo": "De reciproca substitutione.",
+      "colunas": "79-82",
+      "paginas": "94-97",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256847"
+    },
+    {
+      "id": "t1-ray-07",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 7",
+      "titulo": "De compendiosa substitutione.",
+      "colunas": "82-87",
+      "paginas": "97-102",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256849"
+    },
+    {
+      "id": "t1-ray-08",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 8",
+      "titulo": "De legatis praestandis, & actione ex testamento.",
+      "colunas": "87-90",
+      "paginas": "102-105",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256851"
+    },
+    {
+      "id": "t1-ray-09",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 9",
+      "titulo": "De processu in actionibus ex testamento.",
+      "colunas": "90-93",
+      "paginas": "105-108",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259112"
+    },
+    {
+      "id": "t1-ray-10",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 10",
+      "titulo": "De executione testamenti.",
+      "colunas": "93-95",
+      "paginas": "108-110",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259116"
+    },
+    {
+      "id": "t1-ray-11",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 11",
+      "titulo": "De alienatione prohibita.",
+      "colunas": "95-97",
+      "paginas": "110-112",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259146"
+    },
+    {
+      "id": "t1-ray-12",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 12",
+      "titulo": "De transmissione & iure legati.",
+      "colunas": "97-99",
+      "paginas": "112-114",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259164"
+    },
+    {
+      "id": "t1-ray-13",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 13",
+      "titulo": "De legitima eiusque, grauamine, & imputatione.",
+      "colunas": "99-102",
+      "paginas": "114-117",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259166"
+    },
+    {
+      "id": "t1-ray-14",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 14",
+      "titulo": "De legitimae, & Trebellianicae, & Falcidae deductione.",
+      "colunas": "102-108",
+      "paginas": "117-123",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259168"
+    },
+    {
+      "id": "t1-ray-15",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 15",
+      "titulo": "De executione testamenti.",
+      "colunas": "108-109",
+      "paginas": "123-124",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259170"
+    },
+    {
+      "id": "t1-ray-16",
+      "tomo": "I",
+      "livro": "Relectio c. Raynutius, de testamentis",
+      "capitulo": "§ 16",
+      "titulo": "De canonica portione in quibusdam legatis non soluenda",
+      "colunas": "109-109",
+      "paginas": "124-124",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259174"
+    },
+    {
+      "id": "t1-suc-01",
+      "tomo": "I",
+      "livro": "De successionibus ab intestato",
+      "capitulo": "§ 1",
+      "titulo": "De Svccessionibvs ab intestato breuis quaedam resolutio e iure Caesareo, & regio collecta.",
+      "colunas": "110-113",
+      "paginas": "125-128",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259176"
+    },
+    {
+      "id": "t1-spons-00",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Prooemium",
+      "titulo": "Ad Lectorem.",
+      "colunas": "114-115",
+      "paginas": "129-130",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259180"
+    },
+    {
+      "id": "t1-spons-01",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 1",
+      "titulo": "Capvt Primvm. De Sponsaliorum Definitione.",
+      "colunas": "116-118",
+      "paginas": "131-133",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8248925"
+    },
+    {
+      "id": "t1-spons-02",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 2",
+      "titulo": "De aetate ad sponsalia requisita.",
+      "colunas": "118-119",
+      "paginas": "133-134",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259187"
+    },
+    {
+      "id": "t1-spons-03",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 3",
+      "titulo": "Quibus verbis sponsalia contrahuntur.",
+      "colunas": "119-119",
+      "paginas": "134-134",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259192"
+    },
+    {
+      "id": "t1-spons-04",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 4",
+      "titulo": "De sponsaliorum effectu & vinculo.",
+      "colunas": "119-121",
+      "paginas": "134-136",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259190"
+    },
+    {
+      "id": "t1-spons-05",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 5",
+      "titulo": "De coitu inter sponsalia & matrimonium interueniente eiusque effectu.",
+      "colunas": "121-124",
+      "paginas": "136-139",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8261005"
+    },
+    {
+      "id": "t1-spons-06",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 6",
+      "titulo": "De sponsalibus de futuro.",
+      "colunas": "124-125",
+      "paginas": "139-140",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8261007"
+    },
+    {
+      "id": "t1-spons-07",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 7",
+      "titulo": "Sponsalia quibus modis soluuntur.",
+      "colunas": "125-128",
+      "paginas": "140-143",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8261009"
+    },
+    {
+      "id": "t1-spons-08",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 8",
+      "titulo": "De matrimonio, eiusque definitione.",
+      "colunas": "128-131",
+      "paginas": "143-146",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8261011"
+    },
+    {
+      "id": "t1-spons-09",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 9",
+      "titulo": "An consensus sit necessarius ad matrimonium.",
+      "colunas": "131-132",
+      "paginas": "146-147",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8261016"
+    },
+    {
+      "id": "t1-spons-10",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 10",
+      "titulo": "Qualis consensus sit ad matrimonium necessarius?",
+      "colunas": "132-134",
+      "paginas": "147-149",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264087"
+    },
+    {
+      "id": "t1-spons-11",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 11",
+      "titulo": "De conditionibus in matrimonio appositis.",
+      "colunas": "134-140",
+      "paginas": "149-155",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264088"
+    },
+    {
+      "id": "t1-spons-12",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 12",
+      "titulo": "De lucri spe, seu donationibus in matrimonij contractu interuenientibus.",
+      "colunas": "140-140",
+      "paginas": "155-155",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264089"
+    },
+    {
+      "id": "t1-spons-13",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 13",
+      "titulo": "De metu in matrimonij contractu interueniente.",
+      "colunas": "140-146",
+      "paginas": "155-161",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264091"
+    },
+    {
+      "id": "t1-spons-14",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 14",
+      "titulo": "De errore, dolo, & Arrha in nuptijs interuenientibus.",
+      "colunas": "146-148",
+      "paginas": "161-163",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264094"
+    },
+    {
+      "id": "t1-spons-15",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 15",
+      "titulo": "De consensu parentum in nuptijs requisito.",
+      "colunas": "148-150",
+      "paginas": "163-165",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264098"
+    },
+    {
+      "id": "t1-spons-16",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 16",
+      "titulo": "De raptu, & nuptijs secundis.",
+      "colunas": "150-152",
+      "paginas": "165-167",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264118"
+    },
+    {
+      "id": "t1-spons-17",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 17",
+      "titulo": "...] nuptijs qualiter exprimatur, ibique de [...]rocu[...",
+      "colunas": "152-154",
+      "paginas": "167-169",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264120"
+    },
+    {
+      "id": "t1-spons-18",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 18",
+      "titulo": "De verbis in matrimonio adhibendis.",
+      "colunas": "154-156",
+      "paginas": "169-171",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264122"
+    },
+    {
+      "id": "t1-spons-19",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 19",
+      "titulo": "De aetate ad matrimonium requisita.",
+      "colunas": "156-157",
+      "paginas": "171-172",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264124"
+    },
+    {
+      "id": "t1-spons-20",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 20",
+      "titulo": "De his, quae matrimonium impediunt.",
+      "colunas": "157-160",
+      "paginas": "172-175",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264126"
+    },
+    {
+      "id": "t1-spons-21",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 21",
+      "titulo": "De impedimento affinitatis & seruitutis.",
+      "colunas": "160-161",
+      "paginas": "175-176",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264128"
+    },
+    {
+      "id": "t1-spons-22",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 22",
+      "titulo": "De impedimento publicae honestatis.",
+      "colunas": "161-161",
+      "paginas": "176-176",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264129"
+    },
+    {
+      "id": "t1-spons-23",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 23",
+      "titulo": "De impedimento sacri ordinis.",
+      "colunas": "161-164",
+      "paginas": "176-179",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264131"
+    },
+    {
+      "id": "t1-spons-24",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 24",
+      "titulo": "De cognatione spirituali.",
+      "colunas": "164-165",
+      "paginas": "179-180",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8264133"
+    },
+    {
+      "id": "t1-spons-25",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 25",
+      "titulo": "De cognatione legali.",
+      "colunas": "165-165",
+      "paginas": "180-180",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265494"
+    },
+    {
+      "id": "t1-spons-26",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 26",
+      "titulo": "De consanguinitate.",
+      "colunas": "165-168",
+      "paginas": "180-183",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265496"
+    },
+    {
+      "id": "t1-spons-27",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 27",
+      "titulo": "De affinitatis impedimento",
+      "colunas": "168-169",
+      "paginas": "183-184",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265498"
+    },
+    {
+      "id": "t1-spons-28",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 28",
+      "titulo": "De contrahentibus incestas nuptias.",
+      "colunas": "169-174",
+      "paginas": "184-189",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265500"
+    },
+    {
+      "id": "t1-spons-29",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 29",
+      "titulo": "De dispensatione.",
+      "colunas": "174-177",
+      "paginas": "189-192",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265502"
+    },
+    {
+      "id": "t1-spons-30",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 30",
+      "titulo": "De gradibus diuina, naturali, & humana lege prohibitis.",
+      "colunas": "177-182",
+      "paginas": "192-197",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265503"
+    },
+    {
+      "id": "t1-spons-31",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 31",
+      "titulo": "De dispari cultu.",
+      "colunas": "182-183",
+      "paginas": "197-198",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265518"
+    },
+    {
+      "id": "t1-spons-32",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 32",
+      "titulo": "De contractus coniugalis effectu.",
+      "colunas": "183-191",
+      "paginas": "198-206",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265524"
+    },
+    {
+      "id": "t1-spons-33",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 33",
+      "titulo": "De diuortijs, & matrimonij dissolutione.",
+      "colunas": "191-196",
+      "paginas": "206-211",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265527"
+    },
+    {
+      "id": "t1-spons-34",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 34",
+      "titulo": "De lucrorum nuptialium amissione.",
+      "colunas": "196-199",
+      "paginas": "211-214",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265536"
+    },
+    {
+      "id": "t1-spons-35",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 35",
+      "titulo": "De iure statuto in deprehensos in adulterio.",
+      "colunas": "199-203",
+      "paginas": "214-218",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265568"
+    },
+    {
+      "id": "t1-spons-36",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 36",
+      "titulo": "De prole.",
+      "colunas": "203-204",
+      "paginas": "218-219",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265570"
+    },
+    {
+      "id": "t1-spons-37",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 37",
+      "titulo": "De legitime natis liberis.",
+      "colunas": "204-206",
+      "paginas": "219-221",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265585"
+    },
+    {
+      "id": "t1-spons-38",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 38",
+      "titulo": "De illegitimis liberis, & eorum legitimatione.",
+      "colunas": "206-210",
+      "paginas": "221-225",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265592"
+    },
+    {
+      "id": "t1-spons-39",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 39",
+      "titulo": "De filtationis probatione.",
+      "colunas": "210-212",
+      "paginas": "225-227",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265720"
+    },
+    {
+      "id": "t1-spons-40",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 40",
+      "titulo": "De illegitimis & naturalibus liberis, eorumque iure.",
+      "colunas": "212-215",
+      "paginas": "227-230",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265724"
+    },
+    {
+      "id": "t1-spons-41",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 41",
+      "titulo": "De spurijs & Manzeribus, eorumque iure.",
+      "colunas": "215-219",
+      "paginas": "230-234",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265737"
+    },
+    {
+      "id": "t1-spons-42",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 42",
+      "titulo": "De alimentis, & alijs iuribus illegitimorum.",
+      "colunas": "219-222",
+      "paginas": "234-237",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265739"
+    },
+    {
+      "id": "t1-spons-43",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 43",
+      "titulo": "De nominatione filij.",
+      "colunas": "222-223",
+      "paginas": "237-238",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265741"
+    },
+    {
+      "id": "t1-spons-44",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 44",
+      "titulo": "De legitimatione.",
+      "colunas": "223-230",
+      "paginas": "238-245",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265743"
+    },
+    {
+      "id": "t1-spons-45",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 45",
+      "titulo": "De legitimationis impetratione, & libellis.",
+      "colunas": "230-233",
+      "paginas": "245-248",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265745"
+    },
+    {
+      "id": "t1-spons-46",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 46",
+      "titulo": "De tempore celebrandarum, nuptiarum, & alijs.",
+      "colunas": "233-234",
+      "paginas": "248-249",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265747"
+    },
+    {
+      "id": "t1-spons-47",
+      "tomo": "I",
+      "livro": "Epitome de sponsalibus et matrimoniis",
+      "capitulo": "Caput 47",
+      "titulo": "De processu in causa matrimoniali.",
+      "colunas": "234-239",
+      "paginas": "249-254",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8265749"
+    },
+    {
+      "id": "t1-am-00",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "Prooemium",
+      "titulo": "In Bonifacii Octavi Constitvtionem Vltimam, Qvae Incipit, Alma Mater, Svb Titvlo, De Sent. Excommun. admodum breues commentarij: Doctore Didaco Couarruuias a Leyua, Consiliario Regio, auctore.",
+      "colunas": "318-319",
+      "paginas": "333-334",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266266"
+    },
+    {
+      "id": "t1-am-01",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr C. Alma mater sub tit. de sentent. excommun Ibique agitur definitione & diuisione excommunicationis",
+      "colunas": "319-323",
+      "paginas": "334-338",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8249131"
+    },
+    {
+      "id": "t1-am-02",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 2",
+      "titulo": "De communione cum excommunicatis.",
+      "colunas": "323-334",
+      "paginas": "338-349",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266274"
+    },
+    {
+      "id": "t1-am-03",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 3",
+      "titulo": "De bonis operibus.",
+      "colunas": "334-350",
+      "paginas": "349-365",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266277"
+    },
+    {
+      "id": "t1-am-04",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 4",
+      "titulo": "De excommunicatione, & eius effectu.",
+      "colunas": "350-360",
+      "paginas": "365-375",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266279"
+    },
+    {
+      "id": "t1-am-05",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 5",
+      "titulo": "De excommunicatione, & eius forma.",
+      "colunas": "360-363",
+      "paginas": "375-378",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266286"
+    },
+    {
+      "id": "t1-am-06",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 6",
+      "titulo": "Excommunicatio ex quibus causis fiat, vel non.",
+      "colunas": "363-373",
+      "paginas": "378-388",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266288"
+    },
+    {
+      "id": "t1-am-07",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 7",
+      "titulo": "De excommunicatione & absolotione, earumque causa efficient[e.",
+      "colunas": "373-381",
+      "paginas": "388-396",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266290"
+    },
+    {
+      "id": "t1-am-08",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 8",
+      "titulo": "De absolutione ab excommunicatione.",
+      "colunas": "381-384",
+      "paginas": "396-399",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266292"
+    },
+    {
+      "id": "t1-am-09",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 9",
+      "titulo": "De mutatione legum.",
+      "colunas": "384-386",
+      "paginas": "399-401",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266294"
+    },
+    {
+      "id": "t1-am-10",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 10",
+      "titulo": "De interdicto.",
+      "colunas": "386-390",
+      "paginas": "401-405",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266296"
+    },
+    {
+      "id": "t1-am-11",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 11",
+      "titulo": "De interdicto ecclesiastico.",
+      "colunas": "390-394",
+      "paginas": "405-409",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266298"
+    },
+    {
+      "id": "t1-am-12",
+      "tomo": "I",
+      "livro": "Relectio c. Alma mater, de sententia excommunicationis, in 6",
+      "capitulo": "§ 12",
+      "titulo": "De interdicti ecclesiastici effectu.",
+      "colunas": "394-399",
+      "paginas": "409-414",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8266300"
+    },
+    {
+      "id": "t1-sf-00",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "Prooemium",
+      "titulo": "Didaci Covarrvvias A Leyva Toletani, In Granatensi Praetorio Regii Consiliarii, In Clementinae, Si Fvriosvs, Commentarios Prooemivm.",
+      "colunas": "519-521",
+      "paginas": "534-536",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267085"
+    },
+    {
+      "id": "t1-sf-01",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 1",
+      "titulo": "Explicatvr Clement. si furiosus. de Homicid. & Irregulariter.",
+      "colunas": "521-525",
+      "paginas": "536-540",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8249333"
+    },
+    {
+      "id": "t1-sf-02",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 2",
+      "titulo": "De suspenso ab officijs, alijs reis.",
+      "colunas": "525-527",
+      "paginas": "540-542",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267086"
+    },
+    {
+      "id": "t1-sf-03",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 3",
+      "titulo": "De Bigamis. & Neophitis.",
+      "colunas": "527-531",
+      "paginas": "542-546",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267376"
+    },
+    {
+      "id": "t1-sf-04",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 4",
+      "titulo": "De dilictis, & conatibus.",
+      "colunas": "531-539",
+      "paginas": "546-554",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267378"
+    },
+    {
+      "id": "t1-sf-05",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 5",
+      "titulo": "De homicidij ratihabitione, & mandato.",
+      "colunas": "539-542",
+      "paginas": "554-557",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267380"
+    },
+    {
+      "id": "t1-sf-06",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 6",
+      "titulo": "De vulneribus a pluribus inflictis.",
+      "colunas": "542-546",
+      "paginas": "557-561",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267382"
+    },
+    {
+      "id": "t1-sf-07",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 7",
+      "titulo": "De aborto, bello & homicidio.",
+      "colunas": "546-550",
+      "paginas": "561-565",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267384"
+    },
+    {
+      "id": "t1-sf-08",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 8",
+      "titulo": "De homicidio casuali.",
+      "colunas": "550-554",
+      "paginas": "565-569",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267398"
+    },
+    {
+      "id": "t1-sf-09",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 9",
+      "titulo": "An protestatio ab irregularitate excuset.",
+      "colunas": "554-556",
+      "paginas": "569-571",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267400"
+    },
+    {
+      "id": "t1-sf-10",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 10",
+      "titulo": "De furioso, ebrio, & dormiente.",
+      "colunas": "556-560",
+      "paginas": "571-575",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267402"
+    },
+    {
+      "id": "t1-sf-11",
+      "tomo": "I",
+      "livro": "Relectio Clem. Si furiosus, de homicidio",
+      "capitulo": "§ 11",
+      "titulo": "De homicidio ad defensionem commisso.",
+      "colunas": "560-564",
+      "paginas": "575-579",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267404"
+    },
+    {
+      "id": "t1-num-00",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "Prooemium",
+      "titulo": "Didacvs Covarrvvias A Leyva Archiepiscopvs S. Dominici Designat. Licentiato Antonio Covarrvvias Fratri Amantissimo, & Salmanticae in Collegio Sanctissimi Saluatoris Collegae ornatissimo, atque vtriusque Iuris egregio Professori, S.",
+      "colunas": "565-566",
+      "paginas": "580-581",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267406"
+    },
+    {
+      "id": "t1-num-01",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 1",
+      "titulo": "Collatio Veterum numismatum, in qua de aureo numismate.",
+      "colunas": "566-567",
+      "paginas": "581-582",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8249380"
+    },
+    {
+      "id": "t1-num-02",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 2",
+      "titulo": "De veteribus argentes nummis.",
+      "colunas": "567-572",
+      "paginas": "582-587",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267412"
+    },
+    {
+      "id": "t1-num-03",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 3",
+      "titulo": "De veterum aureis nummis.",
+      "colunas": "572-573",
+      "paginas": "587-588",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267415"
+    },
+    {
+      "id": "t1-num-04",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 4",
+      "titulo": "De veteribus aureis, & argenteis nummis.",
+      "colunas": "573-581",
+      "paginas": "588-596",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267417"
+    },
+    {
+      "id": "t1-num-05",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 5",
+      "titulo": "De librae auri, vel argenti examine.",
+      "colunas": "581-584",
+      "paginas": "596-599",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267418"
+    },
+    {
+      "id": "t1-num-06",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 6",
+      "titulo": "De veteribus nummis Hispanicis.",
+      "colunas": "584-595",
+      "paginas": "599-610",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267420"
+    },
+    {
+      "id": "t1-num-07",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 7",
+      "titulo": "De pondere Monetarum Hispaniae.",
+      "colunas": "595-604",
+      "paginas": "610-619",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267427"
+    },
+    {
+      "id": "t1-num-08",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 8",
+      "titulo": "De mutatione Monetae, quoad pondus & valorem eius.",
+      "colunas": "604-607",
+      "paginas": "619-622",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267425"
+    },
+    {
+      "id": "t1-num-09",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 9",
+      "titulo": "De mutatione Monetae.",
+      "colunas": "607-609",
+      "paginas": "622-624",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267423"
+    },
+    {
+      "id": "t1-num-10",
+      "tomo": "I",
+      "livro": "Veterum numismatum collatio",
+      "capitulo": "§ 10",
+      "titulo": "De falsa moneta, & eius authoribus puniendis.",
+      "colunas": "609-610",
+      "paginas": "624-625",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8267421"
+    },
+    {
+      "id": "t1-pre-01",
+      "tomo": "I",
+      "livro": "Praeliminaria tomi primi",
+      "capitulo": "Epistola dedicatoria",
+      "titulo": "Amplissimo Nobilissimoq. D. Nicolao Damantio Eqviti Avrato Svpremi Senatvs Brabantiae Cancellario Et Serenissimis Archidvcibvs A Consilio Statvs Nec Non Nobilibvs Ac Prvdentibvs Eivsdem Senatvs Brabantiae Consiliariis.",
+      "paginas": "6-7",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8248800",
+      "colunas": ""
+    },
+    {
+      "id": "t1-pre-02",
+      "tomo": "I",
+      "livro": "Praeliminaria tomi primi",
+      "capitulo": "Vita auctoris",
+      "titulo": "Vita Didaci Covarvvias A Leyva. Ex Bibliotheca Hispanica a R. P. Andrea Schotto concinnata.",
+      "paginas": "8-8",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8248803",
+      "colunas": ""
+    },
+    {
+      "id": "t1-pre-03",
+      "tomo": "I",
+      "livro": "Praeliminaria tomi primi",
+      "capitulo": "Praefatio ad lectorem",
+      "titulo": "P. Corn. Brederodivs IC. Lectori S. D.",
+      "paginas": "11-11",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250725",
+      "colunas": ""
+    }
+  ]
+}
