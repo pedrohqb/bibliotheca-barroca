@@ -70,5 +70,59 @@
     "formas": ["recentiores", "recentiorum", "recentioribus"],
     "pt": ["modernos"],
     "nota": "\"Os modernos\": os escolásticos posteriores, em oposição aos antigos (Agostinho e seus discípulos). Termo polêmico de Jansênio; não é \"recentes\" no sentido cronológico neutro."
+  },
+  {
+    "lema": "status purae naturae",
+    "formas": ["status purae naturae", "statum purae naturae", "statu purae naturae", "status naturae purae"],
+    "pt": ["estado de natureza pura"],
+    "nota": "\"Estado de natureza pura\": a hipótese escolástica de um homem criado sem graça nem pecado, que Jansênio combate. Paralelos: *status naturae innocentis* (\"estado de natureza inocente\"), *status naturae lapsae* (\"estado de natureza decaída\")."
+  },
+  {
+    "lema": "praedestinatio",
+    "formas": ["praedestinatio", "praedestinationis", "praedestinationem", "praedestinatione", "praedestinationes"],
+    "pt": ["predestinação", "predestinações"],
+    "nota": "\"Predestinação\". *Praedefinitio* fica \"predefinição\"."
+  },
+  {
+    "lema": "Scholastici",
+    "formas": ["Scholastici", "Scholasticorum", "Scholasticis", "Scholasticos"],
+    "pt": ["escolásticos"],
+    "nota": "\"Escolásticos\", com minúscula; *Scholastica Theologia*, \"teologia escolástica\"."
+  },
+  {
+    "lema": "dilectio",
+    "formas": ["dilectio", "dilectionem", "dilectionis", "dilectione"],
+    "pt": ["dileção"],
+    "nota": "\"Dileção\", para distinguir de *amor* (\"amor\") e de *charitas* (\"caridade\"); termo técnico da teologia (*dilectio Dei super omnia*)."
+  },
+  {
+    "lema": "concursus Dei",
+    "formas": ["concursu Dei", "concursus Dei", "concursum Dei"],
+    "pt": ["concurso de Deus"],
+    "nota": "\"Concurso de Deus\": a cooperação geral de Deus com toda ação da criatura, na escolástica."
+  },
+  {
+    "lema": "habitus",
+    "formas": ["habitu", "habituum", "habitus", "habitibus", "habitualibus"],
+    "pt": ["hábito", "hábitos", "habituais"],
+    "nota": "\"Hábito\" no sentido escolástico (disposição estável da potência); *habitualis*, \"habitual\"."
+  },
+  {
+    "lema": "traditio",
+    "formas": ["traditio", "traditionis", "traditionem", "traditione"],
+    "pt": ["tradição"],
+    "nota": "\"Tradição\" (*traditio non scripta*, \"tradição não escrita\"). O verbo *tradere* fica \"transmitir\"."
+  },
+  {
+    "lema": "intellectus",
+    "formas": ["intellectus", "intellectu", "intellectum"],
+    "pt": ["intelecto"],
+    "nota": "\"Intelecto\" quando é a faculdade, oposta à *memoria* (\"memória\"): cap. 4. O verbo *intelligere* fica \"entender\" ou \"compreender\"."
+  },
+  {
+    "lema": "lex nova",
+    "formas": ["lex nova", "legem novam", "novamque legem", "lex gratiae"],
+    "pt": ["lei nova", "lei da graça"],
+    "nota": "\"Lei nova\" e \"lei antiga\" (*lex vetus*); *lex gratiae*, \"lei da graça\"."
   }
 ]
