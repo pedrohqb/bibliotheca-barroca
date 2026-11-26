@@ -310,5 +310,17 @@
     "formas": ["vitiatio", "vitiationis", "vitiationem", "vitiatione"],
     "pt": ["viciação"],
     "nota": "\"Viciação\": o ato e o efeito de viciar a natureza pelo pecado de Adão; o verbo *vitiare*, \"viciar\" (*natura vitiata*, \"natureza viciada\"). Distinto de *vitium*, \"vício\", e de *corruptio*, \"corrupção\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
+  },
+  {
+    "lema": "caecitas",
+    "formas": ["caecitas", "caecitatis", "caecitatem", "caecitate", "caecitates", "caecitatibus"],
+    "pt": ["cegueira", "cegueiras"],
+    "nota": "\"Cegueira\" (da mente, do coração): a ignorância como pena do pecado; *caecus*, \"cego\". Distinta de *excaecatio*, \"obcecação\", a cegueira infligida por juízo de Deus em razão de pecados pessoais (livro II do *De statu naturae lapsae*, cap. 6)."
+  },
+  {
+    "lema": "excaecatio",
+    "formas": ["excaecatio", "excaecationis", "excaecationem", "excaecatione"],
+    "pt": ["obcecação"],
+    "nota": "\"Obcecação\": a cegueira infligida por Deus, por justo juízo, em pena de pecados anteriores; o verbo *excaecare*, \"cegar\" (*excaecati*, \"cegados\"), para conservar o parentesco com *caecitas*, \"cegueira\" (livro II do *De statu naturae lapsae*, cap. 6)."
   }
 ]
