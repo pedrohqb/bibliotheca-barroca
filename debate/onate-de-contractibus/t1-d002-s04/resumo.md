@@ -10,11 +10,11 @@ Debate de duas rodadas, **primeiro com o motor 4.4.16-rbsa** (remissões não co
 
 ## Objeções rejeitadas
 
-- § 13, *conductionibus* (Codex): fica "conduções", por uniformidade. Mantida pelo Codex na final, que pediu só uma nota explicativa; registrada em `@n` como "acolhida e não aplicada".
+- § 13, *conductionibus* (Codex): fica "conduções", por uniformidade. Mantida pelo Codex na final, que pediu só uma nota explicativa; resolvida depois pela decisão do Pedro (2026-11-26): "condução" fica, sempre com nota que remete ao sentido jurídico antigo; a nota padrão foi acrescentada no § 13.
 
 ## Pontos em aberto
 
-- **Proposta de glossário:** *conductio* (ver o progresso) e *ignobilis* ("ignóbeis" ou "obscuros", para a obra inteira).
+- **Proposta de glossário:** *ignobilis* ("ignóbeis" ou "obscuros", para a obra inteira).
 - § 6, "embora ali se diga antes distrato": sentido do parêntese a conferir.
 - § 17, *antenom.* (Villalobos): abreviatura não identificada.
 

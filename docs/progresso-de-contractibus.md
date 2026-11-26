@@ -65,10 +65,10 @@ Feito em `t1-d002-s01`, `s02` e `s03`. Entrada do Codex (rodada 1 / final): s01 
 
 ## Propostas de glossário
 
-Glossário com 29 termos, todos aprovados. *mutuum / mutuus* (decisão do Pedro, 2026-11-26): o contrato de empréstimo, "mútuo"; *mutuus* no sentido de obrigações de ambas as partes, "recíproco"; aplicado em `t1-d001-s04` e `t1-d002-s03`. Proposta aberta:
+Glossário com 30 termos, todos aprovados. *mutuum / mutuus* (decisão do Pedro, 2026-11-26): o contrato de empréstimo, "mútuo"; *mutuus* no sentido de obrigações de ambas as partes, "recíproco"; aplicado em `t1-d001-s04` e `t1-d002-s03`. Proposta aberta:
 
 - *ignobilis*: hoje "ignóbeis" (disp. 2, seções I e IV); o Codex observou que sugere desonestidade e propôs "obscuros" (sem reconhecimento próprio pelo direito).
-- *conductio*: hoje "condução", com nota que explica o par *locatio* / *conductio* (`t1-d001-s01` e `t1-d001-s03`). O Codex propôs "tomar em locação". Se o Pedro preferir outra forma, ela vale para todos os capítulos.
+- *conductio* (decisão do Pedro, 2026-11-26): fica "condução", sempre com nota que remete ao sentido jurídico antigo da palavra em português (o lado de quem toma em locação); entrada no glossário e nota padrão aplicadas em todos os capítulos em que a palavra aparece.
 
 ## Próximo passo
 
