@@ -12,7 +12,7 @@ Leia antes, uma vez por sessão: `CRITERIOS.md` (transcrição, registro e fidel
 ## Pré-checagem (uma vez por sessão)
 
 - `git pull --ff-only`, depois `node tools/validar.mjs` sem erro.
-- Motor: `python3 ~/.debates-ia/debates/preparar_rodada.py --versao` mostra 4.4.15-rbsa ou mais nova, e `--perfis` lista `traducao`. Se não, pare e peça a instalação do motor (`docs/producao.md`).
+- Motor: `python3 ~/.debates-ia/debates/preparar_rodada.py --versao` mostra 4.4.16-rbsa ou mais nova, e `--perfis` lista `traducao`. Se não, pare e peça a instalação do motor (`docs/producao.md`).
 - O PDF do volume, no caminho de `catalogo.json` → `volumes`, existe. Se não, baixe-o pelo Chrome (seção Fontes, no fim).
 
 ## 1. Escolher o capítulo
@@ -72,7 +72,7 @@ Siga o protocolo da skill `rbsa-debate` do plugin RBSA IA Legal System (motor em
 
 1. `node tools/debate.mjs aplicar <obra> <id> "<pasta>/entregas/<id-da-entrega>"`: devolve tradução, notas e correções de transcrição aos arquivos, marca `estado: debatida` e copia `registro.md` e `consumo.csv` para `debate/<obra>/<id>/`.
 2. Divergência que ficou registrada ou objeção INCONCLUSIVA: vira `@n` no trecho ("Ponto em aberto no debate: …", com as duas posições em uma linha cada).
-3. Grave `debate/<obra>/<id>/resumo.md`: objeções acolhidas e rejeitadas (uma linha cada, com o motivo), pontos em aberto, propostas de mudança de glossário e as leituras da transcrição marcadas com `[?]`. É o roteiro da revisão do Pedro.
+3. Grave `debate/<obra>/<id>/resumo.md`: objeções acolhidas e rejeitadas (uma linha cada, com o motivo), pontos em aberto, propostas de mudança de glossário, as leituras da transcrição marcadas com `[?]` e as **remissões não conferidas** que os revisores listaram (linha "Remissões não conferidas" das respostas, sem repetição), que ficam para a conferência humana. É o roteiro da revisão do Pedro.
 4. `node tools/validar.mjs` e `node tools/build.mjs` sem erro.
 5. Commit direto na `main` e push (decisão do Pedro: capítulos debatidos são publicados com o selo "debatida, aguardando revisão"): `git add -A obras debate && git commit -m "<obra> <id>: transcrição, tradução e debate" -m "<rodadas, estado final do decidir.py, pontos em aberto>" && git push`.
 

@@ -14,13 +14,14 @@ git config user.email "<o e-mail da sua conta do GitHub>"
 node tools/validar.mjs              # deve terminar com 0 erro(s)
 ```
 
-## 2. Motor do debate 4.4.15-rbsa (uma vez)
+## 2. Motor do debate 4.4.16-rbsa (uma vez)
 
-A 4.4.15-rbsa traz o perfil `traducao`, usado aqui; as demais funções são as da 4.4.14-rbsa.
+O perfil `traducao` entrou na 4.4.15-rbsa; a 4.4.16-rbsa ensina os revisores a registrar como não conferidas as remissões que não se abrem na web, em vez de travar o debate em INCONCLUSIVO. As demais funções são as da 4.4.14-rbsa.
 
 ```bash
-unzip debates-ia-linux-v4.4.15-rbsa.zip -d /tmp/debates && bash /tmp/debates/debates-ia/instalar.sh
+unzip debates-ia-linux-v4.4.16-rbsa.zip -d /tmp/debates && bash /tmp/debates/debates-ia/instalar.sh
 python3 ~/.debates-ia/debates/preparar_rodada.py --perfis   # deve listar traducao
+bash ~/.debates-ia/teste-traducao.sh                         # teste do perfil traducao com Codex e Gemini
 ```
 
 - **Codex**: já instalado na VM. No `~/.codex/config.toml`, deixe a linha `model = "…"` (sem ela, `MODEL_REQUIRED`).
