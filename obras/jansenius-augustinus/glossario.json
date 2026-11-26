@@ -178,5 +178,11 @@
     "formas": ["ratio voluntarii", "rationem voluntarii", "ratione voluntarii", "voluntarii rationem", "voluntarii, ac proinde peccati rationem"],
     "pt": ["razão de voluntário"],
     "nota": "\"Razão de voluntário\": o caráter formal pelo qual um ato ou estado é voluntário, condição do pecado em Agostinho (*De vera religione* 14). Do mesmo modo, *ratio peccati*, \"razão de pecado\" (livro I do *De statu naturae lapsae*, cap. 4)."
+  },
+  {
+    "lema": "indifferentia",
+    "formas": ["indifferentia", "indifferentiae", "indifferentiam"],
+    "pt": ["indiferença"],
+    "nota": "\"Indiferença\" (ao bem e ao mal, *ad bonum et malum*): a capacidade do arbítrio de inclinar-se a um ou a outro lado, que Adão tinha e que, para Jansênio, se perdeu na queda. *Indifferentia proxima*, \"indiferença próxima\" (livro III do *De statu naturae lapsae*, cap. 2)."
   }
 ]
