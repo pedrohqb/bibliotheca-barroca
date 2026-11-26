@@ -23,6 +23,10 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 - Lote do tratado I (pedido: 5 capítulos). `t1-d001-s01` (preâmbulo da disp. 1 e sec. 1, pp. 2–4): transcrição (10 trechos, conferida contra o scan) e tradução prontas, em `estado: rascunho`, **sem commit**, para não ir ao site antes do debate. Debate em `~/Documentos/Debates IA/2026-11-26-bib-t1-d001-s01/`: R1 congelada; Codex parou em LIMITE DE USO (tentativa `f4d9a072…`, sem resposta); Gemini aceito na R1 (mérito PENDENTE; resposta guardada na pasta do debate, a ler na retomada).
 - Consumo: Claude, sessão inteira cerca de US$ 7,12 a preço de API (debate do Proêmio, US$ 2,31); revisores em `debate/onate-de-contractibus/t1-d000-s00/consumo.csv`.
 
+## Decisão do Pedro sobre o debate (2026-11-26)
+
+O Codex segue com o modelo e o esforço padrão (`high`). Quando a única pendência de um revisor for a conferência de remissões que ele não consegue abrir (INCONCLUSIVO sem objeção de tradução), essa pendência não segura rodadas de mérito: vai para a rodada final, é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
+
 ## Pontos em aberto para o Pedro
 
 - Remissões do § 6 do Proêmio (Manuel Rodrigues, Filiarchi, Henríquez, a *Summa* no verbete *contractus*): a conferir na fonte, na revisão.
