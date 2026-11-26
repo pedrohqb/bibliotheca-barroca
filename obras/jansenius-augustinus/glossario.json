@@ -334,5 +334,17 @@
     "formas": ["vetustas", "vetustatis", "vetustate", "vetustatem"],
     "pt": ["vetustez"],
     "nota": "\"Vetustez\": a velhice do homem velho herdado de Adão (*vetustas carnis*, \"vetustez da carne\"), em oposição à *novitas*, \"novidade\", da regeneração (cf. Rm 6,4-6); *vetustus*, \"velho\". Livro I do *De statu naturae lapsae*, caps. 5 e 8."
+  },
+  {
+    "lema": "flagitium",
+    "formas": ["flagitium", "flagitia", "flagitiis", "flagitiorum"],
+    "pt": ["torpeza", "torpezas"],
+    "nota": "\"Torpeza\": o pecado que a cupidez comete para corromper o próprio sujeito, alma e corpo, em par com *facinus*, \"crime\", o que lesa o outro (Agostinho, *De doctrina christiana* 3,10,16; livro II do *De statu naturae lapsae*, cap. 8)."
+  },
+  {
+    "lema": "facinus",
+    "formas": ["facinus", "facinora", "facinoribus", "facinorum"],
+    "pt": ["crime", "crimes"],
+    "nota": "\"Crime\": o pecado com que se lesa o outro, em par com *flagitium*, \"torpeza\" (Agostinho, *De doctrina christiana* 3,10,16; livro II do *De statu naturae lapsae*, cap. 8). *Scelus* também foi vertido \"crime\" em capítulos anteriores; se aparecer em par com *facinus*, rever."
   }
 ]
