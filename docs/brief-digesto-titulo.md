@@ -63,8 +63,18 @@ Para cada sessão ou agente que produz títulos de `obras/iustinianus-digesta/`.
 | de officio proconsulis | Do ofício do procônsul |
 | de iure singulari | Do direito singular |
 | de portionibus, quae liberis damnatorum conceduntur | Das porções concedidas aos filhos dos condenados |
+| ex Cassio | Extratos de Cássio |
+| ex Plautio | Extratos de Plaucio |
+| differentiarum | Diferenças |
+| de officio consulis | Do ofício do cônsul |
+| rerum cottidianarum sive aureorum | Coisas cotidianas ou Áureos |
+| ex variis lectionibus | Leituras várias |
 
 Obra que não esteja na tabela: escolha a forma (título em português, sem "Livro de"), use-a e informe-a no relatório.
+
+## Formas já fixadas fora do glossário (use-as)
+
+*libertinus* e *libertus*: liberto · *ingenuus*: ingênuo · *adrogatio*, *adrogare*, *adrogator*: ad-rogação, ad-rogar, ad-rogante · *adoptio*: adoção · *emancipatio*: emancipação · *adgnatio*, *adgnatus*: agnação, agnado · *cognatio*, *cognatus*: cognação, cognado · *adfinitas*: afinidade · *suus heres*: herdeiro seu · *satisdatio*: satisdação · *cautio*: caução · *servus publicus*: escravo público · *actio utilis*: ação útil · *legis actio*: ação da lei · *postliminium*: pós-limínio · *pupillus*: pupilo · *impubes*: impúbere · *fideicommissum*: fideicomisso · *divi fratres*: os divinos irmãos · *res sacrae/religiosae/sanctae*: coisas sagradas/religiosas/santas · *universitas*: coletividade · *in bonis*: no patrimônio · *res corporales/incorporales*: coisas corpóreas/incorpóreas · *praedium*: prédio · *fundus*: terreno · *servitus* (predial): servidão; (da pessoa): escravidão · *praeses*: governador · *potestas*: poder · *patria potestas*: poder paterno · *pater/filius familias*: pai/filho de família · *iustae nuptiae*: justas núpcias · *vulgo concepti*: concebidos fora do casamento · *furiosus*: louco · *imperium*: poder de mando · *iurisdictio*: jurisdição · *edictum*: edito · *ius dicere/reddere*: declarar o direito · *in ius vocare*: chamar a juízo · *prudentes*: jurisconsultos · *res iudicata*: coisa julgada · *senatus consultum*: senatus-consulto · *princeps*: príncipe · *divus*: divino.
 
 ## Relatório final (curto)
 
