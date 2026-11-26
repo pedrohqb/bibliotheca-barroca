@@ -322,5 +322,11 @@
     "formas": ["excaecatio", "excaecationis", "excaecationem", "excaecatione"],
     "pt": ["obcecação"],
     "nota": "\"Obcecação\": a cegueira infligida por Deus, por justo juízo, em pena de pecados anteriores; o verbo *excaecare*, \"cegar\" (*excaecati*, \"cegados\"), para conservar o parentesco com *caecitas*, \"cegueira\" (livro II do *De statu naturae lapsae*, cap. 6)."
+  },
+  {
+    "lema": "gratia liberans",
+    "formas": ["gratia liberante", "gratiam liberantem", "gratia liberantis", "liberantis gratia", "gratiae liberatricis", "gratia liberatrice", "gratiam liberatricem"],
+    "pt": ["graça libertadora", "graça que liberta"],
+    "nota": "\"Graça libertadora\" (ou \"graça que liberta\", quando o particípio pede verbo): a graça de Cristo que torna livre o arbítrio cativo da concupiscência, *liberans, id est, liberum faciens* (livro III do *De statu naturae lapsae*, cap. 6). *Liberator*, \"libertador\"; *liberare*, \"libertar\"; *liberatio*, \"libertação\"."
   }
 ]
