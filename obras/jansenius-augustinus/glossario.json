@@ -132,6 +132,24 @@
     "nota": "\"Concupiscência\": o apetite desordenado que vem do pecado original. O adjetivo *concupiscentialis* vai como \"da concupiscência\" (cap. 10: *concupiscentialis rixae*, \"luta da concupiscência\")."
   },
   {
+    "lema": "reatus",
+    "formas": ["reatus", "reatum", "reatu", "reatui"],
+    "pt": ["reato"],
+    "nota": "\"Reato\", termo técnico da teologia: o estado de quem é réu de um pecado, que persiste depois de passado o ato. *Reatus culpae*, \"reato da culpa\"; *reatus poenae*, \"reato da pena\" (a sujeição ao castigo). O adjetivo *reus* vai como \"réu\"."
+  },
+  {
+    "lema": "ignorantia invincibilis",
+    "formas": ["ignorantia invincibilis", "ignorantiam invincibilem", "invincibili ignorantia", "ignorantia invincibili", "ignorantiae invincibilis"],
+    "pt": ["ignorância invencível"],
+    "nota": "\"Ignorância invencível\", a que nenhuma diligência humana pode superar; *ignorantia vincibilis*, \"ignorância vencível\". Na fórmula pelagiana, *ignorantia necessitatis, non voluntatis*: \"ignorância de necessidade, não de vontade\" (livro II do *De statu naturae lapsae*, cap. 2)."
+  },
+  {
+    "lema": "cupiditas",
+    "formas": ["cupiditas", "cupiditate", "cupiditatem", "cupiditatis", "cupiditates", "cupiditatibus", "cupiditatum"],
+    "pt": ["cupidez", "cupidezes"],
+    "nota": "\"Cupidez\": em Agostinho e Jansênio, o amor desordenado da criatura, oposto à caridade (*charitas*); termo técnico, distinto de *concupiscentia* (\"concupiscência\") e de *desiderium* (\"desejo\"). Já usado assim no cap. 7 do Livro proemial."
+  },
+  {
     "lema": "sacramentum",
     "formas": ["Sacramentum", "Sacramenti", "sacramentum", "sacramenti", "sacramento", "sacramenta", "sacramentorum", "sacramentis"],
     "pt": ["sacramento", "sacramentos"],
@@ -148,5 +166,17 @@
     "formas": ["Pelagiani", "Pelagianos", "Pelagianis", "Pelagianorum", "Pelagianus"],
     "pt": ["pelagianos", "pelagiano"],
     "nota": "\"Pelagianos\", com minúscula, como os demais nomes de seita em português (\"celestianos\", \"maniqueus\", \"semipelagianos\")."
+  },
+  {
+    "lema": "poena",
+    "formas": ["poena", "poenae", "poenam", "poenas", "poenis", "poenarum", "poenalis", "poenali", "poenalia"],
+    "pt": ["pena", "penas", "penal", "penais"],
+    "nota": "\"Pena\": o castigo do pecado, em especial as penas do pecado original (ignorância, concupiscência, morte), tema do livro II do *De statu naturae lapsae*. O adjetivo *poenalis*, \"penal\". *Supplicium* fica \"suplício\"."
+  },
+  {
+    "lema": "ratio voluntarii",
+    "formas": ["ratio voluntarii", "rationem voluntarii", "ratione voluntarii", "voluntarii rationem", "voluntarii, ac proinde peccati rationem"],
+    "pt": ["razão de voluntário"],
+    "nota": "\"Razão de voluntário\": o caráter formal pelo qual um ato ou estado é voluntário, condição do pecado em Agostinho (*De vera religione* 14). Do mesmo modo, *ratio peccati*, \"razão de pecado\" (livro I do *De statu naturae lapsae*, cap. 4)."
   }
 ]
