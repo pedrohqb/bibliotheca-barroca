@@ -90,7 +90,7 @@ for (const o of obras) {
 <p class="lead">${esc(o.meta.descricao)}</p>
 <dl class="ficha">
 <dt>Edição de base</dt><dd>${esc(b.titulo)}. ${esc(b.local)}: ${esc(b.impressor)}, ${esc(b.ano)}.</dd>
-<dt>Exemplar</dt><dd>${esc(b.exemplar)} (${esc(b.urn)})${b.nota ? '. ' + esc(b.nota) : ''}</dd>
+<dt>Exemplar</dt><dd>${esc(b.exemplar)}${b.urn ? ` (${esc(b.urn)})` : ''}${b.nota ? '. ' + esc(b.nota) : ''}</dd>
 ${o.meta.acrescimos?.descricao ? `<dt>Acréscimos</dt><dd>${esc(o.meta.acrescimos.descricao)}</dd>
 ` : ''}${o.meta.texto_latino ? `<dt>Texto latino</dt><dd>${formatar(o.meta.texto_latino)}</dd>
 ` : ''}${o.meta.traducoes_cotejadas?.length ? `<dt>Traduções cotejadas</dt><dd><ul class="cot">${o.meta.traducoes_cotejadas.map(t => `<li>${formatar(t)}</li>`).join('')}</ul></dd>
