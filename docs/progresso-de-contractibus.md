@@ -2,7 +2,7 @@
 
 ## Etapa atual
 
-**0. Fontes**, parada à espera do Pedro: a edição de base está identificada, mas a tradução (`.docx`) não foi encontrada, os PDFs entregues saíram da pasta e falta a parte primeira do tomo III.
+**0. Fontes**, parada à espera do Pedro: edição de base identificada e três dos quatro volumes baixados e conferidos; faltam a parte primeira do tomo III e a tradução (`.docx`).
 
 ## Sessões
 
@@ -19,11 +19,15 @@
   - `3.pdf`: tomo III, **parte segunda**, *De contractibus onerosis*, 800 p., tratados XXVIII–XXXV (1654, segundo o Google Books).
   - Por volta das 10:39 os três PDFs saíram da pasta, antes de serem copiados para `~/bibliotheca-fontes/` e antes de conferida a folha de rosto na imagem; só ficaram o `pdfinfo` e o OCR, no scratchpad da sessão.
   - Nenhum dos três traz texto em português: não são a edição bilíngue.
-- Parte primeira do tomo III (tratados XXI/XXII–XXVII, 1654): falta. No Google Books há dois volumes de 1654 com leitura completa, candidatos a essa parte: `LUJB2PCwEGYC` e `LmmRZSrTfgYC` (e ainda `m2YktiXcvf0C`, sem data na lista). A verificação anti-robô do Google (CAPTCHA) interrompeu a conferência; não foi contornada.
+- O Pedro recolocou os PDFs em `Troca IA/Obras/De contractibus - Oñate/` (mesmos tamanhos). Copiados para `~/bibliotheca-fontes/onate-de-contractibus/`, com `SHA256SUMS`:
+  - `tomo1-1646.pdf` (736 p.): folha de rosto conferida na imagem (p. 5 do PDF), *De contractibus tomi tres … Primus tomus. De contractibus in genere*, Romae, ex typographia Francisci Caballi, 1646. Cota BNCR 13.12.g.33. Na p. 6, o índice dos tratados da obra inteira: tomo I, 1–7; tomo II, 8–20; tomo III, 21–36.
+  - `tomo2-1647.pdf` (1090 p.): folha de rosto conferida (p. 5), *De contractibus lucrativis, tomus secundus*, Romae, Caballi, 1647. Cota 13.12.g.34. Tratados VIII–XX.
+  - `tomo3-parte2.pdf` (800 p.): falsa folha de rosto sem lugar nem data (p. 7), *De contractibus onerosis tomi tertii pars secunda*; o texto começa na p. 9 com o *Tractatus vigesimus octavus. De societatis contractu*. Cota 13.12.g.36. Tratados XXVIII–XXXVI.
+  - A impressão é paginada (o índice remete a páginas, e há letras de seção na margem): `"referencia": "pagina"`.
+- Parte primeira do tomo III (tratados XXI–XXVII, 1654): falta. O exemplar da BNCR deve ser a cota 13.12.g.35, pela sequência. No Google Books há dois volumes de 1654 com leitura completa, candidatos a essa parte: `LUJB2PCwEGYC` e `LmmRZSrTfgYC` (e ainda `m2YktiXcvf0C`, sem data na lista). A verificação anti-robô do Google (CAPTCHA) interrompeu a conferência; não foi contornada.
 
 ## Pontos em aberto para o Pedro
 
-- Os três PDFs: recolocá-los em `Troca IA/Obras/` ou noutro lugar, para a cópia em `~/bibliotheca-fontes/onate-de-contractibus/`.
 - A tradução: caminho dos `.docx` (três volumes) e do projeto Node da edição bilíngue. Sem eles, as etapas 1 e 2 não começam.
 - A parte primeira do tomo III: se o Pedro tiver o PDF, colocá-lo junto com os outros; se não, baixar por um dos ids do Google Books acima, numa sessão em que o Google não peça a verificação.
 
@@ -33,4 +37,4 @@ Nenhuma ainda (etapa 2).
 
 ## Próximo passo
 
-Com os PDFs de volta, copiá-los para `~/bibliotheca-fontes/onate-de-contractibus/` e conferir as folhas de rosto na imagem. Completar o tomo III com a parte primeira e confirmar pelos `.docx` que a tradução segue esta edição. Depois, a etapa 1 (importação).
+Completar o tomo III com a parte primeira e confirmar pelos `.docx` que a tradução segue esta edição. Depois, a etapa 1 (importação).
