@@ -370,5 +370,11 @@
     "formas": ["Massilienses", "Massiliensium", "Massiliensibus"],
     "pt": ["massilienses"],
     "nota": "\"Massilienses\", com minúscula: os monges de Marselha e do sul da Gália que criticaram a doutrina de Agostinho, depois chamados semipelagianos."
+  },
+  {
+    "lema": "necessitas peccandi",
+    "formas": ["necessitas peccandi", "peccandi necessitas", "necessitatem peccandi", "peccandi necessitatem", "necessitate peccandi", "peccandi necessitate", "necessitati peccandi", "peccandi necessitati"],
+    "pt": ["necessidade de pecar"],
+    "nota": "\"Necessidade de pecar\": no homem decaído antes da graça, a impossibilidade de se abster do pecado, que Jansênio, com Agostinho, apresenta como pena do primeiro pecado (livro III do *De statu naturae lapsae*, caps. 9 a 11). *Peccati necessitas*, \"necessidade do pecado\"; *necessitas mali*, \"necessidade do mal\"."
   }
 ]
