@@ -46,5 +46,29 @@
     "formas": ["damnatione", "damnatoque"],
     "pt": ["condenação", "condenado"],
     "nota": "\"Condenação\", no sentido teológico (a *massa damnata* agostiniana)."
+  },
+  {
+    "lema": "gratia medicinalis",
+    "formas": ["gratia medicinali", "gratia medicinalis", "gratiae medicinalis", "gratiam medicinalem"],
+    "pt": ["graça medicinal"],
+    "nota": "\"Graça medicinal\": a graça que cura a natureza decaída, por oposição à graça do estado de inocência. Termo agostiniano que estrutura a obra."
+  },
+  {
+    "lema": "charitas",
+    "formas": ["charitas", "charitatis", "charitatem", "charitate"],
+    "pt": ["caridade"],
+    "nota": "Sempre \"caridade\" (grafia da impressão: *charitas*); *amor* fica \"amor\" e *dilectio*, a fixar quando aparecer."
+  },
+  {
+    "lema": "mysterium",
+    "formas": ["mysterium", "mysteria", "mysteriis", "mysterii", "mysteriorum"],
+    "pt": ["mistério", "mistérios"],
+    "nota": "\"Mistério\", tanto no sentido de verdade revelada quanto no de sacramento (cap. 2: *mysteriis initiatus*)."
+  },
+  {
+    "lema": "recentiores",
+    "formas": ["recentiores", "recentiorum", "recentioribus"],
+    "pt": ["modernos"],
+    "nota": "\"Os modernos\": os escolásticos posteriores, em oposição aos antigos (Agostinho e seus discípulos). Termo polêmico de Jansênio; não é \"recentes\" no sentido cronológico neutro."
   }
 ]
