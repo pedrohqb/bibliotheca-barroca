@@ -352,5 +352,23 @@
     "formas": ["consensio", "consensionis", "consensionem", "consensione"],
     "pt": ["consentimento"],
     "nota": "\"Consentimento\": o ato da vontade que adere ao desejo (*consensio peccandi*, \"consentimento de pecar\"), sede da servidão ou da libertação do arbítrio (livro III do *De statu naturae lapsae*, cap. 7). *Consensus* também fica \"consentimento\"."
+  },
+  {
+    "lema": "status naturae innocentis",
+    "formas": ["status naturae innocentis", "statum naturae innocentis", "statu naturae innocentis"],
+    "pt": ["estado de natureza inocente"],
+    "nota": "\"Estado de natureza inocente\": o do primeiro homem e dos anjos antes da queda (livro único *De statu naturae innocentis*). Paralelos: *status purae naturae*, *status naturae lapsae* (\"estado de natureza decaída\"), *status naturae reparatae* (\"estado de natureza reparada\")."
+  },
+  {
+    "lema": "gratia actualis",
+    "formas": ["gratia actualis", "gratiae actualis", "gratiam actualem"],
+    "pt": ["graça atual"],
+    "nota": "\"Graça atual\": termo escolástico, a graça como auxílio que move a cada ato, em oposição à *gratia habitualis* (\"graça habitual\")."
+  },
+  {
+    "lema": "Massilienses",
+    "formas": ["Massilienses", "Massiliensium", "Massiliensibus"],
+    "pt": ["massilienses"],
+    "nota": "\"Massilienses\", com minúscula: os monges de Marselha e do sul da Gália que criticaram a doutrina de Agostinho, depois chamados semipelagianos."
   }
 ]
