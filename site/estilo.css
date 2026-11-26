@@ -88,6 +88,8 @@ h3.livro{font:600 20px/1.3 "EB Garamond",Garamond,serif;margin:22px 0 4px;color:
 .ficha{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px 18px;font-size:15px;margin:0 0 24px}
 .ficha dt{color:var(--mute);font:500 14px/1.6 Inter,system-ui,sans-serif}
 .ficha dd{margin:0}
+.ficha ul.cot{margin:0;padding-left:1.1em}
+.ficha ul.cot li{margin:0 0 4px}
 /* Busca */
 .busca input{width:100%;font-size:18px;padding:12px 14px;border:1px solid var(--mute);border-radius:8px;background:var(--bg);color:var(--ink)}
 .res{list-style:none;padding:0;margin:20px 0 0}

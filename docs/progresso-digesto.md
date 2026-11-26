@@ -32,4 +32,11 @@
 
 O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, obtidas na web, com OCR onde faltasse. Baixados: Hulot completo (7 tomos, BIU Cujas), Otto-Schilling-Sintenis (4 vols.) e García del Corral (3 tomos), com índices por título; Vignali só em parte (livros 20-23): os demais volumes estão no Google Books atrás de CAPTCHA. A instalação do tesseract foi bloqueada pela política da sessão; o OCR do Hulot é visual, por título, gravado em `apoio/ocr/hulot/`. D. 1.1 recotejado com Hulot, alemão e espanhol: sem mudança de sentido.
 
+## 2026-11-26 — italiano, OCR e revisão do D. 1.1
+
+- Vignali baixado do Google Books (CAPTCHAs resolvidos pelo Pedro): livros 1-23 e 44-50; faltam os volumes dos livros 24-43, ainda não localizados com visualização integral.
+- O Pedro instalou o tesseract (deu, fra, ita, lat, spa) e o ocrmypdf: OCR completo dos 7 tomos do Hulot em andamento.
+- Página da obra no site passa a listar o texto latino e as traduções cotejadas (`texto_latino` e `traducoes_cotejadas` em `obra.json`, exibidos por `tools/build.mjs`).
+- D. 1.1 revisto contra as seis traduções: *cuius merito* ("em razão dele"), *positiones* ("vertentes"), *affectantes* ("aspirando"), *nefas* ("ímpio"), *servit* ("se submete"), com notas sobre as divergências entre as traduções.
+
 **Próximo passo:** com o "pode seguir" do Pedro, D. 1.2 (*De origine iuris*, 3.469 palavras) em diante, livro I inteiro até o ponto de controle.

@@ -14,7 +14,7 @@
     "ano": 1889,
     "exemplar": "University of Toronto, digitalizado pelo Internet Archive",
     "urn": "archive.org/details/corpusjuriscivil01krueuoft",
-    "nota": "Edição estereotípica, texto de Mommsen (editio maior, 1868-1870). O latim foi tomado da transcrição digital de Y. Lassard e A. Koptev (The Roman Law Library, Universidade Grenoble Alpes), que segue Mommsen e Krueger, e é conferido contra a impressão de 1889, cuja leitura prevalece; o grego, transliterado na transcrição digital, é restituído da impressão. Cada trecho é um parágrafo do Digesto, citado pela numeração usual (D. livro.título.lei.parágrafo)."
+    "nota": "Edição estereotípica; texto de Mommsen (editio maior, Berlim, 1868-1870). Cada trecho é um parágrafo do Digesto, citado pela numeração usual (D. livro.título.lei.parágrafo)."
   },
   "idiomas": {
     "la": "Latim (Mommsen e Krueger)",
@@ -23,5 +23,14 @@
   "licenca": {
     "transcricao": "CC0 1.0",
     "traducao": "CC BY-SA 4.0"
-  }
+  },
+  "texto_latino": "Mommsen e Krueger, na transcrição digital de Y. Lassard e A. Koptev (*The Roman Law Library*, Universidade Grenoble Alpes), conferida contra a impressão de Berlim de 1889, cuja leitura prevalece; o grego, transliterado na transcrição digital, é restituído da impressão.",
+  "traducoes_cotejadas": [
+    "Francês: Henri Hulot e Jean-François Berthelot, *Les cinquante livres du Digeste ou des Pandectes de l'empereur Justinien*, 7 tomos (Metz e Paris, Behmer e Lamort, 1803-1805), exemplar da BIU Cujas.",
+    "Alemão: Carl Eduard Otto, Bruno Schilling e Carl Friedrich Ferdinand Sintenis (ed.), *Das Corpus Juris Civilis ins Deutsche übersetzt*, vols. 1-4 (Leipzig, Focke, 1830-1832; vol. 1 em 2. ed., 1839).",
+    "Italiano: Giovanni Vignali (ed.), *Corpo del diritto*, Digesto (Nápoles, Morelli, 1856-1862).",
+    "Espanhol: Ildefonso L. García del Corral, *Cuerpo del derecho civil romano*, 1ª parte, *Instituta* e *Digesto*, 3 tomos (Barcelona, Jaime Molinas, 1889-1897).",
+    "Inglês: Charles Henry Monro, *The Digest of Justinian*, 2 vols., livros 1 a 15 (Cambridge University Press, 1904-1909); Samuel Parsons Scott, *The Civil Law*, vols. II-XI (Cincinnati, Central Trust, 1932).",
+    "Cada capítulo indica, no cabeçalho, as traduções efetivamente cotejadas no título. A tradução portuguesa é feita do latim; as demais servem ao cotejo, e as divergências de sentido entre elas vão em nota."
+  ]
 }
