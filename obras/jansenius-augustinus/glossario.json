@@ -222,6 +222,12 @@
     "nota": "\"Luz da glória\", a luz pela qual os bem-aventurados veem a Deus (Livro proemial, cap. 17, § 7). *Lumen* sozinho fica \"luz\" (*naturalis et gratuiti luminis*, \"luz natural e luz gratuita\")."
   },
   {
+    "lema": "peccatum late sumptum",
+    "formas": ["peccatum late sumptum", "peccato late sumpto", "peccatis late sumptis", "peccata late sumpta"],
+    "pt": ["pecado tomado em sentido lato", "pecados tomados em sentido lato"],
+    "nota": "\"Pecado tomado em sentido lato\": na resposta dos modernos que Jansênio combate (livro IV do *De statu naturae lapsae*, cap. 2), o ato moralmente bom mas inútil para a vida eterna, que Agostinho chamaria \"pecado\" impropriamente. Opõe-se a *peccatum proprie* (ou *proprijssime*) *dictum*, \"pecado propriamente (propriíssimamente) dito\"."
+  },
+  {
     "lema": "officium",
     "formas": ["officium", "officii", "officio", "officia"],
     "pt": ["ofício", "ofícios"],
@@ -234,9 +240,21 @@
     "nota": "\"Fruir\" (amar uma coisa por si mesma, como fim), por oposição a *uti*, \"usar\" (referi-la a outra coisa): a distinção de *De doctrina christiana*, livro 1. Com criatura como complemento, \"fruir de\" e \"usar de\". Livro IV do *De statu naturae lapsae*, cap. 3."
   },
   {
-    "lema": "peccatum late sumptum",
-    "formas": ["peccatum late sumptum", "peccato late sumpto", "peccatis late sumptis", "peccata late sumpta"],
-    "pt": ["pecado tomado em sentido lato", "pecados tomados em sentido lato"],
-    "nota": "\"Pecado tomado em sentido lato\": na resposta dos modernos que Jansênio combate (livro IV do *De statu naturae lapsae*, cap. 2), o ato moralmente bom mas inútil para a vida eterna, que Agostinho chamaria \"pecado\" impropriamente. Opõe-se a *peccatum proprie* (ou *proprijssime*) *dictum*, \"pecado propriamente (propriíssimamente) dito\"."
+    "lema": "traductio",
+    "formas": ["traductio", "traductionis", "traductionem", "traductione", "traducente"],
+    "pt": ["transmissão", "transmite", "transmitir"],
+    "nota": "\"Transmissão\" (do pecado original, de Adão aos descendentes): *traductio peccati*, *tradux peccati*; o verbo *traducere*, \"transmitir\". Distinto de *transfusio*, \"transfusão\", e de *propagatio*, \"propagação\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
+  },
+  {
+    "lema": "transfusio",
+    "formas": ["transfusio", "transfusionis", "transfusionem", "transfusione", "transfundenda"],
+    "pt": ["transfusão", "transfundir"],
+    "nota": "\"Transfusão\" (do pecado ou da natureza, de Adão aos descendentes); o verbo *transfundere*, \"transfundir\". Mantido distinto de *traductio*, \"transmissão\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
+  },
+  {
+    "lema": "dominatus",
+    "formas": ["dominatus", "dominatu", "dominatum"],
+    "pt": ["domínio"],
+    "nota": "\"Domínio\": o senhorio da concupiscência (ou da iniquidade, do pecado) e do diabo sobre o arbítrio antes da graça (livro III do *De statu naturae lapsae*, cap. 4). O verbo *dominari*, \"dominar\"; *dominus*, \"senhor\"."
   }
 ]
