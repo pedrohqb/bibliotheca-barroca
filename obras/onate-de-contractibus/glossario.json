@@ -374,5 +374,27 @@
       "compensação"
     ],
     "nota": "\"Compensação\" de dívidas recíprocas."
+  },
+  {
+    "lema": "mutuum / mutuus",
+    "formas": [
+      "mutuum",
+      "mutuo",
+      "mutui",
+      "mutuus",
+      "mutuos",
+      "mutuis",
+      "mutuam",
+      "mutua"
+    ],
+    "pt": [
+      "mútuo",
+      "mútuos",
+      "recíproco",
+      "recíprocos",
+      "recíproca",
+      "recíprocas"
+    ],
+    "nota": "Duas acepções (decisão do Pedro, 2026-11-26): *mutuum*, o contrato de empréstimo de coisa fungível, \"mútuo\"; *mutuus* no sentido de obrigações de ambas as partes (*contractus mutuus*, *obligatio mutua*), \"recíproco\". *Reciprocus*, quando aparece ao lado, também \"recíproco\", com o latim entre parênteses."
   }
 ]
