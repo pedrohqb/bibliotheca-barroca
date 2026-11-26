@@ -40,6 +40,10 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 - A seção "Remissões não acessíveis" entra no caso de todos os debates (`debate/caso-criterios.md`, todas as obras): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO e fica para a revisão do Pedro.
 - **A partir do `t1-d001-s05`, debates com duas rodadas** (`--max-rodadas 2`): a R1 completa e a R2 já como final, em que os revisores conferem as correções. Motivo: cada rodada do Codex consome cerca de 10% da janela de 5 horas; nos cinco capítulos debatidos, as objeções de tradução surgiram na R1, e as R3 e R4 não trouxeram nenhuma objeção nova de tradução. Erro numa correção feita na R2 que a final apontar vai ao resumo como divergência (ou "acolhida, não aplicada") para o Pedro decidir.
 
+## Teste do Codex em esforço `medium` (decisão do Pedro, 2026-11-26)
+
+Do `t1-d001-s07` ao `t1-d001-s09`, o Codex roda com `--esforco medium` nas duas rodadas; o Gemini não muda. Os capítulos `t1-d000-s00` a `t1-d001-s06` foram em `high` e servem de comparação. Critério: se o `medium` deixar passar erros de sentido que o `high` pegaria, volta-se ao `high`; se só deixar de conferir remissões (que já ficam para a revisão do Pedro), fica o `medium`. Medir: objeções do Codex na R1 (número e tipo), erros de sentido achados só pelo Gemini, tokens e buscas do Codex, e o consumo da janela de 5 horas informado pelo Pedro.
+
 ## Pontos em aberto para o Pedro
 
 - Revisão dos cinco capítulos publicados, pelos `resumo.md` (remissões a conferir na fonte; leituras com `[?]`).
