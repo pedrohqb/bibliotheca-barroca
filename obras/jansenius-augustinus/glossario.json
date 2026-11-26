@@ -328,5 +328,11 @@
     "formas": ["gratia liberante", "gratiam liberantem", "gratia liberantis", "liberantis gratia", "gratiae liberatricis", "gratia liberatrice", "gratiam liberatricem"],
     "pt": ["graça libertadora", "graça que liberta"],
     "nota": "\"Graça libertadora\" (ou \"graça que liberta\", quando o particípio pede verbo): a graça de Cristo que torna livre o arbítrio cativo da concupiscência, *liberans, id est, liberum faciens* (livro III do *De statu naturae lapsae*, cap. 6). *Liberator*, \"libertador\"; *liberare*, \"libertar\"; *liberatio*, \"libertação\"."
+  },
+  {
+    "lema": "vetustas",
+    "formas": ["vetustas", "vetustatis", "vetustate", "vetustatem"],
+    "pt": ["vetustez"],
+    "nota": "\"Vetustez\": a velhice do homem velho herdado de Adão (*vetustas carnis*, \"vetustez da carne\"), em oposição à *novitas*, \"novidade\", da regeneração (cf. Rm 6,4-6); *vetustus*, \"velho\". Livro I do *De statu naturae lapsae*, caps. 5 e 8."
   }
 ]
