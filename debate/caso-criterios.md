@@ -13,6 +13,14 @@
 
 É material o que leva o leitor a entender outra coisa que o latim diz: erro de sentido, termo técnico impreciso, fora do glossário ou vertido de formas diferentes ao longo do texto, remissão errada, nota enganosa, jogo de palavras perdido sem nota. Também é material o desvio do registro pedido que atrapalha a leitura: arcaísmo, construção latinizante, frase que só se entende relendo o latim. Não é material a preferência de estilo que não muda sentido, registro nem clareza.
 
+## Remissões não acessíveis
+
+A conferência das remissões na fonte é feita pelo tradutor, na revisão, antes de a tradução passar a `revisada`. Neste debate:
+
+- confira as remissões que uma fonte pública permitir abrir; remissão errada, com evidência, é objeção material;
+- remissão que você não conseguir abrir (acesso recusado, obra não digitalizada, edição ou capítulo não localizado) não sustenta objeção nem `STATUS: INCONCLUSIVO`: registre-a numa linha, "Remissões não conferidas: …", e siga com a revisão da tradução;
+- não repita, em rodada posterior, a busca de uma remissão que você já registrou como não conferida.
+
 ## O que se pede
 
 Revisão da tradução, trecho a trecho, pelo perfil de regras `traducao`.

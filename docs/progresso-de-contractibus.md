@@ -27,7 +27,7 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 O Codex segue com o modelo e o esforço padrão (`high`). Pendência que seja só a conferência de remissões que o revisor não consegue abrir (INCONCLUSIVO sem objeção de tradução) não deve segurar rodadas: é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
 
-Como aplicar (decisão do Pedro, mantidas as 4 rodadas): o caso de cada debate desta obra traz a seção "Remissões não acessíveis" (`obras/onate-de-contractibus/caso-extra.md`, que o `tools/debate.mjs preparar` junta ao caso desde 2026-11-26): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO, vai numa linha "Remissões não conferidas" e não se busca de novo nas rodadas seguintes.
+Como aplicar (decisão do Pedro, mantidas as 4 rodadas): o caso de cada debate traz a seção "Remissões não acessíveis" (`debate/caso-criterios.md`, para todas as obras, a pedido do Pedro, desde 2026-11-26): remissão que o revisor não consegue abrir não sustenta objeção nem INCONCLUSIVO, vai numa linha "Remissões não conferidas" e não se busca de novo nas rodadas seguintes.
 
 ## Pontos em aberto para o Pedro
 
