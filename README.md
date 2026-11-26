@@ -11,6 +11,7 @@ Planos de produção, com o prompt de cada sessão:
 - Jansênio, *Augustinus*: [docs/plano-augustinus.md](docs/plano-augustinus.md)
 - Pedro de Oñate, *De Contractibus* (tradução nova, a partir da edição de Roma): [docs/plano-de-contractibus.md](docs/plano-de-contractibus.md)
 - Diego de Covarrubias, *Opera omnia* (Antuérpia, 1610, começando pelas *relectiones* sobre boa-fé, pactos e restituição): [docs/plano-covarrubias.md](docs/plano-covarrubias.md)
+- Justiniano, *Digesto* (latim de Mommsen e Krueger, Berlim, 1889; tradução sem debate, com traduções de apoio): [docs/plano-digesto.md](docs/plano-digesto.md)
 
 ## Estrutura
 

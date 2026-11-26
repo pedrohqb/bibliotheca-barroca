@@ -1,0 +1,27 @@
+{
+  "id": "iustinianus-digesta",
+  "autor": "Iustinianus Augustus",
+  "autor_pt": "Justiniano",
+  "titulo": "Digesta",
+  "titulo_pt": "Digesto",
+  "descricao": "O Digesto ou Pandectas de Justiniano (533): cinquenta livros de excertos dos jurisconsultos romanos, de Quinto Múcio a Modestino, organizados por títulos. Base do direito civil europeu e brasileiro. Latim da edição de Mommsen e Krueger; tradução portuguesa nova, título a título.",
+  "referencia": "lei",
+  "edicao_base": {
+    "titulo": "Corpus iuris civilis. Volumen primum: Institutiones, recognovit Paulus Krueger; Digesta, recognovit Theodorus Mommsen",
+    "local": "Berolini",
+    "local_pt": "Berlim",
+    "impressor": "apud Weidmannos",
+    "ano": 1889,
+    "exemplar": "University of Toronto, digitalizado pelo Internet Archive",
+    "urn": "archive.org/details/corpusjuriscivil01krueuoft",
+    "nota": "Edição estereotípica, texto de Mommsen (editio maior, 1868-1870). O latim foi tomado da transcrição digital de Y. Lassard e A. Koptev (The Roman Law Library, Universidade Grenoble Alpes), que segue Mommsen e Krueger, e é conferido contra a impressão de 1889, cuja leitura prevalece; o grego, transliterado na transcrição digital, é restituído da impressão. Cada trecho é um parágrafo do Digesto, citado pela numeração usual (D. livro.título.lei.parágrafo)."
+  },
+  "idiomas": {
+    "la": "Latim (Mommsen e Krueger)",
+    "pt": "Português"
+  },
+  "licenca": {
+    "transcricao": "CC0 1.0",
+    "traducao": "CC BY-SA 4.0"
+  }
+}

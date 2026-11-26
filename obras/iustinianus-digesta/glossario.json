@@ -1,0 +1,396 @@
+[
+ {
+  "lema": "ius",
+  "formas": [
+   "ius",
+   "iuris",
+   "iuri",
+   "iure"
+  ],
+  "pt": [
+   "direito"
+  ],
+  "nota": "Sempre \"direito\", no sentido objetivo (ordem jurídica) e no subjetivo (*ius cognationis*, \"direito de cognação\"). O sentido de lugar do tribunal (*in ius vocare*) é explicado em nota."
+ },
+ {
+  "lema": "iustitia",
+  "formas": [
+   "iustitia",
+   "iustitiam",
+   "iustitiae"
+  ],
+  "pt": [
+   "justiça"
+  ],
+  "nota": "\"Justiça\"."
+ },
+ {
+  "lema": "aequum",
+  "formas": [
+   "aequum",
+   "aequi",
+   "aequo",
+   "aequitas",
+   "aequitatem",
+   "aequitate",
+   "aequitatis"
+  ],
+  "pt": [
+   "equitativo",
+   "equidade"
+  ],
+  "nota": "*Aequum* (neutro substantivado), \"o equitativo\"; *aequitas*, \"equidade\". *Bonum et aequum*, \"o bom e o equitativo\"."
+ },
+ {
+  "lema": "ius naturale",
+  "formas": [
+   "ius naturale",
+   "iuris naturalis",
+   "iure naturali",
+   "naturali iure"
+  ],
+  "pt": [
+   "direito natural"
+  ],
+  "nota": "\"Direito natural\"."
+ },
+ {
+  "lema": "ius gentium",
+  "formas": [
+   "ius gentium",
+   "iuris gentium",
+   "iure gentium"
+  ],
+  "pt": [
+   "direito das gentes"
+  ],
+  "nota": "\"Direito das gentes\" (não \"direito internacional\")."
+ },
+ {
+  "lema": "ius civile",
+  "formas": [
+   "ius civile",
+   "iuris civilis",
+   "iure civili",
+   "iuri civili"
+  ],
+  "pt": [
+   "direito civil"
+  ],
+  "nota": "\"Direito civil\": o direito próprio da cidade (*civitas*), em oposição ao das gentes e ao honorário."
+ },
+ {
+  "lema": "ius honorarium",
+  "formas": [
+   "ius honorarium",
+   "iuris honorarii",
+   "iure honorario"
+  ],
+  "pt": [
+   "direito honorário"
+  ],
+  "nota": "\"Direito honorário\"; *ius praetorium*, \"direito pretoriano\"."
+ },
+ {
+  "lema": "praetor",
+  "formas": [
+   "praetor",
+   "praetorem",
+   "praetoris",
+   "praetori",
+   "praetores",
+   "praetorum"
+  ],
+  "pt": [
+   "pretor"
+  ],
+  "nota": "\"Pretor\"."
+ },
+ {
+  "lema": "senatus consultum",
+  "formas": [
+   "senatus consultum",
+   "senatus consulto",
+   "senatus consulti",
+   "senatus consulta",
+   "senatus consultis",
+   "senatus consultorum"
+  ],
+  "pt": [
+   "senatus-consulto"
+  ],
+  "nota": "\"Senatus-consulto\", plural \"senatus-consultos\"."
+ },
+ {
+  "lema": "prudentes",
+  "formas": [
+   "prudentium",
+   "prudentes"
+  ],
+  "pt": [
+   "jurisconsultos"
+  ],
+  "nota": "*Prudentes* (substantivo), \"jurisconsultos\"; *iuris prudentia*, \"jurisprudência\", com nota sobre o sentido antigo."
+ },
+ {
+  "lema": "manumissio",
+  "formas": [
+   "manumissio",
+   "manumissionem",
+   "manumissione",
+   "manumissionis",
+   "manumissiones"
+  ],
+  "pt": [
+   "manumissão"
+  ],
+  "nota": "\"Manumissão\"; *manumittere*, \"manumitir\"; *manumissus*, \"manumitido\"."
+ },
+ {
+  "lema": "servus",
+  "formas": [
+   "servus",
+   "servum",
+   "servi",
+   "servo",
+   "servorum",
+   "servis",
+   "servos"
+  ],
+  "pt": [
+   "escravo"
+  ],
+  "nota": "\"Escravo\"; *servitus* da pessoa, \"servidão\" (no sentido de escravidão), distinta da servidão predial pelo contexto."
+ },
+ {
+  "lema": "libertus",
+  "formas": [
+   "libertus",
+   "libertum",
+   "liberti",
+   "liberto",
+   "libertorum",
+   "libertis",
+   "libertos"
+  ],
+  "pt": [
+   "liberto"
+  ],
+  "nota": "\"Liberto\": o escravo manumitido."
+ },
+ {
+  "lema": "dominium",
+  "formas": [
+   "dominium",
+   "dominii",
+   "dominio",
+   "dominia",
+   "dominiorum"
+  ],
+  "pt": [
+   "domínio"
+  ],
+  "nota": "\"Domínio\" (propriedade)."
+ },
+ {
+  "lema": "obligatio",
+  "formas": [
+   "obligatio",
+   "obligationem",
+   "obligatione",
+   "obligationis",
+   "obligationes",
+   "obligationibus",
+   "obligationum"
+  ],
+  "pt": [
+   "obrigação",
+   "obrigações"
+  ],
+  "nota": "\"Obrigação\"."
+ },
+ {
+  "lema": "emptio venditio",
+  "formas": [
+   "emptio venditio",
+   "emptiones venditiones",
+   "emptionis venditionis",
+   "emptione venditione"
+  ],
+  "pt": [
+   "compra e venda",
+   "compras e vendas"
+  ],
+  "nota": "\"Compra e venda\"."
+ },
+ {
+  "lema": "locatio conductio",
+  "formas": [
+   "locatio conductio",
+   "locationes conductiones",
+   "locationis conductionis",
+   "locatione conductione"
+  ],
+  "pt": [
+   "locação",
+   "locações"
+  ],
+  "nota": "\"Locação\" (abrange coisas, serviços e obra)."
+ },
+ {
+  "lema": "stipulatio",
+  "formas": [
+   "stipulatio",
+   "stipulationem",
+   "stipulatione",
+   "stipulationis",
+   "stipulationes",
+   "stipulationibus"
+  ],
+  "pt": [
+   "estipulação"
+  ],
+  "nota": "\"Estipulação\": a promessa solene, por pergunta e resposta."
+ },
+ {
+  "lema": "pactum",
+  "formas": [
+   "pactum",
+   "pacti",
+   "pacto",
+   "pacta",
+   "pactis",
+   "pactorum"
+  ],
+  "pt": [
+   "pacto"
+  ],
+  "nota": "\"Pacto\"; *pactum conventum*, \"pacto convencionado\"."
+ },
+ {
+  "lema": "actio",
+  "formas": [
+   "actio",
+   "actionem",
+   "actione",
+   "actionis",
+   "actiones",
+   "actionibus",
+   "actionum"
+  ],
+  "pt": [
+   "ação"
+  ],
+  "nota": "\"Ação\"; o nome de cada ação vai em latim na primeira ocorrência do título, com tradução (ex.: *actio empti*, \"ação de compra\")."
+ },
+ {
+  "lema": "exceptio",
+  "formas": [
+   "exceptio",
+   "exceptionem",
+   "exceptione",
+   "exceptionis",
+   "exceptiones"
+  ],
+  "pt": [
+   "exceção"
+  ],
+  "nota": "\"Exceção\" (meio de defesa processual)."
+ },
+ {
+  "lema": "bona fides",
+  "formas": [
+   "bona fides",
+   "bonam fidem",
+   "bona fide",
+   "bonae fidei"
+  ],
+  "pt": [
+   "boa-fé"
+  ],
+  "nota": "\"Boa-fé\"; *iudicia bonae fidei*, \"ações de boa-fé\"."
+ },
+ {
+  "lema": "dolus",
+  "formas": [
+   "dolus",
+   "dolum",
+   "dolo",
+   "doli"
+  ],
+  "pt": [
+   "dolo"
+  ],
+  "nota": "\"Dolo\"."
+ },
+ {
+  "lema": "heres",
+  "formas": [
+   "heres",
+   "heredem",
+   "heredis",
+   "heredi",
+   "heredes",
+   "heredibus",
+   "heredum"
+  ],
+  "pt": [
+   "herdeiro"
+  ],
+  "nota": "\"Herdeiro\"; *hereditas*, \"herança\"."
+ },
+ {
+  "lema": "legatum",
+  "formas": [
+   "legatum",
+   "legati",
+   "legato",
+   "legata",
+   "legatis",
+   "legatorum"
+  ],
+  "pt": [
+   "legado"
+  ],
+  "nota": "\"Legado\" (disposição testamentária). Cuidado com *legatus*, o enviado ou legado do procônsul."
+ },
+ {
+  "lema": "possessio",
+  "formas": [
+   "possessio",
+   "possessionem",
+   "possessione",
+   "possessionis",
+   "possessiones"
+  ],
+  "pt": [
+   "posse"
+  ],
+  "nota": "\"Posse\"; *possessor*, \"possuidor\"."
+ },
+ {
+  "lema": "usus fructus",
+  "formas": [
+   "usus fructus",
+   "usum fructum",
+   "usu fructu",
+   "usus fructu"
+  ],
+  "pt": [
+   "usufruto"
+  ],
+  "nota": "\"Usufruto\"."
+ },
+ {
+  "lema": "tutela",
+  "formas": [
+   "tutela",
+   "tutelam",
+   "tutelae"
+  ],
+  "pt": [
+   "tutela"
+  ],
+  "nota": "\"Tutela\"; *tutor*, \"tutor\"; *pupillus*, \"pupilo\". Em D. 1.1.3 (*ob tutelam corporis*) a palavra tem o sentido comum de proteção, e a tradução o diz."
+ }
+]
