@@ -40,6 +40,9 @@ ${scripts}
 </html>
 `;
 
+// Acréscimos de editor posterior (@a): a âncora {aN} vira chamada sobrescrita que leva ao rodapé do trecho, na mesma coluna.
+const chamadas = (html, tid, lg) => html.replace(/\s*\{a(\d+)\}/g, (_, n) => `<sup class="ac"><a href="#${tid}-${lg}-a${n}" id="${tid}-${lg}-c${n}" title="Acréscimo ${n}">a${n}</a></sup>`);
+const rodape = (lista, tid, lg, rot, gl) => lista.map((a, k) => `<div class="ac" id="${tid}-${lg}-a${k + 1}"><b><a href="#${tid}-${lg}-c${k + 1}">a${k + 1}</a> ${esc(rot)}</b>${formatar(a, gl)}</div>`).join('');
 const escrever = (rel, html) => { const f = path.join(SAIDA, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
@@ -86,7 +89,8 @@ for (const o of obras) {
 <dl class="ficha">
 <dt>Edição de base</dt><dd>${esc(b.titulo)}. ${esc(b.local)}: ${esc(b.impressor)}, ${esc(b.ano)}.</dd>
 <dt>Exemplar</dt><dd>${esc(b.exemplar)} (${esc(b.urn)})${b.nota ? '. ' + esc(b.nota) : ''}</dd>
-<dt>Licenças</dt><dd>Transcrição: ${esc(o.meta.licenca.transcricao)}. Tradução: ${esc(o.meta.licenca.traducao)}.</dd>
+${o.meta.acrescimos?.descricao ? `<dt>Acréscimos</dt><dd>${esc(o.meta.acrescimos.descricao)}</dd>
+` : ''}<dt>Licenças</dt><dd>Transcrição: ${esc(o.meta.licenca.transcricao)}. Tradução: ${esc(o.meta.licenca.traducao)}.</dd>
 </dl>
 <h2>Capítulos</h2>
 ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
@@ -99,6 +103,8 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
     const la = c.la, pt = c.pt;
     const scan = la.meta.scan;
     const ant = o.capitulos[ci - 1], prox = o.capitulos[ci + 1];
+    const rotAc = o.meta.acrescimos?.rotulo || 'Acréscimo';
+    const temAc = la.trechos.some(t => t.acrescimos.length);
     const linhas = la.trechos.map((t, i) => {
       const p = pt?.trechos[i];
       const num = t.id.slice(1);
@@ -106,8 +112,8 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
       if (p) indice.push({ obra: o.meta.titulo, cap: nomeCap(c), url: `${o.id}/${c.id}.html`, id: t.id, lg: 'pt', txt: textoPlano(p.texto) });
       return `<div class="t${t.paragrafo ? ' par' : ''}" id="${t.id}">
 <div class="gut"><a class="n" href="#${t.id}" title="Copiar o link deste trecho">§ ${num}</a>${t.col ? `<a class="c" href="${esc(scan || '#')}" title="Abrir o scan (${REF[o.meta.referencia] || 'col.'} ${esc(t.col)})">${REF[o.meta.referencia] || 'col.'} ${esc(t.col)}</a>` : ''}</div>
-<div class="la" lang="la"><p>${formatar(t.texto, o.glossario)}</p>${t.margem.map(m => `<div class="mg">${formatar(m)}</div>`).join('')}</div>
-<div class="pt">${p ? `<p>${formatar(p.texto)}</p>${p.notas.map(n => `<div class="nt"><b>Nota</b>${formatar(n)}</div>`).join('')}` : '<p class="nt">Tradução ainda não feita.</p>'}</div>
+<div class="la" lang="la"><p>${chamadas(formatar(t.texto, o.glossario), t.id, 'la')}</p>${t.margem.map(m => `<div class="mg">${formatar(m)}</div>`).join('')}${rodape(t.acrescimos, t.id, 'la', rotAc, o.glossario)}</div>
+<div class="pt">${p ? `<p>${chamadas(formatar(p.texto), t.id, 'pt')}</p>${rodape(p.acrescimos, t.id, 'pt', rotAc)}${p.notas.map(n => `<div class="nt"><b>Nota</b>${formatar(n)}</div>`).join('')}` : '<p class="nt">Tradução ainda não feita.</p>'}</div>
 </div>`;
     }).join('\n');
     const usados = o.glossario.filter(g => la.trechos.some(t => g.formas.some(f => new RegExp(`(?<![\\p{L}])${f}(?![\\p{L}])`, 'u').test(t.texto))));
@@ -117,7 +123,8 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
       trilha: `<span class="trilha"><a href="index.html">${esc(o.meta.titulo)}</a> · ${esc(nomeCap(c))}</span>`,
       extra: `<div class="seg ui" role="group" aria-label="Texto exibido">
 <button type="button" data-vista="ambos" aria-pressed="true">Latim e português</button><button type="button" data-vista="la" aria-pressed="false">Latim</button><button type="button" data-vista="pt" aria-pressed="false">Português</button></div>
-<label class="chk ui"><input type="checkbox" id="ver-notas" checked> Notas</label>
+<label class="chk ui"><input type="checkbox" id="ver-notas" checked> Notas</label>${temAc ? `
+<label class="chk ui"><input type="checkbox" id="ver-acr" checked> Acréscimos</label>` : ''}
 <label class="chk ui"><input type="checkbox" id="ver-glos" checked> Glossário</label>`,
       corpo: `<main class="wrap">
 <div class="cab">

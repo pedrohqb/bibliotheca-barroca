@@ -27,6 +27,7 @@
   };
   alternar('ver-notas', 'sem-notas', 'notas');
   alternar('ver-glos', 'sem-glos', 'glos');
+  alternar('ver-acr', 'sem-acr', 'acr');
 
   // Balão do glossário
   const dadosEl = document.getElementById('glossario');

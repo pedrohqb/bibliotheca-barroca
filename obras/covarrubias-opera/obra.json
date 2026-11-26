@@ -1,0 +1,31 @@
+{
+  "id": "covarrubias-opera",
+  "autor": "Didacus Covarruvias a Leyva",
+  "autor_pt": "Diego de Covarrubias y Leyva",
+  "titulo": "Opera omnia",
+  "titulo_pt": "Obras completas",
+  "descricao": "As obras do canonista de Salamanca, bispo de Segóvia e presidente do Conselho de Castela: as relectiones sobre a boa-fé na prescrição (Possessor malae fidei), o juramento e os pactos (Quamvis pactum) e a restituição (Peccatum), os comentários sobre testamentos e matrimônio, as Variae resolutiones e as Practicae quaestiones. Ponte entre o direito comum e a teologia moral da escolástica.",
+  "referencia": "pagina",
+  "edicao_base": {
+    "titulo": "Didaci Covarruvias a Leyva Toletani Episcopi Segobiensis Opera omnia",
+    "local": "Antverpiae",
+    "local_pt": "Antuérpia",
+    "impressor": "Keerbergius",
+    "ano": 1610,
+    "exemplar": "Erzbischöfliche Akademische Bibliothek Paderborn (Bibliotheca Theodoriana), digitalizado pela Universitätsbibliothek Paderborn",
+    "urn": "urn:nbn:de:hbz:466:1-96556",
+    "nota": "Dois tomos em fólio, paginados; tomo I: urn:nbn:de:hbz:466:1-96556; tomo II: urn:nbn:de:hbz:466:1-96570. Edição póstuma, aumentada por Pieter Cornelis van Brederode; os acréscimos dele vão em rodapé"
+  },
+  "acrescimos": {
+    "rotulo": "Acréscimo de Brederode",
+    "descricao": "Inserções de Pieter Cornelis van Brederode na edição de Antuérpia (1610), marcadas na impressão com um sinal próprio. Não são do Covarrubias: saem do corpo do texto e ficam no rodapé do trecho, no latim e na tradução, com chamada (a1, a2…) no ponto em que estavam."
+  },
+  "idiomas": {
+    "la": "Latim (transcrição normalizada)",
+    "pt": "Português"
+  },
+  "licenca": {
+    "transcricao": "CC0 1.0",
+    "traducao": "CC BY-SA 4.0"
+  }
+}

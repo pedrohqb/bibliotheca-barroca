@@ -1,0 +1,6 @@
+## Particularidades desta obra
+
+- Diego de Covarrubias y Leyva (1512–1577), canonista de Salamanca. As *relectiones* comentam uma regra ou um capítulo do *Liber Sextus* e argumentam por alegações: leis do Digesto e do Código, cânones do Decreto e das Decretais, glosas e doutores (Bártolo, Baldo, o Abade Panormitano, Felino, Decio…).
+- As alegações ficam na forma do original (*l. si quis pro eo, ff. de fideiuss.*; *c. quamvis pactum, de pactis, in 6*), sem tradução, como no *De Contractibus* desta Bibliotheca; nomes de doutores vão na forma portuguesa corrente quando há (Bártolo, Baldo). Explicação de sigla ou de alegação obscura vai em nota.
+- A dupla *forum conscientiae* / *forum exterius* (ou *iudiciale*) é central e terá forma fixa no glossário (desde a calibração); quando o texto passa de um foro ao outro, a tradução não pode apagar a passagem.
+- Acréscimos de Brederode (edição de Antuérpia, 1610): não são do autor. Ficam fora do corpo do trecho, com âncora {a1}, {a2}… no ponto em que estavam, e vêm na minuta como **Acréscimo latino.** e **Acréscimo traduzido.**. Revise a tradução deles com os mesmos critérios; não discuta se pertencem ao texto (isso foi decidido na transcrição, pela marca da impressão).

@@ -41,7 +41,8 @@ Leia os recortes na ordem (coluna 1 de cima para baixo, depois a 2) com a ferram
 - comece no título do capítulo e pare antes do título do seguinte;
 - trechos (`@sN <coluna><seção>`) de uma a três frases, 60 a 250 palavras, cortados em fim de frase; a coluna é a do início do trecho e a seção (A, B) a da letra na margem da impressão;
 - `@p` antes do trecho que abre parágrafo; `@m` para cada nota marginal, como impressa, presa ao trecho a que se refere;
-- itálico da impressão em `*…*`; leitura duvidosa com `[?]`.
+- itálico da impressão em `*…*`; leitura duvidosa com `[?]`;
+- acréscimo de editor posterior marcado na impressão (obra com `acrescimos` em `obra.json`, como o Covarrubias de 1610): tire-o do corpo, deixe a âncora `{a1}`, `{a2}`… colada à palavra anterior, e transcreva-o numa linha `@a` do mesmo trecho, na ordem das âncoras; na tradução, as mesmas âncoras no ponto correspondente e um `@a` com a tradução de cada acréscimo.
 
 Depois, **conferência**: releia cada recorte contra o texto transcrito, linha por linha, procurando palavra saltada, linha repetida, abreviatura mal desenvolvida e trecho cortado na emenda das metades. Corrija o que achar. A transcrição continua `provisoria`: `conferida` é só a que o Pedro conferir.
 
@@ -86,7 +87,7 @@ As bibliotecas digitais (Paderborn, em especial) barram download por script com 
 1. Pasta de downloads do navegador: `xdg-user-dir DOWNLOAD` (em português costuma ser `~/Transferências`). Anote os PDFs que já estão lá.
 2. Abra o `scan` do volume (link `nbn-resolving.org`, que leva ao visualizador de Paderborn). Se aparecer a verificação "enable JavaScript and cookies", espere alguns segundos e recarregue uma vez.
 3. Ache no visualizador o download do volume inteiro em PDF (ícone ou menu "Download"/"PDF", às vezes com opção "gesamtes Werk"/"complete work") e clique. Não clique em nada que abra caixa de diálogo do sistema; se o Chrome perguntar onde salvar, pare e peça ao Pedro para desligar "Perguntar onde salvar cada arquivo" nas configurações do navegador.
-4. Espere o arquivo novo aparecer na pasta de downloads e parar de crescer (`ls -l` a cada 30 s; volume de algumas centenas de MB demora). Confira com `pdfinfo` (número de páginas compatível com o volume, título do Augustinus) e mova para o caminho de `volumes`.
+4. Espere o arquivo novo aparecer na pasta de downloads e parar de crescer (`ls -l` a cada 30 s; volume de algumas centenas de MB demora). Confira com `pdfinfo` (número de páginas compatível com o volume, título da obra) e mova para o caminho de `volumes`.
 
 **PDF de um capítulo**: o link `https://digital.ub.uni-paderborn.de/download/pdf/<id>` baixa direto quando aberto no Chrome; mesmo procedimento de espera e conferência. Use quando o volume não baixar ou para conferir um capítulo.
 
@@ -98,6 +99,6 @@ Três tentativas sem sucesso (verificação que não passa, botão que não apar
 
 1. Estrutura e páginas: `python3 tools/catalogo.py <pdf-do-volume> --filtro "<livro>"` lista o livro pelos marcadores do PDF (capítulos e, nas bibliotecas alemãs, as entradas "Spalte n-m" com as páginas). Sem marcadores, monte pelo índice de capítulos impresso no volume (leia as páginas do índice com `tools/paginas.py`).
    Links de cada capítulo: no Chrome, abra a estrutura (índice) do volume no visualizador de Paderborn e leia com `get_page_text`/`read_page` os links de download de cada capítulo (`/download/pdf/<id>`); eles viram o `scan` do capítulo, que o site mostra.
-2. Ids: `t<tomo em algarismo>-<sigla do livro>-<capítulo com dois dígitos>`; siglas usadas: `lp` (*Liber prooemialis*); no tomo II, `ni` (*De statu naturae innocentis*), `nl1`–`nl4` (*De statu naturae lapsae* I–IV), `np1`–`np3` (*De statu purae naturae* I–III); `00` é a *Praefatio* do livro. Para livro novo, crie sigla curta e anote-a aqui.
+2. Ids: `t<tomo em algarismo>-<sigla do livro>-<capítulo com dois dígitos>`; siglas usadas: `lp` (*Liber prooemialis*); no tomo II, `ni` (*De statu naturae innocentis*), `nl1`–`nl4` (*De statu naturae lapsae* I–IV), `np1`–`np3` (*De statu purae naturae* I–III); `00` é a *Praefatio* do livro. Covarrubias, tomo I (cada seção de uma *relectio* ou tratado é um capítulo): `pmf` (*Possessor malae fidei*), `qp` (*Quamvis pactum*), `pec` (*Peccatum*), `test` (*De testamentis*), `spons` (*Epitome de sponsalibus*), `am` (*Alma mater*), `sf` (*Si furiosus*), `num` (*Veterum numismatum collatio*). O *De Contractibus* usa ids próprios (`docs/plano-de-contractibus.md`). Para livro novo, crie sigla curta e anote-a aqui.
 3. `scan`: o PDF do capítulo na biblioteca (passo 1); se não achar, o `scan` do volume.
 4. Confira duas ou três entradas abrindo a página indicada antes de gravar.

@@ -25,7 +25,11 @@ export function lerCabecalho(texto, arquivo) {
 }
 
 // Corpo: "@s3 1B" abre o trecho s3 (referência ao scan: coluna 1, seção B, ou página, conforme obra.json → referencia; só no latim); "@m" nota marginal da impressão;
-// "@n" nota do tradutor; "@p" faz o próximo trecho abrir parágrafo novo. As demais linhas são texto.
+// "@n" nota do tradutor; "@a" acréscimo de editor posterior (ex.: Brederode, na edição de Antuérpia de 1610 do Covarrubias), tirado do corpo do
+// trecho e anotado no rodapé: no texto fica a âncora {a1}, {a2}… no ponto em que estava, e cada "@a" traz, na ordem das âncoras, o texto do
+// acréscimo (no latim) ou a tradução dele; "@p" faz o próximo trecho abrir parágrafo novo. As demais linhas são texto.
+export const ANCORA = /\{a(\d+)\}/g;
+export const ancoras = texto => [...texto.matchAll(ANCORA)].map(m => +m[1]);
 export function lerCapitulo(arquivo) {
   const { meta, corpo } = lerCabecalho(fs.readFileSync(arquivo, 'utf8'), arquivo);
   const trechos = [];
@@ -35,14 +39,14 @@ export function lerCapitulo(arquivo) {
     if (!l) return;
     let m;
     if ((m = l.match(/^@s(\d+)(?:\s+(\S+))?$/))) {
-      atual = { id: 's' + m[1], col: m[2] || null, texto: '', margem: [], notas: [], paragrafo: novoParagrafo, linha: n + 1 };
+      atual = { id: 's' + m[1], col: m[2] || null, texto: '', margem: [], notas: [], acrescimos: [], paragrafo: novoParagrafo, linha: n + 1 };
       trechos.push(atual);
       novoParagrafo = false;
     } else if (l === '@p') {
       novoParagrafo = true;
-    } else if ((m = l.match(/^@([mn])\s+(.*)$/))) {
+    } else if ((m = l.match(/^@([mna])\s+(.*)$/))) {
       if (!atual) throw new Error(`${arquivo}:${n + 1}: @${m[1]} antes do primeiro trecho`);
-      (m[1] === 'm' ? atual.margem : atual.notas).push(m[2]);
+      ({ m: atual.margem, n: atual.notas, a: atual.acrescimos })[m[1]].push(m[2]);
     } else if (l.startsWith('@')) {
       throw new Error(`${arquivo}:${n + 1}: marcador desconhecido ${l.split(/\s/)[0]}`);
     } else {
@@ -97,4 +101,4 @@ export function formatar(texto, glossario = []) {
   return h.replace(/\u0000(\d+)\u0001/g, (_, n) => guard[+n]);
 }
 
-export const textoPlano = s => s.replace(/\*/g, '');
+export const textoPlano = s => s.replace(/\*/g, '').replace(/\s*\{a\d+\}/g, '');

@@ -42,7 +42,7 @@ Os scans são baixados automaticamente pelo Claude in Chrome, no Chromium da VM:
 | Tomo II | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13673 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-2.pdf` |
 | Tomo III | https://nbn-resolving.org/urn:nbn:de:hbz:466:1-13704 | `~/bibliotheca-fontes/jansenius-augustinus/tomo-3.pdf` |
 
-Cada volume é baixado quando a produção chega a ele. Se a automação não passar pela verificação do site, a skill para e avisa; aí basta baixar o PDF à mão pelo mesmo link e gravar no caminho da tabela.
+Os volumes das outras obras estão nos planos delas (`docs/plano-de-contractibus.md`, `docs/plano-covarrubias.md`). Cada volume é baixado quando a produção chega a ele. Se a automação não passar pela verificação do site, a skill para e avisa; aí basta baixar o PDF à mão pelo mesmo link e gravar no caminho da tabela.
 
 ## 4. Produzir
 

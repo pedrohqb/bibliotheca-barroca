@@ -1,7 +1,7 @@
 // Confere as obras antes do build: cabeçalhos, alinhamento dos trechos entre idiomas e uso do glossário.
 // Erros fazem o comando falhar (e o pull request não passa); avisos só aparecem na saída.
 import path from 'node:path';
-import { lerObras, RAIZ, textoPlano } from './lib.mjs';
+import { lerObras, RAIZ, textoPlano, ancoras } from './lib.mjs';
 
 const erros = [], avisos = [];
 const rel = f => path.relative(RAIZ, f);
@@ -13,6 +13,13 @@ for (const o of obras) {
   if (o.meta.id !== o.id) erros.push(`${o.id}/obra.json: id "${o.meta.id}" difere do nome da pasta`);
   if (!o.capitulos.length) avisos.push(`${o.id}: nenhum capítulo`);
   const lgs = o.idiomas.filter(l => l !== 'la');
+  // Acréscimos (@a): âncoras {a1}…{an} na ordem, uma para cada @a do trecho.
+  const conferirAcrescimos = (cap, t) => {
+    const nums = ancoras(t.texto), n = t.acrescimos.length;
+    if (nums.join() !== Array.from({ length: n }, (_, k) => k + 1).join())
+      erros.push(`${rel(cap.arquivo)}:${t.linha}: trecho ${t.id} tem ${n} acréscimo(s) @a, mas as âncoras no texto são [${nums.map(x => '{a' + x + '}').join(' ') || 'nenhuma'}] (esperado {a1}…{a${n}}, na ordem)`);
+    if (n && !o.meta.acrescimos?.rotulo) erros.push(`${rel(cap.arquivo)}:${t.linha}: ${t.id} usa @a, mas obra.json não tem "acrescimos": { "rotulo": … }`);
+  };
 
   for (const c of o.capitulos) {
     const la = c.la;
@@ -24,6 +31,7 @@ for (const o of obras) {
       vistos.add(t.id);
       if (!t.col && o.meta.referencia !== 'nenhuma') erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} sem referência ao scan (ex.: "@${t.id} 2A")`);
       if (!t.texto) erros.push(`${rel(la.arquivo)}:${t.linha}: trecho ${t.id} vazio`);
+      conferirAcrescimos(la, t);
     }
     const idsLa = la.trechos.map(t => t.id).join(' ');
     for (const lg of lgs) {
@@ -38,15 +46,23 @@ for (const o of obras) {
           (!falta.length && !sobra.length ? '; ordem diferente' : ''));
         continue;
       }
-      for (const t of tr.trechos) if (!t.texto) erros.push(`${rel(tr.arquivo)}:${t.linha}: trecho ${t.id} vazio`);
+      tr.trechos.forEach((t, i) => {
+        if (!t.texto) erros.push(`${rel(tr.arquivo)}:${t.linha}: trecho ${t.id} vazio`);
+        conferirAcrescimos(tr, t);
+        if (t.acrescimos.length !== la.trechos[i].acrescimos.length)
+          erros.push(`${rel(tr.arquivo)}:${t.linha}: trecho ${t.id} tem ${t.acrescimos.length} acréscimo(s) @a e o latim tem ${la.trechos[i].acrescimos.length}`);
+      });
       if (lg !== 'pt') continue;
-      // Glossário: se o latim do trecho usa um termo, a tradução deve trazer uma das versões fixadas.
+      // Glossário: se o latim do trecho (ou de um acréscimo) usa um termo, a tradução correspondente deve trazer uma das versões fixadas.
       la.trechos.forEach((t, i) => {
-        const ptTxt = textoPlano(tr.trechos[i].texto).toLowerCase();
-        for (const g of o.glossario) {
-          const usa = g.formas.some(f => new RegExp(`(?<![\\p{L}])${f}(?![\\p{L}])`, 'u').test(t.texto));
-          if (usa && !g.pt.some(p => ptTxt.includes(p.toLowerCase())))
-            avisos.push(`${rel(tr.arquivo)}:${tr.trechos[i].linha}: ${t.id} tem "${g.lema}" no latim, mas nenhuma das versões do glossário (${g.pt.join(', ')})`);
+        const pares = [[t.texto, tr.trechos[i].texto, t.id], ...t.acrescimos.map((a, k) => [a, tr.trechos[i].acrescimos[k] || '', `${t.id}, acréscimo a${k + 1}`])];
+        for (const [lat, trad, onde] of pares) {
+          const ptTxt = textoPlano(trad).toLowerCase();
+          for (const g of o.glossario) {
+            const usa = g.formas.some(f => new RegExp(`(?<![\\p{L}])${f}(?![\\p{L}])`, 'u').test(lat));
+            if (usa && !g.pt.some(p => ptTxt.includes(p.toLowerCase())))
+              avisos.push(`${rel(tr.arquivo)}:${tr.trechos[i].linha}: ${onde} tem "${g.lema}" no latim, mas nenhuma das versões do glossário (${g.pt.join(', ')})`);
+          }
         }
       });
     }

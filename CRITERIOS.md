@@ -17,7 +17,8 @@ O texto latino é uma transcrição normalizada para leitura, não diplomática:
 - versaletes do nome de Jesus (IESV) → *Iesu*, *Iesus*;
 - pontuação da impressão mantida, sem o espaço antes de sinais;
 - itálico da impressão (citações) marcado com `*…*`;
-- notas marginais da impressão registradas com `@m`, tal como impressas; leitura duvidosa marcada com `[?]`.
+- notas marginais da impressão registradas com `@m`, tal como impressas; leitura duvidosa marcada com `[?]`;
+- acréscimos de editor posterior que a própria impressão marca como tais (por exemplo, os de Brederode na edição de Antuérpia de 1610 do Covarrubias) saem do corpo do texto e vão para o rodapé do trecho com `@a`, deixando a âncora `{a1}`, `{a2}`… no ponto em que estavam; são transcritos e traduzidos com os mesmos critérios. Só sai do corpo o que a impressão marca; na dúvida sobre onde a marca começa ou termina, `[?]` e nota.
 
 O estado de cada capítulo vai no cabeçalho: `transcricao: provisoria` até a conferência integral contra o scan; depois, `conferida`.
 
