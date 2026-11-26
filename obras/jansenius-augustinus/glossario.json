@@ -220,5 +220,17 @@
     "formas": ["lumen gloriae", "luminis gloriae", "lumine gloriae"],
     "pt": ["luz da glória"],
     "nota": "\"Luz da glória\", a luz pela qual os bem-aventurados veem a Deus (Livro proemial, cap. 17, § 7). *Lumen* sozinho fica \"luz\" (*naturalis et gratuiti luminis*, \"luz natural e luz gratuita\")."
+  },
+  {
+    "lema": "officium",
+    "formas": ["officium", "officii", "officio", "officia"],
+    "pt": ["ofício", "ofícios"],
+    "nota": "\"Ofício\": na distinção agostiniana entre *officium* e *finis*, a ação devida considerada em si (o que se faz), por oposição ao fim pelo qual se faz (*non actibus sed finibus pensantur officia*, *Contra Iulianum* 4,3). Livro IV do *De statu naturae lapsae*, cap. 3."
+  },
+  {
+    "lema": "frui",
+    "formas": ["frui", "fruendi", "fruatur", "fruetur", "fruitio", "fruitionem"],
+    "pt": ["fruir", "fruição", "fruindo", "fruam", "fruirem"],
+    "nota": "\"Fruir\" (amar uma coisa por si mesma, como fim), por oposição a *uti*, \"usar\" (referi-la a outra coisa): a distinção de *De doctrina christiana*, livro 1. Com criatura como complemento, \"fruir de\" e \"usar de\". Livro IV do *De statu naturae lapsae*, cap. 3."
   }
 ]
