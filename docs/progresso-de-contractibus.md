@@ -25,7 +25,9 @@ A tradução anterior do Pedro foi descartada ("não estava boa"). Não há impo
 
 ## Decisão do Pedro sobre o debate (2026-11-26)
 
-O Codex segue com o modelo e o esforço padrão (`high`). Quando a única pendência de um revisor for a conferência de remissões que ele não consegue abrir (INCONCLUSIVO sem objeção de tradução), essa pendência não segura rodadas de mérito: vai para a rodada final, é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
+O Codex segue com o modelo e o esforço padrão (`high`). Pendência que seja só a conferência de remissões que o revisor não consegue abrir (INCONCLUSIVO sem objeção de tradução) não deve segurar rodadas: é registrada como INCONCLUSIVA no resumo e na `@n` do trecho, e a conferência fica para a revisão do Pedro (`CRITERIOS.md`). Motivo: no Proêmio, o Codex gastou as rodadas R2 a R4 só nessa conferência, com os sites recusando o acesso.
+
+Como aplicar: o `decidir.py` conta INCONCLUSIVO como discordância e só libera a rodada final antes do teto com unanimidade. Por isso, a partir do `t1-d001-s02` os debates usam `--max-rodadas 3` (R1 e R2 de mérito, R2 como teto, R3 final), uma rodada a menos que no Proêmio. No Proêmio, todas as objeções de tradução se resolveram na R2. O `t1-d001-s01` continua com 4 rodadas, porque a R1 já foi congelada assim e o motor não aceita mudar no meio.
 
 ## Pontos em aberto para o Pedro
 
