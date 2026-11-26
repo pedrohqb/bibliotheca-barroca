@@ -19,17 +19,23 @@ Fora do repositório, em `~/bibliotheca-fontes/iustinianus-digesta/`:
 - `paginas-scan.json`: a página do scan de cada título (localizada pelo OCR do Internet Archive), já copiada para `catalogo.json`.
 - `scott/` e `scott-txt/livro-NN.txt`: S. P. Scott, *The Civil Law* (Cincinnati, 1932), vols. II a XI, de constitution.org, em texto por livro. Os livros 14, 27, 28, 32, 37 e 47 ficaram no arquivo do livro anterior.
 
-Na pasta do escritório `/mnt/rbsa/dados/Conhecimento jurídico/Digesta/`:
+Traduções de apoio (todas de domínio público), em `~/bibliotheca-fontes/iustinianus-digesta/apoio/`:
 
-| Arquivo | O que é | Cobre |
-|---|---|---|
-| `digestofjustinia01monruoft.pdf`, `…02…` | C. H. Monro, *The Digest of Justinian* (Cambridge, 1904-1909), inglês | livros 1 a 15 |
-| `pdf0607001437.pdf` | Henri Hulot, *Les cinquante livres du Digeste*, tomo I (Metz, 1803), francês; scan sem OCR | livros 1 a 8 |
-| `690706769-Corpus-Iuris-Civilis-Digesto-…pdf` | TRF da 1ª Região, *Digesto*, 2. ed. (2017), bilíngue, português; **obra protegida: só consulta, nada se copia** | livros 1 e 50 |
-| `Digesta_in_traduzione_italiana.pdf` | versão italiana automática (DeepL) do Scott, Sződliget, 2022 | livros 1 a 50; consulta secundária |
-| `BRes1411171.pdf`, `bub_gb_wlFHAAAAYAAJ.pdf` | García del Corral (espanhol) e Otto, Schilling e Sintenis (alemão): **volumes do Código, não do Digesto** | não servem a esta obra |
+| Língua | Edição | Onde | Cobre | Como se consulta |
+|---|---|---|---|---|
+| francês | Hulot e Berthelot, *Les cinquante livres du Digeste*, 7 tomos (Metz e Paris, 1803-1805) | BIU Cujas, `pdf/hulot-tomo1..7.pdf` (tomo I = o PDF da pasta do escritório) | livros 1 a 50 | scan sem texto: `hulot-indice.json` dá tomo e página de cada título (pelo sumário digitado da BIU Cujas); a página é lida como imagem (OCR visual) e a transcrição fica em `ocr/hulot/<id>.txt` para reuso. D. 1.1 a 1.5 vêm do Wikisource (texto revisto) |
+| alemão | Otto, Schilling e Sintenis, *Das Corpus Juris Civilis ins Deutsche übersetzt*, vols. 1-4 (Leipzig, 1830-1832; vol. 1 na 2. ed., 1839) | Internet Archive (`dascorpusjurisci01otto`…`04otto`), `txt/` e `pdf/` | livros 1 a 50 | OCR do Internet Archive; `de-indice.json` (pelos cabeçalhos correntes) |
+| espanhol | García del Corral, *Cuerpo del derecho civil romano*, 1ª parte, tomos 1-3 (Barcelona, 1889-1897), bilíngue | Internet Archive (`cuerpodelderechocivilromanoP1T1..T3`) | livros 1 a 50 | OCR do Internet Archive; `es-indice.json` (pelo latim de cada título) |
+| italiano | Vignali, *Corpo del diritto*, Digesto (Nápoles, 1856-1862), bilíngue | Internet Archive (`corpodeldiritto01vigngoog` = livros 20-23); os demais volumes estão no Google Books, cujo download exige CAPTCHA resolvido pelo Pedro | parcial | `it-indice.json` |
+| inglês | Monro, *The Digest of Justinian*, 2 vols. (Cambridge, 1904-1909) | pasta do escritório | livros 1 a 15 | PDF com texto |
+| inglês | Scott, *The Civil Law*, vols. II-XI (Cincinnati, 1932) | constitution.org, `scott-txt/` | livros 1 a 50 | texto |
+| português | TRF1, *Digesto*, 2. ed. (2017) | pasta do escritório | livros 1 e 50 | obra protegida: só consulta |
 
-`python3 tools/digesto.py apoio <id>` imprime o Scott do título e diz quais das demais cobrem o livro.
+Não servem: o italiano da pasta (*Digesta in traduzione italiana*, 2022) é versão automática do Scott; o espanhol e o alemão da pasta (`BRes1411171.pdf`, `bub_gb_wlFHAAAAYAAJ.pdf`) são volumes do Código.
+
+`python3 tools/digesto.py apoio <id> [de|es|it|en]` imprime o título no alemão, no espanhol, no italiano (se houver) e no Scott, e diz onde estão o Hulot (tomo, página impressa e do PDF) e o Monro. Os índices se refazem com os scripts de `tools/digesto-apoio/`. O deslocamento entre página impressa e página do PDF do Hulot está conferido só no tomo I (+19); confira-o na primeira consulta de cada tomo e registre-o em `HULOT_DESLOC` (`tools/digesto.py`).
+
+**Cotejo obrigatório, trecho a trecho:** francês (Hulot), alemão, espanhol e, onde houver, italiano e Monro; Scott como conferência final. Onde as traduções divergem entre si num ponto de sentido, a escolha é justificada em `@n`. O campo `processo` do cabeçalho lista as edições efetivamente cotejadas no título.
 
 Regra: a tradução é feita **do latim**. As traduções de apoio servem para conferir o sentido e resolver passagens difíceis; nada se copia delas, e uma divergência de sentido que dependa da leitura vai em `@n`.
 

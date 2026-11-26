@@ -1,6 +1,6 @@
 # Progresso: Digesto de Justiniano
 
-**Etapa atual:** 1. Calibração — esperando o Pedro ler D. 1.1, o glossário inicial e a forma das inscrições.
+**Etapa atual:** 2. Produção (calibração aprovada pelo Pedro em 2026-11-26: "Pode seguir"; ficam as escolhas propostas: inscrição "*Ulpiano, Instituições, livro 1.*", *iuris prudentia* "jurisprudência" com nota, leitura da impressão de 1889 prevalecendo).
 
 ## 2026-11-26 — fontes, catálogo e calibração
 
@@ -27,5 +27,9 @@
 | *enchiridii* | Manual |
 | *iuris epitomarum* | Epítomes do direito |
 | *ad Sabinum* | Comentários a Sabino |
+
+## 2026-11-26 — traduções de apoio completas
+
+O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, obtidas na web, com OCR onde faltasse. Baixados: Hulot completo (7 tomos, BIU Cujas), Otto-Schilling-Sintenis (4 vols.) e García del Corral (3 tomos), com índices por título; Vignali só em parte (livros 20-23): os demais volumes estão no Google Books atrás de CAPTCHA. A instalação do tesseract foi bloqueada pela política da sessão; o OCR do Hulot é visual, por título, gravado em `apoio/ocr/hulot/`. D. 1.1 recotejado com Hulot, alemão e espanhol: sem mudança de sentido.
 
 **Próximo passo:** com o "pode seguir" do Pedro, D. 1.2 (*De origine iuris*, 3.469 palavras) em diante, livro I inteiro até o ponto de controle.
