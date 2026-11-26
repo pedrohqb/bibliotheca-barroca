@@ -256,5 +256,17 @@
     "formas": ["dominatus", "dominatu", "dominatum"],
     "pt": ["domínio"],
     "nota": "\"Domínio\": o senhorio da concupiscência (ou da iniquidade, do pecado) e do diabo sobre o arbítrio antes da graça (livro III do *De statu naturae lapsae*, cap. 4). O verbo *dominari*, \"dominar\"; *dominus*, \"senhor\"."
+  },
+  {
+    "lema": "praevaricatio",
+    "formas": ["praevaricatio", "praevaricationem", "praevaricatione", "praevaricator", "praevaricatores", "praevaricatur"],
+    "pt": ["prevaricação", "prevaricador", "prevaricadores", "prevarica"],
+    "nota": "\"Prevaricação\": a transgressão de uma lei conhecida, que Agostinho, depois de Rm 4,15 (*ubi non est lex, nec praevaricatio*), distingue do simples pecado; *praevaricator*, \"prevaricador\", oposto a *peccator*, \"pecador\" (livro II do *De statu naturae lapsae*, cap. 5). O verbo *praevaricari* com objeto (*legem praevaricatur*): \"prevarica contra a lei\". Em Adão, *praevaricatio* é a transgressão do preceito (livro II, cap. 1)."
+  },
+  {
+    "lema": "jus naturale",
+    "formas": ["juris naturalis", "jus naturae", "juris naturae", "jure naturae", "naturali jure", "naturalis juris"],
+    "pt": ["direito natural"],
+    "nota": "\"Direito natural\", também para *jus naturae*; distinto de *jus divinum positivum*, \"direito divino positivo\" (o que o Evangelho contém). *Lex naturae*, \"lei da natureza\"; *lex naturalis*, \"lei natural\". *Ignorantia juris… facti*, \"ignorância de direito… de fato\" (livro II do *De statu naturae lapsae*, cap. 5)."
   }
 ]
