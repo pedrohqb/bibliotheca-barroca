@@ -8,6 +8,18 @@ Para cada sessão ou agente que produz títulos de `obras/iustinianus-digesta/`.
 - **Não faça commit, pull nem push.** Quem coordena revisa e publica.
 - Arquivos de trabalho (imagens) numa pasta própria em `~/bibliotheca-fontes/iustinianus-digesta/trabalho/<sua-sigla>/` (o `/tmp` é pequeno e enche); apague as imagens ao terminar.
 
+## Arquivos grandes e o gateway RBSA
+
+O plugin RBSA bloqueia o Read de arquivos grandes sem escopo de matéria. O Pedro autorizou (2026-11-26) o escopo **`bibliotheca-digesto`** para este projeto. Para ler um arquivo grande (o latim do título, um trecho de apoio gravado em arquivo, o texto do Monro), use o próprio gateway, que é o caminho que o hook indica:
+
+```bash
+G=/home/pedro/.config/Claude/local-agent-mode-sessions/23ada305-0089-46dc-a243-480414eaf0ab/41c28055-8a47-48f2-af87-b710a99f52c8/rpm/plugin_012XZmQG5sC1KBYb8AYbbbsF/context_gateway_cli.py
+python3 $G --matter bibliotheca-digesto index <arquivo>
+python3 $G --matter bibliotheca-digesto read <arquivo> --start 0 --limit 10
+```
+
+Reindexe depois de alterar o arquivo. Para corrigir o latim de um arquivo grande, aplique as substituições por um script Python (pares "antes"/"depois", com `assert antes in texto`). Nunca contorne o hook por outro caminho (cat, cópia, pdftotext para ler o que ele barrou).
+
 ## Passos
 
 1. **Latim:** `python3 tools/digesto.py latim <id>`.
