@@ -33,4 +33,4 @@ Nenhuma ainda (etapa 2).
 
 ## Próximo passo
 
-Com o caminho, retomar a etapa 0: identificar a edição latina de base pelo texto preliminar dos arquivos, achar e baixar os scans para `~/bibliotheca-fontes/onate-de-contractibus/`.
+Com os PDFs de volta, copiá-los para `~/bibliotheca-fontes/onate-de-contractibus/` e conferir as folhas de rosto na imagem. Completar o tomo III com a parte primeira e confirmar pelos `.docx` que a tradução segue esta edição. Depois, a etapa 1 (importação).
