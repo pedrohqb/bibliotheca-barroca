@@ -168,6 +168,13 @@ def apoio(cid, so=None):
         while not os.path.exists(arq) and lv > 1:
             lv -= 1; arq = os.path.join(FONTES, 'scott-txt', f'livro-{lv:02d}.txt')
         txt = open(arq, encoding='utf8').read()
+        # arquivos de Scott que juntam vários livros: recorta o livro pedido
+        cab = re.search(rf'(?m)^THE DIGEST OR PANDECTS\..*BOOK {romano(livro)}\.', txt)
+        if cab:
+            seg = re.search(r'(?m)^THE DIGEST OR PANDECTS\.', txt[cab.end():])
+            txt = txt[cab.start(): cab.end() + seg.start()] if seg else txt[cab.start():]
+        elif lv != livro:
+            print(f'\n(aviso: livro {livro} não localizado em {os.path.basename(arq)})')
         if tit:
             m = re.search(rf'(?m)^TITLE {romano(tit)}\.', txt)
             n = re.search(rf'(?m)^TITLE {romano(tit + 1)}\.', txt[m.end():]) if m else None
