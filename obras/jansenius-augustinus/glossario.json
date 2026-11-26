@@ -346,5 +346,11 @@
     "formas": ["facinus", "facinora", "facinoribus", "facinorum"],
     "pt": ["crime", "crimes"],
     "nota": "\"Crime\": o pecado com que se lesa o outro, em par com *flagitium*, \"torpeza\" (Agostinho, *De doctrina christiana* 3,10,16; livro II do *De statu naturae lapsae*, cap. 8). *Scelus* também foi vertido \"crime\" em capítulos anteriores; se aparecer em par com *facinus*, rever."
+  },
+  {
+    "lema": "consensio",
+    "formas": ["consensio", "consensionis", "consensionem", "consensione"],
+    "pt": ["consentimento"],
+    "nota": "\"Consentimento\": o ato da vontade que adere ao desejo (*consensio peccandi*, \"consentimento de pecar\"), sede da servidão ou da libertação do arbítrio (livro III do *De statu naturae lapsae*, cap. 7). *Consensus* também fica \"consentimento\"."
   }
 ]
