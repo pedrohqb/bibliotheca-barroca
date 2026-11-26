@@ -1,1 +1,2869 @@
-[]
+[
+  {
+    "lema": "contractus",
+    "formas": [
+      "contractus",
+      "Contractus",
+      "contractum",
+      "Contractum",
+      "contractu",
+      "Contractu",
+      "contractui",
+      "Contractui",
+      "contractuum",
+      "Contractuum",
+      "contractibus",
+      "Contractibus",
+      "contractib.",
+      "Contractib."
+    ],
+    "pt": [
+      "contrato"
+    ],
+    "nota": "Sempre \"contrato\". *Contractus large dictus* (que abrange o quase contrato e o distrato) é tratado na disp. 1, sec. 1. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "pactum",
+    "formas": [
+      "pactum",
+      "Pactum",
+      "pacti",
+      "Pacti",
+      "pacto",
+      "Pacto",
+      "pacta",
+      "Pacta",
+      "pactis",
+      "Pactis",
+      "pactorum",
+      "Pactorum"
+    ],
+    "pt": [
+      "pacto"
+    ],
+    "nota": "Sempre \"pacto\" (*pactum nudum*, \"pacto nu\"; *vestitum*, \"pacto vestido\"). Não confundir com *conventio*. Mesma forma do glossário do *De Contractibus* de Oñate. *Quo pacto* (\"de que modo\") não é este termo: o validador o acusa por engano."
+  },
+  {
+    "lema": "stipulatio",
+    "formas": [
+      "stipulatio",
+      "Stipulatio",
+      "stipulationis",
+      "Stipulationis",
+      "stipulationem",
+      "Stipulationem",
+      "stipulatione",
+      "Stipulatione",
+      "stipulationes",
+      "Stipulationes",
+      "stipulationibus",
+      "Stipulationibus",
+      "stipulationum",
+      "Stipulationum"
+    ],
+    "pt": [
+      "estipulação",
+      "estipulações"
+    ],
+    "nota": "\"Estipulação\": a promessa solene do direito romano, não a cláusula em sentido moderno. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "obligatio",
+    "formas": [
+      "obligatio",
+      "Obligatio",
+      "obligationis",
+      "Obligationis",
+      "obligationem",
+      "Obligationem",
+      "obligatione",
+      "Obligatione",
+      "obligationes",
+      "Obligationes",
+      "obligationum",
+      "Obligationum",
+      "obligationibus",
+      "Obligationibus"
+    ],
+    "pt": [
+      "obrigação",
+      "obrigações"
+    ],
+    "nota": "\"Obrigação\", o vínculo jurídico (e moral). *Obligatio naturalis / civilis*: \"obrigação natural / civil\". Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "dominium",
+    "formas": [
+      "dominium",
+      "Dominium",
+      "dominii",
+      "Dominii",
+      "dominij",
+      "Dominij",
+      "dominio",
+      "Dominio",
+      "dominia",
+      "Dominia",
+      "dominiorum",
+      "Dominiorum"
+    ],
+    "pt": [
+      "domínio"
+    ],
+    "nota": "\"Domínio\" (propriedade em sentido técnico); *translatio dominii*, \"transferência do domínio\". Não traduzir por \"propriedade\", para manter o termo técnico. Mesma forma do glossário do *De Contractibus* de Oñate. *Dominium directum / utile*: ver as entradas próprias."
+  },
+  {
+    "lema": "possessio",
+    "formas": [
+      "possessio",
+      "Possessio",
+      "possessionis",
+      "Possessionis",
+      "possessionem",
+      "Possessionem",
+      "possessione",
+      "Possessione",
+      "possessiones",
+      "Possessiones",
+      "possessionum",
+      "Possessionum",
+      "possessionibus",
+      "Possessionibus"
+    ],
+    "pt": [
+      "posse",
+      "posses"
+    ],
+    "nota": "\"Posse\", distinta do domínio. Mesma forma do glossário do *De Contractibus* de Oñate. Para *possessor* ver a entrada própria."
+  },
+  {
+    "lema": "traditio",
+    "formas": [
+      "traditio",
+      "Traditio",
+      "traditionis",
+      "Traditionis",
+      "traditionem",
+      "Traditionem",
+      "traditione",
+      "Traditione",
+      "traditiones",
+      "Traditiones"
+    ],
+    "pt": [
+      "tradição",
+      "tradições"
+    ],
+    "nota": "\"Tradição\", a entrega da coisa que transfere a posse ou o domínio. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "evictio",
+    "formas": [
+      "euictio",
+      "Euictio",
+      "euictionis",
+      "Euictionis",
+      "euictionem",
+      "Euictionem",
+      "euictione",
+      "Euictione",
+      "euictiones",
+      "Euictiones",
+      "evictio",
+      "Evictio"
+    ],
+    "pt": [
+      "evicção",
+      "evicções"
+    ],
+    "nota": "\"Evicção\". Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "vindicatio",
+    "formas": [
+      "vindicatio",
+      "Vindicatio",
+      "vindicationis",
+      "Vindicationis",
+      "vindicationem",
+      "Vindicationem",
+      "vindicatione",
+      "Vindicatione",
+      "vendicatio",
+      "Vendicatio",
+      "vendicationis",
+      "Vendicationis",
+      "vendicationem",
+      "Vendicationem",
+      "vendicatione",
+      "Vendicatione"
+    ],
+    "pt": [
+      "reivindicação",
+      "reivindicações"
+    ],
+    "nota": "\"Reivindicação\", a ação do dono para reaver a coisa. Mesma forma do glossário do *De Contractibus* de Oñate. A impressão de 1610 escreve também *vendicatio* (*actio rei vendicationis*, \"ação de reivindicação\")."
+  },
+  {
+    "lema": "usucapio",
+    "formas": [
+      "vsucapio",
+      "Vsucapio",
+      "vsucapionis",
+      "Vsucapionis",
+      "vsucapionem",
+      "Vsucapionem",
+      "vsucapione",
+      "Vsucapione",
+      "vsucapiones",
+      "Vsucapiones",
+      "vsucapionum",
+      "Vsucapionum",
+      "vsucapionibus",
+      "Vsucapionibus",
+      "usucapio",
+      "Usucapio",
+      "usucapionis",
+      "Usucapionis",
+      "usucapionem",
+      "Usucapionem",
+      "usucapione",
+      "Usucapione"
+    ],
+    "pt": [
+      "usucapião",
+      "usucapiões"
+    ],
+    "nota": "\"Usucapião\". Mesma forma do glossário do *De Contractibus* de Oñate. O verbo *vsucapere* (*rem vsucapi*): \"usucapir\". Covarrubias distingue *vsucapio* (aquisição do domínio pelo uso) de *praescriptio* (a exceção que dela nasce): a distinção não pode se apagar na tradução."
+  },
+  {
+    "lema": "actio",
+    "formas": [
+      "actio",
+      "Actio",
+      "actionis",
+      "Actionis",
+      "actionem",
+      "Actionem",
+      "actione",
+      "Actione",
+      "actiones",
+      "Actiones",
+      "actionum",
+      "Actionum",
+      "actionibus",
+      "Actionibus",
+      "actioni",
+      "Actioni"
+    ],
+    "pt": [
+      "ação",
+      "ações"
+    ],
+    "nota": "\"Ação\" em sentido processual (o meio de pedir em juízo). Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "exceptio",
+    "formas": [
+      "exceptio",
+      "Exceptio",
+      "exceptionis",
+      "Exceptionis",
+      "exceptionem",
+      "Exceptionem",
+      "exceptione",
+      "Exceptione",
+      "exceptiones",
+      "Exceptiones",
+      "exceptionum",
+      "Exceptionum",
+      "exceptionibus",
+      "Exceptionibus",
+      "exceptioni",
+      "Exceptioni"
+    ],
+    "pt": [
+      "exceção",
+      "exceções"
+    ],
+    "nota": "\"Exceção\", a defesa do réu. Mesma forma do glossário do *De Contractibus* de Oñate. *Exceptio dilatoria / peremptoria*: \"exceção dilatória / peremptória\". *Exceptio doli / metus*: \"exceção de dolo / de medo\"."
+  },
+  {
+    "lema": "iustitia",
+    "formas": [
+      "iustitia",
+      "Iustitia",
+      "iustitiae",
+      "Iustitiae",
+      "iustitiam",
+      "Iustitiam"
+    ],
+    "pt": [
+      "justiça"
+    ],
+    "nota": "\"Justiça\"; *iustitia commutativa*, \"justiça comutativa\". Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "lucrativus",
+    "formas": [
+      "lucratiuus",
+      "Lucratiuus",
+      "lucratiuum",
+      "Lucratiuum",
+      "lucratiua",
+      "Lucratiua",
+      "lucratiuo",
+      "Lucratiuo",
+      "lucratiui",
+      "Lucratiui",
+      "lucratiuis",
+      "Lucratiuis",
+      "lucratiuorum",
+      "Lucratiuorum",
+      "lucratiuam",
+      "Lucratiuam",
+      "lucratiuae",
+      "Lucratiuae"
+    ],
+    "pt": [
+      "gratuito",
+      "gratuitos"
+    ],
+    "nota": "\"Gratuito\": o contrato em que uma parte só recebe, sem contraprestação (doação, comodato, mandato). O índice do tomo II diz *contractibus gratuitis*. \"Lucrativo\" sugeriria em português o fim de lucro, o contrário do sentido. Mesma forma do glossário do *De Contractibus* de Oñate. *Titulus lucratiuus*: \"título gratuito\"."
+  },
+  {
+    "lema": "onerosus",
+    "formas": [
+      "onerosus",
+      "Onerosus",
+      "onerosum",
+      "Onerosum",
+      "onerosa",
+      "Onerosa",
+      "oneroso",
+      "Oneroso",
+      "onerosi",
+      "Onerosi",
+      "onerosis",
+      "Onerosis",
+      "onerosorum",
+      "Onerosorum",
+      "onerosam",
+      "Onerosam"
+    ],
+    "pt": [
+      "oneroso",
+      "onerosos"
+    ],
+    "nota": "\"Oneroso\": contrato com prestações de ambas as partes (compra e venda, locação, sociedade). Mesma forma do glossário do *De Contractibus* de Oñate. *Titulus onerosus*: \"título oneroso\"."
+  },
+  {
+    "lema": "disputatio",
+    "formas": [
+      "disputatio",
+      "Disputatio",
+      "disputationis",
+      "Disputationis",
+      "disputationem",
+      "Disputationem",
+      "disputatione",
+      "Disputatione",
+      "disputationes",
+      "Disputationes"
+    ],
+    "pt": [
+      "disputa",
+      "disputas"
+    ],
+    "nota": "\"Disputa\", a divisão da obra (*Disputatio I*); \"disputar\" para o verbo. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "sectio",
+    "formas": [
+      "sectio",
+      "Sectio",
+      "sectionis",
+      "Sectionis",
+      "sectionem",
+      "Sectionem",
+      "sectione",
+      "Sectione",
+      "sectiones",
+      "Sectiones"
+    ],
+    "pt": [
+      "seção",
+      "seções"
+    ],
+    "nota": "\"Seção\", a divisão da disputa. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "Doctores",
+    "formas": [
+      "DD.",
+      "Dd.",
+      "Doctores",
+      "Doctorum",
+      "Doctoribus",
+      "Doctoris",
+      "Doctor"
+    ],
+    "pt": [
+      "doutor",
+      "doutores"
+    ],
+    "nota": "*DD.*, *Dd.* e *Doctores*: os autores de autoridade (canonistas, civilistas e teólogos), \"doutores\". Mesma forma do glossário do *De Contractibus* de Oñate. *Iuniores* (os doutores mais recentes) e *antiquiores*, \"os mais recentes\" e \"os mais antigos\"."
+  },
+  {
+    "lema": "consensus",
+    "formas": [
+      "consensus",
+      "Consensus",
+      "consensum",
+      "Consensum",
+      "consensu",
+      "Consensu"
+    ],
+    "pt": [
+      "consentimento"
+    ],
+    "nota": "\"Consentimento\", o acordo das vontades que faz o contrato. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "conuentio",
+    "formas": [
+      "conuentio",
+      "Conuentio",
+      "conuentionis",
+      "Conuentionis",
+      "conuentionem",
+      "Conuentionem",
+      "conuentione",
+      "Conuentione",
+      "conuentiones",
+      "Conuentiones",
+      "conuentionibus",
+      "Conuentionibus"
+    ],
+    "pt": [
+      "convenção",
+      "convenções"
+    ],
+    "nota": "\"Convenção\". Gênero mais largo que o contrato; não confundir com *pactum* (\"pacto\"). Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "quasi contractus",
+    "formas": [
+      "quasi contractus",
+      "Quasi contractus",
+      "quasi contractum",
+      "Quasi contractum",
+      "quasi contractu",
+      "Quasi contractu"
+    ],
+    "pt": [
+      "quase contrato"
+    ],
+    "nota": "\"Quase contrato\": obrigação que nasce como de contrato, sem a vontade de uma das partes (tutela, curatela, gestão de negócios). Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "distractus",
+    "formas": [
+      "distractus",
+      "Distractus",
+      "distractum",
+      "Distractum",
+      "distractu",
+      "Distractu",
+      "distractibus",
+      "Distractibus"
+    ],
+    "pt": [
+      "distrato",
+      "distratos"
+    ],
+    "nota": "\"Distrato\": convenção que extingue a obrigação (pagamento, aceptilação, compensação). Em Oñate, termo mais largo que o distrato do direito brasileiro. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "restitutio",
+    "formas": [
+      "restitutio",
+      "Restitutio",
+      "restitutionis",
+      "Restitutionis",
+      "restitutionem",
+      "Restitutionem",
+      "restitutione",
+      "Restitutione",
+      "restitutiones",
+      "Restitutiones"
+    ],
+    "pt": [
+      "restituição"
+    ],
+    "nota": "\"Restituição\", a reparação do dano causado contra a justiça. Mesma forma do glossário do *De Contractibus* de Oñate. *Restitutio in integrum*: ver a entrada própria. Na *relectio Peccatum*, a restituição como dever de consciência (*restitutio rei alienae*, *restitutio famae*)."
+  },
+  {
+    "lema": "ius gentium",
+    "formas": [
+      "iure gentium",
+      "Iure gentium",
+      "ius gentium",
+      "Ius gentium",
+      "iuris gentium",
+      "Iuris gentium",
+      "gentium iure",
+      "Gentium iure"
+    ],
+    "pt": [
+      "direito das gentes"
+    ],
+    "nota": "\"Direito das gentes\". Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "ius naturale",
+    "formas": [
+      "iure naturali",
+      "Iure naturali",
+      "naturale ius",
+      "Naturale ius",
+      "ius naturale",
+      "Ius naturale",
+      "iuris naturalis",
+      "Iuris naturalis",
+      "naturali iure",
+      "Naturali iure",
+      "iure naturae",
+      "Iure naturae",
+      "ius naturae",
+      "Ius naturae"
+    ],
+    "pt": [
+      "direito natural"
+    ],
+    "nota": "\"Direito natural\"; *ius naturae* no mesmo sentido. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "solutio",
+    "formas": [
+      "solutio",
+      "Solutio",
+      "solutionis",
+      "Solutionis",
+      "solutione",
+      "Solutione",
+      "solutionem",
+      "Solutionem"
+    ],
+    "pt": [
+      "pagamento"
+    ],
+    "nota": "*Solutio debiti*: \"pagamento\" da dívida, o modo próprio de extinguir a obrigação. Mesma forma do glossário do *De Contractibus* de Oñate. *Exceptio solutionis*: \"exceção de pagamento\"."
+  },
+  {
+    "lema": "acceptilatio",
+    "formas": [
+      "acceptilatio",
+      "Acceptilatio",
+      "acceptilatione",
+      "Acceptilatione",
+      "acceptilationem",
+      "Acceptilationem"
+    ],
+    "pt": [
+      "aceptilação"
+    ],
+    "nota": "\"Aceptilação\": a quitação solene do direito romano, sem pagamento. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "compensatio",
+    "formas": [
+      "compensatio",
+      "Compensatio",
+      "compensatione",
+      "Compensatione",
+      "compensationem",
+      "Compensationem",
+      "compensationis",
+      "Compensationis"
+    ],
+    "pt": [
+      "compensação"
+    ],
+    "nota": "\"Compensação\" de dívidas recíprocas. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "mutuum / mutuus",
+    "formas": [
+      "mutuum",
+      "Mutuum",
+      "mutuo",
+      "Mutuo",
+      "mutui",
+      "Mutui",
+      "mutuus",
+      "Mutuus",
+      "mutuos",
+      "Mutuos",
+      "mutuis",
+      "Mutuis",
+      "mutua",
+      "Mutua",
+      "mutuam",
+      "Mutuam"
+    ],
+    "pt": [
+      "mútuo",
+      "mútuos",
+      "recíproco",
+      "recíprocos",
+      "recíproca",
+      "recíprocas"
+    ],
+    "nota": "Duas acepções (decisão do Pedro, 2026-11-26): *mutuum*, o contrato de empréstimo de coisa fungível, \"mútuo\"; *mutuus* no sentido de obrigações de ambas as partes (*contractus mutuus*, *obligatio mutua*), \"recíproco\". *Reciprocus*, quando aparece ao lado, também \"recíproco\", com o latim entre parênteses. Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "conductio",
+    "formas": [
+      "conductio",
+      "Conductio",
+      "conductione",
+      "Conductione",
+      "conductionibus",
+      "Conductionibus",
+      "conductiones",
+      "Conductiones",
+      "conductionem",
+      "Conductionem"
+    ],
+    "pt": [
+      "condução",
+      "conduções"
+    ],
+    "nota": "\"Condução\" (decisão do Pedro, 2026-11-26): o lado de quem toma em locação (*conductor*), por oposição a *locatio*, o lado de quem dá. Sentido jurídico antigo da palavra em português; vai sempre com nota que o explica. *Locatio et conductio*, o contrato inteiro: \"locação e condução\". Mesma forma do glossário do *De Contractibus* de Oñate."
+  },
+  {
+    "lema": "praescriptio",
+    "formas": [
+      "praescriptio",
+      "Praescriptio",
+      "praescriptionis",
+      "Praescriptionis",
+      "praescriptionem",
+      "Praescriptionem",
+      "praescriptione",
+      "Praescriptione",
+      "praescriptiones",
+      "Praescriptiones",
+      "praescriptionum",
+      "Praescriptionum",
+      "praescriptionibus",
+      "Praescriptionibus",
+      "praescriptioni",
+      "Praescriptioni"
+    ],
+    "pt": [
+      "prescrição",
+      "prescrições"
+    ],
+    "nota": "\"Prescrição\". Na Prima pars da *Possessor malae fidei*, Covarrubias mostra que *praescriptio* é propriamente uma exceção (a que nasce da usucapião ou do longo tempo) e distingue-a de *vsucapio*: manter sempre \"prescrição\" e \"usucapião\", sem trocar uma pela outra. O verbo *praescribere*: \"prescrever\" (*rem praescribere*, \"prescrever a coisa\"; *praescribitur actori*, \"opõe-se a prescrição ao autor\"); quando o texto joga com o sentido de \"estabelecer, fixar\" (*legem ponere*), nota. *Longi / longissimi temporis praescriptio*: \"prescrição de longo / longuíssimo tempo\"; *immemorialis*, \"imemorial\"; *centenaria*, \"centenária\"; *quadragenaria*, \"de quarenta anos\"."
+  },
+  {
+    "lema": "possessor",
+    "formas": [
+      "possessor",
+      "Possessor",
+      "possessoris",
+      "Possessoris",
+      "possessorem",
+      "Possessorem",
+      "possessore",
+      "Possessore",
+      "possessores",
+      "Possessores",
+      "possessorum",
+      "Possessorum",
+      "possessoribus",
+      "Possessoribus"
+    ],
+    "pt": [
+      "possuidor",
+      "possuidores"
+    ],
+    "nota": "\"Possuidor\". *Possessor bonae / malae fidei*: ver as entradas próprias."
+  },
+  {
+    "lema": "possessor bonae fidei",
+    "formas": [
+      "bonae fidei possessor",
+      "bonae fidei possessore",
+      "bonae fidei possessorem",
+      "bonae fidei possessores",
+      "bonae fidei possessoris",
+      "possessor bonae fidei",
+      "possessore bonae fidei",
+      "possessorem bonae fidei",
+      "possessores bonae fidei"
+    ],
+    "pt": [
+      "possuidor de boa-fé",
+      "possuidores de boa-fé"
+    ],
+    "nota": "\"Possuidor de boa-fé\"."
+  },
+  {
+    "lema": "possessor malae fidei",
+    "formas": [
+      "malae fidei possessor",
+      "malae fidei possessore",
+      "malae fidei possessorem",
+      "malae fidei possessores",
+      "malae fidei possessoris",
+      "possessor malae fidei",
+      "possessore malae fidei",
+      "possessorem malae fidei",
+      "possessores malae fidei",
+      "Possessor malae fidei"
+    ],
+    "pt": [
+      "possuidor de má-fé",
+      "possuidores de má-fé"
+    ],
+    "nota": "\"Possuidor de má-fé\". Quando *Possessor malae fidei* é o nome da regra (*reg. Possessor malae fidei, de regul. iur. in 6*: \"o possuidor de má-fé não prescreve em tempo algum\", regra 2 do título *De regulis iuris* do *Liber Sextus*), o nome fica em latim e em itálico, como título."
+  },
+  {
+    "lema": "bona fides",
+    "formas": [
+      "bona fides",
+      "bonae fidei",
+      "bonam fidem",
+      "bona fide",
+      "fides bona",
+      "fidei bonae"
+    ],
+    "pt": [
+      "boa-fé"
+    ],
+    "nota": "\"Boa-fé\" (com hífen), na prescrição e nos contratos (*contractus bonae fidei*, \"contratos de boa-fé\"). Mesma forma do glossário do *Digesto*."
+  },
+  {
+    "lema": "mala fides",
+    "formas": [
+      "mala fides",
+      "malae fidei",
+      "malam fidem",
+      "mala fide",
+      "fides mala"
+    ],
+    "pt": [
+      "má-fé"
+    ],
+    "nota": "\"Má-fé\" (com hífen)."
+  },
+  {
+    "lema": "titulus",
+    "formas": [
+      "titulus",
+      "Titulus",
+      "tituli",
+      "Tituli",
+      "titulum",
+      "Titulum",
+      "titulo",
+      "Titulo",
+      "titulos",
+      "Titulos",
+      "titulis",
+      "Titulis"
+    ],
+    "pt": [
+      "título",
+      "títulos"
+    ],
+    "nota": "\"Título\": na prescrição, a causa hábil para adquirir (compra, doação, legado); nas alegações, a divisão do livro de direito (*tit.*, \"título\"). A mesma palavra portuguesa serve aos dois sentidos; a alegação fica em latim. *Titulus coloratus*: \"título colorado\" (aparente), com nota."
+  },
+  {
+    "lema": "forum conscientiae",
+    "formas": [
+      "forum conscientiae",
+      "foro conscientiae",
+      "fori conscientiae",
+      "conscientiae foro",
+      "conscientiae forum",
+      "conscientiae fori"
+    ],
+    "pt": [
+      "foro da consciência"
+    ],
+    "nota": "\"Foro da consciência\" (o juízo de Deus e do confessor), oposto ao foro externo ou judicial. Quando o texto passa de um foro ao outro, a passagem tem de ficar visível na tradução. *Iudicium animae* / *animae iudicium*: \"juízo da alma\" (mesmo foro, outra expressão; nota na primeira ocorrência de cada capítulo)."
+  },
+  {
+    "lema": "forum exterius",
+    "formas": [
+      "forum exterius",
+      "foro exteriori",
+      "foro exteriore",
+      "fori exterioris",
+      "exteriori foro",
+      "exterius forum",
+      "exterioris fori",
+      "forum externum",
+      "foro externo",
+      "fori externi",
+      "externo foro"
+    ],
+    "pt": [
+      "foro externo"
+    ],
+    "nota": "\"Foro externo\", o dos tribunais, oposto ao foro da consciência."
+  },
+  {
+    "lema": "forum iudiciale",
+    "formas": [
+      "forum iudiciale",
+      "foro iudiciali",
+      "fori iudicialis",
+      "iudiciali foro",
+      "iudiciale forum"
+    ],
+    "pt": [
+      "foro judicial"
+    ],
+    "nota": "\"Foro judicial\": no Covarrubias, equivale a foro externo; manter a palavra do autor (\"judicial\", \"externo\", \"contencioso\") e não uniformizar."
+  },
+  {
+    "lema": "forum contentiosum",
+    "formas": [
+      "forum contentiosum",
+      "foro contentioso",
+      "fori contentiosi",
+      "contentioso foro",
+      "contentiosum forum"
+    ],
+    "pt": [
+      "foro contencioso"
+    ],
+    "nota": "\"Foro contencioso\": o da jurisdição contenciosa, oposto ao foro da consciência (e ao da penitência)."
+  },
+  {
+    "lema": "conscientia",
+    "formas": [
+      "conscientia",
+      "Conscientia",
+      "conscientiae",
+      "Conscientiae",
+      "conscientiam",
+      "Conscientiam"
+    ],
+    "pt": [
+      "consciência"
+    ],
+    "nota": "\"Consciência\". Ver *forum conscientiae*."
+  },
+  {
+    "lema": "intentio",
+    "formas": [
+      "intentio",
+      "Intentio",
+      "intentionis",
+      "Intentionis",
+      "intentionem",
+      "Intentionem",
+      "intentione",
+      "Intentione",
+      "intentioni",
+      "Intentioni"
+    ],
+    "pt": [
+      "pretensão",
+      "pretensões"
+    ],
+    "nota": "Termo processual: o que o autor afirma e pede em juízo (*intentio actoris*), \"pretensão\". Na Prima pars da *Possessor malae fidei* opõe-se a *actio*: a exceção exclui a ação, a simples negação exclui a pretensão. Quando *intentio* é \"intenção\" (do legislador, da vontade), muda a tradução, com nota."
+  },
+  {
+    "lema": "defensio",
+    "formas": [
+      "defensio",
+      "Defensio",
+      "defensionis",
+      "Defensionis",
+      "defensionem",
+      "Defensionem",
+      "defensione",
+      "Defensione",
+      "defensiones",
+      "Defensiones",
+      "defensionibus",
+      "Defensionibus"
+    ],
+    "pt": [
+      "defesa",
+      "defesas"
+    ],
+    "nota": "\"Defesa\", gênero mais largo que a exceção (*exceptio*)."
+  },
+  {
+    "lema": "litis contestatio",
+    "formas": [
+      "litis contestatio",
+      "litis contestationem",
+      "litis contestatione",
+      "litis contestationis",
+      "contestationem litis",
+      "contestatione litis",
+      "litis contestat."
+    ],
+    "pt": [
+      "contestação da lide"
+    ],
+    "nota": "\"Contestação da lide\" (*litis contestatio*), o ato que fixa o objeto do processo; não é a contestação do réu do processo civil brasileiro: nota na primeira ocorrência."
+  },
+  {
+    "lema": "actor",
+    "formas": [
+      "actor",
+      "Actor",
+      "actoris",
+      "Actoris",
+      "actori",
+      "Actori",
+      "actorem",
+      "Actorem",
+      "actore",
+      "Actore",
+      "actores",
+      "Actores"
+    ],
+    "pt": [
+      "autor",
+      "autores"
+    ],
+    "nota": "\"Autor\", quem demanda em juízo (oposto a *reus*)."
+  },
+  {
+    "lema": "reus",
+    "formas": [
+      "reus",
+      "Reus",
+      "reum",
+      "Reum",
+      "reo",
+      "Reo",
+      "rei conuentus",
+      "Rei conuentus"
+    ],
+    "pt": [
+      "réu",
+      "réus"
+    ],
+    "nota": "\"Réu\". Atenção: *rei* é quase sempre genitivo de *res* (\"da coisa\"), não plural de *reus*."
+  },
+  {
+    "lema": "iudex",
+    "formas": [
+      "iudex",
+      "Iudex",
+      "iudicis",
+      "Iudicis",
+      "iudicem",
+      "Iudicem",
+      "iudice",
+      "Iudice",
+      "iudices",
+      "Iudices",
+      "iudicum",
+      "Iudicum",
+      "iudicibus",
+      "Iudicibus"
+    ],
+    "pt": [
+      "juiz",
+      "juízes"
+    ],
+    "nota": "\"Juiz\"."
+  },
+  {
+    "lema": "iurisdictio",
+    "formas": [
+      "iurisdictio",
+      "Iurisdictio",
+      "iurisdictionis",
+      "Iurisdictionis",
+      "iurisdictionem",
+      "Iurisdictionem",
+      "iurisdictione",
+      "Iurisdictione",
+      "iurisdictiones",
+      "Iurisdictiones"
+    ],
+    "pt": [
+      "jurisdição",
+      "jurisdições"
+    ],
+    "nota": "\"Jurisdição\"."
+  },
+  {
+    "lema": "res aliena",
+    "formas": [
+      "res aliena",
+      "rei alienae",
+      "rem alienam",
+      "re aliena",
+      "res alienae",
+      "rerum alienarum"
+    ],
+    "pt": [
+      "coisa alheia",
+      "coisas alheias",
+      "alheia",
+      "alheio"
+    ],
+    "nota": "\"Coisa alheia\". *Scientia rei alienae*: \"ciência de que a coisa é alheia\"."
+  },
+  {
+    "lema": "scientia",
+    "formas": [
+      "scientia",
+      "Scientia",
+      "scientiae",
+      "Scientiae",
+      "scientiam",
+      "Scientiam"
+    ],
+    "pt": [
+      "ciência",
+      "conhecimento"
+    ],
+    "nota": "Quando é o saber do possuidor (*cum scientia rei alienae*), \"ciência\" (termo jurídico: ter ciência); \"conhecimento\" só no sentido intelectual geral."
+  },
+  {
+    "lema": "ignorantia",
+    "formas": [
+      "ignorantia",
+      "Ignorantia",
+      "ignorantiae",
+      "Ignorantiae",
+      "ignorantiam",
+      "Ignorantiam"
+    ],
+    "pt": [
+      "ignorância"
+    ],
+    "nota": "\"Ignorância\"; *ignorantia iuris / facti*: \"ignorância de direito / de fato\"; *iusta ignorantia*, \"ignorância justa\" (escusável)."
+  },
+  {
+    "lema": "error",
+    "formas": [
+      "error",
+      "Error",
+      "erroris",
+      "Erroris",
+      "errorem",
+      "Errorem",
+      "errore",
+      "Errore",
+      "errores",
+      "Errores"
+    ],
+    "pt": [
+      "erro",
+      "erros"
+    ],
+    "nota": "\"Erro\"; *error iuris / facti*: \"erro de direito / de fato\"."
+  },
+  {
+    "lema": "dominium directum",
+    "formas": [
+      "dominium directum",
+      "dominii directi",
+      "dominio directo",
+      "directum dominium",
+      "dominij directi"
+    ],
+    "pt": [
+      "domínio direto"
+    ],
+    "nota": "\"Domínio direto\" (o do senhorio, na enfiteuse e no feudo), oposto ao domínio útil."
+  },
+  {
+    "lema": "dominium vtile",
+    "formas": [
+      "dominium vtile",
+      "dominii vtilis",
+      "dominio vtili",
+      "vtile dominium",
+      "dominij vtilis",
+      "dominium utile"
+    ],
+    "pt": [
+      "domínio útil"
+    ],
+    "nota": "\"Domínio útil\"."
+  },
+  {
+    "lema": "longi temporis",
+    "formas": [
+      "longi temporis",
+      "longissimi temporis",
+      "longo tempore",
+      "longissimo tempore"
+    ],
+    "pt": [
+      "longo tempo",
+      "longuíssimo tempo"
+    ],
+    "nota": "*Longi temporis praescriptio* (10 ou 20 anos) e *longissimi temporis* (30 ou 40): \"de longo tempo\" e \"de longuíssimo tempo\", como termos técnicos; não \"de muito tempo\"."
+  },
+  {
+    "lema": "immemorialis",
+    "formas": [
+      "immemorialis",
+      "Immemorialis",
+      "immemorialem",
+      "Immemorialem",
+      "immemoriali",
+      "Immemoriali",
+      "immemoriales",
+      "Immemoriales"
+    ],
+    "pt": [
+      "imemorial"
+    ],
+    "nota": "\"Imemorial\": a prescrição cujo início excede a memória dos homens."
+  },
+  {
+    "lema": "praestatio",
+    "formas": [
+      "praestatio",
+      "Praestatio",
+      "praestationis",
+      "Praestationis",
+      "praestationem",
+      "Praestationem",
+      "praestatione",
+      "Praestatione",
+      "praestationes",
+      "Praestationes",
+      "praestationibus",
+      "Praestationibus"
+    ],
+    "pt": [
+      "prestação",
+      "prestações"
+    ],
+    "nota": "\"Prestação\"; *praestatio annua*, \"prestação anual\" (foros, censos e tributos senhoriais)."
+  },
+  {
+    "lema": "census",
+    "formas": [
+      "census",
+      "Census",
+      "censum",
+      "Censum",
+      "censu",
+      "Censu",
+      "censibus",
+      "Censibus",
+      "censuum",
+      "Censuum"
+    ],
+    "pt": [
+      "censo",
+      "censos"
+    ],
+    "nota": "\"Censo\", a renda constituída sobre um bem (o contrato de censo)."
+  },
+  {
+    "lema": "vasallus",
+    "formas": [
+      "vasallus",
+      "Vasallus",
+      "vasalli",
+      "Vasalli",
+      "vasallos",
+      "Vasallos",
+      "vasallis",
+      "Vasallis",
+      "vasallorum",
+      "Vasallorum",
+      "vassallus",
+      "Vassallus",
+      "vassalli",
+      "Vassalli",
+      "vassallos",
+      "Vassallos"
+    ],
+    "pt": [
+      "vassalo",
+      "vassalos"
+    ],
+    "nota": "\"Vassalo\"."
+  },
+  {
+    "lema": "seruitus",
+    "formas": [
+      "seruitus",
+      "Seruitus",
+      "seruitutis",
+      "Seruitutis",
+      "seruitutem",
+      "Seruitutem",
+      "seruitute",
+      "Seruitute",
+      "seruitutes",
+      "Seruitutes",
+      "seruitutum",
+      "Seruitutum",
+      "seruitutibus",
+      "Seruitutibus"
+    ],
+    "pt": [
+      "servidão",
+      "servidões"
+    ],
+    "nota": "\"Servidão\" predial ou pessoal (não \"escravidão\", salvo quando o texto trata de escravos: nota)."
+  },
+  {
+    "lema": "emphyteusis",
+    "formas": [
+      "emphyteusis",
+      "Emphyteusis",
+      "emphyteusim",
+      "Emphyteusim",
+      "emphyteusi",
+      "Emphyteusi",
+      "emphyteuticus",
+      "Emphyteuticus",
+      "emphyteutico",
+      "Emphyteutico",
+      "emphyteuticum",
+      "Emphyteuticum"
+    ],
+    "pt": [
+      "enfiteuse",
+      "enfitêutico",
+      "enfitêutica"
+    ],
+    "nota": "\"Enfiteuse\"; o adjetivo, \"enfitêutico\"."
+  },
+  {
+    "lema": "feudum",
+    "formas": [
+      "feudum",
+      "Feudum",
+      "feudi",
+      "Feudi",
+      "feudo",
+      "Feudo",
+      "feuda",
+      "Feuda",
+      "feudorum",
+      "Feudorum",
+      "feudis",
+      "Feudis"
+    ],
+    "pt": [
+      "feudo",
+      "feudos"
+    ],
+    "nota": "\"Feudo\"."
+  },
+  {
+    "lema": "emptio",
+    "formas": [
+      "emptio",
+      "Emptio",
+      "emptionis",
+      "Emptionis",
+      "emptionem",
+      "Emptionem",
+      "emptione",
+      "Emptione",
+      "emptiones",
+      "Emptiones"
+    ],
+    "pt": [
+      "compra",
+      "compras"
+    ],
+    "nota": "\"Compra\"; *emptio venditio*, \"compra e venda\"; *actio ex empto / ex vendito*, \"ação de compra / de venda\" (do comprador, do vendedor)."
+  },
+  {
+    "lema": "venditio",
+    "formas": [
+      "venditio",
+      "Venditio",
+      "venditionis",
+      "Venditionis",
+      "venditionem",
+      "Venditionem",
+      "venditione",
+      "Venditione",
+      "venditiones",
+      "Venditiones"
+    ],
+    "pt": [
+      "venda",
+      "vendas"
+    ],
+    "nota": "\"Venda\"."
+  },
+  {
+    "lema": "donatio",
+    "formas": [
+      "donatio",
+      "Donatio",
+      "donationis",
+      "Donationis",
+      "donationem",
+      "Donationem",
+      "donatione",
+      "Donatione",
+      "donationes",
+      "Donationes",
+      "donationibus",
+      "Donationibus"
+    ],
+    "pt": [
+      "doação",
+      "doações"
+    ],
+    "nota": "\"Doação\"."
+  },
+  {
+    "lema": "dolus",
+    "formas": [
+      "dolus",
+      "Dolus",
+      "doli",
+      "Doli",
+      "dolo",
+      "Dolo",
+      "dolum",
+      "Dolum"
+    ],
+    "pt": [
+      "dolo"
+    ],
+    "nota": "\"Dolo\" (mesma forma do glossário do *Digesto*); *exceptio doli*, \"exceção de dolo\"."
+  },
+  {
+    "lema": "metus",
+    "formas": [
+      "metus",
+      "Metus",
+      "metum",
+      "Metum",
+      "metu",
+      "Metu"
+    ],
+    "pt": [
+      "medo"
+    ],
+    "nota": "\"Medo\", o vício do consentimento (*exceptio metus*, *metus cadens in constantem virum*); não \"coação\", que é o ato de quem infunde o medo (*vis*)."
+  },
+  {
+    "lema": "aequitas",
+    "formas": [
+      "aequitas",
+      "Aequitas",
+      "aequitatis",
+      "Aequitatis",
+      "aequitatem",
+      "Aequitatem",
+      "aequitate",
+      "Aequitate"
+    ],
+    "pt": [
+      "equidade"
+    ],
+    "nota": "\"Equidade\" (mesma forma do glossário do *Digesto*)."
+  },
+  {
+    "lema": "ius diuinum",
+    "formas": [
+      "ius diuinum",
+      "iure diuino",
+      "iuris diuini",
+      "diuini iuris",
+      "diuino iure",
+      "diuinum ius"
+    ],
+    "pt": [
+      "direito divino"
+    ],
+    "nota": "\"Direito divino\"."
+  },
+  {
+    "lema": "ius humanum",
+    "formas": [
+      "ius humanum",
+      "iure humano",
+      "iuris humani",
+      "humani iuris",
+      "humano iure",
+      "humanum ius"
+    ],
+    "pt": [
+      "direito humano"
+    ],
+    "nota": "\"Direito humano\" (o posto pelos homens, civil e canônico), oposto ao divino e ao natural; nunca no sentido moderno de \"direitos humanos\"."
+  },
+  {
+    "lema": "ius positiuum",
+    "formas": [
+      "ius positiuum",
+      "iure positiuo",
+      "iuris positiui",
+      "positiuo iure",
+      "positiuum ius"
+    ],
+    "pt": [
+      "direito positivo"
+    ],
+    "nota": "\"Direito positivo\"."
+  },
+  {
+    "lema": "ius ciuile",
+    "formas": [
+      "ius ciuile",
+      "iure ciuili",
+      "iuris ciuilis",
+      "ciuili iure",
+      "ciuile ius",
+      "iuris ciuilis"
+    ],
+    "pt": [
+      "direito civil"
+    ],
+    "nota": "\"Direito civil\" (mesma forma do glossário do *Digesto*): no Covarrubias, o direito romano de Justiniano, por oposição ao canônico e ao régio."
+  },
+  {
+    "lema": "ius Caesareum",
+    "formas": [
+      "ius Caesareum",
+      "iure Caesareo",
+      "iuris Caesarei",
+      "Caesarei iuris",
+      "Caesareo iure",
+      "Caesareum ius",
+      "iure caesareo",
+      "iuris caesarei"
+    ],
+    "pt": [
+      "direito cesáreo"
+    ],
+    "nota": "\"Direito cesáreo\": o direito imperial romano (o *Corpus iuris civilis*), sinônimo de direito civil no Covarrubias; manter \"cesáreo\" onde ele escreve *Caesareum*."
+  },
+  {
+    "lema": "ius canonicum",
+    "formas": [
+      "ius canonicum",
+      "iure canonico",
+      "iuris canonici",
+      "canonici iuris",
+      "canonico iure",
+      "canonicum ius"
+    ],
+    "pt": [
+      "direito canônico"
+    ],
+    "nota": "\"Direito canônico\"."
+  },
+  {
+    "lema": "ius pontificium",
+    "formas": [
+      "ius pontificium",
+      "iure pontificio",
+      "iuris pontificii",
+      "pontificii iuris",
+      "pontificio iure",
+      "pontificium ius"
+    ],
+    "pt": [
+      "direito pontifício"
+    ],
+    "nota": "\"Direito pontifício\": o canônico, visto como obra dos papas; manter a palavra do autor."
+  },
+  {
+    "lema": "ius regium",
+    "formas": [
+      "ius regium",
+      "iure regio",
+      "iuris regii",
+      "regii iuris",
+      "regio iure",
+      "regium ius"
+    ],
+    "pt": [
+      "direito régio"
+    ],
+    "nota": "\"Direito régio\": as leis dos reis de Castela (Partidas, Ordenamientos, Leyes de Toro, Nueva Recopilación). *Regiae constitutiones / leges regiae*: \"constituições régias / leis régias\"."
+  },
+  {
+    "lema": "ius vtrumque",
+    "formas": [
+      "iuris vtriusque",
+      "vtriusque iuris",
+      "iure vtroque",
+      "vtroque iure",
+      "ius vtrumque",
+      "Iuris vtriusque",
+      "iuris utriusque",
+      "utriusque iuris"
+    ],
+    "pt": [
+      "ambos os direitos"
+    ],
+    "nota": "\"Ambos os direitos\", o civil e o canônico (*interpretes iuris vtriusque*, \"intérpretes de ambos os direitos\")."
+  },
+  {
+    "lema": "ius patronatus",
+    "formas": [
+      "ius patronatus",
+      "iuris patronatus",
+      "iure patronatus",
+      "patronatus"
+    ],
+    "pt": [
+      "padroado"
+    ],
+    "nota": "*Ius patronatus*: \"direito de padroado\" (o direito de apresentar o clérigo para um benefício); *patronus*, \"padroeiro\" (nesse sentido)."
+  },
+  {
+    "lema": "beneficium",
+    "formas": [
+      "beneficium",
+      "Beneficium",
+      "beneficii",
+      "Beneficii",
+      "beneficij",
+      "Beneficij",
+      "beneficio",
+      "Beneficio",
+      "beneficia",
+      "Beneficia",
+      "beneficiorum",
+      "Beneficiorum",
+      "beneficiis",
+      "Beneficiis"
+    ],
+    "pt": [
+      "benefício",
+      "benefícios"
+    ],
+    "nota": "\"Benefício\": o benefício eclesiástico (o ofício com renda); também o benefício do direito (*beneficium restitutionis*). A mesma palavra serve aos dois."
+  },
+  {
+    "lema": "regula",
+    "formas": [
+      "regula",
+      "Regula",
+      "regulae",
+      "Regulae",
+      "regulam",
+      "Regulam",
+      "regulis",
+      "Regulis",
+      "regularum",
+      "Regularum"
+    ],
+    "pt": [
+      "regra",
+      "regras"
+    ],
+    "nota": "\"Regra\"; *regulae iuris*, \"regras de direito\" (o título *De regulis iuris* do *Digesto* e do *Liber Sextus*, que fica em latim nas alegações). A regra comentada fica em latim pelo nome (*regra Possessor malae fidei*)."
+  },
+  {
+    "lema": "relectio",
+    "formas": [
+      "relectio",
+      "Relectio",
+      "relectionis",
+      "Relectionis",
+      "relectionem",
+      "Relectionem",
+      "relectione",
+      "Relectione",
+      "relectiones",
+      "Relectiones"
+    ],
+    "pt": [
+      "relectio",
+      "relectiones"
+    ],
+    "nota": "Mantida em latim e em itálico (*relectio*, plural *relectiones*): a lição solene em que o catedrático de Salamanca retomava e desenvolvia um texto já lido no curso. Não há forma portuguesa corrente (\"relecção\", \"releição\" não se firmaram); a primeira ocorrência de cada *relectio* leva nota."
+  },
+  {
+    "lema": "summarium",
+    "formas": [
+      "summarium",
+      "Summarium",
+      "summaria",
+      "Summaria"
+    ],
+    "pt": [
+      "sumário"
+    ],
+    "nota": "\"Sumário\": a lista numerada que abre cada parte ou parágrafo (*Summaria*); *Huius relectionis summa*, \"sumário desta *relectio*\". Os números do sumário remetem aos números marginais do texto. *In summa* (\"em suma\") não é este termo."
+  },
+  {
+    "lema": "paragraphus",
+    "formas": [
+      "paragraphus",
+      "Paragraphus",
+      "paragraphi",
+      "Paragraphi",
+      "paragrapho",
+      "Paragrapho",
+      "paragraphum",
+      "Paragraphum",
+      "paragraphis",
+      "Paragraphis"
+    ],
+    "pt": [
+      "parágrafo",
+      "parágrafos"
+    ],
+    "nota": "\"Parágrafo\", a divisão da *relectio* (§); nas alegações, o § de uma lei (fica como impresso)."
+  },
+  {
+    "lema": "glossa",
+    "formas": [
+      "gl.",
+      "Gl.",
+      "glo.",
+      "Glo.",
+      "glos.",
+      "Glos.",
+      "gloss.",
+      "Gloss.",
+      "glossa",
+      "Glossa",
+      "glossae",
+      "Glossae",
+      "glossam",
+      "Glossam",
+      "glossis",
+      "Glossis",
+      "glossas",
+      "Glossas"
+    ],
+    "pt": [
+      "glosa",
+      "glosas"
+    ],
+    "nota": "*Gl.*, *glo.*, *gloss.*: \"a Glosa\" (com maiúscula quando é a Glosa ordinária, de Acúrsio no direito civil, de João Teutônico/Bartolomeu de Bréscia no Decreto, de Bernardo de Parma nas Decretais, de João Andreae no *Sexto* e nas Clementinas); \"glosa\" para uma glosa particular. Na alegação, a sigla fica como impressa."
+  },
+  {
+    "lema": "textus",
+    "formas": [
+      "textus",
+      "Textus",
+      "textum",
+      "Textum",
+      "textu",
+      "Textu",
+      "text.",
+      "Text.",
+      "tex.",
+      "Tex."
+    ],
+    "pt": [
+      "texto",
+      "textos"
+    ],
+    "nota": "\"Texto\": o texto da lei ou do cânone alegado (*optimus tex.*, \"excelente texto\"; *tex. in l. …*, \"o texto da l. …\")."
+  },
+  {
+    "lema": "rubrica",
+    "formas": [
+      "rubrica",
+      "Rubrica",
+      "rubricae",
+      "Rubricae",
+      "rubricam",
+      "Rubricam"
+    ],
+    "pt": [
+      "rubrica",
+      "rubricas"
+    ],
+    "nota": "\"Rubrica\": o título (cabeçalho) de um título do *Digesto*, do *Código* ou das Decretais, e o comentário dos doutores a ele (*Dec. in Rub. C. de except.*, \"Décio, na rubrica…\")."
+  },
+  {
+    "lema": "Iurisconsultus",
+    "formas": [
+      "Iurisconsultus",
+      "Iurisconsulti",
+      "Iurisconsulto",
+      "Iurisconsultum",
+      "Iurisconsultorum",
+      "Iurisconsultos",
+      "Iurisconsultis",
+      "iurisconsultus",
+      "iurisconsulti",
+      "iurisconsulto",
+      "iurisconsultorum",
+      "IC."
+    ],
+    "pt": [
+      "jurisconsulto",
+      "jurisconsultos"
+    ],
+    "nota": "\"Jurisconsulto\": o jurista romano cujo fragmento está no *Digesto* (*inquit Iurisconsultus*); *IC.* depois de um nome moderno, \"jurisconsulto\" também."
+  },
+  {
+    "lema": "lex",
+    "formas": [
+      "lex",
+      "Lex",
+      "legis",
+      "Legis",
+      "legem",
+      "Legem",
+      "lege",
+      "Lege",
+      "leges",
+      "Leges",
+      "legum",
+      "Legum",
+      "legibus",
+      "Legibus"
+    ],
+    "pt": [
+      "lei",
+      "leis"
+    ],
+    "nota": "\"Lei\". Na alegação, *l.* (fragmento do *Digesto* ou do *Código*, citado pelas primeiras palavras) fica como impresso. *Lex regia*, *leges regiae*: \"lei régia, leis régias\". *Legis lator*: \"legislador\"."
+  },
+  {
+    "lema": "statutum",
+    "formas": [
+      "statutum",
+      "Statutum",
+      "statuti",
+      "Statuti",
+      "statuto",
+      "Statuto",
+      "statuta",
+      "Statuta",
+      "statutorum",
+      "Statutorum",
+      "statutis",
+      "Statutis"
+    ],
+    "pt": [
+      "estatuto",
+      "estatutos"
+    ],
+    "nota": "\"Estatuto\": a lei particular de uma cidade ou corporação, oposta ao direito comum."
+  },
+  {
+    "lema": "constitutio",
+    "formas": [
+      "constitutio",
+      "Constitutio",
+      "constitutionis",
+      "Constitutionis",
+      "constitutionem",
+      "Constitutionem",
+      "constitutione",
+      "Constitutione",
+      "constitutiones",
+      "Constitutiones",
+      "constitutionum",
+      "Constitutionum",
+      "constitutionibus",
+      "Constitutionibus"
+    ],
+    "pt": [
+      "constituição",
+      "constituições"
+    ],
+    "nota": "\"Constituição\": a lei do príncipe ou do papa (*constitutiones Pontificiae / regiae*)."
+  },
+  {
+    "lema": "rescriptum",
+    "formas": [
+      "rescriptum",
+      "Rescriptum",
+      "rescripti",
+      "Rescripti",
+      "rescripto",
+      "Rescripto",
+      "rescripta",
+      "Rescripta",
+      "rescriptis",
+      "Rescriptis"
+    ],
+    "pt": [
+      "rescrito",
+      "rescritos"
+    ],
+    "nota": "\"Rescrito\", resposta do príncipe ou do papa a uma petição."
+  },
+  {
+    "lema": "Princeps",
+    "formas": [
+      "Princeps",
+      "Principis",
+      "Principem",
+      "Principe",
+      "Principi",
+      "principes",
+      "principum",
+      "principibus",
+      "princeps",
+      "principis",
+      "principem",
+      "principe",
+      "principi"
+    ],
+    "pt": [
+      "príncipe",
+      "príncipes"
+    ],
+    "nota": "\"Príncipe\": o soberano (o rei, o imperador), não o filho do rei; *Princeps saecularis*, \"príncipe secular\"."
+  },
+  {
+    "lema": "fiscus",
+    "formas": [
+      "fiscus",
+      "Fiscus",
+      "fisci",
+      "Fisci",
+      "fiscum",
+      "Fiscum",
+      "fisco",
+      "Fisco"
+    ],
+    "pt": [
+      "fisco"
+    ],
+    "nota": "\"Fisco\"."
+  },
+  {
+    "lema": "ecclesia",
+    "formas": [
+      "ecclesia",
+      "Ecclesia",
+      "ecclesiae",
+      "Ecclesiae",
+      "ecclesiam",
+      "Ecclesiam",
+      "ecclesiis",
+      "Ecclesiis",
+      "ecclesiarum",
+      "Ecclesiarum",
+      "ecclesias",
+      "Ecclesias"
+    ],
+    "pt": [
+      "igreja",
+      "igrejas"
+    ],
+    "nota": "\"Igreja\" (com maiúscula para a Igreja universal; minúscula para uma igreja particular: *ecclesia cathedralis*, \"igreja catedral\"). *Ecclesiasticus*: \"eclesiástico\"."
+  },
+  {
+    "lema": "Pontifex",
+    "formas": [
+      "Pontifex",
+      "Pontificis",
+      "Pontificem",
+      "Pontifice",
+      "Pontifices",
+      "Pontificum",
+      "pontifex",
+      "pontificis",
+      "pontificem",
+      "pontifice",
+      "pontifices",
+      "pontificum"
+    ],
+    "pt": [
+      "pontífice",
+      "pontífices"
+    ],
+    "nota": "\"Pontífice\"; *Summus Pontifex*, \"Sumo Pontífice\" (o papa). *Pontificius*: \"pontifício\"."
+  },
+  {
+    "lema": "canon",
+    "formas": [
+      "canon",
+      "canones",
+      "canonum",
+      "canonibus",
+      "canonem"
+    ],
+    "pt": [
+      "cânone",
+      "cânones"
+    ],
+    "nota": "\"Cânone\" (do Decreto ou de concílio); *ius canonicum*: ver a entrada própria. Na alegação, *c.* (capítulo ou cânone) fica como impresso."
+  },
+  {
+    "lema": "peccatum",
+    "formas": [
+      "peccatum",
+      "Peccatum",
+      "peccati",
+      "Peccati",
+      "peccato",
+      "Peccato",
+      "peccata",
+      "Peccata",
+      "peccatorum",
+      "Peccatorum",
+      "peccatis",
+      "Peccatis"
+    ],
+    "pt": [
+      "pecado",
+      "pecados"
+    ],
+    "nota": "\"Pecado\"; *peccatum mortale / veniale*: ver as entradas próprias. *Peccatum* é também o nome da regra da terceira *relectio* (*reg. Peccatum, de regul. iur. in 6*), que fica em latim como título."
+  },
+  {
+    "lema": "peccatum mortale",
+    "formas": [
+      "peccatum mortale",
+      "peccati mortalis",
+      "peccato mortali",
+      "mortale peccatum",
+      "mortaliter peccat",
+      "peccata mortalia",
+      "mortalis peccati"
+    ],
+    "pt": [
+      "pecado mortal",
+      "pecados mortais",
+      "peca mortalmente"
+    ],
+    "nota": "\"Pecado mortal\"; *mortaliter peccare*, \"pecar mortalmente\"."
+  },
+  {
+    "lema": "peccatum veniale",
+    "formas": [
+      "peccatum veniale",
+      "peccati venialis",
+      "peccato veniali",
+      "veniale peccatum",
+      "venialis peccati",
+      "peccata venialia"
+    ],
+    "pt": [
+      "pecado venial",
+      "pecados veniais"
+    ],
+    "nota": "\"Pecado venial\"."
+  },
+  {
+    "lema": "vsura",
+    "formas": [
+      "vsura",
+      "Vsura",
+      "vsurae",
+      "Vsurae",
+      "vsuram",
+      "Vsuram",
+      "vsuras",
+      "Vsuras",
+      "vsurarum",
+      "Vsurarum",
+      "vsuris",
+      "Vsuris",
+      "usura",
+      "Usura",
+      "usurae",
+      "Usurae",
+      "usuras",
+      "Usuras"
+    ],
+    "pt": [
+      "usura",
+      "usuras",
+      "juros"
+    ],
+    "nota": "\"Usura\": o lucro exigido pelo mútuo, proibido pelo direito canônico. Quando *vsurae* é o fruto legítimo do dinheiro (juros devidos por mora, *vsurae legitimae*), \"juros\", com nota; o adjetivo *vsurarius*, \"usurário\"."
+  },
+  {
+    "lema": "restitutio in integrum",
+    "formas": [
+      "restitutio in integrum",
+      "restitutionem in integrum",
+      "restitutione in integrum",
+      "in integrum restitutio",
+      "in integrum restitutionem",
+      "in integrum restitutione",
+      "restitutionis in integrum"
+    ],
+    "pt": [
+      "restituição por inteiro"
+    ],
+    "nota": "\"Restituição por inteiro\" (*in integrum*): o remédio do pretor que desfaz um ato ou um prazo consumado em favor do menor ou de quem tinha justa causa; distinta da restituição como reparação (*restitutio*). Na primeira ocorrência de cada capítulo, nota com o latim."
+  },
+  {
+    "lema": "iuramentum",
+    "formas": [
+      "iuramentum",
+      "Iuramentum",
+      "iuramenti",
+      "Iuramenti",
+      "iuramento",
+      "Iuramento",
+      "iuramenta",
+      "Iuramenta",
+      "iuramentorum",
+      "Iuramentorum",
+      "iuramentis",
+      "Iuramentis",
+      "iusiurandum",
+      "Iusiurandum",
+      "iureiurando",
+      "Iureiurando",
+      "iurisiurandi",
+      "Iurisiurandi",
+      "iusiurandi",
+      "Iusiurandi"
+    ],
+    "pt": [
+      "juramento",
+      "juramentos"
+    ],
+    "nota": "\"Juramento\", tanto para *iuramentum* quanto para *iusiurandum*; o verbo *iurare*, \"jurar\". *Iuramentum promissorium / confirmatorium*: ver as entradas próprias. Na alegação (*de iureiur.*) fica como impresso."
+  },
+  {
+    "lema": "iuramentum promissorium",
+    "formas": [
+      "iuramentum promissorium",
+      "iuramenti promissorii",
+      "iuramento promissorio",
+      "promissorium iuramentum",
+      "promissorio iuramento"
+    ],
+    "pt": [
+      "juramento promissório"
+    ],
+    "nota": "\"Juramento promissório\": o que confirma uma promessa (compromete a fazer algo no futuro), oposto ao assertório."
+  },
+  {
+    "lema": "iuramentum confirmatorium",
+    "formas": [
+      "iuramentum confirmatorium",
+      "iuramenti confirmatorii",
+      "iuramento confirmatorio",
+      "confirmatorium iuramentum",
+      "confirmatorio iuramento"
+    ],
+    "pt": [
+      "juramento confirmatório"
+    ],
+    "nota": "\"Juramento confirmatório\": o que se acrescenta a um contrato ou pacto para confirmá-lo (tema da *relectio Quamvis pactum*)."
+  },
+  {
+    "lema": "iuramentum assertorium",
+    "formas": [
+      "iuramentum assertorium",
+      "iuramenti assertorii",
+      "iuramento assertorio",
+      "assertorium iuramentum"
+    ],
+    "pt": [
+      "juramento assertório"
+    ],
+    "nota": "\"Juramento assertório\": o que afirma um fato passado ou presente."
+  },
+  {
+    "lema": "periurium",
+    "formas": [
+      "periurium",
+      "Periurium",
+      "periurii",
+      "Periurii",
+      "periurij",
+      "Periurij",
+      "periurio",
+      "Periurio",
+      "periuria",
+      "Periuria"
+    ],
+    "pt": [
+      "perjúrio",
+      "perjúrios"
+    ],
+    "nota": "\"Perjúrio\"; *periurus*, \"perjuro\"."
+  },
+  {
+    "lema": "renuntiatio",
+    "formas": [
+      "renuntiatio",
+      "Renuntiatio",
+      "renuntiationis",
+      "Renuntiationis",
+      "renuntiationem",
+      "Renuntiationem",
+      "renuntiatione",
+      "Renuntiatione",
+      "renunciatio",
+      "Renunciatio",
+      "renunciationem",
+      "Renunciationem",
+      "renunciatione",
+      "Renunciatione"
+    ],
+    "pt": [
+      "renúncia",
+      "renúncias"
+    ],
+    "nota": "\"Renúncia\" (à herança, à sucessão futura, a um benefício da lei); o verbo *renuntiare*, \"renunciar\"."
+  },
+  {
+    "lema": "successio",
+    "formas": [
+      "successio",
+      "Successio",
+      "successionis",
+      "Successionis",
+      "successionem",
+      "Successionem",
+      "successione",
+      "Successione",
+      "successiones",
+      "Successiones",
+      "successionibus",
+      "Successionibus"
+    ],
+    "pt": [
+      "sucessão",
+      "sucessões"
+    ],
+    "nota": "\"Sucessão\"; *successio ab intestato*, \"sucessão *ab intestato*\" (sem testamento)."
+  },
+  {
+    "lema": "successor",
+    "formas": [
+      "successor",
+      "Successor",
+      "successoris",
+      "Successoris",
+      "successorem",
+      "Successorem",
+      "successore",
+      "Successore",
+      "successores",
+      "Successores",
+      "successoribus",
+      "Successoribus",
+      "successorum",
+      "Successorum"
+    ],
+    "pt": [
+      "sucessor",
+      "sucessores"
+    ],
+    "nota": "\"Sucessor\"."
+  },
+  {
+    "lema": "haeres",
+    "formas": [
+      "haeres",
+      "Haeres",
+      "haeredis",
+      "Haeredis",
+      "haeredem",
+      "Haeredem",
+      "haerede",
+      "Haerede",
+      "haeredi",
+      "Haeredi",
+      "haeredes",
+      "Haeredes",
+      "haeredum",
+      "Haeredum",
+      "haeredibus",
+      "Haeredibus",
+      "heres",
+      "Heres",
+      "heredis",
+      "Heredis",
+      "heredem",
+      "Heredem",
+      "herede",
+      "Herede",
+      "heredes",
+      "Heredes",
+      "heredibus",
+      "Heredibus"
+    ],
+    "pt": [
+      "herdeiro",
+      "herdeira",
+      "herdeiros",
+      "herdeiras"
+    ],
+    "nota": "\"Herdeiro\" (mesma forma do glossário do *Digesto*); *haeres institutus*, \"herdeiro instituído\"."
+  },
+  {
+    "lema": "haereditas",
+    "formas": [
+      "haereditas",
+      "Haereditas",
+      "haereditatis",
+      "Haereditatis",
+      "haereditatem",
+      "Haereditatem",
+      "haereditate",
+      "Haereditate",
+      "haereditates",
+      "Haereditates",
+      "haereditatibus",
+      "Haereditatibus",
+      "hereditas",
+      "Hereditas",
+      "hereditatis",
+      "Hereditatis",
+      "hereditatem",
+      "Hereditatem",
+      "hereditate",
+      "Hereditate",
+      "hereditates",
+      "Hereditates",
+      "hereditatibus",
+      "Hereditatibus"
+    ],
+    "pt": [
+      "herança",
+      "heranças"
+    ],
+    "nota": "\"Herança\"; *haereditas iacens*, \"herança jacente\". Não \"hereditariedade\"."
+  },
+  {
+    "lema": "testamentum",
+    "formas": [
+      "testamentum",
+      "Testamentum",
+      "testamenti",
+      "Testamenti",
+      "testamento",
+      "Testamento",
+      "testamenta",
+      "Testamenta",
+      "testamentorum",
+      "Testamentorum",
+      "testamentis",
+      "Testamentis"
+    ],
+    "pt": [
+      "testamento",
+      "testamentos"
+    ],
+    "nota": "\"Testamento\"; *testator*, \"testador\"."
+  },
+  {
+    "lema": "legatum",
+    "formas": [
+      "legatum",
+      "Legatum",
+      "legati",
+      "Legati",
+      "legato",
+      "Legato",
+      "legata",
+      "Legata",
+      "legatorum",
+      "Legatorum",
+      "legatis",
+      "Legatis"
+    ],
+    "pt": [
+      "legado",
+      "legados"
+    ],
+    "nota": "\"Legado\" (disposição a título singular no testamento; mesma forma do glossário do *Digesto*); *legatarius*, \"legatário\". Atenção a *legatus*, \"legado\" (enviado, embaixador), que também dá \"legado\" em português, e *legati* como genitivo de *legatum*: o contexto decide."
+  },
+  {
+    "lema": "fideicommissum",
+    "formas": [
+      "fideicommissum",
+      "Fideicommissum",
+      "fideicommissi",
+      "Fideicommissi",
+      "fideicommisso",
+      "Fideicommisso",
+      "fideicommissa",
+      "Fideicommissa",
+      "fideicommissorum",
+      "Fideicommissorum"
+    ],
+    "pt": [
+      "fideicomisso",
+      "fideicomissos"
+    ],
+    "nota": "\"Fideicomisso\"."
+  },
+  {
+    "lema": "legitima",
+    "formas": [
+      "legitima portio",
+      "portio legitima",
+      "legitimae portionis",
+      "legitimam portionem",
+      "legitima filiorum",
+      "legitimam filiorum",
+      "legitimae filiorum"
+    ],
+    "pt": [
+      "legítima"
+    ],
+    "nota": "\"Legítima\": a porção da herança reservada aos herdeiros necessários. Como *legitima* é também o adjetivo (\"legítima prescrição\", \"tempo legítimo\"), só as formas com *portio* ou *filiorum* estão listadas; o substantivo isolado também é \"a legítima\"."
+  },
+  {
+    "lema": "sponsalia",
+    "formas": [
+      "sponsalia",
+      "Sponsalia",
+      "sponsalium",
+      "Sponsalium",
+      "sponsalibus",
+      "Sponsalibus"
+    ],
+    "pt": [
+      "esponsais"
+    ],
+    "nota": "\"Esponsais\": a promessa de casamento futuro (*sponsalia de futuro*); *sponsalia de praesenti*, \"esponsais de presente\" (o próprio matrimônio, na linguagem anterior a Trento), com nota."
+  },
+  {
+    "lema": "matrimonium",
+    "formas": [
+      "matrimonium",
+      "Matrimonium",
+      "matrimonii",
+      "Matrimonii",
+      "matrimonij",
+      "Matrimonij",
+      "matrimonio",
+      "Matrimonio",
+      "matrimonia",
+      "Matrimonia",
+      "matrimoniorum",
+      "Matrimoniorum",
+      "matrimoniis",
+      "Matrimoniis"
+    ],
+    "pt": [
+      "matrimônio",
+      "matrimônios"
+    ],
+    "nota": "\"Matrimônio\" (grafia brasileira); *coniugium*, \"casamento\", quando o autor varia."
+  },
+  {
+    "lema": "impedimentum",
+    "formas": [
+      "impedimentum",
+      "Impedimentum",
+      "impedimenti",
+      "Impedimenti",
+      "impedimento",
+      "Impedimento",
+      "impedimenta",
+      "Impedimenta",
+      "impedimentorum",
+      "Impedimentorum",
+      "impedimentis",
+      "Impedimentis"
+    ],
+    "pt": [
+      "impedimento",
+      "impedimentos"
+    ],
+    "nota": "\"Impedimento\" (do matrimônio: *impedimentum dirimens / impediens*, \"impedimento dirimente / impediente\")."
+  },
+  {
+    "lema": "dispensatio",
+    "formas": [
+      "dispensatio",
+      "Dispensatio",
+      "dispensationis",
+      "Dispensationis",
+      "dispensationem",
+      "Dispensationem",
+      "dispensatione",
+      "Dispensatione",
+      "dispensationes",
+      "Dispensationes"
+    ],
+    "pt": [
+      "dispensa",
+      "dispensas"
+    ],
+    "nota": "\"Dispensa\" (o ato do papa ou do bispo que libera da lei num caso); o verbo *dispensare*, \"dispensar\". Não \"dispensação\"."
+  },
+  {
+    "lema": "affinitas",
+    "formas": [
+      "affinitas",
+      "Affinitas",
+      "affinitatis",
+      "Affinitatis",
+      "affinitatem",
+      "Affinitatem",
+      "affinitate",
+      "Affinitate"
+    ],
+    "pt": [
+      "afinidade"
+    ],
+    "nota": "\"Afinidade\", o parentesco por casamento."
+  },
+  {
+    "lema": "consanguinitas",
+    "formas": [
+      "consanguinitas",
+      "Consanguinitas",
+      "consanguinitatis",
+      "Consanguinitatis",
+      "consanguinitatem",
+      "Consanguinitatem",
+      "consanguinitate",
+      "Consanguinitate"
+    ],
+    "pt": [
+      "consanguinidade"
+    ],
+    "nota": "\"Consanguinidade\", o parentesco de sangue; *gradus*, \"grau\"."
+  },
+  {
+    "lema": "dos",
+    "formas": [
+      "dos",
+      "Dos",
+      "dotis",
+      "Dotis",
+      "dotem",
+      "Dotem",
+      "dote",
+      "Dote",
+      "dotes",
+      "Dotes",
+      "dotium",
+      "Dotium",
+      "dotibus",
+      "Dotibus"
+    ],
+    "pt": [
+      "dote",
+      "dotes"
+    ],
+    "nota": "\"Dote\"."
+  },
+  {
+    "lema": "filius familias",
+    "formas": [
+      "filius familias",
+      "filiusfamilias",
+      "filii familias",
+      "filiifamilias",
+      "filium familias",
+      "filio familias",
+      "filiofamilias"
+    ],
+    "pt": [
+      "filho-família",
+      "filhos-família"
+    ],
+    "nota": "\"Filho-família\", o filho sob o pátrio poder (*patria potestas*, \"pátrio poder\")."
+  },
+  {
+    "lema": "excommunicatio",
+    "formas": [
+      "excommunicatio",
+      "Excommunicatio",
+      "excommunicationis",
+      "Excommunicationis",
+      "excommunicationem",
+      "Excommunicationem",
+      "excommunicatione",
+      "Excommunicatione",
+      "excommunicationes",
+      "Excommunicationes"
+    ],
+    "pt": [
+      "excomunhão",
+      "excomunhões"
+    ],
+    "nota": "\"Excomunhão\"; *excommunicatio maior / minor*, \"excomunhão maior / menor\"; *latae sententiae*, \"*latae sententiae*\" (sem tradução, com nota)."
+  },
+  {
+    "lema": "excommunicatus",
+    "formas": [
+      "excommunicatus",
+      "Excommunicatus",
+      "excommunicati",
+      "Excommunicati",
+      "excommunicato",
+      "Excommunicato",
+      "excommunicatum",
+      "Excommunicatum",
+      "excommunicatos",
+      "Excommunicatos",
+      "excommunicatis",
+      "Excommunicatis"
+    ],
+    "pt": [
+      "excomungado",
+      "excomungados"
+    ],
+    "nota": "\"Excomungado\"."
+  },
+  {
+    "lema": "interdictum",
+    "formas": [
+      "interdictum",
+      "Interdictum",
+      "interdicti",
+      "Interdicti",
+      "interdicto",
+      "Interdicto",
+      "interdicta",
+      "Interdicta",
+      "interdictorum",
+      "Interdictorum",
+      "interdictis",
+      "Interdictis"
+    ],
+    "pt": [
+      "interdito",
+      "interditos"
+    ],
+    "nota": "\"Interdito\", nos dois sentidos: o interdito possessório do direito romano (*interdictum vti possidetis*, *vnde vi*), na *Possessor malae fidei*; e a censura eclesiástica que proíbe ofícios e sacramentos num lugar (*interdictum locale / personale*), na *Alma mater*. O contexto decide; nota quando houver risco de confusão."
+  },
+  {
+    "lema": "censura",
+    "formas": [
+      "censura",
+      "Censura",
+      "censurae",
+      "Censurae",
+      "censuram",
+      "Censuram",
+      "censuris",
+      "Censuris",
+      "censurarum",
+      "Censurarum"
+    ],
+    "pt": [
+      "censura",
+      "censuras"
+    ],
+    "nota": "\"Censura\" (eclesiástica: excomunhão, suspensão, interdito); no sentido de juízo crítico (*censuram auertere*), muda a tradução, com nota se preciso."
+  },
+  {
+    "lema": "suspensio",
+    "formas": [
+      "suspensio",
+      "Suspensio",
+      "suspensionis",
+      "Suspensionis",
+      "suspensionem",
+      "Suspensionem",
+      "suspensione",
+      "Suspensione"
+    ],
+    "pt": [
+      "suspensão"
+    ],
+    "nota": "\"Suspensão\" (a censura que priva o clérigo do ofício ou do benefício)."
+  },
+  {
+    "lema": "absolutio",
+    "formas": [
+      "absolutio",
+      "Absolutio",
+      "absolutionis",
+      "Absolutionis",
+      "absolutionem",
+      "Absolutionem",
+      "absolutione",
+      "Absolutione"
+    ],
+    "pt": [
+      "absolvição"
+    ],
+    "nota": "\"Absolvição\" (da excomunhão, do pecado, e do réu em juízo)."
+  },
+  {
+    "lema": "irregularitas",
+    "formas": [
+      "irregularitas",
+      "Irregularitas",
+      "irregularitatis",
+      "Irregularitatis",
+      "irregularitatem",
+      "Irregularitatem",
+      "irregularitate",
+      "Irregularitate"
+    ],
+    "pt": [
+      "irregularidade"
+    ],
+    "nota": "\"Irregularidade\": o impedimento canônico para receber ou exercer as ordens (tema da *relectio Si furiosus*); *irregularis*, \"irregular\"."
+  },
+  {
+    "lema": "homicidium",
+    "formas": [
+      "homicidium",
+      "Homicidium",
+      "homicidii",
+      "Homicidii",
+      "homicidij",
+      "Homicidij",
+      "homicidio",
+      "Homicidio",
+      "homicidia",
+      "Homicidia"
+    ],
+    "pt": [
+      "homicídio",
+      "homicídios"
+    ],
+    "nota": "\"Homicídio\"; *homicida*, \"homicida\"; *homicidium casuale / voluntarium*, \"homicídio casual / voluntário\"."
+  },
+  {
+    "lema": "furiosus",
+    "formas": [
+      "furiosus",
+      "Furiosus",
+      "furiosi",
+      "Furiosi",
+      "furioso",
+      "Furioso",
+      "furiosum",
+      "Furiosum",
+      "furiosis",
+      "Furiosis"
+    ],
+    "pt": [
+      "louco",
+      "loucos"
+    ],
+    "nota": "\"Louco\" (*furiosus*, o demente; *furor*, \"loucura\"); mesma solução do *De Contractibus* (§ 8 da disp. 1, sec. 1). O título *Si furiosus* fica em latim."
+  },
+  {
+    "lema": "bellum iustum",
+    "formas": [
+      "bellum iustum",
+      "iustum bellum",
+      "belli iusti",
+      "iusti belli",
+      "bello iusto",
+      "iusto bello"
+    ],
+    "pt": [
+      "guerra justa"
+    ],
+    "nota": "\"Guerra justa\"."
+  },
+  {
+    "lema": "poena",
+    "formas": [
+      "poena",
+      "Poena",
+      "poenae",
+      "Poenae",
+      "poenam",
+      "Poenam",
+      "poenis",
+      "Poenis",
+      "poenarum",
+      "Poenarum",
+      "poenas",
+      "Poenas"
+    ],
+    "pt": [
+      "pena",
+      "penas"
+    ],
+    "nota": "\"Pena\"."
+  },
+  {
+    "lema": "delictum",
+    "formas": [
+      "delictum",
+      "Delictum",
+      "delicti",
+      "Delicti",
+      "delicto",
+      "Delicto",
+      "delicta",
+      "Delicta",
+      "delictorum",
+      "Delictorum",
+      "delictis",
+      "Delictis"
+    ],
+    "pt": [
+      "delito",
+      "delitos"
+    ],
+    "nota": "\"Delito\"."
+  },
+  {
+    "lema": "clericus",
+    "formas": [
+      "clericus",
+      "Clericus",
+      "clerici",
+      "Clerici",
+      "clerico",
+      "Clerico",
+      "clericum",
+      "Clericum",
+      "clericos",
+      "Clericos",
+      "clericis",
+      "Clericis",
+      "clericorum",
+      "Clericorum"
+    ],
+    "pt": [
+      "clérigo",
+      "clérigos"
+    ],
+    "nota": "\"Clérigo\"; *laicus*, \"leigo\"."
+  },
+  {
+    "lema": "Episcopus",
+    "formas": [
+      "Episcopus",
+      "Episcopi",
+      "Episcopo",
+      "Episcopum",
+      "Episcopos",
+      "Episcoporum",
+      "Episcopis",
+      "episcopus",
+      "episcopi",
+      "episcopo",
+      "episcopum",
+      "episcopos",
+      "episcoporum",
+      "episcopis"
+    ],
+    "pt": [
+      "bispo",
+      "bispos"
+    ],
+    "nota": "\"Bispo\"; *episcopatus*, \"episcopado\"."
+  },
+  {
+    "lema": "praelatus",
+    "formas": [
+      "praelatus",
+      "Praelatus",
+      "praelati",
+      "Praelati",
+      "praelato",
+      "Praelato",
+      "praelatum",
+      "Praelatum",
+      "praelatos",
+      "Praelatos",
+      "praelatis",
+      "Praelatis",
+      "praelatorum",
+      "Praelatorum"
+    ],
+    "pt": [
+      "prelado",
+      "prelados"
+    ],
+    "nota": "\"Prelado\"."
+  },
+  {
+    "lema": "decimae",
+    "formas": [
+      "decimae",
+      "decimas",
+      "decimarum",
+      "decimis"
+    ],
+    "pt": [
+      "dízimo",
+      "dízimos"
+    ],
+    "nota": "\"Dízimos\" (*decimae*, plural); no singular quando o português pede."
+  },
+  {
+    "lema": "simonia",
+    "formas": [
+      "simonia",
+      "Simonia",
+      "simoniae",
+      "Simoniae",
+      "simoniam",
+      "Simoniam"
+    ],
+    "pt": [
+      "simonia"
+    ],
+    "nota": "\"Simonia\"."
+  },
+  {
+    "lema": "numisma",
+    "formas": [
+      "numisma",
+      "Numisma",
+      "numismatis",
+      "Numismatis",
+      "numismata",
+      "Numismata",
+      "numismatum",
+      "Numismatum",
+      "numismatibus",
+      "Numismatibus",
+      "moneta",
+      "Moneta",
+      "monetae",
+      "Monetae",
+      "monetam",
+      "Monetam",
+      "monetarum",
+      "Monetarum"
+    ],
+    "pt": [
+      "moeda",
+      "moedas"
+    ],
+    "nota": "\"Moeda\", para *numisma* e *moneta* (*Veterum numismatum collatio*, \"comparação das moedas antigas\"); nomes de moedas (*aureus*, *denarius*, *sestertius*, *maravedí*) ficam na forma portuguesa corrente quando houver (áureo, denário, sestércio, maravedi), com nota de valor quando o texto calcula."
+  },
+  {
+    "lema": "ius regni",
+    "formas": [
+      "leges regni",
+      "legibus regni",
+      "regni leges"
+    ],
+    "pt": [
+      "leis do reino"
+    ],
+    "nota": "\"Leis do reino\" (Castela)."
+  },
+  {
+    "lema": "communis opinio",
+    "formas": [
+      "communis opinio",
+      "communem opinionem",
+      "communis opinionis",
+      "communi opinione",
+      "opinionem communem",
+      "opinio communis",
+      "Communem Opinionem",
+      "Communis opinio"
+    ],
+    "pt": [
+      "opinião comum"
+    ],
+    "nota": "\"Opinião comum\" (dos doutores): conceito técnico da argumentação do direito comum. A impressão de 1610 destaca *Communis opinio* em itálico (marca tipográfica de Brederode, que o prefácio dele anuncia); o itálico se conserva no latim."
+  }
+]
