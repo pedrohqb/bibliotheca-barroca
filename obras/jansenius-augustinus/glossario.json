@@ -258,6 +258,12 @@
     "nota": "\"Domínio\": o senhorio da concupiscência (ou da iniquidade, do pecado) e do diabo sobre o arbítrio antes da graça (livro III do *De statu naturae lapsae*, cap. 4). O verbo *dominari*, \"dominar\"; *dominus*, \"senhor\"."
   },
   {
+    "lema": "electio",
+    "formas": ["electio", "electionis", "electionem", "electione"],
+    "pt": ["eleição"],
+    "nota": "\"Eleição\" (divina, para a salvação); *vas electionis*, \"vaso de eleição\" (At 9,15). Distinta de *praedestinatio*, \"predestinação\". Livro proemial, caps. 13 e 20."
+  },
+  {
     "lema": "praevaricatio",
     "formas": ["praevaricatio", "praevaricationem", "praevaricatione", "praevaricator", "praevaricatores", "praevaricatur"],
     "pt": ["prevaricação", "prevaricador", "prevaricadores", "prevarica"],
@@ -270,9 +276,39 @@
     "nota": "\"Direito natural\", também para *jus naturae*; distinto de *jus divinum positivum*, \"direito divino positivo\" (o que o Evangelho contém). *Lex naturae*, \"lei da natureza\"; *lex naturalis*, \"lei natural\". *Ignorantia juris… facti*, \"ignorância de direito… de fato\" (livro II do *De statu naturae lapsae*, cap. 5)."
   },
   {
-    "lema": "electio",
-    "formas": ["electio", "electionis", "electionem", "electione"],
-    "pt": ["eleição"],
-    "nota": "\"Eleição\" (divina, para a salvação); *vas electionis*, \"vaso de eleição\" (At 9,15). Distinta de *praedestinatio*, \"predestinação\". Livro proemial, caps. 13 e 20."
+    "lema": "propagatio",
+    "formas": ["propagatio", "propagationis", "propagationem", "propagatione", "propagari", "propagandum", "propagante"],
+    "pt": ["propagação", "propagar", "propaga", "propague", "propagando"],
+    "nota": "\"Propagação\" (do pecado original, ou da natureza, pela geração); o verbo *propagare*, \"propagar\". Distinto de *traductio*, \"transmissão\", e de *transfusio*, \"transfusão\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
+  },
+  {
+    "lema": "libido",
+    "formas": ["libido", "libidinis", "libidinem", "libidine"],
+    "pt": ["libido"],
+    "nota": "\"Libido\": em Agostinho e em Jansênio, o desejo carnal desordenado, sobretudo o sexual, que acompanha a geração depois do pecado (*pudenda libido*, \"libido vergonhosa\"); quase sinônimo de *concupiscentia carnis*, \"concupiscência da carne\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
+  },
+  {
+    "lema": "consuetudo",
+    "formas": ["consuetudo", "consuetudinis", "consuetudini", "consuetudinem", "consuetudine", "consuetudinum"],
+    "pt": ["costume", "costumes"],
+    "nota": "\"Costume\": em Agostinho, a inclinação adquirida pela repetição dos atos (*consuetudo carnalis*, \"costume carnal\"; *consuetudo naturalis*, \"costume natural\"), a que Jansênio assimila a concupiscência inata (livro II do *De statu naturae lapsae*, cap. 7). Distinto de *habitus*, \"hábito\", termo escolástico."
+  },
+  {
+    "lema": "voluptas",
+    "formas": ["voluptas", "voluptatis", "voluptatem", "voluptate", "voluptates", "voluptatibus"],
+    "pt": ["prazer", "prazeres"],
+    "nota": "\"Prazer\": nome que os gregos, sobretudo os platônicos, e Juliano davam à concupiscência (livro II do *De statu naturae lapsae*, cap. 7). Distinto de *delectatio*, \"deleite\", e de *libido*, \"libido\"."
+  },
+  {
+    "lema": "delectatio",
+    "formas": ["delectatio", "delectationis", "delectationem", "delectatione", "delectationes"],
+    "pt": ["deleite", "deleites"],
+    "nota": "\"Deleite\": termo central na doutrina agostiniana da graça e da concupiscência; o verbo *delectare*, \"deleitar\". Distinto de *voluptas*, \"prazer\" (livro II do *De statu naturae lapsae*, cap. 7)."
+  },
+  {
+    "lema": "vitiatio",
+    "formas": ["vitiatio", "vitiationis", "vitiationem", "vitiatione"],
+    "pt": ["viciação"],
+    "nota": "\"Viciação\": o ato e o efeito de viciar a natureza pelo pecado de Adão; o verbo *vitiare*, \"viciar\" (*natura vitiata*, \"natureza viciada\"). Distinto de *vitium*, \"vício\", e de *corruptio*, \"corrupção\". Livro I do *De statu naturae lapsae*, caps. 5 e seguintes."
   }
 ]
