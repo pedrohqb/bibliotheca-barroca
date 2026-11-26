@@ -107,7 +107,7 @@ def _faixa(indice, chave, ordem):
     return ant['vol'], ini, fim, chave in indice
 
 
-def _trecho_ocr(rotulo, indice, chave, ordem, limite=60000):
+def _trecho_ocr(rotulo, indice, chave, ordem, limite=None):
     f = _faixa(indice, chave, ordem)
     if not f:
         print(f'- {rotulo}: título não localizado.')
