@@ -1,0 +1,10 @@
+﻿fonte;rodada_ou_parte;situacao;tentativa;modelo;esforco;chamadas;entrada_total;cache_lido;cache_gravado;saida;raciocinio;buscas;segundos;creditos_codex_estimados;usd_api_estimado
+codex;R1;aceita;9ec6325c;gpt-6.1-sol;medium;1;1092444;969856;;9823;3836;30;249;11,0098;
+gemini;R1;aceita;87625958;gemini-4-argon-high;high;1;800984;678967;;51165;42753;36;693;;
+codex;R2;aceita;2259e587;gpt-6.1-sol;medium;1;324885;259584;;4264;1079;7;112;4,9800;
+gemini;R2;aceita;15e3e548;gemini-4-argon-high;high;1;42916;0;;7294;4708;0;72;;
+claude;sessao;;;claude-opus-5-5;;503;266535638;261660678;4873722;530493;;;;;101,9400
+claude;debate;;;claude-opus-5-5;;15;13885753;13849373;36342;9860;;;;;3,2600
+claude;preparo;;;claude-opus-5-5;;0;0;0;0;0;;;;;0,0000
+claude;rodadas;;;claude-opus-5-5;;15;13885753;13849373;36342;9860;;;;;3,2600
+claude;subagentes;;;claude-opus-5-5;;0;0;0;0;0;;;;;0,0000
