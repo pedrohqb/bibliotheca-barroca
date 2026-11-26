@@ -1,5 +1,5 @@
 {
-  "nota": "Capítulos na ordem de produção (docs/plano-covarrubias.md). O capítulo é cada seção da estrutura de Paderborn (uma por PDF); 00 é o proêmio ou a dedicatória da relectio (os títulos de parte sem texto próprio entram no capítulo seguinte). 'colunas' traz as páginas impressas (obra.json usa referencia: pagina; tomo I: página do PDF = página impressa + 15); 'paginas' são páginas do PDF do volume e cobrem do início da seção ao início da seguinte (o capítulo pode começar ou terminar no meio delas). Títulos da estrutura da biblioteca, normalizados; 'capitulo' (§ n) é provisório e se acerta na transcrição. Siglas do tomo I: pmf, qp, pec, test, ray (c. Raynutius), suc (De successionibus ab intestato), spons, am, sf, num, pre (paratextos do tomo). Paratextos sem paginação impressa (t1-test-00 e t1-pre-*): 'colunas' = 'f' (folhas preliminares).",
+  "nota": "Capítulos na ordem de produção (docs/plano-covarrubias.md). O capítulo é cada seção da estrutura de Paderborn (uma por PDF); 00 é o proêmio ou a dedicatória da relectio (os títulos de parte sem texto próprio entram no capítulo seguinte). 'colunas' traz as páginas impressas (obra.json usa referencia: pagina; tomo I: página do PDF = página impressa + 15); 'paginas' são páginas do PDF do volume e cobrem do início da seção ao início da seguinte (o capítulo pode começar ou terminar no meio delas). Títulos da estrutura da biblioteca, normalizados; 'capitulo' (§ n) é provisório e se acerta na transcrição. Siglas do tomo I: pmf, qp, pec, test, ray (c. Raynutius), suc (De successionibus ab intestato), spons, am, sf, num, pre (paratextos do tomo). Paratextos sem paginação impressa (t1-test-00 e t1-pre-*): 'colunas' = 'f' (folhas preliminares). Tomo II: a página impressa não tem deslocamento fixo em relação ao PDF ('colunas' lido nos marcadores 'Seite n' de cada página). Siglas do tomo II: var1-var4 (Variae resolutiones I-IV; capítulo = número do capítulo impresso; 00 é a dedicatória), uff1-uff4 (Natae de Jan van Uffels a cada livro das Variae, como seção separada no fim da parte; número = capítulo das Variae comentado), pq (Practicae quaestiones; 00 é a dedicatória a Filipe II). Índices (Summa capitum, Index rerum) não entram. Tomo II: a página impressa não tem deslocamento fixo em relação ao PDF ('colunas' lido nos marcadores 'Seite n' de cada página). Siglas do tomo II: var1-var4 (Variae resolutiones I-IV; capítulo = número do capítulo impresso; 00 é a dedicatória), uff1-uff4 (Natae de Jan van Uffels a cada livro das Variae, como seção separada no fim da parte; número = capítulo das Variae comentado), pq (Practicae quaestiones; 00 é a dedicatória a Filipe II). Índices (Summa capitum, Index rerum) não entram.",
   "volumes": {
     "I": {
       "pdf": "~/bibliotheca-fontes/covarrubias-opera/tomo-1.pdf",
@@ -1772,6 +1772,1686 @@
       "paginas": "11-11",
       "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8250725",
       "colunas": ""
+    },
+    {
+      "id": "t2-var1-00",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Epistola dedicatoria",
+      "titulo": "Ad Illvstrissimvm Ac Reverendissimvm Dominvm D. Ferdinandvm Ninno, Indiarvm, nouique orbis Patriarcham, Episcopum Seguntinum, Caroli Caesaris Hispaniarum Regis summo Praefectum Praetorio, Didaci Coiarruuias a Leyua Toletani, in Granatensi Curia, Regioque Auditorio Senatoris, in tres Variarum ex iure Pontificio, Regio, & Caesareo Resolutionum libros.",
+      "colunas": "",
+      "paginas": "6-7",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8255040"
+    },
+    {
+      "id": "t2-var1-01",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 1",
+      "titulo": "An ex actis ex conscientia iudex iudicare debeat.",
+      "colunas": "1-6",
+      "paginas": "12-17",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256719"
+    },
+    {
+      "id": "t2-var1-02",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 2",
+      "titulo": "An dolis & fallaciis in iudiciis vti liceat.",
+      "colunas": "6-16",
+      "paginas": "17-27",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256733"
+    },
+    {
+      "id": "t2-var1-03",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 3",
+      "titulo": "An fructuum ratio habeatur in restitutione in integrum, quae causa aetatis sit.",
+      "colunas": "16-22",
+      "paginas": "27-33",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256739"
+    },
+    {
+      "id": "t2-var1-04",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 4",
+      "titulo": "Coram quo iudice sit in integrum restitutio petenda.",
+      "colunas": "22-25",
+      "paginas": "33-36",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256757"
+    },
+    {
+      "id": "t2-var1-05",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 5",
+      "titulo": "An minor laesus in spiritualib. restituendus.",
+      "colunas": "25-28",
+      "paginas": "36-39",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256762"
+    },
+    {
+      "id": "t2-var1-06",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 6",
+      "titulo": "An mandatum speciale requiratur ad restitutionem in integrum petendam.",
+      "colunas": "28-31",
+      "paginas": "39-42",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256772"
+    },
+    {
+      "id": "t2-var1-07",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 7",
+      "titulo": "De praelatione hypothecae vxori pro dote competentis.",
+      "colunas": "31-38",
+      "paginas": "42-49",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256778"
+    },
+    {
+      "id": "t2-var1-08",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 8",
+      "titulo": "De meliorationib. Hypothecae & pignorum.",
+      "colunas": "38-41",
+      "paginas": "49-52",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256781"
+    },
+    {
+      "id": "t2-var1-09",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 9",
+      "titulo": "De retractu Conuentionali, eiusque praesciptione.",
+      "colunas": "41-44",
+      "paginas": "52-55",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256783"
+    },
+    {
+      "id": "t2-var1-10",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 10",
+      "titulo": "De Confirmationis, Sacramento ad interpretationem tex. in c. quanto de Consuet.",
+      "colunas": "44-50",
+      "paginas": "55-61",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256785"
+    },
+    {
+      "id": "t2-var1-11",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 11",
+      "titulo": "De iniuria verbali.",
+      "colunas": "50-54",
+      "paginas": "61-65",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256787"
+    },
+    {
+      "id": "t2-var1-12",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 12",
+      "titulo": "De temporis cpmputatione.",
+      "colunas": "54-57",
+      "paginas": "65-68",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256789"
+    },
+    {
+      "id": "t2-var1-13",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 13",
+      "titulo": "De oratione indefinita, eiusque vi.",
+      "colunas": "57-60",
+      "paginas": "68-71",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256791"
+    },
+    {
+      "id": "t2-var1-14",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 14",
+      "titulo": "De Conditionibus donationis contractui adiectis.",
+      "colunas": "60-67",
+      "paginas": "71-78",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256793"
+    },
+    {
+      "id": "t2-var1-15",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 15",
+      "titulo": "De fructibus rei venditae, anad emptorem pertineant.",
+      "colunas": "67-71",
+      "paginas": "78-82",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256795"
+    },
+    {
+      "id": "t2-var1-16",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 16",
+      "titulo": "De fisci fauore.",
+      "colunas": "71-76",
+      "paginas": "82-87",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256797"
+    },
+    {
+      "id": "t2-var1-17",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 17",
+      "titulo": "De decimis, earumque iure.",
+      "colunas": "76-87",
+      "paginas": "87-98",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256799"
+    },
+    {
+      "id": "t2-var1-18",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 18",
+      "titulo": "Constitutio l. diffamari. C. de ingen. & manum. expenditur.",
+      "colunas": "87-88",
+      "paginas": "98-99",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256801"
+    },
+    {
+      "id": "t2-var1-19",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 19",
+      "titulo": "Donatio facta ecclesiae, an reuocetur natiuitate filiorum.",
+      "colunas": "88-93",
+      "paginas": "99-104",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256802"
+    },
+    {
+      "id": "t2-var1-20",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber I",
+      "capitulo": "Caput 20",
+      "titulo": "De precibus Principi offerendis.",
+      "colunas": "93-96",
+      "paginas": "104-107",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256803"
+    },
+    {
+      "id": "t2-var2-01",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 1",
+      "titulo": "Quid de his qui aere alieno grauantur, deque cessione bonorum iura statuerint.",
+      "colunas": "97-103",
+      "paginas": "108-114",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256722"
+    },
+    {
+      "id": "t2-var2-02",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 2",
+      "titulo": "De vsufructuario, eiusque oneribus.",
+      "colunas": "103-110",
+      "paginas": "114-121",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256808"
+    },
+    {
+      "id": "t2-var2-03",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 3 et 4",
+      "titulo": "De beneficio l. 2. C. de rescind. vend.",
+      "colunas": "110-116",
+      "paginas": "121-127",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256812"
+    },
+    {
+      "id": "t2-var2-05",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 5",
+      "titulo": "A venealia veniant appellatione legati omnium rerum.",
+      "colunas": "116-121",
+      "paginas": "127-132",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256814"
+    },
+    {
+      "id": "t2-var2-06",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 6",
+      "titulo": "De probatione pauperitatis, vel diuitiarum.",
+      "colunas": "121-124",
+      "paginas": "132-135",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256816"
+    },
+    {
+      "id": "t2-var2-07",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 7",
+      "titulo": "Quis praemortuus censeatur, si plures simul perierint.",
+      "colunas": "124-129",
+      "paginas": "135-140",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256818"
+    },
+    {
+      "id": "t2-var2-08",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 8",
+      "titulo": "An poenam vnius alterum ferre iustum sit.",
+      "colunas": "129-135",
+      "paginas": "140-146",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256820"
+    },
+    {
+      "id": "t2-var2-09",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 9",
+      "titulo": "De poenis criminum, earumque modo.",
+      "colunas": "135-139",
+      "paginas": "146-150",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256822"
+    },
+    {
+      "id": "t2-var2-10",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 10",
+      "titulo": "De accusatione Iteranda.",
+      "colunas": "139-145",
+      "paginas": "150-156",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256824"
+    },
+    {
+      "id": "t2-var2-11",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 11",
+      "titulo": "De executione instrumenti publici, quod conditionale est, vel liquidam quantitatem minime continet.",
+      "colunas": "145-148",
+      "paginas": "156-159",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258234"
+    },
+    {
+      "id": "t2-var2-12",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 12",
+      "titulo": "De appellatione ab arbitrio boni viri.",
+      "colunas": "148-150",
+      "paginas": "159-161",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258235"
+    },
+    {
+      "id": "t2-var2-13",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 13",
+      "titulo": "De testibus.",
+      "colunas": "150-155",
+      "paginas": "161-166",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258238"
+    },
+    {
+      "id": "t2-var2-14",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 14",
+      "titulo": "Liberatione legata, an actione in rem conueniri possit legatarius.",
+      "colunas": "155-158",
+      "paginas": "166-169",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258240"
+    },
+    {
+      "id": "t2-var2-15",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 15",
+      "titulo": "An locationi stare teneatur vniuersalis vel singularis Successor.",
+      "colunas": "158-161",
+      "paginas": "169-172",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258242"
+    },
+    {
+      "id": "t2-var2-16",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 16",
+      "titulo": "De locatione rerum ecclesiasticarum.",
+      "colunas": "161-165",
+      "paginas": "172-176",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258244"
+    },
+    {
+      "id": "t2-var2-17",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 17",
+      "titulo": "De emphyteusi ecclesiastica.",
+      "colunas": "165-167",
+      "paginas": "176-178",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258246"
+    },
+    {
+      "id": "t2-var2-18",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 18",
+      "titulo": "De emphyteusi ecclesiastica & priuata.",
+      "colunas": "167-172",
+      "paginas": "178-183",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258248"
+    },
+    {
+      "id": "t2-var2-19",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 19",
+      "titulo": "De Venditione & traditione.",
+      "colunas": "172-174",
+      "paginas": "183-185",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258250"
+    },
+    {
+      "id": "t2-var2-20",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber II",
+      "capitulo": "Caput 20",
+      "titulo": "De immnunitate Templorum, & Asylis.",
+      "colunas": "174-183",
+      "paginas": "185-194",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258252"
+    },
+    {
+      "id": "t2-var3-01",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 1",
+      "titulo": "Quid sit Vsura, quove iure prohibita fuerit.",
+      "colunas": "184-190",
+      "paginas": "195-201",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256724"
+    },
+    {
+      "id": "t2-var3-02",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 2",
+      "titulo": "De pecunia pupillari foeneranda.",
+      "colunas": "190-196",
+      "paginas": "201-207",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258256"
+    },
+    {
+      "id": "t2-var3-03",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 3",
+      "titulo": "De poenis contra vsurarios iure Pontificio, Regio, & Caesareo statutis.",
+      "colunas": "196-202",
+      "paginas": "207-213",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258258"
+    },
+    {
+      "id": "t2-var3-04",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 4",
+      "titulo": "De vsuris pretii ab emptore non soluti.",
+      "colunas": "202-206",
+      "paginas": "213-217",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258260"
+    },
+    {
+      "id": "t2-var3-05",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 5",
+      "titulo": "Maioratus quid apud Hispanos significet, & eius verbi vis.",
+      "colunas": "206-211",
+      "paginas": "217-222",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258748"
+    },
+    {
+      "id": "t2-var3-06",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 6",
+      "titulo": "De principis potestate in Maioratu & Fideicommissis.",
+      "colunas": "211-217",
+      "paginas": "222-228",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258754"
+    },
+    {
+      "id": "t2-var3-07",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 7",
+      "titulo": "De annuis reditibus an hi possint titulo opionis in pecunia constitui.",
+      "colunas": "217-222",
+      "paginas": "228-233",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258761"
+    },
+    {
+      "id": "t2-var3-08",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 8",
+      "titulo": "De pacti retrouendendi natura & vi.",
+      "colunas": "222-226",
+      "paginas": "233-237",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258769"
+    },
+    {
+      "id": "t2-var3-09",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 9",
+      "titulo": "De pacto redimendi, cum emptor vendere voluerit.",
+      "colunas": "226-231",
+      "paginas": "237-242",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258777"
+    },
+    {
+      "id": "t2-var3-10",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 10",
+      "titulo": "De pretio annui reditus redimibilis.",
+      "colunas": "231-233",
+      "paginas": "242-244",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258783"
+    },
+    {
+      "id": "t2-var3-11",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 11",
+      "titulo": "De retractu ex lege Regia, eiusque interpretatione.",
+      "colunas": "233-236",
+      "paginas": "244-247",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258786"
+    },
+    {
+      "id": "t2-var3-12",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 12",
+      "titulo": "De Donatione omnium bonorum, quae sit reseruato vsufructu.",
+      "colunas": "236-238",
+      "paginas": "247-249",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258796"
+    },
+    {
+      "id": "t2-var3-13",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 13",
+      "titulo": "De Fructibus beneficiorum absentibus dandis.",
+      "colunas": "238-243",
+      "paginas": "249-254",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258800"
+    },
+    {
+      "id": "t2-var3-14",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 14",
+      "titulo": "An inuitus vendere res proprias cogatur.",
+      "colunas": "243-250",
+      "paginas": "254-261",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8258803"
+    },
+    {
+      "id": "t2-var3-15",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 15",
+      "titulo": "De precarii reuocatione, & an ea libere permissa sit.",
+      "colunas": "250-253",
+      "paginas": "261-264",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259086"
+    },
+    {
+      "id": "t2-var3-16",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 16",
+      "titulo": "Possessio beneficii ecclesiastici quonam pacto iure adquiri possit.",
+      "colunas": "253-258",
+      "paginas": "264-269",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259088"
+    },
+    {
+      "id": "t2-var3-17",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 17",
+      "titulo": "De euictionis materia.",
+      "colunas": "258-263",
+      "paginas": "269-274",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259090"
+    },
+    {
+      "id": "t2-var3-18",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 18",
+      "titulo": "De hypotheca generali & speciali.",
+      "colunas": "263-265",
+      "paginas": "274-276",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259093"
+    },
+    {
+      "id": "t2-var3-19",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 19",
+      "titulo": "De bonis adquisitis matrimonio constante.",
+      "colunas": "265-263",
+      "paginas": "276-278",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259099"
+    },
+    {
+      "id": "t2-var3-20",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber III",
+      "capitulo": "Caput 20",
+      "titulo": "De meri & misti imperii, iusrisdictionis delegatione.",
+      "colunas": "263-272",
+      "paginas": "278-283",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259100"
+    },
+    {
+      "id": "t2-var4-01",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 1",
+      "titulo": "De Tribubus Rimanis.",
+      "colunas": "273-282",
+      "paginas": "284-293",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256725"
+    },
+    {
+      "id": "t2-var4-02",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 2",
+      "titulo": "De stipulatione Hippocentauri.",
+      "colunas": "282-283",
+      "paginas": "293-294",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259103"
+    },
+    {
+      "id": "t2-var4-03",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 3",
+      "titulo": "De praefecto Calciato, & de militari Calceamento.",
+      "colunas": "283-283",
+      "paginas": "294-294",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259110"
+    },
+    {
+      "id": "t2-var4-04",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 4",
+      "titulo": "Hadriani Caesaris rescriptum de muliere praegnante ab Aegyptiorum, & Graecorum legibus deductum fuisse.",
+      "colunas": "283-283",
+      "paginas": "294-294",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259107"
+    },
+    {
+      "id": "t2-var4-05",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 5",
+      "titulo": "Turcarum supplicium an fuerit olim apud veteres, & de Crucis Patibulo.",
+      "colunas": "283-286",
+      "paginas": "294-297",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259105"
+    },
+    {
+      "id": "t2-var4-06",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 6",
+      "titulo": "Conductoribus an liceat a conductis migrare domibus, ex eo quod tetris imaginibus nocturnis illusionibus imquietentur.",
+      "colunas": "286-286",
+      "paginas": "297-297",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259118"
+    },
+    {
+      "id": "t2-var4-07",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 7",
+      "titulo": "De Nisibi vrbe, & an ea dicta fuerit Antiochia a veteribus.",
+      "colunas": "286-287",
+      "paginas": "297-298",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259113"
+    },
+    {
+      "id": "t2-var4-08",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 8",
+      "titulo": "De Dicis gratia significatione.",
+      "colunas": "287-288",
+      "paginas": "298-299",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259120"
+    },
+    {
+      "id": "t2-var4-09",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 9",
+      "titulo": "Sarraceni nomen quam habuerit originem.",
+      "colunas": "288-289",
+      "paginas": "299-300",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259122"
+    },
+    {
+      "id": "t2-var4-10",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 10",
+      "titulo": "De cretionum sollennitate.",
+      "colunas": "289-290",
+      "paginas": "300-301",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259124"
+    },
+    {
+      "id": "t2-var4-11",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 11",
+      "titulo": "Gratiani loca expenduntur.",
+      "colunas": "290-290",
+      "paginas": "301-301",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259128"
+    },
+    {
+      "id": "t2-var4-12",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 12",
+      "titulo": "De Iuliano Caesare quaedam obseruatione digna adnotantur.",
+      "colunas": "290-291",
+      "paginas": "301-302",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259126"
+    },
+    {
+      "id": "t2-var4-13",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 13",
+      "titulo": "An vera sint quae de Anastasio secundo, Romanae ecclesiae Pontifice Gratianus tradit.",
+      "colunas": "291-292",
+      "paginas": "302-303",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259130"
+    },
+    {
+      "id": "t2-var4-14",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 14",
+      "titulo": "De libris sacris canonicis & apocryphis.",
+      "colunas": "292-303",
+      "paginas": "303-314",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259133"
+    },
+    {
+      "id": "t2-var4-15",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 15",
+      "titulo": "De quatuor Apocryphis vniuersalibus quo tempore fuerint habita.",
+      "colunas": "303-306",
+      "paginas": "314-317",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259139"
+    },
+    {
+      "id": "t2-var4-16",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 16",
+      "titulo": "De libris Apocryphis.",
+      "colunas": "306-313",
+      "paginas": "317-324",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259140"
+    },
+    {
+      "id": "t2-var4-17",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 17",
+      "titulo": "De libris Apocryphis, & an hi publice vel priuatim legi possint.",
+      "colunas": "313-321",
+      "paginas": "324-332",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259142"
+    },
+    {
+      "id": "t2-var4-18",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 18",
+      "titulo": "De temporis ratione & Chronologia.",
+      "colunas": "321-323",
+      "paginas": "332-334",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8259144"
+    },
+    {
+      "id": "t2-var4-19",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 19",
+      "titulo": "De fastorum dierum apud Christianos celebratione, deque eorum origine.",
+      "colunas": "323-329",
+      "paginas": "334-340",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274649"
+    },
+    {
+      "id": "t2-var4-20",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 20",
+      "titulo": "De ieiuniorum, quae Catholica ecclesia Christianis indixit, absernatione, & origine.",
+      "colunas": "329-338",
+      "paginas": "340-349",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274651"
+    },
+    {
+      "id": "t2-var4-21",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 21",
+      "titulo": "De Logitimatorum iure in haereditate Paterna.",
+      "colunas": "338-339",
+      "paginas": "349-350",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274653"
+    },
+    {
+      "id": "t2-var4-22",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 22",
+      "titulo": "De etymologia dictionis Missa.",
+      "colunas": "339-341",
+      "paginas": "350-352",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274655"
+    },
+    {
+      "id": "t2-var4-23",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 23",
+      "titulo": "De criminis purgatione vulgari, quae sit candenti ferro.",
+      "colunas": "341-342",
+      "paginas": "352-353",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274657"
+    },
+    {
+      "id": "t2-var4-24",
+      "tomo": "II",
+      "livro": "Variarum resolutionum liber IV",
+      "capitulo": "Caput 24",
+      "titulo": "Principia apud Iurisconsultum Martianum quae sint.",
+      "colunas": "",
+      "paginas": "353-355",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274659"
+    },
+    {
+      "id": "t2-uff1-01",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 1",
+      "titulo": "Qvaliter Ivdex Ex Actis Ivs Dicere Debeat Adversvs Ea Qvae Privatim Cognoverit.",
+      "colunas": "345-346",
+      "paginas": "356-357",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274660"
+    },
+    {
+      "id": "t2-uff1-02",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 2",
+      "titulo": "An Liceat Ivste Litiganti Adversarivm Fallaciis Dolisve Impetere.",
+      "colunas": "346-347",
+      "paginas": "357-358",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274665"
+    },
+    {
+      "id": "t2-uff1-03",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 3",
+      "titulo": "Sitne Frvctvvm Habendaratio In Restitvtione In Integrvm Qvae Cavsa Aetatis Fit.",
+      "colunas": "347-349",
+      "paginas": "358-360",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274668"
+    },
+    {
+      "id": "t2-uff1-04",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 4",
+      "titulo": "Coram Qvo Ivdice Sit In Integrvm Restitvtio Postvlanda.",
+      "colunas": "349-349",
+      "paginas": "360-360",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274670"
+    },
+    {
+      "id": "t2-uff1-05",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 5",
+      "titulo": "De Minore enormiter laeso in spiritualibus an & is restituendus sit.",
+      "colunas": "349-350",
+      "paginas": "360-361",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274672"
+    },
+    {
+      "id": "t2-uff1-06",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 6",
+      "titulo": "Ad Postvlandam In Integrvm Restitvtionem, An Sit Necessarivm Speciale Mandatvm.",
+      "colunas": "350-352",
+      "paginas": "361-363",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274674"
+    },
+    {
+      "id": "t2-uff1-07",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 7",
+      "titulo": "De Praelatione Hypothecae Vxori Pro Dote Competentis.",
+      "colunas": "352-353",
+      "paginas": "363-364",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274676"
+    },
+    {
+      "id": "t2-uff1-08",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 8",
+      "titulo": "De Melior Ationibvs Hypothecae Et Pignoris.",
+      "colunas": "353-354",
+      "paginas": "364-365",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274678"
+    },
+    {
+      "id": "t2-uff1-09",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 9",
+      "titulo": "De Retractv Conventionali, An Istemporis Praescriptione Tollatvr.",
+      "colunas": "354-355",
+      "paginas": "365-366",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274680"
+    },
+    {
+      "id": "t2-uff1-10",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 10",
+      "titulo": "De Confirmationis Sacramento Ad Interpretationem Test. In Cap. Qvanto De Consvet.",
+      "colunas": "355-355",
+      "paginas": "366-366",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8274682"
+    },
+    {
+      "id": "t2-uff1-11",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 11",
+      "titulo": "De Inivria Avae Verbis Fit Et Maxime De Ea Qvai Veri Criminis Obiectione Irrogatvr.",
+      "colunas": "355-356",
+      "paginas": "366-367",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277445"
+    },
+    {
+      "id": "t2-uff1-12",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 12",
+      "titulo": "De Ratione Compvtandi Temporis Ab Annorvm Nvmero.",
+      "colunas": "356-356",
+      "paginas": "367-367",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277447"
+    },
+    {
+      "id": "t2-uff1-13",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 13",
+      "titulo": "De Oratione Indefinita Et An Ea Vniversalis Vimhabeat.",
+      "colunas": "356-358",
+      "paginas": "367-369",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277449"
+    },
+    {
+      "id": "t2-uff1-16",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 16",
+      "titulo": "De Fisci Favore.",
+      "colunas": "358-358",
+      "paginas": "369-369",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277451"
+    },
+    {
+      "id": "t2-uff1-17",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 17",
+      "titulo": "De Decimisn An Ivre Natvrali, Divino, An Hvmano Tantvm Debitae Svnt.",
+      "colunas": "358-363",
+      "paginas": "369-374",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277453"
+    },
+    {
+      "id": "t2-uff1-18",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum I, caput 18",
+      "titulo": "Expenditvr Constitvtio L. Diffamari. C. De Ingen. Et Manvm.",
+      "colunas": "363-363",
+      "paginas": "374-374",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277455"
+    },
+    {
+      "id": "t2-uff2-02",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 2",
+      "titulo": "De Vsvfrvctvario An Et Es Teneatvr Solvere Defvncti Debita.",
+      "colunas": "364-365",
+      "paginas": "375-376",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277457"
+    },
+    {
+      "id": "t2-uff2-03",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 3",
+      "titulo": "Discvtitvr Dioleti Ani Et Maximi Caesarvm Constitvtio. L. 2. C. De Rescind. Vendit.",
+      "colunas": "365-367",
+      "paginas": "376-378",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277461"
+    },
+    {
+      "id": "t2-uff2-04",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 4",
+      "titulo": "Rvrsvs Traditvr An Renvnciatione Contrahentivm, Eadem Constitvtio Tollatvr.",
+      "colunas": "367-368",
+      "paginas": "378-379",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277463"
+    },
+    {
+      "id": "t2-uff2-06",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 6",
+      "titulo": "Vbi De Pavpertate Avt Divitiis Tractatvr, Cvi Incvmbat Qvalitatis Hvis Probatio.",
+      "colunas": "368-368",
+      "paginas": "379-379",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277468"
+    },
+    {
+      "id": "t2-uff2-07",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 7",
+      "titulo": "Dvobvs Simvl Naveragio, Rvina, Avt Belli Conflictv Perevntibvs, Vter Eorvm Praesv Matvr Privs Decessisse",
+      "colunas": "368-369",
+      "paginas": "379-380",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277470"
+    },
+    {
+      "id": "t2-uff2-08",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 8",
+      "titulo": "An Ivstvm Sit Lege Vel Statvto Ali Qvem Ob Alterivs Cvlpam Pvniri.",
+      "colunas": "369-370",
+      "paginas": "380-381",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277472"
+    },
+    {
+      "id": "t2-uff2-13",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 13",
+      "titulo": "Examinantvr Qvaestiones A Barth. Traditae In L. Theopompvs. FF. De Dot. Praeleg.",
+      "colunas": "370-372",
+      "paginas": "381-383",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277474"
+    },
+    {
+      "id": "t2-uff2-19",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 19",
+      "titulo": "Tradvntvr Aliovot Interpretationes Ad L. Qvoties C. De Rei Vendicat.",
+      "colunas": "372-374",
+      "paginas": "383-385",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277476"
+    },
+    {
+      "id": "t2-uff2-20",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum II, caput 20",
+      "titulo": "De Ecclesiarvm Et Sacrorvm Templorvm Immvnitate.",
+      "colunas": "374-376",
+      "paginas": "385-387",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277478"
+    },
+    {
+      "id": "t2-uff3-03",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 3",
+      "titulo": "De Poenis Contra Vsvrarios Ivre Pontificio, Regio, Et Caesareo Statvtis.",
+      "colunas": "377-379",
+      "paginas": "388-390",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277458"
+    },
+    {
+      "id": "t2-uff3-07",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 7",
+      "titulo": "De Annvis Reditibvs, An Hipossint Titvlo Emptionis In Pecvnia Constitvi.",
+      "colunas": "379-380",
+      "paginas": "390-391",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277483"
+    },
+    {
+      "id": "t2-uff3-08",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 8",
+      "titulo": "Pacti, Qvod De Retrovendendo Vvlgo Dicitvr, Propriavis Et Natvra Expenditvr.",
+      "colunas": "380-381",
+      "paginas": "391-392",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277485"
+    },
+    {
+      "id": "t2-uff3-10",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 10",
+      "titulo": "De Ivsto Pretio Annvi Reditvs Redi. Mibilis, Et De Ipso Redimendi Pacto.",
+      "colunas": "381-381",
+      "paginas": "392-392",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277486"
+    },
+    {
+      "id": "t2-uff3-14",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 14",
+      "titulo": "Traditvr Brevis Interpretatio L. Invitvm C. De Contrah. Empt.",
+      "colunas": "381-382",
+      "paginas": "392-393",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277489"
+    },
+    {
+      "id": "t2-uff3-15",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 15",
+      "titulo": "De Praecarii Revocatione, Et An Ea Libere Permissa Sit.",
+      "colunas": "382-382",
+      "paginas": "393-393",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277491"
+    },
+    {
+      "id": "t2-uff3-17",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 17",
+      "titulo": "Evictionis Materia Ad Gregoriana Constitvtionis Interpretationem Expenditvr.",
+      "colunas": "",
+      "paginas": "393-394",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277494"
+    },
+    {
+      "id": "t2-uff3-18",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 18",
+      "titulo": "De Creditore Habente Specialem Simvl Et Generalem Hypothecam.",
+      "colunas": "",
+      "paginas": "394-394",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277496"
+    },
+    {
+      "id": "t2-uff3-19",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum III, caput 19",
+      "titulo": "Ad Notantvr Aliqva De Bonis Adovisitis Matrimonio Constante.",
+      "colunas": "",
+      "paginas": "394-395",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277498"
+    },
+    {
+      "id": "t2-uff4-02",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 2",
+      "titulo": "Ivstiniani Et Celsi Ivrisconsvlti Responsade Hippocentavri Stipvlatione Ex Variis Avctoibvs Examinantvr.",
+      "colunas": "383-383",
+      "paginas": "396-396",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277480"
+    },
+    {
+      "id": "t2-uff4-03",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 3",
+      "titulo": "Praefectvs Calceatvs Apvd Ivrisconsvltvm Qvis Sit Intellegendvs Et De Militari Calceamento.",
+      "colunas": "383-383",
+      "paginas": "396-396",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277508"
+    },
+    {
+      "id": "t2-uff4-04",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 4",
+      "titulo": "Hadriani Caesaris Rescriptvm De Mvliere Praegnante Ab Aegyptiorvmet Graecorvm Legibvs Dedvctvm Fvisse.",
+      "colunas": "",
+      "paginas": "396-397",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277510"
+    },
+    {
+      "id": "t2-uff4-05",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 5",
+      "titulo": "An Olim Apvd Veteres Fvrcarvm Svpplicivm Fverit Invsv Et De Crvcis Patibvlo.",
+      "colunas": "",
+      "paginas": "397-397",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277512"
+    },
+    {
+      "id": "t2-uff4-06",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 6",
+      "titulo": "An Liceat Condvctoribvs A Condvctis Migrare Domibvs, Ex Eo Qvodtetris Imaginibvs, Noctvrnis Illvvsionibvs, Et Tvmvltibvs In Qvietentvr.",
+      "colunas": "",
+      "paginas": "397-398",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277514"
+    },
+    {
+      "id": "t2-uff4-10",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 10",
+      "titulo": "Qvae Fverit Apvd Vettres Cretionvm Solemnitas Ex Vlpiano Et Alees Avctoribvs.",
+      "colunas": "384-384",
+      "paginas": "398-398",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277516"
+    },
+    {
+      "id": "t2-uff4-12",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 12",
+      "titulo": "Apvdevndem Gratianvm De Ivliano Caesare Qvaedam Observatione Digna Adnotantvr.",
+      "colunas": "384-384",
+      "paginas": "398-398",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277518"
+    },
+    {
+      "id": "t2-uff4-14",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 14",
+      "titulo": "XVI. Et XVII. De Libris S. Scriptvrae Canonicis Et Hagiographis.",
+      "colunas": "",
+      "paginas": "398-399",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277520"
+    },
+    {
+      "id": "t2-uff4-23",
+      "tomo": "II",
+      "livro": "Ioannis Uffel natae in Variarum resolutionum libros",
+      "capitulo": "Ad librum IV, caput 23",
+      "titulo": "De Criminis Pvrgatione Vvlgari, Qvae Fit Candenti Ferro.",
+      "colunas": "",
+      "paginas": "399-399",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277522"
+    },
+    {
+      "id": "t2-pq-00",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Epistola dedicatoria",
+      "titulo": "Ad Philippvm Magnvm, Evndemqve Cristianissimvm Hispaniarvm, Angliae, Franciae, Neapolis, Ac Siciliae Regem, Bvrgvndiae, Brabantiae, Et Mediolani Dvcem, Flandriae Comitem, Didaci Couarruuias a Leyna, Archiepiscopi S. Dominici designati, in Practicarum Questiontum Librum vntum, Praefatio.",
+      "colunas": "385-386",
+      "paginas": "400-401",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277479"
+    },
+    {
+      "id": "t2-pq-01",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 1",
+      "titulo": "De iurisdictione Castellanae Reipublicae.",
+      "colunas": "388-394",
+      "paginas": "403-409",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8256728"
+    },
+    {
+      "id": "t2-pq-02",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 2",
+      "titulo": "De iurisdictionis concessae interpretatione.",
+      "colunas": "394-396",
+      "paginas": "409-411",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277537"
+    },
+    {
+      "id": "t2-pq-03",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 3",
+      "titulo": "De alienatione ad modum mensurae concepta.",
+      "colunas": "396-400",
+      "paginas": "411-415",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277541"
+    },
+    {
+      "id": "t2-pq-04",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 4",
+      "titulo": "De maiore & suprema Castellanae Reip. Iurisdictione.",
+      "colunas": "400-405",
+      "paginas": "415-420",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277544"
+    },
+    {
+      "id": "t2-pq-05",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 5",
+      "titulo": "De iure ac priuilegio reuocandi cognitionem.",
+      "colunas": "405-406",
+      "paginas": "420-421",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277550"
+    },
+    {
+      "id": "t2-pq-06",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 6",
+      "titulo": "De his qui iure exigendo possunt alios ad curiam regis vocare, quo ad primam causarum cognitionem.",
+      "colunas": "406-409",
+      "paginas": "421-424",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277554"
+    },
+    {
+      "id": "t2-pq-07",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 7",
+      "titulo": "De citatione, & viduarum, pupillorum & ecclesiarum priuilegijs.",
+      "colunas": "409-412",
+      "paginas": "424-427",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277561"
+    },
+    {
+      "id": "t2-pq-08",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 8",
+      "titulo": "Clericus haeres laici an possit ad saeculare tribunal pro haereditariis iurib. & reb. vocari.",
+      "colunas": "412-414",
+      "paginas": "427-429",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277563"
+    },
+    {
+      "id": "t2-pq-09",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 9",
+      "titulo": "De causarum auocatione, & earum retentione, quae apud curiam quandoque fit.",
+      "colunas": "414-418",
+      "paginas": "429-433",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277565"
+    },
+    {
+      "id": "t2-pq-10",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 10",
+      "titulo": "De executorialibus & requisitoriis.",
+      "colunas": "418-422",
+      "paginas": "433-437",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277567"
+    },
+    {
+      "id": "t2-pq-11",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 11",
+      "titulo": "De literis requisitoriis.",
+      "colunas": "422-428",
+      "paginas": "437-443",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277573"
+    },
+    {
+      "id": "t2-pq-12",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 12",
+      "titulo": "De petitione haereditatis.",
+      "colunas": "428-431",
+      "paginas": "443-446",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277578"
+    },
+    {
+      "id": "t2-pq-13",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 13",
+      "titulo": "De tertio oppositore: & an sententia lat a inter alias aliis noceat.",
+      "colunas": "431-439",
+      "paginas": "446-454",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277583"
+    },
+    {
+      "id": "t2-pq-14",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 14",
+      "titulo": "De tertiis oppositoribus eorumque admissione.",
+      "colunas": "439-441",
+      "paginas": "454-456",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277587"
+    },
+    {
+      "id": "t2-pq-15",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 15",
+      "titulo": "De sententia inter alios lata, & appellatione ab ea.",
+      "colunas": "441-448",
+      "paginas": "456-463",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277598"
+    },
+    {
+      "id": "t2-pq-16",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 16",
+      "titulo": "De tertio executionem impedire volente.",
+      "colunas": "448-451",
+      "paginas": "463-466",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277603"
+    },
+    {
+      "id": "t2-pq-17",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 17",
+      "titulo": "De Interim interdicto Hispanico.",
+      "colunas": "451-453",
+      "paginas": "466-468",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277605"
+    },
+    {
+      "id": "t2-pq-18",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 18",
+      "titulo": "De testibus & iudicum circa eos officio.",
+      "colunas": "453-457",
+      "paginas": "468-472",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277615"
+    },
+    {
+      "id": "t2-pq-19",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 19",
+      "titulo": "De fide intrumentorum & tabellionum.",
+      "colunas": "457-463",
+      "paginas": "472-478",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277617"
+    },
+    {
+      "id": "t2-pq-20",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 20",
+      "titulo": "De fide intrumenti publici.",
+      "colunas": "463-466",
+      "paginas": "478-481",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277619"
+    },
+    {
+      "id": "t2-pq-21",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 21",
+      "titulo": "De fide exemplariorum.",
+      "colunas": "466-469",
+      "paginas": "481-484",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277621"
+    },
+    {
+      "id": "t2-pq-22",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 22",
+      "titulo": "De fide priuatae scripturae.",
+      "colunas": "469-472",
+      "paginas": "484-487",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277623"
+    },
+    {
+      "id": "t2-pq-23",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 23",
+      "titulo": "Appellatione pendente de appellatis.",
+      "colunas": "472-478",
+      "paginas": "487-493",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277625"
+    },
+    {
+      "id": "t2-pq-24",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 24",
+      "titulo": "De attentatorum reuocatione.",
+      "colunas": "478-481",
+      "paginas": "493-496",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277627"
+    },
+    {
+      "id": "t2-pq-25",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 25",
+      "titulo": "De nullitate, eiusque effectu.",
+      "colunas": "481-485",
+      "paginas": "496-500",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277629"
+    },
+    {
+      "id": "t2-pq-26",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 26",
+      "titulo": "De Recusationibus iudicum.",
+      "colunas": "485-487",
+      "paginas": "500-502",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277631"
+    },
+    {
+      "id": "t2-pq-27",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 27",
+      "titulo": "De expensis, & earum condemnatione.",
+      "colunas": "487-489",
+      "paginas": "502-504",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277633"
+    },
+    {
+      "id": "t2-pq-28",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 28",
+      "titulo": "De dote aestinata eiusque effectu.",
+      "colunas": "489-494",
+      "paginas": "504-509",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277635"
+    },
+    {
+      "id": "t2-pq-29",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 29",
+      "titulo": "De praeferentia creditorum.",
+      "colunas": "494-495",
+      "paginas": "509-510",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277636"
+    },
+    {
+      "id": "t2-pq-30",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 30",
+      "titulo": "De remissione pensionis ob sterilisatem.",
+      "colunas": "495-497",
+      "paginas": "510-512",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277638"
+    },
+    {
+      "id": "t2-pq-31",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 31",
+      "titulo": "De iurisdictione in clericos primae tonsurae & iurisdictione ecclesiastica & saeculari.",
+      "colunas": "497-502",
+      "paginas": "512-517",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277639"
+    },
+    {
+      "id": "t2-pq-32",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 32",
+      "titulo": "De clericis primae tonsurae coelibibus.",
+      "colunas": "502-505",
+      "paginas": "517-520",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277641"
+    },
+    {
+      "id": "t2-pq-33",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 33",
+      "titulo": "De iurisdictione saeculari in clericos.",
+      "colunas": "505-507",
+      "paginas": "520-522",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277643"
+    },
+    {
+      "id": "t2-pq-34",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 34",
+      "titulo": "De exeptione declinatoria fori saecularis compet.",
+      "colunas": "507-510",
+      "paginas": "522-525",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277645"
+    },
+    {
+      "id": "t2-pq-35",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 35",
+      "titulo": "De eccöesoastocorum negotiorum examine apud Iudicem saecularem.",
+      "colunas": "510-514",
+      "paginas": "525-529",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277647"
+    },
+    {
+      "id": "t2-pq-36",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 36",
+      "titulo": "De iure patronatus.",
+      "colunas": "514-522",
+      "paginas": "529-537",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277649"
+    },
+    {
+      "id": "t2-pq-37",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 37",
+      "titulo": "De pascuis & iure Pascendi.",
+      "colunas": "522-526",
+      "paginas": "537-541",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277651"
+    },
+    {
+      "id": "t2-pq-38",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 38",
+      "titulo": "De propria agnatorum successione.",
+      "colunas": "526-535",
+      "paginas": "541-550",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277653"
+    },
+    {
+      "id": "t2-pq-39",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 39",
+      "titulo": "De conditione implenda.",
+      "colunas": "535-541",
+      "paginas": "550-556",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277655"
+    },
+    {
+      "id": "t2-pq-40",
+      "tomo": "II",
+      "livro": "Practicarum quaestionum liber unus",
+      "capitulo": "Caput 40",
+      "titulo": "De vsu iurisdictionis.",
+      "colunas": "541-548",
+      "paginas": "556-563",
+      "scan": "https://digital.ub.uni-paderborn.de/download/pdf/8277658"
     }
   ]
 }
