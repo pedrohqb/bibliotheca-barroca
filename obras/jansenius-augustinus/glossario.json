@@ -502,5 +502,17 @@
     "formas": ["venia", "veniam", "veniae"],
     "pt": ["perdão"],
     "nota": "\"Perdão\": o perdão de uma culpa; *secundum veniam* (1Cor 7,6, na leitura de Agostinho), \"por perdão\", que supõe culpa (livro II do *De statu naturae lapsae*, cap. 10). Daí *venialis*, \"venial\", isto é, digno de perdão. *Indulgentia* (Vulgata), \"indulgência\"; *ignoscere*, \"perdoar\"."
+  },
+  {
+    "lema": "gratia discretiva",
+    "formas": ["gratia discretiva", "gratiam discretivam", "gratiae discretivae", "discretivam gratiam"],
+    "pt": ["graça que discerne"],
+    "nota": "\"Graça que discerne\": a graça que distingue quem crê de quem não crê (1Cor 4,7, *quis enim te discernit?*), que Agostinho exige dos massilienses (livro VIII, cap. 10). Não confundir com *discretio* no sentido de discernimento moral."
+  },
+  {
+    "lema": "discretio",
+    "formas": ["discretio", "discretionem", "discretionis", "discretione"],
+    "pt": ["discriminação"],
+    "nota": "\"Discriminação\": o ato de separar uns homens dos outros, quem crê de quem não crê, pela graça ou pelo arbítrio (livro VIII, caps. 2 e 10). Quando significa a faculdade de julgar (*propria discretio*, *discretio boni ac mali*), \"discernimento\", com nota."
   }
 ]
