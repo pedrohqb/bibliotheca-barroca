@@ -1096,5 +1096,29 @@
     "formas": ["incrementum", "Incrementum", "Incrementi", "incrementi"],
     "pt": ["crescimento"],
     "nota": "\"Crescimento\": de 1Cor 3,6-7 (*Deus incrementum dedit*); em Agostinho, nome da graça interior de Cristo, oposta à ação externa dos que plantam e regam (livro II do *De gratia Christi Salvatoris*, cap. 25). Não \"incremento\"."
+  },
+  {
+    "lema": "futuritio",
+    "formas": ["futuritio", "futuritionis", "futuritionem", "futuritione"],
+    "pt": ["futurição"],
+    "nota": "\"Futurição\": termo escolástico, o ser futuro de uma coisa; para Jansênio, a futurição absoluta dos efeitos livres procede do decreto eficaz de Deus, que é a sua \"primeira raiz\" (livro IX do *De gratia Christi Salvatoris*, caps. 7 e 22)."
+  },
+  {
+    "lema": "gratia potentialis",
+    "formas": ["gratia potentialis", "gratiae potentiales", "gratiam potentialem", "gratias potentiales", "gratiae potentialis"],
+    "pt": ["graça potencial", "graças potenciais"],
+    "nota": "\"Graça potencial\": a graça que dá só o poder (*posse*) de agir se se quiser, não o próprio querer; para Jansênio, a do estado de inocência (auxílio *sem o qual não*), oposta à graça medicinal, que dá o querer. Usada assim em capítulos anteriores do livro II da Graça de Cristo (cap. 29)."
+  },
+  {
+    "lema": "protectio",
+    "formas": ["protectio", "protectionis", "protectionem", "protectione", "protectiones", "protectionibus"],
+    "pt": ["proteção", "proteções"],
+    "nota": "\"Proteção\": a guarda exterior de Deus contra as tentações e o diabo, que os modernos (Lessius, Belarmino) apontam como graça própria dos decaídos ou do primeiro homem; vem com *excitatio* (\"excitação\") e *suasio* (\"persuasão\"). Livro II da Graça de Cristo, cap. 29."
+  },
+  {
+    "lema": "excitatio",
+    "formas": ["excitatio", "excitationis", "excitationem", "excitatione", "excitationes", "excitationibus"],
+    "pt": ["excitação", "excitações"],
+    "nota": "\"Excitação\": o despertar da vontade por Deus (cf. *gratia excitans*, \"graça excitante\"); em Jansênio, frequentemente junto de *suasio* e *protectio*. Livro II da Graça de Cristo, cap. 29."
   }
 ]
