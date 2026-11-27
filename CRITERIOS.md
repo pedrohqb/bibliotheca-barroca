@@ -20,7 +20,7 @@ O texto latino é uma transcrição normalizada para leitura, não diplomática:
 - notas marginais da impressão registradas com `@m`, tal como impressas; leitura duvidosa marcada com `[?]`;
 - acréscimos de editor posterior que a própria impressão marca como tais (por exemplo, os de Brederode na edição de Antuérpia de 1610 do Covarrubias) saem do corpo do texto e vão para o rodapé do trecho com `@a`, deixando a âncora `{a1}`, `{a2}`… no ponto em que estavam; são transcritos e traduzidos com os mesmos critérios. Só sai do corpo o que a impressão marca; na dúvida sobre onde a marca começa ou termina, `[?]` e nota.
 
-O estado de cada capítulo vai no cabeçalho: `transcricao: provisoria` até a conferência integral contra o scan; depois, `conferida`.
+Limitação do projeto: a transcrição é conferida pelo agente que a faz e, depois, no debate (os revisores apontam leituras suspeitas, e quem aplica o resultado confere na imagem do scan antes de corrigir o latim). Não há conferência humana integral contra o scan; o Pedro corrige só o defeito que perceber. O campo `transcricao` fica `provisoria` e só passa a `conferida` se o capítulo for conferido inteiro por uma pessoa; o site não mostra esse campo.
 
 ## Tradução
 
@@ -43,7 +43,7 @@ Estados da tradução (`estado:` no cabeçalho):
 
 | Estado | O que significa |
 |---|---|
-| `rascunho` | primeira versão, sem revisão |
+| `rascunho` | primeira versão, ainda sem debate |
 | `debatida` | passou pelo debate entre modelos; objeções registradas em `debate/` |
 | `revisada` | revista pelo tradutor, com remissões conferidas |
 | `publicada` | revisão final concluída |

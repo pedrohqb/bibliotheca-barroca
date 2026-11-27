@@ -62,6 +62,7 @@ const historico = (o, c) => {
 };
 const LICENCAS = { 'CC BY-NC-ND 4.0': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt-br' };
 const licenca = n => LICENCAS[n] ? `<a href="${LICENCAS[n]}">${esc(n)}</a>` : esc(n);
+const estadoTraducao = c => c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução';
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
@@ -110,7 +111,7 @@ ${obras.map(o => `<section class="obra">
 <div><p class="aut">${esc(o.meta.autor_pt || o.meta.autor)}</p><h2><a href="${o.id}/index.html">${esc(o.meta.titulo)}</a></h2>
 <p class="ui" style="font-size:14px;color:var(--mute)">${o.meta.rotulo_edicao ? esc(o.meta.rotulo_edicao) : `${esc(o.meta.edicao_base.local_pt || o.meta.edicao_base.local)}, ${esc(o.meta.edicao_base.ano)}`}</p></div>
 <div><p>${esc(o.meta.descricao)}</p>
-<ul class="caps">${o.capitulos.slice(-5).reverse().map(c => `<li><a class="ct" href="${o.id}/${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>
+<ul class="caps">${o.capitulos.slice(-5).reverse().map(c => `<li><a class="ct" href="${o.id}/${c.id}.html">${esc(rotulo(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a></li>`).join('')}</ul>
 <p class="ui" style="font-size:14px;margin-top:12px">${o.capitulos.length > 5 ? `Últimos capítulos publicados. ` : ''}<a href="${o.id}/index.html">Todos os ${o.capitulos.length} capítulos →</a></p></div>
 </section>`).join('\n')}
 </main>`
@@ -132,11 +133,12 @@ for (const o of obras) {
 ${o.meta.acrescimos?.descricao ? `<dt>Acréscimos</dt><dd>${esc(o.meta.acrescimos.descricao)}</dd>
 ` : ''}${o.meta.texto_latino ? `<dt>Texto latino</dt><dd>${formatar(o.meta.texto_latino)}</dd>
 ` : ''}${o.meta.traducoes_cotejadas?.length ? `<dt>Traduções cotejadas</dt><dd><ul class="cot">${o.meta.traducoes_cotejadas.map(t => `<li>${formatar(t)}</li>`).join('')}</ul></dd>
+` : ''}${SITE.limitacoes?.length ? `<dt>Limitações</dt><dd>${SITE.limitacoes.map(esc).join(' ')}</dd>
 ` : ''}<dt>Licenças</dt><dd>Transcrição: ${licenca(o.meta.licenca.transcricao)}. Tradução: ${licenca(o.meta.licenca.traducao)}. Uso comercial proibido.</dd>
 </dl>
 <h2>Capítulos</h2>
 ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
-<ul class="caps">${cs.map(c => `<li><a class="ct" href="${c.id}.html">${esc(nomeCap(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a><span class="cs">${esc(situacao(c))}</span></li>`).join('')}</ul>`).join('\n')}
+<ul class="caps">${cs.map(c => `<li><a class="ct" href="${c.id}.html">${esc(nomeCap(c))}: ${esc(c.pt?.meta.titulo || c.la.meta.titulo)}</a></li>`).join('')}</ul>`).join('\n')}
 </main>`
   }));
 
@@ -173,7 +175,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
-<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
+<p class="aviso"><b>${esc(estadoTraducao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
 </div>
 <div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
 <div class="texto">

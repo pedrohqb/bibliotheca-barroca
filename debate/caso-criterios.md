@@ -7,11 +7,11 @@
 - Citações da Escritura são traduzidas do latim citado pelo autor, porque o argumento costuma depender da palavra latina; divergência com as versões correntes vai em nota.
 - Remissões (Agostinho, concílios, Escritura) são conferidas na fonte; numeração antiga é indicada como tal.
 - Jogos de palavras e ambiguidades do latim são conservados quando possível; quando não, nota.
-- O latim está fixado. Erro de transcrição se aponta com a leitura proposta, para conferência contra o scan; não se corrige na minuta.
+- A transcrição também está em revisão. Leitura suspeita do latim (palavra que não faz sentido, concordância impossível, citação que não bate com a fonte, salto de linha) se aponta como objeção, com a leitura proposta e o motivo; se você conseguir abrir o scan indicado no caso, confira nele. Quem aplica o resultado confere cada correção na imagem do scan antes de mudar o latim.
 
 ## Critério de materialidade
 
-É material o que leva o leitor a entender outra coisa que o latim diz: erro de sentido, termo técnico impreciso, fora do glossário ou vertido de formas diferentes ao longo do texto, remissão errada, nota enganosa, jogo de palavras perdido sem nota. Também é material o desvio do registro pedido que atrapalha a leitura: arcaísmo, construção latinizante, frase que só se entende relendo o latim. Não é material a preferência de estilo que não muda sentido, registro nem clareza.
+É material o erro de transcrição que muda a palavra lida (não a grafia normalizada pelos critérios da edição). É material o que leva o leitor a entender outra coisa que o latim diz: erro de sentido, termo técnico impreciso, fora do glossário ou vertido de formas diferentes ao longo do texto, remissão errada, nota enganosa, jogo de palavras perdido sem nota. Também é material o desvio do registro pedido que atrapalha a leitura: arcaísmo, construção latinizante, frase que só se entende relendo o latim. Não é material a preferência de estilo que não muda sentido, registro nem clareza.
 
 ## Remissões não acessíveis
 

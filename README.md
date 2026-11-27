@@ -73,10 +73,15 @@ Os scripts em Python precisam de poppler-utils, Pillow e pypdf (ver `docs/produc
 
 A produção roda na VM do escritório com o Claude Code, pela skill `traduzir-capitulo` (instalação e uso em [docs/producao.md](docs/producao.md)):
 
-1. **Transcrição** das imagens do scan, com conferência linha a linha; `transcricao: provisoria`.
+1. **Transcrição** das imagens do scan, com conferência linha a linha pelo agente; `transcricao: provisoria`.
 2. **Tradução**, em português culto, mas legível e atual, com o glossário da obra; `estado: rascunho`.
-3. **Debate** com Codex e Gemini pelo motor `~/.debates-ia` (perfil `traducao`, regra de aceite), registro em `debate/<obra>/<capitulo>/`; `estado: debatida`, publicado com esse selo.
-4. **Revisão humana**, pelo `resumo.md` do debate, com remissões conferidas na fonte; `estado: revisada` e, conferido o latim, `transcricao: conferida`.
+3. **Debate** com Codex e Gemini pelo motor `~/.debates-ia` (perfil `traducao`, regra de aceite), que revê a tradução e também a transcrição (leitura suspeita apontada pelos revisores é conferida na imagem do scan antes de corrigir o latim); registro em `debate/<obra>/<capitulo>/`; `estado: debatida`.
+4. **Pontos de dúvida**: o que o debate não resolver fica em nota ou no `resumo.md` para o tradutor. Correção humana só quando há defeito perceptível ou dúvida pontual.
+
+### Limitações do projeto
+
+- As transcrições são feitas e conferidas por modelos de IA (pelo agente que transcreve e no debate); não há conferência humana integral contra o scan. Só se corrige à mão o defeito que se perceber na leitura.
+- As traduções são primeiras versões feitas e debatidas por modelos de IA; os pontos de dúvida ficam indicados nas notas.
 
 ## Publicação
 

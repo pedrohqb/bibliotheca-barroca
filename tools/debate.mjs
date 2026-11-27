@@ -36,8 +36,8 @@ if (cmd === 'preparar') {
     '## Glossário fixado para a obra',
     o.glossario.map(g => `- **${g.lema}** (formas: ${g.formas.join(', ')}) → ${g.pt.join(' / ')}. ${g.nota}`).join('\n'),
     '## Formato da minuta',
-    `Cada trecho começa por "## § n (${ref} …)" e traz, nesta ordem, **Latim.** (fixo), **Margem.** (notas marginais da impressão, quando há), **Tradução.** e **Nota.** (notas do tradutor, uma por linha). Alterações mexem só em **Tradução.** e **Nota.**.` +
-      (temAc ? `\n\nAcréscimos de editor posterior (${o.meta.acrescimos?.rotulo || 'acréscimo'}): o texto acrescentado não é do autor e foi tirado do corpo do trecho; no **Latim.** e na **Tradução.** fica a âncora {a1}, {a2}… no ponto em que ele estava. Cada acréscimo vem em **Acréscimo latino.** (fixo, como o **Latim.**) e **Acréscimo traduzido.**, na ordem das âncoras. Os acréscimos são revistos com os mesmos critérios do texto; as âncoras ficam na tradução no ponto correspondente, sem mudar a numeração.` : '')
+    `Cada trecho começa por "## § n (${ref} …)" e traz, nesta ordem, **Latim.** (transcrição, também em revisão), **Margem.** (notas marginais da impressão, quando há), **Tradução.** e **Nota.** (notas do tradutor, uma por linha). Alterações de tradução mexem em **Tradução.** e **Nota.**; erro de transcrição aceito, conferido na imagem do scan por quem aplica, corrige-se em **Latim.**.` +
+      (temAc ? `\n\nAcréscimos de editor posterior (${o.meta.acrescimos?.rotulo || 'acréscimo'}): o texto acrescentado não é do autor e foi tirado do corpo do trecho; no **Latim.** e na **Tradução.** fica a âncora {a1}, {a2}… no ponto em que ele estava. Cada acréscimo vem em **Acréscimo latino.** (transcrição, como o **Latim.**) e **Acréscimo traduzido.**, na ordem das âncoras. Os acréscimos são revistos com os mesmos critérios do texto; as âncoras ficam na tradução no ponto correspondente, sem mudar a numeração.` : '')
   ].join('\n\n') + '\n';
   const minuta = [`# ${pt.capitulo}. ${pt.titulo}`, ...c.la.trechos.map((t, i) => {
     const p = c.pt.trechos[i];

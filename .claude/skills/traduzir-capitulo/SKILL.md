@@ -72,9 +72,9 @@ Siga o protocolo da skill `rbsa-debate` do plugin RBSA IA Legal System (motor em
 
 1. `node tools/debate.mjs aplicar <obra> <id> "<pasta>/entregas/<id-da-entrega>"`: devolve tradução, notas e correções de transcrição aos arquivos, marca `estado: debatida`, grava a data em `debate:` e copia `registro.md` e `consumo.csv` para `debate/<obra>/<id>/`.
 2. Divergência que ficou registrada ou objeção INCONCLUSIVA: vira `@n` no trecho ("Ponto em aberto no debate: …", com as duas posições em uma linha cada).
-3. Grave `debate/<obra>/<id>/resumo.md`: objeções acolhidas e rejeitadas (uma linha cada, com o motivo), pontos em aberto, propostas de mudança de glossário, as leituras da transcrição marcadas com `[?]` e as **remissões não conferidas** que os revisores listaram (linha "Remissões não conferidas" das respostas, sem repetição), que ficam para a conferência humana. É o roteiro da revisão do Pedro.
+3. Grave `debate/<obra>/<id>/resumo.md`: objeções acolhidas e rejeitadas (uma linha cada, com o motivo), pontos em aberto, propostas de mudança de glossário, as leituras da transcrição marcadas com `[?]` e as **remissões não conferidas** que os revisores listaram (linha "Remissões não conferidas" das respostas, sem repetição), que ficam para o Pedro. É a lista dos pontos de dúvida, os únicos que ele confere.
 4. `node tools/validar.mjs` e `node tools/build.mjs` sem erro.
-5. Commit direto na `main` e push (decisão do Pedro: capítulos debatidos são publicados com o selo "debatida, aguardando revisão"): `git add -A obras debate && git commit -m "<obra> <id>: transcrição, tradução e debate" -m "<rodadas, estado final do decidir.py, pontos em aberto>" && git push`.
+5. Commit direto na `main` e push (decisão do Pedro: capítulos debatidos são publicados com o selo "tradução debatida"): `git add -A obras debate && git commit -m "<obra> <id>: transcrição, tradução e debate" -m "<rodadas, estado final do decidir.py, pontos em aberto>" && git push`.
 
 Ao fim (de cada capítulo, ou do lote), diga em poucas linhas: capítulos publicados, rodadas e estado final de cada um, pontos em aberto para o Pedro e o consumo.
 
