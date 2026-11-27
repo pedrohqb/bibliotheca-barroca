@@ -826,5 +826,17 @@
     "formas": ["restrictionum mentalium", "mentalium restrictionum", "restrictio mentalis", "restrictionem mentalem", "restrictiones mentales"],
     "pt": ["restrição mental", "restrições mentais"],
     "nota": "\"Restrição mental\": termo da casuística do século XVII (a reserva calada que muda o sentido de uma frase verdadeira na aparência), que Jansênio aplica polemicamente às respostas de Pelágio no Sínodo de Dióspolis (t1-hp6-24, título e s16), com alusão aos casuístas do seu tempo. O verbo *restringere*, nesse contexto, \"restringir\"; *restrictionum versutiae*, \"astúcias das restrições\"."
+  },
+  {
+    "lema": "potentia voluntatis",
+    "formas": ["potentia voluntatis", "potentiae voluntatis", "potentiam voluntatis"],
+    "pt": ["potência da vontade"],
+    "nota": "\"Potência da vontade\": a faculdade de querer considerada antes do ato, que a graça excita e com a qual concorre no consentimento, na linguagem escolástica que Jansênio discute (livro IV da Graça de Cristo, cap. 17)."
+  },
+  {
+    "lema": "motus indeliberatus",
+    "formas": ["indeliberatos motus", "indeliberati motus", "motus indeliberati"],
+    "pt": ["movimentos indeliberados", "movimento indeliberado"],
+    "nota": "\"Movimento indeliberado\": na escolástica, o movimento que Deus produz na vontade antes do consentimento livre e que ela entende como graça operante ou excitante (livro IV da Graça de Cristo, cap. 17). Cf. gratia operans."
   }
 ]
