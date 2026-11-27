@@ -694,5 +694,11 @@
     "formas": ["transgressio", "transgressionis", "transgressionem", "transgressione", "transgressiones"],
     "pt": ["transgressão", "transgressões"],
     "nota": "\"Transgressão\": a violação de um preceito conhecido; em Agostinho e Jansênio, quase sinônimo de *praevaricatio* (\"prevaricação\"), da qual se distingue só pela palavra (Gl 3,19, *lex propter transgressiones posita est*). O particípio *transgressa lex*, \"lei transgredida\". Livro I do *De gratia Christi Salvatoris*, cap. 9."
+  },
+  {
+    "lema": "suasio",
+    "formas": ["suasio", "suasionis", "suasiones", "suasionibus", "suasionem"],
+    "pt": ["persuasão", "persuasões"],
+    "nota": "\"Persuasão\": termo com que os pelagianos (e, segundo Jansênio, Orígenes antes deles) descrevem a graça como ação exterior que aconselha e estimula o arbítrio, sem mover a vontade por dentro; vem junto de *provocatio* (\"provocação\") e *hortatio* (\"exortação\"). *Persuasio*, a convicção de alguém, fica \"convicção\" quando houver risco de confusão."
   }
 ]
