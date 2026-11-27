@@ -1006,5 +1006,17 @@
     "formas": ["fomes", "fomitis", "fomite", "fomitem"],
     "pt": ["fômite"],
     "nota": "\"Fômite\" (à letra, a acendalha): na teologia escolástica, a concupiscência que fica depois do batismo, como incentivo ao pecado (*fomes peccati*, \"fômite do pecado\")."
+  },
+  {
+    "lema": "amor concupiscentiae",
+    "formas": ["amor concupiscentiae", "amoris concupiscentiae", "amorem concupiscentiae", "amore concupiscentiae", "concupiscentiae amorem", "concupiscentiae amore"],
+    "pt": ["amor de concupiscência"],
+    "nota": "\"Amor de concupiscência\": no sentido escolástico, o amor que quer um bem para si (o bem como fim *qui*, referido ao amante como fim *cui*); oposto ao *amor amicitiae* ou *benevolentiae*. Não é a concupiscência do pecado original (*concupiscentia*), mas mantém a palavra pela fórmula consagrada. Livro V do *De gratia Christi Salvatoris*, caps. 7 e 9."
+  },
+  {
+    "lema": "amor amicitiae",
+    "formas": ["amor amicitiae", "amoris amicitiae", "amorem amicitiae", "amore amicitiae", "dilectio amicitiae", "dilectioni amicitiae"],
+    "pt": ["amor de amizade", "dileção de amizade"],
+    "nota": "\"Amor de amizade\" (*dilectio amicitiae*, \"dileção de amizade\"): o amor que quer o bem do amado por ele mesmo, sinônimo de *amor benevolentiae*, \"amor de benevolência\"; oposto ao *amor concupiscentiae*. Livro V do *De gratia Christi Salvatoris*, caps. 7 e 9."
   }
 ]
