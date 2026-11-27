@@ -113,7 +113,7 @@ As demais (Sadoleto em *Calvini Opera* 5; Francisco de Sales, trad. Mackey e ed.
 ## Próximos passos
 
 1. O Pedro decide as questões em aberto, a começar pelo formato do contraponto.
-2. **Capítulo-piloto**, de ponta a ponta (tradução, cotejo, contraponto), para testar o formato antes dos 80. Sugestões: II, 2 (servidão da vontade: Coton, Belarmino, Trento, Stapleton e a disputa sobre Agostinho, que cruza com o *Augustinus*) ou IV, 17 (a ceia: o teste mais exigente).
+2. **Capítulo-piloto**, de ponta a ponta (tradução, cotejo, contraponto), para testar o formato antes dos 80. Sugestões: II, 2 (servidão da vontade: Coton, Belarmino, Trento, Stapleton e a disputa sobre Agostinho, que cruza com o *Augustinus*; cadeia completa: Pighius, a *Defensio* de Calvino e a tréplica de Belarmino) ou IV, 17 (a ceia: o teste mais exigente).
 3. Pendências do mapa, sem urgência: estender a coluna U aos outros capítulos densos de Padres (III, 4, III, 5, IV, 1–2, IV, 4–5, IV, 12–13, IV, 19); conferir Báñez, Lessius, Luís de Granada, Franzelin, Fisher, Hosius, Wiseman, Vitória e as encíclicas de Leão XIII; links de página para Belarmino, Trento e Suárez; descer ao nível da seção (§) capítulo a capítulo, na própria produção.
 
 ## Prompt para retomar em outra sessão
