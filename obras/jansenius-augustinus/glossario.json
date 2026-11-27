@@ -436,5 +436,29 @@
     "formas": ["inhabitatio", "inhabitationem", "inhabitatione", "inhabitationis"],
     "pt": ["inabitação"],
     "nota": "\"Inabitação\": a presença peculiar de Deus que habita na alma do justo, como num templo (2Cor 6,16), distinta da presença geral pela imensidade."
+  },
+  {
+    "lema": "justificatio",
+    "formas": ["justificatio", "justificationem", "justificationis", "justificatione", "iustificatio", "iustificationem", "iustificationis", "iustificatione"],
+    "pt": ["justificação"],
+    "nota": "Sempre \"justificação\" (o ato de tornar justo, que Jansênio entende como dom inerente, contra a imputação extrínseca). *Justitia* fica \"justiça\"."
+  },
+  {
+    "lema": "possibilitas naturalis",
+    "formas": ["naturalis possibilitas", "possibilitas naturalis", "naturalem possibilitatem", "naturali possibilitate"],
+    "pt": ["possibilidade natural"],
+    "nota": "\"Possibilidade natural\": a capacidade que, segundo os massilienses, restou ao livre-arbítrio depois do pecado de Adão para iniciar a salvação (crer, orar, desejar); em Cassiano, *possibilitas boni*, \"possibilidade do bem\". Usada assim desde o cap. 11 do livro VIII da Heresia pelagiana."
+  },
+  {
+    "lema": "velleitas",
+    "formas": ["velleitas", "velleitate", "velleitatem"],
+    "pt": ["veleidade"],
+    "nota": "\"Veleidade\": o querer imperfeito e ineficaz, que não chega ao ato, oposto à *voluntas plena* ou *efficax* (livro VIII da Heresia pelagiana, cap. 13)."
+  },
+  {
+    "lema": "semina virtutum",
+    "formas": ["semina virtutum", "virtutum semina", "virtutum semina"],
+    "pt": ["sementes das virtudes"],
+    "nota": "\"Sementes das virtudes\": expressão de Cassiano (*Collationes* 13, 12) para os princípios naturais do bem que permaneceriam na alma depois do pecado; Jansênio as identifica com a possibilidade natural dos massilienses (livro VIII da Heresia pelagiana, cap. 13)."
   }
 ]
