@@ -5,7 +5,7 @@ livro_curto: Paralelo
 capitulo: Capítulo quarto
 titulo: O que há de comum, entre uns e outros, na predestinação; o que há de próprio.
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

@@ -5,11 +5,11 @@
 //
 //   node tools/debate.mjs aplicar <obra> <capitulo> <pasta-da-entrega>
 //     lê a minuta final da entrega (entregas/<id>/minuta.md), devolve tradução e notas
-//     ao arquivo pt/<capitulo>.md, marca "estado: debatida" e copia o registro para
+//     ao arquivo pt/<capitulo>.md, marca "estado: debatida" e a data em "debate" e copia o registro para
 //     debate/<obra>/<capitulo>/
 import fs from 'node:fs';
 import path from 'node:path';
-import { lerObra, RAIZ } from './lib.mjs';
+import { lerObra, RAIZ, limparProcesso } from './lib.mjs';
 
 const [cmd, obraId, capId, pasta] = process.argv.slice(2);
 const uso = () => { console.error('uso: node tools/debate.mjs preparar|aplicar <obra> <capitulo> <pasta>'); process.exit(2); };
@@ -75,7 +75,12 @@ if (cmd === 'preparar') {
   if (acErrados.length) { console.error(`minuta final com número de acréscimos diferente do latim em ${acErrados.join(', ')}`); process.exit(1); }
   // Reescreve o arquivo da tradução: cabeçalho com estado "debatida" e trechos na ordem do latim.
   const original = fs.readFileSync(c.pt.arquivo, 'utf8');
-  const cab = original.match(/^---\n[\s\S]*?\n---\n/)[0].replace(/^estado: .*$/m, 'estado: debatida');
+  // Cabeçalho: estado "debatida", data do debate (dia em que o resultado foi aplicado) e "processo" sem menção a debate,
+  // que agora vem do histórico (campo "debate" e debate/<obra>/<id>/).
+  const hoje = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
+  let cab = original.match(/^---\n[\s\S]*?\n---\n/)[0].replace(/^estado: .*$/m, 'estado: debatida')
+    .replace(/^processo: (.*)$/m, (_, p) => 'processo: ' + limparProcesso(p));
+  cab = /^debate: /m.test(cab) ? cab.replace(/^debate: .*$/m, 'debate: ' + hoje) : cab.replace(/^estado: debatida$/m, 'estado: debatida\ndebate: ' + hoje);
   const corpo = ids.map(id => {
     const n = novos.get(id);
     return [`@${id}`, n.traducao, ...n.acTrad.map(x => `@a ${x}`), ...n.notas.map(x => `@n ${x}`)].join('\n');

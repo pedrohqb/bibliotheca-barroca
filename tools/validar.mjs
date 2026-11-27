@@ -1,5 +1,6 @@
 // Confere as obras antes do build: cabeçalhos, alinhamento dos trechos entre idiomas e uso do glossário.
 // Erros fazem o comando falhar (e o pull request não passa); avisos só aparecem na saída.
+import fs from 'node:fs';
 import path from 'node:path';
 import { lerObras, RAIZ, textoPlano, ancoras } from './lib.mjs';
 
@@ -37,6 +38,14 @@ for (const o of obras) {
     for (const lg of lgs) {
       const tr = c[lg];
       if (!tr) { avisos.push(`${o.id}/${c.id}: ainda sem ${o.meta.idiomas[lg] || lg}`); continue; }
+      if (lg === 'pt') {
+        // Histórico: o selo (estado) e a linha do capítulo (registro do debate) não podem se contradizer.
+        const temDebate = fs.existsSync(path.join(RAIZ, 'debate', o.id, c.id, 'resumo.md'));
+        if (tr.meta.estado === 'debatida' && !temDebate) erros.push(`${rel(tr.arquivo)}: estado "debatida", mas não há debate/${o.id}/${c.id}/resumo.md`);
+        if (tr.meta.debate && !temDebate) erros.push(`${rel(tr.arquivo)}: "debate: ${tr.meta.debate}", mas não há debate/${o.id}/${c.id}/resumo.md`);
+        if (temDebate && !tr.meta.debate) avisos.push(`${rel(tr.arquivo)}: debate registrado, mas sem a data no campo "debate"`);
+        if (/debat/i.test(tr.meta.processo || '')) avisos.push(`${rel(tr.arquivo)}: "processo" fala de debate; o histórico do debate vem do registro e do campo "debate" (README)`);
+      }
       const idsTr = tr.trechos.map(t => t.id).join(' ');
       if (idsTr !== idsLa) {
         const a = new Set(la.trechos.map(t => t.id)), b = new Set(tr.trechos.map(t => t.id));

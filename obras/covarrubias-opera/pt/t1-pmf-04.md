@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: § primeiro
 titulo: Da prova e da presunção da posse
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

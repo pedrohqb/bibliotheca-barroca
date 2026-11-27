@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: Proêmio
 titulo: Diego de Covarrubias sobre a regra "O possuidor de má-fé não prescreve em tempo algum"
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

@@ -49,6 +49,8 @@ Ex qua fide Apostolus exserte pro se ipso dicit: *Gratia Dei sum id quod sum*; �
 - `@p` sozinho numa linha faz o trecho seguinte abrir parágrafo;
 - `*…*` marca itálico (citações).
 
+Histórico da tradução, no cabeçalho de `pt/`: `estado` (`rascunho`, `debatida`, `revisada`, `publicada`) dá o selo da lista de capítulos; `processo` diz só como a versão foi feita (ex.: "Primeira versão com Claude, revista por um segundo agente"), sem falar de debate nem de revisão pendente; `debate: AAAA-MM-DD` é gravado pelo `tools/debate.mjs aplicar`. A linha do capítulo ("Debatida com Codex e Gemini em …, N rodadas" ou "Ainda sem debate") sai desses campos e de `debate/<obra>/<id>/`, e o validador recusa `estado: debatida` sem o resumo do debate.
+
 O latim e a tradução precisam ter os mesmos trechos, na mesma ordem: é isso que alinha as colunas do leitor, e o validador recusa o que estiver desalinhado.
 
 ## Comandos

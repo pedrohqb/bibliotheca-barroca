@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: Parágrafo único
 titulo: O que são a prescrição e a usucapião
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

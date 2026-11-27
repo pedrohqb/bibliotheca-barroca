@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: § 9
 titulo: Se a má-fé prejudica o sucessor na prescrição
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

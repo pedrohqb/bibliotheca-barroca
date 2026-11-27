@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: Parágrafo décimo
 titulo: Da prescrição do direito de padroado e do direito de apresentar
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

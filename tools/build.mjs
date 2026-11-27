@@ -2,7 +2,7 @@
 // Uso: node tools/build.mjs [pasta-de-saída]
 import fs from 'node:fs';
 import path from 'node:path';
-import { lerObras, RAIZ, esc, formatar, textoPlano } from './lib.mjs';
+import { lerObras, RAIZ, esc, formatar, textoPlano, limparProcesso } from './lib.mjs';
 
 const SAIDA = path.resolve(process.argv[2] || path.join(RAIZ, '_site'));
 const SITE = JSON.parse(fs.readFileSync(path.join(RAIZ, 'site.json'), 'utf8'));
@@ -46,6 +46,20 @@ ${scripts}
 const chamadas = (html, tid, lg) => html.replace(/\s*\{a(\d+)\}/g, (_, n) => `<sup class="ac"><a href="#${tid}-${lg}-a${n}" id="${tid}-${lg}-c${n}" title="Acréscimo ${n}">a${n}</a></sup>`);
 const rodape = (lista, tid, lg, rot, gl) => lista.map((a, k) => `<div class="ac" id="${tid}-${lg}-a${k + 1}"><b><a href="#${tid}-${lg}-c${k + 1}">a${k + 1}</a> ${esc(rot)}</b>${formatar(a, gl)}</div>`).join('');
 const escrever = (rel, html) => { const f = path.join(SAIDA, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
+// Histórico do debate, tirado do registro (debate/<obra>/<id>/resumo.md) e da data gravada pelo debate.mjs (campo "debate").
+const REPO = 'https://github.com/pedrohqb/bibliotheca-barroca/blob/main';
+const dataBr = d => { const m = String(d || '').match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? `${m[3]}/${m[2]}/${m[1]}` : ''; };
+const historico = (o, c) => {
+  if (!c.pt) return '';
+  const dir = path.join(RAIZ, 'debate', o.id, c.id);
+  if (fs.existsSync(path.join(dir, 'resumo.md'))) {
+    const reg = path.join(dir, 'registro.md');
+    const n = fs.existsSync(reg) ? (fs.readFileSync(reg, 'utf8').match(/^## Rodada /gm) || []).length : 0;
+    const quando = dataBr(c.pt.meta.debate);
+    return `Debatida com Codex e Gemini${quando ? ' em ' + quando : ''}${n ? ` (${n} rodada${n > 1 ? 's' : ''})` : ''}; <a href="${REPO}/debate/${o.id}/${c.id}/resumo.md">resumo do debate</a>. `;
+  }
+  return ['rascunho', 'importada'].includes(c.pt.meta.estado) ? 'Ainda sem debate. ' : '';
+};
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
@@ -157,7 +171,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
-<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo ? esc(pt.meta.processo) + '. ' : ''}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
+<p class="aviso"><b>${esc(situacao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
 </div>
 <div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
 <div class="texto">

@@ -6,7 +6,7 @@ livro_curto: Paralelo
 capitulo: Prefácio
 titulo: Prefácio. Em que estão a causa e o fruto deste escrito; a proposição e a divisão do que se vai dizer.
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

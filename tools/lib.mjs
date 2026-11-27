@@ -101,4 +101,13 @@ export function formatar(texto, glossario = []) {
   return h.replace(/\u0000(\d+)\u0001/g, (_, n) => guard[+n]);
 }
 
+// "processo" diz só como a versão foi feita (primeira versão, revisão por agente, cotejo). Debate e revisão são histórico,
+// tirados de "estado", de "debate" (data em que o resultado foi aplicado) e de debate/<obra>/<id>/. Esta função tira do
+// texto livre as menções a debate e a revisão pendente, que contradiziam o estado real.
+export const limparProcesso = s => String(s || '')
+  .replace(/,?\s*(?:e\s+)?debatida com Codex e Gemini/gi, '')
+  .replace(/,?\s*sem debate/gi, '')
+  .replace(/,?\s*para revis[ãa]o(?:\s+final)?(?:\s+e debate posterior)?/gi, '')
+  .replace(/\s+,/g, ',').replace(/[,\s]+$/, '').trim();
+
 export const textoPlano = s => s.replace(/\*/g, '').replace(/\s*\{a\d+\}/g, '');

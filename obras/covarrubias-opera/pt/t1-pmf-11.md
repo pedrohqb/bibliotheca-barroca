@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: § 8
 titulo: A boa-fé e a má-fé na prescrição
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

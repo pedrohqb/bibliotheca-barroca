@@ -8,7 +8,7 @@ import json, subprocess, sys, time
 
 REPO = '/home/pedro/bibliotheca-barroca'
 OBRA = 'obras/jansenius-augustinus'
-NAO_REVISTO = 'Primeira versão com Claude, para revisão e debate posterior'
+NAO_REVISTO = 'Primeira versão com Claude'
 
 
 def show(path):

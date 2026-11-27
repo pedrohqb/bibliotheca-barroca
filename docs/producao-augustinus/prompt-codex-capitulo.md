@@ -7,7 +7,7 @@ Capítulo: **{ID}** — dados em `obras/jansenius-augustinus/catalogo.json` (tí
 Exceções ao brief, que prevalecem:
 - **Não faça nada no git** (nem add, nem commit, nem pull, nem push). Só grave `obras/jansenius-augustinus/la/{ID}.md` e `obras/jansenius-augustinus/pt/{ID}.md`; a coordenação valida e publica.
 - **Não edite o glossário.** Termo técnico novo que mereça entrada: proponha no relatório, com `lema`, `formas`, `pt` e `nota`.
-- No cabeçalho de `pt/`, use `processo: Primeira versão com Codex (ChatGPT), para revisão e debate posterior`. O resto do cabeçalho como os capítulos de exemplo (`tradutor: Pedro H. Q. Barreto`, `estado: rascunho`); no `la/`, `transcricao: provisoria`.
+- No cabeçalho de `pt/`, use `processo: Primeira versão com Codex (ChatGPT)`. O resto do cabeçalho como os capítulos de exemplo (`tradutor: Pedro H. Q. Barreto`, `estado: rascunho`); no `la/`, `transcricao: provisoria`.
 - Rode `node tools/validar.mjs` no fim e corrija qualquer erro do seu capítulo; aviso de glossário do seu capítulo: resolva com a forma fixada ou explique em `@n`.
 - Não apague nem altere arquivos de outros capítulos.
 

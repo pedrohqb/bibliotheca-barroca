@@ -5,7 +5,7 @@ livro_curto: Possessor malae fidei
 capitulo: § 11
 titulo: Se a má-fé na prescrição escusa no foro da consciência
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

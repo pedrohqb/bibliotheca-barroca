@@ -5,7 +5,7 @@ livro_curto: Paralelo
 capitulo: Capítulo primeiro
 titulo: De que modo divergem ou concordam no ataque à eleição dos homens, ou predestinação completa.
 tradutor: Pedro H. Q. Barreto
-processo: Primeira versão com Claude, para revisão e debate posterior
+processo: Primeira versão com Claude
 estado: rascunho
 ---
 

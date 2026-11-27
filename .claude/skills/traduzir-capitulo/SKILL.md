@@ -25,7 +25,7 @@ Se o catálogo acabou (saída 3) ou não traz `paginas` do capítulo, complete-o
 
 1. Imagens do scan (passo 2) e **conferência do latim importado** contra elas (como na conferência do passo 3); corrija o que a imagem mostrar e mantenha `transcricao: provisoria` depois de conferido.
 2. Glossário (passo 4).
-3. **Revisão da tradução**, trecho a trecho, com o latim ao lado: corrija erros de sentido e omissões, atualize o registro pelo `CRITERIOS.md` (culto, legível e atual) e aplique o glossário; conserve as boas soluções do Pedro, sem reescrever por gosto. Marque `estado: rascunho` e `processo: Tradução de Pedro H. Q. Barreto, revista com Claude e debatida com Codex e Gemini, para revisão final`.
+3. **Revisão da tradução**, trecho a trecho, com o latim ao lado: corrija erros de sentido e omissões, atualize o registro pelo `CRITERIOS.md` (culto, legível e atual) e aplique o glossário; conserve as boas soluções do Pedro, sem reescrever por gosto. Marque `estado: rascunho` e `processo: Tradução de Pedro H. Q. Barreto, revista com Claude`.
 4. Validação (fim do passo 5), debate (passo 6), aplicação e publicação (passo 7).
 5. No `resumo.md`, antes das objeções do debate, a lista das mudanças da revisão própria em relação à tradução importada, separando **correções de sentido** (uma linha cada, com o trecho) de **atualizações de registro e de termos** (resumidas por tipo). O `git diff` do commit de importação mostra o texto anterior.
 
@@ -54,7 +54,7 @@ Antes de traduzir, liste os termos técnicos do capítulo. Termo que já está e
 
 Em `obras/<obra>/pt/<id>.md`, os mesmos trechos (`@sN`, sem coluna), pelo registro do `CRITERIOS.md`: **português culto, mas legível e atual**, sem arcaísmos, mesóclises nem inversões latinizantes, vocabulário corrente quando houver equivalente exato, e **cada termo técnico com uma forma só ao longo de todo o texto**, a do glossário. Fidelidade antes da elegância; explicação, dúvida e jogo de palavras perdido vão em `@n`.
 
-Cabeçalho: `id`, `livro` e `livro_curto` (em português), `capitulo`, `titulo`, `tradutor: Pedro H. Q. Barreto`, `processo: Primeira versão com Claude, debatida com Codex e Gemini, para revisão`, `estado: rascunho`.
+Cabeçalho: `id`, `livro` e `livro_curto` (em português), `capitulo`, `titulo`, `tradutor: Pedro H. Q. Barreto`, `processo: Primeira versão com Claude`, `estado: rascunho`.
 
 `node tools/validar.mjs`: nenhum erro; aviso de glossário, resolva (use a versão fixada) ou explique em `@n` por que o termo tem ali outro sentido.
 
@@ -70,7 +70,7 @@ Siga o protocolo da skill `rbsa-debate` do plugin RBSA IA Legal System (motor em
 
 ## 7. Aplicar e publicar
 
-1. `node tools/debate.mjs aplicar <obra> <id> "<pasta>/entregas/<id-da-entrega>"`: devolve tradução, notas e correções de transcrição aos arquivos, marca `estado: debatida` e copia `registro.md` e `consumo.csv` para `debate/<obra>/<id>/`.
+1. `node tools/debate.mjs aplicar <obra> <id> "<pasta>/entregas/<id-da-entrega>"`: devolve tradução, notas e correções de transcrição aos arquivos, marca `estado: debatida`, grava a data em `debate:` e copia `registro.md` e `consumo.csv` para `debate/<obra>/<id>/`.
 2. Divergência que ficou registrada ou objeção INCONCLUSIVA: vira `@n` no trecho ("Ponto em aberto no debate: …", com as duas posições em uma linha cada).
 3. Grave `debate/<obra>/<id>/resumo.md`: objeções acolhidas e rejeitadas (uma linha cada, com o motivo), pontos em aberto, propostas de mudança de glossário, as leituras da transcrição marcadas com `[?]` e as **remissões não conferidas** que os revisores listaram (linha "Remissões não conferidas" das respostas, sem repetição), que ficam para a conferência humana. É o roteiro da revisão do Pedro.
 4. `node tools/validar.mjs` e `node tools/build.mjs` sem erro.
