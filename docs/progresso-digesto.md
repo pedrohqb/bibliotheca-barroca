@@ -55,4 +55,17 @@ O Pedro pediu cotejo com as edições francesa, alemã, italiana e espanhola, ob
 - Uniformizações decididas pelo coordenador: *libertinus* "liberto"; *imperium* "império"; *ius reddere* "declarar o direito"; *lex Iulia repetundarum* "Lei Júlia de repetundas"; *capitis deminutio* "diminuição de cabeça"; *actor* (de coletividade) "agente"; grafia Pomponio, Emílio Macro. Glossário: acrescentados plurais/flexões (ações, estipulações, herdeira, herdeiros).
 - Publicados até agora: livros I a IV completos e D. 5.1-5.2.
 
-**Próximo passo:** seguir livro a livro até o livro L (`python3 tools/digesto.py situacao`).
+## 2026-11-26 — pausa no fim do livro XIX
+
+- Publicados: livros I a XIX completos (133 de 432 títulos; 29,9% das palavras latinas). Revisão independente feita e aplicada nos livros I a VII (relatórios em `docs/revisao/`); a partir do livro VIII, ainda sem revisão.
+- O Pedro pediu para deixar os agentes terminarem e parar. Nada em curso.
+- Monro: OCR completo pronto e indexado no gateway (`apoio/ocr/monro/`). O cotejo do Monro feito antes por imagem das páginas (livros 4-12, D. 14.5, D. 15.2-15.4) foi aceito pelo Pedro.
+- Pendências:
+  - 11 pontos a decidir na revisão dos livros VI e VII (`docs/revisao/livro-06.md`, `livro-07.md`).
+  - Uniformizar: "Basílicas" → "Basílicos" (14 títulos); "Aríston" → "Aristão" (D. 17.1); "ação *pro socio*" (D. 17.2) × "ação de sociedade (*pro socio*)" (títulos anteriores); "ação de condução" para *ex conducto* (D. 12.7, 14.1, 14.2 usam "ação de locação"); "afiançar" (D. 16.1) × "fazer-se fiador"; "Coisas cotidianas" × "Coisas cotidianas ou Áureos" nas inscrições (seguir a impressão de cada lei).
+  - D. 19.5, leis 18-26: cotejo do italiano (Vignali) só parcial; completar abrindo as páginas como imagem.
+  - D. 19.1: Hulot sem a p. 6 do tomo III (folha em branco no scan da BIU Cujas); D. 2.4.4.3-10.5 sem Hulot (pp. 117-118 do tomo I).
+  - Remissões em nota não conferidas em D. 19.2-19.5 (lista no relatório do agente: D. 1.22.4, D. 9.2.5.3, D. 16.3.6, Gaio 3.141, D. 18.1.1.1).
+  - Índice alemão (`de-indice.json`) começa alguns parágrafos depois do início em vários títulos (D. 17.1, 17.2, 18.1, 19.1); índice do Hulot sem D. 16.3.
+
+**Próximo passo:** D. 20.1 em diante (`python3 tools/digesto.py situacao`), e revisão independente a partir do livro VIII.
