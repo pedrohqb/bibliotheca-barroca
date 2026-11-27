@@ -1066,5 +1066,35 @@
     "formas": ["Praedestinatiani", "Praedestinatianorum", "Praedestinatianos", "Praedestinatianis"],
     "pt": ["predestinacianos"],
     "nota": "\"Predestinacianos\", com minúscula: a seita que teria negado o valor das boas obras para os predestinados; para Jansênio, nome caluniador que os massilienses (Genádio, Fausto) davam a Agostinho e seus discípulos (Heresia pelagiana, livro VIII). *Praedestinati*, no mesmo sentido, \"predestinados\". Paralelo, cap. 1."
+  },
+  {
+    "lema": "dispositio",
+    "formas": ["dispositio", "dispositionem", "dispositionis", "dispositione", "dispositiones"],
+    "pt": ["disposição", "disposições"],
+    "nota": "\"Disposição\": em especial a disposição para a justificação (*dispositio ad justificationem*), o que prepara o pecador para receber a graça no sacramento; o verbo *disponere*, \"dispor\". Livro V da Graça de Cristo, cap. 25 (a atrição como disposição suficiente)."
+  },
+  {
+    "lema": "contritio",
+    "formas": ["contritio", "contritionem", "contritionis", "contritione"],
+    "pt": ["contrição"],
+    "nota": "\"Contrição\": a dor dos pecados com o propósito de vida melhor; o Concílio de Trento (sess. 14, cap. 4) chama *contritio imperfecta* a que nasce do temor da pena, que os escolásticos dizem *attritio*, \"atrição\". Livro V da Graça de Cristo, cap. 27."
+  },
+  {
+    "lema": "reprobatio negativa",
+    "formas": ["negativa reprobatio", "reprobationis negativae", "reprobatione negativa", "negativam reprobationem"],
+    "pt": ["reprovação negativa"],
+    "nota": "\"Reprovação negativa\": a simples não predestinação, a privação da predestinação (livro X, cap. 1); oposta à reprovação positiva. O advérbio *negative* (*negative reprobatus*), \"negativamente\"."
+  },
+  {
+    "lema": "reprobatio positiva",
+    "formas": ["reprobatione positiva", "reprobationis positivae", "positiva reprobatio", "positivam reprobationem"],
+    "pt": ["reprovação positiva"],
+    "nota": "\"Reprovação positiva\": o decreto de condenar à pena, que supõe o pecado previsto (livro X, cap. 1); oposta à reprovação negativa. *Positive reprobatus*, \"reprovado positivamente\"."
+  },
+  {
+    "lema": "incrementum",
+    "formas": ["incrementum", "Incrementum", "Incrementi", "incrementi"],
+    "pt": ["crescimento"],
+    "nota": "\"Crescimento\": de 1Cor 3,6-7 (*Deus incrementum dedit*); em Agostinho, nome da graça interior de Cristo, oposta à ação externa dos que plantam e regam (livro II do *De gratia Christi Salvatoris*, cap. 25). Não \"incremento\"."
   }
 ]
