@@ -128,9 +128,18 @@ O manifesto da Escola Histórica contra a proposta de codificação de Thibaut: 
 
 Não entram, por protegidas: as traduções francesa de Alfred Dufour (2006) e espanholas de Martínez Neira e Calatayud (Universidad Carlos III, 2015, acesso aberto, mas protegida) e de Gómez (UNED, da 2ª ed.); podem servir só de consulta, sem cópia.
 
-### Ordem sugerida
+### Ordem de produção (decidida)
 
-Das quatro, a *Culpa in contrahendo* e o *Beruf* são curtas e servem de piloto do método alemão antes dos volumes longos; o *Obligationenrecht* entra depois do *System*, de que depende, e o *Besitz* em qualquer ponto. Decisão do Pedro (ver "Decisões em aberto", 7 e 8).
+O Pedro aprovou as quatro obras e deixou a ordem a critério do plano (2026-11-27). Ordem fixada:
+
+1. **Jhering, *Culpa in contrahendo***: curta, serve de piloto do método alemão (transcrição da Fraktur, notas do autor, cotejo, glossário).
+2. **Savigny, *Vom Beruf unsrer Zeit***: curta; segundo piloto, já com Savigny, e o programa que o *System* executa.
+3. **Savigny, *System des heutigen römischen Rechts***: fixa a terminologia de que dependem as demais.
+4. **Savigny, *Obligationenrecht***: continuação do *System*.
+5. **Savigny, *Recht des Besitzes***.
+6. **Windscheid, *Lehrbuch des Pandektenrechts***: a síntese, que herda a terminologia das anteriores.
+
+A calibração (etapa 1) passa a ser a *Culpa in contrahendo* inteira, mais os §§ 4–5 e 52 do *System*, que fixam *Rechtsverhältniß* e *Rechtsinstitut*; os §§ de Windscheid da calibração ficam para o início dele. Nada impede adiantar uma obra se o Pedro pedir.
 
 ## Forma no repositório (proposta)
 
@@ -218,8 +227,8 @@ Na VM, como nas outras obras: `~/bibliotheca-fontes/savigny-system/` e `~/biblio
 | Etapa | O que se faz | Termina quando |
 |---|---|---|
 | 0. Estrutura | Mudanças em `tools/` e `site/` (acima); fontes baixadas; `catalogo.json` das duas obras (§, título, volume, páginas, palavras, páginas em cada tradução) | validador e site funcionam com uma obra alemã de teste |
-| 1. Calibração | Savigny §§ 4–5 (relação jurídica, instituto jurídico) e § 52 (essência das relações jurídicas), e Windscheid §§ 37–37a (conceito de direito) e 43–44 (pretensão), de ponta a ponta; conferir a edição alemã seguida por Fadda e Bensa | o Pedro leu, aprovou glossário e forma, e disse "pode seguir" |
-| 2. Produção | § a §, na ordem; ponto de controle ao fim de cada volume | |
+| 1. Calibração | Jhering, *Culpa in contrahendo*, inteira, e Savigny, *System*, §§ 4–5 (relação jurídica, instituto jurídico) e § 52 (essência das relações jurídicas), de ponta a ponta; no início de Windscheid, §§ 37–37a e 43–44 e a conferência da edição alemã seguida por Fadda e Bensa | o Pedro leu, aprovou glossário e forma, e disse "pode seguir" |
+| 2. Produção | obra a obra, na ordem acima; § a §; ponto de controle ao fim de cada volume ou obra | |
 | 3. Fechamento | auditoria de uniformidade dos termos | relatório ao Pedro |
 
 Tamanho: cerca de 4.300 páginas de scan no Savigny e 2.150 no Windscheid, com notas extensas; a contagem de palavras sai do OCR na etapa 0. Lote de sessão sugerido: até 10 mil palavras alemãs, terminando no fim de um §.
@@ -228,12 +237,12 @@ Tamanho: cerca de 4.300 páginas de scan no Savigny e 2.150 no Windscheid, com n
 
 1. **Notas do autor** (`@r`, acima) e o `lang` do original: aprovar o desenho e escolher o momento (outras sessões produzem no mesmo repositório). Os rótulos do idioma já foram resolvidos.
 2. **Concordância com as traduções no site** (links por §) ou só cotejo interno.
-3. **Ordem**: Savigny primeiro (fixa a terminologia que Windscheid herda), Windscheid primeiro, ou as duas em paralelo.
+3. ~~Ordem~~: decidida (ver "Ordem de produção").
 4. **Glossário**: aprovar as formas propostas, sobretudo *Rechtsfähigkeit*, *Handlungsfähigkeit* e *Anspruch*.
 5. **Apêndices de Savigny** (*Beylagen*): entram, na ordem dos volumes (proposta), ou ficam para o fim.
 6. **Windscheid com uma só tradução**: fica `cotejada` com Fadda e Bensa (regra atual) ou, por exceção, recebe também o debate.
-7. **Obras novas da ampliação**: quais entram e em que ordem (sugestão: *Culpa in contrahendo* e *Beruf* como pilotos, por serem curtas).
-8. **Edição de base** do *Besitz* (6ª, 1837, ou 7ª, de Rudorff, 1865, com os acréscimos dele em rodapé), do *Beruf* (1828 ou 1814) e da *Culpa in contrahendo* (1861 ou 1881).
+7. ~~Obras novas da ampliação~~: as quatro entram (Pedro, 2026-11-27).
+8. **Edição de base** do *Besitz* (6ª, 1837, ou 7ª, de Rudorff, 1865, com os acréscimos dele em rodapé), do *Beruf* (1828 ou 1814) e da *Culpa in contrahendo* (1861 ou 1881). Sem resposta, valem as propostas do plano (1837, 1828, 1861).
 
 ## Prompt para retomar em outra sessão
 
