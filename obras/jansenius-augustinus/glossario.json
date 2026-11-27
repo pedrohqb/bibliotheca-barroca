@@ -1018,5 +1018,17 @@
     "formas": ["amor amicitiae", "amoris amicitiae", "amorem amicitiae", "amore amicitiae", "dilectio amicitiae", "dilectioni amicitiae"],
     "pt": ["amor de amizade", "dileção de amizade"],
     "nota": "\"Amor de amizade\" (*dilectio amicitiae*, \"dileção de amizade\"): o amor que quer o bem do amado por ele mesmo, sinônimo de *amor benevolentiae*, \"amor de benevolência\"; oposto ao *amor concupiscentiae*. Livro V do *De gratia Christi Salvatoris*, caps. 7 e 9."
+  },
+  {
+    "lema": "gehenna",
+    "formas": ["gehenna", "gehennae", "gehennam"],
+    "pt": ["geena"],
+    "nota": "\"Geena\": o inferno como lugar e pena eterna (Mt 10,28). Livro V da Graça de Cristo, cap. 13: *timor gehennae*, \"temor da geena\"."
+  },
+  {
+    "lema": "attritio",
+    "formas": ["attritio", "attritionem", "attritionis", "attritione"],
+    "pt": ["atrição"],
+    "nota": "\"Atrição\": a dor dos pecados nascida do temor da pena, distinta da contrição. Livro V da Graça de Cristo, cap. 13."
   }
 ]
