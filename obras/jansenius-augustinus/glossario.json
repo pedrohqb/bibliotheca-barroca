@@ -634,5 +634,35 @@
     "formas": ["gratia naturae", "gratiam naturae"],
     "pt": ["graça da natureza"],
     "nota": "\"Graça da natureza\": a \"graça\" que os pelagianos identificavam com os dons naturais (De haeresi Pelagiana V, cap. 2; Da graça de Cristo, livro I, cap. 6)."
+  },
+  {
+    "lema": "voluntas antecedens",
+    "formas": ["voluntas antecedens", "antecedens voluntas", "antecedentem voluntatem", "voluntatem antecedentem", "antecedente voluntate"],
+    "pt": ["vontade antecedente"],
+    "nota": "\"Vontade antecedente\" (também *primaria*, \"primária\", em Damasceno): a vontade com que Deus, por bondade, quer a salvação de todos, considerada antes das circunstâncias (o pecado); oposta à *voluntas consequens*. Jansênio a reduz, depois do pecado, a mera veleidade (livro III da Graça de Cristo, cap. 20)."
+  },
+  {
+    "lema": "voluntas consequens",
+    "formas": ["voluntas consequens", "voluntatem consequentem", "consequente voluntate", "voluntate consequente"],
+    "pt": ["vontade consequente"],
+    "nota": "\"Vontade consequente\" (também *secundaria*): a vontade de justiça com que Deus, consideradas as circunstâncias (o pecado), quer o castigo; oposta à *voluntas antecedens* (livro III da Graça de Cristo, cap. 20)."
+  },
+  {
+    "lema": "voluntas signi",
+    "formas": ["voluntas signi", "voluntate signi"],
+    "pt": ["vontade de sinal"],
+    "nota": "\"Vontade de sinal\": na escolástica, a vontade que Deus manifesta por sinais (preceito, proibição, conselho, permissão, operação), distinta da vontade de beneplácito (*voluntas beneplaciti*), que é o próprio querer divino."
+  },
+  {
+    "lema": "reprobatio",
+    "formas": ["reprobatio", "reprobationis", "reprobationem", "reprobatione", "reprobus", "reprobi", "reproborum", "reprobos"],
+    "pt": ["reprovação", "réprobo", "réprobos"],
+    "nota": "\"Reprovação\": o decreto com que Deus não elege e deixa na massa condenada; *reprobus*, \"réprobo\". Os pelagianos a entendem, como a predestinação, por presciência das obras (Heresia pelagiana, livro VI, cap. 10). O verbo *reprobare*, \"reprovar\"."
+  },
+  {
+    "lema": "vasa irae",
+    "formas": ["vasa irae", "vasis irae", "vasorum irae"],
+    "pt": ["vasos de ira"],
+    "nota": "\"Vasos de ira\" (Rm 9,22), par de *vasa misericordiae*, \"vasos de misericórdia\" (Rm 9,23); *vas in honorem / in contumeliam*, \"vaso para honra / para desonra\" (Rm 9,21; 2Tm 2,20-21). Heresia pelagiana, livro VI, cap. 10."
   }
 ]
