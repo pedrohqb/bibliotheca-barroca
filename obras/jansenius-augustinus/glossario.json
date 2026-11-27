@@ -580,5 +580,29 @@
     "formas": ["necessitas inevitabilitatis", "necessitatem inevitabilitatis", "necessitate inevitabilitatis"],
     "pt": ["necessidade de inevitabilidade"],
     "nota": "\"Necessidade de inevitabilidade\" (Alexandre de Hales e escolásticos depois dele): não poder evitar, que convive com a vontade e o livre-arbítrio, por oposição à *necessitas coactionis*, \"necessidade de coação\" (livro VI do *De gratia Christi*, cap. 21)."
+  },
+  {
+    "lema": "vocatio",
+    "formas": ["vocatio", "vocationis", "vocationi", "vocationem", "vocatione"],
+    "pt": ["vocação"],
+    "nota": "\"Vocação\": o chamado de Deus à fé e à salvação (Rm 8,30: *quos praedestinavit, hos et vocavit*); *vocatio secundum propositum*, \"vocação segundo o propósito\" (Rm 8,28). O verbo *vocare* fica \"chamar\". Heresia pelagiana, livro VI, cap. 8."
+  },
+  {
+    "lema": "propositum",
+    "formas": ["propositum", "propositi", "proposito"],
+    "pt": ["propósito"],
+    "nota": "\"Propósito\": o desígnio de Deus de salvar (Rm 8,28, *secundum propositum vocati*; 2Tm 1,9; Ef 1,11), que os pelagianos reduzem ao propósito de salvar quem crê, ou entendem como propósito do homem. Mantém-se \"propósito\" nos dois sentidos, porque o argumento depende da palavra. Heresia pelagiana, livro VI, cap. 8."
+  },
+  {
+    "lema": "gratia congrua",
+    "formas": ["gratia congrua", "gratiae congruae", "gratiam congruam", "gratia congrua"],
+    "pt": ["graça côngrua"],
+    "nota": "\"Graça côngrua\": a graça dos congruístas (Suárez, Belarmino), dada nas circunstâncias em que Deus prevê que a vontade consentirá; termo da polêmica de Jansênio com os modernos (prefácio do livro I do De gratia Christi Salvatoris). Já usado nos livros III e VI."
+  },
+  {
+    "lema": "virtus cardinalis",
+    "formas": ["virtutes cardinales", "virtutum cardinalium", "virtute cardinali", "virtus cardinalis"],
+    "pt": ["virtude cardeal", "virtudes cardeais"],
+    "nota": "Prudência, justiça, temperança e fortaleza. \"Cardeal\", forma corrente em português para as quatro virtudes; Jansênio também diz *virtus capitalis*, \"virtude capital\", no mesmo sentido."
   }
 ]
