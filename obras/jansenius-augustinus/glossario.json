@@ -460,5 +460,29 @@
     "formas": ["semina virtutum", "virtutum semina", "virtutum semina"],
     "pt": ["sementes das virtudes"],
     "nota": "\"Sementes das virtudes\": expressão de Cassiano (*Collationes* 13, 12) para os princípios naturais do bem que permaneceriam na alma depois do pecado; Jansênio as identifica com a possibilidade natural dos massilienses (livro VIII da Heresia pelagiana, cap. 13)."
+  },
+  {
+    "lema": "obduratio",
+    "formas": ["obduratio", "obdurationis", "obdurationem", "obduratione"],
+    "pt": ["endurecimento"],
+    "nota": "\"Endurecimento\": a recusa da misericórdia com que Deus deixa o pecador no mal (*obdurare*, \"endurecer\"; *obdurati*, \"endurecidos\"), segundo Agostinho, *Ad Simplicianum* 1,2,15: *obduratio Dei sit nolle misereri*. Par de *excaecatio*, \"obcecação\"."
+  },
+  {
+    "lema": "desertio",
+    "formas": ["desertio", "desertionis", "desertionem", "desertione"],
+    "pt": ["abandono"],
+    "nota": "\"Abandono\": o ato de Deus que deixa o pecador sem o auxílio da graça (*deserere*, \"abandonar\"; *deserti*, \"abandonados\"); um dos suplícios ao lado da obcecação e do endurecimento."
+  },
+  {
+    "lema": "subministratio",
+    "formas": ["subministratio", "subministrationem", "subministratione", "subministrationis"],
+    "pt": ["suprimento"],
+    "nota": "\"Suprimento\" (do Espírito Santo, da graça, da força): o socorro dado de fora à vontade, termo da carta do Concílio de Milevi (Agostinho, ep. 176, antiga 95) e do *De gratia Christi*; ecoa *subministratio Spiritus* (Fl 1,19). Livro V da *Heresia pelagiana*, cap. 27. O verbo *subministrare* vai por \"suprir\"; *administratio*, quando usado no mesmo sentido, também \"suprimento\", com nota."
+  },
+  {
+    "lema": "possibilitas",
+    "formas": ["possibilitas", "possibilitatem", "possibilitate", "possibilitatis"],
+    "pt": ["possibilidade"],
+    "nota": "Termo de Pelágio e Juliano para a capacidade natural, dada na criação, de fazer o bem ou o mal (posse), distinta do querer e do agir; sempre \"possibilidade\"."
   }
 ]
