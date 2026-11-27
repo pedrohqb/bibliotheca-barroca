@@ -670,5 +670,29 @@
     "formas": ["facienti quod in se est", "faciente quod in se est", "faciendo quod in se est", "facientium quod in se est", "facientibus quod in se est"],
     "pt": ["o que está em si"],
     "nota": "\"Fazer o que está em si\": a fórmula escolástica do axioma *facienti quod in se est Deus non denegat gratiam* (\"a quem faz o que está em si, Deus não nega a graça\"). Graça de Cristo, livro I, cap. 5."
+  },
+  {
+    "lema": "impeccantia",
+    "formas": ["impeccantia", "impeccantiam", "impeccantiae"],
+    "pt": ["impecabilidade"],
+    "nota": "Termo de Jerônimo (carta 133, a Ctesifonte; *Dialogus adversus Pelagianos*) para a tese pelagiana de que o homem pode viver sem pecado; equivale ao grego ἀναμαρτησία. \"Impecabilidade\", como em t1-hp1-01 e t1-hp5-04; não é a impecabilidade dos bem-aventurados (não poder pecar), mas a vida sem pecado sustentada pelas forças da natureza."
+  },
+  {
+    "lema": "impassibilitas",
+    "formas": ["impassibilitas", "impassibilitatem", "impassibilitatis", "impassibilitate"],
+    "pt": ["impassibilidade"],
+    "nota": "A ἀπάθεια dos estoicos e de Evágrio, ausência de paixões ou perturbações da alma, que Jerônimo aproxima da impecabilidade pelagiana (carta 133, a Ctesifonte). \"Impassibilidade\"; a palavra grega, quando Jansênio a usa, fica em grego com a mesma tradução."
+  },
+  {
+    "lema": "delectatio victrix",
+    "formas": ["delectatio victrix", "delectationem victricem", "victricem delectationem", "victrix delectatio", "victricis delectationis"],
+    "pt": ["deleite vitorioso"],
+    "nota": "\"Deleite vitorioso\": nome que Jansênio, com Agostinho (*De peccatorum meritis* II, *victricem delectationem*), dá à graça medicinal de Cristo, o deleite celeste maior que o terreno e que por isso o vence (livro IV do *De gratia Christi Salvatoris*, cap. 6). *Victrix* sozinho, \"vitorioso(a)\"; o particípio *vincens*, \"que vence\"."
+  },
+  {
+    "lema": "transgressio",
+    "formas": ["transgressio", "transgressionis", "transgressionem", "transgressione", "transgressiones"],
+    "pt": ["transgressão", "transgressões"],
+    "nota": "\"Transgressão\": a violação de um preceito conhecido; em Agostinho e Jansênio, quase sinônimo de *praevaricatio* (\"prevaricação\"), da qual se distingue só pela palavra (Gl 3,19, *lex propter transgressiones posita est*). O particípio *transgressa lex*, \"lei transgredida\". Livro I do *De gratia Christi Salvatoris*, cap. 9."
   }
 ]
