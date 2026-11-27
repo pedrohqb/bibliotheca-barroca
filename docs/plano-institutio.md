@@ -15,7 +15,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 |---|---|
 | A, B | capítulo de Calvino (I, 1 … IV, 20) e assunto |
 | C | correspondência em Coton: Direta, Parcial, Ausente |
-| D | cobertura geral do contraponto: Boa (51), Parcial (22), Convergência (8), Fraca (0) |
+| D | cobertura geral do contraponto: Boa (59), Parcial (9), Convergência (13), Fraca (0) |
 | E | Coton, *Institutio Catholica* (1618): livro, capítulo, página |
 | F | Belarmino, *Controversiae*: tratado, livro, capítulos |
 | G | citações explícitas da *Institutio* feitas por Coton, com seção e página |
