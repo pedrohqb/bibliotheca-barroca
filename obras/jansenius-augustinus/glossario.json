@@ -856,5 +856,35 @@
     "formas": ["initium fidei", "initio fidei", "fidei initium", "fidei initio"],
     "pt": ["início da fé"],
     "nota": "\"Início da fé\": o primeiro movimento de crer (a vontade de crer), que os massilienses atribuíam ao livre-arbítrio e Agostinho à graça; ponto central do semipelagianismo (Heresia pelagiana, livro VII, cap. 1). Forma já usada nos capítulos anteriores; evitar \"começo da fé\"."
+  },
+  {
+    "lema": "gratia sanitatis",
+    "formas": ["gratia sanitatis", "gratiae sanitatis", "gratiam sanitatis", "adjutorium sanitatis", "adjutorii sanitatis", "adjutorio sanitatis"],
+    "pt": ["graça da saúde", "auxílio da saúde"],
+    "nota": "\"Graça da saúde\", \"auxílio da saúde\": o auxílio dado à vontade sã de Adão inocente e dos anjos, que ela usava ou não por seu aceno, oposto à *gratia medicinalis* (\"graça medicinal\") dada à vontade doente depois da queda (livro II do *De gratia Christi Salvatoris*, cap. 3 e seguintes). *Voluntas sana / aegrota*: \"vontade sã / doente\"."
+  },
+  {
+    "lema": "nutus",
+    "formas": ["nutus", "nutu", "nutum", "nutui"],
+    "pt": ["aceno"],
+    "nota": "\"Aceno\": o movimento soberano com que a vontade se inclina para um lado ou outro e dispõe dos auxílios (livro II do *De gratia Christi Salvatoris*, cap. 3: *nutus imperialis*, \"aceno imperial\"; *imperativus bene volendi nutus*, \"aceno imperativo do querer o bem\"). Ao lado dele, *flexus*, \"inflexão\"."
+  },
+  {
+    "lema": "adjutorium sanitatis",
+    "formas": ["sanitatis adjutorium", "sanitatis adjutoriis", "sanitatis adjutoria", "adjutorium sanitatis", "adjutorii sanitatis", "adjutorio sanitatis"],
+    "pt": ["auxílio da saúde", "auxílios da saúde"],
+    "nota": "\"Auxílio da saúde\": o auxílio que supõe a vontade sã e íntegra e só a ajuda a operar (o da natureza inocente), por oposição ao auxílio medicinal, que cura a vontade enferma. Da graça de Cristo, livro II, cap. 1 (*gratia sani hominis et aegroti*) e caps. 3 a 5 (*gratia sanitatis et medicinalis*)."
+  },
+  {
+    "lema": "sanitas",
+    "formas": ["sanitas", "sanitatis", "sanitatem", "sanitate"],
+    "pt": ["saúde"],
+    "nota": "\"Saúde\": em Jansênio (livro VII do *De gratia Christi Salvatoris*, cap. 8), a saúde da vontade ou do arbítrio, que é a caridade e que ele identifica com a verdadeira liberdade (*ipsa enim sanitas est vera libertas*); oposta a *aegritudo* (\"doença\"). O verbo *sanare*, \"curar\"; *sanatio*, \"cura\"."
+  },
+  {
+    "lema": "aegritudo",
+    "formas": ["aegritudo", "aegritudinis", "aegritudinem", "aegritudine"],
+    "pt": ["doença"],
+    "nota": "\"Doença\": a doença da vontade, que é a cupidez (livro VII do *De gratia Christi Salvatoris*, cap. 8), oposta a *sanitas* (\"saúde\"). Distinta de *morbus* (\"enfermidade\") e de *infirmitas* (\"fraqueza\"), que Jansênio enumera juntas (*morbus, aegritudo et infirmitas*)."
   }
 ]
