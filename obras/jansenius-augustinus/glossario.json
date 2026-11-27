@@ -1042,5 +1042,11 @@
     "formas": ["instinctus", "instinctu", "instinctum"],
     "pt": ["impulso"],
     "nota": "\"Impulso\" quando é movimento interior dado por Deus (*instinctu Dei*, de Zósimo; livro II do *De gratia Christi Salvatoris*, cap. 16), ao lado de *inspiratio* e *tactus* (\"toque\"); \"instinto\" daria em português o sentido de impulso natural. No sentido natural (animal), \"instinto\"."
+  },
+  {
+    "lema": "libertas Philosophica",
+    "formas": ["Philosophica libertate", "Philosophicae libertatis", "Philosophicae libertati"],
+    "pt": ["liberdade filosófica"],
+    "nota": "\"Liberdade filosófica\": a liberdade dos escolásticos e dos teólogos modernos, definida pela indiferença de exercício (poder agir e não agir), que Jansênio opõe à liberdade agostiniana (livro IV do *De statu naturae lapsae*, cap. 22; *De gratia Christi Salvatoris* VII, caps. 14 e 15)."
   }
 ]
