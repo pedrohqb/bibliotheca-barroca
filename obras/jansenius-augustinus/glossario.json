@@ -510,12 +510,6 @@
     "nota": "\"Graça que discerne\": a graça que distingue quem crê de quem não crê (1Cor 4,7, *quis enim te discernit?*), que Agostinho exige dos massilienses (livro VIII, cap. 10). Não confundir com *discretio* no sentido de discernimento moral."
   },
   {
-    "lema": "discretio",
-    "formas": ["discretio", "discretionem", "discretionis", "discretione"],
-    "pt": ["discriminação"],
-    "nota": "\"Discriminação\": o ato de separar uns homens dos outros, quem crê de quem não crê, pela graça ou pelo arbítrio (livro VIII, caps. 2 e 10). Quando significa a faculdade de julgar (*propria discretio*, *discretio boni ac mali*), \"discernimento\", com nota."
-  },
-  {
     "lema": "impotentia",
     "formas": ["impotentia", "impotentiam", "impotentiae"],
     "pt": ["impotência"],
@@ -538,5 +532,11 @@
     "formas": ["pronitas", "pronitatem", "pronitate", "pronitatis"],
     "pt": ["propensão", "propensões"],
     "nota": "\"Propensão\" (*peccandi pronitas*, \"propensão para pecar\"), forma já usada nos capítulos anteriores; associada a *facilitas* e definida como *infirmitas* (livro IV da *Heresia pelagiana*, cap. 2)."
+  },
+  {
+    "lema": "Semi-Christianismus",
+    "formas": ["Semi-Christianismus"],
+    "pt": ["semicristianismo"],
+    "nota": "Nome que Jansênio dá ao quarto estado do pelagianismo, depois da condenação de 418 (livro VI da Heresia pelagiana, cap. 1): graça só para levar à perfeição o começo que seria do homem. Paralelo a etnicismo e semietnicismo do livro V."
   }
 ]
