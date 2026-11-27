@@ -18,6 +18,8 @@ Decisão do Pedro em 26/11/2026: a partir do t2-lp-10, a obra inteira sai primei
   `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`
 - **Não mexa** em `catalogo.json`, `tools/`, `site/`, na skill nem em `docs/`. Correção de título ou colunas do catálogo vai no relatório.
 
+**Ao terminar** (publicado ou não), apague as suas imagens: `rm -rf /tmp/bib/<id>`. O `/tmp` da VM é pequeno (tmpfs) e é dividido por dezenas de agentes.
+
 ## Paradas
 
 Erro que se repete ou ferramenta quebrada: pare, deixe o capítulo como está (não commite um capítulo pela metade) e relate. Não mude a ferramenta.

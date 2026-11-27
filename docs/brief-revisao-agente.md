@@ -16,6 +16,8 @@ Decisão do Pedro em 26/11/2026: cada capítulo produzido sem debate (`docs/brie
 6. **Grave** `debate/jansenius-augustinus/<id>/revisao.md`: título "Revisão por agente: <id>"; seções **Latim corrigido** (trecho, antes → depois, uma linha cada), **Tradução corrigida** (trecho, o que mudou e por quê, uma linha cada), **Para o Pedro** (pontos discutíveis, leituras `[?]`, remissões a conferir, propostas de glossário). Seção vazia: "Nada.".
 7. `node tools/validar.mjs` sem erro (sem `node tools/build.mjs`: durante a produção em massa, o build do site inteiro em cada agente era o gargalo de CPU da VM; o GitHub Actions roda validar e build a cada push, e a coordenação roda o build local periodicamente). Commit **só dos seus arquivos** (`la/<id>.md`, `pt/<id>.md`, `debate/jansenius-augustinus/<id>/revisao.md` e, se mexeu, o glossário): `jansenius-augustinus <id>: revisão por segundo agente`, com o número de correções no corpo, terminando com `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Antes do push, `git pull --rebase --autostash`; corrida no push, repita. Se o rebase der conflito no seu arquivo (outro agente, como a auditoria de fim de livro, mexeu nele), aborte o rebase, descarte só o seu commit, puxe e reaplique as suas correções sobre a versão nova.
 
+8. Ao terminar, apague as suas imagens: `rm -rf /tmp/bib/rev-<id>` (o `/tmp` da VM é pequeno e dividido por dezenas de agentes).
+
 Não mexa em `catalogo.json`, `tools/`, `site/`, na skill nem em `docs/`.
 
 ## Relatório final
