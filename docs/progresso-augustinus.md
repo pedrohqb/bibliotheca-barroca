@@ -4,9 +4,33 @@ Estado da produção, atualizado ao fim de cada sessão. O plano está em `docs/
 
 ## Etapa atual
 
-**2. *Liber prooemialis*: em produção.** Capítulos 1 a 6 publicados (`debatida`); faltam 24 (t2-lp-07 a t2-lp-30). O ponto de controle do livro vem depois do t2-lp-30.
+**Obra inteira em rascunho, quase completa (27/11/2026, 0h).** Mudança de método (decisão do Pedro, 26/11 à noite): debates só nos caps. t2-lp-01 a 09; do t2-lp-10 em diante, transcrição conferida e tradução em rascunho sem debate (`docs/brief-capitulo-rascunho.md`), com revisão independente por um segundo agente Claude (`docs/brief-revisao-agente.md`); os debates com Codex e Gemini ficam para a revisão.
+
+| Tomo | Prontos | Total |
+|---|---|---|
+| II | 215 (9 debatidos) | 215 |
+| I | 168 | 172 (a *Historia*, livro I, saiu em 12 partes, t1-hp1-01 a 12) |
+| III | 185 | 249 |
+
+**Parado pelo limite semanal do Claude** (Pedro: parar em 85%; parou em 82%, 26/11 23h45). Renova sábado 28/11, 23h. Retomar então:
+
+1. Produção dos 68 pendentes (`node tools/situacao.mjs jansenius-augustinus` lista os `pendente`; 4 do t1-hp8, o resto do tomo III), pelo brief de rascunho.
+2. Auditorias de fim de livro que faltam: t1-hp5, t1-hp6 e t3-gc6 (interrompidas, parte das correções no commit 230c8e4), t1-hp (Praefatio, bloqueada pelo hook) e as dos livros do tomo III que fecharem.
+3. Revisão independente (pausada em 26/11, 22h40, para poupar o limite): 69 capítulos revistos. Fila: `python3 -I docs/producao-augustinus/fila_revisao.py "<excluir>" [--esperar SEG]`. Prioridade: t3-gc10-07, piloto feito com Codex (5 erros de transcrição achados em meia coluna e corrigidos; o resto não foi conferido).
+4. Correções de catálogo anotadas em `docs/producao-augustinus/correcoes-catalogo.txt`.
+5. Propostas de glossário dos livros: relatórios das auditorias em `docs/producao-augustinus/relatorios/` (lista única para o Pedro a montar).
+6. Apresentação da obra: `docs/apresentacao-augustinus-rascunho.md`, a completar e publicar depois da tradução.
+
+Ferramentas da produção em massa: `docs/producao-augustinus/` (glossário por script com trava, fila de revisão com reservas, prompt do Codex). O hook de leitura do plugin RBSA bloqueia arquivos de mais de 16 KB; o Pedro autorizou ler pelo terminal os arquivos deste repositório.
 
 ## Sessões
+
+### 26/11/2026, noite (produção em massa)
+
+- Debates de t2-lp-07, 08 e 09 concluídos (4 rodadas cada, unanimidade na R3, final sem objeção). No t2-lp-07, a R1 do Gemini só foi aceita na 3.ª tentativa, sem a autorização que a skill pede (registrado no resumo).
+- Produção sem debate de ~560 capítulos com até 40 agentes em paralelo (o gargalo de CPU da VM limitou a ~20; o build do site saiu dos agentes). Auditorias de fim de livro em todo o tomo II e nos livros II–IV e VII–X já fechados.
+- Problemas e soluções: `/tmp` (tmpfs de 12 GB) lotou com imagens (agentes passaram a apagar as suas); índice do git compartilhado misturava commits (passou a `git commit -- <arquivos>`); o hook RBSA bloqueou o glossário (leitura pelo terminal, autorizada).
+- Consumo: limite semanal do plano em 50% por volta das 21h55 e 82% na parada (23h45); ~0,1–0,2 ponto por capítulo.
 
 ### 26/11/2026
 

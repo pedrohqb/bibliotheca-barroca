@@ -1,0 +1,1499 @@
+[
+ {
+  "livro": "De statu naturae lapsae, liber I",
+  "ids": [
+   "t2-nl1-01",
+   "t2-nl1-02",
+   "t2-nl1-03",
+   "t2-nl1-04",
+   "t2-nl1-05",
+   "t2-nl1-06",
+   "t2-nl1-07",
+   "t2-nl1-08",
+   "t2-nl1-09",
+   "t2-nl1-10",
+   "t2-nl1-11",
+   "t2-nl1-12",
+   "t2-nl1-13",
+   "t2-nl1-14",
+   "t2-nl1-15",
+   "t2-nl1-16",
+   "t2-nl1-17",
+   "t2-nl1-18",
+   "t2-nl1-19",
+   "t2-nl1-20",
+   "t2-nl1-21",
+   "t2-nl1-22",
+   "t2-nl1-23"
+  ],
+  "reports": [
+   {
+    "id": "t2-nl1-01",
+    "commit": "5723ccb",
+    "problema": "",
+    "catalogo": [
+     "colunas: o capítulo vai de 185 a 192 (termina em 192C, antes do Caput secundum); o catálogo diz 185-190 e as páginas do PDF devem ser 100-103",
+     "título como impresso: 'Peccatum originale ex mente Augustini concupiscentia. Quid reatus ejus, utrum culpae an poenae sit? Agnovit in eo iniquitatem, mortem animae, immunditiam, aversionem etc.' (impressão: 'ejus', não 'eius')"
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "libido: fixar 'libido' (sentido largo agostiniano, De civ. 14,15)",
+     "pollutio/pollutus: fixar 'contaminação/contaminado' (evita o sentido físico de 'poluição')",
+     "cupiditas: fixar 'cupidez'",
+     "peccatum originale: 'pecado original'; peccatum habituale/culpa habitualis: 'pecado habitual'/'culpa habitual'",
+     "meritum poenae: 'mérito da pena'; debitum poenae: 'dívida da pena'",
+     "trahere (o pecado de origem): 'contrair'; transitus peccati: 'passagem do pecado'",
+     "denominatio rationis: 'denominação de razão'; figmentum rationis: 'ficção da razão'",
+     "Não criei entradas: glossario.json tinha alterações não commitadas de outros agentes (reatus, ignorantia invincibilis); usei 'reato' e 'réu' como na entrada deles"
+    ],
+    "leituras_incertas": [
+     "187A: 'et ideo[?] regenerandos' (tipo borrado; no § 39 a mesma frase traz claramente 'et ideo')",
+     "187C: 'Concilii Palestni[?]' (erro tipográfico por Palestini)",
+     "187C, margem: 'Vasquez in 1. 2. Disp. 13[?]. c. 3.'",
+     "188, margens cortadas na encadernação: 'a Lib. 3. [?]', 'b Epist. [?]', 'c Serm. 14[?]', 'Lib. de [?]', 'Lib. de sp.[?] et lit.[?]', 'Lib. 14. de[?] Civit. c. 15[?]'",
+     "191-192, margens: 'Tract. 4[?] in Ioann.', 'Lib. 1. de pecc. merit. c. [?]' (duas vezes), 'In 1. 2. Disp. 139[?]. c. 3.', 'Lib. 4. cont. Iul. c. 1[?].', 'Lib. 10.[?]'",
+     "Normalizados sem [?] e registrados no commit: 'con-concupiscentia' (188C, sílaba repetida na quebra de linha) e 'proper' por 'propter' (192A)"
+    ],
+    "duvidas": [
+     "As remissões a Agostinho estão quase todas 'a conferir' (Contra Iulianum, De nuptiis, Opus imperfectum 'f. 273/274', De pecc. mer., Retract. 1,15, Conf. 10,6, onde as edições trazem 'vitae vita')",
+     "§ 7: jogo repugnas/pugnas traduzido por 'resistes a mim… lutas contra mim'",
+     "§ 14: tradere vertido por 'transmite' conforme a regra ('sempre que transmite que a concupiscência… é o pecado original'); pode soar forçado",
+     "§ 31/34: sexcenties por 'inúmeros' e 'centenas de vezes, e mais'",
+     "§ 38: interpretação irônica de 'nihil… efficacius invenire potuit' (a palavra de Agostinho refuta Vázquez); confirmar",
+     "§ 13: identificação de 'Concílio da Palestina' com Dióspolis (415) e da carta a Jerônimo com a 166 vai em nota; a conferir",
+     "§ 26: aviso do validador 'verbi gratia' (= 'por exemplo') explicado em @n"
+    ]
+   },
+   {
+    "id": "t2-nl1-02",
+    "commit": "41b25e3",
+    "problema": "Nenhum problema que bloqueasse o capítulo. Uma observação: o commit de glossario.json levou também entradas que outros agentes já tinham acrescentado ao arquivo de trabalho e ainda não tinham commitado (diff de 30 linhas; o JSON está válido). A validação passou sem erro. Resta um aviso no s3, porque *intellectu facilem* não é o termo técnico \"intelecto\"; está explicado em @n.",
+    "catalogo": [
+     "Título como impresso: 'Solvitur locus difficilis Augustini ex libro sexto contra Iulianum.' (o catálogo traz 'Soluitur')",
+     "As colunas reais (191-196) e as páginas (103-105) conferem com o catálogo: o capítulo começa no pé da p. 103 (col. 191-192) e termina no alto da col. 196",
+     "Nos cabeçalhos, o livro foi registrado como 'De statu naturae lapsae liber primus', por analogia com o nl3 ('De statu naturae lapsae liber tertius'). Confirmar quando o t2-nl1-01 trouxer o título impresso do livro"
+    ],
+    "glossario_novas": [
+     "reatus -> reato (formas reatus, reatum, reatu, reatui; reatus culpae 'reato da culpa', reatus poenae 'reato da pena')"
+    ],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "s1 margem: 'Lib. 6. cont cap. 19.' (sem 'Iul.'; transcrito como impresso)",
+     "s10: 'ablata fuerat[?]' (as edições de Agostinho trazem fuerit; traduzido assim)",
+     "s13: 'asscribere[?]' (por ascribere)",
+     "s18 margem cortada na encadernação: 'L[?] & lib[?] c. 17.'",
+     "s16: a impressão traz 'et illae', mas o sentido pede 'ille' (anotado em @n)",
+     "s13 margem: 'Lib. 6. cont. Iul. c. 9.', provavelmente por c. 19"
+    ],
+    "duvidas": [
+     "Contra Iulianum 6,19,62 (s1, s5-s8, s13): numeração a conferir",
+     "Contra Faustum: a margem diz 16,5, mas o passo parece estar em 26,5 (a conferir)",
+     "De Trinitate 9,5,8 (s11): parágrafo a conferir",
+     "Contra Iulianum 5,1 (scientia/conscientia nas crianças): a conferir",
+     "De nuptiis et concupiscentia 1,25,28 para 'manere actu, praeterire reatu' (a conferir)",
+     "'dignitatem poenae' foi vertido por 'merecimento da pena'",
+     "'sententia' foi vertido por 'enunciado' no passo do Contra Faustum",
+     "'chirographum' ficou como 'quirógrafo', com nota sobre Cl 2,14",
+     "'parvuli' foi vertido por 'crianças'. Fixar no glossário se o termo voltar",
+     "'manere actu, praeterire reatu' foi vertido por 'permanece quanto ao ato e passa quanto ao reato'"
+    ]
+   },
+   {
+    "id": "t2-nl1-03",
+    "commit": "d58c3f5",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Quo pacto reatus sit ex concupiscentia, late ex Augustino. Cur ea phrasi tam libenter utatur.' (o catálogo abrevia 'Aug.')",
+     "Colunas reais: 195-204 (começa na metade inferior da col. 195-196 e termina na col. 204), como no catálogo",
+     "livro: usado 'De statu naturae lapsae liber primus', como em t2-nl1-02; o catálogo traz 'De statu naturae lapsae, liber I'"
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "libido -> 'libido' (sentido agostiniano amplo, = concupiscentia generaliter sumpta); não criada porque o lp-08 usa libido em sentido não técnico (disputandi libidine) e o validador avisaria em outros capítulos",
+     "aversio -> 'afastamento' (par de conversio); o t2-nl1-01 usa 'aversão', que sugere antipatia: decidir uma forma só para o livro",
+     "conversio -> 'conversão'",
+     "delectatio -> 'deleitação' (termo central de Jansênio); outros capítulos usam 'deleite' e 'prazer': uniformizar"
+    ],
+    "leituras_incertas": [
+     "s11: 'cum ea libidine[?]': palavra mal impressa (lê-se algo como 'hoi..ne'); libidine é o que o sentido pede",
+     "s6 margem: 'Lib.[?] de grat. et lib. arbit. c. 17.' (início cortado)",
+     "s18 margem: 'Lib. 1. cont. Iul. op. imp. f.[?] 42.' (f ou c)",
+     "s22 margem: 'Lib. 3. de lib. arb. c. [?]' (cortada)",
+     "s24 margens: 'Ibid.[?]' e 'Cap. [?]' (cortadas)",
+     "s26 margens: 'Lib. 2. op. imp. cont. Iul. f.[?]' e 'Epist. 10[?]' (provavelmente 107)",
+     "s28 margens: 'Lib. 1. f. 12[?]' e 'Fol. 12[?]'",
+     "s30 margem: '2.[?] Petri 2.'",
+     "s39 margem: 'Epist. 105[?]. in fine.'",
+     "s48 margem: 'Lib. 3. de lib. arb. c. 2[?]'",
+     "s51 margem: 'Lib. 1. cont. Iul. op. impr. f.[?]'",
+     "s53 margem: 'Vide infra cap. 13[?]'",
+     "Grafias da impressão mantidas: 'meminem' por neminem (s30), 'negari ullo modo potest' sem negação (s47), 'ignavi' onde as edições de Agostinho parecem trazer 'ignari' (s22), 'captiuos' (s38), 'adiutus' (s27)"
+    ],
+    "duvidas": [
+     "s12: anacoluto (Haec liberatio... nisi per gratiam fiat, in aeternum libidini serviet): a tradução explicita 'a vontade' como sujeito e lê 'quam' como a libido",
+     "s13: 'stabiliter libere' entendido como infinitivo de libet ('apetecer'); 'ut libere velis' traduzido 'a querer livremente', mas pode ser 'como quando queres livremente'",
+     "s46: 'quem' (masculino) ligado a effectus; se for erro por 'quam', é a conversão que é dada no batismo",
+     "s47: 'hoc est, si erat aversus' (glosa de Jansênio) traduzida literalmente, com nota",
+     "s40: 'ipse' explicitado como 'o próprio Agostinho', para não se entender do diabo (acréscimo anotado)",
+     "s10: fomes peccati -> 'fômite'; s9 libet/placet -> 'apetecer'/'agradar'",
+     "s25/s26/s39: 'princeps peccatorum' -> 'príncipe dos pecadores' (pode ser 'dos pecados')",
+     "Remissões a Agostinho todas marcadas 'a conferir'; cartas 107 e 105 dadas como numeração antiga (107 = Ep. 217 a Vital; 105 talvez = Ep. 194)"
+    ]
+   },
+   {
+    "id": "t2-nl1-04",
+    "commit": "d680590",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Ratio voluntarii in originali peccato ex voluntate primi hominis fluit.' (o catálogo traz 'originalis peccato').",
+     "Colunas reais 205-208 (confere): começa no alto da col. 205 e termina antes do Caput quintum, no meio das cols. 207-208."
+    ],
+    "glossario_novas": [
+     "ratio voluntarii → 'razão de voluntário' (com nota sobre ratio peccati → 'razão de pecado'). Eu acrescentei a entrada, mas ela foi commitada pelo agente do t2-nl1-02 (commit 41b25e3), por isso o glossario.json não entrou no meu commit."
+    ],
+    "propostas_glossario": [
+     "A entrada 'peccatum originale' (de outro agente) poderia incluir a variante 'peccatum originis' → 'pecado de origem' (s17)."
+    ],
+    "leituras_incertas": [
+     "s12, margem cortada: 'Lib. 4. ad Bonif. c. [?]'",
+     "s13, margem cortada: '[Li]b. 3. cont. [I]ul. c. 12.'",
+     "s18, margens cortadas: 'Lib. 1. op. imperf. f[?]' e 'Fol. 4[?]'",
+     "s19, margens cortadas: 'Fol. 4[?]' e 'Lib. 1. Retract. c. 1[?] 15. et 1[?]'",
+     "Algarismos incertos no scan: 'f. 510' e 'Ibid. f. 226' (s6), 'Lib. 5. c. 1.' (s10)",
+     "s3: 'hoc mihi hominum genus', sem o 'omne' que as edições de Agostinho parecem trazer",
+     "s10: 'asscribere' (lido como ss)"
+    ],
+    "duvidas": [
+     "s3: 'hoc mihi hominum genus... consentit', vertido por 'nisso concordam comigo... os homens que tenham um mínimo de juízo'",
+     "s7: em 'reatu ejus implicatos', o ejus pode ser de Adão ou do pecado",
+     "s12: 'faciunt reos parvulos de corpore exire', vertido por 'fazem as crianças saírem rés do corpo', com o argumento explicado em nota",
+     "s11/s21: conditio, vertido por 'criação' (de condere), com nota",
+     "s14: 'peccatum earum tenere', vertido por 'sustentar que haja pecado delas'",
+     "s1: admiratio, vertido por 'estranheza'",
+     "Todas as remissões a Agostinho estão marcadas 'a conferir'; as do Opus imperfectum usam a numeração por fólio de uma edição antiga"
+    ]
+   },
+   {
+    "id": "t2-nl1-05",
+    "commit": "497f11e",
+    "problema": "",
+    "glossario_novas": [
+     "traductio → transmissão (formas traductio, traductionis, traductionem, traductione, traducente)",
+     "transfusio → transfusão / transfundir (formas transfusio, transfusionis, transfusionem, transfusione, transfundenda)"
+    ],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "s3, margem: 'Bellarm. lib. 4. de statu pecc. c. 1[?]': o número do capítulo está ilegível (pode ser 12)",
+     "s2, margem: 'Vasquez de pecc. orig. et alii': o 'de' está meio cortado e 'alij.' foi lido como alii"
+    ],
+    "duvidas": [
+     "s5: o sujeito de 'generatur' pode ser a prole ou o pecado; traduzi como a prole e expliquei em nota",
+     "s1: 'vitiatio' foi traduzido como 'viciação', palavra rara; alternativa: 'corrupção', mas o capítulo usa 'corruptio' em outro ponto",
+     "s5: as citações em itálico estão atribuídas a Belarmino ('Idem sup.') e a Vázquez (Disp. 133, c. 2, n. 6); as remissões não foram conferidas",
+     "s6: 'sententia' foi traduzido como 'sentença'; e a referência à carta 166, a Jerônimo, sobre a origem da alma, está em nota",
+     "Aviso do validador no s5: 'intellectum esse' é o particípio de intelligere, não o termo 'intellectus'; está explicado em @n, mas o aviso continua"
+    ],
+    "catalogo": [
+     "Colunas reais: 207A–210A (o capítulo começa no pé da p. 111 do PDF e termina no alto da p. 112); o catálogo diz 207-210, o que está correto",
+     "Título como impresso: '... in posteros ejus.' (o catálogo traz 'eius')"
+    ]
+   },
+   {
+    "id": "t2-nl1-06",
+    "commit": "5ba301a",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: há vírgula depois de 'traductionis' ('Primo ex prima radice traductionis, magnitudine scilicet...'); o catálogo não a traz. Colunas 209-214 conferem (começa no meio da 209, termina no meio da 214, antes do Caput septimum)."
+    ],
+    "glossario_novas": [
+     "vitiatio = viciação (entrou no repositório pelo commit 25b8ad1 do t2-nl1-07, por corrida no mesmo arquivo; o texto é o meu)"
+    ],
+    "propostas_glossario": [
+     "traductio: o glossário dá 'transmitir' a traducere, mas Agostinho usa também transmittere em sentido comum ('transmittat in filios', § 15); talvez fixar outro verbo para um dos dois, ou registrar a coincidência"
+    ],
+    "leituras_incertas": [
+     "§ 7 margem: 'Lib. 1[?] de nupt. c. 2' (algarismo do livro mal impresso)",
+     "§ 11 margem: 'Lib 9[?] cont. Iul. c. 26' (o Contra Iulianum tem seis livros; talvez 3)",
+     "§ 14 margem: 'Ibid. f. 38[?]' (último algarismo cortado na encadernação)",
+     "§ 8: a impressão traz 'ex antiqua immunditia stirpe', sem [?] no texto; a tradução lê como 'immunditiae' (a conferir)"
+    ],
+    "duvidas": [
+     "§ 5: 'Ex quo Adam...' tomado como temporal ('desde que'); pode ser 'por isso'; e o 'ut' consecutivo de 'ita' que a impressão põe dentro do parêntese",
+     "§ 9: 'inobedientiam concupiscendi' vertido como 'desobediência rebelde do concupiscer'",
+     "§ 12: 'obnoxia successione' vertido como 'por uma sucessão que nos sujeita a ele' (explicitação)",
+     "§ 15: o sujeito de 'noverat' falta no recorte de Jansênio (provavelmente o Apóstolo; a conferir)",
+     "§ 17: o antecedente de 'quam velut umbra corpus... consequitur' foi lido como 'naturae'",
+     "§ 20: 'habitu' = 'condição', fora do glossário (habitus = hábito); está explicado em nota e o aviso do validador continua",
+     "Remissões a conferir: De nuptiis 1,32 e 2,34,57 ('cap. penult.'); De civitate Dei 13,14 (a margem diz cap. 15); Contra Iulianum 3,12, 3,16 e 3,24; Opus imperfectum, fólios 372, 38? e 389 (numeração antiga); Sermões 47 de diversis, 14 de verbis Apostoli e 36 de verbis Domini (numeração pré-maurina); Vázquez disp. 133 c. 2 n. 6"
+    ]
+   },
+   {
+    "id": "t2-nl1-07",
+    "commit": "25b8ad1",
+    "problema": "",
+    "catalogo": [
+     "Colunas confirmadas: 213-216. O capítulo começa no meio da col. 213 e termina no alto da col. 216. Título impresso: 'Ostenditur secundo ex locis, quae speciatim concupiscentiam velut propinquam causam propagationis exprimunt.' (o mesmo do catálogo)"
+    ],
+    "glossario_novas": [
+     "propagatio: propagação / propagar (distinto de traductio e transfusio)",
+     "libido: libido (desejo carnal desordenado; pudenda libido = 'libido vergonhosa')"
+    ],
+    "propostas_glossario": [
+     "Em t2-lp-08 (§§ 15 e 18), libido tem outro sentido ('capricho'), o que gera dois avisos do validador. Lá cabe uma @n explicando esse sentido, ou restringir as formas da entrada."
+    ],
+    "leituras_incertas": [
+     "§7 margem: Lib. 2. cont. Iul. c. 6[?]",
+     "§8 margens: Lib. 2. op. imperf. cont. Iul. f. 240[?]; Ibid. f. 252[?]",
+     "§9 margem: Ibid. f. 434[?]",
+     "§10 margem: [L]ib. de pecc. orig. c. 37 (cortado)",
+     "§11 margem: Lib. 1. c. 8. [c]ont. Iul. (cortado)",
+     "§12 margens cortadas na encadernação: Lib. 4. c[?]; Lib. 2. op[?] imperf[?] Iul. f.[?]"
+    ],
+    "duvidas": [
+     "trajicere vertido por 'passar' / 'fazer passar', para ficar distinto de traducere ('transmitir')",
+     "trahere vertido por 'contrair' quando o objeto é o pecado original e por 'trazer' quando é malum ou morbum (§11)",
+     "stirps vertido por 'estirpe' para manter o duplo sentido (planta e linhagem) entre os §§ 2 e 4",
+     "Remissões a conferir: De nupt. 1,33 e 1,23,25-26; De pecc. mer. 1,16 e 2,23 (o 'livro segundo da mesma obra' seria o De pecc. mer.?); C. Iul. 2,6, 5,16, 1,8, 2,8 e 4,?; folhas do Opus imperfectum em edição antiga",
+     "§12: os ablativos absolutos 'vitio propagante vitium, Deo creante naturam' foram mantidos em paralelo ('propagando o vício o vício'), o que pode soar latinizante"
+    ]
+   },
+   {
+    "id": "t2-nl1-08",
+    "commit": "0dd8b70",
+    "problema": "",
+    "glossario_novas": [
+     "vetustas → vetustez (formas vetustas, vetustatis, vetustate, vetustatem)"
+    ],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "s4 margem cortada: Lib. 2. de pec. mer. c. 27[?]",
+     "s5 margem cortada: Cap. 2[?] (provavelmente 28); no texto, concupiscentiae[?] vetustate: a última letra está cortada",
+     "s7 margem: Lib. 1. de nupt. c. 18[?]",
+     "s8 margem: Cap. 19[?]",
+     "s9 margem: Lib. 2. cont. Iul. c. 4[?]",
+     "s12 margem quase apagada: Epist. [?]",
+     "s13 margem: Lib. 2. de nupt. c. 34[?]",
+     "s14 margem: Lib. 1. c. 33[?]",
+     "s11: asscribit (com ss duplo na impressão)"
+    ],
+    "duvidas": [
+     "s8: a impressão traz 'quod amissum est in parente'; o texto corrente de Agostinho (De nupt. 1,19) diz 'remissum'. Mantido no latim, com nota; possível erro de impressão.",
+     "s6: 'Nonne etsi Recentiores... solent, quod...' tem a construção truncada; foi traduzido como pergunta retórica, com nota.",
+     "Título: 'tradit' foi vertido por 'ensina', e não por 'transmitir' como pede a regra para tradere, porque aqui o sentido é 'ensina que'. A razão está em nota.",
+     "s1/s3: Epist. 105 está na numeração antiga; a identificação com a carta 194, a Sixto, está a conferir.",
+     "s12: a fonte da citação 'Proinde isti, quem forte invenerint infantem...' não foi identificada.",
+     "s6: aviso do validador para 'intellectu' (supino) em s11, explicado em @n."
+    ],
+    "catalogo": [
+     "Título como impresso: 'Declaratur tertio ex modo, quo Augustinus tradit peccatum ex parentibus justis propagari in prolem.' O catálogo traz 'Aug.' e 'iustis'.",
+     "Colunas reais: 215-218, começando no meio da col. 215 e terminando antes do Caput nonum, na col. 218. Batem com o catálogo."
+    ]
+   },
+   {
+    "id": "t2-nl1-09",
+    "commit": "9a27342e187cc09b9a81d653b24197d2a617058d",
+    "problema": "",
+    "catalogo": [
+     "Sem correção: título impresso 'Demonstratur quarto ex causa, cur Christi conceptio sine peccato fuerit.' (só a vírgula depois de causa, que entrou no cabeçalho do latim); colunas reais 217-220 (começa no meio da 217 e termina no meio da 220)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "s3: nota marginal 'Cap. 24[?]' (provavelmente De nupt. 1,24)",
+     "s4: 'Qui enim[?]': a segunda palavra está apagada no scan",
+     "s4: nota marginal 'Lib. 2. de nupt. c. 5[?]'",
+     "s5: nota marginal 'Lib. 2. c.[?] contra Iul.': número do capítulo ilegível"
+    ],
+    "duvidas": [
+     "s6: 'Hinc apparet' e o parêntese estão impressos em redondo, mas a infinitiva em itálico depende de apparet; não se sabe se é fala de Jansênio ou descuido da composição (fica em nota)",
+     "s6/s9: 'propaginem mali' foi vertido por 'linhagem do mal' (propago, mergulhão da videira), e não pelo termo do glossário propagatio",
+     "s4: 'Qui enim (diabolus concupiscentiam)': qui foi lido como relativo de ligação, e o parêntese de Jansênio foi repartido entre o sujeito e o objeto",
+     "s5: attraxit vertido por 'trouxe para si', distinto de traxit, 'contraiu'",
+     "Remissões a conferir: De nupt. 1,12,13; 1,24,27; 2,5; Contra Iul. 2 (capítulo?); 5,15; Ambrósio, Expositio in Lucam 2,56 (citado por Agostinho)",
+     "A nota 'Lib… Bonif.' na borda direita da p. 117 parece ser da página vizinha (col. 221) e não foi atribuída a este capítulo"
+    ]
+   },
+   {
+    "id": "t2-nl1-10",
+    "commit": "a2857b1",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Probatur quinto ex eo, quod istam Augustini mentem agnoverunt, et acerrime oppugnarunt Pelagiani.' (o catálogo abrevia 'Aug.' e 'Pelag.')",
+     "Colunas reais 219-222 (começa em 219A, após o fim do cap. 9; termina em 222C, antes do Caput XI): coincidem com o catálogo"
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "vitiare/vitiata: acrescentar 'vitiata', 'vitiatam' às formas de 'vitiatio' (pt 'viciada'), que voltam no livro I",
+     "propago (propaginem mali): sem entrada; decidir se fica 'rebento' ou 'propagação'"
+    ],
+    "leituras_incertas": [
+     "§7 margem col. 220 cortada: 'Lib. 2. de n[?] cap. 10.' (provavelmente De nuptiis 2)",
+     "§7 margem col. 220 cortada: 'Lib. 2. oper. imp. cit. [?] f. 269.'",
+     "§9 margem 'Lib. 4. cont. Iul. c. 11.' lida em parte pela borda da página vizinha",
+     "§13 'proijcit' (ij no meio da palavra, mantido)"
+    ],
+    "duvidas": [
+     "§4: sentido de 'Contumax cum cadentibus inclinaris' (citação de Juliano fora de contexto)",
+     "§7: 'malum naturaliter definisti': naturaliter vai com malum ou com definisti",
+     "§4 e §7: remissões ao Opus imperfectum por folha (f. 238, f. 269) de uma edição não identificada",
+     "§16: margem 'Lib. 1 de nupt. cap. 27' contra 1,25,28 das edições correntes para 'remittatur in reatu et maneat in actu'",
+     "§13: interpretação de 'et remissa est... et manet' (o reato perdoado, a lei permanece), posta em nota",
+     "§10: 'quia' integrante em 'quia nunc talis... non est'",
+     "§11: 'scena' vertido por 'cenário'"
+    ]
+   },
+   {
+    "id": "t2-nl1-11",
+    "commit": "38a8645",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso tem vírgula depois de 'ex eo': 'Astruitur sexto ex eo, quod tredecim libri Augustini alioquin funditus evertantur.'",
+     "Colunas 221-224 e páginas 118-119 conferem (começa no fim da p. 118, termina na p. 119)"
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "@s10 margem cortada: 'Ibid. c. 3[?]' (provavelmente De nupt. 1,35)",
+     "@s11 margem cortada: 'Lib. 1. co[?] Iul. c.[?]'",
+     "@s12 margem cortada: 'Lib. 6. con[?] Iul. c. ul[?]'"
+    ],
+    "duvidas": [
+     "Contagem dos 'tredecim libri' (2 De nuptiis + 6 Contra Iulianum + 5 do Opus imperfectum que Jansênio julga escritos?): inferência, a conferir",
+     "@s6 'quinque alios in sui defensionem edidit': sujeito tomado como Agostinho (Opus imperfectum conforme conhecido por Jansênio)",
+     "@s12 impressão traz 'puro quod perspicu', por 'puto quod perspicis'; traduzido pelo texto de Agostinho e a oração deslocada para o início do período",
+     "@s5 Retract. 2,62 em numeração antiga e a expressão 'tantum tamque elaboratum opus' a conferir",
+     "@s3 construção elíptica 'nullum alium scopum habet, quam... reprehendi': suprido 'mostrar'",
+     "@s4 'illa vicissim sex libris... Augustinus': elipse do verbo"
+    ]
+   },
+   {
+    "id": "t2-nl1-12",
+    "commit": "0546bfa",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso, por extenso (o catálogo abrevia Pelag. e Aug. e omite a vírgula antes de nisi): 'Ecclesiae de Pelagianis victoria esset vana, imo fallax, et falsa, nisi ista Augustini sententia fuerit vera.'",
+     "Colunas 225-228 confirmadas: o capítulo ocupa as páginas 120-121 do PDF inteiras e o cap. 13 começa no alto da col. 229 (p. 122)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Commixtio (sexuum): verti como 'união (dos sexos)', e nl4-05 traz 'união carnal'; talvez valha uma entrada para fixar a forma.",
+     "Nuptiae / conjugium / connubium: verti como 'núpcias' / 'matrimônio' / 'casamento' (connubii Sacramentum = 'sacramento do casamento'); falta entrada no glossário."
+    ],
+    "leituras_incertas": [
+     "Nenhum [?]. Leituras de detalhe: § 3, 'Unde' (impresso 'Vnd'' com borrão); § 12, 'Hac omnino concupiscentia' (ablativo, como impresso) seguido de 'trajicit' na forma ativa; § 20, 'fundatur' como impresso."
+    ],
+    "duvidas": [
+     "§ 3: o verso de Juliano 'Oblato placuit componi foedere bellum' parece adaptar Eneida 12,109 ('oblato gaudens…'); a conferir. As remissões das margens ao Contra Iulianum (3,1; 2, último cap.; 6,8) também estão a conferir.",
+     "§ 4: na carta de Próspero (ep. 225 entre as de Agostinho, a conferir), a construção 'omnium fatigationem … sperasse' é dura; a tradução ficou provisória.",
+     "§ 12: no fim da citação de De nuptiis 1, o sujeito de 'trajicit' é incerto, porque a citação foi cortada por etc.; conferir com o texto de Agostinho.",
+     "§§ 16-17: as margens 'f. 248' e 'f. 250' do Opus imperfectum se referem a folhas de uma edição que não identifiquei.",
+     "§ 1: a nota diz que o concílio de Mileve designou Agostinho contra os pelagianos; isso é afirmação de Jansênio e precisa ser conferido.",
+     "§ 6: a inserção de 'satis aperte fatebatur Augustinus' foi vertida entre travessões; verificar se a leitura está certa."
+    ]
+   },
+   {
+    "id": "t2-nl1-13",
+    "commit": "09e3545",
+    "problema": "",
+    "catalogo": [
+     "Título e colunas conferem com a impressão: 'Omnium antiquorum idem sensus usque ad aetatem Scholasticorum.', cols. 229-234 (pp. 122-124 do PDF; o cap. 14 começa no meio da col. 233-234, como o catálogo já indica)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "fomes (concupiscentiae fomitem, § 39): vertido 'foco' com nota; termo escolástico que deve voltar na obra; decidir entre 'fomes' e 'foco' e criar entrada.",
+     "traductio: acrescentar às formas tradux/traducem (§ 44), traducatur/traducunt/traduceretur.",
+     "habitus: acrescentar a forma habitualem (§ 51)."
+    ],
+    "leituras_incertas": [
+     "§ 27, margem col. 232: 'Phil[?] Abba[?] Epist. [?]' (cortada na encadernação)",
+     "§ 30, margem: 'Epist. [?]' (Bernardo)",
+     "§ 31, margem: 'In [?]'",
+     "§ 32, margem: 'Serm. [?] vigil. na[?]'",
+     "§ 33, margem: 'Hug[?] Vict. [?] annot. elucid.[?] in Epist. ad Rom. q. [?]'",
+     "§ 34, margem: 'In Summ. sent. tract. [?] c. 12'",
+     "§ 35, margem: 'Richar. [?] de Emman. [?] c. 10'",
+     "§ 37, margem: 'Ibid. c. [?]'",
+     "§ 23: 'decoloratae' (a impressão mostra 'decolorata,' com o sinal de ae pouco nítido)",
+     "§ 5, margem: 'f. 393' (pode ser 'c.')"
+    ],
+    "duvidas": [
+     "§ 4: 'a peccato, scilicet Adam parente, deducta': o scilicet identifica o pecado com Adão; pode ser glosa dentro da citação de Hilário.",
+     "§ 11: 'Vi humani seminis cessante contagio': ordem ambígua (vi dependente de contagio, ou ablativo de meio).",
+     "§ 13: construção de 'per incentivum maledictae generationis ardorem'.",
+     "§ 18: 'scilicet concupiscentiae' está em itálico, mas parece glosa de Jansênio.",
+     "§ 25: imagem elíptica de Beda ('sicut terra purgatum semen a paleis'); 'recebe' foi suprido, com nota.",
+     "§ 39: sujeito de 'seminare potuit' (Ricardo de São Vítor).",
+     "§ 51: 'Nec esse inconveniens…' está em itálico, mas em discurso indireto (paráfrase de Jansênio).",
+     "Remissões não conferidas: Orígenes in Rom.; C. Iul. 1,3,8-9; 1,4; 2,6,15; De nupt. 1,35,40; Op. imp. 2; Leão sermões 4-5 de nativ. (numeração antiga); Crisólogo serm. 111; Fausto De gratia 1,2; Fulgêncio De incarn. c. 13; Gelásio ep. 8; Beda Quaestiones q. 14; Remígio in Ps 50; Filipe de Harvengt; Bernardo ep. 174 e outros; Hugo e Summa sententiarum; Ricardo De Emmanuele 2; Inocêncio III in Ps 50; Urbano IV paráfrase do Ps 50; Tomás De malo q.4 a.2 ad 11, a.6 ad 7 e ad 16; De pecc. mer. 1,9,10."
+    ]
+   },
+   {
+    "id": "t2-nl1-14",
+    "commit": "a89e519",
+    "problema": "",
+    "catalogo": [
+     "Título e colunas conferem com a impressão: 233-238. O capítulo começa em 233A, no pé da página, e termina em 238A, antes do Caput XV.",
+     "No catálogo, o livro aparece como 'De statu naturae lapsae, liber I'. No cabeçalho latino usei 'De statu naturae lapsae liber primus', como nos capítulos anteriores do livro."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "similitudo (lema 'similitudo virtutis', fixado como 'imitação'): a forma 'similitudinem' aparece aqui no sentido paulino de Rm 6,5, a semelhança do batizado com a morte de Cristo. Verti 'semelhança' e expliquei em @n. Talvez convenha tirar 'similitudinem' das formas da entrada ou separar os dois sentidos."
+    ],
+    "leituras_incertas": [
+     "234A 'cui repugnanti[?]': a última sílaba está mal impressa (Contra Iulianum 5,12).",
+     "235D margem cortada na encadernação: 'Lib. 2. op[?] imperf. con[?] Iul. f. [?]'.",
+     "236A margem cortada: 'Fol. [?]', fólio ilegível.",
+     "235B margem 'Lib. 5. cont. Iul. c. 21.': a cifra do livro é ambígua (3 ou 5). O texto diz 'libro quinto', então li 5.",
+     "235A 'definifinitione': a impressão repete a sílaba na quebra de linha. Normalizei para 'definitione' e registrei em @n."
+    ],
+    "duvidas": [
+     "235C, citação 'Ex isto, et cum isto hominis male nascitur homo': o impresso traz 'male', provavelmente por 'malo'. Traduzi o que está impresso, com nota. Falta conferir no Contra Iulianum 6,8.",
+     "235C 'concupiscentiam carnalis mortis non inferre post mortem': falta conferir no original, talvez seja 'carnis'.",
+     "234A: a citação de Contra Iulianum 5,12 não tem sujeito expresso em 'nascatur'. Verti com o impessoal 'se nasce'.",
+     "236B: construção irregular 'longe maiori, quam… sed tanquam… certitudine'. Desdobrei a frase com dois-pontos.",
+     "236C 'concupiscentiis ejus' (Rm 6,12): Jansênio parece referir o 'ejus' ao pecado, e a Vulgata o refere ao corpo. Está em nota.",
+     "Título: 'sententia Ecclesiae' foi vertida 'sentença da Igreja'. No corpo, 'sententia' ficou 'tese', como nos capítulos anteriores.",
+     "Não conferi as remissões: Contra Iulianum 5,12; 5,21; 5,22; 5 c. ult.; 6,8; 6 c. ult.; Opus imperfectum 2, por fólio. O lugar de Gregório de Rímini (provavelmente In II Sent. d. 30-31) também fica a conferir."
+    ]
+   },
+   {
+    "id": "t2-nl1-15",
+    "commit": "74c3664",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Opponitur tantae certitudini fluctuatio Augustin[i] usque ad mortem, et ex ipso Augustino solvitur.' O catálogo traz as formas abreviadas do índice ('Aug.', 'August.', 'soluitur'). A impressão traz 'Augustin', sem a última letra, no fim da linha; transcrevi 'Augustini'.",
+     "As colunas 237-244 estão certas: o capítulo começa no meio da coluna 237 (pág. 126 do PDF) e termina em 244A (pág. 129), antes do Caput XVI."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Criar a entrada 'inquinatio' (formas: inquinatio, inquinationis, inquinationem, inquinatione; verbo inquinare) com 'contaminação' / 'contaminar'. O termo volta no cap. 16 e nos seguintes, sobre o modo de transfusão. Não a criei: um hook do ambiente bloqueia o Read do glossario.json, e sem ele o Edit não funciona. 'Contaminatio' (s16) também ficou como 'contaminação', com nota.",
+     "Avaliar uma forma fixa para 'fluctuatio' / 'fluctuare'. Neste capítulo usei 'vacilação' / 'vacilar'."
+    ],
+    "leituras_incertas": [
+     "s21: 'Vidit[?] quippe iuveni senilis nostra cunctatio': a impressão está borrada (lê-se algo como 'Vilit'); o sentido pede displicuit ou um verbo parecido. Conferir em De anima et eius origine.",
+     "s36: 'exorbitantes[?]': a impressão parece trazer 'exerbitantes'.",
+     "s20, margem cortada na encadernação: 'Lib. 2. [?] orig. an[?] cap. 1[?]'.",
+     "s22, margem cortada: 'Lib. 4. [?] orig. [?] cap. [?]'.",
+     "s24, margem cortada: 'Epist. [?] apud A[?] et lib. [?] pecc. mer. cap. 3.'"
+    ],
+    "duvidas": [
+     "s13: o texto diz 'Epistola centesima vigesima septima', mas a margem diz 'Epist. 157. ad Optat.' (= Ep. 190 dos Maurinos, a conferir). O número do texto parece erro.",
+     "s3: 'miritis' (por meritis) e s25: 'mixtum' (por mixtam) ficaram como impressos, com nota.",
+     "s19: a frase 'nihil horum quatuor esse dicat' deve ser conferida no texto de Agostinho (De anima et eius origine 1,13).",
+     "s20: o sentido de 'carni consortio peccatricis' e o corte da citação com 'etc.' ('maluit' tem por sujeito Vicente Vítor) precisam de conferência.",
+     "Remissões que faltam conferir: Ep. 28 antiga (= Ep. 166) a Jerônimo; sermão 14 de verbis Apostoli; De moribus Ecclesiae 1,22; De pecc. mer. 3,4 e 3,3; De anima et eius origine 1,13, 2 e 4; De Gen. ad litt. 10,11; Vázquez, In 1-2, disp. 132, c. 3; Belarmino, De statu peccati 4,12.",
+     "s15: o período longo de Agostinho foi refeito, e 'até lá' foi repetido para recuperar o 'donec'. s26: as interrogativas 'Quam multi...?' foram vertidas como exclamações.",
+     "No título, 'a objeção se resolve' acrescenta o sujeito, que no latim fica subentendido; vai explicado em nota."
+    ]
+   },
+   {
+    "id": "t2-nl1-16",
+    "commit": "bc88188e3d2fb631ff2ea64e775b9e2b9b76b62f",
+    "problema": "Um hook PreToolUse (RBSA, \"escopo de matéria ausente\") bloqueou a leitura de glossario.json com Read, e por isso o Edit não pôde rodar. Não acrescentei nenhuma entrada ao glossário: a entrada contagium vai como proposta. Validar e build rodaram sem erro e sem aviso do capítulo.",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Entrada nova contagium/contagio (formas contagium, contagii, contagio, contagia, contagione) -> 'contágio'. Já é a forma usada em nl1-04, 07, 09 e 12 e é central em nl1-16 §§ 20-24. Não foi incluída porque o hook bloqueou a leitura do glossário.",
+     "Possível entrada pactum -> 'pacto' (pactum Dei com Adão, a tese dos modernos combatida em nl1-05 a 16), já usada de modo uniforme."
+    ],
+    "leituras_incertas": [
+     "§ 6 (244A), margem: 'Lib. 1. de nupt. c. [?]'. O número do capítulo está cortado na encadernação; a passagem deve ser De nupt. et conc. 1,19,21.",
+     "§ 18 (246A), margem: 'e Lib. 4. c. 1.'. O último algarismo está pouco nítido.",
+     "Nota marginal 'In ... nup... g...' na borda direita da p. 129: é a margem de 245C ('In Serm. de nupt. filii regis in appen.') vista pela página vizinha; não foi duplicada."
+    ],
+    "duvidas": [
+     "§ 9: 'facilius subverti possit, ac strui'. Lido como 'mais facilmente derrubado do que erguido' (ac = quam); a alternativa está em nota.",
+     "§ 15: a impressão tem 'quaeque naturam tam profunde sauciavit'. A construção é dura e foi traduzida como coordenada.",
+     "§ 3: 'non perturbant' no plural sem sujeito expresso; traduzido por 'isso'.",
+     "§ 8: a citação de Agostinho ('Nisi sermonis longitudine...') não traz remissão na margem; o lugar fica a conferir.",
+     "§ 24: Ambrósio citado como 'corpore peccatum prolapsionis'; o texto de Agostinho parece ter 'corporeae'. A conferir.",
+     "§ 6: 'ut trahatur' na citação de De nupt. 1,19 (o texto corrente tem 'trahitur'); pode ser adaptação de Jansênio.",
+     "§ 23: sujeito de 'deputat' na citação do Contra Iulianum 5 a conferir no contexto. A margem 'Lib. 6. cont. Iul. c. 18' fica ao lado da frase sobre os livros a Bonifácio.",
+     "Seções: as letras A-D da calha de cada página foram aplicadas às duas colunas (243A/B, 244A/B, 245A-D, 246A-C), como nos capítulos anteriores."
+    ],
+    "catalogo": [
+     "Título como impresso: 'Difficultas non debet terrere Theologos Catholicos a tuenda Augustini sententia. Declaratur traductionem peccati fieri juxta mentem ejus non ex pacto, sed ex natura rei.' A impressão tem 'juxta' e 'ejus'; o catálogo tem 'iuxta' e 'eius'.",
+     "Colunas reais: 243-246 (começa no meio da col. 243 e termina no fim da 246), o que confere com o catálogo."
+    ]
+   },
+   {
+    "id": "t2-nl1-17",
+    "commit": "0c52be5",
+    "problema": "O hook PreToolUse:Read bloqueou a leitura de obras/jansenius-augustinus/glossario.json (pedia um escopo de matéria RBSA) e proibiu contornar o bloqueio. Por isso o glossário não foi editado e as entradas novas vão como propostas. O commit 0c52be5 está em origin/main. O validar.mjs não dá nenhum aviso para t2-nl1-17 e o build.mjs passou sem erro na segunda execução (a primeira falhou por arquivos de outras sessões).",
+    "catalogo": [
+     "Título como impresso: 'Idem ostenditur uberius, et a radicibus.' (confere com o catálogo).",
+     "Colunas reais: 247-250. O capítulo começa no alto da col. 247 (p. 131 do PDF) e termina no alto da col. 250 (p. 132), antes do Caput XVIII, que começa na col. 249. O catálogo está certo."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Entrada nova contagium (contagium, contagio, contagia, contagii, contagiis, contagione) para 'contágio', forma já usada em t2-nl1-13 e t2-nl2-09; volta nos caps. 16 a 18. Não foi criada porque o hook bloqueou o arquivo.",
+     "Entrada nova effrenitas (effrenitas, effrenitatem, effrenitate, effrenitatis) para 'desenfreio': o lado negativo da concupiscência, que volta no cap. 18.",
+     "Entrada nova appetitus sensitivus (com as flexões e a ordem inversa sensitivi appetitus) para 'apetite sensitivo', forma já usada em vários capítulos.",
+     "Considerar 'qualidade afetiva' para affectionalis qualitas (Contra Iulianum 6), que volta no cap. 18."
+    ],
+    "leituras_incertas": [
+     "§ 9 (col. 248A, citação do Contra Iulianum 6,18): 'et qua[?] fuit ibi'. A impressão parece ter qua; o sentido pede quae.",
+     "§ 11 (margem da col. 248A): 'Lib. 5. c[?]'. O número do capítulo foi cortado na encadernação.",
+     "§ 11: 'ad prolem Cum vero' está sem ponto na impressão; mantido assim.",
+     "§ 4: 'de castis coniugibus'. A palavra parece 'castu' na impressão; transcrita castis pelo sentido, sem [?].",
+     "§ 2: 'poenitius', assim na impressão, por penitius."
+    ],
+    "duvidas": [
+     "§ 3: em 'totumque animum in se deiectum', o ânimo está prostrado na concupiscência ou rebaixado a ela?",
+     "§ 4: 'non potest nisi reatu tenere hominem' foi vertido como 'não pode deixar de prender o homem com o reato'.",
+     "§ 8: 'affectionalis qualitas' foi vertido como 'qualidade afetiva'; 'concupiscentiae affectu' como 'pelo afeto da concupiscência', o que perde o parentesco com afficiendo.",
+     "§ 9: 'fidelius commendaret' foi vertido como 'inculcar mais fielmente'; 'sed alia eiusdem generis' é frase sem verbo.",
+     "§ 16: 'peracta causa est' foi vertido como 'a causa está ganha'; a nota diz 'a causa está encerrada'.",
+     "§ 18: a segunda parte da comparação não tem verbo próprio; spiritu foi entendido como os espíritos da fisiologia antiga.",
+     "Remissões a conferir: De peccatorum meritis 1,29; Contra Iulianum 5 (capítulo cortado), 6,18 e 6,19."
+    ]
+   },
+   {
+    "id": "t2-nl1-18",
+    "commit": "4f24b1db67921d80f6afa96d4df7dbde378d3a98",
+    "problema": "Não pude acrescentar entradas ao glossário: o hook PreToolUse bloqueia a ferramenta Read em glossario.json (\"escopo de matéria ausente\"), então o Edit fica impossível. Não contornei o bloqueio. Os termos novos foram para as propostas. O validador dá 2 avisos em t2-nl1-18 (s20 e s30, \"intellectus\"). Nos dois casos a palavra é o supino *intellectu* (\"de entender\"), e uma @n no trecho explica isso. Validação e build terminaram sem erro. Também empurrei 3 commits locais de outros agentes que já estavam na frente da origin/main.",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada: affectionalis qualitas (affectionalis qualitas, affectionalem qualitatem, affectionales qualitates, affectionalibus qualitatibus) -> 'qualidade afetiva'. É o termo de Juliano e Agostinho para a qualidade estável, oposta à affectio passageira, e deve voltar nos capítulos sobre a concupiscência. Não ficou no glossário porque a ferramenta foi bloqueada.",
+     "Nova entrada: effrenitas (effrenitas, effrenitatem; adjetivo effrenis, effrene) -> 'desenfreio' ('desenfreado'), a tese do cap. 17 que o cap. 18 discute.",
+     "Nova entrada: affectio (affectio, affectionem, affectiones, affectionibus) -> 'afecção', já usada nos capítulos anteriores e distinta de affectus, 'afeto'.",
+     "Nova entrada possível: consuetudo carnalis -> 'costume carnal', coerente com consuetudo -> 'costume'."
+    ],
+    "leituras_incertas": [
+     "s10 (251A): 'sed mala[?] consuetudinis roborata'. A impressão parece trazer 'mala', e o texto corrente de Agostinho (Ad Simpl. 1,1) tem 'mole consuetudinis'. Traduzi 'pelo peso do costume'.",
+     "s12 (251A), margem: 'Lib. 2[?]. cont. Iul. c. 3.', com a cifra do livro mal impressa.",
+     "s20 (252A): 'in subsidium[?]', palavra muito apagada.",
+     "s23 (252C), margem: 'Vide art. 3[?]. ibid.'; pode ser 'ad 3'.",
+     "s25 (253A), margem: 'Vrigers[?] in istum D. Th. locum'; a primeira palavra não se lê (talvez um comentador, ou 'Interpretes').",
+     "s6 (250A): li 'quasi secunda natura' (s longo), embora a impressão pareça 'fecunda'.",
+     "s9 (250B): 'hoc est; ex poena', com 'est' entre sinais tipográficos dúbios."
+    ],
+    "duvidas": [
+     "Epist. 89 (a Hilário) e Epist. 95 estão em numeração antiga. Pela dos Maurinos seriam provavelmente 157 e 177; a conferir.",
+     "s4: 'interno sensui convenire non possint' foi mantido como está impresso. O argumento seguinte (s18) parece falar do sentido interno; convém conferir o sentido.",
+     "s13: 'opposita consuetudine aut habitu decrescente atque crescente, decrescit et crescit' tem ordem paralela, mas o sentido é cruzado; vai em nota.",
+     "s19: 'ex majoribus orta causis' foi entendido como o pecado de Adão; leitura provável.",
+     "s26: 'privatio charitatis ejus' foi entendido como genitivo objetivo ('caridade para com Deus').",
+     "s27/s28: o período longo foi dividido entre dois trechos, como na impressão ('Unde Medici audent...: nihil fortasse...').",
+     "Remissões a conferir: De nupt. et conc. 1,25 e 1,31; C. Iul. 6,18, 6,14, 6,16, 4,3 e 2,3; De doctr. christ. 1,24; Ad Simpl. 1,1; De div. qq. 83, q. 70; De pecc. mer. 1,16; ST I-II q. 82 a. 1 ad 1 e ad 3; Caetano in I-II q. 82 a. 1."
+    ],
+    "catalogo": [
+     "O título e as colunas 249-254 batem com a impressão. O capítulo começa no meio da col. 249 (p. 132 do PDF) e termina no fim da col. 254 (p. 134). Nada a corrigir."
+    ]
+   },
+   {
+    "id": "t2-nl1-19",
+    "commit": "02b9221",
+    "problema": "I did not edit glossario.json. A PreToolUse hook (RBSA context gateway, 'escopo de matéria ausente') blocks Read on the file, so the Edit the brief requires is impossible, and the hook forbids reading it any other way. The new terms are listed under propostas_glossario.",
+    "catalogo": [
+     "Title as printed: 'Explicatur modus primus, quo intelligi posset, peccatum originis libidine propagari.' (the print has a comma after posset). Printed heading: Caput XIX.",
+     "Columns confirmed as 255-258. The chapter starts at the top of col. 255 and ends at col. 258C; Caput XX starts in the lower half of cols. 257-258.",
+     "The catalogue's livro ('De statu naturae lapsae, liber I') differs from the headers of the existing chapters ('De statu naturae lapsae liber primus'). I followed the chapters."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "New entry affectio -> 'afecção' (affectio, affectione, affectiones, affectionibus), kept distinct from affectus 'afeto'. Used throughout this chapter and it recurs.",
+     "New entry phantasia -> 'fantasia' (phantasia, phantasiam): the image the senses form in the soul (spiritus seu phantasia).",
+     "Possible entries imaginatio -> 'imaginação' and contagium/contagio -> 'contágio'. t2-nl1-16 already cites 'contágio' as if it were in the glossary, but there is no such entry."
+    ],
+    "leituras_incertas": [
+     "256B: the right-hand margin is cut by the binding. The notes keyed a-g are only partly legible: Avicenna, Pliny (Hist. c. 12), Plutarch (5 de plac. c. 12), Aristotle (10 probl. 12), Galen (de Ther. ad Pison.), Hippocrates (de superfoetat.), Augustine (de Civit. c. 25 & cont. Iul. c. 14). All are marked [?].",
+     "256B: the margin 'Lib. 11. de Trinit. c.[?]' has its chapter number cut off.",
+     "255C: the print reads 'ex Forano' (transcribed as printed). It is probably a misprint for Sorano; there is a note."
+    ],
+    "duvidas": [
+     "s4 (De Trin. 11,2,5): I read 'aliorum animalium ... corpulentia' with 'libidines matrum' as the subject of produnt. Augustine's text needs checking.",
+     "s6: Jansenius's own conjecture '(forte, transeunte)' inside the quotation is explained in a note.",
+     "s17: cupiditas is used here in its ordinary sense (a craving for food), so it is translated 'desejo' with a note. This is the cause of the validator warning.",
+     "s21: anacoluthon. 'foedissimus ille status' is nominative while affricent is plural, with conjuges as subject. I translated it as 'por aquele estado ... os cônjuges passam por contato'.",
+     "s16: Heroina is translated 'dama ilustre'. The margin cites Thomas Erastus, De occultis pharmacorum potestatibus (needs checking).",
+     "s23: the antecedent of 'medullis eorum' (masculine plural) is uncertain.",
+     "References not checked: C. Iul. 5,14 and 6,18; De Trin. 11,2,5; De civ. Dei 12,25."
+    ]
+   },
+   {
+    "id": "t2-nl1-20",
+    "commit": "99b3ba9",
+    "problema": "",
+    "catalogo": [
+     "Título e colunas conferem: Caput XX, 'Declaratur secundus modus propagationis peccati originalis per libidinem.', cols. 257-264 (começa na col. 257 abaixo do fim do cap. 19, termina no fim da col. 264)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "libido actualis / libido habitualis: oposição central do capítulo, vertida 'libido atual' / 'libido habitual'; talvez valha entrada própria.",
+     "semen: o uso corrente nos capítulos é 'sêmen' (geração humana) e 'semente' (plantas, ou princípio geral da geração em Juliano); sem entrada no glossário, pode valer fixar."
+    ],
+    "leituras_incertas": [
+     "260A margem: Lib. 6. co[nt.] Iul. c. 2[?] (cortada na encadernação)",
+     "260A margem: Ibid. c. [?]",
+     "260A margem: Lib. 1[?] op. imperf. fol. 3[?]",
+     "260B margens: Lib. [?] Iul. c. [?]; Ibid. c. [?]",
+     "260A texto: nondum[?] (impresso parece 'pondum')",
+     "260A texto: Qua[?] (provavelmente por Quae), 'Qua[?], malum, ratio est'",
+     "261B margem: Lib. 2. oper. imp. f. 38[?]",
+     "264A margem: Lib. 2[?] de nupt. c. [?]"
+    ],
+    "duvidas": [
+     "263A: a impressão traz 'imputari'; mantido no latim e traduzido como 'amputari' (amputada), com nota.",
+     "Versaletes (262B 'ut crederemus... iam non est'; 262C 'de semine'; 263A 'Quod nisi esset in semine... perveniret') transcritos sem marca e tratados como ênfase em nota; no último caso, não está claro se ainda são palavras de Agostinho ou de Jansênio.",
+     "260C: 'libido naturae ingenita semina vitiavit': há duas construções possíveis (libido inata à natureza / sementes inatas à natureza); adotada a primeira, com nota.",
+     "261C: 'Ex quo Adam ex olea tali...': 'ex quo' lido como 'desde que' (temporal); pode ser causal.",
+     "262C: o § 33 termina em vírgula e o verbo principal vem no parágrafo seguinte ('Tertia similitudine... facit'); a tradução mantém a frase partida, com nota.",
+     "Todas as remissões marginais ficaram 'a conferir' (numeração de capítulos antiga; o Opus imperfectum é citado por fólio)."
+    ]
+   },
+   {
+    "id": "t2-nl1-21",
+    "commit": "b1cd08f",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Excitantur quatuor difficultates; quid qualitatem illam produxerit in Adamo; quid illa in semine; quid semen in carne prolis, quid caro in spiritu ejus: et solvitur prima.' (o catálogo traz 'spiritus eius' e 'soluitur')",
+     "Colunas reais 265-270 (conferem com o catálogo); o capítulo termina no alto da col. 270, antes do Caput XXII"
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "268A, margem cortada na encadernação: 'Lib. 1. [?] imperf.[?]' (provavelmente Opus imperfectum contra Iulianum 1,105)",
+     "268A, margem cortada: 'Lib. [?] Civ.[?]' (provavelmente De civitate Dei 14,12)",
+     "268B/C, margem cortada: 'Lib. 1[?] Gen.[?]' (provavelmente De Genesi ad litteram 11,5)"
+    ],
+    "duvidas": [
+     "270A, 'Illa enim concupiscentia totam speciem; haec individuum mutant': li 'illa' como o primeiro pecado e 'concupiscentia' como ablativo; também é possível lê-los como nominativos ('aquela concupiscência'). Está em nota",
+     "266B, 'statuit' no singular, com as duas opiniões como sujeito; 268C, 'transfundantur' no plural com 'peccatum': os dois ficaram como estão na impressão e têm nota",
+     "268A: Jansênio corta Civ. 14,12 em 'ut tantae corruptioni etc.' e o verbo fica no trecho omitido; a tradução mantém o corte",
+     "Lugares sem remissão na margem, a conferir: Gregório de Rimini (265B); santo Tomás, hábito corrompido (provavelmente I-II q. 82 a. 1) e 'in Summa' (provavelmente I-II q. 81 a. 2)",
+     "265A, 'aqua haesit': traduzido como 'ficaram atolados', com nota sobre o provérbio; 'privatum bonum' traduzido como 'bem privado'; 'imperat/elicit' traduzidos como 'impera/elicia'"
+    ]
+   },
+   {
+    "id": "t2-nl1-22",
+    "commit": "e0487fa",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Secunda ac tertia difficultas solvitur.' (o catálogo traz 'Secundae ac tertia difficultas soluitur.')",
+     "Colunas reais: 269-272 (começa no meio da 269/270 e termina no alto da 271/272), conforme o catálogo"
+    ],
+    "duvidas": [
+     "§ 2: 'moleste fuerunt' na impressão, provável erro por 'moleste tulerunt/ferunt'; traduzido 'levaram a mal', com nota",
+     "§ 2: quais são as 'quatuor supradictis sententiis' (capítulos anteriores, a conferir)",
+     "§ 4: sujeito de 'possideat' (a carne, retomada por 'ipsa', ou a qualidade, com 'ipsa voluntate')",
+     "§ 7: 'morbidus carnis affectus' vertido 'afeto', fora do sentido fixado no glossário (explicado em nota)",
+     "§ 10: 'anima' em redondo dentro da citação do De continentia 8; inserção de Jansênio a conferir",
+     "Remissões a conferir: De nuptiis et concupiscentia 1,30 (parágrafo); De continentia 8 (parágrafo)",
+     "§ 1: 'specierum turbatione' vertido 'perturbação das espécies' (imagens da fantasia), com nota"
+    ],
+    "glossario_novas": [],
+    "leituras_incertas": [],
+    "propostas_glossario": []
+   },
+   {
+    "id": "t2-nl1-23",
+    "commit": "3eeaace",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Solvitur quarta difficultas supra proposita. Modus inquinationis animae ex carne peccati.' (o catálogo tem 'Soluitur'). Colunas reais 271-282 (começa em 271A, após o título no meio da p. 143; termina em 282B, antes de FINIS e do livro II), conferem com o catálogo."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada sugerida (não criada: o hook do ambiente bloqueou a leitura do glossario.json pela ferramenta Read, necessária para o Edit): inquinatio (inquinatio, inquinationis, inquinationem, inquinatione) -> 'contaminação' (verbo inquinare -> 'contaminar'), como já no cap. 15; contaminatio e coinquinari também vertidos por 'contaminação'/'ser contaminado' no § 28, com nota.",
+     "Possível entrada para polluere/pollutio -> 'poluir'/'poluição', distinta de inquinatio; num capítulo anterior polluti (Cid. de Deus 10,22) foi traduzido por 'contaminados', e aqui por 'poluídos', com nota.",
+     "Possível entrada para aggravatio/gravare -> 'agravamento'/'agravar' (no sentido de sobrecarregar com peso) e affectio -> 'afecção' (distinta de affectus)."
+    ],
+    "leituras_incertas": [
+     "272A @m 'Lib. 2. [?] imperf.' (margem cortada; Opus imperfectum, livro incerto)",
+     "272A @m 'Lib. 5. c. Iul. c. 4. [?]' (margem cortada)",
+     "273A @m 'Lib. 1. de anim. orig. c. 8. [?]' (abreviatura borrada)",
+     "276A @m 'Epist. 99. [?]' (margem cortada; numeração antiga, Ep. 164?)",
+     "276B @m 'Lib. 1. [?] Maxim.' (margem cortada)",
+     "276C @m 'Lib. 1. de nupt. c. [?]' (capítulo ilegível)",
+     "276D @m 'Lib. [?] Secundin.' (margem cortada)",
+     "280B @m 'Epist. [?]' (número ilegível)",
+     "280B 'se monstrare [?]' (letras apagadas na impressão)",
+     "278D 'per secutam' (impresso per-secutam na quebra de linha; lido como duas palavras)"
+    ],
+    "duvidas": [
+     "Paráfrase do Sl 50 atribuída a Urbano IV (§ 8): atribuição e texto a conferir.",
+     "Margens com numeração antiga e folhas de edição (Op. imp. 'f. 433', 'f. 393'; De pecc. mer. c. 34, 38, 29; Gen. ad litt. 10,14 e 10,16; De duab. an. c. 11): todos a conferir.",
+     "§ 1-2 e 42: aversio a Deo vertido por 'afastamento de Deus' (não 'aversão a Deus'), seguindo uso de capítulos anteriores.",
+     "§ 20, 34, 47: sapere secundum spiritum vertido por 'saborear'/'ter o gosto', com nota sobre o duplo sentido.",
+     "§ 33: 'ex aliquo pacto' entendido como a teoria do pacto de Deus com Adão (cap. 15); 'multis' ligado a 'saeculis'.",
+     "§ 41: 'lapsus est' no masculino com sujeito anima rationalis; § 58: antecedente de 'ipsa' (provavelmente a vontade do primeiro pai).",
+     "§ 34: série de infinitivos retomada por 'tudo isso'; § 25: 'adjicitur' vertido por 'acrescenta-se' (comunicação das propriedades).",
+     "§ 23: De spiritu et anima, pseudo-agostiniano; atribuição moderna a conferir.",
+     "§ 56: Tomás, habitus corruptus (S. Th. I-II q. 82 a. 1) e § 40 eco de Confissões 1,18,29, a conferir.",
+     "Build: o _site compartilhado falhou por corrida (ENOTEMPTY com outros agentes); build completo rodado sem erro num diretório próprio. O validador não acusa nada deste capítulo."
+    ]
+   }
+  ],
+  "faltando": [],
+  "audit": {
+   "livro": "De statu naturae lapsae, liber I (t2-nl1-01 a t2-nl1-23)",
+   "commit": "dde6ebd",
+   "correcoes": [
+    "t2-nl1-23 s54: 'o desenfreamento das potências' corrigido para 'o desenfreio das potências' (effrenitas, glossário 'desenfreio'; o mesmo termo está nos caps. 17, 18 e 21).",
+    "t2-nl1-23 s56: 'o desenfreamento e a desordem das potências' corrigido para 'o desenfreio e a desordem das potências' (effrenitas)."
+   ],
+   "observacoes": [
+    "Método: contei, trecho a trecho, as formas latinas de cada lema do glossário (42 lemas aparecem no livro, p. ex. concupiscentia 351 vezes, reatus 136, libido 123, propagatio 66) e as versões fixadas no pt. Só ficaram abaixo da contagem os trechos que o validador já aponta. Nenhum deles é divergência sem justificativa, exceto os dois do cap. 23.",
+    "Os avisos que restam no livro têm nota que os justifica e ficaram como estão: t2-nl1-01 s26 (verbi gratia, 'por exemplo'); t2-nl1-02 s3, t2-nl1-05 s5, t2-nl1-08 s11, t2-nl1-18 s20 e s30 (intellectu/intellectum é supino ou particípio, não a faculdade); t2-nl1-06 s20 (habitu, 'condição'); t2-nl1-18 s19 ('qualidade positiva e afetiva', a nota remete a 'qualidade afetiva'); t2-nl1-19 s17 (cupiditas no sentido comum de desejo de comida). O falso positivo de Pelagiani em t2-nl1-08 s11 e t2-nl1-13 s13 vem de 'Semi-Pelagianos', vertido 'semipelagianos', o que está correto.",
+    "O commit dde6ebd tem só as duas linhas corrigidas do pt/t2-nl1-23.md. Montei o índice a partir do HEAD porque outro agente tinha alterações do mesmo arquivo ainda não commitadas, da revisão do cap. 23. Essas alterações (e as de la/t2-nl1-23.md, glossario.json e t2-nl2-01) continuam na árvore de trabalho, intactas. Se esse agente gravar por cima com uma cópia antiga, a correção pode se perder: vale conferir.",
+    "Push feito (main = origin/main = dde6ebd). validar.mjs: 0 erros. build.mjs: saiu com código 0. Não mexi no glossário, no latim nem em docs/.",
+    "Várias propostas dos relatórios já viraram entradas do glossário durante o livro: libido, cupiditas ('cupidez'), peccatum originale, reatus, ratio voluntarii, traductio, transfusio, propagatio, vitiatio, vetustas, delectatio ('deleite'; não sobrou nenhum 'deleitação' no livro), effrenitas, affectionalis qualitas e affectus."
+   ],
+   "propostas_glossario": [
+    "inquinatio / inquinare -> 'contaminação' / 'contaminar' (formas inquinatio, inquinationis, inquinationem, inquinatione, inquinata, inquinatus, inquinatum; cerca de 20 ocorrências). Usado em t2-nl1-15 e t2-nl1-23 (§ 28, junto com contaminatio e coinquinari, com nota). Pedido dos caps. 15 e 23.",
+    "contagium / contagio -> 'contágio' (formas contagium, contagii, contagio, contagia, contagione, contagiis; 45 ocorrências). Já é uniforme em t2-nl1-04, 07, 09, 12, 13, 16, 17, 18, 19, 20 e 23. O cap. 16 cita 'contágio' como se fosse do glossário, mas a entrada não existe. Pedido dos caps. 16, 17 e 19.",
+    "pollutio / polluere: decidir entre 'poluição/poluir' e 'contaminação/contaminar'. Hoje está dividido: t2-nl1-01 usa 'contaminados/contaminação' (proposta do cap. 1, que quer evitar o sentido físico), e t2-nl1-03, 13, 15 e 23 usam 'poluir/poluído' (no § 8 do cap. 23, com nota). Se ficar 'contaminação', choca com a proposta para inquinatio. Cerca de 25 ocorrências no livro.",
+    "aversio (/ conversio) -> 'afastamento' ou 'aversão' (aversio, aversionem, aversione; 20 ocorrências). Está dividido: 'aversão' em t2-nl1-01 (4 vezes), t2-nl1-18 (2) e t2-nl1-23 (1); 'afastamento' em t2-nl1-03 (13) e t2-nl1-23 (7). O cap. 23 usa as duas formas. Conversio -> 'conversão' (pedido do cap. 3).",
+    "affectio -> 'afecção' (affectio, affectione, affectionem, affectiones, affectionibus; cerca de 20 ocorrências), distinto de affectus 'afeto'. Já é uniforme em t2-nl1-18, 19, 22 e 23. Pedido dos caps. 18, 19 e 23.",
+    "fomes (concupiscentiae fomitem, t2-nl1-13 § 39) -> 'fomes' ou 'foco': o cap. 13 verteu 'foco', com nota. É termo escolástico que deve voltar na obra.",
+    "semen -> 'sêmen' (geração humana) / 'semente' (plantas, ou princípio geral da geração em Juliano). São mais de 120 ocorrências, sobretudo em t2-nl1-20. O uso já segue essa regra, mas falta entrada (cap. 20).",
+    "libido actualis / libido habitualis -> 'libido atual' / 'libido habitual' (oposição central de t2-nl1-20). Ligados a isso: peccatum habituale / culpa habitualis -> 'pecado habitual' / 'culpa habitual' (cap. 1), e a forma habitualem, que falta em habitus (t2-nl1-13 § 51).",
+    "peccatum originale: acrescentar a variante peccatum originis / peccati originis -> 'pecado de origem' (12 ocorrências de originis; t2-nl1-04 s17).",
+    "traductio: acrescentar as formas tradux, traducem (t2-nl1-13 § 44), traducatur, traducunt, traduci, traducuntur, traduceretur, traducitur. Registrar ainda a coincidência com transmittere em sentido comum ('transmittat in filios', t2-nl1-06 § 15), que hoje também vira 'transmitir' (caps. 6 e 13).",
+    "vitiatio: acrescentar vitiata, vitiatam (pt 'viciada'), que voltam no livro I (cap. 10).",
+    "propago (propaginem mali, propagine; 5 ocorrências): 'rebento' ou 'propagação'? Distinguir de propagatio (cap. 10).",
+    "similitudo virtutis: tirar 'similitudinem' das formas ou separar os sentidos. Em t2-nl1-14 a palavra está no sentido paulino de Rm 6,5, vertida 'semelhança' com @n (cap. 14).",
+    "libido: em t2-lp-08 (§§ 15 e 18), fora deste livro, o sentido é 'capricho' (disputandi libidine). Ou se põe @n lá, ou se restringem as formas, para acabar com os dois avisos (caps. 3 e 7).",
+    "commixtio (sexuum) -> 'união (dos sexos)'; t2-nl4-05 usa 'união carnal'. São 17 ocorrências no livro (cap. 12).",
+    "nuptiae / conjugium / connubium -> 'núpcias' / 'matrimônio' / 'casamento' (connubii Sacramentum = 'sacramento do casamento'). Pedido do cap. 12.",
+    "pactum (pactum Dei com Adão, a tese dos modernos combatida em t2-nl1-05 a 16) -> 'pacto'. O uso já é uniforme; são cerca de 11 ocorrências (cap. 16).",
+    "fluctuatio / fluctuare -> 'vacilação' / 'vacilar' (t2-nl1-15; 8 ocorrências).",
+    "phantasia -> 'fantasia' (spiritus seu phantasia) e imaginatio -> 'imaginação' (t2-nl1-18 s20, t2-nl1-19).",
+    "aggravatio / gravare -> 'agravamento' / 'agravar', no sentido de sobrecarregar com peso (t2-nl1-23 s11).",
+    "consuetudo carnalis -> 'costume carnal', coerente com consuetudo 'costume' (cap. 18).",
+    "appetitus sensitivus -> 'apetite sensitivo', com as flexões e a ordem inversa sensitivi appetitus. Já usado em vários capítulos (caps. 17, 18, 23).",
+    "meritum poenae -> 'mérito da pena' e debitum poenae -> 'dívida da pena' (cap. 1). Atenção: dignitatem poenae foi vertido 'merecimento da pena' em t2-nl1-02 s3, e convém fixar mérito e merecimento separadamente.",
+    "trahere (o pecado de origem) -> 'contrair'; transitus peccati -> 'passagem do pecado'; denominatio rationis -> 'denominação de razão'; figmentum rationis -> 'ficção da razão' (cap. 1)."
+   ]
+  }
+ },
+ {
+  "livro": "De statu purae naturae, liber III",
+  "ids": [
+   "t2-np3-01",
+   "t2-np3-02",
+   "t2-np3-03",
+   "t2-np3-04",
+   "t2-np3-05",
+   "t2-np3-06",
+   "t2-np3-07",
+   "t2-np3-08",
+   "t2-np3-09",
+   "t2-np3-10",
+   "t2-np3-11",
+   "t2-np3-12",
+   "t2-np3-13",
+   "t2-np3-14",
+   "t2-np3-15",
+   "t2-np3-16",
+   "t2-np3-17",
+   "t2-np3-18",
+   "t2-np3-19",
+   "t2-np3-20",
+   "t2-np3-21",
+   "t2-np3-22"
+  ],
+  "reports": [
+   {
+    "id": "t2-np3-01",
+    "commit": "e20d380",
+    "problema": "/tmp (tmpfs) está cheio (100%, 9,6G em /tmp/bib), e por isso as imagens foram extraídas em /home/pedro/.cache/bib/t2-np3-01. Um hook RBSA (gateway de contexto jurídico) bloqueou a leitura de glossario.json pela ferramenta Read, e sem essa leitura o Edit não roda; não adicionei a entrada nova e a deixei como proposta. O build.mjs não terminou porque o validar.mjs dá 5 erros em covarrubias-opera (t1-pmf-06 e t1-pmf-13), que são trabalho em curso de outros agentes. Meu capítulo não tem erro nem aviso.",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada 'miseria' (formas miseria, miseriae, miseriam, miseriarum, miseriis, miserias; pt 'miséria', 'misérias'): é o mal que torna a criatura miserável sem a tornar má; é o tema do livro III do De statu purae naturae e vai voltar em todo o livro. Não foi adicionada porque o hook bloqueou a edição do glossário."
+    ],
+    "leituras_incertas": [
+     "§3 (883B) 'vitiosum[?]': palavra mal impressa ('vi iosum').",
+     "§7 (884A) 'beetur[?]': no scan, 'becur/beetur'.",
+     "§8 (884A) 'culpae[?]': o final '-ae' não se lê com segurança.",
+     "Notas marginais da col. 884, cortadas na encadernação; a imagem tem só 121 ppi: 'Vind[?] … num. [?]' (§7), 'Idem ibid. n. 32[?]' (§8), 'Suarez[?] … n. 11[?]', 'Lorinus[?] in … 11 c. [?] seq. [?] Ibid.[?]', 'Suar.[?] Vasq.[?]' (§9)."
+    ],
+    "duvidas": [
+     "Não identifiquei com segurança os teólogos modernos citados em itálico nos §§ 7-9: talvez Suárez, Vásquez e Lorino; falta conferir.",
+     "'Injuriam' foi vertido por 'agravo', para evitar 'injúria' no sentido de ofensa verbal.",
+     "No título, 'irrogandis' foi vertido por 'sobre infligir à inocência'.",
+     "No §4, 'non quatenus malum, sed quatenus miserum faciunt' foi vertido por 'não enquanto tornam mau, mas enquanto tornam miserável'.",
+     "No §11, o período foi dividido em dois."
+    ],
+    "catalogo": [
+     "Título como impresso: 'Quid de illis, et quibusvis etiam aetern[ae] damnationis malis innocentiae irrogandis sentiant quidam.' A impressão traz 'aetern', normalizado para 'aeternae'.",
+     "As colunas reais são 883-884, como no catálogo, e o capítulo ocupa só a página 447 do PDF.",
+     "Livro como impresso: 'De statu purae naturae liber tertius'; subtítulo: 'Transitus ad miserias corporis.'"
+    ]
+   },
+   {
+    "id": "t2-np3-02",
+    "commit": "1993de9",
+    "problema": "Nenhuma entrada nova foi gravada no glossário. Um hook PreToolUse do ambiente (gateway RBSA, que pede escopo de matéria) bloqueou o Read de obras/jansenius-augustinus/glossario.json, e sem esse Read a ferramenta Edit não funciona. O próprio hook proíbe ler o arquivo por outro caminho, então a entrada lex aeterna ficou como proposta. Antes do bloqueio eu já tinha lido o glossário com cat, para conferir as formas fixadas.",
+    "catalogo": [
+     "Título confere com a impressão: 'Peccatum non potest non puniri a Deo.'",
+     "Colunas reais 885-890: o capítulo começa no alto da col. 885 e termina no meio da col. 890 (PDF p. 448-450).",
+     "O título do livro no cabeçalho segue o t2-np3-01 ('De statu purae naturae liber tertius'), diferente do campo livro do catálogo ('De statu purae naturae, liber III')."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "lex aeterna / legis aeternae / legem aeternam / lege aeterna -> 'lei eterna'. É termo central do livro III e volta no cap. 6. Não foi gravado porque o hook bloqueou o glossário.",
+     "miseria -> 'miséria' e miser/misera -> 'miserável'; beatitudo -> 'bem-aventurança' e beatus -> 'bem-aventurado' (forma do t2-np3-01; outros capítulos alternam com 'felicidade' e 'beatitude'). Proponho fixar as duas para o livro III.",
+     "affectio ('turpis affectio', 'bona rationalis mentis affectio') foi traduzido por 'afeição'. Fica distinto de affectus, 'afeto', que já está no glossário."
+    ],
+    "leituras_incertas": [
+     "885A: 'fortasse[?]' (impresso mal legível: 'for asse'; pode ser 'forsasse')",
+     "885C: 'Tales etiam[?] quaerit diabolus perducere': palavra partida no fim da linha, lê-se 'ei' / 'tes'",
+     "885C, margem do § 6: 'In append. serm.[?] de diversis[?]' (cortada e borrada) e 'Lib. de 10.[?] Chord. c. 3.' (o impresso parece ler 'de 12.')",
+     "888B, margem do § 26: 'Ibid. [?]' (cortada; deve ser De lib. arb. 3,15)",
+     "888C, margem do § 29: 'Vid[?] … [?]' (cortada, ilegível)",
+     "885A: 'poene' por 'pene', lido como œ no scan, que é de baixa resolução (1000 px por página)"
+    ],
+    "duvidas": [
+     "Faltam conferir as remissões das Enarrationes in Psalmos 42, 44, 58 (inclusive a 'secunda Concio', sermão 2) e 80. Falta também o sermão do apêndice citado no § 6, o Sermo 9 (De decem chordis), c. 3 pela margem, e Contra adv. legis et prophetarum 1,5.",
+     "§ 14: 'cui propterea poenalis adhibetur' tem adjetivo sem substantivo e foi vertido por 'a pena'. Convém conferir com De lib. arb. 3,9,26.",
+     "§ 15: a margem diz 'Cap. 10' para a frase 'Nec fieri ullo modo potest…', que parece estar ainda em De lib. arb. 3,9. Ficou como a conferir.",
+     "§ 29: as duas citações (a estultícia é contrária à sabedoria; a alma que não vive nem bem-aventurada nem miseravelmente) e a remissão interna ('supra declaravimus') não foram identificadas.",
+     "§ 30: 'impossibile est peccantem esse bonum' foi traduzido como está impresso.",
+     "§ 37: a segunda citação ('non expleat indigentiam suam…') parece ser De civ. Dei 12,8; ficou como a conferir.",
+     "§ 42: há dupla negação redundante em 'fieri non posse, quin… esse non possit'. Traduzi pelo sentido e registrei em nota.",
+     "Letras de seção: usei as letras da calha por altura na página (A-C na p. 448, A-D na p. 449, A-C na p. 450), começando em A."
+    ]
+   },
+   {
+    "id": "t2-np3-03",
+    "commit": "58119d9",
+    "problema": "Nenhum no capítulo. O commit 58119d9 está em origin/main. O validar deu 0 erros e nenhum aviso deste capítulo, e o build terminou sem erro. O /tmp (tmpfs) está 100% cheio, quase tudo em /tmp/bib, com imagens de vários agentes, e isso derrubou uma rodada do build. Apaguei só as minhas imagens (/tmp/bib/t2-np3-03) e rodei o build de novo. Durante o pull, outra sessão mexia em docs/progresso-digesto.md e o fast-forward da árvore abortou; não toquei nesse arquivo.",
+    "catalogo": [
+     "O título como impresso: 'Declaratur quaenam sint illae poenae quae tam arcte cum peccato cohaerent.' Não tem vírgula e traz cohaerent, não coherent.",
+     "Colunas 891-896 confirmadas. O capítulo começa no alto da col. 891 e termina na col. 896, onde começa o cap. 4."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "vindicare/vindicta volta muito neste livro: traduzi por 'punir'/'punição', e dedecus/decus vindictae por 'desonra'/'decoro da punição'. Talvez valha uma entrada; não a criei.",
+     "condemnatio (Sb 17,10) ficou 'condenação' no sentido comum. Não está nas formas de damnatio; falta decidir se fica distinta."
+    ],
+    "leituras_incertas": [
+     "Col. 892, margens cortadas: 'In Psal. 58[?]', 'Serm. [?] de divers. [?]' e 'Epist. [?]' (provavelmente a Ep. 153, que era a 54 na numeração antiga).",
+     "Col. 892 e 894: 'Lib. [?] contra Faust.' e 'Lib. 22[?] contra Faust. cap. 3[?]'.",
+     "Col. 893: 'Lib. 12[?] de Civ. c. 1[?]'.",
+     "Col. 895: 'Lib. [?] de Genesi ad litt. c. 23[?]'.",
+     "Col. 896: 'In Psal. [?]', 'Lib. de [?] cap. [?]' (obra antimaniqueia) e 'Lib. de duab. animab. cap. 11[?]'.",
+     "Nos trechos em itálico li i no lugar de j (iudicium, iustitia, eius, peior, iniuste); conferir no scan."
+    ],
+    "duvidas": [
+     "Col. 896A: a impressão traz claramente 'ab externa ... lege'. Traduzi como lei eterna (aeterna), supondo erro tipográfico.",
+     "Col. 894B: 'Ut ergo mors animae sit et jactura summi boni est poena peccati' tem construção dura. Traduzi por 'assim como é morte da alma, também a perda do sumo bem é pena do pecado'.",
+     "Col. 894D: 'in re alia directa conquiescere'. Entendi 'repousar em outra coisa para a qual se volta'.",
+     "Col. 896B: 'nec natura Dei nocere potest quisquam' pede o dativo naturae; traduzi pelo sentido.",
+     "Col. 891C: 'ad hanc punitionem hominis' entendido como a punição que o próprio homem inflige a si.",
+     "Col. 895B: 'Quare obsecro, cum alia re dilecta felix esse possit?' tratei como pergunta retórica do próprio Jansênio.",
+     "Remissões a conferir: Contra Faustum (livro e capítulo); a obra antimaniqueia da col. 896B; De duabus animabus; os Salmos 9, 45, 55 e 70 (parágrafos); De Gen. ad litt. 11 c. 4."
+    ]
+   },
+   {
+    "id": "t2-np3-04",
+    "commit": "d2e3314",
+    "problema": "",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Talvez criar entradas para beatitudo ('bem-aventurança'), felicitas ('felicidade') e providentia ('providência'), que voltam muito no livro III; não as criei para não abrir avisos novos em capítulos anteriores.",
+     "honestas aparece aqui no sentido de decoro ou conveniência (§§ 5-6: contra honestatem, inhonestum est), e não no de honestas moralis. Usei 'honestidade' e expliquei em nota."
+    ],
+    "leituras_incertas": [
+     "§ 3, nota marginal 'In Psal. 57[?]': número mal legível. O texto parece ser da Enarr. in Ps. 57.",
+     "§ 4, nota marginal 'In Psal. 60[?] in fin.': número mal legível. A passagem não foi localizada.",
+     "§ 15, nota marginal 'Tract. 2[?] in Ioann.': o segundo algarismo pode ser 5 ou 8.",
+     "§ 16: a impressão traz 'magnum difficultatem', em vez de 'magnam'. Mantive como impresso e expliquei em nota."
+    ],
+    "duvidas": [
+     "Remissões a conferir: Enarr. in Ps. 57 (§ 3), a passagem 'Qui multum sibi pollicetur' (§ 4, margem In Psal. 60[?]), In Ioh. tract. 25 ou 28 (§ 15) e Enarr. in Ps. 72 (§ 16). Estão marcadas como certas: De lib. arb. III,9 e De div. qq. 83, q. 24.",
+     "§ 5: turpatur, que está no indicativo, foi traduzido por 'seria desfigurado', porque descreve a hipótese que Jansênio combate. No § 6, 'permittantur… inhonestum est' também foi para o condicional. Há nota nos dois casos.",
+     "§ 8: a ordem da comparação 'non autem sicut… ita' foi invertida na tradução, por clareza, com nota.",
+     "§ 12: a construção é frouxa. 'omnium sanae mentis judicium… offenditur', seguido de 'viderit aut putaverit' no singular, foi resolvido em nota.",
+     "§ 4: acrescentei 'a ideia de' para dar sujeito a subrepit, com nota.",
+     "§ 14: 'zelavi super iniquos' foi traduzido por 'tive zelo contra os iníquos', com nota sobre as versões correntes."
+    ],
+    "catalogo": [
+     "Nada a corrigir. O título confere com a impressão. As colunas 895-898 estão certas: o capítulo começa no fim da col. 895 e termina no fim da col. 898 (página 454, que termina com o reclamo CAPUT). O livro, nos arquivos, segue o t2-np3-01: 'De statu purae naturae liber tertius'."
+    ]
+   },
+   {
+    "id": "t2-np3-05",
+    "commit": "20f80c966278608c3acba85604a853f688e79637",
+    "problema": "/tmp (tmpfs de 12G) está cheio, 100% ocupado por /tmp/bib (9,8G, de outros agentes): as imagens foram extraídas em /home/pedro/.cache/bib/t2-np3-05, que depois apaguei. O hook PreToolUse bloqueou o Read de glossario.json (pede o escopo de matéria do RBSA), por isso não consegui usar o Edit e não gravei entradas novas no glossário: foram para as propostas. O primeiro pull --rebase falhou porque arquivos não rastreados de outros agentes estavam no caminho, mas o commit 20f80c9 já está em origin/main. Validar: 0 erros e nenhum aviso deste capítulo. Build: sem erro.",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada 'poena damni' (formas: poena damni, poenam damni, poenae damni) -> 'pena de dano'. É a privação da visão beatífica, termo escolástico. Não foi gravada porque o hook bloqueou o Read do glossário.",
+     "Nova entrada 'poena sensus' (formas: poena sensus, poenam sensus) -> 'pena de sentido'. Não foi gravada pelo mesmo motivo.",
+     "Nova entrada possível 'visio beatifica' (beatificae visionis) -> 'visão beatífica'."
+    ],
+    "leituras_incertas": [
+     "Margem da col. 900, § 9: 'Lib. 11. de Gen. c. 1[?]'. O número do capítulo foi cortado na encadernação.",
+     "Margem da col. 900, § 10: 'Lib. [?] orig. [?]'. Deve ser o De peccato originali.",
+     "Margem da col. 900, § 11: 'Lib. [?] imp. [?]'. Provavelmente o Opus imperfectum.",
+     "Margem da col. 900, § 12: 'Epist. 10[?]'. O texto traz Epist. 106.",
+     "Margem da col. 900, § 14: 'Lib. de p[?] orig. cap. [?]'.",
+     "Margem da col. 901, § 17: '[?]rmo. de [?] c. 4.'. Ilegível, e a fonte da citação não foi identificada.",
+     "Normalizações: deijceret/deijciat -> dejiceret/dejiciat, reijcit -> rejicit, impijssimorum -> impiissimorum, Vnde -> Unde. Versaletes transcritos em maiúsculas com U (NON AUDEBIS DICERE...)."
+    ],
+    "duvidas": [
+     "§ 1: a construção 'eo quod quidlibet de nobis statuat... jure hoc faceret suo' é solta (passa do presente ao imperfeito); a tradução segue o sentido.",
+     "§ 9: o período de Agostinho ('Quia cuilibet occurrit... certaque et evidens damnatio...') foi vertido com 'já que... e já que...'. Conferir no De Gen. ad litt. XI.",
+     "§ 12: Epist. 106 na numeração antiga parece corresponder à carta 186 moderna, a Paulino. A conferir.",
+     "§ 17: fonte da citação ('Sic ergo te alloquar tanquam mihi dicas...') não identificada.",
+     "§ 19: Jansênio enfileira, sem marcá-las como citação, as fórmulas de Agostinho. A abertura com 'Enquanto' (Cum... clamet) é interpretativa.",
+     "§ 21: a sentença de Salomão vem adaptada (haec est mater ejus -> Hic est Pater eius), e só 'Hic est Pater eius' está em itálico. Período muito longo, mantido num só trecho.",
+     "§ 22: Sb 12,15; 'virtus' vertido por 'poder'."
+    ],
+    "catalogo": [
+     "Título como impresso: sem vírgula antes de 'quam sensus' ('tam ratione poenae damni quam sensus'). O catálogo traz '..., quam sensus.'",
+     "Colunas reais: 899-902, que conferem com o catálogo. O capítulo começa no alto da col. 899 e termina no meio da col. 902, antes do Caput VI."
+    ]
+   },
+   {
+    "id": "t2-np3-06",
+    "commit": "ef3f7e1",
+    "problema": "Não houve problema que impedisse a publicação. Duas observações: (1) /tmp (tmpfs de 12G) está cheio, quase todo ocupado por /tmp/bib de outros agentes. Apaguei só as minhas imagens da p. 460, que não eram necessárias. (2) Um hook do RBSA (exige RBSA_CONTEXT_MATTER_ID) barrou a leitura de glossario.json com Read. Por isso não acrescentei a entrada nova com Edit e a deixei como proposta.",
+    "catalogo": [
+     "O título como impresso traz 'injustum' (com j); o catálogo tem 'iniustum'. 'miserijs' normalizado para 'miseriis'.",
+     "Colunas 901-908 conferidas: o capítulo começa no fim da col. 901 e termina na col. 908, antes do Caput VII."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Criar a entrada 'lex aeterna' -> 'lei eterna' (formas: lex aeterna, legis aeternae, lege aeterna, aeternam legem, aeternae legis, aeterna lege). Os 16 capítulos que já usam o termo traduzem todos 'lei eterna', de modo que a entrada não gera aviso novo. Não foi criada porque o hook barrou a leitura do glossário.",
+     "Considerar uma entrada para 'pura naturalia' / 'status purorum naturalium' -> 'puros naturais' / 'estado dos puros naturais' (usada neste capítulo com nota)."
+    ],
+    "leituras_incertas": [
+     "901, margem do título: 'Argumentum 16[?]. contra puram naturam.' (número mal impresso)",
+     "904, margem cortada na encadernação: 'Lib. 7. confess. c. 14[?].' (o texto é Conf. VII,14,20)",
+     "906C: 'insuparabilis[?]' como impresso; provável insuperabilis (ou inseparabilis)",
+     "906, margem: 'Lib. 1. oper. imp. c.[?] 33.' (lê-se algo como 'f. 33')",
+     "908, margem: 'Lib. 3. de lib. arb. cap. 18[?].' (o texto é III,18,51)"
+    ],
+    "duvidas": [
+     "s21: a impressão traz 'Miseriores autem erunt' (Civ. XIX,13); conferir se Agostinho tem 'sunt'.",
+     "s24: 'qua denique fit ut non possit aliquando iniustum esse...' parece adaptação de Jansênio a De lib. arb. I,6,15; a conferir.",
+     "s27/s35: a citação 'sub Deo iusto miser esse quisquam nisi mereatur potest' é do Opus imperfectum I; a passagem exata está a conferir.",
+     "s7: a margem 'Lib. 4. ad Bonif. c. 2.' foi tomada como Contra duas epistolas Pelagianorum IV; a conferir.",
+     "s29: Enarr. in Ps. 38 sem nota marginal; a conferir.",
+     "s31: 'ex pura natura ratione naturali' é uma construção dura; talvez se deva ler 'ex pura ratione naturali'.",
+     "Sententia foi vertida por 'posição' (título, s1, s13, s14, s16) e opinio por 'opinião'; avaliar na revisão.",
+     "s9: 'de Deo bono in bonitate sentirent' foi vertido como eco de Sb 1,1 ('com bondade'), com nota."
+    ]
+   },
+   {
+    "id": "t2-np3-07",
+    "commit": "6d7dad6",
+    "problema": "/tmp (tmpfs de 12G) está 100% cheio, e /tmp/bib sozinho ocupa 9,8G. Por isso gerei as imagens em /home/pedro/.cache/bibtmp/t2-np3-07, com TMPDIR apontando para lá. Não apaguei nada dos outros agentes. Builds simultâneos de outros agentes disputam _site: a primeira tentativa de build.mjs falhou com rmdir em _site, e a segunda deu certo.",
+    "catalogo": [
+     "Título e colunas do catálogo conferem com a impressão: o capítulo vai de 907 a 914, começa no meio da p. 459 do PDF e termina no meio da p. 462."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Talvez criar uma entrada 'providentia' ('providência'), tema dos caps. 7 e seguintes. Não criei porque a tradução é unívoca."
+    ],
+    "leituras_incertas": [
+     "908A: nota marginal 'Lib. 9. de Civit. c[?]', com o número do capítulo cortado na encadernação (provavelmente IX,3)",
+     "909D: nota marginal '[Li]b. 2. fol.[?] [?]' (Opus imperf. II), cortada e ilegível",
+     "910D: 'concluditur[?]', palavra apagada no scan (talvez concluderetur)",
+     "912B: nota marginal ilegível, marcada '@m [?]'",
+     "913B: 'Num quidnam[?]' (Agostinho tem Numquid)"
+    ],
+    "duvidas": [
+     "Remissões a conferir: Serm. 139 de tempore (numeração antiga); Contra Iul. II,1 e V,1; Op. imperf. I,50; De dono persev. 11; De civ. Dei IX,3",
+     "'Qui (Apuleius) animo passiva, etiam misera dixisset': o referente do neutro passiva/misera não está no recorte de Jansênio",
+     "'providentiae vastitatem' foi vertido por 'abandono da providência', solução interpretativa",
+     "§ 2: período muito longo com consecutiva (censet... ut judicaret), vertida por 'que estava convencido de que'",
+     "§ 18: 'ipse' entendido como o estado de natureza pura",
+     "Ep. 28 dada como Ep. 166 dos Maurinos (166,6,16): equivalência que conheço, mas não conferida na fonte"
+    ]
+   },
+   {
+    "id": "t2-np3-08",
+    "commit": "23f4ea5",
+    "problema": "Nenhum no capítulo, que foi commitado e enviado (push). Mas o /tmp (tmpfs de 12G) está 100% cheio, quase todo por /tmp/bib (9,8G de imagens de todos os agentes). Por isso as ampliações com PIL tiveram de ser gravadas num diretório temporário na home, já apagado. Os outros agentes vão esbarrar no mesmo erro ENOSPC.",
+    "catalogo": [
+     "Colunas reais: 913-918. O capítulo começa no meio da col. 913 (p. 462 do PDF) e termina no alto da col. 918 (p. 464), antes do Caput IX. As colunas do catálogo estão certas.",
+     "Título como impresso: 'Justitia Dei funditus evertitur juxta Augustinum per statum purae naturae.' O catálogo traz 'Iustitia' e 'iuxta'; a impressão tem I maiúsculo inicial e juxta com j."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "Col. 913, margem: [E]pist. 28[?], cortada na encadernação. Talvez seja a carta 28 na numeração antiga, hoje a 166, a Jerônimo.",
+     "Col. 915, margem: [L]ib. 2[?]. cont. Iul. cap. 10.",
+     "Col. 916, margem direita cortada: Ibid. f. 3[?] (§ 17), Lib. [?] oper. imp. f. [?] (§ 18), Ibid. [?] (§ 20), Ibid. f. [?] (§§ 22 e 23)."
+    ],
+    "duvidas": [
+     "§ 3: a impressão traz 'sine ullo immerito praecedentis iniquitatis'. Pode estar por 'merito'; a tradução usa 'demérito'.",
+     "§ 19: a impressão traz 'injustus poenas'. Na tradução segui 'injustas poenas', como na mesma citação no cap. 7, § 12. Aqui está 'Propter quid'; lá, 'Propter quod'.",
+     "§ 15: o parêntese de Jansênio '(forte quae)' ficou em latim, como conjectura.",
+     "§ 18: o sujeito de 'inferebat' é provavelmente a 'duritia Pelagiana' do § 17, mas pode ser Juliano.",
+     "Remissões ao Opus imperfectum por fólio (f. 6, 26, 27, 63, 65-66, 175, 345, 348): a edição não foi identificada, todas a conferir. Também a conferir as do Contra Julianum: III,6, VI,5 e VI,10.",
+     "Segui o cap. 7 em 'parvuli' = 'pequeninos'. Não há parágrafos novos visíveis na impressão; o capítulo inteiro é um parágrafo só."
+    ]
+   },
+   {
+    "id": "t2-np3-09",
+    "commit": "4f70854",
+    "problema": "O /tmp (tmpfs) encheu: /tmp/bib ocupa 9,8 GB e restavam 1,7 MB livres. Apaguei só os meus recortes parciais e extraí as imagens em /home/pedro/.cache/bib-t2-np3-09. Os outros agentes podem bater no mesmo erro \"No space left on device\".",
+    "catalogo": [
+     "Título como impresso: 'ex hypothesi', com h minúsculo (o catálogo traz 'ex Hypothesi').",
+     "Colunas reais: 917-920, como no catálogo. O capítulo começa no meio da col. 917 (p. 464 do PDF) e termina no fim da col. 920 (p. 465); o Caput X começa na 921.",
+     "Divergência no catálogo: o capítulo t2-np3-08 está marcado com colunas 913-918, mas termina na col. 918A. Isso não afeta este capítulo."
+    ],
+    "duvidas": [
+     "917A, 'ex suppositione praesentis status': o estado descrito é o do paraíso (criação na graça); traduzi literalmente 'estado presente', com nota.",
+     "917A, 'alienus': a impressão traz 'alienus' por 'alienius'; traduzi pelo comparativo, com nota.",
+     "918B, 'emphaticae evasiones': talvez se deva ler 'invasiones'; traduzi por 'investidas', com nota.",
+     "§§ 11-12: frases do Opus imperfectum que Jansênio junta numa colagem, repetindo passagens do cap. 8; as fontes ficam a conferir.",
+     "Remissões ao Opus imperfectum: vêm por fólio de uma edição não identificada; ficam todas a conferir.",
+     "§ 6: as teses de Celéstio (De gestis Pelagii 11,23; Dióspolis e Cartago 418) ficam a conferir.",
+     "§ 18, 'melius te noverat': tomei 'te' como ablativo de comparação ('sabia melhor do que tu').",
+     "Versaletes ('AUT IUSTITIAM... HUMANARUM'): na tradução, vão em maiúsculas.",
+     "'moriones' e 'fatuus': traduzi por 'bobos' e 'idiota/idiotia'; o registro dessas duas palavras deve ser revisto."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "'pura naturalia' / 'in puris naturalibus': os capítulos anteriores usam ora 'puros naturais', ora 'puros bens naturais'. Proponho fixar uma entrada com 'puros naturais'.",
+     "'aequitas' ('equidade') volta com frequência e ainda não tem entrada no glossário."
+    ],
+    "leituras_incertas": [
+     "918B 'probrosam[?]': o scan mostra 'pro rosam', com uma letra apagada.",
+     "Margem da col. 919: 'Lib. 1[?]. oper. imperf. f. 49.' (algarismo do livro mal impresso).",
+     "Margem da col. 920, cortada na encadernação: 'Lib. 2. op[?]. imperf. f[?]. 433[?]'.",
+     "Margem da col. 920, cortada: '[?] imp[?]'.",
+     "Margem da col. 920, cortada: 'Ibid. f. 3[?]'."
+    ]
+   },
+   {
+    "id": "t2-np3-10",
+    "commit": "d7a391e",
+    "problema": "/tmp estava cheio (tmpfs a 100%, 9,8G em /tmp/bib), e tools/paginas.py falhou com ENOSPC. Por isso as imagens foram extraídas para /home/pedro/.cache/bib-img/t2-np3-10. Um hook bloqueou a leitura do glossario.json pelo Read, e o Edit exige essa leitura antes. Assim, não acrescentei nenhuma entrada ao glossário: a que seria nova vai como proposta. validar.mjs deu 0 erros e nenhum aviso do capítulo, e build.mjs rodou sem erro.",
+    "catalogo": [
+     "Título e colunas conferem com a impressão: o capítulo começa no alto da col. 921 e termina na metade da col. 926, antes do Caput XI (páginas 466-468 do PDF)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada: supplicium = 'suplício', no sentido de pena propriamente dita, imposta por uma culpa. A forma já é a usada nos capítulos anteriores, e o termo é central aqui e no cap. 11. Não foi criada porque o hook bloqueou a leitura do glossário.",
+     "Talvez valha uma entrada para 'poena formaliter sumpta' = 'pena tomada formalmente' e para 'sub ratione X' = 'sob a razão de X' (a forma já usada nos capítulos anteriores)."
+    ],
+    "leituras_incertas": [
+     "922B renisu[?]: a impressão parece trazer 'rensu'.",
+     "923B affliguntur[?]: a impressão traz 'affligumur'.",
+     "Margens cortadas ou ilegíveis: 'Lib. de nat. boni[?] cap. 7.'; 'Lib. 3. de lib. arb. c. 9[?].'; 'Lib. 1. oper. imp. f. 33[?].'; 'Rom. 12[?].' (o texto é Rm 7,23-24); 'Cicer. lib. 3. de Repub. vid. August. ibid. c. 13[?].'; 'Lib. 6. c[ont.] Iul. cap. [?]'; 'Lib. 3. c[ont.] Iul. cap. [?]'; 'Lib. 1[?]. oper. imperf.'; 'Lib. [?] oper. imperf. 2[?]0.'; 'Lib. 2. oper. imperf. fol. [?]'.",
+     "925A 'fomaliter': erro de impressão por formaliter, mantido como está impresso e explicado em nota."
+    ],
+    "duvidas": [
+     "921B 'sed potius poenae ubique, non de poena sub ratione poenae…': a construção é elíptica. Traduzi 'ao falar de pena, ele em toda parte fala…'.",
+     "922C 'Augustinum distinxisse statum purae naturae': o sentido pede 'julgou' ou 'refutou'; talvez seja erro de impressão. Mantive 'distinguiu', com nota.",
+     "922B 'mentis et spiritus conflictum': o esperado seria 'carnis et spiritus'.",
+     "923C 'sine illa sua mala causa': não está claro se mala é 'causa má' ou o objeto de patiantur.",
+     "924B 'Dic causam parvuli': parvuli pode ser vocativo ou genitivo. A remissão do cap. 11 (Op. imperf. II, fol. 290) sugere ler '2[9]0' também na margem deste capítulo.",
+     "Remissões não conferidas: Confissões VII,3,5 (§20), sermão 14 de verbis Apostoli (numeração antiga) e as citações do Opus imperfectum sem margem legível."
+    ]
+   },
+   {
+    "id": "t2-np3-11",
+    "commit": "d82a5e4",
+    "problema": "O /tmp (tmpfs) está 100% cheio, com /tmp/bib em 9,8G, e por isso as imagens foram geradas em /home/pedro/.cache/bib/t2-np3-11 (TMPDIR=/home/pedro/.cache/bib/tmp), sem mudar a ferramenta. Um hook PreToolUse (gateway RBSA) bloqueou o Read de glossario.json, e o Edit exige esse Read. Por isso nenhuma entrada nova foi adicionada: a proposta vai abaixo. O scan desta parte só tem 1000 px de largura, então as margens perto da calha ficaram quase ilegíveis.",
+    "catalogo": [
+     "Título como impresso: 'qualecunque' (o catálogo normaliza para 'qualecumque'); o resto confere.",
+     "Colunas reais: 925-930 (começa em 925A, no meio da página 468 do PDF, e termina em 930B, na página 470), de acordo com o catálogo."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada 'fatuitas' (formas fatuitas, fatuitatis, fatuitate, fatuitatem; fatuus, fatuam, fatuos) para 'idiotia'/'idiota', como já fixado em nota no t2-np3-09 e usado aqui. Não foi inserida porque o hook bloqueou a leitura do glossário.",
+     "Possível entrada 'obtusio/obtusitas' para 'embotamento' e 'tarditas' para 'lentidão' (ingenii tarditas: 'lentidão da inteligência')."
+    ],
+    "leituras_incertas": [
+     "s4: '(quidam[?] scilicet)', com a primeira palavra apagada",
+     "s7: 'servire[?] posse': o scan parece mostrar servire, mas o sentido pede saevire (traduzido assim, com nota)",
+     "s17: margem 'Lib. 3.[?] cont.[?] Iul. [?]', cortada na calha (provavelmente c. Iul. III,4, como no cap. 9)",
+     "s21: margem 'Lib. 6. cont. Iul. cap. 4.[?]', com o número do capítulo cortado",
+     "s25: 'haeresin manichaei[?] de', no scan 'manichaeide' com as palavras coladas",
+     "s27: margem 'Lib. 3. c.[?] Iul. c. 9.'"
+    ],
+    "duvidas": [
+     "s13: a pontuação da impressão é ambígua em '...dici, si sine ullo merito peccatorum pietas...'; tomou-se 'in virtute exerceri... dici' como parêntese e 'si sine ullo merito' ligado à frase sobre a justiça.",
+     "s2: 'Negat... hoc posse fieri, vel certe injustum esse Deum' é um zeugma, traduzido com 'ou então afirma'.",
+     "s14: a margem 'Lib. 1. f. 61. et 62.' não nomeia a obra; foi tomada como o Opus imperfectum I.",
+     "As remissões ao Opus imperfectum vêm por fólio, de edição não identificada: todas a conferir, assim como as de Contra Julianum III,5, III,6, V,4, VI e III,9 e a de Contra duas epistulas Pelagianorum IV,4.",
+     "s18: 'noxam' traduzido por 'culpa' para manter a solução do t2-np3-09, embora 'culpa' também traduza 'culpa' no mesmo capítulo."
+    ]
+   },
+   {
+    "id": "t2-np3-12",
+    "commit": "da09093",
+    "problema": "O /tmp (tmpfs) estava cheio (0 MB livres; /tmp/bib ocupa 9,8 GB). Por isso as imagens foram extraídas em /var/tmp/bib/t2-np3-12, com TMPDIR=/var/tmp/bibtmp-np312, e não em /tmp/bib. Não apaguei nada de outros agentes. Fora isso, o validar e o build passaram sem erro e o push foi feito.",
+    "catalogo": [
+     "Título: confere com a impressão (só a grafia 'injustus'). Colunas reais: o capítulo começa no meio da col. 929 e termina no meio da col. 936, então 929-936 está certo.",
+     "Letra de seção: nas cols. 935/936 a calha traz 'E' onde se espera 'B'. Parece erro tipográfico e foi transcrita como B."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "defectus/deficere: nos capítulos anteriores, defectus foi vertido por 'defeito'. Aqui, no sentido físico de as coisas corruptíveis deixarem de ser (De lib. arb. III,15), 'defeito' engana o leitor, e usei 'desfalecimento' (com defectibilitas como 'defectibilidade' e defectibilis como 'defectível'). Talvez valha uma entrada no glossário que distinga os dois sentidos.",
+     "materiarii: vertido por 'materiários'. O termo volta no cap. 14 e pode merecer uma entrada.",
+     "affectus: o validador avisa em s37 (Arnóbio). Ali o sentido é o de effectum (execução), e isso está explicado em @n."
+    ],
+    "leituras_incertas": [
+     "s2 @m: Lib. 83. qq. q. [?]4: o algarismo da questão está cortado; pode ser q. 24.",
+     "s6 @m: oper. imp. f. 52[?]. et 53.",
+     "s21 @m: Lo[?]: nota cortada na margem direita da col. 932.",
+     "s29 @m: Maximus apud Euseb. lib. 7. de praep. evang[?].",
+     "s30 @m: Lib. contra Hermog. c. 10[?].",
+     "s44 @m: os capítulos de De Trinit. XIV e de De lib. arb. III estão cortados.",
+     "s45 @m: nota ilegível, provavelmente Confissões I,1.",
+     "s8: inferat, com uma letra apagada no scan.",
+     "s30: iudicavit, que o scan também permite ler indicavit.",
+     "s33: aut cur non, que o scan parece imprimir como 'cus'.",
+     "s29: o grego de Máximo está gasto em alguns pontos e foi transcrito com acentuação regularizada."
+    ],
+    "duvidas": [
+     "s8: a impressão traz 'in puris quae dicuntur materialibus', que provavelmente é erro por naturalibus. Traduzi a letra e anotei.",
+     "s10/s25: a pergunta de De lib. arb. III,4 é posta por Agostinho na boca de Evódio, mas Jansênio a cita como tese. Está em nota.",
+     "s29: a versão latina de Máximo é livre em relação ao grego. A atribuição a Máximo ou a Metódio fica a conferir.",
+     "s31: 'per substantia suggestum' (Tertuliano, Adv. Herm. 16): o texto está corrupto e a tradução dá o sentido provável.",
+     "s32: 'vel cum posset, non habuerit' (o diálogo atribuído a Orígenes, de Adamâncio) parece corrompido. Traduzi a letra.",
+     "s35: 'qui primi Christianos ... docuere' é ambíguo.",
+     "s36: o sentido de 'Haec passa est' (Sêneca, De providentia 5,9) é discutido.",
+     "s37: a impressão traz Arbonius, por Arnobius.",
+     "Remissões a conferir: todas as do Opus imperfectum (citado por fólio), as de De lib. arb. III,4/15/24 e as de De Trin. XIV,12,16."
+    ]
+   },
+   {
+    "id": "t2-np3-13",
+    "commit": "3b8f695",
+    "problema": "Não houve bloqueio, mas dois contratempos. 1) O /tmp (tmpfs) está 100% cheio, com 9,8 GB em /tmp/bib. As imagens foram geradas em /home/pedro/.cache/np313/img, com TMPDIR desviado, e não em /tmp/bib/t2-np3-13. 2) Um hook PreToolUse do RBSA (gateway de matéria) impediu a leitura de glossario.json e de pt/t2-np3-10.md pelo Read, e não o contornei. O formato e os termos vieram de pt/t2-np3-01 e pt/t2-np3-09; o validar.mjs não deu erro nem aviso de glossário para o capítulo.",
+    "catalogo": [
+     "Título e colunas conferem com o catálogo: o capítulo começa no fim da col. 935 e termina na col. 938 (p. 473-474 do PDF)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Talvez convenha fixar gens tenebrarum (maniqueus) como 'raça das trevas', a forma usada aqui."
+    ],
+    "leituras_incertas": [
+     "937A margem: [?] Disp. cont. Fortun.[?], cortada na dobra.",
+     "937B margem: Ibidem[?] e [?] cap. 17. (Contra Faustum XX,17?).",
+     "937B margem: Lib. 21. c. [?]; a Lib. 22.[?] contra Faust. c. [?]; b [?] Psal. 140.",
+     "937B texto: gentem tenebrarum invidit[?], em redondo, fora do itálico.",
+     "938A margem: ad Palat.[?] Praefect. Praetor., talvez por Pallad."
+    ],
+    "duvidas": [
+     "Rescrito de 418: o sentido de 'fundati muneris fidei anteferret exordium' é obscuro e foi traduzido com nota (a conferir).",
+     "'Si non timuit, gentem tenebrarum invidit': leitura e construção duvidosas.",
+     "'radicatus' impresso por 'radicitus'.",
+     "'infliget' (futuro) foi traduzido pelo condicional.",
+     "Remissões não conferidas: Contra Fortunatum (1º e 2º dia), Contra Faustum XX-XXII, Enarr. in Ps. 140, Orange II can. 2 (citação abreviada por Jansênio) e Op. imperf. por fólio (fol. 290 e f. 33)."
+    ]
+   },
+   {
+    "id": "t2-np3-14",
+    "commit": "5ccfd94536291a3f4a9fedba675eb34b72bd8f41",
+    "problema": "",
+    "catalogo": [
+     "O título impresso traz 'injustitia' (com j), e o catálogo tem 'iniustitia'; impresso também 'Materarii' (no corpo do texto, 'Materiarios').",
+     "As colunas 939-944 estão certas: o capítulo começa no alto da col. 939 (p. 475 do PDF) e termina no fim da col. 944 (p. 477)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "affectus: no § 18 (materiae affectu) a palavra tem o sentido de 'disposição/estado' da matéria e não o de 'afeto'; deixei em nota. Talvez valha registrar na nota da entrada esse sentido não técnico.",
+     "scelus: vertido 'crime', como facinus, nos §§ 8-10 (a nota de facinus já prevê rever se os dois vierem juntos)."
+    ],
+    "leituras_incertas": [
+     "940A, margem cortada: 'Lib. 4. con[?]. Iul. c.[?]' (o texto é Contra Julianum IV,15,78).",
+     "940B, margem cortada: 'Ibid.[?]'.",
+     "942A, grego: 'αὐτουργῷ[?]' (Plutarco traz ἀγαθουργῷ, e o latim 'beneficae' confirma).",
+     "942C, margem: 'Lib. 7. de praepar. c. 22. alias 10[?]'.",
+     "943A, margem: 'Lib. 2. oper. imper. f. 344[?]'.",
+     "944B: 'Audeo profari sintne[?] vel regnant Dii?'.",
+     "944B, margem cortada da inscrição de Prócope: ilegível ('@m [?]')."
+    ],
+    "duvidas": [
+     "§ 10: a impressão traz 'cum confusione continuo est peccatum', que não faz sentido; traduzi como 'continuo post peccatum' (a conferir em Contra Julianum IV,15,78).",
+     "§ 22: o latim de Jansênio repete 'unionem' para os dois princípios; traduzi pelo grego (unidade / dualidade indefinida).",
+     "§ 19: 'generationis assecla' deve ser 'asseclae'. O grego do Hermético difere do texto corrente (νομιζόμενον, προεπόμενα, ὅπερ).",
+     "§ 28: 'praeponunt' (talvez 'proponunt'). A citação de Juliano está sem remissão, e a margem 'Tertul. cont. Hermog. cap. 10' parece pertencer ao trecho anterior.",
+     "§ 12: a pergunta retórica latina foi vertida como exclamação (explicado em nota).",
+     "§ 37: a relativa 'quae nunc velut abscondita... mysteria proferuntur' foi traduzida em frase separada.",
+     "Remissões a conferir: Máximo de Tiro, Dissertação 41,4 (Serm. 25 antigo); Corpus Hermeticum XIV,7; Eusébio, Praeparatio evangelica XIV e VII,22; Ireneu I,21 (numeração antiga); o diálogo 'de ortu mali' atribuído a Orígenes; Eurípides, fr. do Belerofonte; o epitáfio de Prócope; os fólios do Opus imperfectum (344, 52, 275, 323, 459)."
+    ]
+   },
+   {
+    "id": "t2-np3-15",
+    "commit": "e8f581b36265a9a1384a7d3d88d3dc5fa1540a59",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'ad blasphemiam' em minúscula e 'Cur, & quomodo' (o catálogo traz 'Blasphemiam' e 'cur et quomodo'); colunas 945-952 conferem (o capítulo começa no alto da col. 945 e termina no alto da col. 952, antes do Caput XVI)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "§ 15 (947C): 'Desistite[?] adiutores Manichaeorum' (o plural não concorda com 'appetis')",
+     "§ 17, 20, 21 (948): notas marginais cortadas na encadernação ('Ibid[?]', '[?]', '[?]')",
+     "§ 20 (948B): 'secundum Venustianos[?] et Manichaeos'",
+     "§ 29 (949C): nota marginal cortada, talvez 'Aug. Iul.' ('[?]Aug[?]. Iul.[?]')",
+     "§ 40 (951A): 'in quatunque[?], qualiumcunque, quantorumcunque' (talvez por 'quantacunque')",
+     "§ 41 (952A): 'animi corporisque perturbationibus[?]' (impressão apagada)",
+     "§ 17 (948A): 'improbraret', assim na impressão (por 'improbaret'); conservado e anotado"
+    ],
+    "duvidas": [
+     "§ 17: 'cum Augustino Manichaeismum Iulianus improbraret': traduzi 'junto com Agostinho' (Juliano dizia reprovar o maniqueísmo como Agostinho); a alternativa ('reprovava em Agostinho') vai em nota",
+     "§ 27: sentido de 'plerisque' ('em muitíssimos pontos' ou 'na opinião de muitos')",
+     "§ 28: 'quam neque Deus dare, neque creatura sedare potest': conservei o impresso 'dare'",
+     "§ 36: a margem diz 'Lib. 4. de Trinit. c. 12.', mas o passo é De Trinitate XIV,12 (a conferir)",
+     "§ 5: a margem 'Lib. 6. cont. Iul. cap. 26.' e o passo de Cícero (De re publica III) a conferir no Contra Iulianum",
+     "Remissões ao Opus imperfectum dadas por fólio da edição de Jansênio (f. 96, 316, 459, 55, 124): todas a conferir",
+     "§ 24: reorganizei a ordem para deixar claro que 'quae est haeresis Manichaei' se refere ao primeiro membro; vale conferir na revisão",
+     "§ 3, 7, 8: 'invalidus' traduzido por 'sem poder', 'impotens' por 'impotente' e 'infirmus' por 'fraco'; se forem voltar na obra, talvez valha fixar no glossário"
+    ]
+   },
+   {
+    "id": "t2-np3-16",
+    "commit": "7f6920a",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Solvitur difficultas ex Augustini Commentario in Psalmum septuagesimum.' (o catálogo traz 'sextuagesimum'; a impressão e o texto dizem septuagesimo/Ps. 70).",
+     "Colunas reais 951-956 (começa no meio da col. 951, termina no alto da col. 956): conferem com o catálogo."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "salus: em comparações médicas (cap. 16, §§ 14-15, citação de Agostinho) o sentido é 'saúde'; talvez admitir 'saúde' como forma alternativa quando o contexto for corporal.",
+     "Dominium (domínio de Deus, poder de senhor) coincide em português com 'domínio' fixado para dominatus; avaliar se convém distinguir (p. ex. 'senhorio')."
+    ],
+    "leituras_incertas": [
+     "s2: 'quaelibet[?] corporalis miseria' (scan mostra 'quæli… et').",
+     "s6: 'Hoc solo autem casu corruptio, hoc aperto[?], integritas eorum [?] omnibus[?] est' (linha muito apagada; talvez 'hoc excepto').",
+     "s8: 'quando aliam quam culpae poenam[?]' e 'afferre[?] voluerunt'.",
+     "s16: 'Quis enim ei diceret quid[?] fecisti' (o scan permite 'quia').",
+     "s27: 'Timori quippe justitia[?] Dei respondet' (talvez 'justitiae').",
+     "Margens cortadas na encadernação: s9 'Aug.[?] Tract.[?] [?]'; s10 'Lib. [?] de [?] merit.[?] c. 3[?]'; s13 '[?]3. ss[?]'; s17 'Sap.[?] 12. vers. 11. et 12.'."
+    ],
+    "duvidas": [
+     "s12: a construção 'ex morbi sui reliquiis vel medicinalium adjutoriis miseriarum molestiis doloribusque' é ambígua; entendeu-se as misérias como auxílios medicinais, e a alternativa vai em nota.",
+     "s6: a tradução é só aproximada por causa da leitura insegura do latim.",
+     "s1/s26: a impressão grafa com i as palavras em itálico (iustus, iustificet) e com j as do texto corrido; segui a impressão.",
+     "Remissões não conferidas: Enarr. in Ps. 70, sermão 1 (início e adiante); De natura boni 7; Tract. in Io. 124,5 (provável fonte do s9); De peccatorum meritis II (provável fonte dos s10 e s13-15); Sb 12,11-12 e 12,15-16; Rm 8,33-34; Hb 12,6; o eco de Horácio, Ep. I,1,60 ('murus aheneus'), está marcado como 'talvez'.",
+     "s14-15: o validador avisa sobre 'salus' traduzido como 'saúde'; a escolha está explicada em @n."
+    ]
+   },
+   {
+    "id": "t2-np3-17",
+    "commit": "e8a23ad",
+    "problema": "Não acrescentei as entradas novas ao glossário. Um hook do ambiente (gateway RBSA, \"escopo de matéria ausente\") bloqueou a ferramenta Read em glossario.json e mandou não ler o arquivo por outro caminho. Sem essa leitura o Edit não funciona, por isso as entradas ficaram como propostas, abaixo. O validador não acusou nenhum aviso neste capítulo.",
+    "catalogo": [
+     "Título como impresso: 'ex libro tertio de libero arbitrio' (o catálogo traz 'ex libro 3.') e 'hypothesin' com minúscula.",
+     "Colunas 955-960 conferem: o capítulo começa em 955A e termina em 960A, antes do Caput XVIII."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada difficultas → 'dificuldade', 'dificuldades'. É a difficultas recti agostiniana, que Jansênio identifica com a concupiscência e que volta nos capítulos seguintes. Formas: difficultas, difficultatis, difficultatem, difficultate.",
+     "Nova entrada primordia naturalia → 'primórdios naturais'. Formas: primordia naturalia, primordia hominis naturalia. A fórmula de De lib. arb. III e de Retract. I,9 volta no título do cap. 18."
+    ],
+    "leituras_incertas": [
+     "955A, margem: 'Lib. 3. c. 24[?] vid. et c. 20. et 22[?].', com números mal legíveis.",
+     "957B, margem cortada na encadernação: 'Ib[?]. de lib. arb. c. 20[?].'",
+     "957C, s18: 'quod anima omnis[?] et quaerendum', com a última letra incerta (omnis ou omnino).",
+     "958D, s29: 'sint[?] severa poena[?] peccati'. Uma mancha cobre a primeira palavra e o fim de poena (poena ou poenae) é incerto."
+    ],
+    "duvidas": [
+     "s29: se a impressão traz poenae, severa não concorda. Traduzi 'são severa pena do pecado'.",
+     "s29: o antecedente de 'quod Adam fecerit… quod filiis imputetur' é peccati, o mesmo pecado cometido por Adão e imputado aos filhos.",
+     "s7: incarnationis animarum vai como 'incorporação das almas'.",
+     "s14: o quiasmo aequissimi sanctitas / sanctissimi aequitas vai como 'equitativíssimo' / 'equidade'.",
+     "s31: 'nemo esse liber arbitrio' vai como 'livre pelo arbítrio', com nota.",
+     "Remissões a De libero arbitrio III,19-23 e a Retractationes I,9: todas a conferir.",
+     "s1: Jansênio passa a citação de III,22,64 para o imperfeito (esset).",
+     "s32: 'dotes' é irônico, e a nota diz isso."
+    ]
+   },
+   {
+    "id": "t2-np3-18",
+    "commit": "b30c59d",
+    "problema": "O hook de contexto RBSA bloqueou a leitura de glossario.json pela ferramenta Read, e o Edit exige essa leitura antes. Por isso não acrescentei nenhuma entrada ao glossário e a proposta vai no relatório. O primeiro pull --rebase deu o erro 'Cannot rebase onto multiple branches'. Um laço repetiu o pull e o push e o loop terminou; o fetch confirmou que o commit b30c59d está em origin/main.",
+    "catalogo": [
+     "Título e colunas (959-962) conferem com a impressão. O capítulo começa no meio da coluna 959 (p. 485 do PDF) e termina na coluna 962 (p. 486)."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "Nova entrada 'pudor' -> 'pudor' (verbo pudere -> 'envergonhar-se'), distinta de confusio ('vergonha', como em capítulos anteriores) e de verecundia ('recato', t1-hp2-12). O termo volta neste livro e no De statu naturae lapsae. Não foi inserida porque o hook bloqueou a leitura do glossário."
+    ],
+    "leituras_incertas": [
+     "961B: 'ingenitis[?] sibi motibus' (pode ser ingeniis ou ingenitis; sentido provável: ingenitis)",
+     "961B, margem: 'Lib. 5. cont. Iul. c. ul[?]. Lib. 4. c. 3[?].'",
+     "962A: 'ex parentibus tracta[?]' (a última letra pode ser i ou a)"
+    ],
+    "duvidas": [
+     "960A: 'difficultas recti' traduzido como 'a dificuldade do que é reto', com nota",
+     "961A: 'inexcusabiliter habere locum' traduzido como 'tem lugar, sem escapatória'",
+     "962B: 'ex illo capite' traduzido como 'pelo mesmo título'; a nota registra a alternativa 'a partir desse mesmo capítulo'",
+     "962B: 'deficiunt' com acusativo ('faltam a') e 'impossibilem' no singular",
+     "959A: 'concreari' traduzido como 'concriadas'",
+     "Remissões, todas a conferir: Contra duas epistulas Pelagianorum IV,4; Sir 22,3 e 3,13 (Vulgata); Contra Julianum V (último capítulo) e IV,3; De libero arbitrio III,19,53, III,20,56 e III,20,58; Contra Julianum V,7"
+    ]
+   },
+   {
+    "id": "t2-np3-19",
+    "commit": "ec179ec",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: sem vírgula antes de 'neque majoribus' ('...in statu purae naturae neque majoribus, neque parvulis.'); grafia 'majoribus'.",
+     "Colunas reais: 963-968 (o capítulo começa no alto da col. 963 e termina na col. 968A; o cap. XX começa em 967 e continua em 968, então as colunas se sobrepõem). Páginas do PDF: 487-489."
+    ],
+    "glossario_novas": [],
+    "propostas_glossario": [],
+    "leituras_incertas": [
+     "col. 964A, margem cortada: 'Lib. 5[?]. c. [?]' (citação 'Vos autem negantes originale peccatum...')",
+     "col. 964A, margem cortada: 'Epist. [?]' (carta a Jerônimo; provavelmente Epist. 28, como na col. 965)",
+     "col. 964A: 'si paru[?] tantis'; as edições de Agostinho (Ep. 166) trazem 'si poenis tantis', e a tradução segue essa leitura",
+     "col. 964B, margem cortada: 'Ibidem[?]'",
+     "col. 964C, margem cortada: 'Lib. 1. retract. c. [?]' (o cap. XX cita o mesmo passo como 'Lib. 1. retract. c. 9')",
+     "col. 965C, margem ilegível: '[?]'"
+    ],
+    "duvidas": [
+     "§ 22: 'qualem ex ipso paulo ante capite praecedenti... adhibuimus': a defesa pela compensação nos adultos está nos §§ 3-7 deste mesmo capítulo. Pode ser descuido do autor; a tradução conserva a letra, com nota.",
+     "§ 2: 'Respondetur difficultas ista... urgeri potest' foi lido como 'Responde-se: essa dificuldade pode ser levantada...'.",
+     "§ 11: oposição 'quomodo jam injustum erit... Sin autem injustum, quomodo naturale': conferir se a tradução reflete a lógica do argumento.",
+     "Remissões a conferir: Quaest. in Hept. I,146 (José); Contra Iulianum III,3 e as duas outras citações sem margem legível; Ep. 166 (28 na numeração antiga) com os parágrafos; Retract. I,9; De lib. arb. III,23,68.",
+     "A grafia da impressão foi mantida em 'reseruaret paruulis' (col. 966A) e 'juuare' (col. 966C).",
+     "'majores' foi traduzido por 'adultos', como 'adulti'; 'parvuli' por 'crianças', a forma dominante na obra."
+    ]
+   },
+   {
+    "id": "t2-np3-20",
+    "commit": "4035368",
+    "problema": "",
+    "glossario_novas": [],
+    "propostas_glossario": [
+     "conditor: sem entrada; neste capítulo vertido por 'autor' (Creator = 'Criador'); convém fixar no glossário",
+     "supplicium: usado sempre 'suplício(s)' nos capítulos do livro; poderia ganhar entrada, em par com poena = 'pena'",
+     "primordia naturalia: 'primórdios naturais' já constante nos capítulos; poderia ganhar entrada"
+    ],
+    "leituras_incertas": [
+     "s6 (967C): 'me securum[?] fieret': a última linha da col. 967 está apagada",
+     "s8 (968A): 'vera[?] esset': a impressão parece trazer 'veri'",
+     "s10 (968B): 'monuisset[?]': a impressão parece trazer 'movisset'",
+     "s10 margem: 'Lib. de do. persev. c. 11[?]'",
+     "s17 (969B): 'confitentem[?]': lê-se 'co…tentem'",
+     "s18 margem: 'Lib. 3 de lib. arb. cap. [?]': número cortado",
+     "Letra de seção C da col. 969 e da col. 970 está pouco visível; atribuída por estimativa (969C em s18, 970C em s24)"
+    ],
+    "duvidas": [
+     "s6: a construção 'me securum fieret' é irregular na citação da Ep. 166,7,20 (numeração antiga 28); conferir no texto de Agostinho",
+     "s2: em 'sine causa mala', mala pode ir com causa ('causa de mal') ou com paterentur",
+     "s19: a margem 'Lib. 3. cont. Iul. cap. 12' pode remeter ao Contra Iulianum ou ao Opus imperfectum",
+     "s18: a passagem 'Restat ut propria voluntate peccetur…' não foi localizada no De lib. arb. III",
+     "Remissões a conferir: Retract. I,9,6; Ep. 166 = Ep. 28 antiga; De dono persev. 11,26-27 e 12,29-30; C. Iul. V,7; De lib. arb. III,18,51",
+     "s3 e s23: há um ponto suposto onde a impressão não o traz (culparetur. / spectabat.); está registrado em nota"
+    ],
+    "catalogo": [
+     "Título como impresso: 'solvitur' (o catálogo traz 'soluitur') e 'capite decimo-septimo'",
+     "Colunas reais: 967-970, como no catálogo; o capítulo começa no meio da página 489 e termina no meio da página 490 do PDF"
+    ]
+   },
+   {
+    "id": "t2-np3-21",
+    "commit": "0c469f1",
+    "problema": "",
+    "glossario_novas": [
+     "dominium → domínio (o domínio de Deus como criador sobre a criatura; formas dominium, dominio, dominii). Outro agente já a incluiu no commit dele do glossário."
+    ],
+    "propostas_glossario": [
+     "Fazer uma entrada para aequitas → equidade, porque já aparece em muitos capítulos sem entrada no glossário.",
+     "Fixar as traduções de virtus/fortitudo/potestas/robur nas citações de Sb 12. Aqui ficaram força/fortaleza/poder/vigor, com nota."
+    ],
+    "leituras_incertas": [
+     "Col. 972, margem cortada: 'Lib. de quantitate animae c. 9.[?]'",
+     "Col. 972, margem cortada: 'Lib. 1. de lib. arb.[?]'",
+     "Col. 972, margem cortada: 'Ibid.[?]'",
+     "Col. 976, margem: 'Lib. 3. cont. Iul. c. 3.[?]'",
+     "Col. 976, margem: 'Lib. 2. op. imperf. [?] 115.'",
+     "Col. 976, margem: 'Ibid. sup[?].'",
+     "Col. 976, margem: 'Lib. 3. cont. Iul.[?]'",
+     "Col. 976, margem: 'Lib. ad Bonif. [?]'",
+     "Col. 975: o grego ἐπιεικείᾳ está borrado na impressão (dito em nota)"
+    ],
+    "duvidas": [
+     "Col. 972, 'Quo si': transcrito como está impresso e traduzido como se fosse 'Quod si', com nota.",
+     "Col. 974, 'ominum': erro de impressão de 'omnium'. Ficou como está impresso, com nota.",
+     "Col. 974, em 'Et quasi Spiritu sancto inspiratus... praevidisset' falta o verbo principal. Os dois-pontos o suprem, com nota.",
+     "Col. 973, 'sine Dei justitia vel impotentia': lido como 'sem que falte a justiça a Deus ou haja nele impotência', com nota.",
+     "Col. 973, a margem 'Aug. lib. de pecc. orig. cap. 14.' não foi verificada. A citação que vem em seguida é da Epist. 28 (166 dos Maurinos).",
+     "Col. 972, a série de 'Cum...' causais foi traduzida como perguntas com 'Quando...'.",
+     "Col. 972, o sujeito de 'quas intuetur' pode ser a criatura ou Deus. A tradução segue a criatura.",
+     "Todas as remissões a Agostinho estão marcadas 'a conferir'. Os sermões citados por numeração antiga (Serm. 111 de divers., Serm. 17 de verb. Apost.) ainda não têm a equivalência com a numeração dos Maurinos."
+    ],
+    "catalogo": [
+     "O catálogo está correto: título como impresso e colunas 969-976. O capítulo começa no pé da col. 969 (p. 490) e termina na col. 976, antes do Caput XXII (p. 493)."
+    ]
+   },
+   {
+    "id": "t2-np3-22",
+    "commit": "1b313da2b3bd96c492c13e89026325ec29ceae85",
+    "problema": "",
+    "catalogo": [
+     "Título como impresso: 'Solvitur difficultas ex Bulla duorum Pontificum.' (o catálogo traz 'Soluitur')",
+     "Colunas reais 975-980 (confere); o capítulo começa no meio da p. 493 do PDF e termina na p. 495 com FINIS, último texto do tomo II (a p. 496 já é o Elenchus do tomo)"
+    ],
+    "glossario_novas": [
+     "Sedes Apostolica -> Sé Apostólica (acrescentada com glossario_add.py; no commit a mudança do glossário aparece junto com a entrada 'volitio', que outro agente tinha acrescentado ao arquivo de trabalho e ainda não tinha commitado; a minha entrada parece já ter entrado num commit de outro agente)"
+    ],
+    "propostas_glossario": [
+     "recentiores: em s26 'recentiorum Praesulum Apostolicae Sedis' tem sentido cronológico (Pio V e Gregório XIII diante dos papas antigos), por isso traduzi 'mais recentes' e expliquei em @n; o validador deixa o aviso. Talvez valha registrar essa exceção na nota da entrada"
+    ],
+    "leituras_incertas": [
+     "Margem de 976B: 'In lib.[?] ad Valer. et 3.[?] cont. Jul.'",
+     "Margem de 977D, comida pela encadernação: 'Sclusius[?] in tractatu de pecc. orig. Malderus[?], Tolet.[?], Wiggers.'",
+     "s3: 'asseveret' (a impressão parte 'asse-/veret'; a carta de Hormisdas parece ter 'servet')"
+    ],
+    "duvidas": [
+     "s2: 'in septem Pontificibus', mas s3 lista nove papas; ficou como está impresso, com nota",
+     "s2: 'ipse impegisse videatur', singular depois de 'nobis'; uniformizei no plural",
+     "s1: Art. 55 = proposição 55 de Baio (DH 1955); a ordem das palavras difere um pouco, a conferir",
+     "s3, s4 e s18: as citações de Celestino I (magistri optimi; cunctis venerationi et amori), de Hormisdas a Possessor e de João II aos senadores foram adaptadas por Jansênio; a conferir",
+     "s24: leitura que Jansênio faz da cláusula final da Ex omnibus afflictionibus (comma Pianum); a nota está prudente, a conferir",
+     "s14: 'Quod nonnulli etiam Scholastici' traduzido como 'Por isso alguns escolásticos também'; também pode ser relativo de ligação",
+     "s19: sujeito implícito de defendit e prodidit entendido como Agostinho, dentro da hipótese"
+    ]
+   }
+  ],
+  "faltando": [],
+  "audit": {
+   "livro": "De statu purae naturae, liber III (t2-np3-01 a t2-np3-22)",
+   "commit": "",
+   "correcoes": [],
+   "observacoes": [
+    "Auditoria feita por contagem trecho a trecho: para cada lema do glossário, comparei o número de ocorrências das formas latinas em cada trecho com o número de ocorrências das versões pt no trecho correspondente, primeiro distinguindo maiúsculas e depois sem distinguir. É mais rigoroso que o validador, que só confere se pelo menos uma versão aparece no trecho. 38 lemas aparecem no latim do livro. O resultado é uniforme: só seis trechos ficaram abaixo da contagem, e todos têm justificativa. Nenhuma correção foi necessária, por isso não há commit.",
+    "Divergências justificadas, que deixei como estão: (1) salus em t2-np3-16 s14 e s15 vira 'saúde' na comparação médica de Agostinho, com @n em cada trecho. (2) recentiores em t2-np3-22 s26 vira 'mais recentes', no sentido cronológico (Pio V e Gregório XIII), com @n. (3) affectus em t2-np3-12 s37 (Arnóbio, affectum no sentido de effectum, 'execução') e em t2-np3-14 s18 (materiae affectu, 'disposição da matéria'), ambos com @n. (4) Pelagiani em t2-np3-22 s4: a segunda ocorrência é adjetiva ('Pelagianos cineres', 'cinzas pelagianas'). É aplicação correta e dispensa nota.",
+    "node tools/validar.mjs: 0 erros. Os únicos avisos do livro são os 5 casos justificados acima. Não rodei o build porque não houve alteração.",
+    "Não mexi no glossário, no latim, em docs/ nem nos arquivos de outros agentes que estavam modificados no repositório (t2-nl2-03, t2-nl2-04, glossario.json.lock e capítulos la sem pt).",
+    "Divergências de termos que ainda não estão no glossário, que não corrigi por não serem aplicação do glossário (ver propostas): beatitudo, pura naturalia e conditor."
+   ],
+   "propostas_glossario": [
+    "miseria (miseria, miseriae, miseriam, miseriarum, miseriis, miserias) -> 'miséria(s)'; miser/misera -> 'miserável'. É o tema do livro e aparece nos 22 capítulos. A tradução já é uniforme. Proposta dos caps. 01 e 02.",
+    "lex aeterna (lex aeterna, legis aeternae, legem aeternam, lege aeterna, aeternam legem, aeternae legis, aeterna lege) -> 'lei eterna'. Ocorre nos caps. 02, 06, 12 e 21, todos com 'lei eterna', de modo que a entrada não gera aviso novo. Proposta dos caps. 02 e 06.",
+    "beatitudo -> 'bem-aventurança' e beatus -> 'bem-aventurado'; felicitas -> 'felicidade'. Há divergência real: os caps. 01-05, 10, 12, 13, 16 e 21 usam 'bem-aventurança', e os caps. 15 (3x) e 17 (9x, ex.: 'glória da beatitude eterna', 'beatitude da sabedoria') usam 'beatitude'. Fixar a entrada e, depois, uniformizar 15 e 17. Proposta dos caps. 02 e 04.",
+    "pura naturalia / in puris naturalibus / status purorum naturalium -> 'puros naturais' / 'estado dos puros naturais'. Há divergência real: o cap. 07 usa 'puros bens naturais' (2x: 'aos puros bens naturais'; 'nascessem nos puros bens naturais'), enquanto os caps. 06, 09-15, 18 e 21 usam 'puros naturais'. Fixar a entrada e uniformizar o 07. Proposta dos caps. 06 e 09.",
+    "conditor: sem entrada, e o livro alterna entre 'criador' e 'autor' (caps. 11, 12, 14, 17, 18 e 20 usam as duas palavras; o cap. 20 traz 'autor' 6x e 'Criador' 6x). Decidir 'criador' (com Creator = 'Criador') ou 'autor'. Proposta do cap. 20, mais o que notei na auditoria.",
+    "supplicium -> 'suplício(s)': a pena propriamente dita, imposta por culpa, em par com poena = 'pena'. Já uniforme (48 ocorrências pt). Proposta dos caps. 10 e 20.",
+    "aequitas -> 'equidade': uniforme (33 ocorrências, 9 capítulos). Proposta dos caps. 09 e 21.",
+    "providentia -> 'providência': uniforme (37 ocorrências). Proposta dos caps. 04 e 07.",
+    "difficultas (difficultas, difficultatis, difficultatem, difficultate) -> 'dificuldade(s)': a difficultas recti agostiniana, que Jansênio identifica com a concupiscência. Uniforme (caps. 04, 06, 07, 14-20). Proposta do cap. 17.",
+    "primordia naturalia (primordia naturalia, primordia hominis naturalia) -> 'primórdios naturais' (De lib. arb. III; Retract. I,9). Uniforme nos caps. 17-20 (12 ocorrências). Proposta dos caps. 17 e 20.",
+    "poena damni (poena damni, poenam damni, poenae damni) -> 'pena de dano'; poena sensus (poena sensus, poenam sensus) -> 'pena de sentido'; visio beatifica (beatificae visionis) -> 'visão beatífica'. Aparecem no cap. 05. Proposta do cap. 05.",
+    "fatuitas (fatuitas, fatuitatis, fatuitate, fatuitatem; fatuus, fatuam, fatuos) -> 'idiotia' / 'idiota': fixado em nota no cap. 09 e usado nos caps. 06 e 09-11 (14 ocorrências). Também 'obtusio/obtusitas' -> 'embotamento' e 'tarditas' -> 'lentidão' ('ingenii tarditas', 'lentidão da inteligência'). Proposta do cap. 11.",
+    "pudor -> 'pudor' (pudere -> 'envergonhar-se'), distinto de confusio ('vergonha') e de verecundia ('recato', t1-hp2-12). Aparece nos caps. 15, 18 e 22. Proposta do cap. 18.",
+    "defectus: distinguir dois sentidos, 'defeito' (falha) nos caps. 06, 08, 09 e 11, e 'desfalecimento' (deixar de ser, De lib. arb. III,15) no cap. 12 (16x), com defectibilitas = 'defectibilidade' e defectibilis = 'defectível'. Proposta do cap. 12.",
+    "vindicare/vindicta -> 'punir'/'punição'; dedecus/decus vindictae -> 'desonra'/'decoro da punição'. Aparece nos caps. 02-04, 12, 16 e 21. Proposta do cap. 03.",
+    "condemnatio (Sb 17,10, cap. 03): ficou 'condenação' no sentido comum. Decidir se entra nas formas de damnatio ou fica distinta. Proposta do cap. 03.",
+    "affectio ('turpis affectio', 'bona rationalis mentis affectio') -> 'afeição', distinta de affectus = 'afeto'. Caps. 02, 06 e 14. Proposta do cap. 02.",
+    "affectus (nota da entrada): registrar o sentido não técnico de estado ou disposição de uma coisa (t2-np3-14 s18, 'materiae affectu') e o uso por effectum em Arnóbio (t2-np3-12 s37). Hoje são os dois avisos do validador no livro. Proposta dos caps. 12 e 14.",
+    "salus (nota da entrada): admitir 'saúde' como forma alternativa nas comparações médicas, o que resolve os avisos de t2-np3-16 s14 e s15. Proposta do cap. 16.",
+    "recentiores (nota da entrada): registrar a exceção cronológica ('mais recentes') de t2-np3-22 s26, 'recentiorum Praesulum Apostolicae Sedis'. Proposta do cap. 22.",
+    "dominium x dominatus: as duas entradas dão 'domínio' (dominium já foi acrescentado por outro agente). Avaliar 'senhorio' para dominium, o poder de Deus como senhor. Proposta dos caps. 16 e 21.",
+    "honestas no sentido de decoro ou conveniência (cap. 04, §§ 5-6: 'contra honestatem', 'inhonestum est'): ficou 'honestidade', com nota. Talvez registrar na nota de 'honestas moralis'. Proposta do cap. 04.",
+    "materiarii -> 'materiários' (caps. 12 e 14, 4 ocorrências). Proposta do cap. 12.",
+    "gens tenebrarum (maniqueus) -> 'raça das trevas' (16 ocorrências). Proposta do cap. 13.",
+    "scelus -> 'crime', como facinus (cap. 14, §§ 8-10; também nos caps. 04 e 07). A nota de facinus prevê rever se os dois vierem juntos. Proposta do cap. 14.",
+    "Sb 12 (cap. 21): fixar virtus/fortitudo/potestas/robur como força/fortaleza/poder/vigor, a forma que ficou com nota. Proposta do cap. 21.",
+    "poena formaliter sumpta -> 'pena tomada formalmente'; sub ratione X -> 'sob a razão de X'. Proposta do cap. 10.",
+    "Já acrescentadas ao glossário por agentes dos capítulos: Sedes Apostolica -> 'Sé Apostólica' (cap. 22; uniforme nas 7 ocorrências do livro) e dominium -> 'domínio' (cap. 21; uniforme nas 6 ocorrências)."
+   ]
+  }
+ }
+]

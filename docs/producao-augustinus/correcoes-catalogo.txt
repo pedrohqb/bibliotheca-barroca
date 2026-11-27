@@ -1,0 +1,5 @@
+t2-lp-11: título no catálogo 'instorum,quam' → impresso 'justorum, quam'
+t2-lp-10: título por extenso 'Quid moverit auctorem, ad indagandam veritatem de gratia et praedestinatione, ex Conciliis et Augustino.' (catálogo abrevia)
+t2-lp-09: título 'Concilijs et' → 'Conciliis, et'
+t2-ni-15: título 'cap. 12.' → 'capite 12.'
+t2-nl1-01: colunas reais 185-192 (catálogo 185-190), pp. 100-103
