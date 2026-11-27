@@ -1030,5 +1030,17 @@
     "formas": ["attritio", "attritionem", "attritionis", "attritione"],
     "pt": ["atrição"],
     "nota": "\"Atrição\": a dor dos pecados nascida do temor da pena, distinta da contrição. Livro V da Graça de Cristo, cap. 13."
+  },
+  {
+    "lema": "inspiratio",
+    "formas": ["inspiratio", "inspirationis", "inspirationem", "inspiratione", "inspirationibus"],
+    "pt": ["inspiração", "inspirações"],
+    "nota": "\"Inspiração\": o ato atual com que Deus move interiormente a vontade (inspirar a dileção, a boa vontade, o desejo); no livro II do *De gratia Christi Salvatoris*, cap. 16, prova de que a graça de Cristo é atual. O verbo *inspirare*, \"inspirar\"."
+  },
+  {
+    "lema": "instinctus",
+    "formas": ["instinctus", "instinctu", "instinctum"],
+    "pt": ["impulso"],
+    "nota": "\"Impulso\" quando é movimento interior dado por Deus (*instinctu Dei*, de Zósimo; livro II do *De gratia Christi Salvatoris*, cap. 16), ao lado de *inspiratio* e *tactus* (\"toque\"); \"instinto\" daria em português o sentido de impulso natural. No sentido natural (animal), \"instinto\"."
   }
 ]
