@@ -724,5 +724,17 @@
     "formas": ["perseverantia", "perseverantiae", "perseverantiam"],
     "pt": ["perseverança"],
     "nota": "\"Perseverança\": o dom de permanecer no bem até o fim (Agostinho, *De dono perseverantiae*; *De correptione et gratia*). O advérbio *perseveranter*, \"com perseverança\"; *perseverare*, \"perseverar\"."
+  },
+  {
+    "lema": "praedeterminatio physica",
+    "formas": ["praedeterminatio physica", "praedeterminationem physicam", "praedeterminationis physicae", "praedeterminatione physica"],
+    "pt": ["predeterminação física"],
+    "nota": "\"Predeterminação física\": a moção de Deus que, segundo os tomistas (Báñez), determina de antemão e por si mesma a vontade ao consentimento; oposta à graça côngrua dos molinistas e congruístas (livro VIII da Graça de Cristo, cap. 1 e seguintes). *Praedeterminare*, \"predeterminar\"."
+  },
+  {
+    "lema": "scientia conditionata",
+    "formas": ["scientia conditionata", "scientiam conditionatam", "scientia conditionali"],
+    "pt": ["ciência condicionada"],
+    "nota": "\"Ciência condicionada\": o conhecimento com que Deus, segundo Molina, Suárez e Lessio, sabe o que a vontade livre faria se lhe fosse dada tal graça em tais circunstâncias (a \"ciência média\" dos molinistas); forma já usada nos capítulos anteriores."
   }
 ]
