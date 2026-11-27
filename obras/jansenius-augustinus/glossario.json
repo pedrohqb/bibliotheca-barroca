@@ -904,5 +904,35 @@
     "formas": ["reprobi", "reprobos", "reprobis", "reproborum"],
     "pt": ["réprobo", "réprobos"],
     "nota": "\"Réprobo(s)\": os não predestinados à glória, destinados à condenação. *Reprobatio*, \"reprovação\"."
+  },
+  {
+    "lema": "demeritum",
+    "formas": ["demeritum", "demeriti", "demerito", "demerita", "demeritis"],
+    "pt": ["demérito", "deméritos"],
+    "nota": "\"Demérito\": a culpa que torna merecedor de pena, oposto de *meritum*. A predestinação à pena pressupõe a presciência de algum demérito (livro IX, cap. 4)."
+  },
+  {
+    "lema": "discretio",
+    "formas": ["discretio", "discretionem", "discretionis", "discretione"],
+    "pt": ["discernimento"],
+    "nota": "\"Discernimento\", no sentido de separação de uns e de outros pela graça (1Cor 4,7, *quis enim te discernit?*); o verbo *discernere* fica \"discernir\" e *discretus*, \"discernido\". Mantém o vínculo com a *gratia discretiva* (\"graça que discerne\"). Um dos nomes da predestinação em Agostinho (livro IX, cap. 5)."
+  },
+  {
+    "lema": "praeparatio",
+    "formas": ["praeparatio", "praeparationem", "praeparationis", "praeparatione"],
+    "pt": ["preparação"],
+    "nota": "\"Preparação\": na definição agostiniana da predestinação (*praescientia et praeparatio beneficiorum Dei*, De dono perseverantiae 14,35), a disposição eterna dos benefícios de Deus; Jansênio distingue a preparação eterna (a predestinação) da temporal (vocação, justificação, glorificação). Livro IX, cap. 5."
+  },
+  {
+    "lema": "beneplacitum",
+    "formas": ["beneplacitum", "beneplaciti", "beneplacito"],
+    "pt": ["beneplácito"],
+    "nota": "\"Beneplácito\" (Ef 1,9, *secundum beneplacitum eius*): o livre agrado da vontade de Deus na predestinação; *voluntas beneplaciti*, \"vontade de beneplácito\". *Placitum* (Ef 1,5 na citação de Agostinho, *secundum placitum voluntatis suae*) fica \"agrado\". Livro IX, cap. 5."
+  },
+  {
+    "lema": "Genethliaci",
+    "formas": ["Genethliaci", "Genethliacos", "Genethliacas"],
+    "pt": ["genetlíacos", "genetlíacas"],
+    "nota": "\"Genetlíacos\": os astrólogos que tiram o horóscopo do nascimento (*genethlia*), autores do primeiro dos dois destinos pagãos (livro VII da Heresia pelagiana, caps. 8 e 9); *constellationes Genethliacae*, \"constelações genetlíacas\". Cf. *fatum*."
   }
 ]
