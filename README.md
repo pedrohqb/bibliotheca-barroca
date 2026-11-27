@@ -11,7 +11,7 @@ Obras em produção, com o plano e o prompt de cada sessão:
 - Diego de Covarrubias, *Opera omnia* (Antuérpia, 1610, começando pelas *relectiones* sobre boa-fé, pactos e restituição): [docs/plano-covarrubias.md](docs/plano-covarrubias.md)
 - Justiniano, *Digesto* (latim de Mommsen e Krueger, Berlim, 1889; tradução sem debate, com traduções de apoio): [docs/plano-digesto.md](docs/plano-digesto.md)
 - Calvino, *Institutio christianae religionis* (1559), com contraponto católico capítulo a capítulo (em estudo): [docs/plano-institutio.md](docs/plano-institutio.md)
-- Savigny, *System des heutigen römischen Rechts* (Berlim, 1840–1849), e Windscheid, *Lehrbuch des Pandektenrechts* (7ª ed., Frankfurt, 1891): as primeiras obras traduzidas do alemão, com cotejo das traduções históricas, e obras afins de Savigny e Jhering (*Obligationenrecht*, *Recht des Besitzes*, *Vom Beruf unsrer Zeit*, *Culpa in contrahendo*) (em estudo): [docs/plano-pandectistica.md](docs/plano-pandectistica.md)
+- Savigny, *System des heutigen römischen Rechts* (Berlim, 1840–1849), e Windscheid, *Lehrbuch des Pandektenrechts* (7ª ed., Frankfurt, 1891): as primeiras obras traduzidas do alemão, com cotejo das traduções históricas, e obras afins de Savigny e Jhering (*Obligationenrecht*, *Recht des Besitzes*, *Vom Beruf unsrer Zeit*, *Culpa in contrahendo*) (em estudo; a tradução começa depois do Digesto): [docs/plano-pandectistica.md](docs/plano-pandectistica.md)
 
 ## Estrutura
 

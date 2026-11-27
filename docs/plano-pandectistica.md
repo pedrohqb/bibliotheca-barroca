@@ -8,6 +8,7 @@ A lista de fontes, com os identificadores de cada volume, também está em `docs
 
 ## Decisões já tomadas (valem por regra do projeto)
 
+- **Digesto antes** (Pedro, 2026-11-27): a tradução das obras deste plano (calibração e produção) só começa depois de terminado o Digesto (`docs/plano-digesto.md`), porque a pandectística cita o Digesto a cada passo e as citações devem remeter à tradução já feita, com o glossário latino fixado. A etapa 0 (preparação) pode correr antes, em paralelo: fontes, catálogos, datas de morte dos tradutores; a mudança em `tools/` e `site/` só num momento em que nenhuma sessão do Digesto esteja rodando.
 - **Duas obras, um plano** (Pedro, 2026-11-27): Savigny e Windscheid são obras separadas no repositório e no site (`obras/savigny-system/` e `obras/windscheid-pandekten/`, cada uma com `obra.json`, catálogo, glossário e página próprios), mas o planejamento fica neste documento único, porque as duas dividem as mudanças em `tools/`, os critérios do alemão e a base terminológica.
 - **Tradução do original alemão**, nunca de uma tradução. As traduções históricas servem ao cotejo, trecho a trecho; nada se copia delas, e divergência de sentido entre elas vai em `@n`.
 - **Sem debate entre IAs** (regra do Pedro de 2026-11-27, no `CRITERIOS.md`): as duas obras têm traduções existentes, então são traduzidas do alemão, comparadas com elas e ficam `estado: cotejada` ("tradução com comparações" no site). As edições efetivamente cotejadas vão em `obra.json` → `traducoes_cotejadas` e no `processo` de cada capítulo.
@@ -130,7 +131,7 @@ Não entram, por protegidas: as traduções francesa de Alfred Dufour (2006) e e
 
 ### Ordem de produção (decidida)
 
-O Pedro aprovou as quatro obras e deixou a ordem a critério do plano (2026-11-27). Ordem fixada:
+O Pedro aprovou as quatro obras e deixou a ordem a critério do plano (2026-11-27). Ordem fixada, depois do Digesto:
 
 1. **Jhering, *Culpa in contrahendo***: curta, serve de piloto do método alemão (transcrição da Fraktur, notas do autor, cotejo, glossário).
 2. **Savigny, *Vom Beruf unsrer Zeit***: curta; segundo piloto, já com Savigny, e o programa que o *System* executa.
@@ -240,8 +241,8 @@ Na VM, como nas outras obras: `~/bibliotheca-fontes/savigny-system/` e `~/biblio
 
 | Etapa | O que se faz | Termina quando |
 |---|---|---|
-| 0. Estrutura | Mudanças em `tools/` e `site/` (acima); fontes baixadas; `catalogo.json` das duas obras (§, título, volume, páginas, palavras, páginas em cada tradução) | validador e site funcionam com uma obra alemã de teste |
-| 1. Calibração | Jhering, *Culpa in contrahendo*, inteira, e Savigny, *System*, §§ 4–5 (relação jurídica, instituto jurídico) e § 52 (essência das relações jurídicas), de ponta a ponta; no início de Windscheid, §§ 37–37a e 43–44 e a conferência da edição alemã seguida por Fadda e Bensa | o Pedro leu, aprovou glossário e forma, e disse "pode seguir" |
+| 0. Estrutura (pode correr durante o Digesto) | Mudanças em `tools/` e `site/` (acima), fora das horas de produção do Digesto; fontes baixadas; datas de morte dos tradutores; `catalogo.json` das obras (§, título, volume, páginas, palavras, páginas em cada tradução) | validador e site funcionam com uma obra alemã de teste |
+| 1. Calibração (depois do Digesto) | Jhering, *Culpa in contrahendo*, inteira, e Savigny, *System*, §§ 4–5 (relação jurídica, instituto jurídico) e § 52 (essência das relações jurídicas), de ponta a ponta; no início de Windscheid, §§ 37–37a e 43–44 e a conferência da edição alemã seguida por Fadda e Bensa | o Pedro leu, aprovou glossário e forma, e disse "pode seguir" |
 | 2. Produção | obra a obra, na ordem acima; § a §; ponto de controle ao fim de cada volume ou obra | |
 | 3. Fechamento | auditoria de uniformidade dos termos | relatório ao Pedro |
 
