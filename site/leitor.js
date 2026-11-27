@@ -114,7 +114,8 @@
       }
       return out;
     };
-    let fila = [], ti = 0, pi = 0, tocando = false, geracao = 0, atual = null, voz = null;
+    let fila = [], ti = 0, pi = 0, tocando = false, geracao = 0, atual = null, voz = null, semVoz = false, vigia = 0;
+    const SEM_VOZ = 'Nenhuma voz neste navegador. No Linux, o Firefox e o Brave precisam do speech-dispatcher com uma voz instalada; o Google Chrome já traz a sua.';
     const carregar = () => {
       const main = document.querySelector('main');
       const h1 = main?.querySelector('h1')?.textContent.trim() || '';
@@ -168,6 +169,7 @@
       }));
       if (vs.some(v => v.name === salva)) selVoz.value = salva;
       voz = vs.find(v => v.name === selVoz.value) || null;
+      semVoz = !sintese.getVoices().length;
     };
     preencher();
     sintese.addEventListener?.('voiceschanged', preencher);
@@ -198,8 +200,12 @@
       u.lang = voz?.lang || 'pt-BR';
       if (voz) u.voice = voz;
       u.rate = +selVel.value || 1;
-      u.onend = () => { if (g === geracao && tocando) { pi++; dizer(); } };
+      clearTimeout(vigia);
+      vigia = setTimeout(() => { if (g === geracao && tocando) { pausar(); est.textContent = semVoz ? SEM_VOZ : 'A voz não respondeu. ' + SEM_VOZ; } }, 4000);
+      u.onstart = () => clearTimeout(vigia);
+      u.onend = () => { clearTimeout(vigia); if (g === geracao && tocando) { pi++; dizer(); } };
       u.onerror = e => {
+        clearTimeout(vigia);
         if (g !== geracao || e.error === 'interrupted' || e.error === 'canceled') return;
         pausar();
         est.textContent = e.error === 'not-allowed' ? 'O navegador bloqueou a voz: clique em Continuar.' : 'A voz falhou (' + e.error + ').';
@@ -213,7 +219,7 @@
     const reiniciar = () => { if (tocando) { pi = 0; recomecar(); } };
     const tocar = () => { tocando = true; painel.hidden = false; botao.setAttribute('aria-pressed', 'true'); doc.classList.add('com-ouvinte'); recomecar(); };
     // Pausar cancela e lembra a frase: o pause()/resume() nativo é instável no Chrome.
-    const pausar = () => { tocando = false; geracao++; sintese.cancel(); situar(); };
+    const pausar = () => { tocando = false; geracao++; clearTimeout(vigia); sintese.cancel(); situar(); };
     const fechar = () => {
       pausar();
       painel.hidden = true;
