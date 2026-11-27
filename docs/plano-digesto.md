@@ -8,7 +8,7 @@ Obra no repositório: `obras/iustinianus-digesta/`. Pedido do Pedro (2026-11-26)
 |---|---|---|
 | Latim | transcrito das imagens do scan | gerado da transcrição digital de Lassard e Koptev (Mommsen-Krueger) por `tools/digesto.py latim`, depois **conferido contra o scan de 1889** |
 | Debate | Codex e Gemini, perfil `traducao` | **nenhum** (decisão do Pedro); o passo 6 da skill não se aplica |
-| Estado final da sessão | `debatida` | `rascunho` (o site mostra "ainda sem debate") |
+| Estado final da sessão | `debatida` | `cotejada` (o site mostra "tradução com comparações") |
 | Referência do trecho | coluna ou página | a citação usual (`referencia: lei` em `obra.json`): `@s5 1.1.1.4`, que o site mostra como "D. 1.1.1.4" |
 
 ## Fontes
@@ -49,7 +49,7 @@ Regra: a tradução é feita **do latim**. As traduções de apoio servem para c
    - aspas da impressão (‘…’).
    A diferença que mude o sentido vai em `@n` na tradução. `transcricao: provisoria` (só o Pedro marca `conferida`).
 3. Glossário (`glossario.json`), como na skill: versão fixada; termo novo recorrente entra; entrada existente não muda sem o Pedro.
-4. Tradução em `pt/<id>.md`, pelo `CRITERIOS.md`, com `python3 tools/digesto.py apoio <id>` à vista. Cabeçalho: `livro: Livro primeiro`…, `livro_curto: Livro I`, `capitulo: Título I`, `titulo` em português, `tradutor: Pedro H. Q. Barreto`, `processo: Primeira versão com Claude, feita do latim e cotejada com as traduções de <as usadas>`, `estado: rascunho`.
+4. Tradução em `pt/<id>.md`, pelo `CRITERIOS.md`, com `python3 tools/digesto.py apoio <id>` à vista. Cabeçalho: `livro: Livro primeiro`…, `livro_curto: Livro I`, `capitulo: Título I`, `titulo` em português, `tradutor: Pedro H. Q. Barreto`, `processo: Primeira versão com Claude, feita do latim e cotejada com as traduções de <as usadas>`, `estado: cotejada`.
    - Inscrição: `*Ulpiano, Instituições, livro 1.*` (autor em português, obra em português e em itálico com o resto, livro em algarismo; *libro singulari*, "livro único"; *ad Sabinum*, "Comentários a Sabino"; *ad edictum*, "Comentários ao edito"). Mantenha uma lista das obras já vertidas em `docs/progresso-digesto.md` para que cada uma tenha sempre o mesmo nome.
    - Nomes de ações e fórmulas: em latim na primeira ocorrência do título, com a tradução.
 5. `node tools/validar.mjs` (nenhum erro; aviso de glossário resolvido ou explicado em `@n`) e `node tools/build.mjs`.

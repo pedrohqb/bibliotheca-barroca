@@ -44,6 +44,8 @@ for (const o of obras) {
         if (tr.meta.estado === 'debatida' && !temDebate) erros.push(`${rel(tr.arquivo)}: estado "debatida", mas não há debate/${o.id}/${c.id}/resumo.md`);
         if (tr.meta.debate && !temDebate) erros.push(`${rel(tr.arquivo)}: "debate: ${tr.meta.debate}", mas não há debate/${o.id}/${c.id}/resumo.md`);
         if (temDebate && !tr.meta.debate) avisos.push(`${rel(tr.arquivo)}: debate registrado, mas sem a data no campo "debate"`);
+        if (o.meta.traducoes_cotejadas?.length && tr.meta.estado === 'rascunho') avisos.push(`${rel(tr.arquivo)}: obra com traduções cotejadas; o estado é "cotejada", não "rascunho"`);
+        if (tr.meta.estado === 'cotejada' && temDebate) avisos.push(`${rel(tr.arquivo)}: tradução cotejada não vai a debate (só obras sem outra tradução)`);
         if (/debat/i.test(tr.meta.processo || '')) avisos.push(`${rel(tr.arquivo)}: "processo" fala de debate; o histórico do debate vem do registro e do campo "debate" (README)`);
       }
       const idsTr = tr.trechos.map(t => t.id).join(' ');

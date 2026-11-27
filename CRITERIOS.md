@@ -39,11 +39,14 @@ Limitação do projeto: a transcrição é conferida pelo agente que a faz e, de
 - Remissões (Agostinho, concílios, Escritura) são conferidas na fonte antes de passar a tradução para `revisada`; numeração antiga (por exemplo, cartas de Agostinho antes dos Maurinos) é indicada como tal.
 - Jogos de palavras e ambiguidades do latim são conservados quando possível; quando não, nota.
 
+O debate entre IAs só se faz quando a obra não tem outra tradução que sirva de comparação. Obra com traduções existentes (o Digesto, por exemplo) é traduzida do latim e comparada com elas, trecho a trecho, com as edições usadas registradas em `obra.json` → `traducoes_cotejadas` e no `processo`; fica `cotejada` e não vai a debate.
+
 Estados da tradução (`estado:` no cabeçalho):
 
 | Estado | O que significa |
 |---|---|
 | `rascunho` | primeira versão, ainda sem debate |
+| `cotejada` | tradução feita do latim e comparada com outras traduções da obra; não vai a debate ("tradução com comparações" no site) |
 | `debatida` | passou pelo debate entre modelos; objeções registradas em `debate/` |
 | `revisada` | revista pelo tradutor, com remissões conferidas |
 | `publicada` | revisão final concluída |

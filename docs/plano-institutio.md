@@ -109,7 +109,7 @@ Regras:
 2. **Do latim ou das traduções.** O Pedro falou em traduzir "usando as várias traduções existentes". A regra das outras obras (`CRITERIOS.md`, e o Digesto em `docs/plano-digesto.md`) é traduzir do latim, com as traduções só como apoio, sem copiar delas. Confirmar com ele.
 3. **Texto latino de base.** Impressão de 1559 (Genebra, Robert Estienne) digitalizada, pela regra do `CRITERIOS.md`; a de *Calvini Opera*, vol. 2 (Brunsvigae, 1864), só para conferência. Exemplar e scan ainda não escolhidos.
 4. **Traduções de apoio.** Candidatas em domínio público: o francês de Calvino (1560), Norton (1561), Allen (1813), Beveridge (1845), o espanhol de Cipriano de Valera (1597). Battles (1960) e as notas de Barth-Niesel não estão em domínio público. Falta escolher e localizar os scans.
-5. **Debate ou não.** O Digesto dispensou o debate; aqui o Pedro ainda não decidiu.
+5. **Debate ou não.** Decidido pelo Pedro (2026-11-27): o debate de IA só se faz quando não há outra tradução. A *Institutio* tem traduções para comparar; logo, como o Digesto, sai `cotejada`, sem debate.
 6. **Unidade e ids.** Provável: capítulo = capítulo de Calvino, trecho = seção (§); ids `l1-c01`… a definir.
 
 ## Fontes do contraponto (edições conferidas na pesquisa)

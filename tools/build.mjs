@@ -11,7 +11,7 @@ fs.mkdirSync(path.join(SAIDA, 'assets'), { recursive: true });
 for (const f of ['estilo.css', 'leitor.js', 'busca.js']) fs.copyFileSync(path.join(RAIZ, 'site', f), path.join(SAIDA, 'assets', f));
 
 const FONTES = 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap';
-const ESTADO = { importada: 'tradução própria, aguardando debate', rascunho: 'tradução em rascunho', revisada: 'tradução revista', debatida: 'tradução debatida', publicada: 'tradução revista e publicada' };
+const ESTADO = { importada: 'tradução própria, aguardando debate', rascunho: 'tradução em rascunho', cotejada: 'tradução com comparações', revisada: 'tradução revista', debatida: 'tradução debatida', publicada: 'tradução revista e publicada' };
 const REF = { coluna: 'col.', pagina: 'p.', folio: 'fol.', lei: 'D.' };
 // Referência do trecho no gutter; no Digesto (referencia: lei) é a citação usual, D. 1.1.1 pr.
 const refTrecho = (o, col) => o.meta.referencia === 'lei' ? col.replace(/\.pr$/, ' pr.') : col;
@@ -58,11 +58,13 @@ const historico = (o, c) => {
     const quando = dataBr(c.pt.meta.debate);
     return `Debatida com Codex e Gemini${quando ? ' em ' + quando : ''}${n ? ` (${n} rodada${n > 1 ? 's' : ''})` : ''}; <a href="${REPO}/debate/${o.id}/${c.id}/resumo.md">resumo do debate</a>. `;
   }
-  return ['rascunho', 'importada'].includes(c.pt.meta.estado) ? 'Ainda sem debate. ' : '';
+  return ['rascunho', 'importada'].includes(estadoDe(o, c)) ? 'Ainda sem debate. ' : '';
 };
 const LICENCAS = { 'CC BY-NC-ND 4.0': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt-br' };
 const licenca = n => LICENCAS[n] ? `<a href="${LICENCAS[n]}">${esc(n)}</a>` : esc(n);
-const estadoTraducao = c => c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução';
+// Obra feita por comparação com outras traduções (obra.json → traducoes_cotejadas) não vai a debate: rascunho conta como "cotejada".
+const estadoDe = (o, c) => (c.pt?.meta.estado === 'rascunho' && o?.meta.traducoes_cotejadas?.length ? 'cotejada' : c.pt?.meta.estado);
+const estadoTraducao = (c, o) => c.pt ? (ESTADO[estadoDe(o, c)] || 'tradução') : 'sem tradução';
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
@@ -175,7 +177,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
-<p class="aviso"><b>${esc(estadoTraducao(c).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
+<p class="aviso"><b>${esc(estadoTraducao(c, o).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
 </div>
 <div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
 <div class="texto">
