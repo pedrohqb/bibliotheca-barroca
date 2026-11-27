@@ -26,6 +26,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 | S | links de página de Vega e Stapleton |
 | T | Padres citados por Calvino em cada capítulo (contagem) |
 | U | resposta católica à leitura patrística de Calvino (12 capítulos) |
+| V | cadeia fonte católica → réplica → tréplica católica (só cadeias com tréplica) |
 
 Aba **Notas**: contagens, critério da cobertura, edição e método de cada autor.
 
@@ -47,27 +48,26 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 - Eixo do contraponto: Coton (responde à *Institutio* na mesma forma de instituição completa e a cita dezenas de vezes) e Belarmino capítulo a capítulo; Trento e o Catecismo Romano como texto oficial; os demais completam onde Coton e Belarmino falham.
 - Capítulos de convergência (sobretudo III, 6–10, II, 9 e II, 15) têm contraponto que mostra o acordo, não polêmica.
 - Formato proposto (2026-11-27), a confirmar no piloto: sob cada capítulo de Calvino, uma nota curta do Pedro (o que está em jogo, a que seção a fonte responde, se há acordo) e um a três trechos das fontes, traduzidos e com o original ao lado.
-- **Decisão do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico**, e, se houver, a tréplica católica depois dela (cadeias abaixo).
+- **Decisões do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico, seguida da tréplica católica; e nenhuma réplica entra sem tréplica católica** (cadeias abaixo).
 
 ## Réplicas e tréplicas
 
-Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. Só entram as cadeias que tocam o capítulo de Calvino em questão.
+**Regra do Pedro (2026-11-27): nenhuma réplica sem tréplica católica.** A réplica reformada só entra quando há uma resposta católica a ela; a cadeia termina sempre do lado católico. Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. A tréplica pode ser de outro autor católico, desde que responda à própria réplica, e não só ao tema. Cadeia por capítulo: coluna V da planilha.
 
 | Fonte católica | Réplica | Tréplica católica | Capítulos |
 |---|---|---|---|
-| Pighius, *De libero hominis arbitrio* (1542) | Calvino, *Defensio sanae et orthodoxae doctrinae de servitute et liberatione humani arbitrii adversus calumnias Alberti Pighii* (1543); depois *De aeterna Dei praedestinatione* (1552) | não há: Pighius morreu em 1542 | II, 2–5; III, 21–24 |
-| Sadoleto, carta aos genebrinos (1539) | Calvino, *Responsio ad Sadoletum* (1539) | não há conhecida | Pref.; IV, 1–2 |
-| Trento, decreto da justificação (sessão VI, 1547) | Calvino, *Acta Synodi Tridentinae cum Antidoto* (1547) | Andrés de Vega, *De iustificatione*, L. XV, c. 23 (resposta às três calúnias de Calvino contra os cânones) e a resposta ao *Antidotum* anexa à edição de 1621 | III, 2–4; III, 11–18 |
-| Faculdade de Teologia de Paris, artigos de 1543 | Calvino, *Articuli … cum antidoto* (1544) | a localizar | vários |
-| Stapleton, *Principiorum fidei* (1578) e Belarmino | Whitaker, *Disputatio de Sacra Scriptura* (1588) | Stapleton, *Authoritatis ecclesiasticae … defensio* (1592); Whitaker, *Duplicatio* (1594); Stapleton, *Triplicatio inchoata* (Antuérpia, 1596; BSB `bsb10168686`) | I, 7–9; IV, 8 |
-| Stapleton, *Universa iustificationis doctrina* (1582), L. I–III | Whitaker, *De peccato originali* (1600, póstumo) | não há: Stapleton morreu em 1598 | II, 1–3; III, 3 |
-| Coton, *Institution catholique* (1610) | Jacques Cappel, *Instruction chrestienne* (1619) | a localizar | vários |
-| Duperron, na conferência de Fontainebleau (1600) | Du Plessis-Mornay, nas respostas posteriores à conferência | Duperron, *Traité de l'Eucharistie* (póstumo, 1622), que responde também ao livro de Mornay de 1598, *De l'institution … de l'Eucharistie* | IV, 14; IV, 17 |
+| Pighius, *De libero hominis arbitrio* (1542) | Calvino, *Defensio … adversus calumnias Alberti Pighii* (1543) | Belarmino, *De gratia et libero arbitrio*, L. V, c. 17 e 20, L. VI, c. 10; *De amissione gratiae*, L. VI, c. 5 e 16 (citam os livros II, III, IV e VI da *Defensio*) | II, 2–5 |
+| Pighius | Calvino, *De aeterna Dei praedestinatione* (1552) | Belarmino, *De amissione gratiae*, L. II, c. 2–7 (cita o prefácio) | I, 18; II, 4; III, 23 |
+| Trento, sessões VI e VII (1547) | Calvino, *Acta Synodi Tridentinae cum Antidoto* (1547) | Belarmino: *De justificatione*, L. I, c. 13, 14 e 20, L. IV, c. 14; *De amissione gratiae*, L. I, c. 4–8; *De sacramentis in genere*, L. I, c. 1–4. Andrés de Vega, *De iustificatione*, L. XV, c. 23 | II, 7–8; III, 2; III, 4; III, 11; III, 17; III, 24; IV, 14; IV, 16 |
+| Stapleton, *Principiorum fidei* (1578), e Belarmino | Whitaker, *Disputatio de Sacra Scriptura* (1588); *Duplicatio* (1594) | Stapleton, *Authoritatis ecclesiasticae … defensio* (1592) e *Triplicatio inchoata* (Antuérpia, 1596; BSB `bsb10168686`) | I, 7–9; IV, 8 |
+| Duperron, conferência de Fontainebleau (1600) | Du Plessis-Mornay, *De l'institution … de l'Eucharistie* (1598) e as respostas posteriores | Duperron, *Traité de l'Eucharistie* (póstumo, 1622) | IV, 14; IV, 17 |
 | Nicole, *Préjugez légitimes contre les calvinistes* (1671) | Jean Claude, *La défense de la Réformation* (1673) | Nicole, *Les prétendus réformez convaincus de schisme* (1684) | IV, 1–2 |
-| Bossuet, *Histoire des variations* (1688) | Jurieu, cartas pastorais; Basnage | Bossuet, *Avertissements aux protestants* e *Défense de l'Histoire des variations* (1689–1691) | IV, 1–2; III, 2; III, 24; IV, 17 |
-| Möhler, *Symbolik* (1832) | F. C. Baur, *Der Gegensatz des Katholicismus und Protestantismus* (Tübingen, 1834) | Möhler, *Neue Untersuchungen der Lehrgegensätze* (1834); Baur ainda respondeu com a *Erwiederung* (1834) | conforme os §§ |
+| Bossuet, *Histoire des variations* (1688) | Jurieu, cartas pastorais | Bossuet, *Avertissements aux protestants* e *Défense de l'Histoire des variations* (1689–1691) | IV, 1–2 |
+| Möhler, *Symbolik* (1832) | F. C. Baur, *Der Gegensatz des Katholicismus und Protestantismus* (1834) | Möhler, *Neue Untersuchungen der Lehrgegensätze* (1834) | conforme os §§ |
 
-Todos os autores da tabela morreram antes de 1955; o domínio público vale também para as réplicas. As datas e títulos sem edição indicada ainda não foram conferidos no scan.
+**Ficam de fora, por falta de tréplica católica encontrada** (a fonte católica continua; só a réplica sai): Calvino, *Responsio ad Sadoletum* (1539); Calvino, *Articuli … cum antidoto* (1544), contra a Faculdade de Paris; Whitaker, *De peccato originali* (1600), contra Stapleton, que morreu em 1598; Jacques Cappel, *Instruction chrestienne* (1619), contra Coton; a *Erwiederung* de Baur (1834), sem resposta de Möhler, que morreu em 1838. Se uma tréplica aparecer, a réplica volta.
+
+As tréplicas de Belarmino foram conferidas no texto da edição Vivès; as demais datas e títulos, pelos catálogos. Todos os autores morreram antes de 1955.
 
 ## Decisões em aberto (perguntar ao Pedro antes de produzir)
 
