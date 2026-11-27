@@ -934,5 +934,17 @@
     "formas": ["Genethliaci", "Genethliacos", "Genethliacas"],
     "pt": ["genetlíacos", "genetlíacas"],
     "nota": "\"Genetlíacos\": os astrólogos que tiram o horóscopo do nascimento (*genethlia*), autores do primeiro dos dois destinos pagãos (livro VII da Heresia pelagiana, caps. 8 e 9); *constellationes Genethliacae*, \"constelações genetlíacas\". Cf. *fatum*."
+  },
+  {
+    "lema": "desperatio",
+    "formas": ["desperatio", "desperationis", "desperationem", "desperatione"],
+    "pt": ["desespero"],
+    "nota": "\"Desespero\": na queixa dos massilienses, o efeito que a pregação da predestinação teria sobre os pecadores (Próspero e Hilário, cartas a Agostinho). Heresia pelagiana, livro VII, cap. 11."
+  },
+  {
+    "lema": "ignavia",
+    "formas": ["ignavia", "ignaviae", "ignaviam"],
+    "pt": ["indolência"],
+    "nota": "\"Indolência\": na queixa dos massilienses e de Fausto, o efeito que a pregação da predestinação teria sobre os eleitos. *Otium* fica \"ócio\"; *desidia*, \"preguiça\"; *segnities*, \"inércia\". Heresia pelagiana, livro VII, cap. 11."
   }
 ]
