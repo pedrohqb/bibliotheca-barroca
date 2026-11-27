@@ -604,5 +604,35 @@
     "formas": ["virtutes cardinales", "virtutum cardinalium", "virtute cardinali", "virtus cardinalis"],
     "pt": ["virtude cardeal", "virtudes cardeais"],
     "nota": "Prudência, justiça, temperança e fortaleza. \"Cardeal\", forma corrente em português para as quatro virtudes; Jansênio também diz *virtus capitalis*, \"virtude capital\", no mesmo sentido."
+  },
+  {
+    "lema": "suavitas",
+    "formas": ["suavitas", "suavitatis", "suavitatem", "suavitate", "suavitati"],
+    "pt": ["suavidade"],
+    "nota": "\"Suavidade\": no livro IV do *De gratia Christi Salvatoris*, nome que Jansênio, com Agostinho, dá à graça medicinal enquanto deleite celeste (*suavitas seu delectatio*); vem do Sl 84,13 (*Dominus dabit suavitatem*). O adjetivo *suavis*, \"suave\". Distinto de *dulcedo*, \"doçura\"."
+  },
+  {
+    "lema": "condelectatio",
+    "formas": ["condelectatio", "condelectationem", "condelectatione", "condelector", "condelectari", "condelecteris", "condelectamur"],
+    "pt": ["comprazimento", "comprazo", "comprazer", "comprazas", "comprazemos"],
+    "nota": "De Rm 7,22 (*condelector legi Dei secundum interiorem hominem*): \"comprazo-me na lei de Deus segundo o homem interior\"; o substantivo, \"comprazimento\". Mantém-se distinto de *delectatio*, \"deleite\", porque Agostinho e Jansênio usam o par de propósito; o prefixo *con-* (deleitar-se junto com a lei) se perde, o que se diz em nota quando o argumento depende dele."
+  },
+  {
+    "lema": "gratia intellectus",
+    "formas": ["gratia intellectus", "gratiam intellectus", "gratiae intellectus"],
+    "pt": ["graça do intelecto"],
+    "nota": "\"Graça do intelecto\": a que ilumina o intelecto (lei, doutrina, revelação), oposta à *gratia voluntatis* ou *affectus* (Da graça de Cristo, livro I, cap. 6)."
+  },
+  {
+    "lema": "gratia voluntatis",
+    "formas": ["gratia voluntatis", "gratiam voluntatis", "gratiae voluntatis", "gratia affectus"],
+    "pt": ["graça da vontade", "graça do afeto"],
+    "nota": "\"Graça da vontade\"; *gratia affectus seu voluntatis*, \"graça do afeto ou da vontade\" (Da graça de Cristo, livro I, cap. 6): a que move a vontade, oposta à graça do intelecto."
+  },
+  {
+    "lema": "gratia naturae",
+    "formas": ["gratia naturae", "gratiam naturae"],
+    "pt": ["graça da natureza"],
+    "nota": "\"Graça da natureza\": a \"graça\" que os pelagianos identificavam com os dons naturais (De haeresi Pelagiana V, cap. 2; Da graça de Cristo, livro I, cap. 6)."
   }
 ]
