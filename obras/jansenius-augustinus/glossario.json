@@ -712,5 +712,17 @@
     "formas": ["paedagogus", "paedagogum", "paedagogo", "paedagogi", "Paedagogi"],
     "pt": ["pedagogo"],
     "nota": "\"Pedagogo\": o escravo que guardava a criança e a conduzia à escola, não o mestre; a lei como pedagogo para Cristo (Gl 3,24), em Agostinho e Jansênio, que a guarda pelo temor e conduz à graça pelo terror do suplício (livro I do De gratia Christi Salvatoris, cap. 12). Adjetivo paedagogicus, \"pedagógico\"."
+  },
+  {
+    "lema": "impeccabilitas",
+    "formas": ["impeccabilitas", "impeccabilitatis", "impeccabilitatem"],
+    "pt": ["impecabilidade"],
+    "nota": "\"Impecabilidade\": o não poder pecar dos anjos e dos bem-aventurados no céu, que Jansênio faz nascer da caridade e do deleite celeste, não da visão nua de Deus (livro IV do *De gratia Christi Salvatoris*, cap. 8). Mesma palavra portuguesa que *impeccantia*, que é outra coisa (a vida sem pecado da tese pelagiana): quando os dois termos se cruzarem, nota. O advérbio *impeccabiliter*, \"impecavelmente\" (no sentido de \"sem poder pecar\"), com nota."
+  },
+  {
+    "lema": "perseverantia",
+    "formas": ["perseverantia", "perseverantiae", "perseverantiam"],
+    "pt": ["perseverança"],
+    "nota": "\"Perseverança\": o dom de permanecer no bem até o fim (Agostinho, *De dono perseverantiae*; *De correptione et gratia*). O advérbio *perseveranter*, \"com perseverança\"; *perseverare*, \"perseverar\"."
   }
 ]
