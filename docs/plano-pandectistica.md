@@ -1,4 +1,4 @@
-# Plano: Savigny, *System des heutigen römischen Rechts*, e Windscheid, *Lehrbuch des Pandektenrechts* (em estudo)
+# Plano: pandectística — Savigny, *System des heutigen römischen Rechts*, Windscheid, *Lehrbuch des Pandektenrechts*, e obras afins (em estudo)
 
 Pedido do Pedro (2026-11-27): organizar na Bibliotheca Barroca a tradução do *Sistema do direito romano atual* de Savigny e das *Pandectas* de Windscheid, **a partir dos originais alemães** tomados da web, com levantamento das traduções existentes em domínio público e **tradução comparada** com elas. O Pedro enviou as duas traduções que já tinha montado para impressão (projeto de fac-símiles): Fadda e Bensa, *Diritto delle Pandette*, e Mesía e Poley, *Sistema del derecho romano actual*.
 
@@ -77,6 +77,60 @@ Pontos a saber sobre Fadda e Bensa:
 Não entram: a tradução russa do vol. 1 (São Petersburgo, sob a direção de S. V. Pakhman), citada no dicionário Brockhaus-Efron e não localizada; a tradução espanhola da 1ª edição publicada no Internet Archive em 2026 (`windscheid-pandectas-1862-traduccion`), recente e sem situação de direitos clara pelo critério brasileiro.
 
 **Windscheid tem uma só tradução para o cotejo.** A regra do projeto (obra com tradução existente fica `cotejada`, sem debate) vale assim mesmo; se o Pedro quiser uma segunda leitura, ver a decisão 6.
+
+## Ampliação: outras obras da pandectística (levantamento de 2026-11-27)
+
+O Pedro pediu (2026-11-27) o levantamento de mais quatro obras, para entrarem no mesmo plano. Cada uma seria uma obra própria em `obras/`, com o mesmo método (tradução do alemão, cotejo, `estado: cotejada`, sem debate). Identificadores em `docs/pandectistica/fontes.json`. As datas de morte dos tradutores marcados com "a conferir" se verificam antes de entrarem em `traducoes_cotejadas`.
+
+### Savigny, *Das Obligationenrecht als Theil des heutigen römischen Rechts* (`savigny-obligationenrecht`)
+
+Continuação direta do *System*, de que é a parte especial das obrigações: 2 vols., Berlim, Veit, 1851–1853, edição única. **Base: MDZ** `bsb10565883` (vol. 1, 1851) e `bsb10565884` (vol. 2, 1853); outros exemplares no Internet Archive (`dasobligationen01savigoog`, `dasobligationen02savigoog`, `dasobligationenr02savi`). Capítulo = §, na numeração própria da obra.
+
+| Língua | Tradução | Onde | Observação |
+|---|---|---|---|
+| francês | C. Gérardin e P. Jozon, *Le droit des obligations*, 2 tomos (Paris, A. Durand, 1863; 2ª ed., Paris, Thorin, 1873) | IA, 1ª ed.: `bub_gb_lkaoHfp8XXQC` (t. I), `bub_gb_XNf1zC6BaPYC`, `ledroitdesoblig01jozogoog`, `ledroitdesoblig02jozogoog`; 2ª ed.: `ledroitdesoblig00hippgoog`, `ledroitdesoblig00jozogoog` | principal; datas de morte a conferir |
+| italiano | Giovanni Pacchioni, *Le obbligazioni*, 2 vols. (Turim, UTET, 1912–1915) | vol. 2 (1915) na biblioteca digital da Faculdade de Direito da Univ. Masaryk (Brno), acesso aberto: `digi.law.muni.cz/handle/digilaw/22581`; vol. 1 a localizar no mesmo acervo | principal; Pacchioni († 1947) |
+
+Não é tradução: A. Brown, *An Epitome and Analysis of Savigny's Treatise on Obligations* (Londres, 1872; IA `anepitomeandana00savigoog`), só consulta.
+
+### Jhering, *Culpa in contrahendo oder Schadensersatz bei nichtigen oder nicht zur Perfection gelangten Verträgen* (`jhering-culpa-in-contrahendo`)
+
+Artigo publicado nos *Jahrbücher für die Dogmatik des heutigen römischen und deutschen Privatrechts*, vol. 4 (Jena, 1861), pp. 1 ss. (IA `jahrbcherfrdied00jhergoog`, onde abre o volume), e reimpresso nos *Gesammelte Aufsätze*, vol. 1 (Jena, Fischer, 1881), pp. 327 ss. (MDZ `bsb11639598`; IA `bub_gb_-HQDAAAAQAAJ`, `bub_gb_tLFBAAAAYAAJ`). **Base proposta: a primeira publicação (1861)**, conferida com a reimpressão de 1881, que registra a data do volume como 1860; se Jhering tiver mudado o texto em 1881, a decisão entre as duas vai ao Pedro. Obra curta (cerca de 110 páginas): capítulo = seção do artigo.
+
+| Língua | Tradução | Onde | Observação |
+|---|---|---|---|
+| francês | O. de Meulenaere, "De la culpa in contrahendo…", em Jhering, *Œuvres choisies* (Paris, Marescq, 1893) | IA `uvreschoisiestr00meulgoog` (o sumário do texto, com o capítulo III, "Casuistique de la culpa in contrahendo", está nesse volume) | **única tradução em domínio público**; Meulenaere nasceu em 1840, data de morte a conferir |
+
+Não entram: as traduções modernas para o italiano (2005) e para o português (2008), protegidas.
+
+### Savigny, *Das Recht des Besitzes* (`savigny-besitz`)
+
+Primeira obra de Savigny (1803), com seis edições em vida: 1803, 1806, 1818, 1822, 1827 e 1837; a 7ª (Viena, 1865) é póstuma, de Rudorff, a partir de notas deixadas pelo autor e com apêndice do editor. **Base proposta: a 6ª edição (Giessen, Heyer, 1837), a última publicada pelo autor**, MDZ `bsb10567078` (IA `dasrechtdesbesi00savigoog`). Alternativa: a 7ª, com o que for de Rudorff tirado do corpo e posto em rodapé, como os acréscimos de Brederode no Covarrubias (`@a`); a 7ª não foi localizada no Internet Archive (procurar no MDZ e no Google Books). Edições anteriores no MDZ, para conferência: 1803 (`bsb10567076`, `bsb11347406`), 1806 (`bsb10553316`), 1818 (`bsb11101052`). Capítulo = §.
+
+| Língua | Tradução | Feita da | Onde | Observação |
+|---|---|---|---|---|
+| inglês | Sir Erskine Perry, *Von Savigny's Treatise on Possession; or the Jus Possessionis of the Civil Law* (Londres, S. Sweet, 1848) | 6ª ed. | IA `india.history.resource.41446` | principal se a base for a 6ª; Perry († 1882) |
+| francês | Jules Beving, *Traité de la possession d'après les principes du droit romain* (Bruxelas, Hauman, 1840) | 6ª ed. (a conferir) | IA `traitdelaposses00bevigoog` | data de morte a conferir |
+| francês | Henri Staedtler, *Traité de la possession en droit romain* (Bruxelas, Bruylant, 1870; Paris, Durand, 1879) | 7ª ed. (Rudorff) | IA `traitdelaposses01staegoog` (1870), `traitdelapossess00savi` (1879) | principal se a base for a 7ª; data de morte a conferir |
+| italiano | Pietro Conticini, *Il diritto del possesso* (Florença, Pezzati, 1839) | a conferir | IA `bub_gb_EEp1S36NLRsC` | secundário; data de morte a conferir |
+| italiano | Raffaele Andreoli, *Trattato del possesso secondo i principii del dritto romano*, traduzido e anotado (Nápoles, Pedone Lauriel, 1857) | a conferir | IA `bub_gb_-7M6GfDp7bAC` | data de morte a conferir |
+| espanhol | *Tratado de la posesión según los principios de derecho romano* (Madrid, Sociedad Literaria y Tipográfica, 1845) | provavelmente do francês | IA `bub_gb_CuC_21Mf5qMC` | tradutor não identificado na folha de rosto; secundário |
+
+### Savigny, *Vom Beruf unsrer Zeit für Gesetzgebung und Rechtswissenschaft* (`savigny-beruf`)
+
+O manifesto da Escola Histórica contra a proposta de codificação de Thibaut: 1ª ed. Heidelberg, Mohr, 1814 (MDZ `bsb10740690`); 2ª ed. "vermehrte" 1828 (IA `bub_gb_c6VLAAAAcAAJ`), com prefácio novo e pequenas correções; 3ª ed. 1840 (IA `vomberufunsrerz00savigoog`), que repete a 2ª. **Base proposta: a 2ª edição (1828)**, a última revista pelo autor, com as variantes de 1814 que mudem o sentido em `@n`; alternativa: 1814, o texto da polêmica. Obra curta (12 capítulos e apêndices): capítulo = capítulo do autor.
+
+| Língua | Tradução | Feita de | Onde | Observação |
+|---|---|---|---|---|
+| inglês | Abraham Hayward, *Of the Vocation of Our Age for Legislation and Jurisprudence* (Londres, Littlewood, [1831]) | alemão (reproduz a edição só em parte) | a localizar (Google Books, HathiTrust); no IA só há a reimpressão de 1986 (`specialediionofv0000fred`) | principal; Hayward († 1884) |
+| italiano | *La vocazione del nostro secolo per la legislazione e la giurisprudenza*, 2ª ed. italiana, ed. Giuseppe Tedeschi (Verona, 1857, "Biblioteca giuridica teorico-pratica", vol. 1) | alemão | a localizar | Tedeschi cortou notas e acrescentou outras; datas a conferir |
+| espanhol | Adolfo Posada, *De la vocación de nuestro siglo para la legislación y la ciencia del derecho* (Madrid, La España Moderna, s.d., fim do séc. XIX) | **italiano de Verona, 1857** | a localizar | terceira mão; Posada († 1944) |
+
+Não entram, por protegidas: as traduções francesa de Alfred Dufour (2006) e espanholas de Martínez Neira e Calatayud (Universidad Carlos III, 2015, acesso aberto, mas protegida) e de Gómez (UNED, da 2ª ed.); podem servir só de consulta, sem cópia.
+
+### Ordem sugerida
+
+Das quatro, a *Culpa in contrahendo* e o *Beruf* são curtas e servem de piloto do método alemão antes dos volumes longos; o *Obligationenrecht* entra depois do *System*, de que depende, e o *Besitz* em qualquer ponto. Decisão do Pedro (ver "Decisões em aberto", 7 e 8).
 
 ## Forma no repositório (proposta)
 
@@ -178,6 +232,8 @@ Tamanho: cerca de 4.300 páginas de scan no Savigny e 2.150 no Windscheid, com n
 4. **Glossário**: aprovar as formas propostas, sobretudo *Rechtsfähigkeit*, *Handlungsfähigkeit* e *Anspruch*.
 5. **Apêndices de Savigny** (*Beylagen*): entram, na ordem dos volumes (proposta), ou ficam para o fim.
 6. **Windscheid com uma só tradução**: fica `cotejada` com Fadda e Bensa (regra atual) ou, por exceção, recebe também o debate.
+7. **Obras novas da ampliação**: quais entram e em que ordem (sugestão: *Culpa in contrahendo* e *Beruf* como pilotos, por serem curtas).
+8. **Edição de base** do *Besitz* (6ª, 1837, ou 7ª, de Rudorff, 1865, com os acréscimos dele em rodapé), do *Beruf* (1828 ou 1814) e da *Culpa in contrahendo* (1861 ou 1881).
 
 ## Prompt para retomar em outra sessão
 

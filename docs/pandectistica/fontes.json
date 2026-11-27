@@ -8,15 +8,78 @@
       "anos": "1840-1849",
       "exemplar": "Bayerische Staatsbibliothek, digitalizado pelo MDZ",
       "volumes": [
-        { "vol": 1, "ano": 1840, "paragrafos": "1-59", "beylagen": "I-II", "mdz": "bsb10565865", "imagens": 492 },
-        { "vol": 2, "ano": 1840, "paragrafos": "60-103", "beylagen": "III-VII", "mdz": "bsb10565866", "imagens": 574 },
-        { "vol": 3, "ano": 1840, "paragrafos": "104-141", "beylagen": "VIII", "mdz": "bsb10565867", "imagens": 488 },
-        { "vol": 4, "ano": 1841, "paragrafos": "142-203", "beylagen": "IX-XI", "mdz": "bsb10565868", "imagens": 630 },
-        { "vol": 5, "ano": 1841, "paragrafos": "204-255", "beylagen": "XII-XIV", "mdz": "bsb10565869", "imagens": 664 },
-        { "vol": 6, "ano": 1847, "paragrafos": "256-301", "beylagen": "a conferir", "mdz": "bsb10565870", "imagens": 556 },
-        { "vol": 7, "ano": 1848, "paragrafos": "302-343", "beylagen": "a conferir", "mdz": "bsb10565871", "imagens": 334 },
-        { "vol": 8, "ano": 1849, "paragrafos": "344-400", "beylagen": "a conferir", "mdz": "bsb10565872", "imagens": 562 },
-        { "vol": "registro", "ano": 1851, "titulo": "Sachen- und Quellen-Register (O. L. Heuser)", "mdz": "bsb10565873", "imagens": 398, "traduzir": false }
+        {
+          "vol": 1,
+          "ano": 1840,
+          "paragrafos": "1-59",
+          "beylagen": "I-II",
+          "mdz": "bsb10565865",
+          "imagens": 492
+        },
+        {
+          "vol": 2,
+          "ano": 1840,
+          "paragrafos": "60-103",
+          "beylagen": "III-VII",
+          "mdz": "bsb10565866",
+          "imagens": 574
+        },
+        {
+          "vol": 3,
+          "ano": 1840,
+          "paragrafos": "104-141",
+          "beylagen": "VIII",
+          "mdz": "bsb10565867",
+          "imagens": 488
+        },
+        {
+          "vol": 4,
+          "ano": 1841,
+          "paragrafos": "142-203",
+          "beylagen": "IX-XI",
+          "mdz": "bsb10565868",
+          "imagens": 630
+        },
+        {
+          "vol": 5,
+          "ano": 1841,
+          "paragrafos": "204-255",
+          "beylagen": "XII-XIV",
+          "mdz": "bsb10565869",
+          "imagens": 664
+        },
+        {
+          "vol": 6,
+          "ano": 1847,
+          "paragrafos": "256-301",
+          "beylagen": "a conferir",
+          "mdz": "bsb10565870",
+          "imagens": 556
+        },
+        {
+          "vol": 7,
+          "ano": 1848,
+          "paragrafos": "302-343",
+          "beylagen": "a conferir",
+          "mdz": "bsb10565871",
+          "imagens": 334
+        },
+        {
+          "vol": 8,
+          "ano": 1849,
+          "paragrafos": "344-400",
+          "beylagen": "a conferir",
+          "mdz": "bsb10565872",
+          "imagens": 562
+        },
+        {
+          "vol": "registro",
+          "ano": 1851,
+          "titulo": "Sachen- und Quellen-Register (O. L. Heuser)",
+          "mdz": "bsb10565873",
+          "imagens": 398,
+          "traduzir": false
+        }
       ]
     },
     "apoio": [
@@ -24,19 +87,53 @@
         "sigla": "scialoja",
         "lingua": "it",
         "titulo": "Sistema del diritto romano attuale, trad. Vittorio Scialoja",
-        "local": "Torino", "impressor": "Unione Tipografico-Editrice", "anos": "1886-1898",
+        "local": "Torino",
+        "impressor": "Unione Tipografico-Editrice",
+        "anos": "1886-1898",
         "feita_de": "de",
         "cobre": "obra inteira",
         "bdl_registro": "BDL-OGGETTO-1965",
         "volumes": [
-          { "vol": 1, "ano": 1886, "bdl": 1966 },
-          { "vol": 2, "ano": 1888, "bdl": 1967 },
-          { "vol": 3, "ano": 1891, "bdl": 1968 },
-          { "vol": 4, "ano": 1889, "bdl": 1969 },
-          { "vol": 5, "ano": 1893, "bdl": 1970 },
-          { "vol": 6, "ano": 1896, "bdl": 1971 },
-          { "vol": 7, "ano": 1896, "bdl": 1973 },
-          { "vol": 8, "ano": 1898, "bdl": 1974 }
+          {
+            "vol": 1,
+            "ano": 1886,
+            "bdl": 1966
+          },
+          {
+            "vol": 2,
+            "ano": 1888,
+            "bdl": 1967
+          },
+          {
+            "vol": 3,
+            "ano": 1891,
+            "bdl": 1968
+          },
+          {
+            "vol": 4,
+            "ano": 1889,
+            "bdl": 1969
+          },
+          {
+            "vol": 5,
+            "ano": 1893,
+            "bdl": 1970
+          },
+          {
+            "vol": 6,
+            "ano": 1896,
+            "bdl": 1971
+          },
+          {
+            "vol": 7,
+            "ano": 1896,
+            "bdl": 1973
+          },
+          {
+            "vol": 8,
+            "ano": 1898,
+            "bdl": 1974
+          }
         ],
         "visualizador": "https://www.bdl.servizirl.it/bdl/bookreader/index.html?path=fe&cdOggetto=<bdl>"
       },
@@ -44,42 +141,174 @@
         "sigla": "guenoux",
         "lingua": "fr",
         "titulo": "Traité de droit romain, trad. Charles Guenoux",
-        "local": "Paris", "impressor": "Firmin Didot frères",
+        "local": "Paris",
+        "impressor": "Firmin Didot frères",
         "feita_de": "de",
         "cobre": "obra inteira",
         "edicao_usada": "2e éd., 1855-1860",
         "volumes": [
-          { "tomo": 1, "ano": 1855, "ia": ["bub_gb_JRilKdkPsLYC", "traitdedroitroma01savi"] },
-          { "tomo": 2, "ano": 1855, "ia": ["bub_gb_tzhhDup6TRgC", "traitdedroitroma02savi"] },
-          { "tomo": 3, "ano": 1856, "ia": ["bub_gb_cXx4LRUWDqgC", "traitdedroitroma03savi"] },
-          { "tomo": 4, "ano": 1856, "ia": ["bub_gb_ViJJspxLvbAC", "traitdedroitroma04savi"] },
-          { "tomo": 5, "ano": 1858, "ia": ["bub_gb_RqGZLmTy6cAC"] },
-          { "tomo": 6, "ano": 1859, "ia": ["bub_gb_coKxmRxT2r0C", "bub_gb_Dt2tevinwbEC", "traitdedroitro06savi"] },
-          { "tomo": 7, "ano": 1859, "ia": ["bub_gb_L5ZLztkaAowC", "bub_gb_pJta4LzfeJQC", "traitdedroitrom00savigoog"] },
-          { "tomo": 8, "ano": 1860, "ia": ["bub_gb_DxAAGby2PKAC", "traitdedroitroma08savi"] }
+          {
+            "tomo": 1,
+            "ano": 1855,
+            "ia": [
+              "bub_gb_JRilKdkPsLYC",
+              "traitdedroitroma01savi"
+            ]
+          },
+          {
+            "tomo": 2,
+            "ano": 1855,
+            "ia": [
+              "bub_gb_tzhhDup6TRgC",
+              "traitdedroitroma02savi"
+            ]
+          },
+          {
+            "tomo": 3,
+            "ano": 1856,
+            "ia": [
+              "bub_gb_cXx4LRUWDqgC",
+              "traitdedroitroma03savi"
+            ]
+          },
+          {
+            "tomo": 4,
+            "ano": 1856,
+            "ia": [
+              "bub_gb_ViJJspxLvbAC",
+              "traitdedroitroma04savi"
+            ]
+          },
+          {
+            "tomo": 5,
+            "ano": 1858,
+            "ia": [
+              "bub_gb_RqGZLmTy6cAC"
+            ]
+          },
+          {
+            "tomo": 6,
+            "ano": 1859,
+            "ia": [
+              "bub_gb_coKxmRxT2r0C",
+              "bub_gb_Dt2tevinwbEC",
+              "traitdedroitro06savi"
+            ]
+          },
+          {
+            "tomo": 7,
+            "ano": 1859,
+            "ia": [
+              "bub_gb_L5ZLztkaAowC",
+              "bub_gb_pJta4LzfeJQC",
+              "traitdedroitrom00savigoog"
+            ]
+          },
+          {
+            "tomo": 8,
+            "ano": 1860,
+            "ia": [
+              "bub_gb_DxAAGby2PKAC",
+              "traitdedroitroma08savi"
+            ]
+          }
         ],
-        "primeira_edicao_ia": ["bub_gb_3sZc39Re000C (1840)", "bub_gb_H-GjN-XQnXsC (1841)", "traitdedroitrom00guengoog (1841)", "bub_gb_E8hz0uO3kVMC (1843)", "bub_gb_3n1B_NuKnLgC (1845)", "bub_gb_ZwPK4qitYu0C (1846)"],
+        "primeira_edicao_ia": [
+          "bub_gb_3sZc39Re000C (1840)",
+          "bub_gb_H-GjN-XQnXsC (1841)",
+          "traitdedroitrom00guengoog (1841)",
+          "bub_gb_E8hz0uO3kVMC (1843)",
+          "bub_gb_3n1B_NuKnLgC (1845)",
+          "bub_gb_ZwPK4qitYu0C (1846)"
+        ],
         "conferir": "anos e tomos lidos no OCR das folhas de rosto; confirmar cada tomo ao baixar"
       },
       {
         "sigla": "mesia-poley",
         "lingua": "es",
         "titulo": "Sistema del derecho romano actual, trad. Jacinto Mesía y Manuel Poley",
-        "local": "Madrid", "impressor": "F. Góngora y Compañía", "anos": "1878-1879",
+        "local": "Madrid",
+        "impressor": "F. Góngora y Compañía",
+        "anos": "1878-1879",
         "feita_de": "fr (Guenoux)",
         "cobre": "obra inteira, em 6 tomos",
         "volumes": [
-          { "tomo": 1, "ano": 1878, "ia": "BRes1421811", "pedro": "Savigny_Sistema_Tomo_I.pdf" },
-          { "tomo": 2, "ano": 1879, "ia": "BRes1421812", "pedro": "Savigny_Sistema_Tomo_II.pdf" },
-          { "tomo": 3, "ano": 1879, "ia": "BRes1421813", "pedro": "Savigny_Sistema_Tomo_III.pdf" },
-          { "tomo": 4, "ano": 1879, "ia": "BRes1421814", "pedro": "Savigny_Sistema_Tomo_IV.pdf" },
-          { "tomo": 5, "ano": 1879, "ia": "BRes1421815", "pedro": "Savigny_Sistema_Tomo_V.pdf" },
-          { "tomo": 6, "ano": 1879, "ia": "BRes1421816", "pedro": "Savigny_Sistema_Tomo_VI.pdf" }
+          {
+            "tomo": 1,
+            "ano": 1878,
+            "ia": "BRes1421811",
+            "pedro": "Savigny_Sistema_Tomo_I.pdf"
+          },
+          {
+            "tomo": 2,
+            "ano": 1879,
+            "ia": "BRes1421812",
+            "pedro": "Savigny_Sistema_Tomo_II.pdf"
+          },
+          {
+            "tomo": 3,
+            "ano": 1879,
+            "ia": "BRes1421813",
+            "pedro": "Savigny_Sistema_Tomo_III.pdf"
+          },
+          {
+            "tomo": 4,
+            "ano": 1879,
+            "ia": "BRes1421814",
+            "pedro": "Savigny_Sistema_Tomo_IV.pdf"
+          },
+          {
+            "tomo": 5,
+            "ano": 1879,
+            "ia": "BRes1421815",
+            "pedro": "Savigny_Sistema_Tomo_V.pdf"
+          },
+          {
+            "tomo": 6,
+            "ano": 1879,
+            "ia": "BRes1421816",
+            "pedro": "Savigny_Sistema_Tomo_VI.pdf"
+          }
         ]
       },
-      { "sigla": "holloway", "lingua": "en", "titulo": "System of the Modern Roman Law, vol. I, trad. William Holloway", "local": "Madras", "impressor": "J. Higginbotham", "ano": 1867, "feita_de": "de", "cobre": "vol. 1 (§§ 1-59)", "ia": "india.history.resource.117230" },
-      { "sigla": "rattigan", "lingua": "en", "titulo": "Jural Relations, or the Roman Law of Persons as Subjects of Jural Relations, trad. William Henry Rattigan", "local": "London", "impressor": "Wildy", "ano": 1884, "feita_de": "de", "cobre": "vol. 2 (§§ 60-103)", "ia": "JuralRelations", "nota": "scan de reimpressão fac-similar (Hyperion, 1979)" },
-      { "sigla": "guthrie", "lingua": "en", "titulo": "Private International Law, trad. William Guthrie", "local": "Edinburgh", "impressor": "T. & T. Clark", "anos": "1869; 2nd ed. 1880", "feita_de": "de", "cobre": "vol. 8 (§§ 344-400)", "ia": ["privateinternati00saviuoft (1880)", "privateinternat01guthgoog (1869)", "privateinternat00guthgoog (1869)"] }
+      {
+        "sigla": "holloway",
+        "lingua": "en",
+        "titulo": "System of the Modern Roman Law, vol. I, trad. William Holloway",
+        "local": "Madras",
+        "impressor": "J. Higginbotham",
+        "ano": 1867,
+        "feita_de": "de",
+        "cobre": "vol. 1 (§§ 1-59)",
+        "ia": "india.history.resource.117230"
+      },
+      {
+        "sigla": "rattigan",
+        "lingua": "en",
+        "titulo": "Jural Relations, or the Roman Law of Persons as Subjects of Jural Relations, trad. William Henry Rattigan",
+        "local": "London",
+        "impressor": "Wildy",
+        "ano": 1884,
+        "feita_de": "de",
+        "cobre": "vol. 2 (§§ 60-103)",
+        "ia": "JuralRelations",
+        "nota": "scan de reimpressão fac-similar (Hyperion, 1979)"
+      },
+      {
+        "sigla": "guthrie",
+        "lingua": "en",
+        "titulo": "Private International Law, trad. William Guthrie",
+        "local": "Edinburgh",
+        "impressor": "T. & T. Clark",
+        "anos": "1869; 2nd ed. 1880",
+        "feita_de": "de",
+        "cobre": "vol. 8 (§§ 344-400)",
+        "ia": [
+          "privateinternati00saviuoft (1880)",
+          "privateinternat01guthgoog (1869)",
+          "privateinternat00guthgoog (1869)"
+        ]
+      }
     ],
     "nao_usadas": [
       "Zaiotti, Sistema del diritto romano attuale, vol. I (Venezia, 1856), ia sistemadeldirittoromanosavigny1: parcial; só consulta no vol. 1",
@@ -96,14 +325,40 @@
       "ano": 1891,
       "exemplar": "Bayerische Staatsbibliothek, digitalizado pelo MDZ",
       "volumes": [
-        { "vol": 1, "paragrafos": "1-249", "mdz": "bsb11637299", "imagens": 788 },
-        { "vol": 2, "paragrafos": "250-526", "mdz": "bsb11637300", "imagens": 864, "ia": "lehrbuchdespand00windgoog" },
-        { "vol": 3, "paragrafos": "527-678", "mdz": "bsb11637301", "imagens": 504 }
+        {
+          "vol": 1,
+          "paragrafos": "1-249",
+          "mdz": "bsb11637299",
+          "imagens": 788
+        },
+        {
+          "vol": 2,
+          "paragrafos": "250-526",
+          "mdz": "bsb11637300",
+          "imagens": 864,
+          "ia": "lehrbuchdespand00windgoog"
+        },
+        {
+          "vol": 3,
+          "paragrafos": "527-678",
+          "mdz": "bsb11637301",
+          "imagens": 504
+        }
       ],
       "conferencia": {
-        "6a_ed_1887": ["lehrbuchdespande01wind", "lehrbuchdespande02wind", "lehrbuchdespande03wind"],
-        "8a_ed_Kipp_1900_1901": ["lehrbuchdespand01kippgoog", "lehrbuchdespand01windgoog", "lehrbuchdespand00kippgoog"],
-        "9a_ed_Kipp_1906_vol1": ["lehrbuchdespand03kippgoog"]
+        "6a_ed_1887": [
+          "lehrbuchdespande01wind",
+          "lehrbuchdespande02wind",
+          "lehrbuchdespande03wind"
+        ],
+        "8a_ed_Kipp_1900_1901": [
+          "lehrbuchdespand01kippgoog",
+          "lehrbuchdespand01windgoog",
+          "lehrbuchdespand00kippgoog"
+        ],
+        "9a_ed_Kipp_1906_vol1": [
+          "lehrbuchdespand03kippgoog"
+        ]
       }
     },
     "apoio": [
@@ -111,16 +366,43 @@
         "sigla": "fadda-bensa",
         "lingua": "it",
         "titulo": "Diritto delle Pandette, trad. Carlo Fadda e Paolo Emilio Bensa",
-        "local": "Torino", "impressor": "Unione Tipografico-Editrice Torinese", "anos": "1902-1904 (vol. I: ristampa stereotipa, 1925)",
+        "local": "Torino",
+        "impressor": "Unione Tipografico-Editrice Torinese",
+        "anos": "1902-1904 (vol. I: ristampa stereotipa, 1925)",
         "feita_de": "de (edição a conferir na calibração: a tradução começou em 1886 e já ia adiantada quando saiu a 7ª ed.)",
         "cobre": "§§ 1-678 (sem as notas dos tradutores)",
         "volumes": [
-          { "vol": "I", "paragrafos": "1-249", "paginas_pdf": 922, "pedro": "Windscheid_Pandette_Vol_I.pdf" },
-          { "vol": "II/1", "paragrafos": "250-361 (a conferir)", "paginas_pdf": 408, "pedro": "Windscheid_Pandette_Vol_II_parte_1.pdf" },
-          { "vol": "II/2", "paragrafos": "362-526", "paginas_pdf": 608, "pedro": "Windscheid_Pandette_Vol_II_parte_2.pdf", "falha": "pp. 10-11 ausentes no exemplar digitalizado (Harvard/Google)" },
-          { "vol": "III/1", "paragrafos": "527-678", "paginas_pdf": 466, "pedro": "Windscheid_Pandette_Vol_III_parte_1.pdf" }
+          {
+            "vol": "I",
+            "paragrafos": "1-249",
+            "paginas_pdf": 922,
+            "pedro": "Windscheid_Pandette_Vol_I.pdf"
+          },
+          {
+            "vol": "II/1",
+            "paragrafos": "250-361 (a conferir)",
+            "paginas_pdf": 408,
+            "pedro": "Windscheid_Pandette_Vol_II_parte_1.pdf"
+          },
+          {
+            "vol": "II/2",
+            "paragrafos": "362-526",
+            "paginas_pdf": 608,
+            "pedro": "Windscheid_Pandette_Vol_II_parte_2.pdf",
+            "falha": "pp. 10-11 ausentes no exemplar digitalizado (Harvard/Google)"
+          },
+          {
+            "vol": "III/1",
+            "paragrafos": "527-678",
+            "paginas_pdf": 466,
+            "pedro": "Windscheid_Pandette_Vol_III_parte_1.pdf"
+          }
         ],
-        "ia_com_ocr": ["dirittodellepan02windgoog (1902)", "dirittodellepan00windgoog (1904)", "dirittodellepan01windgoog (1904)"],
+        "ia_com_ocr": [
+          "dirittodellepan02windgoog (1902)",
+          "dirittodellepan00windgoog (1904)",
+          "dirittodellepan01windgoog (1904)"
+        ],
         "nota": "Os PDFs do Pedro não têm camada de texto; os do Internet Archive têm OCR. Volume de cada item do IA a identificar ao baixar."
       }
     ],
@@ -129,5 +411,239 @@
       "Tradução russa do vol. 1 (São Petersburgo, dir. S. V. Pakhman): não localizada",
       "Tradução espanhola da 1ª ed., ia windscheid-pandectas-1862-traduccion (2026): recente, situação de direitos incerta"
     ]
+  },
+  "ampliacao": {
+    "nota": "Obras acrescentadas ao plano em 2026-11-27 (ver a seção Ampliação de docs/plano-pandectistica.md). Datas de morte dos tradutores sem ano: a conferir.",
+    "savigny-obligationenrecht": {
+      "base": {
+        "titulo": "Das Obligationenrecht als Theil des heutigen römischen Rechts",
+        "local": "Berlin",
+        "impressor": "Veit",
+        "anos": "1851-1853",
+        "volumes": [
+          {
+            "vol": 1,
+            "ano": 1851,
+            "mdz": "bsb10565883",
+            "ia": [
+              "dasobligationen01savigoog",
+              "dasobligationen02savigoog"
+            ]
+          },
+          {
+            "vol": 2,
+            "ano": 1853,
+            "mdz": "bsb10565884",
+            "ia": [
+              "dasobligationenr02savi"
+            ]
+          }
+        ]
+      },
+      "apoio": [
+        {
+          "sigla": "gerardin-jozon",
+          "lingua": "fr",
+          "titulo": "Le droit des obligations, trad. C. Gérardin et P. Jozon",
+          "local": "Paris",
+          "impressor": "A. Durand",
+          "ano": 1863,
+          "segunda_ed": "Paris, Thorin, 1873",
+          "ia": [
+            "bub_gb_lkaoHfp8XXQC (t. I, 1863)",
+            "bub_gb_XNf1zC6BaPYC (1863)",
+            "ledroitdesoblig01jozogoog (1863)",
+            "ledroitdesoblig02jozogoog (1863)",
+            "ledroitdesoblig00hippgoog (1873)",
+            "ledroitdesoblig00jozogoog (t. II, 1873)"
+          ]
+        },
+        {
+          "sigla": "pacchioni",
+          "lingua": "it",
+          "titulo": "Le obbligazioni, trad. Giovanni Pacchioni",
+          "local": "Torino",
+          "impressor": "UTET",
+          "anos": "1912-1915",
+          "morte_tradutor": 1947,
+          "volumes": [
+            {
+              "vol": 1,
+              "ano": 1912,
+              "onde": "a localizar (digi.law.muni.cz)"
+            },
+            {
+              "vol": 2,
+              "ano": 1915,
+              "onde": "https://digi.law.muni.cz/handle/digilaw/22581"
+            }
+          ]
+        }
+      ],
+      "consulta": [
+        "Brown, An Epitome and Analysis of Savigny's Treatise on Obligations (London, 1872), ia anepitomeandana00savigoog"
+      ]
+    },
+    "jhering-culpa-in-contrahendo": {
+      "base": {
+        "titulo": "Culpa in contrahendo oder Schadensersatz bei nichtigen oder nicht zur Perfection gelangten Verträgen",
+        "publicacao": "Jahrbücher für die Dogmatik des heutigen römischen und deutschen Privatrechts, Bd. 4 (Jena, 1861), S. 1 ff.",
+        "ia": "jahrbcherfrdied00jhergoog",
+        "reimpressao": {
+          "titulo": "Gesammelte Aufsätze aus den Jahrbüchern…, Bd. 1",
+          "local": "Jena",
+          "impressor": "Gustav Fischer",
+          "ano": 1881,
+          "paginas": "327 ff.",
+          "mdz": "bsb11639598",
+          "ia": [
+            "bub_gb_-HQDAAAAQAAJ",
+            "bub_gb_tLFBAAAAYAAJ"
+          ]
+        }
+      },
+      "apoio": [
+        {
+          "sigla": "meulenaere",
+          "lingua": "fr",
+          "titulo": "De la culpa in contrahendo…, em Jhering, Œuvres choisies, trad. O. de Meulenaere",
+          "local": "Paris",
+          "impressor": "A. Marescq aîné",
+          "ano": 1893,
+          "ia": "uvreschoisiestr00meulgoog",
+          "nascimento_tradutor": 1840
+        }
+      ],
+      "nao_usadas": [
+        "traduções italiana (2005) e portuguesa (2008): protegidas"
+      ]
+    },
+    "savigny-besitz": {
+      "base": {
+        "titulo": "Das Recht des Besitzes. Eine civilistische Abhandlung",
+        "edicao": "6. Ausgabe",
+        "local": "Giessen",
+        "impressor": "Heyer",
+        "ano": 1837,
+        "mdz": "bsb10567078",
+        "ia": "dasrechtdesbesi00savigoog",
+        "alternativa": "7. Ausgabe, hrsg. A. F. Rudorff (Wien, 1865): a localizar",
+        "conferencia": {
+          "1803": [
+            "bsb10567076",
+            "bsb11347406"
+          ],
+          "1806": "bsb10553316",
+          "1818": "bsb11101052"
+        }
+      },
+      "apoio": [
+        {
+          "sigla": "perry",
+          "lingua": "en",
+          "titulo": "Von Savigny's Treatise on Possession; or the Jus Possessionis of the Civil Law, trad. Sir Erskine Perry",
+          "local": "London",
+          "impressor": "S. Sweet",
+          "ano": 1848,
+          "feita_da": "6. Ausgabe",
+          "ia": "india.history.resource.41446",
+          "morte_tradutor": 1882
+        },
+        {
+          "sigla": "beving",
+          "lingua": "fr",
+          "titulo": "Traité de la possession d'après les principes du droit romain, trad. Jules Beving",
+          "local": "Bruxelles",
+          "impressor": "Hauman",
+          "ano": 1840,
+          "ia": "traitdelaposses00bevigoog"
+        },
+        {
+          "sigla": "staedtler",
+          "lingua": "fr",
+          "titulo": "Traité de la possession en droit romain, trad. Henri Staedtler",
+          "feita_da": "7. Ausgabe (Rudorff)",
+          "edicoes": [
+            "Bruxelles, Bruylant, 1870: ia traitdelaposses01staegoog",
+            "Paris, Durand, 1879: ia traitdelapossess00savi"
+          ]
+        },
+        {
+          "sigla": "conticini",
+          "lingua": "it",
+          "titulo": "Il diritto del possesso, trad. Pietro Conticini",
+          "local": "Firenze",
+          "impressor": "Pezzati",
+          "ano": 1839,
+          "ia": "bub_gb_EEp1S36NLRsC"
+        },
+        {
+          "sigla": "andreoli",
+          "lingua": "it",
+          "titulo": "Trattato del possesso secondo i principii del dritto romano, trad. Raffaele Andreoli",
+          "local": "Napoli",
+          "impressor": "Pedone Lauriel",
+          "ano": 1857,
+          "ia": "bub_gb_-7M6GfDp7bAC"
+        },
+        {
+          "sigla": "madrid-1845",
+          "lingua": "es",
+          "titulo": "Tratado de la posesión según los principios de derecho romano",
+          "local": "Madrid",
+          "impressor": "Sociedad Literaria y Tipográfica",
+          "ano": 1845,
+          "ia": "bub_gb_CuC_21Mf5qMC",
+          "nota": "tradutor não identificado; provavelmente do francês"
+        }
+      ]
+    },
+    "savigny-beruf": {
+      "base": {
+        "titulo": "Vom Beruf unsrer Zeit für Gesetzgebung und Rechtswissenschaft",
+        "edicao_proposta": "2. vermehrte Auflage, Heidelberg, Mohr, 1828",
+        "ia": "bub_gb_c6VLAAAAcAAJ",
+        "outras": {
+          "1814": "mdz bsb10740690",
+          "1840": "ia vomberufunsrerz00savigoog"
+        }
+      },
+      "apoio": [
+        {
+          "sigla": "hayward",
+          "lingua": "en",
+          "titulo": "Of the Vocation of Our Age for Legislation and Jurisprudence, trad. Abraham Hayward",
+          "local": "London",
+          "impressor": "Littlewood",
+          "ano": 1831,
+          "onde": "a localizar (Google Books, HathiTrust); ia só reimpressão de 1986: specialediionofv0000fred",
+          "morte_tradutor": 1884
+        },
+        {
+          "sigla": "tedeschi",
+          "lingua": "it",
+          "titulo": "La vocazione del nostro secolo per la legislazione e la giurisprudenza, 2ª ed. italiana, ed. Giuseppe Tedeschi",
+          "local": "Verona",
+          "ano": 1857,
+          "onde": "a localizar"
+        },
+        {
+          "sigla": "posada",
+          "lingua": "es",
+          "titulo": "De la vocación de nuestro siglo para la legislación y la ciencia del derecho, trad. Adolfo Posada",
+          "local": "Madrid",
+          "impressor": "La España Moderna",
+          "ano": "s.d. (fim do séc. XIX)",
+          "feita_de": "it (Verona, 1857)",
+          "onde": "a localizar",
+          "morte_tradutor": 1944
+        }
+      ],
+      "nao_usadas": [
+        "Dufour (Paris, PUF, 2006): protegida",
+        "Martínez Neira e Calatayud (Univ. Carlos III, 2015): protegida",
+        "Gómez (UNED, da ed. de 1828): protegida"
+      ]
+    }
   }
 }
