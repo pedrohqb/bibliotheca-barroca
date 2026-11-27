@@ -430,5 +430,11 @@
     "formas": ["gratia habitualis", "gratiae habitualis", "gratiam habitualem", "habitualis gratiae", "habitualem gratiam", "habituali gratia"],
     "pt": ["graça habitual"],
     "nota": "\"Graça habitual\": a graça infundida que permanece na alma como hábito (justiça infusa, santificante), oposta à *gratia actualis*, \"graça atual\" (livro V da *Heresia pelagiana*, caps. 19 e 22)."
+  },
+  {
+    "lema": "inhabitatio",
+    "formas": ["inhabitatio", "inhabitationem", "inhabitatione", "inhabitationis"],
+    "pt": ["inabitação"],
+    "nota": "\"Inabitação\": a presença peculiar de Deus que habita na alma do justo, como num templo (2Cor 6,16), distinta da presença geral pela imensidade."
   }
 ]
