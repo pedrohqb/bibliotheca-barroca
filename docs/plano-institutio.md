@@ -26,7 +26,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 | S | links de página de Vega e Stapleton |
 | T | Padres citados por Calvino em cada capítulo (contagem) |
 | U | resposta católica à leitura patrística de Calvino (12 capítulos) |
-| V | cadeia fonte católica → réplica → tréplica católica (só cadeias com tréplica) |
+| V | cadeia fonte católica → réplica → tréplica católica, ou comentário do editor quando não há tréplica |
 
 Aba **Notas**: contagens, critério da cobertura, edição e método de cada autor.
 
@@ -48,11 +48,11 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 - Eixo do contraponto: Coton (responde à *Institutio* na mesma forma de instituição completa e a cita dezenas de vezes) e Belarmino capítulo a capítulo; Trento e o Catecismo Romano como texto oficial; os demais completam onde Coton e Belarmino falham.
 - Capítulos de convergência (sobretudo III, 6–10, II, 9 e II, 15) têm contraponto que mostra o acordo, não polêmica.
 - Formato proposto (2026-11-27), a confirmar no piloto: sob cada capítulo de Calvino, uma nota curta do Pedro (o que está em jogo, a que seção a fonte responde, se há acordo) e um a três trechos das fontes, traduzidos e com o original ao lado.
-- **Decisões do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico, seguida da tréplica católica; e nenhuma réplica entra sem tréplica católica** (cadeias abaixo).
+- **Decisões do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico, seguida da tréplica católica; e a cadeia termina sempre do lado católico: com a tréplica histórica, se houver, ou com um comentário católico do editor** (cadeias abaixo).
 
 ## Réplicas e tréplicas
 
-**Regra do Pedro (2026-11-27): nenhuma réplica sem tréplica católica.** A réplica reformada só entra quando há uma resposta católica a ela; a cadeia termina sempre do lado católico. Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. A tréplica pode ser de outro autor católico, desde que responda à própria réplica, e não só ao tema. Cadeia por capítulo: coluna V da planilha.
+**Regra do Pedro (2026-11-27): a cadeia termina sempre do lado católico.** Quando há tréplica católica histórica, ela fecha a cadeia. Quando não há, a réplica entra mesmo assim, seguida de um **comentário católico do editor** que responde a ela. Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. A tréplica pode ser de outro autor católico, desde que responda à própria réplica, e não só ao tema. Cadeia por capítulo: coluna V da planilha.
 
 | Fonte católica | Réplica | Tréplica católica | Capítulos |
 |---|---|---|---|
@@ -65,7 +65,23 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 | Bossuet, *Histoire des variations* (1688) | Jurieu, cartas pastorais | Bossuet, *Avertissements aux protestants* e *Défense de l'Histoire des variations* (1689–1691) | IV, 1–2 |
 | Möhler, *Symbolik* (1832) | F. C. Baur, *Der Gegensatz des Katholicismus und Protestantismus* (1834) | Möhler, *Neue Untersuchungen der Lehrgegensätze* (1834) | conforme os §§ |
 
-**Ficam de fora, por falta de tréplica católica encontrada** (a fonte católica continua; só a réplica sai): Calvino, *Responsio ad Sadoletum* (1539); Calvino, *Articuli … cum antidoto* (1544), contra a Faculdade de Paris; Whitaker, *De peccato originali* (1600), contra Stapleton, que morreu em 1598; Jacques Cappel, *Instruction chrestienne* (1619), contra Coton; a *Erwiederung* de Baur (1834), sem resposta de Möhler, que morreu em 1838. Se uma tréplica aparecer, a réplica volta.
+**Réplicas sem tréplica histórica: entram com comentário católico do editor.**
+
+| Fonte católica | Réplica | Capítulos |
+|---|---|---|
+| Sadoleto, carta aos genebrinos (1539) | Calvino, *Responsio ad Sadoletum* (1539) | Pref.; IV, 1–2 |
+| Faculdade de Teologia de Paris, artigos de 1543 | Calvino, *Articuli … cum antidoto* (1544) | conforme o artigo (livre-arbítrio, fé e obras, sacramentos, santos, purgatório, primado) |
+| Stapleton, *Universa iustificationis doctrina*, L. I–III (1582) | Whitaker, *De peccato originali* (1600) | II, 1–3; III, 3 |
+| Coton, *Institution catholique* (1610) | Jacques Cappel, *Instruction chrestienne* (1619) | conforme o capítulo de Coton |
+| Möhler, *Neue Untersuchungen* (1834) | Baur, *Erwiederung* (1834) | conforme os §§ |
+
+Regras do comentário do editor:
+
+- É identificado no site como comentário do editor, separado dos textos históricos, para que ninguém o tome por obra de autor antigo.
+- Responde ao argumento da réplica, ponto por ponto, e só com o que as fontes católicas do mapa sustentam: cada afirmação remete ao lugar (Belarmino, Trento, Coton, Stapleton…) de onde vem. Nada de doutrina nova nem de opinião sem fonte.
+- Curto: o necessário para fechar o ponto, no registro das notas do tradutor.
+- Quando a réplica acerta um ponto de fato (uma citação patrística errada, um abuso real), o comentário reconhece, como fazem os próprios autores católicos.
+- É redigido em rascunho e passa pela revisão do Pedro antes de publicado; se depois aparecer uma tréplica histórica, ela substitui o comentário.
 
 As tréplicas de Belarmino foram conferidas no texto da edição Vivès; as demais datas e títulos, pelos catálogos. Todos os autores morreram antes de 1955.
 
