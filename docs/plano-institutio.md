@@ -46,6 +46,28 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 - Contraponto só com autores em domínio público pelo critério brasileiro (Lei 9.610/98, art. 41: 70 anos contados de 1º de janeiro do ano seguinte à morte, ou seja, autores mortos até 1955).
 - Eixo do contraponto: Coton (responde à *Institutio* na mesma forma de instituição completa e a cita dezenas de vezes) e Belarmino capítulo a capítulo; Trento e o Catecismo Romano como texto oficial; os demais completam onde Coton e Belarmino falham.
 - Capítulos de convergência (sobretudo III, 6–10, II, 9 e II, 15) têm contraponto que mostra o acordo, não polêmica.
+- Formato proposto (2026-11-27), a confirmar no piloto: sob cada capítulo de Calvino, uma nota curta do Pedro (o que está em jogo, a que seção a fonte responde, se há acordo) e um a três trechos das fontes, traduzidos e com o original ao lado.
+- **Decisão do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico**, e, se houver, a tréplica católica depois dela (cadeias abaixo).
+
+## Réplicas e tréplicas
+
+Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. Só entram as cadeias que tocam o capítulo de Calvino em questão.
+
+| Fonte católica | Réplica | Tréplica católica | Capítulos |
+|---|---|---|---|
+| Pighius, *De libero hominis arbitrio* (1542) | Calvino, *Defensio sanae et orthodoxae doctrinae de servitute et liberatione humani arbitrii adversus calumnias Alberti Pighii* (1543); depois *De aeterna Dei praedestinatione* (1552) | não há: Pighius morreu em 1542 | II, 2–5; III, 21–24 |
+| Sadoleto, carta aos genebrinos (1539) | Calvino, *Responsio ad Sadoletum* (1539) | não há conhecida | Pref.; IV, 1–2 |
+| Trento, decreto da justificação (sessão VI, 1547) | Calvino, *Acta Synodi Tridentinae cum Antidoto* (1547) | Andrés de Vega, *De iustificatione*, L. XV, c. 23 (resposta às três calúnias de Calvino contra os cânones) e a resposta ao *Antidotum* anexa à edição de 1621 | III, 2–4; III, 11–18 |
+| Faculdade de Teologia de Paris, artigos de 1543 | Calvino, *Articuli … cum antidoto* (1544) | a localizar | vários |
+| Stapleton, *Principiorum fidei* (1578) e Belarmino | Whitaker, *Disputatio de Sacra Scriptura* (1588) | Stapleton, *Authoritatis ecclesiasticae … defensio* (1592); Whitaker, *Duplicatio* (1594); Stapleton, *Triplicatio inchoata* (Antuérpia, 1596; BSB `bsb10168686`) | I, 7–9; IV, 8 |
+| Stapleton, *Universa iustificationis doctrina* (1582), L. I–III | Whitaker, *De peccato originali* (1600, póstumo) | não há: Stapleton morreu em 1598 | II, 1–3; III, 3 |
+| Coton, *Institution catholique* (1610) | Jacques Cappel, *Instruction chrestienne* (1619) | a localizar | vários |
+| Duperron e a conferência de Fontainebleau (1600) | Du Plessis-Mornay, *De l'institution … de l'Eucharistie* (1598) e as respostas depois de Fontainebleau | Duperron, *Traité de l'Eucharistie* (póstumo, 1622) | IV, 14; IV, 17 |
+| Nicole, *Préjugez légitimes contre les calvinistes* (1671) | Jean Claude, *La défense de la Réformation* (1673) | Nicole, *Les prétendus réformez convaincus de schisme* (1684) | IV, 1–2 |
+| Bossuet, *Histoire des variations* (1688) | Jurieu, cartas pastorais; Basnage | Bossuet, *Avertissements aux protestants* e *Défense de l'Histoire des variations* (1689–1691) | IV, 1–2; III, 2; III, 24; IV, 17 |
+| Möhler, *Symbolik* (1832) | F. C. Baur, *Der Gegensatz des Katholicismus und Protestantismus* (Tübingen, 1834) | Möhler, *Neue Untersuchungen der Lehrgegensätze* (1834); Baur ainda respondeu com a *Erwiederung* (1834) | conforme os §§ |
+
+Todos os autores da tabela morreram antes de 1955; o domínio público vale também para as réplicas. As datas e títulos sem edição indicada ainda não foram conferidos no scan.
 
 ## Decisões em aberto (perguntar ao Pedro antes de produzir)
 
