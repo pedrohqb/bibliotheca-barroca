@@ -84,8 +84,9 @@ O workflow `.github/workflows/site.yml` valida a cada pull request e, a cada pus
 
 ## Licenças
 
-- Transcrições: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
-- Traduções, notas e glossários: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- Código (`tools/`, `site/`): MIT.
+Nenhum conteúdo deste repositório pode ser usado para fins comerciais (detalhes em `LICENSE`).
+
+- Transcrições, traduções, notas, glossários e registros de debate: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt-br) (atribuição, sem uso comercial, sem obras derivadas).
+- Código (`tools/`, `site/`): [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0).
 
 Os textos latinos de base são de domínio público.

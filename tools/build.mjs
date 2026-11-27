@@ -11,7 +11,7 @@ fs.mkdirSync(path.join(SAIDA, 'assets'), { recursive: true });
 for (const f of ['estilo.css', 'leitor.js', 'busca.js']) fs.copyFileSync(path.join(RAIZ, 'site', f), path.join(SAIDA, 'assets', f));
 
 const FONTES = 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap';
-const ESTADO = { importada: 'tradução própria, aguardando debate', rascunho: 'tradução em rascunho', revisada: 'tradução revista', debatida: 'tradução debatida, aguardando revisão', publicada: 'tradução revista e publicada' };
+const ESTADO = { importada: 'tradução própria, aguardando debate', rascunho: 'tradução em rascunho', revisada: 'tradução revista', debatida: 'tradução debatida', publicada: 'tradução revista e publicada' };
 const REF = { coluna: 'col.', pagina: 'p.', folio: 'fol.', lei: 'D.' };
 // Referência do trecho no gutter; no Digesto (referencia: lei) é a citação usual, D. 1.1.1 pr.
 const refTrecho = (o, col) => o.meta.referencia === 'lei' ? col.replace(/\.pr$/, ' pr.') : col;
@@ -60,6 +60,8 @@ const historico = (o, c) => {
   }
   return ['rascunho', 'importada'].includes(c.pt.meta.estado) ? 'Ainda sem debate. ' : '';
 };
+const LICENCAS = { 'CC BY-NC-ND 4.0': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt-br' };
+const licenca = n => LICENCAS[n] ? `<a href="${LICENCAS[n]}">${esc(n)}</a>` : esc(n);
 const situacao = c => [TRANSC[c.la?.meta.transcricao] || 'transcrição', c.pt ? (ESTADO[c.pt.meta.estado] || 'tradução') : 'sem tradução'].join(' · ');
 const nomeCap = c => `${c.pt?.meta.capitulo || c.la.meta.capitulo}`;
 const rotulo = c => [c.la.meta.tomo && 'Tomo ' + c.la.meta.tomo, c.pt?.meta.livro_curto, nomeCap(c)].filter(Boolean).join(' · ');
@@ -130,7 +132,7 @@ for (const o of obras) {
 ${o.meta.acrescimos?.descricao ? `<dt>Acréscimos</dt><dd>${esc(o.meta.acrescimos.descricao)}</dd>
 ` : ''}${o.meta.texto_latino ? `<dt>Texto latino</dt><dd>${formatar(o.meta.texto_latino)}</dd>
 ` : ''}${o.meta.traducoes_cotejadas?.length ? `<dt>Traduções cotejadas</dt><dd><ul class="cot">${o.meta.traducoes_cotejadas.map(t => `<li>${formatar(t)}</li>`).join('')}</ul></dd>
-` : ''}<dt>Licenças</dt><dd>Transcrição: ${esc(o.meta.licenca.transcricao)}. Tradução: ${esc(o.meta.licenca.traducao)}.</dd>
+` : ''}<dt>Licenças</dt><dd>Transcrição: ${licenca(o.meta.licenca.transcricao)}. Tradução: ${licenca(o.meta.licenca.traducao)}. Uso comercial proibido.</dd>
 </dl>
 <h2>Capítulos</h2>
 ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
