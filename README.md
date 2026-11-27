@@ -1,12 +1,10 @@
 # Bibliotheca Barroca
 
-Clássicos latinos de teologia, filosofia e direito, com foco na escolástica barroca dos séculos XVI e XVII, transcritos de impressões antigas e traduzidos para o português, num site de leitura bilíngue: o latim ao lado da tradução, trecho a trecho, cada trecho com link permanente e ligado à coluna do scan de origem, glossário dos termos técnicos e notas do tradutor.
-
-Primeira obra: Cornélio Jansênio, *Augustinus* (Lovaina, 1640), a partir do exemplar da Universitätsbibliothek Paderborn.
+Obras clássicas de teologia, filosofia, direito e outras áreas, transcritas de edições antigas e traduzidas para o português, num site de leitura bilíngue: o original ao lado da tradução, trecho a trecho, cada trecho com link permanente e ligado à página ou coluna do scan de origem, glossário dos termos técnicos e notas do tradutor.
 
 **Site:** https://pedrohqb.github.io/bibliotheca-barroca/
 
-Planos de produção, com o prompt de cada sessão:
+Obras em produção, com o plano e o prompt de cada sessão:
 
 - Jansênio, *Augustinus*: [docs/plano-augustinus.md](docs/plano-augustinus.md)
 - Pedro de Oñate, *De Contractibus* (tradução nova, a partir da edição de Roma): [docs/plano-de-contractibus.md](docs/plano-de-contractibus.md)

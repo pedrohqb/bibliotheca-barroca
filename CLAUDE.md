@@ -1,6 +1,6 @@
 # Bibliotheca Barroca
 
-Site estático de clássicos latinos em edição bilíngue (latim ao lado do português, trecho a trecho), publicado no GitHub Pages a cada push na `main`. Primeira obra: Jansênio, *Augustinus* (Lovaina, 1640). Dono do projeto e tradutor responsável: Pedro H. Q. Barreto.
+Site estático de obras clássicas em edição bilíngue (o original ao lado do português, trecho a trecho), publicado no GitHub Pages a cada push na `main`. Obras em produção: ver o `README.md`. Dono do projeto e tradutor responsável: Pedro H. Q. Barreto.
 
 - Produzir capítulos: skill `traduzir-capitulo` (transcrição, tradução, debate com Codex e Gemini, publicação).
 - Critérios de transcrição, registro e fidelidade: `CRITERIOS.md`. Valem para todo texto em `obras/`.

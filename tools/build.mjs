@@ -150,6 +150,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
     const scan = la.meta.scan;
     const ant = o.capitulos[ci - 1], prox = o.capitulos[ci + 1];
     const rotAc = o.meta.acrescimos?.rotulo || 'Acréscimo';
+    const nomeOrig = (o.meta.idiomas?.la || 'Original').replace(/\s*\(.*$/, '');
     const temAc = la.trechos.some(t => t.acrescimos.length);
     const linhas = la.trechos.map((t, i) => {
       const p = pt?.trechos[i];
@@ -168,7 +169,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
       titulo: `${o.meta.titulo}, ${nomeCap(c)}`, raiz: '../',
       trilha: `<span class="trilha"><a href="index.html">${esc(o.meta.titulo)}</a> · ${esc(nomeCap(c))}</span>`,
       extra: `<div class="seg ui" role="group" aria-label="Texto exibido">
-<button type="button" data-vista="ambos" aria-pressed="true">Latim e português</button><button type="button" data-vista="la" aria-pressed="false">Latim</button><button type="button" data-vista="pt" aria-pressed="false">Português</button></div>
+<button type="button" data-vista="ambos" aria-pressed="true">${esc(nomeOrig)} e português</button><button type="button" data-vista="la" aria-pressed="false">${esc(nomeOrig)}</button><button type="button" data-vista="pt" aria-pressed="false">Português</button></div>
 <label class="chk ui"><input type="checkbox" id="ver-notas" checked> Notas</label>${temAc ? `
 <label class="chk ui"><input type="checkbox" id="ver-acr" checked> Acréscimos</label>` : ''}
 <label class="chk ui"><input type="checkbox" id="ver-glos" checked> Glossário</label>`,
@@ -179,7 +180,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <p class="lat" lang="la">${esc(la.meta.capitulo)}. ${esc(la.meta.titulo)}</p>
 <p class="aviso"><b>${esc(estadoTraducao(c, o).replace(/^./, s => s.toUpperCase()))}.</b> ${pt?.meta.tradutor ? 'Tradução de ' + esc(pt.meta.tradutor) + '. ' : ''}${pt?.meta.processo && limparProcesso(pt.meta.processo) ? esc(limparProcesso(pt.meta.processo)) + '. ' : ''}${historico(o, c)}${la.meta.colunas ? `${['pagina', 'lei'].includes(o.meta.referencia) ? 'Páginas' : 'Colunas'} ${esc(la.meta.colunas)} da edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}` : `Edição de ${esc(b.local_pt || b.local)}, ${esc(la.meta.ano || b.ano)}`}${scan ? `; <a href="${esc(scan)}">ver o scan</a>` : ''}.</p>
 </div>
-<div class="colhead"><span></span><span class="hla">Latim</span><span class="hpt">Português</span></div>
+<div class="colhead"><span></span><span class="hla">${esc(nomeOrig)}</span><span class="hpt">Português</span></div>
 <div class="texto">
 ${linhas}
 </div>
@@ -198,7 +199,7 @@ escrever('busca.html', pagina({
   titulo: `Buscar · ${SITE.nome}`, raiz: '',
   corpo: `<main class="wrap acervo busca">
 <h1>Buscar nos textos</h1>
-<p class="lead">No latim e nas traduções, sem distinguir acentos.</p>
+<p class="lead">No texto original e nas traduções, sem distinguir acentos.</p>
 <label for="q" class="ui" style="display:block;font-size:14px;color:var(--mute);margin-bottom:6px">Palavra ou expressão</label>
 <input id="q" type="search" autocomplete="off" placeholder="gratia, livre-arbítrio, Salvador…">
 <p id="info" class="ui" style="font-size:14px;color:var(--mute)"></p>
