@@ -1048,5 +1048,11 @@
     "formas": ["Philosophica libertate", "Philosophicae libertatis", "Philosophicae libertati"],
     "pt": ["liberdade filosófica"],
     "nota": "\"Liberdade filosófica\": a liberdade dos escolásticos e dos teólogos modernos, definida pela indiferença de exercício (poder agir e não agir), que Jansênio opõe à liberdade agostiniana (livro IV do *De statu naturae lapsae*, cap. 22; *De gratia Christi Salvatoris* VII, caps. 14 e 15)."
+  },
+  {
+    "lema": "motio",
+    "formas": ["motio", "motionis", "motionem", "motione"],
+    "pt": ["moção", "moções"],
+    "nota": "\"Moção\": termo escolástico, o movimento atual com que Deus move a vontade ao ato (*motio actualis*, \"moção atual\"); distinto de *motus*, \"movimento\" (da alma, da vontade)."
   }
 ]
