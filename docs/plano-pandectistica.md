@@ -80,7 +80,7 @@ Não entram: a tradução russa do vol. 1 (São Petersburgo, sob a direção de 
 
 ## Forma no repositório (proposta)
 
-- Obras: `obras/savigny-system/` e `obras/windscheid-pandekten/`, com `de/` (original) e `pt/`.
+- Obras: `obras/savigny-system/` e `obras/windscheid-pandekten/`, com `la/` (a pasta do original em todas as obras, aqui com o alemão) e `pt/`; `obra.json` → `idiomas: {"la": "Alemão", "pt": "Português"}`.
 - **Capítulo = §** (ids `p001`…`p400` no Savigny; `p001`…`p678`, com `p037a` etc., no Windscheid). Apêndices do Savigny: `b01`…; prefácios (*Vorrede*): `v1`…; no Windscheid, o prefácio da 7ª edição: `v7`. §§ longos podem ser divididos em partes `p009-1`, `p009-2` no catálogo, sem mudar a numeração do autor.
 - **Trecho = parágrafo** da impressão (*Absatz*); `@p` quando o parágrafo abre linha nova com recuo.
 - **Referência = página** da edição de base (`referencia: pagina`), lida no rótulo do manifesto IIIF; o link do trecho abre a página no MDZ.
@@ -90,12 +90,12 @@ Não entram: a tradução russa do vol. 1 (São Petersburgo, sob a direção de 
 
 ### Mudanças em `tools/` e `site/` (etapa 0; não se fazem no meio da produção de outra obra)
 
-Hoje o código supõe latim em todo lugar (`c.la`, rótulo "Latim e português", `lang="la"`). Para estas obras é preciso:
+O código guarda o original na chave `la` em todas as obras; com o ajuste de 2026-11-27 isso já não amarra o site ao latim. Para estas obras falta:
 
-1. **Idioma original configurável**: `obra.json` → `original: "de"` e `idiomas: {"de": "Alemão (Berlim, 1840–1849)", "pt": "Português"}`; `lib.mjs` expõe o capítulo original como `c.orig` (com `c.la` como alias, para não quebrar as obras latinas); `build.mjs` e `validar.mjs` tiram o rótulo e o `lang` de `idiomas`. As obras latinas não mudam nada.
+1. **Idioma original**: resolvido pelo Pedro em 2026-11-27 (commit `2097e15`): o site passou a apresentar obras clássicas em geral, e os rótulos do leitor ("Alemão e português", "Alemão") saem de `obra.json` → `idiomas.la`, a chave do original em qualquer obra. Resta um detalhe: o atributo `lang="la"` do HTML (coluna do original, título do capítulo, lema do glossário) ainda é fixo; deve sair de um campo como `obra.json` → `lang: "de"`, para hifenização e leitores de tela.
 2. **Notas do autor**: um marcador novo, `@r` com âncora `{r1}`, `{r2}`… (mesmo mecanismo do `@a`, outro rótulo: "Nota do autor"), conferido pelo validador como o `@a` (mesmo número de notas no original e na tradução). Usar o `@a` direto não serve: ele significa acréscimo de editor posterior.
 3. **Concordância** no rodapé do capítulo, a partir do catálogo (se o Pedro aprovar).
-4. **Glossário com lema alemão**: o formato atual serve (`lema`, `formas`, `pt`, `nota`); falta só o `lang` do lema sair de `idiomas`.
+4. **Glossário com lema alemão**: o formato atual serve (`lema`, `formas`, `pt`, `nota`); o `lang` do lema entra na correção do item 1.
 
 ## Critérios de transcrição do alemão (proposta, a levar ao `CRITERIOS.md` na calibração)
 
@@ -172,7 +172,7 @@ Tamanho: cerca de 4.300 páginas de scan no Savigny e 2.150 no Windscheid, com n
 
 ## Decisões em aberto (perguntar ao Pedro antes da etapa 0)
 
-1. **Mudanças em `tools/` e `site/`** para o original alemão e as notas do autor: aprovar o desenho acima e escolher o momento (outras sessões produzem no mesmo repositório).
+1. **Notas do autor** (`@r`, acima) e o `lang` do original: aprovar o desenho e escolher o momento (outras sessões produzem no mesmo repositório). Os rótulos do idioma já foram resolvidos.
 2. **Concordância com as traduções no site** (links por §) ou só cotejo interno.
 3. **Ordem**: Savigny primeiro (fixa a terminologia que Windscheid herda), Windscheid primeiro, ou as duas em paralelo.
 4. **Glossário**: aprovar as formas propostas, sobretudo *Rechtsfähigkeit*, *Handlungsfähigkeit* e *Anspruch*.
