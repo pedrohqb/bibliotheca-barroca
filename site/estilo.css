@@ -96,6 +96,18 @@ h3.livro{font:600 20px/1.3 "EB Garamond",Garamond,serif;margin:22px 0 4px;color:
 .res li{border-bottom:1px solid var(--rule);padding:14px 0}
 .res .onde{font:500 13px/1.4 Inter,system-ui,sans-serif;color:var(--mute)}
 .res mark{background:var(--hi);color:inherit;border-bottom:2px solid var(--red)}
+/* Ouvir: leitura em voz alta da tradução */
+.ouvir,#ouvinte button{border:1px solid var(--rule);border-radius:8px;background:none;color:var(--ink);font-size:14px;padding:0 14px;min-height:40px;cursor:pointer}
+.ouvir[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.ouvir:focus-visible,#ouvinte button:focus-visible,#ouvinte select:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.t.lendo{background:var(--hi);box-shadow:inset 3px 0 0 var(--red)}
+#ouvinte{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--bg);border-top:1px solid var(--rule);box-shadow:0 -6px 18px rgb(0 0 0/.08)}
+#ouvinte[hidden]{display:none}
+#ouvinte .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding-block:10px;font-size:14px}
+#ouvinte label{display:inline-flex;align-items:center;gap:6px;color:var(--mute)}
+#ouvinte select{min-height:40px;max-width:22em;border:1px solid var(--rule);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;padding:0 8px}
+#ouvinte .est{color:var(--mute);margin-left:auto}
+.com-ouvinte footer{padding-bottom:150px}
 @media(max-width:760px){
 .colhead{display:none}
 .t,.so-la .t,.so-pt .t{grid-template-columns:minmax(0,1fr);gap:6px}
