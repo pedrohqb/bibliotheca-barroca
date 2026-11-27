@@ -141,6 +141,20 @@ O Pedro aprovou as quatro obras e deixou a ordem a critério do plano (2026-11-2
 
 A calibração (etapa 1) passa a ser a *Culpa in contrahendo* inteira, mais os §§ 4–5 e 52 do *System*, que fixam *Rechtsverhältniß* e *Rechtsinstitut*; os §§ de Windscheid da calibração ficam para o início dele. Nada impede adiantar uma obra se o Pedro pedir.
 
+## Possível no futuro: Glück, *Ausführliche Erläuterung der Pandecten*
+
+Pedido do Pedro (2026-11-27): registrar como obra possível, sem data. **Não entra na ordem de produção.**
+
+O comentário às Pandectas de Christian Friedrich von Glück (Erlangen, Palm, depois Palm & Enke), que segue a ordem do Digesto livro a livro e título a título, "nach Hellfeld", é o grande repertório do *usus modernus* às portas da pandectística. Glück trabalhou nele cerca de quarenta anos e não o terminou: planejado para seis volumes, tinha 35 à morte dele (1831). Continuaram-no Mühlenbruch, Fein, Arndts, Leist, Burckhard, Czyhlarz, Salkowski, Ubbelohde e outros, em séries por livros do Digesto, até o fim do século XIX; volumes de 600 páginas são comuns (ex.: série dos livros 41 e 42, t. 1, 1887, XII + 628 pp.).
+
+**Tamanho:** só a parte de Glück passa de 15 mil páginas, várias vezes o *Augustinus* (cerca de 2.300 colunas em fólio); com as continuações, muito mais. É, de longe, a maior obra cogitada na Bibliotheca.
+
+**Fontes já vistas (a levantar por inteiro quando for o caso):** volumes no MDZ e na Staatsbibliothek Bamberg (via Deutsche Digitale Bibliothek), na Freie Universität Berlin (Refubium), em Halle (Share_it, `opendata.uni-halle.de`), na biblioteca digital da Univ. Masaryk (`digi.law.muni.cz`, ex.: `digilaw/35665`) e no Internet Archive (ex.: `ausfhrlicheerlu00burcgoog`). Várias tiragens dos primeiros volumes têm título diferente (*Versuch einer ausführlichen Erläuterung…*).
+
+**Tradução para o cotejo:** a italiana, *Commentario alle Pandette* (Milão, Vallardi, desde 1888), dirigida por Filippo Serafini e Pietro Cogliolo, com notas de muitos colaboradores (entre eles Fadda). Antes de usá-la, conferir volume a volume a data de morte de cada tradutor e anotador, porque a série se estendeu pelo século XX e há volumes de autores mortos depois de 1955, protegidos pelo critério brasileiro.
+
+**Como poderia entrar:** a obra inteira só depois de todas as outras, se o método se mostrar sustentável nessa escala. Antes disso, cabe uma **seleção de títulos** ligada às demais obras (por exemplo, pactos, boa-fé, *culpa*, posse, prescrição), com o mesmo método: tradução do alemão, cotejo com o italiano, capítulo = título do Digesto, remissão ao título correspondente da tradução do Digesto desta biblioteca.
+
 ## Forma no repositório (proposta)
 
 - Obras: `obras/savigny-system/` e `obras/windscheid-pandekten/`, com `la/` (a pasta do original em todas as obras, aqui com o alemão) e `pt/`; `obra.json` → `idiomas: {"la": "Alemão", "pt": "Português"}`.
