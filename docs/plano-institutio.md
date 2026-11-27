@@ -41,6 +41,8 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 | `[OCR]` | leitura do OCR, não conferida |
 | sem marca | correspondência pelo assunto, no nível da obra |
 
+Apresentação da obra para o site (rascunho): `docs/apresentacao-institutio-rascunho.md`.
+
 ## Decisões já tomadas
 
 - Texto de Calvino: a edição de 1559, a última revista por ele, com as traduções existentes no processo.
