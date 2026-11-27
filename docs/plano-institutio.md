@@ -4,12 +4,10 @@ Proposta do Pedro (2026-11-26): traduzir a *Institutio christianae religionis* d
 
 ## O que já existe
 
-**Mapa de correspondência, capítulo a capítulo.** É uma planilha (artifact do Claude, na conta do Pedro):
-https://claude.ai/artifact/5TNSDSAynmyB3vUkeAFsd8
+**Mapa de correspondência, capítulo a capítulo: `docs/institutio/mapa.md`.** É a lista de trabalho de referência, copiada em 27/11/2026 da planilha em que foi montada (https://claude.ai/artifact/5TNSDSAynmyB3vUkeAFsd8, revisão 26). As sessões gravam no `mapa.md` o que pesquisarem; a planilha fica como visualização e pode ficar desatualizada.
 
-Ela é a fonte de verdade do contraponto. Uma sessão no claude.ai a lê pelo conector Claude Docs (`read` com `ref` `{"object":"node","id":"3d154e59-551b"}`, `container` `{"kind":"project","id":"24131a2f-2888-4074-b370-e97dc2f25657"}`, `engine` `workbook`). Uma sessão na VM, sem esse conector, precisa de uma cópia: o Pedro baixa a planilha como .xlsx e a grava em `docs/institutio/mapa.xlsx`.
+As colunas da planilha, que no `mapa.md` viraram os campos de cada capítulo:
 
-Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 capítulos; a *Epistola ad lectorem* entra na tradução, mas não pede contraponto):
 
 | Coluna | Conteúdo |
 |---|---|
@@ -29,7 +27,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 | V | cadeia fonte católica → réplica → tréplica católica, ou comentário do editor quando não há tréplica |
 | W | Jansênio, *Augustinus*: lugares em que cita Calvino, com link para a tradução no site |
 
-Aba **Notas**: contagens, critério da cobertura, edição e método de cada autor.
+As fontes, o método e as contagens estão no início do `mapa.md`.
 
 **Marcas de conferência** usadas nas células, que devem ser mantidas:
 
@@ -157,11 +155,11 @@ As demais (Sadoleto em *Calvini Opera* 5; Francisco de Sales, trad. Mackey e ed.
 ```text
 Bibliotheca Barroca: projeto da Institutio de Calvino com contraponto católico, ainda em estudo.
 
-Leia antes de qualquer outra coisa: CLAUDE.md, CRITERIOS.md, README.md e docs/plano-institutio.md. O mapa de correspondência é a planilha indicada no plano (ou docs/institutio/mapa.xlsx, se existir); leia-a antes de propor qualquer coisa. Não crie obras/ para Calvino nem mexa em tools/ ou site/ sem que eu decida o formato do contraponto.
+Leia antes de qualquer outra coisa: CLAUDE.md, CRITERIOS.md, README.md e docs/plano-institutio.md. O mapa de correspondência é docs/institutio/mapa.md; leia-o antes de propor qualquer coisa. Não crie obras/ para Calvino nem mexa em tools/ ou site/ sem que eu decida o formato do contraponto.
 
 1. Diga em poucas linhas o estado do projeto e quais decisões em aberto do plano ainda dependem de mim.
-2. Faça o que eu pedir ao final desta mensagem. Se for pesquisa no mapa, siga o método do plano, marque cada lugar com o nível de conferência que ele teve e grave na planilha sem apagar o que existe. Se for o piloto, só comece depois que as decisões 1 a 4 do plano estiverem tomadas.
-3. Ao terminar, atualize docs/plano-institutio.md (o que mudou, decisões tomadas, próximos passos), faça commit só desse arquivo (e de docs/institutio/, se houver) e push.
+2. Faça o que eu pedir ao final desta mensagem. Se for pesquisa no mapa, siga o método do plano, marque cada lugar com o nível de conferência que ele teve e grave no docs/institutio/mapa.md sem apagar o que existe. Se for o piloto, só comece depois que as decisões 1 a 4 do plano estiverem tomadas.
+3. Ao terminar, atualize docs/plano-institutio.md (o que mudou, decisões tomadas, próximos passos), faça commit só desse arquivo e de docs/institutio/ e push.
 
 Tarefa desta sessão:
 ```
