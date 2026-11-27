@@ -700,5 +700,17 @@
     "formas": ["suasio", "suasionis", "suasiones", "suasionibus", "suasionem"],
     "pt": ["persuasão", "persuasões"],
     "nota": "\"Persuasão\": termo com que os pelagianos (e, segundo Jansênio, Orígenes antes deles) descrevem a graça como ação exterior que aconselha e estimula o arbítrio, sem mover a vontade por dentro; vem junto de *provocatio* (\"provocação\") e *hortatio* (\"exortação\"). *Persuasio*, a convicção de alguém, fica \"convicção\" quando houver risco de confusão."
+  },
+  {
+    "lema": "gratia efficax",
+    "formas": ["gratia efficax", "gratiae efficacis", "gratiam efficacem", "gratia efficaci", "efficax"],
+    "pt": ["graça eficaz", "eficaz"],
+    "nota": "\"Graça eficaz\": na escolástica pós-tridentina, a graça que obtém de fato o seu efeito, oposta à graça suficiente (*gratia sufficiens*). Para Jansênio, depois da queda toda graça de Cristo ou é eficaz ou é tão ineficaz que dela não pode seguir a obra (livro IV do *De gratia Christi Salvatoris*, cap. 10). *Inefficax*, \"ineficaz\"."
+  },
+  {
+    "lema": "paedagogus",
+    "formas": ["paedagogus", "paedagogum", "paedagogo", "paedagogi", "Paedagogi"],
+    "pt": ["pedagogo"],
+    "nota": "\"Pedagogo\": o escravo que guardava a criança e a conduzia à escola, não o mestre; a lei como pedagogo para Cristo (Gl 3,24), em Agostinho e Jansênio, que a guarda pelo temor e conduz à graça pelo terror do suplício (livro I do De gratia Christi Salvatoris, cap. 12). Adjetivo paedagogicus, \"pedagógico\"."
   }
 ]
