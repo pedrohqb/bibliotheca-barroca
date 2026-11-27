@@ -1,6 +1,6 @@
 # Plano: a *Institutio* de Calvino com contraponto católico (em estudo)
 
-Proposta do Pedro (2026-11-26): traduzir a *Institutio christianae religionis* de Calvino (edição definitiva, Genebra, 1559) "usando as várias traduções existentes" e acompanhar cada capítulo de um **contraponto católico** tirado de autores tradicionais em domínio público. O projeto ainda está em estudo: **nada foi produzido** e a obra ainda não existe em `obras/`. Este documento reúne o que já foi decidido e pesquisado para que outra sessão continue de onde a primeira parou.
+Proposta do Pedro (2026-11-26): traduzir a *Institutio christianae religionis* de Calvino (edição definitiva, Genebra, 1559) "usando as várias traduções existentes" e acompanhar cada capítulo de um **contraponto católico** tirado de autores tradicionais em domínio público. **Natureza da obra (Pedro, 2026-11-27): não é apologética.** O objetivo é resumir a controvérsia inteira em torno de cada capítulo: o que Calvino afirma, o que os católicos responderam, o que ele ou os seus replicaram e onde a discussão parou. O lado católico organiza a edição, mas cada parte fala com as próprias palavras e no seu argumento mais forte. O projeto ainda está em estudo: **nada foi produzido** e a obra ainda não existe em `obras/`. Este documento reúne o que já foi decidido e pesquisado para que outra sessão continue de onde a primeira parou.
 
 ## O que já existe
 
@@ -47,7 +47,7 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 - Contraponto só com autores em domínio público pelo critério brasileiro (Lei 9.610/98, art. 41: 70 anos contados de 1º de janeiro do ano seguinte à morte, ou seja, autores mortos até 1955).
 - Eixo do contraponto: Coton (responde à *Institutio* na mesma forma de instituição completa e a cita dezenas de vezes) e Belarmino capítulo a capítulo; Trento e o Catecismo Romano como texto oficial; os demais completam onde Coton e Belarmino falham.
 - Capítulos de convergência (sobretudo III, 6–10, II, 9 e II, 15) têm contraponto que mostra o acordo, não polêmica.
-- Formato proposto (2026-11-27), a confirmar no piloto: sob cada capítulo de Calvino, uma nota curta do Pedro (o que está em jogo, a que seção a fonte responde, se há acordo) e um a três trechos das fontes, traduzidos e com o original ao lado.
+- Formato proposto (2026-11-27), a confirmar no piloto: sob cada capítulo de Calvino, uma nota curta do Pedro (o que está em jogo, a que seção a fonte responde, se há acordo) e um a três trechos das fontes, traduzidos e com o original ao lado; a nota descreve a controvérsia, não toma partido.
 - **Decisões do Pedro (2026-11-27): quando Calvino respondeu à fonte católica, a réplica dele entra logo abaixo do trecho católico, seguida da tréplica católica; e a cadeia termina sempre do lado católico: com a tréplica histórica, se houver, ou com um comentário católico do editor** (cadeias abaixo).
 
 ## Réplicas e tréplicas
@@ -78,10 +78,17 @@ Aba **Notas**: contagens, critério da cobertura, edição e método de cada aut
 Regras do comentário do editor:
 
 - É identificado no site como comentário do editor, separado dos textos históricos, para que ninguém o tome por obra de autor antigo.
-- Responde ao argumento da réplica, ponto por ponto, e só com o que as fontes católicas do mapa sustentam: cada afirmação remete ao lugar (Belarmino, Trento, Coton, Stapleton…) de onde vem. Nada de doutrina nova nem de opinião sem fonte.
+- Tem voz descritiva, de quem resume uma controvérsia, não de quem a vence: diz como a teologia católica das fontes do mapa responde à réplica, atribuindo cada posição a quem a sustenta ("Belarmino responde que…", "Trento distingue…"). Não declara vencedor.
+- Só afirma o que as fontes sustentam, e cada afirmação remete ao lugar de onde vem. Nada de doutrina nova nem de opinião sem fonte.
+- Registra também o que a réplica tem de certo (uma citação errada do lado católico, um abuso real) e o que ficou em aberto entre as partes.
 - Curto: o necessário para fechar o ponto, no registro das notas do tradutor.
-- Quando a réplica acerta um ponto de fato (uma citação patrística errada, um abuso real), o comentário reconhece, como fazem os próprios autores católicos.
-- É redigido em rascunho e passa pela revisão do Pedro antes de publicado; se depois aparecer uma tréplica histórica, ela substitui o comentário.
+- Sai em rascunho e passa pela revisão do Pedro; se depois aparecer uma tréplica histórica, ela substitui o comentário.
+
+Regras para todos os trechos, católicos ou reformados:
+
+- Cada parte entra no seu argumento mais forte: escolhe-se o trecho que melhor representa a posição, não o mais fraco nem o mais virulento.
+- A nota do editor sob cada capítulo descreve a controvérsia (o que está em jogo, onde há acordo, onde a divergência é real), sem tomar partido.
+- Insultos e invectivas da época ficam no texto quando fazem parte do trecho, sem comentário moralizante.
 
 As tréplicas de Belarmino foram conferidas no texto da edição Vivès; as demais datas e títulos, pelos catálogos. Todos os autores morreram antes de 1955.
 
