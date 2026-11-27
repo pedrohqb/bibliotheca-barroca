@@ -9,14 +9,14 @@ Estado da produção, atualizado ao fim de cada sessão. O plano está em `docs/
 | Tomo | Prontos | Total |
 |---|---|---|
 | II | 215 (9 debatidos) | 215 |
-| I | 168 | 172 (a *Historia*, livro I, saiu em 12 partes, t1-hp1-01 a 12) |
-| III | 185 | 249 |
+| I | 172, completo | 172 (a *Historia*, livro I, saiu em 12 partes, t1-hp1-01 a 12) |
+| III | 187 | 249 |
 
 **Parado pelo limite semanal do Claude** (Pedro: parar em 85%; parou em 82%, 26/11 23h45). Renova sábado 28/11, 23h. Retomar então:
 
-1. Produção dos 68 pendentes (`node tools/situacao.mjs jansenius-augustinus` lista os `pendente`; 4 do t1-hp8, o resto do tomo III), pelo brief de rascunho.
+1. Produção dos 62 pendentes, todos do tomo III (`node tools/situacao.mjs jansenius-augustinus` lista os `pendente`), pelo brief de rascunho. Em 27/11 o Codex fez 7 capítulos (t3-gc10-07, piloto; t1-hp8-12, 16, 18, 23; t3-gc1-02, 03) até esgotar o limite; o Gemini esgotou a cota antes de terminar algum (no piloto, latim fiel; tradução não avaliada). Executor para modelos externos: `docs/producao-augustinus/executor_externo.py`.
 2. Auditorias de fim de livro que faltam: t1-hp5, t1-hp6 e t3-gc6 (interrompidas, parte das correções no commit 230c8e4), t1-hp (Praefatio, bloqueada pelo hook) e as dos livros do tomo III que fecharem.
-3. Revisão independente (pausada em 26/11, 22h40, para poupar o limite): 69 capítulos revistos. Fila: `python3 -I docs/producao-augustinus/fila_revisao.py "<excluir>" [--esperar SEG]`. Prioridade: t3-gc10-07, piloto feito com Codex (5 erros de transcrição achados em meia coluna e corrigidos; o resto não foi conferido).
+3. Revisão independente (pausada em 26/11, 22h40, para poupar o limite): 69 capítulos revistos. Fila: `python3 -I docs/producao-augustinus/fila_revisao.py "<excluir>" [--esperar SEG]`. Prioridade: os 7 capítulos do Codex (o piloto t3-gc10-07 teve 5 erros de transcrição em meia coluna, corrigidos; o Codex tende a normalizar o latim).
 4. Correções de catálogo anotadas em `docs/producao-augustinus/correcoes-catalogo.txt`.
 5. Propostas de glossário dos livros: relatórios das auditorias em `docs/producao-augustinus/relatorios/` (lista única para o Pedro a montar).
 6. Apresentação da obra: `docs/apresentacao-augustinus-rascunho.md`, a completar e publicar depois da tradução.
