@@ -556,5 +556,17 @@
     "formas": ["praescientia", "praescientiam", "praescientiae"],
     "pt": ["presciência"],
     "nota": "\"Presciência\" (o conhecimento antecipado de Deus); *praescire*, \"saber de antemão\" ou \"prever\"; *praevisio*, \"previsão\". A predestinação *secundum praescientiam* é a dos massilienses (livro VIII, cap. 21)."
+  },
+  {
+    "lema": "coactio",
+    "formas": ["coactio", "coactionis", "coactionem", "coactione"],
+    "pt": ["coação"],
+    "nota": "Sempre \"coação\": a necessidade que força a vontade contra o seu querer (*vis*, *violentia*, *compulsio*); *necessitas coactionis*, \"necessidade de coação\", a única que, para Jansênio, os Padres e os escolásticos antigos excluem da liberdade."
+  },
+  {
+    "lema": "determinatio ad unum",
+    "formas": ["determinatio ad unum", "determinationem ad unum", "determinatione ad unum"],
+    "pt": ["determinação a uma só coisa"],
+    "nota": "A vontade fixada num só objeto ou num só lado, sem poder o oposto; os escolásticos recentes a julgam incompatível com a liberdade, Jansênio não (cf. cap. 13 deste livro)."
   }
 ]
