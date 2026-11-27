@@ -54,7 +54,7 @@ Apresentação da obra para o site (rascunho): `docs/apresentacao-institutio-ras
 
 ## Réplicas e tréplicas
 
-**Regra do Pedro (2026-11-27): a cadeia termina sempre do lado católico.** Quando há tréplica católica histórica, ela fecha a cadeia. Quando não há, a réplica entra mesmo assim, seguida de um **comentário católico do editor** que responde a ela. Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. A tréplica pode ser de outro autor católico, desde que responda à própria réplica, e não só ao tema. Cadeia por capítulo: coluna V da planilha.
+**Regra do Pedro (2026-11-27, confirmada): a cadeia termina sempre do lado católico** ("senão não acaba": a edição precisa de um ponto de parada). Quando há tréplica católica histórica, ela fecha a cadeia. Quando não há, a réplica entra mesmo assim, seguida de um **comentário católico do editor** que responde a ela. Quando Calvino já tinha morrido (1564), a réplica é de quem continuou a polêmica do lado reformado. A tréplica pode ser de outro autor católico, desde que responda à própria réplica, e não só ao tema. Cadeia por capítulo: coluna V da planilha.
 
 | Fonte católica | Réplica | Tréplica católica | Capítulos |
 |---|---|---|---|

@@ -8,7 +8,7 @@ Rascunho de 27/11/2026, a publicar como página de apresentação da obra no sit
 
 Esta edição traduz a *Institutio christianae religionis* de João Calvino na forma final de 1559 e acompanha cada capítulo da controvérsia que ele provocou: o que os teólogos católicos responderam, o que Calvino ou os seus continuadores replicaram e onde a discussão parou. Não é uma obra de apologética. O propósito é pôr ao alcance do leitor de língua portuguesa, num só lugar e com os textos originais ao lado, uma das maiores disputas da história do cristianismo, que até hoje se conhece quase só por resumos de segunda mão.
 
-O editor é católico, e a edição é organizada a partir do lado católico: as respostas escolhidas são as dos teólogos católicos, e cada cadeia de réplicas termina com um texto católico. Essa é uma escolha de organização, não um veredito. Calvino é traduzido por inteiro e com o mesmo cuidado que os seus adversários, e as réplicas reformadas entram no seu argumento mais forte, nas palavras dos próprios autores.
+O editor é católico, e a edição é organizada a partir do lado católico: as respostas escolhidas são as dos teólogos católicos, e cada cadeia de réplicas termina com um texto católico. Essa é uma escolha de organização, não um veredito: uma controvérsia de quatro séculos não termina sozinha, e a edição precisa de um ponto de parada; o escolhido é o lado a partir do qual ela foi organizada. Calvino é traduzido por inteiro e com o mesmo cuidado que os seus adversários, e as réplicas reformadas entram no seu argumento mais forte, nas palavras dos próprios autores.
 
 ## O autor e a obra
 
@@ -46,5 +46,4 @@ Nos capítulos em que as duas partes concordam no essencial (a vida cristã, a a
 
 - O formato final do capítulo, depois do piloto (II, 2).
 - As datas e os títulos das obras citadas na seção sobre a controvérsia, contra as edições usadas.
-- Se o critério de terminar cada cadeia do lado católico se mantém, ou se a cadeia termina onde a controvérsia historicamente parou (decisão do Pedro).
 - A base do texto latino e as traduções de apoio (`docs/plano-institutio.md`, decisões em aberto).
