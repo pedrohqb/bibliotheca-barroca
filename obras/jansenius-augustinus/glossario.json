@@ -772,5 +772,23 @@
     "formas": ["superbia", "superbiae", "superbiam"],
     "pt": ["soberba"],
     "nota": "\"Soberba\": o vício capital de que, para Jansênio, nasce a heresia pelagiana (livro VI da *Heresia pelagiana*, caps. 20-22); distinta de *elatio*, \"altivez\", e de *fastus*, \"fausto\" ou \"arrogância\"."
+  },
+  {
+    "lema": "exhortatio",
+    "formas": ["exhortatio", "exhortationi", "exhortationem", "exhortatione", "exhortationes", "exhortationibus", "exhortationis", "exhortationum", "hortatio", "hortationem", "hortatione", "hortationibus", "hortationis", "hortatu"],
+    "pt": ["exortação", "exortações"],
+    "nota": "\"Exortação\": com *suasio* (\"persuasão\") e *consilium* (\"conselho\"), uma das formas da graça exterior pelagiana, que só instrui o intelecto (livro I do *De gratia Christi*, cap. 16). *Hortatio* e *hortatus* vão também por \"exortação\"; o verbo *(ex)hortari*, \"exortar\"."
+  },
+  {
+    "lema": "praeveniens",
+    "formas": ["praeveniens", "praevenientis", "praeveniente", "praevenientem"],
+    "pt": ["preveniente", "previne", "prevenir"],
+    "nota": "\"Preveniente\" (*gratia praeveniens*, \"graça preveniente\"; *misericordia praeveniens*, \"misericórdia preveniente\"): a graça que vem antes de todo movimento bom da vontade e faz querer quem não queria, oposta à graça consequente ou subsequente. O verbo *praevenire* fica \"prevenir\", no sentido teológico de \"ir adiante\", \"antecipar-se a\" (não \"avisar\") (Da graça de Cristo, livro IV, caps. 12 a 14)."
+  },
+  {
+    "lema": "subsequens",
+    "formas": ["subsequens", "subsequentis", "subsequente", "subsequentem"],
+    "pt": ["subsequente"],
+    "nota": "\"Subsequente\" (*gratia subsequens*, \"graça subsequente\"): a graça que segue a vontade já boa para que possa o que quer, a guarde e a fortaleça; sinônimo de *gratia consequens*, \"graça consequente\". O verbo *subsequi* fica \"seguir\" (Da graça de Cristo, livro IV, caps. 13 e 14)."
   }
 ]
