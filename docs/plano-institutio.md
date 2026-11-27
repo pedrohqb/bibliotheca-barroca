@@ -15,7 +15,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 |---|---|
 | A, B | capítulo de Calvino (I, 1 … IV, 20) e assunto |
 | C | correspondência em Coton: Direta, Parcial, Ausente |
-| D | cobertura geral do contraponto: Boa (59), Parcial (9), Convergência (13), Fraca (0) |
+| D | cobertura geral do contraponto: Boa (60), Parcial (8), Convergência (13), Fraca (0) |
 | E | Coton, *Institutio Catholica* (1618): livro, capítulo, página |
 | F | Belarmino, *Controversiae*: tratado, livro, capítulos |
 | G | citações explícitas da *Institutio* feitas por Coton, com seção e página |
@@ -27,6 +27,7 @@ Aba **Mapa**, uma linha por capítulo (81 linhas: a Carta a Francisco I e os 80 
 | T | Padres citados por Calvino em cada capítulo (contagem) |
 | U | resposta católica à leitura patrística de Calvino (12 capítulos) |
 | V | cadeia fonte católica → réplica → tréplica católica, ou comentário do editor quando não há tréplica |
+| W | Jansênio, *Augustinus*: lugares em que cita Calvino, com link para a tradução no site |
 
 Aba **Notas**: contagens, critério da cobertura, edição e método de cada autor.
 
@@ -93,6 +94,16 @@ Regras para todos os trechos, católicos ou reformados:
 - Insultos e invectivas da época ficam no texto quando fazem parte do trecho, sem comentário moralizante.
 
 As tréplicas de Belarmino foram conferidas no texto da edição Vivès; as demais datas e títulos, pelos catálogos. Todos os autores morreram antes de 1955.
+
+## Jansênio
+
+Pedido do Pedro (2026-11-27): usar o que der do *Augustinus*, que a Bibliotheca Barroca já está traduzindo. Busca nas 568 transcrições já feitas achou Jansênio citando Calvino em oito capítulos (coluna W): contra a justiça original como bem natural (I, 15), contra um Deus autor do pecado (I, 18; II, 4; III, 23), sobre a liberdade e a graça (II, 2–5) e sobre a predestinação (III, 21–24). O capítulo mais importante, *De gratia Christi*, L. VIII, c. 21 ("como esta concórdia da graça e do livre-arbítrio difere da opinião de Calvino"), ainda não foi traduzido; vale adiantá-lo na produção do *Augustinus*.
+
+Regras:
+
+- Jansênio entra como voz agostiniana do lado católico, sempre identificada como obra condenada (*In eminenti*, 1643; *Cum occasione*, 1653), com link para o capítulo traduzido no site, sem retraduzir.
+- Não fecha cadeia de réplica: a tréplica ou o comentário do editor usa fontes não condenadas.
+- Onde Jansênio lê Agostinho mais perto de Calvino do que Belarmino, a nota do editor registra as três posições; é um dos pontos em que a controvérsia atravessa o próprio lado católico.
 
 ## Decisões em aberto (perguntar ao Pedro antes de produzir)
 
