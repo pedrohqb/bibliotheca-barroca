@@ -1,0 +1,133 @@
+{
+  "nota": "Fontes de Savigny (System des heutigen römischen Rechts) e Windscheid (Lehrbuch des Pandektenrechts), levantadas em 2026-11-27. Ver docs/plano-pandectistica.md. Identificadores do MDZ (bsb…), do Internet Archive (ia) e da Biblioteca Digitale Lombarda (bdl, cdOggetto). Páginas por imagem do MDZ: https://api.digitale-sammlungen.de/ocr/<bsb>/<n> (hOCR), manifesto IIIF https://api.digitale-sammlungen.de/iiif/presentation/v2/<bsb>/manifest, imagem https://api.digitale-sammlungen.de/iiif/image/v2/<bsb>_<n:05d>/full/1600,/0/default.jpg.",
+  "savigny-system": {
+    "base": {
+      "titulo": "System des heutigen Römischen Rechts",
+      "local": "Berlin",
+      "impressor": "Veit und Comp.",
+      "anos": "1840-1849",
+      "exemplar": "Bayerische Staatsbibliothek, digitalizado pelo MDZ",
+      "volumes": [
+        { "vol": 1, "ano": 1840, "paragrafos": "1-59", "beylagen": "I-II", "mdz": "bsb10565865", "imagens": 492 },
+        { "vol": 2, "ano": 1840, "paragrafos": "60-103", "beylagen": "III-VII", "mdz": "bsb10565866", "imagens": 574 },
+        { "vol": 3, "ano": 1840, "paragrafos": "104-141", "beylagen": "VIII", "mdz": "bsb10565867", "imagens": 488 },
+        { "vol": 4, "ano": 1841, "paragrafos": "142-203", "beylagen": "IX-XI", "mdz": "bsb10565868", "imagens": 630 },
+        { "vol": 5, "ano": 1841, "paragrafos": "204-255", "beylagen": "XII-XIV", "mdz": "bsb10565869", "imagens": 664 },
+        { "vol": 6, "ano": 1847, "paragrafos": "256-301", "beylagen": "a conferir", "mdz": "bsb10565870", "imagens": 556 },
+        { "vol": 7, "ano": 1848, "paragrafos": "302-343", "beylagen": "a conferir", "mdz": "bsb10565871", "imagens": 334 },
+        { "vol": 8, "ano": 1849, "paragrafos": "344-400", "beylagen": "a conferir", "mdz": "bsb10565872", "imagens": 562 },
+        { "vol": "registro", "ano": 1851, "titulo": "Sachen- und Quellen-Register (O. L. Heuser)", "mdz": "bsb10565873", "imagens": 398, "traduzir": false }
+      ]
+    },
+    "apoio": [
+      {
+        "sigla": "scialoja",
+        "lingua": "it",
+        "titulo": "Sistema del diritto romano attuale, trad. Vittorio Scialoja",
+        "local": "Torino", "impressor": "Unione Tipografico-Editrice", "anos": "1886-1898",
+        "feita_de": "de",
+        "cobre": "obra inteira",
+        "bdl_registro": "BDL-OGGETTO-1965",
+        "volumes": [
+          { "vol": 1, "ano": 1886, "bdl": 1966 },
+          { "vol": 2, "ano": 1888, "bdl": 1967 },
+          { "vol": 3, "ano": 1891, "bdl": 1968 },
+          { "vol": 4, "ano": 1889, "bdl": 1969 },
+          { "vol": 5, "ano": 1893, "bdl": 1970 },
+          { "vol": 6, "ano": 1896, "bdl": 1971 },
+          { "vol": 7, "ano": 1896, "bdl": 1973 },
+          { "vol": 8, "ano": 1898, "bdl": 1974 }
+        ],
+        "visualizador": "https://www.bdl.servizirl.it/bdl/bookreader/index.html?path=fe&cdOggetto=<bdl>"
+      },
+      {
+        "sigla": "guenoux",
+        "lingua": "fr",
+        "titulo": "Traité de droit romain, trad. Charles Guenoux",
+        "local": "Paris", "impressor": "Firmin Didot frères",
+        "feita_de": "de",
+        "cobre": "obra inteira",
+        "edicao_usada": "2e éd., 1855-1860",
+        "volumes": [
+          { "tomo": 1, "ano": 1855, "ia": ["bub_gb_JRilKdkPsLYC", "traitdedroitroma01savi"] },
+          { "tomo": 2, "ano": 1855, "ia": ["bub_gb_tzhhDup6TRgC", "traitdedroitroma02savi"] },
+          { "tomo": 3, "ano": 1856, "ia": ["bub_gb_cXx4LRUWDqgC", "traitdedroitroma03savi"] },
+          { "tomo": 4, "ano": 1856, "ia": ["bub_gb_ViJJspxLvbAC", "traitdedroitroma04savi"] },
+          { "tomo": 5, "ano": 1858, "ia": ["bub_gb_RqGZLmTy6cAC"] },
+          { "tomo": 6, "ano": 1859, "ia": ["bub_gb_coKxmRxT2r0C", "bub_gb_Dt2tevinwbEC", "traitdedroitro06savi"] },
+          { "tomo": 7, "ano": 1859, "ia": ["bub_gb_L5ZLztkaAowC", "bub_gb_pJta4LzfeJQC", "traitdedroitrom00savigoog"] },
+          { "tomo": 8, "ano": 1860, "ia": ["bub_gb_DxAAGby2PKAC", "traitdedroitroma08savi"] }
+        ],
+        "primeira_edicao_ia": ["bub_gb_3sZc39Re000C (1840)", "bub_gb_H-GjN-XQnXsC (1841)", "traitdedroitrom00guengoog (1841)", "bub_gb_E8hz0uO3kVMC (1843)", "bub_gb_3n1B_NuKnLgC (1845)", "bub_gb_ZwPK4qitYu0C (1846)"],
+        "conferir": "anos e tomos lidos no OCR das folhas de rosto; confirmar cada tomo ao baixar"
+      },
+      {
+        "sigla": "mesia-poley",
+        "lingua": "es",
+        "titulo": "Sistema del derecho romano actual, trad. Jacinto Mesía y Manuel Poley",
+        "local": "Madrid", "impressor": "F. Góngora y Compañía", "anos": "1878-1879",
+        "feita_de": "fr (Guenoux)",
+        "cobre": "obra inteira, em 6 tomos",
+        "volumes": [
+          { "tomo": 1, "ano": 1878, "ia": "BRes1421811", "pedro": "Savigny_Sistema_Tomo_I.pdf" },
+          { "tomo": 2, "ano": 1879, "ia": "BRes1421812", "pedro": "Savigny_Sistema_Tomo_II.pdf" },
+          { "tomo": 3, "ano": 1879, "ia": "BRes1421813", "pedro": "Savigny_Sistema_Tomo_III.pdf" },
+          { "tomo": 4, "ano": 1879, "ia": "BRes1421814", "pedro": "Savigny_Sistema_Tomo_IV.pdf" },
+          { "tomo": 5, "ano": 1879, "ia": "BRes1421815", "pedro": "Savigny_Sistema_Tomo_V.pdf" },
+          { "tomo": 6, "ano": 1879, "ia": "BRes1421816", "pedro": "Savigny_Sistema_Tomo_VI.pdf" }
+        ]
+      },
+      { "sigla": "holloway", "lingua": "en", "titulo": "System of the Modern Roman Law, vol. I, trad. William Holloway", "local": "Madras", "impressor": "J. Higginbotham", "ano": 1867, "feita_de": "de", "cobre": "vol. 1 (§§ 1-59)", "ia": "india.history.resource.117230" },
+      { "sigla": "rattigan", "lingua": "en", "titulo": "Jural Relations, or the Roman Law of Persons as Subjects of Jural Relations, trad. William Henry Rattigan", "local": "London", "impressor": "Wildy", "ano": 1884, "feita_de": "de", "cobre": "vol. 2 (§§ 60-103)", "ia": "JuralRelations", "nota": "scan de reimpressão fac-similar (Hyperion, 1979)" },
+      { "sigla": "guthrie", "lingua": "en", "titulo": "Private International Law, trad. William Guthrie", "local": "Edinburgh", "impressor": "T. & T. Clark", "anos": "1869; 2nd ed. 1880", "feita_de": "de", "cobre": "vol. 8 (§§ 344-400)", "ia": ["privateinternati00saviuoft (1880)", "privateinternat01guthgoog (1869)", "privateinternat00guthgoog (1869)"] }
+    ],
+    "nao_usadas": [
+      "Zaiotti, Sistema del diritto romano attuale, vol. I (Venezia, 1856), ia sistemadeldirittoromanosavigny1: parcial; só consulta no vol. 1",
+      "Guariglia (Napoli, 1845) e Adinolfi (Napoli, 1884, fasc. 1): não localizadas",
+      "Mioranza, Sistema do direito romano atual (Ijuí, Unijuí, 2004): protegida"
+    ]
+  },
+  "windscheid-pandekten": {
+    "base": {
+      "titulo": "Lehrbuch des Pandektenrechts",
+      "edicao": "7. durchgesehene und vermehrte Auflage",
+      "local": "Frankfurt a. M.",
+      "impressor": "Literarische Anstalt Rütten & Loening",
+      "ano": 1891,
+      "exemplar": "Bayerische Staatsbibliothek, digitalizado pelo MDZ",
+      "volumes": [
+        { "vol": 1, "paragrafos": "1-249", "mdz": "bsb11637299", "imagens": 788 },
+        { "vol": 2, "paragrafos": "250-526", "mdz": "bsb11637300", "imagens": 864, "ia": "lehrbuchdespand00windgoog" },
+        { "vol": 3, "paragrafos": "527-678", "mdz": "bsb11637301", "imagens": 504 }
+      ],
+      "conferencia": {
+        "6a_ed_1887": ["lehrbuchdespande01wind", "lehrbuchdespande02wind", "lehrbuchdespande03wind"],
+        "8a_ed_Kipp_1900_1901": ["lehrbuchdespand01kippgoog", "lehrbuchdespand01windgoog", "lehrbuchdespand00kippgoog"],
+        "9a_ed_Kipp_1906_vol1": ["lehrbuchdespand03kippgoog"]
+      }
+    },
+    "apoio": [
+      {
+        "sigla": "fadda-bensa",
+        "lingua": "it",
+        "titulo": "Diritto delle Pandette, trad. Carlo Fadda e Paolo Emilio Bensa",
+        "local": "Torino", "impressor": "Unione Tipografico-Editrice Torinese", "anos": "1902-1904 (vol. I: ristampa stereotipa, 1925)",
+        "feita_de": "de (edição a conferir na calibração: a tradução começou em 1886 e já ia adiantada quando saiu a 7ª ed.)",
+        "cobre": "§§ 1-678 (sem as notas dos tradutores)",
+        "volumes": [
+          { "vol": "I", "paragrafos": "1-249", "paginas_pdf": 922, "pedro": "Windscheid_Pandette_Vol_I.pdf" },
+          { "vol": "II/1", "paragrafos": "250-361 (a conferir)", "paginas_pdf": 408, "pedro": "Windscheid_Pandette_Vol_II_parte_1.pdf" },
+          { "vol": "II/2", "paragrafos": "362-526", "paginas_pdf": 608, "pedro": "Windscheid_Pandette_Vol_II_parte_2.pdf", "falha": "pp. 10-11 ausentes no exemplar digitalizado (Harvard/Google)" },
+          { "vol": "III/1", "paragrafos": "527-678", "paginas_pdf": 466, "pedro": "Windscheid_Pandette_Vol_III_parte_1.pdf" }
+        ],
+        "ia_com_ocr": ["dirittodellepan02windgoog (1902)", "dirittodellepan00windgoog (1904)", "dirittodellepan01windgoog (1904)"],
+        "nota": "Os PDFs do Pedro não têm camada de texto; os do Internet Archive têm OCR. Volume de cada item do IA a identificar ao baixar."
+      }
+    ],
+    "nao_usadas": [
+      "Notas dos tradutores (Fadda, Bensa; continuação de Bonfante e Maroi): comentário de direito italiano, fora do escopo",
+      "Tradução russa do vol. 1 (São Petersburgo, dir. S. V. Pakhman): não localizada",
+      "Tradução espanhola da 1ª ed., ia windscheid-pandectas-1862-traduccion (2026): recente, situação de direitos incerta"
+    ]
+  }
+}
