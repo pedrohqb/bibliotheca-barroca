@@ -514,5 +514,29 @@
     "formas": ["discretio", "discretionem", "discretionis", "discretione"],
     "pt": ["discriminação"],
     "nota": "\"Discriminação\": o ato de separar uns homens dos outros, quem crê de quem não crê, pela graça ou pelo arbítrio (livro VIII, caps. 2 e 10). Quando significa a faculdade de julgar (*propria discretio*, *discretio boni ac mali*), \"discernimento\", com nota."
+  },
+  {
+    "lema": "impotentia",
+    "formas": ["impotentia", "impotentiam", "impotentiae"],
+    "pt": ["impotência"],
+    "nota": "Incapacidade de cumprir o preceito; Jansênio distingue a que vem da falta de algo exterior à vontade (escusa) da que vem da falta da própria vontade (não escusa), t3-gc3-15. Sempre \"impotência\", não \"incapacidade\"."
+  },
+  {
+    "lema": "infirmitas peccandi",
+    "formas": ["infirmitas peccandi", "peccandi infirmitas", "peccandi infirmitatem", "infirmitatem peccandi", "peccandi infirmitate", "infirmitate peccandi"],
+    "pt": ["fraqueza de pecar"],
+    "nota": "\"Fraqueza de pecar\": a fraqueza que deixa o homem decaído à mercê do pecado, grau abaixo da *necessitas peccandi*, \"necessidade de pecar\", com a qual Jansênio a emparelha (*peccandi infirmitatem imo necessitatem*); os pelagianos a negam (livro IV da *Heresia pelagiana*, caps. 3 e 4). *Infirmitas* sozinha, \"fraqueza\"."
+  },
+  {
+    "lema": "infirmitas",
+    "formas": ["infirmitas", "infirmitatis", "infirmitatem", "infirmitate"],
+    "pt": ["fraqueza", "fraquezas"],
+    "nota": "\"Fraqueza\": em Jansênio (livro IV da *Heresia pelagiana*, cap. 2), a facilidade e a propensão para pecar (*peccandi facilitas atque pronitas*) que os pelagianos negam; *peccandi infirmitas*, \"fraqueza para pecar\". Distinta de *imbecillitas*, \"debilidade\". No plural concreto (*infirmitatum genera*), \"enfermidades\", com nota."
+  },
+  {
+    "lema": "pronitas",
+    "formas": ["pronitas", "pronitatem", "pronitate", "pronitatis"],
+    "pt": ["propensão", "propensões"],
+    "nota": "\"Propensão\" (*peccandi pronitas*, \"propensão para pecar\"), forma já usada nos capítulos anteriores; associada a *facilitas* e definida como *infirmitas* (livro IV da *Heresia pelagiana*, cap. 2)."
   }
 ]
