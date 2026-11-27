@@ -568,5 +568,17 @@
     "formas": ["determinatio ad unum", "determinationem ad unum", "determinatione ad unum"],
     "pt": ["determinação a uma só coisa"],
     "nota": "A vontade fixada num só objeto ou num só lado, sem poder o oposto; os escolásticos recentes a julgam incompatível com a liberdade, Jansênio não (cf. cap. 13 deste livro)."
+  },
+  {
+    "lema": "Semi-Pelagiani",
+    "formas": ["Semi-Pelagiani", "Semi-Pelagianorum", "Semi-Pelagianos", "Semi Pelagianos", "Semi-Pelagianis"],
+    "pt": ["semipelagianos"],
+    "nota": "\"Semipelagianos\", com minúscula e sem hífen: os massilienses (Cassiano, Fausto de Riez) que, segundo Jansênio, punham na natureza decaída restos da integridade primitiva (as sementes das virtudes) e só pediam a graça para levá-los à perfeição (livro IV da Heresia pelagiana, cap. 7). Cf. *Massilienses*."
+  },
+  {
+    "lema": "necessitas inevitabilitatis",
+    "formas": ["necessitas inevitabilitatis", "necessitatem inevitabilitatis", "necessitate inevitabilitatis"],
+    "pt": ["necessidade de inevitabilidade"],
+    "nota": "\"Necessidade de inevitabilidade\" (Alexandre de Hales e escolásticos depois dele): não poder evitar, que convive com a vontade e o livre-arbítrio, por oposição à *necessitas coactionis*, \"necessidade de coação\" (livro VI do *De gratia Christi*, cap. 21)."
   }
 ]
