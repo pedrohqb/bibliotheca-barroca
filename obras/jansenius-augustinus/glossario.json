@@ -838,5 +838,11 @@
     "formas": ["indeliberatos motus", "indeliberati motus", "motus indeliberati"],
     "pt": ["movimentos indeliberados", "movimento indeliberado"],
     "nota": "\"Movimento indeliberado\": na escolástica, o movimento que Deus produz na vontade antes do consentimento livre e que ela entende como graça operante ou excitante (livro IV da Graça de Cristo, cap. 17). Cf. gratia operans."
+  },
+  {
+    "lema": "cogitatio congrua",
+    "formas": ["cogitatio congrua", "cogitationem congruam", "cogitationes congruas", "congrua cogitatione", "congruae cogitationis"],
+    "pt": ["pensamento côngruo", "pensamentos côngruos"],
+    "nota": "\"Pensamento côngruo\": no congruísmo de Vázquez e Suárez, o pensamento ou moção indeliberada (até de ordem natural) que Deus, prevendo que a vontade consentirá nele, dá como graça eficaz; Jansênio o combate no livro I do De gratia Christi Salvatoris, cap. 17, e no livro III. Cf. *gratia congrua*. *Congruitas*: \"congruidade\"."
   }
 ]
