@@ -382,5 +382,17 @@
     "formas": ["affectus", "affectum", "affectu", "affectibus", "affectuum"],
     "pt": ["afeto", "afetos"],
     "nota": "\"Afeto\": o movimento ou disposição da vontade para um bem ou contra um mal (amor, desejo, alegria, temor, tristeza); *affectus amoris*, \"afeto do amor\" (livro II do *De statu naturae lapsae*, cap. 12). Não confundir com o particípio *affectus*, \"afetado\"."
+  },
+  {
+    "lema": "affectionalis qualitas",
+    "formas": ["affectionalis qualitas", "affectionalem qualitatem", "affectionales qualitates", "qualitas affectionalis", "qualitatem affectionalem", "affectionalibus qualitatibus"],
+    "pt": ["qualidade afetiva", "qualidades afetivas"],
+    "nota": "\"Qualidade afetiva\": termo que Agostinho toma de Juliano (*Contra Iulianum* 6,18) para as qualidades estáveis da terceira espécie de qualidade, distintas das *affectiones* passageiras; Jansênio o aplica à concupiscência (livro I do *De statu naturae lapsae*, caps. 17 a 20). \"Afetiva\" sem o sentido moderno de sentimental; *affectio*, \"afecção\"."
+  },
+  {
+    "lema": "effrenitas",
+    "formas": ["effrenitas", "effrenitatem", "effrenitate", "effrenitatis"],
+    "pt": ["desenfreio"],
+    "nota": "\"Desenfreio\": a falta de freio do apetite sensitivo, sem a graça e a vontade que o regiam (livro I do *De statu naturae lapsae*, caps. 17 e 18); *effrenis*, \"desenfreado\"."
   }
 ]
