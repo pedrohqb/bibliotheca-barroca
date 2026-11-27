@@ -736,5 +736,29 @@
     "formas": ["scientia conditionata", "scientiam conditionatam", "scientia conditionali"],
     "pt": ["ciência condicionada"],
     "nota": "\"Ciência condicionada\": o conhecimento com que Deus, segundo Molina, Suárez e Lessio, sabe o que a vontade livre faria se lhe fosse dada tal graça em tais circunstâncias (a \"ciência média\" dos molinistas); forma já usada nos capítulos anteriores."
+  },
+  {
+    "lema": "interpolator",
+    "formas": ["interpolator", "interpolatores", "interpolatorum", "interpolatrix"],
+    "pt": ["falsificador", "falsificadores", "falsificadora"],
+    "nota": "\"Falsificador\" (da graça, da verdade): quem retoca e altera uma doutrina com acréscimos próprios (t1-hp6-18, título e s24, s27). O verbo *interpolare* fica \"retocar\" ou \"falsificar\" conforme o contexto (t1-hp3-24: \"retocaram\"); *integratrix*, oposto no jogo de palavras, \"restauradora\"."
+  },
+  {
+    "lema": "oeconomia",
+    "formas": ["oeconomia", "oeconomiae", "oeconomiam"],
+    "pt": ["economia"],
+    "nota": "\"Economia\": no sentido teológico, a disposição ordenada com que Deus governa e educa o seu povo ao longo dos tempos (lei e graça, Antigo e Novo Testamento); não o sentido moderno. Livro I do *De gratia Christi Salvatoris*, caps. 14 e 15."
+  },
+  {
+    "lema": "gratia praeveniens",
+    "formas": ["gratia praeveniens", "gratiam praevenientem", "praevenientem gratiam", "praeveniente gratia", "gratiae praevenientis"],
+    "pt": ["graça preveniente"],
+    "nota": "\"Graça preveniente\": a que antecede todo mérito e todo primeiro movimento bom da vontade, e faz querer quem não queria (*nolentem praevenit ut velit*, Agostinho, *Enchiridion* 32). Oposta à *gratia consequens* (\"graça consequente\"). Livro IV da *Graça de Cristo*, caps. 12 e 13."
+  },
+  {
+    "lema": "gratia consequens",
+    "formas": ["gratia consequens", "gratiam consequentem", "consequente gratia", "gratia consequente", "gratia subsequens"],
+    "pt": ["graça consequente", "graça subsequente"],
+    "nota": "\"Graça consequente\": a que segue a vontade já boa, começada pela graça preveniente, e a ajuda e fortalece até a perfeição (*volentem subsequitur ne frustra velit*, Agostinho, *Enchiridion* 32). *Subsequens*, sinônimo, \"subsequente\". Livro IV da *Graça de Cristo*, cap. 13."
   }
 ]
