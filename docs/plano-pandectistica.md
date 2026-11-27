@@ -8,6 +8,7 @@ A lista de fontes, com os identificadores de cada volume, também está em `docs
 
 ## Decisões já tomadas (valem por regra do projeto)
 
+- **Duas obras, um plano** (Pedro, 2026-11-27): Savigny e Windscheid são obras separadas no repositório e no site (`obras/savigny-system/` e `obras/windscheid-pandekten/`, cada uma com `obra.json`, catálogo, glossário e página próprios), mas o planejamento fica neste documento único, porque as duas dividem as mudanças em `tools/`, os critérios do alemão e a base terminológica.
 - **Tradução do original alemão**, nunca de uma tradução. As traduções históricas servem ao cotejo, trecho a trecho; nada se copia delas, e divergência de sentido entre elas vai em `@n`.
 - **Sem debate entre IAs** (regra do Pedro de 2026-11-27, no `CRITERIOS.md`): as duas obras têm traduções existentes, então são traduzidas do alemão, comparadas com elas e ficam `estado: cotejada` ("tradução com comparações" no site). As edições efetivamente cotejadas vão em `obra.json` → `traducoes_cotejadas` e no `processo` de cada capítulo.
 - Registro, fidelidade, glossário fixo, notas e limitações: os do `CRITERIOS.md`.
