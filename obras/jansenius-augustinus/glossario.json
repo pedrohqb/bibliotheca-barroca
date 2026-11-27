@@ -790,5 +790,29 @@
     "formas": ["subsequens", "subsequentis", "subsequente", "subsequentem"],
     "pt": ["subsequente"],
     "nota": "\"Subsequente\" (*gratia subsequens*, \"graça subsequente\"): a graça que segue a vontade já boa para que possa o que quer, a guarde e a fortaleça; sinônimo de *gratia consequens*, \"graça consequente\". O verbo *subsequi* fica \"seguir\" (Da graça de Cristo, livro IV, caps. 13 e 14)."
+  },
+  {
+    "lema": "gratia operans",
+    "formas": ["gratia operans", "gratiam operantem", "gratia operante", "gratiae operantis"],
+    "pt": ["graça operante"],
+    "nota": "\"Graça operante\": em Agostinho, a que opera em nós sem nós, fazendo que queiramos; a escolástica a entende como o movimento indeliberado que Deus produz na vontade antes do consentimento livre. Oposta à *gratia cooperans* (\"graça cooperante\"). Livro IV da *Graça de Cristo*, caps. 12 e 15."
+  },
+  {
+    "lema": "gratia cooperans",
+    "formas": ["gratia cooperans", "gratiam cooperantem", "gratia cooperante", "gratiae cooperantis"],
+    "pt": ["graça cooperante"],
+    "nota": "\"Graça cooperante\": a que opera junto com a vontade já querente (*cooperatur volentibus*); oposta à *gratia operans* (\"graça operante\"). Livro IV da *Graça de Cristo*, caps. 12 e 15."
+  },
+  {
+    "lema": "gratia excitans",
+    "formas": ["gratia excitans", "gratiam excitantem", "gratia excitante", "gratiae excitantis"],
+    "pt": ["graça excitante"],
+    "nota": "\"Graça excitante\": a que desperta a vontade para querer ou agir; termo escolástico, par da *gratia adjuvans* (\"graça adjuvante\"). Livro IV da *Graça de Cristo*, caps. 12 e 16."
+  },
+  {
+    "lema": "gratia adjuvans",
+    "formas": ["gratia adjuvans", "gratia adiuvans", "gratiam adjuvantem", "gratiam adiuvantem", "gratia adjuvante", "gratia adiuvante"],
+    "pt": ["graça adjuvante"],
+    "nota": "\"Graça adjuvante\": a que ajuda a vontade já despertada a consentir e a operar; par da *gratia excitans* (\"graça excitante\"). Livro IV da *Graça de Cristo*, caps. 12 e 16."
   }
 ]
