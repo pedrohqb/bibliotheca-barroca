@@ -418,5 +418,11 @@
     "formas": ["volitio", "volitiones", "volitionis", "volitionem", "volitione"],
     "pt": ["volição", "volições"],
     "nota": "\"Volição\": o ato da vontade, distinto de voluntas, a potência (\"vontade\"); às vezes Jansênio diz voluntas seu volitio."
+  },
+  {
+    "lema": "dominium",
+    "formas": ["dominium", "dominio", "dominii"],
+    "pt": ["domínio"],
+    "nota": "\"Domínio\": o senhorio de Deus como criador sobre a criatura (o *absolutum Dei dominium* dos escolásticos, livro III do *De statu purae naturae*, cap. 21). Mesma tradução de *dominatus*, que no glossário é o domínio da concupiscência; *Dominus*, \"Senhor\"."
   }
 ]
