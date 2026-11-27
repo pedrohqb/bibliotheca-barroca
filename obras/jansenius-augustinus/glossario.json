@@ -424,5 +424,11 @@
     "formas": ["dominium", "dominio", "dominii"],
     "pt": ["domínio"],
     "nota": "\"Domínio\": o senhorio de Deus como criador sobre a criatura (o *absolutum Dei dominium* dos escolásticos, livro III do *De statu purae naturae*, cap. 21). Mesma tradução de *dominatus*, que no glossário é o domínio da concupiscência; *Dominus*, \"Senhor\"."
+  },
+  {
+    "lema": "gratia habitualis",
+    "formas": ["gratia habitualis", "gratiae habitualis", "gratiam habitualem", "habitualis gratiae", "habitualem gratiam", "habituali gratia"],
+    "pt": ["graça habitual"],
+    "nota": "\"Graça habitual\": a graça infundida que permanece na alma como hábito (justiça infusa, santificante), oposta à *gratia actualis*, \"graça atual\" (livro V da *Heresia pelagiana*, caps. 19 e 22)."
   }
 ]
