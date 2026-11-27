@@ -173,7 +173,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 <label class="chk ui"><input type="checkbox" id="ver-notas" checked> Notas</label>${temAc ? `
 <label class="chk ui"><input type="checkbox" id="ver-acr" checked> Acréscimos</label>` : ''}
 <label class="chk ui"><input type="checkbox" id="ver-glos" checked> Glossário</label>`,
-      corpo: `<main class="wrap" data-cap="${esc(nomeCap(c))}">
+      corpo: `<main class="wrap">
 <div class="cab">
 <p class="liv">${esc(o.meta.autor_pt || o.meta.autor)}, <i>${esc(o.meta.titulo)}</i>${la.meta.tomo ? ', tomo ' + esc(la.meta.tomo) : ''} · ${esc(pt?.meta.livro || la.meta.livro || '')}</p>
 <h1>${esc(titulo)}</h1>
@@ -185,7 +185,7 @@ ${grupos(o.capitulos).map(([livro, cs]) => `<h3 class="livro">${esc(livro)}</h3>
 ${linhas}
 </div>
 ${usados.length ? `<section class="glos"><h2>Glossário deste capítulo</h2><dl>${usados.map(g => `<div><dt lang="la">${esc(g.lema)}<span>${esc(g.pt.join(', '))}</span></dt><dd>${formatar(g.nota)}</dd></div>`).join('')}</dl></section>` : ''}
-<nav class="navcap">${ant ? `<a rel="prev" href="${ant.id}.html">← ${esc(nomeCap(ant))}</a>` : '<span></span>'}${prox ? `<a rel="next" href="${prox.id}.html">${esc(nomeCap(prox))} →</a>` : '<span></span>'}</nav>
+<nav class="navcap">${ant ? `<a href="${ant.id}.html">← ${esc(nomeCap(ant))}</a>` : '<span></span>'}${prox ? `<a href="${prox.id}.html">${esc(nomeCap(prox))} →</a>` : '<span></span>'}</nav>
 </main>`,
       scripts: `<script type="application/json" id="glossario">${JSON.stringify(o.glossario).replace(/</g, '\\u003c')}</script>
 <script src="../assets/leitor.js"></script>`
