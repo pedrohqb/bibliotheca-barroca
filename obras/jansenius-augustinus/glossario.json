@@ -760,5 +760,17 @@
     "formas": ["gratia consequens", "gratiam consequentem", "consequente gratia", "gratia consequente", "gratia subsequens"],
     "pt": ["graça consequente", "graça subsequente"],
     "nota": "\"Graça consequente\": a que segue a vontade já boa, começada pela graça preveniente, e a ajuda e fortalece até a perfeição (*volentem subsequitur ne frustra velit*, Agostinho, *Enchiridion* 32). *Subsequens*, sinônimo, \"subsequente\". Livro IV da *Graça de Cristo*, cap. 13."
+  },
+  {
+    "lema": "status ante legem, sub lege, sub gratia, in pace",
+    "formas": ["status ante legem", "statu ante legem", "quatuor status", "quatuor statibus", "quatuor distinctos status", "quatuor similes status"],
+    "pt": ["estados", "estado"],
+    "nota": "Os quatro estados de Agostinho (*Enchiridion* 118; *De diversis quaestionibus LXXXIII*, q. 66): \"antes da lei\", \"sob a lei\", \"sob a graça\", \"na paz\" (*ante legem, sub lege, sub gratia, in pace*), percorridos por cada homem e por todo o povo de Deus. *Status*, \"estado\", como em *status naturae lapsae*. Livro I do *De gratia Christi Salvatoris*, cap. 14."
+  },
+  {
+    "lema": "superbia",
+    "formas": ["superbia", "superbiae", "superbiam"],
+    "pt": ["soberba"],
+    "nota": "\"Soberba\": o vício capital de que, para Jansênio, nasce a heresia pelagiana (livro VI da *Heresia pelagiana*, caps. 20-22); distinta de *elatio*, \"altivez\", e de *fastus*, \"fausto\" ou \"arrogância\"."
   }
 ]
