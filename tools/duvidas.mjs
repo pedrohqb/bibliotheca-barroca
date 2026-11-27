@@ -1,14 +1,9 @@
-// Gera docs/pontos-de-duvida.md: a lista dos pontos que pedem revisão humana, reunidos dos registros do projeto.
+// Gera docs/pontos-de-duvida.md: os pontos de dúvida que o debate entre as IAs deixou para revisão humana.
 // Uso: node tools/duvidas.mjs
 //
-// Entram (só o que foi deixado expressamente para o Pedro):
-//   - debate/<obra>/<id>/resumo.md: pontos em aberto, divergências, correções acolhidas e não aplicadas, ressalvas,
-//     propostas de glossário e remissões que os revisores não conseguiram abrir;
-//   - debate/<obra>/<id>/revisao.md (revisão por agente): seção "Para o Pedro";
-//   - docs/revisao/livro-NN.md (revisão independente do Digesto): "A decidir" dos livros ainda sem "Decisões aplicadas";
-//   - docs/progresso-*.md: seções "Pontos em aberto para o Pedro", "Pontos para o Pedro" e "Propostas de glossário".
-// Ficam fora, porque são tarefa do debate (CRITERIOS.md, limitação do projeto): as leituras do latim marcadas com [?]
-// e as remissões "a conferir" das notas. A lista só as conta.
+// Entra só o que saiu de um debate (debate/<obra>/<id>/resumo.md): pontos em aberto, divergências, correções acolhidas
+// e não aplicadas, ressalvas, propostas de glossário e remissões que os revisores não conseguiram abrir.
+// Capítulos não debatidos não entram (decisão do Pedro, 2026-11-27).
 import fs from 'node:fs';
 import path from 'node:path';
 import { lerObras, RAIZ } from './lib.mjs';
@@ -36,7 +31,6 @@ function secoes(md, padrao) {
 }
 
 const PADRAO_DEBATE = /pontos em aberto|diverg|n[ãa]o aplicad|ressalva|gloss[áa]rio|remiss[õo]es n[ãa]o conferidas/i;
-const PROGRESSO = { 'jansenius-augustinus': 'progresso-augustinus.md', 'onate-de-contractibus': 'progresso-de-contractibus.md', 'covarrubias-opera': 'progresso-covarrubias.md', 'iustinianus-digesta': 'progresso-digesto.md' };
 
 const obras = lerObras();
 const partes = [], resumo = [];
@@ -45,12 +39,6 @@ let total = 0;
 for (const o of obras) {
   const blocos = [];
   let n = 0;
-  // Pendências gerais, do progresso da obra
-  const prog = PROGRESSO[o.id] && ler(path.join(RAIZ, 'docs', PROGRESSO[o.id]));
-  for (const [tit, corpo] of secoes(prog || '', /pontos (em aberto )?para o pedro|propostas de gloss/i)) {
-    blocos.push(`### ${tit} (docs/${PROGRESSO[o.id]})\n\n${corpo}`);
-    n += (corpo.match(/^\s*[-*] /gm) || [1]).length;
-  }
   // Por capítulo, na ordem do catálogo
   const cat = JSON.parse(ler(path.join(o.dir, 'catalogo.json')) || '{"capitulos":[]}').capitulos || [];
   const ordem = new Map(cat.map((e, i) => [e.id, i]));
@@ -60,7 +48,7 @@ for (const o of obras) {
   const titulo = new Map(o.capitulos.map(c => [c.id, `${c.pt?.meta.capitulo || c.la?.meta.capitulo || ''}${c.pt?.meta.titulo ? ': ' + c.pt.meta.titulo : ''}`]));
   for (const id of ids) {
     const itens = [];
-    for (const [arq, padrao, origem] of [['resumo.md', PADRAO_DEBATE, 'debate'], ['revisao.md', /para o pedro/i, 'revisão por agente']]) {
+    for (const [arq, padrao, origem] of [['resumo.md', PADRAO_DEBATE, 'debate']]) {
       for (const [tit, corpo] of secoes(ler(path.join(dirDeb, id, arq)), padrao))
         itens.push(`*${origem}, ${tit}* ([${arq}](../debate/${o.id}/${id}/${arq}))\n\n${corpo}`);
     }
@@ -68,44 +56,20 @@ for (const o of obras) {
     n += itens.reduce((s, t) => s + Math.max(1, (t.match(/^\s*[-*] /gm) || []).length), 0);
     blocos.push(`### [${id}](${SITE}/${o.id}/${id}.html) — ${titulo.get(id) || ''}\n\n${itens.join('\n\n')}`);
   }
-  // Digesto: revisão independente, pontos ainda sem decisão
-  if (o.id === 'iustinianus-digesta') {
-    const dir = path.join(RAIZ, 'docs', 'revisao');
-    for (const f of fs.existsSync(dir) ? fs.readdirSync(dir).sort() : []) {
-      const md = ler(path.join(dir, f));
-      if (/^## Decis[õo]es aplicadas/m.test(md)) continue;
-      const pend = [];
-      for (const [tit, corpo] of secoes(md, /^D\. /)) {
-        const ad = secoes(`## x\n${corpo.replace(/^### /gm, '### ')}`, /a decidir/i);
-        for (const [, c] of ad) pend.push(`**${tit}**\n\n${c}`);
-      }
-      if (pend.length) {
-        blocos.push(`### Revisão independente, ${f.replace('.md', '').replace('livro-', 'livro ')}: pontos a decidir ([docs/revisao/${f}](revisao/${f}))\n\n${pend.join('\n\n')}`);
-        n += pend.reduce((s, t) => s + Math.max(1, (t.match(/^\s*[-*] /gm) || []).length), 0);
-      }
-    }
-  }
-  // Contagem do que fica para o debate
-  let interrog = 0, conferir = 0;
-  for (const c of o.capitulos) {
-    for (const t of c.la?.trechos || []) interrog += ((t.texto + ' ' + t.margem.join(' ')).match(/\[\?\]/g) || []).length;
-    for (const t of c.pt?.trechos || []) conferir += t.notas.filter(x => /a conferir/i.test(x)).length;
-  }
   total += n;
-  resumo.push(`| ${o.meta.autor_pt || o.meta.autor}, *${o.meta.titulo}* | ${n} | ${interrog} | ${conferir} |`);
+  const debatidos = ids.filter(id => fs.existsSync(path.join(dirDeb, id, 'resumo.md'))).length;
+  if (debatidos) resumo.push(`| ${o.meta.autor_pt || o.meta.autor}, *${o.meta.titulo}* | ${debatidos} | ${n} |`);
   if (blocos.length) partes.push(`## ${o.meta.autor_pt || o.meta.autor}, *${o.meta.titulo}*\n\n${blocos.join('\n\n')}`);
 }
 
 const doc = `# Pontos de dúvida para revisão humana
 
-Lista gerada em ${hoje} por \`node tools/duvidas.mjs\`, a partir dos registros do projeto. Não edite à mão: resolva o ponto no capítulo (ou no registro de origem) e gere a lista de novo.
+Lista gerada em ${hoje} por \`node tools/duvidas.mjs\`. Não edite à mão: resolva o ponto no capítulo e gere a lista de novo.
 
-Entra aqui só o que ficou expressamente para o Pedro: pontos em aberto e divergências dos debates, correções acolhidas e não aplicadas, propostas de glossário, remissões que os revisores não conseguiram abrir, a seção "Para o Pedro" das revisões por agente, os pontos "a decidir" da revisão independente do Digesto ainda sem decisão e as pendências dos arquivos de progresso.
+Entra aqui só o que o debate entre as IAs (Claude, Codex e Gemini) deixou em aberto nos capítulos debatidos: pontos em aberto, divergências, correções acolhidas e não aplicadas, ressalvas, propostas de glossário e remissões que os revisores não conseguiram abrir. O que não passou pelo debate não entra.
 
-Ficam fora, por serem tarefa do debate (limitação do projeto, \`CRITERIOS.md\`): as leituras do latim marcadas com \`[?]\` e as remissões "a conferir" das notas. A tabela só as conta.
-
-| Obra | Itens para revisão humana | Leituras \`[?]\` no latim (debate) | Remissões "a conferir" (debate) |
-|---|---|---|---|
+| Obra | Capítulos debatidos | Pontos |
+|---|---|---|
 ${resumo.join('\n')}
 
 ${partes.join('\n\n')}

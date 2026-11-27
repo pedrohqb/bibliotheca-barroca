@@ -76,7 +76,7 @@ A produção roda na VM do escritório com o Claude Code, pela skill `traduzir-c
 1. **Transcrição** das imagens do scan, com conferência linha a linha pelo agente; `transcricao: provisoria`.
 2. **Tradução**, em português culto, mas legível e atual, com o glossário da obra; `estado: rascunho`.
 3. **Debate** com Codex e Gemini pelo motor `~/.debates-ia` (perfil `traducao`, regra de aceite), que revê a tradução e também a transcrição (leitura suspeita apontada pelos revisores é conferida na imagem do scan antes de corrigir o latim); registro em `debate/<obra>/<capitulo>/`; `estado: debatida`.
-4. **Pontos de dúvida**: o que o debate não resolver fica em nota ou no `resumo.md` para o tradutor. Correção humana só quando há defeito perceptível ou dúvida pontual. A lista reunida está em [docs/pontos-de-duvida.md](docs/pontos-de-duvida.md), gerada por `node tools/duvidas.mjs` (rode de novo para atualizá-la).
+4. **Pontos de dúvida**: o que o debate não resolver fica em nota ou no `resumo.md` para o tradutor. Correção humana só quando há defeito perceptível ou dúvida pontual. Os pontos que o debate deixou em aberto estão reunidos em [docs/pontos-de-duvida.md](docs/pontos-de-duvida.md), gerada por `node tools/duvidas.mjs` (rode de novo para atualizá-la); capítulos não debatidos não entram.
 
 ### Limitações do projeto
 
