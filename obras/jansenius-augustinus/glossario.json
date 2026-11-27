@@ -814,5 +814,17 @@
     "formas": ["gratia adjuvans", "gratia adiuvans", "gratiam adjuvantem", "gratiam adiuvantem", "gratia adjuvante", "gratia adiuvante"],
     "pt": ["graça adjuvante"],
     "nota": "\"Graça adjuvante\": a que ajuda a vontade já despertada a consentir e a operar; par da *gratia excitans* (\"graça excitante\"). Livro IV da *Graça de Cristo*, caps. 12 e 16."
+  },
+  {
+    "lema": "complacentia",
+    "formas": ["complacentia", "complacentiae", "complacentiam"],
+    "pt": ["complacência"],
+    "nota": "\"Complacência\": o agrado que a vontade toma no seu objeto, que no livro VII do *De gratia Christi Salvatoris* Jansênio junta ao deleite (*delectabilis objecti complacentia*) como causa do querer e da liberdade; o contrário é *displicentia*, \"desagrado\". Distinto de *condelectatio*, \"comprazimento\", e de *delectatio*, \"deleite\"."
+  },
+  {
+    "lema": "restrictio mentalis",
+    "formas": ["restrictionum mentalium", "mentalium restrictionum", "restrictio mentalis", "restrictionem mentalem", "restrictiones mentales"],
+    "pt": ["restrição mental", "restrições mentais"],
+    "nota": "\"Restrição mental\": termo da casuística do século XVII (a reserva calada que muda o sentido de uma frase verdadeira na aparência), que Jansênio aplica polemicamente às respostas de Pelágio no Sínodo de Dióspolis (t1-hp6-24, título e s16), com alusão aos casuístas do seu tempo. O verbo *restringere*, nesse contexto, \"restringir\"; *restrictionum versutiae*, \"astúcias das restrições\"."
   }
 ]
