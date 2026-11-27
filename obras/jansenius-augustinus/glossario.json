@@ -664,5 +664,11 @@
     "formas": ["vasa irae", "vasis irae", "vasorum irae"],
     "pt": ["vasos de ira"],
     "nota": "\"Vasos de ira\" (Rm 9,22), par de *vasa misericordiae*, \"vasos de misericórdia\" (Rm 9,23); *vas in honorem / in contumeliam*, \"vaso para honra / para desonra\" (Rm 9,21; 2Tm 2,20-21). Heresia pelagiana, livro VI, cap. 10."
+  },
+  {
+    "lema": "facere quod in se est",
+    "formas": ["facienti quod in se est", "faciente quod in se est", "faciendo quod in se est", "facientium quod in se est", "facientibus quod in se est"],
+    "pt": ["o que está em si"],
+    "nota": "\"Fazer o que está em si\": a fórmula escolástica do axioma *facienti quod in se est Deus non denegat gratiam* (\"a quem faz o que está em si, Deus não nega a graça\"). Graça de Cristo, livro I, cap. 5."
   }
 ]
