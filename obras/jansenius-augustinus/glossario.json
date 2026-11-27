@@ -394,5 +394,17 @@
     "formas": ["effrenitas", "effrenitatem", "effrenitate", "effrenitatis"],
     "pt": ["desenfreio"],
     "nota": "\"Desenfreio\": a falta de freio do apetite sensitivo, sem a graça e a vontade que o regiam (livro I do *De statu naturae lapsae*, caps. 17 e 18); *effrenis*, \"desenfreado\"."
+  },
+  {
+    "lema": "inquinatio",
+    "formas": ["inquinatio", "inquinationis", "inquinationem", "inquinatione"],
+    "pt": ["contaminação", "contaminações"],
+    "nota": "\"Contaminação\" (da alma pela carne do pecado, na transmissão do pecado original); o verbo *inquinare*, \"contaminar\". Distinto de *pollutio*, \"poluição\", e de *macula*, \"mancha\". Livro I do *De statu naturae lapsae*, caps. 15 e 23."
+  },
+  {
+    "lema": "concursus generalis",
+    "formas": ["concursus generalis", "concursu generali", "concursum generalem", "generalem concursum", "generali concursu", "concursum illum generalem"],
+    "pt": ["concurso geral"],
+    "nota": "\"Concurso geral\": a cooperação comum de Deus com todas as naturezas e operações das criaturas, distinta da graça (livro V do De haeresi Pelagiana, caps. 19 e 20). Cf. concursus Dei."
   }
 ]
