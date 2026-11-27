@@ -886,5 +886,23 @@
     "formas": ["aegritudo", "aegritudinis", "aegritudinem", "aegritudine"],
     "pt": ["doença"],
     "nota": "\"Doença\": a doença da vontade, que é a cupidez (livro VII do *De gratia Christi Salvatoris*, cap. 8), oposta a *sanitas* (\"saúde\"). Distinta de *morbus* (\"enfermidade\") e de *infirmitas* (\"fraqueza\"), que Jansênio enumera juntas (*morbus, aegritudo et infirmitas*)."
+  },
+  {
+    "lema": "fatum",
+    "formas": ["fatum", "fati", "fato", "fata"],
+    "pt": ["destino", "destinos"],
+    "nota": "\"Destino\": o *fatum* dos pagãos, que Jansênio divide em dois, o dos astrólogos (a força da posição dos astros no nascimento) e o dos estoicos (a conexão e série imutável das causas), e de que os pelagianos e os massilienses acusam a predestinação agostiniana (Heresia pelagiana, livro VII, caps. 8 e 9). O adjetivo *fatalis* fica \"fatal\" (*fatale decretum*, \"decreto fatal\"), no sentido de \"do destino\"."
+  },
+  {
+    "lema": "culpa",
+    "formas": ["culpa", "culpae", "culpam"],
+    "pt": ["culpa"],
+    "nota": "\"Culpa\": o pecado como falta imputável, oposto à pena. *Malum culpae* e *malum poenae*, \"mal de culpa\" e \"mal de pena\" (livro IX, cap. 3: a predestinação respeita a pena, não a culpa)."
+  },
+  {
+    "lema": "reprobus",
+    "formas": ["reprobi", "reprobos", "reprobis", "reproborum"],
+    "pt": ["réprobo", "réprobos"],
+    "nota": "\"Réprobo(s)\": os não predestinados à glória, destinados à condenação. *Reprobatio*, \"reprovação\"."
   }
 ]
