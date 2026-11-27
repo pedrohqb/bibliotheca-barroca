@@ -484,5 +484,23 @@
     "formas": ["possibilitas", "possibilitatem", "possibilitate", "possibilitatis"],
     "pt": ["possibilidade"],
     "nota": "Termo de Pelágio e Juliano para a capacidade natural, dada na criação, de fazer o bem ou o mal (posse), distinta do querer e do agir; sempre \"possibilidade\"."
+  },
+  {
+    "lema": "meritum de congruo",
+    "formas": ["meritum de congruo", "meritum de congruo an de condigno", "de congruo"],
+    "pt": ["mérito de côngruo"],
+    "nota": "Termo escolástico: mérito por conveniência (congruência), sem proporção de justiça, oposto ao meritum de condigno, \"mérito de condigno\". Mantém-se a fórmula técnica, já usada em t2-np1-20."
+  },
+  {
+    "lema": "concubitus",
+    "formas": ["concubitus", "concubitum", "concubitu", "concubituum", "concubitibus"],
+    "pt": ["união carnal", "uniões carnais"],
+    "nota": "\"União carnal\": o ato conjugal ou sexual (livro II do *De statu naturae lapsae*, cap. 10). O verbo *concumbere*, \"unir-se\"; *misceri*, \"unir-se\", \"ter relação\"; *commixtio*, \"união\"."
+  },
+  {
+    "lema": "venia",
+    "formas": ["venia", "veniam", "veniae"],
+    "pt": ["perdão"],
+    "nota": "\"Perdão\": o perdão de uma culpa; *secundum veniam* (1Cor 7,6, na leitura de Agostinho), \"por perdão\", que supõe culpa (livro II do *De statu naturae lapsae*, cap. 10). Daí *venialis*, \"venial\", isto é, digno de perdão. *Indulgentia* (Vulgata), \"indulgência\"; *ignoscere*, \"perdoar\"."
   }
 ]
