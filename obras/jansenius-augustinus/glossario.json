@@ -844,5 +844,17 @@
     "formas": ["cogitatio congrua", "cogitationem congruam", "cogitationes congruas", "congrua cogitatione", "congruae cogitationis"],
     "pt": ["pensamento côngruo", "pensamentos côngruos"],
     "nota": "\"Pensamento côngruo\": no congruísmo de Vázquez e Suárez, o pensamento ou moção indeliberada (até de ordem natural) que Deus, prevendo que a vontade consentirá nele, dá como graça eficaz; Jansênio o combate no livro I do De gratia Christi Salvatoris, cap. 17, e no livro III. Cf. *gratia congrua*. *Congruitas*: \"congruidade\"."
+  },
+  {
+    "lema": "gratia concomitans",
+    "formas": ["gratia concomitans", "gratias concomitantes", "gratiam concomitantem", "gratiae concomitantes"],
+    "pt": ["graça concomitante", "graças concomitantes"],
+    "nota": "\"Graça concomitante\": nome que alguns modernos davam ao concurso simultâneo de Deus com o ato da criatura, que o acompanha sem precedê-lo; Jansênio nega que seja a graça de que Agostinho trata (livro I do De gratia Christi Salvatoris; livro II, cap. 2). Cf. concursus generalis."
+  },
+  {
+    "lema": "initium fidei",
+    "formas": ["initium fidei", "initio fidei", "fidei initium", "fidei initio"],
+    "pt": ["início da fé"],
+    "nota": "\"Início da fé\": o primeiro movimento de crer (a vontade de crer), que os massilienses atribuíam ao livre-arbítrio e Agostinho à graça; ponto central do semipelagianismo (Heresia pelagiana, livro VII, cap. 1). Forma já usada nos capítulos anteriores; evitar \"começo da fé\"."
   }
 ]
