@@ -1054,5 +1054,17 @@
     "formas": ["motio", "motionis", "motionem", "motione"],
     "pt": ["moção", "moções"],
     "nota": "\"Moção\": termo escolástico, o movimento atual com que Deus move a vontade ao ato (*motio actualis*, \"moção atual\"); distinto de *motus*, \"movimento\" (da alma, da vontade)."
+  },
+  {
+    "lema": "praefinitio",
+    "formas": ["praefinitio", "praefinitionem", "praefinitione", "praefinitiones"],
+    "pt": ["prefinição", "prefinições"],
+    "nota": "\"Prefinição\": a determinação antecipada de Deus (Fausto, *praefinitio violenta*; os modernos, *praefinitio operum*); distinta de *praedefinitio*, \"predefinição\" (ver *praedestinatio*). O verbo *praefinire*, \"prefinir\". Paralelo, cap. 1."
+  },
+  {
+    "lema": "Praedestinatiani",
+    "formas": ["Praedestinatiani", "Praedestinatianorum", "Praedestinatianos", "Praedestinatianis"],
+    "pt": ["predestinacianos"],
+    "nota": "\"Predestinacianos\", com minúscula: a seita que teria negado o valor das boas obras para os predestinados; para Jansênio, nome caluniador que os massilienses (Genádio, Fausto) davam a Agostinho e seus discípulos (Heresia pelagiana, livro VIII). *Praedestinati*, no mesmo sentido, \"predestinados\". Paralelo, cap. 1."
   }
 ]
