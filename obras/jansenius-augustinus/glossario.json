@@ -946,5 +946,65 @@
     "formas": ["ignavia", "ignaviae", "ignaviam"],
     "pt": ["indolência"],
     "nota": "\"Indolência\": na queixa dos massilienses e de Fausto, o efeito que a pregação da predestinação teria sobre os eleitos. *Otium* fica \"ócio\"; *desidia*, \"preguiça\"; *segnities*, \"inércia\". Heresia pelagiana, livro VII, cap. 11."
+  },
+  {
+    "lema": "massa",
+    "formas": ["massa", "massae", "massam", "massas"],
+    "pt": ["massa", "massas"],
+    "nota": "\"Massa\": o gênero humano como uma só matéria, condenada em Adão (*massa perditionis*, \"massa da perdição\"; *massa damnata*), da qual Deus discerne uns para a misericórdia; a imagem é a do oleiro de Rm 9,21 (*ex eadem massa*). Os massilienses acusam Agostinho de introduzir \"duas massas\" com os maniqueus (Heresia pelagiana, livro VII, cap. 14)."
+  },
+  {
+    "lema": "correptio",
+    "formas": ["correptio", "correptionis", "correptionem", "correptione", "correptiones"],
+    "pt": ["correção", "correções"],
+    "nota": "\"Correção\": a repreensão fraterna que emenda (o *De correptione et gratia* de Agostinho, \"Da correção e da graça\"), ao lado de *praeceptum* e *exhortatio*. O verbo *corripere* fica \"corrigir\" ou, quando o contexto pede a censura, \"repreender\"; *increpatio*, \"repreensão\"."
+  },
+  {
+    "lema": "merces",
+    "formas": ["merces", "mercedis", "mercedem", "mercede"],
+    "pt": ["recompensa", "recompensas"],
+    "nota": "\"Recompensa\": o que a caridade espera de Deus, que é o próprio Deus. *Praemium* fica \"prêmio\"; *retributio*, \"retribuição\". Graça de Cristo, livro V, cap. 10."
+  },
+  {
+    "lema": "retributio",
+    "formas": ["retributio", "retributionis", "retributionem", "retributione"],
+    "pt": ["retribuição"],
+    "nota": "\"Retribuição\": *operari propter retributionem*, \"agir por causa da retribuição\" (Sl 118,112 na Vulgata). *Merces* fica \"recompensa\"; *praemium*, \"prêmio\". Graça de Cristo, livro V, cap. 10."
+  },
+  {
+    "lema": "sicut oportet",
+    "formas": ["sicut oportet", "SICVT OPORTET", "quemadmodum oportet", "QVEMADMODVM FIERI OPORTET"],
+    "pt": ["como convém"],
+    "nota": "\"Como convém\": a restrição do Concílio de Orange (cân. 6 e 25) e de Trento (sess. 6, cân. 3), tirada de Agostinho, que os escolásticos liam como \"de modo sobrenatural\" ou \"meritório\" e Jansênio entende como \"por caridade, pela dileção da justiça\" (Da graça de Cristo, livro V, caps. 11 e 12). *Quemadmodum oportet* e *sicut oportuit* recebem a mesma versão."
+  },
+  {
+    "lema": "scientia simplicis intelligentiae",
+    "formas": ["scientia simplicis intelligentiae", "scientiam simplicis intelligentiae"],
+    "pt": ["ciência de simples inteligência", "simples inteligência"],
+    "nota": "Termo escolástico: o conhecimento com que Deus conhece todos os possíveis, anterior a todo decreto livre da vontade (por isso dito necessário). Jansênio nega que seja a presciência da definição agostiniana da predestinação (livro IX, cap. 7)."
+  },
+  {
+    "lema": "scientia visionis",
+    "formas": ["scientia visionis", "scientiam visionis", "praescientia visionis", "praescientiam visionis"],
+    "pt": ["ciência de visão", "presciência de visão"],
+    "nota": "Termo escolástico: o conhecimento com que Deus vê as coisas que de fato hão de ser (passadas, presentes e futuras), posterior, na ordem lógica, ao decreto da vontade. Para Jansênio é a presciência de que fala Agostinho na definição da predestinação (livro IX, cap. 7)."
+  },
+  {
+    "lema": "scientia media",
+    "formas": ["scientia media", "scientiam mediam", "scientiam illam mediam"],
+    "pt": ["ciência média"],
+    "nota": "A ciência média dos molinistas (Molina, Suárez, Lessio), entre a de simples inteligência e a de visão; Jansênio a identifica com a ciência condicionada (ver *scientia conditionata*). Forma já usada nos capítulos anteriores."
+  },
+  {
+    "lema": "conspersio",
+    "formas": ["conspersio", "conspersionis", "conspersionem", "conspersione"],
+    "pt": ["amassadura"],
+    "nota": "\"Amassadura\": a farinha amassada com fermento (1Cor 5,7, *ut sitis nova conspersio*; grego φύραμα), imagem que Jansênio e Agostinho aplicam à *massa* do gênero humano. Fica \"amassadura\", e não \"massa\", para não confundir com *massa* quando os dois aparecem juntos (*conspersio, seu massa*). Livro IX, cap. 9."
+  },
+  {
+    "lema": "fomes",
+    "formas": ["fomes", "fomitis", "fomite", "fomitem"],
+    "pt": ["fômite"],
+    "nota": "\"Fômite\" (à letra, a acendalha): na teologia escolástica, a concupiscência que fica depois do batismo, como incentivo ao pecado (*fomes peccati*, \"fômite do pecado\")."
   }
 ]
